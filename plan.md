@@ -2,7 +2,7 @@
 
 Source of truth for all remaining SEO work. Next.js 15 App Router, JavaScript, no CMS today; final target includes Payload CMS with a CMS-managed blog.
 
-Last updated: 2026-09-12 · Current state: Phases 1–14 ✅; Phases 15–16 ⚠️ everything that can be done without a production domain is done and verified. **What remains in both is blocked on the domain going live.** (Photography still not supplied; no posts written yet.) · **NEXT: register the domain, then finish 15 and 16 against the deployed site**
+Last updated: 2026-09-14 · Current state: Phases 1–14 ✅; Phases 15–16 ⚠️ code complete and verified locally. **The production domain is `https://junkservicesdubai.com` and is configured in the codebase**; what remains in 15–16 needs the site actually deployed on it (DNS, Search Console, live-URL validators). (Photography still not supplied; no posts written yet.) · **NEXT: connect the domain in Vercel and deploy, then finish 15 and 16 against the live site**
 
 ---
 
@@ -914,7 +914,7 @@ Notes (2026-09-12):
 Point every absolute URL at the real origin and prepare ownership verification and measurement — without leaking secrets or inventing values.
 
 ### Exact scope
-- **Required inputs (stop if missing):** production origin (`https://…`, www or apex decision), Google Search Console property choice (domain vs URL-prefix) and verification method, analytics choice (GA4 / Plausible / none) and its ID, cookie-consent requirement for the target market.
+- **Required inputs (stop if missing):** production origin (`https://…`, www or apex decision), Google Search Console property choice (domain vs URL-prefix) and verification method, analytics choice (GA4 / Plausible / none) and its ID, cookie-consent requirement for the target market. **All supplied: origin `https://junkservicesdubai.com` (apex, no www) as of 2026-09-14; URL-prefix property with the HTML meta tag; Plausible; no consent banner.**
 - Set `NEXT_PUBLIC_SITE_URL` in the hosting env; confirm build warning disappears; host-level 301s: http→https, www↔apex to the canonical one, trailing-slash normalisation.
 - `verification.google` (and Bing if wanted) via `SiteSettings.googleSiteVerification` → `pageMetadata`/layout.
 - Analytics: `components/Analytics.jsx` loaded with `next/script` `afterInteractive`, gated by env var, no-op when unset; consent gating if required. Exclude `/admin`.
@@ -931,15 +931,15 @@ Phase 14; a deployed environment and the inputs above.
 Content, routes, schema (beyond verification token).
 
 ### Implementation checklist
-- [ ] Origin set; host redirects configured; build clean of the site-URL warning. **BLOCKED — no domain. Verified the plumbing with a stand-in origin (see Notes).**
+- [x] Origin set in the codebase (`NEXT_PUBLIC_SITE_URL=https://junkservicesdubai.com`); build clean of the site-URL warning. **Host-level redirects still to configure in Vercel — see the 2026-09-14 note.**
 - [x] Verification meta wired from settings.
 - [x] Analytics component (no-op without ID); consent not required (Plausible is cookie-free).
 - [x] CSP report-only. **Enforcing it stays open until a real report window exists.**
 - [ ] Sitemap submitted. **BLOCKED — needs the live origin.** README documents every manual step.
 
 ### Verification checklist
-- [ ] `curl -I` on http/www/trailing-slash variants → single 301 to canonical. **BLOCKED — host-level, needs the domain.**
-- [x] `<link rel="canonical">`, `og:url`, sitemap `<loc>`, JSON-LD `url` all use the production origin. **Proved with a stand-in origin.**
+- [ ] `curl -I` on http/www/trailing-slash variants → single 301 to canonical. **Still blocked — host-level, needs the domain connected in Vercel.**
+- [x] `<link rel="canonical">`, `og:url`, sitemap `<loc>`, JSON-LD `url` all use the production origin. **Re-verified 2026-09-14 with the real origin across all 31 pages.**
 - [ ] Search Console shows verified; sitemap "Success". **BLOCKED — needs the domain.** The meta tag itself renders correctly.
 - [x] Analytics: script configured on the frontend and absent from `/admin`. **A real hit cannot be recorded without a Plausible account and a live origin.**
 
@@ -985,7 +985,38 @@ Verified by resolving `lib/site.js` under six environments and by building and s
 
 Served builds confirmed it end to end: with no origin, `robots.txt` is `Disallow: /`, every page is `noindex, nofollow`, and canonicals and the sitemap read `https://junkit-demo.vercel.app/…` with no localhost anywhere. With the origin set, `robots.txt` is back to the normal allow-list with the sitemap line, pages are `index, follow`, canonicals are the real origin and no `vercel.app` string appears in the sitemap.
 
-**Still to do, all of it blocked on the production domain** (also written up in the README’s "Before launch"):
+**Domain configured (2026-09-14): `https://junkservicesdubai.com`, apex, no `www`.**
+
+The centralised architecture meant this was an environment change, not a code change. Everything absolute already derives from `siteUrl` in `lib/site.js` via `absoluteUrl()`, `pageMetadata()` and `lib/schema.js`, so the whole site moved by setting one variable.
+
+**Changed**
+- `.env`: `NEXT_PUBLIC_SITE_URL=https://junkservicesdubai.com` (gitignored and local; the same value must be set in the Vercel project).
+- `.env.example`: records the production value, and the Plausible example now names the real domain instead of a made-up one.
+- `README.md`: the deploy section leads with the production origin, and "Before launch" now reads as steps to take rather than things blocked on a domain that did not exist. The `www` → apex redirect is spelled out.
+- **No application code changed.** `lib/site.js` keeps `http://localhost:3000` as its development fallback, which is correct and is what the `indexable` guard is built around.
+
+**Audited before changing anything:** the only hardcoded origins in the repo were that one dev fallback and the `http://localhost:3000` defaults in the two check scripts (correct — they point at a locally served build). A read-only sweep of every CMS document and global found exactly one stored absolute URL, `https://wa.me/971567256386`, which is the WhatsApp contact channel and correctly stays external. No `seo.canonical` overrides exist on any service, area or post, so nothing in the database can beat the env-derived origin.
+
+**Verified** on a production build served locally, across all 31 pages:
+- **Sitemap**: 30 URLs, every one on `https://junkservicesdubai.com`.
+- **robots.txt**: `Sitemap: https://junkservicesdubai.com/sitemap.xml`, with `/admin`, `/api` and `/api/preview` still disallowed.
+- **Per-page metadata**: 0 problems — every `<link rel="canonical">` exactly matches its own URL on the new origin, every `og:url` and `og:image` is on it, and `twitter:card` is present on all 31.
+- **JSON-LD**: 146 blocks across the 31 pages, no foreign URLs at all. Every `url` and `@id` is on the new origin; the only external URLs are `schema.org` vocabulary and the WhatsApp channel.
+- **RSS**: `atom:self` and the channel `<link>` both on the new origin.
+- **Stale-origin sweep**: no `localhost`, `vercel.app`, `example.com/.test` or earlier stand-in domain anywhere in the rendered HTML.
+- Both check scripts pass: 31 URLs crawled, zero problems; content checks all green.
+
+**Not verified, and why:** blog post pages and `/blog/page/[n]` have no content yet (no author, no posts). They build their URLs through the same `pageMetadata()` + `postHref()` path that is verified on 24 dynamic service and area pages, so no fixture was created in the production database to prove a shared code path.
+
+**Still to do outside the codebase**
+1. Point the domain’s DNS at Vercel and add `junkservicesdubai.com` to the project, with the apex as primary.
+2. Add `www.junkservicesdubai.com` as a redirect to the apex, and confirm `http` → `https`.
+3. Set `NEXT_PUBLIC_SITE_URL=https://junkservicesdubai.com` in the Vercel project, in **both** Build and Runtime environments.
+4. Create the Search Console URL-prefix property for `https://junkservicesdubai.com`, paste the token into /admin > Site settings > Verification, verify, then submit the sitemap.
+5. Create the Plausible site for `junkservicesdubai.com` and set `NEXT_PUBLIC_PLAUSIBLE_DOMAIN`.
+6. `curl -I` the `http`, `www` and trailing-slash variants once DNS resolves, expecting a single 301 to the apex.
+
+**Superseded by the note above — kept for the record** (also written up in the README’s "Before launch"):
 1. Register the domain and decide apex vs `www`.
 2. Set `NEXT_PUBLIC_SITE_URL` in the hosting environment and redeploy.
 3. Host-level 301s: `http` → `https`, non-canonical host → canonical. Confirm the host does not re-add trailing slashes.

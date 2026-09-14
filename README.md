@@ -47,7 +47,10 @@ ad hoc with `npx lighthouse <url> --preset=desktop` (set `CHROME_PATH` if Chrome
 
 ## Deploying to Vercel
 
-**A custom domain is not required.** With `NEXT_PUBLIC_SITE_URL` unset, absolute URLs fall back to the
+**Production origin: `https://junkservicesdubai.com`** (apex, no `www`). Set it as `NEXT_PUBLIC_SITE_URL` in the Vercel
+project so both the Build and Runtime environments have it.
+
+**A custom domain is not required to deploy.** With `NEXT_PUBLIC_SITE_URL` unset, absolute URLs fall back to the
 deployment’s own `…vercel.app` domain, so canonicals, the sitemap, Open Graph and JSON-LD are all coherent
 rather than pointing at `localhost`. In that state the deployment is **noindex**: `robots.txt` disallows
 everything and every page carries a `noindex, nofollow` tag, so a staging URL can never compete with the real
@@ -67,17 +70,19 @@ What Vercel needs:
 
 ## Before launch
 
-**Blocked on the domain** — nothing below this line can be done until the production origin exists:
+**Deployment and domain** — the domain is registered; these are the steps that connect it:
 
-- Set `NEXT_PUBLIC_SITE_URL` to the canonical origin (`https://…`, no trailing slash) in the hosting
-  environment, decide apex vs `www`, and redeploy. This also flips the site from noindex to indexable, and every
-  canonical URL, `og:url`, sitemap `<loc>`, JSON-LD `url` and the RSS self link follows it automatically.
-- Configure host-level 301s: `http` → `https`, and the non-canonical host → the canonical one
-  (`www` → apex or the reverse). The app already sets `trailingSlash: false`; confirm the host does not add one back.
+- Set `NEXT_PUBLIC_SITE_URL` to `https://junkservicesdubai.com` in the hosting environment and redeploy. This also
+  flips the site from noindex to indexable, and every canonical URL, `og:url`, sitemap `<loc>`, JSON-LD `url` and
+  the RSS self link follows it automatically.
+- Point DNS at Vercel and add the domain to the project.
+- Configure host-level 301s in Vercel: `http` → `https`, and `www.junkservicesdubai.com` → `junkservicesdubai.com`
+  (add both to the project and mark the apex as primary). The app sets `trailingSlash: false`; confirm the host
+  does not add one back.
 - Verify ownership in Google Search Console with a **URL-prefix property and the HTML meta tag**: paste the token
   into `/admin` → Site settings → Verification, and it renders in the `<head>` on the next request. The property
   must match the canonical origin exactly.
-- Submit `https://<origin>/sitemap.xml` in Search Console and check it reports "Success".
+- Submit `https://junkservicesdubai.com/sitemap.xml` in Search Console and check it reports "Success".
 - Turn on analytics by setting `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` to the domain as registered in Plausible. Until it is
   set no analytics script loads at all. `/admin` is never tracked (it has its own root layout).
 - Watch the browser console for **Content-Security-Policy-Report-Only** violations for a week or so, then flip the
