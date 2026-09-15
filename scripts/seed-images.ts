@@ -267,7 +267,9 @@ const siteSlots: Record<string, PhotoKey> = {
   clearanceApartments: 'apartment',
   clearanceVillas: 'villa',
   clearanceOffices: 'officeStripOut',
-  clearanceCommercial: 'crewStreet'
+  clearanceCommercial: 'crewStreet',
+  beforeRoom: 'before',
+  afterRoom: 'after'
 };
 
 /** Services.image by slug. Reusing a photo attaches the same Media document. */

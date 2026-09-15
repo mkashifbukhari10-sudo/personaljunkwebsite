@@ -1,5 +1,7 @@
 # Junk Services Dubai — SEO Roadmap (`plan.md`)
 
+> 2026-09-15: the homepage before/after slider now wipes between two Site settings photos (`beforeRoom`/`afterRoom`, filled from `Before.jpg`/`After.jpg`) and keeps the block illustration only as the fallback when either slot is empty.
+>
 > 2026-09-15: area coverage expanded from 12 to 30 pages (`scripts/seed-data/areas-expansion.js`, seeded create-or-skip; none featured on the homepage). Photos and cross-links follow the Phase 4/5 pattern.
 >
 > Renamed from "Junkit" on 2026-09-15 to match the supplied logo and the production domain: `lib/site.js`, page copy, JSON-LD, manifest, seed data, and the live Site settings / Navigation / Media alt text in the CMS. Earlier phase notes below still say "Junkit"; they are historical.

@@ -153,6 +153,20 @@ export const SiteSettings: GlobalConfig = {
                   relationTo: 'media',
                   label: 'Clearance card — commercial',
                   admin: { description: 'Small photo on the homepage clearance card.' }
+                },
+                {
+                  name: 'beforeRoom',
+                  type: 'upload',
+                  relationTo: 'media',
+                  label: 'Before/after slider — before',
+                  admin: { description: 'The cluttered room. Shoot both photos from the same spot so the slider lines up.' }
+                },
+                {
+                  name: 'afterRoom',
+                  type: 'upload',
+                  relationTo: 'media',
+                  label: 'Before/after slider — after',
+                  admin: { description: 'The same room cleared. The slider only appears as photos when both are set.' }
                 }
               ]
             }

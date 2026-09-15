@@ -1289,6 +1289,14 @@ export interface SiteSetting {
      * Small photo on the homepage clearance card.
      */
     clearanceCommercial?: (number | null) | Media;
+    /**
+     * The cluttered room. Shoot both photos from the same spot so the slider lines up.
+     */
+    beforeRoom?: (number | null) | Media;
+    /**
+     * The same room cleared. The slider only appears as photos when both are set.
+     */
+    afterRoom?: (number | null) | Media;
   };
   /**
    * The content value of the google-site-verification meta tag. Wired up in plan.md Phase 15.
@@ -1449,6 +1457,8 @@ export interface SiteSettingsSelect<T extends boolean = true> {
         clearanceVillas?: T;
         clearanceOffices?: T;
         clearanceCommercial?: T;
+        beforeRoom?: T;
+        afterRoom?: T;
       };
   googleSiteVerification?: T;
   updatedAt?: T;

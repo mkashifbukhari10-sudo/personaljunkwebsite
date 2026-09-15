@@ -2,10 +2,22 @@
 
 import { useCallback, useEffect, useRef, useState } from 'react';
 import Reveal from '@/components/Reveal';
+import Media from '@/components/Media';
 import { c, mono, shell, eyebrow } from '@/lib/theme';
 import { clutterBlocks } from '@/lib/data';
+import { hasImage } from '@/lib/images';
 
-export default function ClutterClear() {
+const SIZES = '(min-width: 1360px) 1320px, 100vw';
+const tag = { position: 'absolute', top: 18, padding: '6px 10px', fontFamily: mono, fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase' };
+
+/**
+ * Draggable before/after reveal. `before`/`after` are the Site settings >
+ * Images slots (the same room, cluttered then cleared); when both are set the
+ * slider wipes between the two photos, otherwise it falls back to the block
+ * illustration so the section never renders empty.
+ */
+export default function ClutterClear({ before = null, after = null }) {
+  const photos = hasImage(before) && hasImage(after);
   const [pct, setPct] = useState(42);
   const dragging = useRef(false);
   const boxRef = useRef(null);
@@ -57,10 +69,16 @@ export default function ClutterClear() {
           onPointerDown={(e) => { dragging.current = true; setFromEvent(e.clientX); }}
           style={{ marginTop: 'clamp(24px, 3vw, 40px)', position: 'relative', height: 'clamp(320px, 42vw, 540px)', overflow: 'hidden', background: c.block, border: '1px solid ' + c.line, cursor: 'ew-resize', touchAction: 'none', userSelect: 'none' }}
         >
-          <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(135deg, rgba(16,23,38,0.05) 0 12px, transparent 12px 24px)' }} />
-          <div style={{ position: 'absolute', left: 0, right: 0, bottom: '18%', height: 1, background: 'rgba(16,23,38,0.2)' }} />
+          {photos ? (
+            <Media image={before} height="100%" sizes={SIZES} style={{ position: 'absolute', inset: 0 }} />
+          ) : (
+            <>
+              <div style={{ position: 'absolute', inset: 0, backgroundImage: 'repeating-linear-gradient(135deg, rgba(16,23,38,0.05) 0 12px, transparent 12px 24px)' }} />
+              <div style={{ position: 'absolute', left: 0, right: 0, bottom: '18%', height: 1, background: 'rgba(16,23,38,0.2)' }} />
+            </>
+          )}
 
-          {clutterBlocks.map((b) => (
+          {!photos && clutterBlocks.map((b) => (
             <div
               key={b.label}
               className={b.width < 13 ? 'jk-clutter-sm' : undefined}
@@ -82,15 +100,21 @@ export default function ClutterClear() {
             </div>
           ))}
 
-          <div style={{ position: 'absolute', left: 20, top: 18, fontFamily: mono, fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase', color: c.body }}>Before &mdash; villa living room</div>
+          <div style={{ ...tag, left: 20, color: photos ? '#fff' : c.body, background: photos ? 'rgba(16,23,38,0.62)' : 'transparent' }}>Before &mdash; villa living room</div>
 
           <div style={{ position: 'absolute', inset: 0, background: '#F9FAFB', clipPath: 'inset(0 0 0 ' + pct + '%)' }}>
-            <div style={{ position: 'absolute', inset: 0, backgroundImage: 'linear-gradient(rgba(16,23,38,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(16,23,38,0.035) 1px, transparent 1px)', backgroundSize: '56px 56px' }} />
-            <div style={{ position: 'absolute', left: 0, right: 0, bottom: '18%', height: 1, background: 'rgba(16,23,38,0.18)' }} />
-            <div style={{ position: 'absolute', right: 20, top: 18, fontFamily: mono, fontSize: 10, letterSpacing: '0.2em', textTransform: 'uppercase', color: c.ink }}>
-              <span style={{ color: c.sageDeep }}>&#10003;</span> After &mdash; cleared &amp; swept
+            {photos ? (
+              <Media image={after} height="100%" sizes={SIZES} style={{ position: 'absolute', inset: 0 }} />
+            ) : (
+              <>
+                <div style={{ position: 'absolute', inset: 0, backgroundImage: 'linear-gradient(rgba(16,23,38,0.035) 1px, transparent 1px), linear-gradient(90deg, rgba(16,23,38,0.035) 1px, transparent 1px)', backgroundSize: '56px 56px' }} />
+                <div style={{ position: 'absolute', left: 0, right: 0, bottom: '18%', height: 1, background: 'rgba(16,23,38,0.18)' }} />
+              </>
+            )}
+            <div style={{ ...tag, right: 20, color: photos ? '#fff' : c.ink, background: photos ? 'rgba(16,23,38,0.62)' : 'transparent' }}>
+              <span style={{ color: c.sage }}>&#10003;</span> After &mdash; cleared &amp; swept
             </div>
-            <div style={{ position: 'absolute', right: 'clamp(20px, 4vw, 56px)', bottom: '22%', textAlign: 'right' }}>
+            <div style={{ position: 'absolute', right: 'clamp(20px, 4vw, 56px)', bottom: '22%', textAlign: 'right', padding: photos ? '14px 18px' : 0, background: photos ? 'rgba(249,250,251,0.86)' : 'transparent' }}>
               <div style={{ fontSize: 'clamp(28px, 4.4vw, 62px)', fontWeight: 900, letterSpacing: '-0.04em', textTransform: 'uppercase', lineHeight: 0.9, color: c.ink }}>Cleared</div>
               <div style={{ marginTop: 8, fontFamily: mono, fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase', color: c.muted }}>Same day &middot; nothing left behind</div>
             </div>

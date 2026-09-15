@@ -18,6 +18,7 @@ import JsonLd from '@/components/JsonLd';
 import { faqPageSchema } from '@/lib/schema';
 import { getSiteFaqs } from '@/lib/content/faqs';
 import { getReviews } from '@/lib/content/reviews';
+import { getSiteImages } from '@/lib/content/settings';
 
 // Title is omitted so the layout default applies (the template is not used for the homepage).
 export const metadata = pageMetadata({
@@ -30,7 +31,7 @@ export const metadata = pageMetadata({
 });
 
 export default async function HomePage() {
-  const [groups, allMapAreas, reviews, faqs] = await Promise.all([getServiceGroups(), getHomeMapAreas(), getReviews(), getSiteFaqs()]);
+  const [groups, allMapAreas, reviews, faqs, images] = await Promise.all([getServiceGroups(), getHomeMapAreas(), getReviews(), getSiteFaqs(), getSiteImages()]);
   const mapAreas = allMapAreas.map((a) => ({ slug: a.slug, name: a.name, home: a.home }));
   return (
     <>
@@ -38,7 +39,7 @@ export default async function HomePage() {
       <ActionStrip />
       <ServicesExplorer groups={groups} />
       <SameDay />
-      <ClutterClear />
+      <ClutterClear before={images.beforeRoom} after={images.afterRoom} />
       <Clearance />
       <Crew />
       <Disposal />
