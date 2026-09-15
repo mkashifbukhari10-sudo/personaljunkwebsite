@@ -11,8 +11,8 @@
     "payload": "payload",
     "generate:importmap": "payload generate:importmap",
     "generate:types": "payload generate:types",
-    "seed": "payload run scripts/seed.ts",
-    "seed:images": "payload run scripts/seed-images.ts",
+    "seed": "payload run scripts/seed.ts --",
+    "seed:images": "payload run scripts/seed-images.ts --",
     "check:links": "node scripts/check-links.mjs",
     "check:content": "node scripts/check-content.mjs"
   },

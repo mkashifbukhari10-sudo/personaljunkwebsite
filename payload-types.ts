@@ -416,6 +416,7 @@ export interface Media {
    * Optional. Shown under the image where the layout allows it.
    */
   caption?: string | null;
+  seedKey?: string | null;
   prefix?: string | null;
   updatedAt: string;
   createdAt: string;
@@ -1041,6 +1042,7 @@ export interface RedirectsSelect<T extends boolean = true> {
 export interface MediaSelect<T extends boolean = true> {
   alt?: T;
   caption?: T;
+  seedKey?: T;
   prefix?: T;
   updatedAt?: T;
   createdAt?: T;

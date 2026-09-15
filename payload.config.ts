@@ -1,3 +1,4 @@
+import net from 'node:net';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildConfig } from 'payload';
@@ -32,6 +33,14 @@ const dirname = path.dirname(fileURLToPath(import.meta.url));
  * local media/ directory otherwise (fine for development, wrong for a
  * serverless deploy, whose filesystem does not survive the request).
  */
+// Node tries IPv6 and IPv4 in turn when connecting ("happy eyeballs") and
+// gives each attempt 250 ms by default. On a slow path to the database that
+// is short enough for both to fail as `AggregateError: ETIMEDOUT` mid-build
+// or mid-script. Ten seconds costs nothing when the first attempt succeeds.
+if (typeof net.setDefaultAutoSelectFamilyAttemptTimeout === 'function') {
+  net.setDefaultAutoSelectFamilyAttemptTimeout(10_000);
+}
+
 export default buildConfig({
   admin: {
     user: Users.slug,

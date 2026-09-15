@@ -3,8 +3,10 @@
  * to the slots plan.md Phase 5/10 left empty (Site settings > Images, the
  * `image` field on services and areas).
  *
- *   npm run seed:images             upload missing photos, fill empty slots only
- *   npm run seed:images -- --update also re-point slots that already have a photo
+ *   npm run seed:images               upload missing photos, fill empty slots only
+ *   npm run seed:images -- --update   also re-point slots that already have a photo
+ *   npm run seed:images -- --reupload send every photo's file to storage again,
+ *                                     keeping the existing Media documents and ids
  *
  * Media documents are matched by the slugified filename Payload stores
  * (`My Photo (1).JPG` -> `my-photo-1.jpg`), so re-running never uploads a
@@ -14,7 +16,9 @@
  * Storage follows payload.config.ts: with BLOB_READ_WRITE_TOKEN set the files
  * go to Vercel Blob, otherwise to the local (gitignored) media/ directory. A
  * local upload is invisible to a deployed site that shares the database, so
- * run this once with the token before relying on it in production.
+ * once the token exists run `--reupload` to copy the files into Blob: every
+ * Media document keeps its id (so nothing is re-linked) and only its file and
+ * URL change. Redeploy afterwards; static pages do not notice a script.
  *
  * The mapping below is by photo content, not by filename: two of the supplied
  * files were named for the wrong slot (see the notes on each entry).
@@ -42,6 +46,7 @@ if (!process.env.DATABASE_URI) {
 }
 
 const UPDATE = process.argv.includes('--update');
+const REUPLOAD = process.argv.includes('--reupload');
 const IMAGES_DIR = path.resolve('public/images');
 
 /**
@@ -359,17 +364,52 @@ const run = async () => {
   // ------------------------------------------------------------------ media
   const { docs: existingMedia } = await api.find({ collection: 'media', pagination: false, depth: 0, overrideAccess: true });
   const mediaByFilename = new Map<string, AnyDoc>((existingMedia as AnyDoc[]).map((d) => [d.filename, d]));
+  const expectedNames = new Set(Object.values(photos).map((p) => storedName(p.file)));
+
+  /**
+   * Payload appends "-1", "-2", … when the name it wants is already taken,
+   * which happens on every --reupload (the old file is still there when the
+   * new name is chosen). So "jlt.jpg" may be stored as "jlt-1.jpg". Accept
+   * that, but never let a suffixed match steal another photo's exact name
+   * ("apartment-clearance-2.jpg" is its own photo, not a copy of
+   * "apartment-clearance.jpg").
+   */
+  const findMedia = (filename: string) => {
+    const exact = mediaByFilename.get(filename);
+    if (exact) return exact;
+    const dot = filename.lastIndexOf('.');
+    const suffixed = new RegExp('^' + filename.slice(0, dot).replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '-\\d+' + filename.slice(dot).replace('.', '\\.') + '$');
+    for (const [name, doc] of mediaByFilename) if (suffixed.test(name) && !expectedNames.has(name)) return doc;
+    return undefined;
+  };
+
+  // Documents are identified by the `seedKey` this script writes; the filename
+  // fallback only exists for documents uploaded before that field was added.
+  const mediaBySeedKey = new Map<string, AnyDoc>((existingMedia as AnyDoc[]).filter((d) => d.seedKey).map((d) => [d.seedKey, d]));
 
   const mediaId: Partial<Record<PhotoKey, any>> = {};
   const mediaResults: string[] = [];
   for (const [key, photo] of Object.entries(photos) as [PhotoKey, Photo][]) {
-    const filename = storedName(photo.file);
-    const found = mediaByFilename.get(filename);
+    const found = mediaBySeedKey.get(key) || findMedia(storedName(photo.file));
     if (found) {
       mediaId[key] = found.id;
-      if (UPDATE && (found.alt !== photo.alt || (found.caption || '') !== (photo.caption || ''))) {
-        await api.update({ collection: 'media', id: found.id, data: { alt: photo.alt, caption: photo.caption || null } });
-        mediaResults.push('alt/caption updated');
+      const tagged = found.seedKey === key;
+      if (REUPLOAD) {
+        // Same document, new file: Payload replaces the stored file and sizes
+        // through whichever storage adapter is active now.
+        await api.update({
+          collection: 'media',
+          id: found.id,
+          data: { alt: photo.alt, caption: photo.caption || null, seedKey: key },
+          filePath: path.join(IMAGES_DIR, photo.file),
+          overrideAccess: true
+        });
+        mediaResults.push('re-uploaded');
+      } else if (!tagged || (UPDATE && (found.alt !== photo.alt || (found.caption || '') !== (photo.caption || '')))) {
+        const data: AnyDoc = { seedKey: key };
+        if (UPDATE) Object.assign(data, { alt: photo.alt, caption: photo.caption || null });
+        await api.update({ collection: 'media', id: found.id, data, overrideAccess: true });
+        mediaResults.push(tagged ? 'alt/caption updated' : 'tagged');
       } else {
         mediaResults.push('existing');
       }
@@ -377,7 +417,7 @@ const run = async () => {
     }
     const doc = (await api.create({
       collection: 'media',
-      data: { alt: photo.alt, caption: photo.caption },
+      data: { alt: photo.alt, caption: photo.caption, seedKey: key },
       filePath: path.join(IMAGES_DIR, photo.file)
     })) as AnyDoc;
     mediaId[key] = doc.id;
