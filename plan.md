@@ -995,7 +995,7 @@ The centralised architecture meant this was an environment change, not a code ch
 - `README.md`: the deploy section leads with the production origin, and "Before launch" now reads as steps to take rather than things blocked on a domain that did not exist. The `www` → apex redirect is spelled out.
 - **No application code changed.** `lib/site.js` keeps `http://localhost:3000` as its development fallback, which is correct and is what the `indexable` guard is built around.
 
-**Audited before changing anything:** the only hardcoded origins in the repo were that one dev fallback and the `http://localhost:3000` defaults in the two check scripts (correct — they point at a locally served build). A read-only sweep of every CMS document and global found exactly one stored absolute URL, `https://wa.me/971567256386`, which is the WhatsApp contact channel and correctly stays external. No `seo.canonical` overrides exist on any service, area or post, so nothing in the database can beat the env-derived origin.
+**Audited before changing anything:** the only hardcoded origins in the repo were that one dev fallback and the `http://localhost:3000` defaults in the two check scripts (correct — they point at a locally served build). A read-only sweep of every CMS document and global found exactly one stored absolute URL, `https://wa.me/923367091357`, which is the WhatsApp contact channel and correctly stays external. No `seo.canonical` overrides exist on any service, area or post, so nothing in the database can beat the env-derived origin.
 
 **Verified** on a production build served locally, across all 31 pages:
 - **Sitemap**: 30 URLs, every one on `https://junkservicesdubai.com`.

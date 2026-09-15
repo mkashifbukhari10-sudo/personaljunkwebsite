@@ -48,7 +48,7 @@ Every fact used below already exists in the codebase (`lib/services.js`, `lib/da
 
 Reusable across pages, subject to the one-sentence rule:
 
-- Operating since 2020; pickups 7 days a week; WhatsApp and calls; phone `+971 56 725 6386`.
+- Operating since 2020; pickups 7 days a week; WhatsApp and calls; phone `+92 336 709 1357`.
 - Quote from a photo, usually within minutes during working hours; no site visit needed; fixed price covering labour, loading and disposal; "nothing changes on the day unless the load does".
 - Same-day: message before midday / early in the day → crew can reach you the same afternoon where slots allow, depending on area.
 - Crew: uniformed, briefed, equipped; named crew lead who confirms the inventory before loading; heavy lifting, dismantling and stair carries included; floors, lifts and doorframes protected; site swept before leaving. Before arrival you get crew lead name, arrival window and fixed price.
