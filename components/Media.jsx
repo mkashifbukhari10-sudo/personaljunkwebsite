@@ -10,7 +10,9 @@ import { hasImage } from '@/lib/images';
  * the striped Placeholder so pages never break before assets exist.
  *
  * `fill` mode is used when the slot has a fixed CSS height (the placeholder
- * boxes); otherwise the image keeps its intrinsic aspect ratio.
+ * boxes); otherwise the image keeps its intrinsic aspect ratio. A caption is
+ * rendered visibly in both modes: on licensed stock photography it carries the
+ * attribution.
  */
 export default function Media({ image, label, height, dark = true, align, priority = false, sizes = '(min-width: 1024px) 50vw, 100vw', fill = true, style, imgStyle }) {
   if (!hasImage(image)) {
@@ -29,7 +31,12 @@ export default function Media({ image, label, height, dark = true, align, priori
     return (
       <figure style={{ margin: 0, position: 'relative', height, overflow: 'hidden', ...style }}>
         <Image {...common} fill style={{ objectFit: 'cover', ...imgStyle }} />
-        {image.caption ? <figcaption className="jk-sr-only">{image.caption}</figcaption> : null}
+        {image.caption ? (
+          // Visible, because for third-party photography the caption is the licence attribution.
+          <figcaption style={{ position: 'absolute', right: 0, bottom: 0, margin: 0, padding: '4px 8px', fontSize: 10, lineHeight: 1.4, letterSpacing: '0.02em', color: 'rgba(255,255,255,0.78)', background: 'rgba(16,23,38,0.6)', maxWidth: '100%' }}>
+            {image.caption}
+          </figcaption>
+        ) : null}
       </figure>
     );
   }

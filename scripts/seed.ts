@@ -22,6 +22,7 @@ import { getPayload } from 'payload';
 import config from '../payload.config';
 import { services as seedServices } from './seed-data/services.js';
 import { areas as seedAreas } from './seed-data/areas.js';
+import { areasExpansion } from './seed-data/areas-expansion.js';
 import { faqs as seedFaqs } from './seed-data/faqs.js';
 import { blog as seedBlog } from './seed-data/blog.js';
 import { serviceGroups } from '../lib/data.js';
@@ -43,7 +44,7 @@ if (!process.env.DATABASE_URI) {
 
 const UPDATE = process.argv.includes('--update');
 const services = seedServices as AnyDoc[];
-const areas = seedAreas as AnyDoc[];
+const areas = [...seedAreas, ...areasExpansion] as AnyDoc[];
 const faqs = seedFaqs as AnyDoc[];
 const groups = serviceGroups as AnyDoc[];
 

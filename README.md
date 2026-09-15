@@ -234,10 +234,16 @@ Every photo is uploaded in `/admin` (Media) and stored in Vercel Blob; nothing i
   deploy, whose filesystem does not survive the request. The Blob host is allow-listed in `next.config.mjs`.
 - After changing the Payload config: `npm run generate:importmap && npm run generate:types`.
 - `npm run seed` bootstraps an empty database from `scripts/seed-data/` (create-or-skip; `-- --update` overwrites).
+  Areas come from `areas.js` (the original 12, 9 featured on the homepage) plus `areas-expansion.js` (18 more).
   It seeds no reviews on purpose and leaves the unknown business facts empty, listing them at the end of the run.
-- `npm run seed:images` uploads the photos in `public/images/` to Media with alt text and attaches them to the site,
-  service and area slots (`scripts/seed-images.ts` holds the file → slot mapping and alt text). Matches existing
+- `npm run seed:images` uploads the photos in `public/images/` (own photography) and `public/images/areas/` (Creative
+  Commons area photos — credits in `CREDITS.md` there, attribution stored as the Media caption) to Media with alt text
+  and attaches them to the site, service and area slots (`scripts/seed-images.ts` holds the file → slot mapping and alt text). Matches existing
   Media by filename and never touches a slot that already has a photo unless run with `-- --update`. Files go
   wherever Payload's storage points: local `media/` without `BLOB_READ_WRITE_TOKEN`, Vercel Blob with it.
+- Local builds on a small machine (WSL, 8 GB): `NEXT_BUILD_CPUS=2` caps the static-generation worker pool
+  (see `next.config.mjs`), and `NODE_OPTIONS=--network-family-autoselection-attempt-timeout=10000` stops Node's
+  250 ms happy-eyeballs connect attempts to Neon failing as `AggregateError: ETIMEDOUT` mid-prerender. Neither is
+  needed on Vercel. After seeding from a script, delete `.next/cache/fetch-cache` or the build reuses stale content.
 - **Next is pinned to 15.4.11** (no caret): Payload 3.8x supports Next `>=15.4.11 <15.5.0` or `>=16.2.6`; 15.5.x is excluded.
 - Hosting decision: Vercel + Postgres (e.g. Neon / Vercel Postgres). Uploads therefore need external storage — set up in plan.md Phase 10.

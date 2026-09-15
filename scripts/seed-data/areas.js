@@ -1,6 +1,6 @@
 /**
- * Seed data — the twelve coverage areas as they were written before the
- * Payload migration (plan.md Phase 9). Read ONLY by scripts/seed.ts; the site
+ * Seed data — the twelve original coverage areas as they were written before
+ * the Payload migration (plan.md Phase 9); areas-expansion.js adds eighteen more. Read ONLY by scripts/seed.ts; the site
  * reads areas from Payload through lib/content/areas.js.
  *
  * `map` is the marker position on the /areas grid; `home` is the position and
@@ -52,7 +52,7 @@ export const areas = [
       { q: 'Do I need to tell my building you are coming?', a: 'Tell us the building’s rules and any NOC requirement; we work inside them so reception expects the crew.' }
     ],
     popularServices: ['residential-junk-removal', 'sofa-removal', 'furniture-removal', 'house-clearance', 'same-day-junk-removal'],
-    nearbyAreas: ['jvc', 'palm-jumeirah'],
+    nearbyAreas: ['jvc', 'palm-jumeirah', 'jlt', 'jbr'],
     cta: ['Send the photo and the tower name.', 'We will book the lift.'],
     image: null
   },
@@ -94,7 +94,7 @@ export const areas = [
       { q: 'Can you clear a whole frond villa including the garden?', a: 'Yes. Garden, storage, maid room and majlis are included when you send photos of them.' }
     ],
     popularServices: ['villa-clearance', 'garden-waste-removal', 'residential-junk-removal'],
-    nearbyAreas: ['dubai-marina', 'jumeirah'],
+    nearbyAreas: ['dubai-marina', 'jumeirah', 'jbr'],
     cta: ['Tell us frond or trunk.', 'We will arrange the access.'],
     image: null
   },
@@ -137,7 +137,7 @@ export const areas = [
       { q: 'Does my building’s service-lift rule slow things down?', a: 'Tell us the building’s rules when you message; we arrange the lift booking as part of the same-day plan.' }
     ],
     popularServices: ['same-day-junk-removal', 'house-clearance', 'sofa-removal', 'furniture-removal'],
-    nearbyAreas: ['business-bay', 'jumeirah'],
+    nearbyAreas: ['business-bay', 'jumeirah', 'dubai-creek-harbour'],
     cta: ['Send the photo this morning.', 'We will tell you if today works.'],
     image: null
   },
@@ -180,7 +180,7 @@ export const areas = [
       { q: 'Do you use the building’s loading bay?', a: 'Tell us how the building handles deliveries and moves; we work with the loading bay or goods lift the building specifies.' }
     ],
     popularServices: ['commercial-junk-removal', 'waste-removal', 'garbage-removal'],
-    nearbyAreas: ['downtown-dubai', 'al-barsha'],
+    nearbyAreas: ['downtown-dubai', 'al-barsha', 'al-quoz'],
     cta: ['Send photos of the floor', 'and the hours we can have it.'],
     image: null
   },
@@ -223,7 +223,7 @@ export const areas = [
       { q: 'Can you clear a JVC townhouse as well as an apartment?', a: 'Yes. Tell us which so we plan access and crew size.' }
     ],
     popularServices: ['junk-removal', 'sofa-removal', 'same-day-junk-removal'],
-    nearbyAreas: ['dubai-marina', 'al-barsha'],
+    nearbyAreas: ['dubai-marina', 'al-barsha', 'sports-city', 'discovery-gardens'],
     cta: ['Send a photo of the pile,', 'big or small.'],
     image: null
   },
@@ -265,7 +265,7 @@ export const areas = [
       { q: 'How long does a full Jumeirah villa clearance take?', a: 'Usually one to two days depending on volume; the plan comes with the quote.' }
     ],
     popularServices: ['villa-clearance', 'garden-waste-removal', 'waste-removal'],
-    nearbyAreas: ['palm-jumeirah', 'downtown-dubai'],
+    nearbyAreas: ['palm-jumeirah', 'downtown-dubai', 'bur-dubai'],
     cta: ['Photograph the garden and each room.', 'We will quote the whole villa.'],
     image: null
   },
@@ -307,7 +307,7 @@ export const areas = [
       { q: 'Do you clear the garden as part of the villa?', a: 'Yes. It is included when you send a photo of it.' }
     ],
     popularServices: ['villa-clearance', 'garden-waste-removal', 'furniture-removal'],
-    nearbyAreas: ['dubai-hills'],
+    nearbyAreas: ['dubai-hills', 'damac-hills', 'motor-city'],
     cta: ['Photograph every room and the garden.', 'We will plan the days.'],
     image: null
   },
@@ -392,7 +392,7 @@ export const areas = [
       { q: 'Do you pick up on weekends in Mirdif?', a: 'Pickups run seven days a week; send a photo and we confirm the next slot.' }
     ],
     popularServices: ['junk-removal', 'appliance-disposal', 'furniture-removal'],
-    nearbyAreas: ['deira', 'dubai-silicon-oasis'],
+    nearbyAreas: ['deira', 'dubai-silicon-oasis', 'al-warqa', 'al-nahda'],
     cta: ['Photograph the appliance or the pile.', 'We will confirm the slot.'],
     image: null
   },
@@ -433,7 +433,7 @@ export const areas = [
       { q: 'Do you take fit-out debris as well as furniture?', a: 'Yes. Mixed loads are quoted from a photo and sorted on our side.' }
     ],
     popularServices: ['commercial-junk-removal', 'garbage-removal', 'waste-removal', 'appliance-disposal'],
-    nearbyAreas: ['jvc', 'business-bay', 'dubai-hills'],
+    nearbyAreas: ['jvc', 'business-bay', 'dubai-hills', 'al-quoz'],
     cta: ['Send photos of the space', 'and the hours we can have it.'],
     image: null
   },
@@ -474,7 +474,7 @@ export const areas = [
       { q: 'Do you clear warehouse stock and packaging?', a: 'Yes. It is quoted as a load from photos.' }
     ],
     popularServices: ['commercial-junk-removal', 'garbage-removal', 'waste-removal'],
-    nearbyAreas: ['mirdif'],
+    nearbyAreas: ['mirdif', 'bur-dubai', 'karama', 'al-nahda'],
     cta: ['Tell us how much and how often.', 'We will propose a schedule.'],
     image: null
   },
@@ -515,7 +515,7 @@ export const areas = [
       { q: 'Can you clear both the office furniture and the electronics in one visit?', a: 'Yes. They are loaded together and sorted at our yard.' }
     ],
     popularServices: ['commercial-junk-removal', 'appliance-disposal', 'junk-removal'],
-    nearbyAreas: ['mirdif'],
+    nearbyAreas: ['mirdif', 'international-city'],
     cta: ['Send photos of the office', 'and what needs to go.'],
     image: null
   }

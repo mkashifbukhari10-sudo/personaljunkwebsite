@@ -44,10 +44,15 @@ if (!process.env.DATABASE_URI) {
 const UPDATE = process.argv.includes('--update');
 const IMAGES_DIR = path.resolve('public/images');
 
-/** One photo: the file in public/images and the alt text it is uploaded with. */
+/**
+ * One photo: the file under public/images, the alt text it is uploaded with
+ * and, for third-party photography, the attribution line stored as its
+ * caption (Media.jsx renders it over the image).
+ */
 interface Photo {
   file: string;
   alt: string;
+  caption?: string;
 }
 
 const photos = {
@@ -116,6 +121,136 @@ const photos = {
   towerFlat: {
     file: 'apartment clearance (2).jpg',
     alt: 'A crew member in a hi-vis vest taping up labelled boxes beside stacked chairs in a high-rise apartment at sunset'
+  },
+  // Area photos: Creative Commons photography from Wikimedia Commons, chosen
+  // on 2026-09-15 (licence, author and source page per file in
+  // public/images/areas/CREDITS.md). The caption is the attribution the
+  // licences require and is shown on the image.
+  areaDubaiMarina: {
+    file: 'areas/dubai-marina.jpg',
+    alt: "Yachts moored in Dubai Marina with the residential towers behind them in late-afternoon light",
+    caption: "Photo: Francisco Anzola, CC BY 3.0, via Wikimedia Commons"
+  },
+  areaPalmJumeirah: {
+    file: 'areas/palm-jumeirah.jpg',
+    alt: "Aerial view of Palm Jumeirah with Atlantis The Palm in the foreground and the fronds of villas behind",
+    caption: "Photo: giggel, CC BY 3.0, via Wikimedia Commons"
+  },
+  areaDowntownDubai: {
+    file: 'areas/downtown-dubai.jpg',
+    alt: "Downtown Dubai skyline with the Burj Khalifa, seen from a helicopter",
+    caption: "Photo: Tim.Reckmann, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  areaBusinessBay: {
+    file: 'areas/business-bay.jpg',
+    alt: "Business Bay towers along the Dubai Water Canal at dusk",
+    caption: "Photo: Iwona Rege, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaJumeirah: {
+    file: 'areas/jumeirah.jpg',
+    alt: "Fishing boats moored at Jumeirah fishing harbour at sunset",
+    caption: "Photo: Phil6007, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaArabianRanches: {
+    file: 'areas/arabian-ranches.jpg',
+    alt: "Fairways and palm trees on the Arabian Ranches golf course",
+    caption: "Photo: JSPhotography2016, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaDubaiHills: {
+    file: 'areas/dubai-hills.jpg',
+    alt: "Lakeside fairway with the Dubai skyline behind, in the Emirates Hills golf community next to Dubai Hills",
+    caption: "Photo: Sev6nWiki, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaMirdif: {
+    file: 'areas/mirdif.jpg',
+    alt: "Aerial view of the low-rise villa streets of Mirdif from a plane on approach to Dubai airport",
+    caption: "Photo: Subhashish Panigrahi, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaAlBarsha: {
+    file: 'areas/al-barsha.jpg',
+    alt: "Mall of the Emirates and the Ski Dubai slope with the villas of Al Barsha stretching behind",
+    caption: "Photo: giggel, CC BY 3.0, via Wikimedia Commons"
+  },
+  areaDeira: {
+    file: 'areas/deira.jpg',
+    alt: "Traditional dhows moored on Dubai Creek in Deira, with the old souk district behind",
+    caption: "Photo: Francisco Anzola, CC BY 2.0, via Wikimedia Commons"
+  },
+  areaDubaiSiliconOasis: {
+    file: 'areas/dubai-silicon-oasis.jpg',
+    alt: "Mid-rise apartment blocks and palm trees in Dubai Academic City, beside Dubai Silicon Oasis",
+    caption: "Photo: Mahmoud Farrag, CC BY 3.0, via Wikimedia Commons"
+  },
+  // The eighteen areas added on 2026-09-15 (fourteen from Commons, four reusing site photos).
+  areaJlt: {
+    file: 'areas/jlt.jpg',
+    alt: "Jumeirah Lake Towers park with the cluster towers rising behind it",
+    caption: "Photo: Guilhem Vellut, CC BY 2.0, via Wikimedia Commons"
+  },
+  areaJbr: {
+    file: 'areas/jbr.jpg',
+    alt: "The Jumeirah Beach Residence towers seen from the beach",
+    caption: "Photo: pe-sa, CC BY 3.0, via Wikimedia Commons"
+  },
+  areaAlQuoz: {
+    file: 'areas/al-quoz.jpg',
+    alt: "Warehouse units converted to galleries along Alserkal Avenue in Al Quoz",
+    caption: "Photo: Fuzheado, CC0, via Wikimedia Commons"
+  },
+  areaMotorCity: {
+    file: 'areas/motor-city.jpg',
+    alt: "Night aerial view of the Motor City community around the Dubai Autodrome",
+    caption: "Photo: \u0623\u0645\u064a\u0646 \u0639\u0644\u0648\u0627\u0646, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaSportsCity: {
+    file: 'areas/sports-city.jpg',
+    alt: "Inside the Dubai International Stadium in Dubai Sports City",
+    caption: "Photo: Dave Morton, Public domain, via Wikimedia Commons"
+  },
+  areaDip: {
+    file: 'areas/dip.jpg',
+    alt: "Low-rise apartment blocks and trees in Green Community, Dubai Investment Park",
+    caption: "Photo: Syed Ali, CC BY 2.0, via Wikimedia Commons"
+  },
+  areaDiscoveryGardens: {
+    file: 'areas/discovery-gardens.jpg',
+    alt: "Aerial view of the low-rise apartment clusters of Discovery Gardens",
+    caption: "Photo: Imre Solt, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  areaInternationalCity: {
+    file: 'areas/international-city.jpg',
+    alt: "Inside Dragon Mart, the shopping centre beside International City",
+    caption: "Photo: Shahzad Ali, CC BY-SA 3.0, via Wikimedia Commons"
+  },
+  areaAlNahda: {
+    file: 'areas/al-nahda.jpg',
+    alt: "Mid-rise apartment buildings along Amman Street in Al Nahda",
+    caption: "Photo: Bin Al Stroker, CC BY 3.0, via Wikimedia Commons"
+  },
+  areaBurDubai: {
+    file: 'areas/bur-dubai.jpg',
+    alt: "The covered arcade of the Grand Souq in Bur Dubai",
+    caption: "Photo: Jpbowen, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaKarama: {
+    file: 'areas/karama.jpg',
+    alt: "Low-rise apartment blocks and palm trees on a Karama street",
+    caption: "Photo: Vicharam, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaDubaiCreekHarbour: {
+    file: 'areas/dubai-creek-harbour.jpg',
+    alt: "The Dubai Creek Harbour sign on the waterfront with the Downtown skyline behind",
+    caption: "Photo: Essam2K6, CC BY-SA 4.0, via Wikimedia Commons"
+  },
+  areaAlWarqa: {
+    file: 'areas/al-warqa.jpg',
+    alt: "A villa street in Al Warqa 2",
+    caption: "Photo: Bin Al Stroker, CC BY 3.0, via Wikimedia Commons"
+  },
+  areaTheSprings: {
+    file: 'areas/the-springs.jpg',
+    alt: "Aerial view of the villas and lakes of The Meadows in Emirates Living",
+    caption: "Photo: Earthwitness, CC BY 3.0, via Wikimedia Commons"
   }
 } satisfies Record<string, Photo>;
 
@@ -150,11 +285,45 @@ const serviceSlots: Record<string, PhotoKey> = {
   'commercial-junk-removal': 'officeStripOut'
 };
 
-/** Areas.image by slug. No area photography has been supplied yet. */
-const areaSlots: Record<string, PhotoKey> = {};
+/** Areas.image by slug. */
+const areaSlots: Record<string, PhotoKey> = {
+  'dubai-marina': 'areaDubaiMarina',
+  'palm-jumeirah': 'areaPalmJumeirah',
+  'downtown-dubai': 'areaDowntownDubai',
+  'business-bay': 'areaBusinessBay',
+  'jumeirah': 'areaJumeirah',
+  'arabian-ranches': 'areaArabianRanches',
+  'dubai-hills': 'areaDubaiHills',
+  'mirdif': 'areaMirdif',
+  'al-barsha': 'areaAlBarsha',
+  'deira': 'areaDeira',
+  'dubai-silicon-oasis': 'areaDubaiSiliconOasis',
+  // No usable Commons photo of JVC exists; the crew shot in a tower apartment stands in.
+  'jvc': 'towerFlat',
+  'jlt': 'areaJlt',
+  'jbr': 'areaJbr',
+  'al-quoz': 'areaAlQuoz',
+  'motor-city': 'areaMotorCity',
+  'sports-city': 'areaSportsCity',
+  'dip': 'areaDip',
+  'discovery-gardens': 'areaDiscoveryGardens',
+  'international-city': 'areaInternationalCity',
+  'al-nahda': 'areaAlNahda',
+  'bur-dubai': 'areaBurDubai',
+  'karama': 'areaKarama',
+  'dubai-creek-harbour': 'areaDubaiCreekHarbour',
+  'al-warqa': 'areaAlWarqa',
+  'the-springs': 'areaTheSprings',
+  // No usable Commons photo of these four; the site's own crew photos stand in.
+  'al-furjan': 'after',
+  'damac-hills': 'houseVilla',
+  'jumeirah-golf-estates': 'garden',
+  'town-square': 'residential'
+};
 
-/** The filename Payload will store for an upload (mirrors Media's beforeOperation hook). */
-const storedName = (file: string) => {
+/** The filename Payload will store for an upload (mirrors Media's beforeOperation hook, which sees only the basename). */
+const storedName = (filePath: string) => {
+  const file = path.basename(filePath);
   const dot = file.lastIndexOf('.');
   const stem = dot > 0 ? file.slice(0, dot) : file;
   const ext = dot > 0 ? file.slice(dot + 1).toLowerCase() : '';
@@ -196,9 +365,9 @@ const run = async () => {
     const found = mediaByFilename.get(filename);
     if (found) {
       mediaId[key] = found.id;
-      if (UPDATE && found.alt !== photo.alt) {
-        await api.update({ collection: 'media', id: found.id, data: { alt: photo.alt } });
-        mediaResults.push('alt updated');
+      if (UPDATE && (found.alt !== photo.alt || (found.caption || '') !== (photo.caption || ''))) {
+        await api.update({ collection: 'media', id: found.id, data: { alt: photo.alt, caption: photo.caption || null } });
+        mediaResults.push('alt/caption updated');
       } else {
         mediaResults.push('existing');
       }
@@ -206,7 +375,7 @@ const run = async () => {
     }
     const doc = (await api.create({
       collection: 'media',
-      data: { alt: photo.alt },
+      data: { alt: photo.alt, caption: photo.caption },
       filePath: path.join(IMAGES_DIR, photo.file)
     })) as AnyDoc;
     mediaId[key] = doc.id;
@@ -270,7 +439,7 @@ const run = async () => {
 
   const storage = process.env.BLOB_READ_WRITE_TOKEN ? 'Vercel Blob' : 'local media/ (not visible to a deployed site)';
   console.log('Storage:  ' + storage);
-  console.log('Still without a photo: same-day-junk-removal, all 12 areas.');
+  console.log('Still without a photo: same-day-junk-removal.');
 };
 
 // `payload run` exits once the module finishes evaluating, so the work must

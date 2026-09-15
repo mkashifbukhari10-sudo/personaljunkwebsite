@@ -44,6 +44,10 @@ const securityHeaders = [
 const nextConfig = {
   reactStrictMode: true,
   poweredByHeader: false,
+  // Local builds on small machines: NEXT_BUILD_CPUS=2 caps the static-generation
+  // worker pool (each worker loads Payload + a database connection). Unset on
+  // Vercel, where Next picks the pool size itself.
+  ...(process.env.NEXT_BUILD_CPUS ? { experimental: { cpus: Number(process.env.NEXT_BUILD_CPUS) } } : {}),
   // One canonical form per URL: /services, never /services/ (plan.md Phase 14).
   trailingSlash: false,
   images: {
