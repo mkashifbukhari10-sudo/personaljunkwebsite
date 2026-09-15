@@ -37,7 +37,7 @@ export async function generateMetadata({ params }) {
     seo: svc.seo,
     path,
     og: {
-      images: [{ url: ogImageUrl('service', svc.slug), width: 1200, height: 630, alt: svc.name + ' in Dubai — Junkit' }]
+      images: [{ url: ogImageUrl('service', svc.slug), width: 1200, height: 630, alt: svc.name + ' in Dubai — Junk Services Dubai' }]
     }
   });
 }

@@ -2,7 +2,7 @@ import { ImageResponse } from 'next/og';
 import OgTemplate from '@/components/OgTemplate';
 import { site } from '@/lib/site';
 import { defaultOgImage } from '@/lib/seo';
-import { loadOgPhoto } from '@/lib/og-image';
+import { loadOgPhoto, loadOgLogo } from '@/lib/og-image';
 import { getServices, getServiceBySlug } from '@/lib/content/services';
 import { getAreas, getAreaBySlug } from '@/lib/content/areas';
 import { getAllPosts, getPostBySlug } from '@/lib/content/posts';
@@ -45,23 +45,25 @@ function ogPhotoFor(doc) {
 }
 
 async function templateFor(key) {
+  const logo = await loadOgLogo();
   if (key.startsWith('service-')) {
     const svc = await getServiceBySlug(key.slice('service-'.length));
-    if (svc) return <OgTemplate eyebrow={'Service ' + svc.num} title={svc.name} line={svc.blurb} photo={await loadOgPhoto(ogPhotoFor(svc))} />;
+    if (svc) return <OgTemplate logo={logo} eyebrow={'Service ' + svc.num} title={svc.name} line={svc.blurb} photo={await loadOgPhoto(ogPhotoFor(svc))} />;
   }
   if (key.startsWith('area-')) {
     const area = await getAreaBySlug(key.slice('area-'.length));
-    if (area) return <OgTemplate eyebrow="Junk removal in" title={area.name} line={area.note} photo={await loadOgPhoto(ogPhotoFor(area))} />;
+    if (area) return <OgTemplate logo={logo} eyebrow="Junk removal in" title={area.name} line={area.note} photo={await loadOgPhoto(ogPhotoFor(area))} />;
   }
   if (key.startsWith('post-')) {
     const post = await getPostBySlug(key.slice('post-'.length));
     if (post) {
       const photo = (post.seo && post.seo.ogImage) || post.coverImage || null;
-      return <OgTemplate eyebrow="From the blog" title={post.title} line={post.excerpt} photo={await loadOgPhoto(photo)} />;
+      return <OgTemplate logo={logo} eyebrow="From the blog" title={post.title} line={post.excerpt} photo={await loadOgPhoto(photo)} />;
     }
   }
   return (
     <OgTemplate
+      logo={logo}
       title={<div style={{ display: 'flex', flexDirection: 'column' }}><span>You point. We lift.</span><span style={{ color: '#C79A52' }}>It&#8217;s gone.</span></div>}
       line={site.shortDescription}
     />

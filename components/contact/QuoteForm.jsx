@@ -24,7 +24,7 @@ export default function QuoteForm({ areaNames }) {
       return;
     }
     const msg = [
-      'Pickup request — Junkit',
+      'Pickup request — Junk Services Dubai',
       'Name: ' + form.name,
       'Phone: ' + form.phone,
       'Area: ' + (form.area || 'not specified'),

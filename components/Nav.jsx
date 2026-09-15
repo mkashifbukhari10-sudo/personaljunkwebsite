@@ -1,10 +1,12 @@
 'use client';
 
 import Link from 'next/link';
+import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { c, mono, contact } from '@/lib/theme';
 import { navLinks } from '@/lib/site';
+import { brand } from '@/lib/brand';
 
 /**
  * Sticky site header. Breakpoints are handled in globals.css (.jk-nav-*) so the
@@ -48,22 +50,8 @@ export default function Nav({ links = navLinks }) {
           minHeight: 72
         }}
       >
-        <Link href="/" aria-label="Junkit Dubai home" style={{ display: 'flex', alignItems: 'center', gap: 10, color: '#fff', padding: '16px 0' }}>
-          <span style={{ width: 14, height: 14, background: c.bronze, display: 'block' }} />
-          <span style={{ fontSize: 21, fontWeight: 800, letterSpacing: '-0.02em' }}>JUNKIT</span>
-          <span
-            className="jk-nav-badge"
-            style={{
-              fontFamily: mono,
-              fontSize: 10,
-              letterSpacing: '0.18em',
-              color: 'rgba(255,255,255,0.5)',
-              paddingLeft: 8,
-              borderLeft: '1px solid rgba(255,255,255,0.18)'
-            }}
-          >
-            DUBAI
-          </span>
+        <Link href="/" aria-label="Junk Services Dubai home" style={{ display: 'flex', alignItems: 'center', padding: '14px 0', flexShrink: 0 }}>
+          <Image src={brand.logoOnDark} alt="Junk Services Dubai" width={brand.logoWidth} height={brand.logoHeight} priority sizes="160px" style={{ height: 40, width: 'auto', display: 'block' }} />
         </Link>
 
         <div

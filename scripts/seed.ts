@@ -245,7 +245,7 @@ const run = async () => {
             links: [
               { label: 'How it works', href: '/how-it-works' },
               { label: 'Blog', href: '/blog' },
-              { label: 'About Junkit', href: '/about' },
+              { label: 'About us', href: '/about' },
               { label: 'Book a pickup', href: '/contact' }
             ]
           }

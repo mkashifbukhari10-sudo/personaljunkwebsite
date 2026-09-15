@@ -1,5 +1,7 @@
 import Link from 'next/link';
+import Image from 'next/image';
 import { c, mono, contact, shell } from '@/lib/theme';
+import { brand } from '@/lib/brand';
 import { serviceHref, areaHref } from '@/lib/hrefs';
 import { getServices } from '@/lib/content/services';
 import { getFeaturedAreas } from '@/lib/content/areas';
@@ -27,10 +29,9 @@ export default async function Footer() {
           }}
         >
           <div>
-            <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
-              <span style={{ width: 14, height: 14, background: c.bronze, display: 'block' }} />
-              <span style={{ fontSize: 24, fontWeight: 800, letterSpacing: '-0.02em' }}>JUNKIT</span>
-            </div>
+            <Link href="/" aria-label="Junk Services Dubai home" style={{ display: 'inline-block' }}>
+              <Image src={brand.logoOnDark} alt="Junk Services Dubai" width={brand.logoWidth} height={brand.logoHeight} sizes="170px" style={{ height: 44, width: 'auto', display: 'block' }} />
+            </Link>
             <p style={{ margin: '18px 0 0', fontSize: 15, lineHeight: 1.55, color: 'rgba(255,255,255,0.6)', maxWidth: '34ch', textWrap: 'pretty' }}>
               Junk removal, furniture pickup and full property clearance across Dubai. Send a photo, get a price, we clear it.
             </p>
@@ -112,7 +113,7 @@ export default async function Footer() {
             textTransform: 'uppercase'
           }}
         >
-          <span>&copy; {new Date().getFullYear()} Junkit Dubai</span>
+          <span>&copy; {new Date().getFullYear()} Junk Services Dubai</span>
           <span>You point. We lift. It&#8217;s gone.</span>
         </div>
       </footer>

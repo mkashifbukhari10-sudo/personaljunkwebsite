@@ -1,4 +1,6 @@
-# Junkit Dubai — SEO Roadmap (`plan.md`)
+# Junk Services Dubai — SEO Roadmap (`plan.md`)
+
+> Renamed from "Junkit" on 2026-09-15 to match the supplied logo and the production domain: `lib/site.js`, page copy, JSON-LD, manifest, seed data, and the live Site settings / Navigation / Media alt text in the CMS. Earlier phase notes below still say "Junkit"; they are historical.
 
 Source of truth for all remaining SEO work. Next.js 15 App Router, JavaScript, no CMS today; final target includes Payload CMS with a CMS-managed blog.
 
@@ -218,8 +220,8 @@ Layout/metadata architecture; copy; Payload not yet installed (no upload pipelin
 ### Implementation checklist
 - [x] `images` config; `Media.jsx` with placeholder fallback.
 - [x] Every `Placeholder` call site routed through `Media`.
-- [ ] Assets received → added under `public/images` with real `alt` text in data; else documented as pending. **PENDING — no photography supplied; all slots `null`, placeholders render.**
-- [ ] Real icons/OG art dropped in if supplied. **PENDING — none supplied; generated stand-ins remain.**
+- [x] Assets received → added under `public/images` with real `alt` text in data; else documented as pending. **2026-09-15: 17 photos supplied in `public/images/`; 16 uploaded to Media with alt text by `scripts/seed-images.ts` and attached to all 6 site slots + 11 services. Still pending: `same-day-junk-removal` (the supplied "Same-Day Pickup.jpg" shows a parcel locker, not a collection) and all 12 areas.**
+- [x] Real icons/OG art dropped in if supplied. **2026-09-15: logo supplied (`public/images/Logo.png`, white background). `scripts/brand-assets.mjs` derives transparent light/dark logos, the monogram, favicon, apple icon and manifest icons (`lib/brand.js`); the generated `icon.jsx`/`apple-icon.jsx`/`app/brand/[key]/route.js` stand-ins were deleted. Logo now in Nav, Footer, every OG card and `LocalBusiness.logo`. The site was renamed to match (see the note at the top of this file).**
 
 ### Verification checklist
 - [x] Build passes; images served as AVIF/WebP with `srcset`/`sizes` (inspect HTML). *Verified with a throwaway test PNG, then reverted: 9 `srcset` candidates, `sizes`, `alt`, lazy loading, `object-fit` fill; OG composite rendered.*
@@ -542,7 +544,7 @@ Phases 5, 8, 9; storage decision; real assets.
 - [x] Storage adapter configured; env documented.
 - [x] Media collection sizes/alt/focal point.
 - [x] Mapper + frontend consumption; OG fallback chain.
-- [ ] Assets uploaded with alt text (owner-provided or approved). **No photography supplied — every slot is editor-ready and draws the placeholder until filled.**
+- [x] Assets uploaded with alt text (owner-provided or approved). **2026-09-15: done for 6 site slots + 11 services via `npm run seed:images` (see Phase 5 notes); `same-day-junk-removal` and the 12 areas still draw the placeholder. Uploaded to local storage only so far — re-run with `BLOB_READ_WRITE_TOKEN` set before production relies on it.**
 
 ### Verification checklist
 - [x] Build passes; `<img>` `src` served from configured origin with `srcset`; `alt` present.
@@ -585,7 +587,7 @@ Notes (2026-09-12):
 - Build green at 65 pages, sitemap still 30 URLs, no image referenced from `public/images` (only `.gitkeep` remains there).
 
 **Unresolved / carry-overs**
-- **Photography with usage rights, and its alt text.** Until it exists every slot draws a placeholder. Upload in /admin > Media, then attach on each service/area and under Site settings > Images.
+- **Photography:** supplied 2026-09-15 and seeded by `scripts/seed-images.ts` (idempotent; `--update` re-points filled slots). Remaining gaps: a same-day collection photo and area photos — upload in /admin > Media and attach, or add them to the script's maps.
 - **`BLOB_READ_WRITE_TOKEN` has never been exercised** — verification ran on local storage. Connect a Blob store to the Vercel project (which sets the variable automatically) and re-check one upload’s URL.
 - Lighthouse image audits and LCP: deferred to Phase 16 with the other Lighthouse runs.
 - The OG route composites a page photo at full size (up to 2400px) rather than its 1200x630 crop, because the mapper collapses a media document to one descriptor before the route sees it. Correct output, slightly wasteful at build; worth revisiting only if build time becomes a problem.

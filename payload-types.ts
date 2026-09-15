@@ -409,7 +409,7 @@ export interface Area {
 export interface Media {
   id: number;
   /**
-   * Describe the photo for someone who cannot see it — "Two Junkit crew carrying a grey sofa into a covered truck". No keyword lists.
+   * Describe the photo for someone who cannot see it — "Two Junk Services Dubai crew carrying a grey sofa into a covered truck". No keyword lists.
    */
   alt: string;
   /**
@@ -1169,7 +1169,7 @@ export interface PayloadMigrationsSelect<T extends boolean = true> {
 export interface SiteSetting {
   id: number;
   /**
-   * Falls back to "Junkit Dubai".
+   * Falls back to "Junk Services Dubai".
    */
   siteName?: string | null;
   tagline?: string | null;

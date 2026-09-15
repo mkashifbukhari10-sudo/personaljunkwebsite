@@ -37,7 +37,7 @@ export default function HowItWorksPage() {
       <section style={{ background: c.ink, color: '#fff', padding: 'clamp(44px, 6vw, 92px) clamp(16px, 3vw, 44px)' }}>
         <div style={shell}>
           <Breadcrumbs items={[{ href: '/how-it-works', label: 'How It Works' }]} />
-          <h1 style={{ ...eyebrow(c.bronze), margin: 0, fontWeight: 400 }}>How junk removal with Junkit works</h1>
+          <h1 style={{ ...eyebrow(c.bronze), margin: 0, fontWeight: 400 }}>How junk removal with Junk Services Dubai works</h1>
           <p style={{ margin: '18px 0 0', fontSize: 'clamp(40px, 6.4vw, 104px)', lineHeight: 0.88, fontWeight: 900, letterSpacing: '-0.05em', textTransform: 'uppercase' }}>
             Five steps.
             <br />

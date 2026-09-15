@@ -24,7 +24,7 @@ export const metadata = pageMetadata({
   description: site.description,
   path: '/',
   og: {
-    title: 'Junkit Dubai — You point. We lift. It is gone.',
+    title: 'Junk Services Dubai — You point. We lift. It is gone.',
     description: site.shortDescription
   }
 });

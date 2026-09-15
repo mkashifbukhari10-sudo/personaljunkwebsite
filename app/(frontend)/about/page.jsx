@@ -20,7 +20,7 @@ const POINTS = [
 
 export const metadata = pageMetadata({
   title: 'About Us — Junk Removal in Dubai Since 2020',
-  description: 'Junkit has been running junk removal and property clearance pickups in Dubai since 2020. Uniformed crews, upfront pricing and responsible disposal.',
+  description: 'Junk Services Dubai has been running junk removal and property clearance pickups since 2020. Uniformed crews, upfront pricing and responsible disposal.',
   path: '/about'
 });
 
@@ -31,13 +31,13 @@ export default async function AboutPage() {
       <section style={{ background: c.ink, color: '#fff', padding: 'clamp(44px, 6vw, 92px) clamp(16px, 3vw, 44px)' }}>
         <div style={shell}>
           <Breadcrumbs items={[{ href: '/about', label: 'About' }]} />
-          <h1 style={{ ...eyebrow(c.bronze), margin: 0, fontWeight: 400 }}>About Junkit, junk removal in Dubai since 2020</h1>
+          <h1 style={{ ...eyebrow(c.bronze), margin: 0, fontWeight: 400 }}>About Junk Services Dubai, running pickups since 2020</h1>
           <p style={{ margin: '18px 0 0', fontSize: 'clamp(38px, 6vw, 96px)', lineHeight: 0.88, fontWeight: 900, letterSpacing: '-0.05em', textTransform: 'uppercase', maxWidth: '20ch' }}>
             We handle the heavy lifting. You get your space back.
           </p>
           <div style={{ marginTop: 'clamp(32px, 4vw, 56px)', display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(min(100%, 280px), 1fr))', gap: 'clamp(24px, 3vw, 56px)' }}>
             <p style={{ margin: 0, fontSize: 'clamp(16px, 1.4vw, 19px)', lineHeight: 1.62, color: c.onDark, textWrap: 'pretty' }}>
-              Junkit has been running pickups in Dubai since 2020. We started with single sofas and mattresses and now clear{' '}
+              Junk Services Dubai has been running pickups in Dubai since 2020. We started with single sofas and mattresses and now clear{' '}
               <Link href={serviceHref('villa-clearance')} style={{ color: '#fff', borderBottom: '1px solid ' + c.bronze }}>whole villas</Link> and office floors, with the same rule on every job: one message from you, everything else from us.
             </p>
             <p style={{ margin: 0, fontSize: 'clamp(16px, 1.4vw, 19px)', lineHeight: 1.62, color: c.onDark, textWrap: 'pretty' }}>

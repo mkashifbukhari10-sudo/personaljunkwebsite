@@ -69,7 +69,7 @@ export const Media: CollectionConfig = {
       required: true,
       admin: {
         description:
-          'Describe the photo for someone who cannot see it — "Two Junkit crew carrying a grey sofa into a covered truck". No keyword lists.'
+          'Describe the photo for someone who cannot see it — "Two Junk Services Dubai crew carrying a grey sofa into a covered truck". No keyword lists.'
       }
     },
     { name: 'caption', type: 'text', admin: { description: 'Optional. Shown under the image where the layout allows it.' } }

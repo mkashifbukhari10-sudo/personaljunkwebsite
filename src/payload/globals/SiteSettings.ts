@@ -24,7 +24,7 @@ export const SiteSettings: GlobalConfig = {
         {
           label: 'Identity',
           fields: [
-            { name: 'siteName', type: 'text', admin: { description: 'Falls back to "Junkit Dubai".' } },
+            { name: 'siteName', type: 'text', admin: { description: 'Falls back to "Junk Services Dubai".' } },
             { name: 'tagline', type: 'text' },
             { name: 'foundingYear', type: 'text', admin: { description: 'Four digits, e.g. 2020.' } },
             seoField({ name: 'defaultSeo', label: 'Default SEO' })
