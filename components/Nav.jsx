@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useState } from 'react';
 import { usePathname } from 'next/navigation';
-import { c, mono, contact } from '@/lib/theme';
+import { c, mono, contact, shell } from '@/lib/theme';
 import { navLinks } from '@/lib/site';
 import { brand } from '@/lib/brand';
 
@@ -39,17 +39,18 @@ export default function Nav({ links = navLinks }) {
         borderBottom: '1px solid rgba(255,255,255,0.12)'
       }}
     >
-      <nav
-        aria-label="Primary"
-        style={{
-          padding: '0 clamp(12px, 3vw, 44px)',
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          gap: 'clamp(10px, 2vw, 20px)',
-          minHeight: 72
-        }}
-      >
+      {/* The bar spans the viewport; its contents sit in the same 1320px shell as the page, so the logo lines up with the content below rather than the screen edge. */}
+      <nav aria-label="Primary" style={{ padding: '0 clamp(16px, 3vw, 44px)' }}>
+        <div
+          style={{
+            ...shell,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'space-between',
+            gap: 'clamp(10px, 2vw, 20px)',
+            minHeight: 72
+          }}
+        >
         <Link href="/" aria-label="Junk Services Dubai home" style={{ display: 'flex', alignItems: 'center', padding: '14px 0', flexShrink: 0 }}>
           <Image src={brand.logoOnDark} alt="Junk Services Dubai" width={brand.logoWidth} height={brand.logoHeight} priority sizes="160px" style={{ height: 40, width: 'auto', display: 'block' }} />
         </Link>
@@ -135,6 +136,7 @@ export default function Nav({ links = navLinks }) {
             <span style={{ ...bar, opacity: open ? 0 : 1 }} />
             <span style={{ ...bar, transform: open ? 'translateY(-7px) rotate(-45deg)' : 'none' }} />
           </button>
+        </div>
         </div>
       </nav>
 
