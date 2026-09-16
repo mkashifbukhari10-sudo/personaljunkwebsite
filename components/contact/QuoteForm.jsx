@@ -1,14 +1,25 @@
 'use client';
 
 import { useId, useState } from 'react';
-import { c, mono, contact } from '@/lib/theme';
+import { c, mono } from '@/lib/theme';
 /** `areaNames` comes from the server page via the content layer. */
 const TIMES = ['Today, as soon as possible', 'Today, afternoon', 'Tomorrow, morning', 'Tomorrow, afternoon', 'This week', 'Weekend'];
 
 const fieldLabel = { fontFamily: mono, fontSize: 10, letterSpacing: '0.16em', textTransform: 'uppercase', color: c.body };
 const lineField = { border: 'none', borderBottom: '2px solid rgba(16,23,38,0.2)', background: 'transparent', padding: '12px 2px', fontSize: 17, color: c.ink, minHeight: 44, fontFamily: 'inherit' };
 
-/** Quote request panel that hands off to WhatsApp. Client-only so the page can stay a server component. */
+/**
+ * Quote request panel. Client-only so the page can stay a server component.
+ *
+ * Submitting posts to /api/quote, which stores the request in Payload as a
+ * Pickup request, and the customer is thanked in place.
+ *
+ * This button used to open WhatsApp with the details prefilled. It no longer
+ * does, which means the save is now the only channel behind it, so a failure
+ * has to be shown rather than logged quietly: there is no hand-off left to
+ * carry the lead if the request does not land. The WhatsApp and phone buttons
+ * beside the form still cover anyone who would rather use them.
+ */
 export default function QuoteForm({ areaNames }) {
   const AREAS = [...areaNames, 'Other'];
   const [form, setForm] = useState({ name: '', phone: '', area: '', items: '', time: '' });
@@ -21,7 +32,7 @@ export default function QuoteForm({ areaNames }) {
 
   const set = (key) => (e) => setForm((f) => ({ ...f, [key]: e.target.value }));
 
-  const submit = (e) => {
+  const submit = async (e) => {
     if (e) e.preventDefault();
     if (sending) return;
     if (!form.name || !form.phone) {
@@ -29,30 +40,27 @@ export default function QuoteForm({ areaNames }) {
       setNote('Add your name and phone number so we can reply.');
       return;
     }
-    const msg = [
-      'Pickup request — Junk Services Dubai',
-      'Name: ' + form.name,
-      'Phone: ' + form.phone,
-      'Area: ' + (form.area || 'not specified'),
-      'Items: ' + (form.items || 'not specified'),
-      'Preferred time: ' + (form.time || 'any available slot')
-    ].join('\n');
-    window.open(contact.whatsapp + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
     setIsError(false);
     setSending(true);
-    // Deliberately not awaited before the hand-off above, and deliberately
-    // silent on failure: the customer has their WhatsApp message either way
-    // and a storage error is not theirs to act on. The route logs it.
-    fetch('/api/quote', {
-      method: 'POST',
-      headers: { 'content-type': 'application/json' },
-      body: JSON.stringify({ ...form, company })
-    })
-      .catch(() => {})
-      .finally(() => setSending(false));
-    setNote('Opening WhatsApp with your details — attach your photo there and send.');
+    setNote('Sending your request...');
+    try {
+      const res = await fetch('/api/quote', {
+        method: 'POST',
+        headers: { 'content-type': 'application/json' },
+        body: JSON.stringify({ ...form, company })
+      });
+      if (!res.ok) throw new Error('Request failed with status ' + res.status);
+      setIsError(false);
+      setNote('Thank you. Your pickup request is in, and we will get back to you urgently.');
+      // Cleared so a second click cannot resend the same request by accident.
+      setForm({ name: '', phone: '', area: '', items: '', time: '' });
+    } catch {
+      setIsError(true);
+      setNote('That did not send. Please try again, or reach us on WhatsApp or by phone.');
+    } finally {
+      setSending(false);
+    }
   };
-
 
   return (
     <form onSubmit={submit} noValidate aria-describedby={noteId} style={{ background: c.panel, border: '1px solid ' + c.line, padding: 'clamp(24px, 3vw, 40px)' }}>
