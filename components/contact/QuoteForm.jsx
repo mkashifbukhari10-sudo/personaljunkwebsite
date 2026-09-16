@@ -12,14 +12,20 @@ const lineField = { border: 'none', borderBottom: '2px solid rgba(16,23,38,0.2)'
 export default function QuoteForm({ areaNames }) {
   const AREAS = [...areaNames, 'Other'];
   const [form, setForm] = useState({ name: '', phone: '', area: '', items: '', time: '' });
+  // Honeypot. Hidden from real users, so anything in it came from a bot.
+  const [company, setCompany] = useState('');
   const [note, setNote] = useState('');
+  const [isError, setIsError] = useState(false);
+  const [sending, setSending] = useState(false);
   const noteId = useId();
 
   const set = (key) => (e) => setForm((f) => ({ ...f, [key]: e.target.value }));
 
   const submit = (e) => {
     if (e) e.preventDefault();
+    if (sending) return;
     if (!form.name || !form.phone) {
+      setIsError(true);
       setNote('Add your name and phone number so we can reply.');
       return;
     }
@@ -32,10 +38,21 @@ export default function QuoteForm({ areaNames }) {
       'Preferred time: ' + (form.time || 'any available slot')
     ].join('\n');
     window.open(contact.whatsapp + '?text=' + encodeURIComponent(msg), '_blank', 'noopener');
+    setIsError(false);
+    setSending(true);
+    // Deliberately not awaited before the hand-off above, and deliberately
+    // silent on failure: the customer has their WhatsApp message either way
+    // and a storage error is not theirs to act on. The route logs it.
+    fetch('/api/quote', {
+      method: 'POST',
+      headers: { 'content-type': 'application/json' },
+      body: JSON.stringify({ ...form, company })
+    })
+      .catch(() => {})
+      .finally(() => setSending(false));
     setNote('Opening WhatsApp with your details — attach your photo there and send.');
   };
 
-  const isError = note.startsWith('Add');
 
   return (
     <form onSubmit={submit} noValidate aria-describedby={noteId} style={{ background: c.panel, border: '1px solid ' + c.line, padding: 'clamp(24px, 3vw, 40px)' }}>
@@ -81,10 +98,27 @@ export default function QuoteForm({ areaNames }) {
           <span style={fieldLabel}>Photo (optional)</span>
           <input type="file" name="photo" accept="image/*" style={{ fontSize: 14, color: c.body, padding: '10px 0', minHeight: 44 }} />
         </label>
+
+        {/*
+          Honeypot. Off-screen rather than display:none, which some bots skip,
+          and removed from the tab order and the accessibility tree so nobody
+          using a keyboard or a screen reader ever reaches it. A filled value
+          means a bot, and /api/quote discards the submission.
+        */}
+        <input
+          type="text"
+          name="company"
+          tabIndex={-1}
+          autoComplete="off"
+          aria-hidden="true"
+          value={company}
+          onChange={(e) => setCompany(e.target.value)}
+          style={{ position: 'absolute', left: -9999, width: 1, height: 1, opacity: 0 }}
+        />
       </div>
 
-      <button type="submit" className="jk-btn-primary" style={{ marginTop: 28, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: c.bronze, color: c.ink, border: 'none', padding: '22px 24px', fontSize: 15, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', cursor: 'pointer' }}>
-        Get my quote <span style={{ fontFamily: mono }}>&#8594;</span>
+      <button type="submit" className="jk-btn-primary" disabled={sending} style={{ marginTop: 28, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between', background: c.bronze, color: c.ink, border: 'none', padding: '22px 24px', fontSize: 15, fontWeight: 800, letterSpacing: '0.08em', textTransform: 'uppercase', cursor: sending ? 'progress' : 'pointer', opacity: sending ? 0.7 : 1 }}>
+        Book the pickup <span style={{ fontFamily: mono }}>&#8594;</span>
       </button>
 
       <div id={noteId} role="status" aria-live="polite" style={{ marginTop: 16, fontFamily: mono, fontSize: 11, letterSpacing: '0.12em', textTransform: 'uppercase', lineHeight: 1.6, color: isError ? '#B4460A' : c.sageDeep, minHeight: 18 }}>{note}</div>

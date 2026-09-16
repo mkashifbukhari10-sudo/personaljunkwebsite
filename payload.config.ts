@@ -15,6 +15,7 @@ import { Reviews } from './src/payload/collections/Reviews';
 import { Posts } from './src/payload/collections/Posts';
 import { Authors } from './src/payload/collections/Authors';
 import { Redirects } from './src/payload/collections/Redirects';
+import { Leads } from './src/payload/collections/Leads';
 import { SiteSettings } from './src/payload/globals/SiteSettings';
 import { Navigation } from './src/payload/globals/Navigation';
 import { Blog } from './src/payload/globals/Blog';
@@ -46,7 +47,7 @@ export default buildConfig({
     user: Users.slug,
     importMap: { baseDir: dirname }
   },
-  collections: [Services, Areas, Posts, Authors, Faqs, Reviews, Redirects, Media, Users],
+  collections: [Services, Areas, Posts, Authors, Faqs, Reviews, Redirects, Media, Leads, Users],
   globals: [SiteSettings, Navigation, Blog],
   editor: lexicalEditor(),
   plugins: [

@@ -75,6 +75,7 @@ export interface Config {
     reviews: Review;
     redirects: Redirect;
     media: Media;
+    leads: Lead;
     users: User;
     'payload-kv': PayloadKv;
     'payload-locked-documents': PayloadLockedDocument;
@@ -91,6 +92,7 @@ export interface Config {
     reviews: ReviewsSelect<false> | ReviewsSelect<true>;
     redirects: RedirectsSelect<false> | RedirectsSelect<true>;
     media: MediaSelect<false> | MediaSelect<true>;
+    leads: LeadsSelect<false> | LeadsSelect<true>;
     users: UsersSelect<false> | UsersSelect<true>;
     'payload-kv': PayloadKvSelect<false> | PayloadKvSelect<true>;
     'payload-locked-documents': PayloadLockedDocumentsSelect<false> | PayloadLockedDocumentsSelect<true>;
@@ -686,6 +688,39 @@ export interface Redirect {
   createdAt: string;
 }
 /**
+ * Requests sent from the contact form. Newest first. The customer also receives a WhatsApp hand-off at the moment they submit.
+ *
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "leads".
+ */
+export interface Lead {
+  id: number;
+  name: string;
+  /**
+   * As typed by the customer.
+   */
+  phone: string;
+  /**
+   * Chosen from the area list, or "Other".
+   */
+  area?: string | null;
+  time?: string | null;
+  /**
+   * The customer’s own description.
+   */
+  items?: string | null;
+  /**
+   * Track the request as you work it.
+   */
+  status?: ('new' | 'contacted' | 'booked' | 'closed') | null;
+  /**
+   * Internal only. Never shown to the customer.
+   */
+  notes?: string | null;
+  updatedAt: string;
+  createdAt: string;
+}
+/**
  * This interface was referenced by `Config`'s JSON-Schema
  * via the `definition` "users".
  */
@@ -765,6 +800,10 @@ export interface PayloadLockedDocument {
     | ({
         relationTo: 'media';
         value: number | Media;
+      } | null)
+    | ({
+        relationTo: 'leads';
+        value: number | Lead;
       } | null)
     | ({
         relationTo: 'users';
@@ -1097,6 +1136,21 @@ export interface MediaSelect<T extends boolean = true> {
               filename?: T;
             };
       };
+}
+/**
+ * This interface was referenced by `Config`'s JSON-Schema
+ * via the `definition` "leads_select".
+ */
+export interface LeadsSelect<T extends boolean = true> {
+  name?: T;
+  phone?: T;
+  area?: T;
+  time?: T;
+  items?: T;
+  status?: T;
+  notes?: T;
+  updatedAt?: T;
+  createdAt?: T;
 }
 /**
  * This interface was referenced by `Config`'s JSON-Schema
