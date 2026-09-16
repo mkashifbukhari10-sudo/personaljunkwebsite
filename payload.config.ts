@@ -51,7 +51,20 @@ export default buildConfig({
   editor: lexicalEditor(),
   plugins: [
     vercelBlobStorage({
-      collections: { media: true },
+      collections: {
+        // `disablePayloadAccessControl` stores the Blob URL on the document
+        // instead of Payload's own /api/media/file/<name> route. That route is
+        // a serverless function that streams the file back out of Blob, which
+        // is a pointless hop here: Media is `access: { read: () => true }`, so
+        // there is no access control for it to enforce. Direct URLs are served
+        // by the CDN, and the Blob host is already allow-listed in
+        // next.config.mjs (remotePatterns) and in the CSP.
+        //
+        // It applies to documents written afterwards, so existing rows keep
+        // their old URL until they are re-uploaded:
+        //   npm run seed:images -- --reupload
+        media: { disablePayloadAccessControl: true }
+      },
       // The adapter disables itself without a token and falls back to local storage.
       token: process.env.BLOB_READ_WRITE_TOKEN,
       // Keep the field schema identical with and without the token, so a
@@ -62,7 +75,13 @@ export default buildConfig({
   secret: process.env.PAYLOAD_SECRET || '',
   typescript: { outputFile: path.resolve(dirname, 'payload-types.ts') },
   db: postgresAdapter({
-    pool: { connectionString: process.env.DATABASE_URI || '' }
+    pool: { connectionString: process.env.DATABASE_URI || '' },
+    // Drizzle's dev schema push blocks on an interactive prompt when it finds a
+    // diff, which hangs any non-TTY run (the seed scripts, CI) on "Pulling
+    // schema from database..." before the script's own code executes. The
+    // scripts opt out via scripts/_script-env.ts; `next dev` is unaffected and
+    // still pushes schema changes as before.
+    ...(process.env.PAYLOAD_DISABLE_SCHEMA_PUSH === 'true' ? { push: false } : {})
   }),
   sharp,
   // REST API only; GraphQL is not used by the frontend.

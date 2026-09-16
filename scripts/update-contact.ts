@@ -7,6 +7,7 @@
  */
 import fs from 'node:fs';
 import { getPayload } from 'payload';
+import './_script-env';
 import config from '../payload.config';
 import { contact } from '../lib/site.js';
 

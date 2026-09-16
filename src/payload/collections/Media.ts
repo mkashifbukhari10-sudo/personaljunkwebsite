@@ -32,6 +32,12 @@ const slugifyFilename: CollectionBeforeOperationHook = ({ operation, req }) => {
   file.name = ext ? slug + '.' + ext : slug;
 };
 
+/** Every cache tag whose pages can embed an image. */
+const MEDIA_TAGS = ['services', 'areas', 'posts', 'settings'];
+
+/** The listing and static pages that show photography but carry no slug tag. */
+const MEDIA_PATHS = ['/', '/services', '/areas', '/blog', '/about'];
+
 export const Media: CollectionConfig = {
   slug: 'media',
   labels: { singular: 'Image', plural: 'Media' },
@@ -43,9 +49,14 @@ export const Media: CollectionConfig = {
   },
   hooks: {
     beforeOperation: [slugifyFilename],
-    // Media is embedded in service/area pages, so a replaced photo must flush both.
-    afterChange: [revalidateAfterChange(['services', 'areas'], ['/'])],
-    afterDelete: [revalidateAfterDelete(['services', 'areas'], ['/'])]
+    // A photo is embedded from four directions: service and area documents,
+    // blog posts (cover images and rich-text uploads) and the Site settings
+    // image slots that fill the homepage and About page. Replacing the file or
+    // the alt text on an existing image changes only this document, so nothing
+    // else fires a hook — every tag that can hold a photo has to be flushed
+    // here, or the new file stays invisible until the next deploy.
+    afterChange: [revalidateAfterChange(MEDIA_TAGS, MEDIA_PATHS)],
+    afterDelete: [revalidateAfterDelete(MEDIA_TAGS, MEDIA_PATHS)]
   },
   upload: {
     mimeTypes: ['image/*'],

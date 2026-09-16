@@ -31,6 +31,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { getPayload } from 'payload';
+import './_script-env';
 import config from '../payload.config';
 import { slugify } from '../src/payload/fields/slug';
 

@@ -19,6 +19,7 @@
  */
 import fs from 'node:fs';
 import { getPayload } from 'payload';
+import './_script-env';
 import config from '../payload.config';
 import { services as seedServices } from './seed-data/services.js';
 import { areas as seedAreas } from './seed-data/areas.js';
