@@ -263,8 +263,9 @@ const photos = {
 type PhotoKey = keyof typeof photos;
 
 // "Same-Day Pickup.jpg" is a photo of a parcel locker, not a junk collection,
-// so it is deliberately not uploaded; same-day-junk-removal keeps its
-// placeholder until a suitable photo is supplied.
+// so it is deliberately not uploaded; same-day-junk-removal reuses the street
+// crew photo instead — a crew checking a job at their truck on the road is
+// what a same-day call-out looks like.
 
 /** Site settings > Images (the keys of lib/images.js siteImages). */
 const siteSlots: Record<string, PhotoKey> = {
@@ -290,7 +291,8 @@ const serviceSlots: Record<string, PhotoKey> = {
   'house-clearance': 'houseVilla',
   'villa-clearance': 'villa',
   'residential-junk-removal': 'residential',
-  'commercial-junk-removal': 'officeStripOut'
+  'commercial-junk-removal': 'officeStripOut',
+  'same-day-junk-removal': 'crewStreet'
 };
 
 /** Areas.image by slug. */
@@ -482,7 +484,6 @@ const run = async () => {
 
   const storage = process.env.BLOB_READ_WRITE_TOKEN ? 'Vercel Blob' : 'local media/ (not visible to a deployed site)';
   console.log('Storage:  ' + storage);
-  console.log('Still without a photo: same-day-junk-removal.');
 };
 
 // `payload run` exits once the module finishes evaluating, so the work must

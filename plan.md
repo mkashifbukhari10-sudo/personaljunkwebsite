@@ -224,7 +224,7 @@ Layout/metadata architecture; copy; Payload not yet installed (no upload pipelin
 ### Implementation checklist
 - [x] `images` config; `Media.jsx` with placeholder fallback.
 - [x] Every `Placeholder` call site routed through `Media`.
-- [x] Assets received → added under `public/images` with real `alt` text in data; else documented as pending. **2026-09-15: 17 photos supplied in `public/images/`; 16 uploaded to Media with alt text by `scripts/seed-images.ts` and attached to all 6 site slots + 11 services. Area photos added the same day from Wikimedia Commons (CC BY / CC BY-SA, attribution stored as the Media caption and rendered over the image; credits in `public/images/areas/CREDITS.md`); JVC uses a site crew photo, Dubai Hills and Silicon Oasis use neighbouring-community photos with honest alt text. Still pending: `same-day-junk-removal` (the supplied "Same-Day Pickup.jpg" shows a parcel locker, not a collection).**
+- [x] Assets received → added under `public/images` with real `alt` text in data; else documented as pending. **2026-09-15: 17 photos supplied in `public/images/`; 16 uploaded to Media with alt text by `scripts/seed-images.ts` and attached to all 6 site slots + 11 services. Area photos added the same day from Wikimedia Commons (CC BY / CC BY-SA, attribution stored as the Media caption and rendered over the image; credits in `public/images/areas/CREDITS.md`); JVC uses a site crew photo, Dubai Hills and Silicon Oasis use neighbouring-community photos with honest alt text.** **2026-09-17: `same-day-junk-removal` filled too — the supplied "Same-Day Pickup.jpg" shows a parcel locker, not a collection, so the service reuses the street crew photo (`office strip-out.jpg`, two crew checking a job at their truck). Every service now has a photo.**
 - [x] Real icons/OG art dropped in if supplied. **2026-09-15: logo supplied (`public/images/Logo.png`, white background). `scripts/brand-assets.mjs` derives transparent light/dark logos, the monogram, favicon, apple icon and manifest icons (`lib/brand.js`); the generated `icon.jsx`/`apple-icon.jsx`/`app/brand/[key]/route.js` stand-ins were deleted. Logo now in Nav, Footer, every OG card and `LocalBusiness.logo`. The site was renamed to match (see the note at the top of this file).**
 
 ### Verification checklist
@@ -548,7 +548,7 @@ Phases 5, 8, 9; storage decision; real assets.
 - [x] Storage adapter configured; env documented.
 - [x] Media collection sizes/alt/focal point.
 - [x] Mapper + frontend consumption; OG fallback chain.
-- [x] Assets uploaded with alt text (owner-provided or approved). **2026-09-15: done for 6 site slots + 11 services via `npm run seed:images` (see Phase 5 notes); only `same-day-junk-removal` still draws the placeholder. Uploaded to local storage only so far — re-run with `BLOB_READ_WRITE_TOKEN` set before production relies on it.**
+- [x] Assets uploaded with alt text (owner-provided or approved). **2026-09-15: done for 6 site slots + 11 services via `npm run seed:images` (see Phase 5 notes); `same-day-junk-removal` followed on 2026-09-17, so no service draws the placeholder any more. Uploaded to local storage only so far — re-run with `BLOB_READ_WRITE_TOKEN` set before production relies on it.**
 
 ### Verification checklist
 - [x] Build passes; `<img>` `src` served from configured origin with `srcset`; `alt` present.
