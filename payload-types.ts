@@ -1265,7 +1265,7 @@ export interface SiteSetting {
     ogDescription?: string | null;
   };
   /**
-   * As displayed, e.g. +92 336 709 1357.
+   * As displayed, e.g. +971 55 103 1255.
    */
   phone?: string | null;
   /**

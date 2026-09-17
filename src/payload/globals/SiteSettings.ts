@@ -36,7 +36,7 @@ export const SiteSettings: GlobalConfig = {
             {
               type: 'row',
               fields: [
-                { name: 'phone', type: 'text', admin: { width: '50%', description: 'As displayed, e.g. +92 336 709 1357.' } },
+                { name: 'phone', type: 'text', admin: { width: '50%', description: 'As displayed, e.g. +971 55 103 1255.' } },
                 { name: 'whatsapp', type: 'text', admin: { width: '50%', description: 'Full wa.me link.' } }
               ]
             },
