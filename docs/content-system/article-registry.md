@@ -124,7 +124,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 8 | `service-lift-booking-dubai` | Service Lift Booking in Dubai Buildings: How It Actually Works | junk removal service lift dubai | SC4 | G | `residential-junk-removal` | — | `DRAFTING` | — | — | none | `/services/residential-junk-removal` (planned) | Reserved territory from #7. Cover: IB-6 |
 | 20 | `washing-machine-removal-dubai` | Washing Machine Removal in Dubai: What the Crew Needs to Know First | washing machine removal dubai | SC1 | A | `appliance-disposal` | — | `DRAFTING` | — | — | none | `/services/appliance-disposal` (planned) | Disposal-chain claims omitted (#16 capability-blocked). Cover: IB-7 |
 
-*All four are written and QA’d, held at `DRAFTING` pending a cover image (see [`image-backlog.md`](./image-backlog.md)). `Published` and `Last reviewed` stay empty until they actually publish. `Facts: none` — every claim traces to existing service-page copy; no external, regulatory or pricing facts are load-bearing in any of the four.*
+*All seven now exist in Payload as **drafts** (imported 2026-09-20 via `scripts/import-drafts.ts`), with the author, excerpt, body and `relatedServices` set. Drafts are excluded from `lib/content/posts.js` (`publishedOnly: true`) and from `generateStaticParams`, so none is publicly reachable. They are written and QA’d, held at `DRAFTING` pending a cover image (see [`image-backlog.md`](./image-backlog.md)). `Published` and `Last reviewed` stay empty until they actually publish. `Facts: none` — every claim traces to existing service-page copy; no external, regulatory or pricing facts are load-bearing in any of the four.*
 
 ---
 
@@ -531,6 +531,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-20 | **All seven drafts imported into Payload** via `scripts/import-drafts.ts`; author record `Junk Services Dubai Team` created. All at `_status: draft`, 0 published, no cover images. **#6, #7, #11 and #13 predate the claim-audit rule and still need that pass before `REVIEW`.** | Articles moved from documents into the CMS. |
 | 2026-09-20 | Three further articles commissioned and registered at `DRAFTING` (#27, #8, #20). Reverse links recorded; covers IB-5/6/7 opened. **Route C confirmed as the active cover-sourcing route**; IB-AUDIT-1 logged as deferred. | Content workflow continued; covers resolved in parallel. |
 | 2026-09-20 | **D-3 resolved** — existing image library determined AI-generated via signed C2PA credentials. Recorded in `image.md` §7 and §16; Route D closed in the backlog. D-2 remains open and now points at licensed stock or own photography. | Forensic inspection of file provenance. |
 | 2026-09-20 | Four articles commissioned and registered in §3 at `DRAFTING` (#6, #7, #11, #13). Planned reverse links recorded in §6.1. [`image-backlog.md`](./image-backlog.md) created and linked from D-2. §4 Status values deliberately left unchanged to preserve the §11 parity check. | Articles written and QA’d; held pending cover images. |
