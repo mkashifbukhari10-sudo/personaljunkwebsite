@@ -10,6 +10,8 @@
 | **`content-structure.md`** (this file) | **What shape** it takes — page anatomy, fields, headings, components, archetypes |
 
 **Authority:** Subordinate to both. This file never overrides a targeting decision in `keywords.md` or an editorial rule in `content-rules.md`. It specifies the container those decisions go into.
+**Presentation standard:** [`article-presentation.md`](./article-presentation.md) governs reusable UI and publishing QA, without changing editorial intent or keyword ownership.
+
 **Verified against:** `src/payload/collections/Posts.ts`, `app/(frontend)/blog/[slug]/page.jsx`, `components/blog/PostBody.jsx`, `components/blog/RelatedLinks.jsx`, `lib/content/richtext.jsx`, `lib/content/posts.js`, `lib/schema.js` — as at 2026-09-20.
 
 > **Why this file exists.** The blog template already renders a hero, a standfirst, a byline, a cover image, a related-services module, a related-posts module and a closing CTA band — **automatically, on every article.** Writing as though it doesn't produces articles that repeat themselves, duplicate their own introduction, and end with two CTAs. Structure is not decoration; on this site it is already half-built, and the body has to fit what is already there.
@@ -55,7 +57,7 @@ Structural assembly happens in this order. **Each step depends on the one before
 | `HARD` (unmarked, stated as fact) | A real technical or CMS constraint. Breaking it means the article fails validation, fails to render, or renders wrongly. **Not negotiable.** |
 | `GUIDANCE` / `TYPICAL RANGE` / `DEFAULT` | A design-derived default or an observation about what usually works. **Not a ranking requirement and not enforced anywhere.** |
 
-**The hard constraints are:** excerpt ≤200 characters (CMS-enforced) · a cover image is required to publish (validation-enforced) · a real author is required (required relationship) · body headings start at H2 (editor offers H2–H4 only) · no tables, callouts, accordions, embeds or footnotes (no renderer support) · no table of contents or in-page anchors (headings render without `id`) · body measure 68ch and H1 measure 20ch (fixed in the template).
+**The hard constraints are:** excerpt ≤200 characters (CMS-enforced) · a cover image is required to publish (validation-enforced) · a real author is required (required relationship) · body headings start at H2 (editor offers H2–H4 only) · no tables, custom callout blocks, embeds or footnotes · automatic H2/H3 table of contents with stable heading anchors · optional trailing FAQ disclosures · body measure 68ch and H1 measure 20ch (fixed in the template).
 
 **Everything numeric other than the excerpt limit is guidance.** Where guidance and the reader conflict, **reader usefulness, search intent, clarity and how the page actually looks in draft preview all win.** Do not treat an advisory range as a target to hit, and do not pad or trim an article to satisfy one.
 
@@ -82,7 +84,7 @@ Structural assembly happens in this order. **Each step depends on the one before
 │ 4. RELATED LINKS                                  AUTOMATIC │
 │    "Services" column  ← relatedServices                     │
 │    "Areas" column     ← relatedAreas                        │
-│    ⚠ Falls back to the first 3 services if both are empty   │
+│    Only selected relationships; empty modules are hidden  │
 ├─────────────────────────────────────────────────────────────┤
 │ 5. KEEP READING                                   AUTOMATIC │
 │    Up to 3 posts, ranked by shared relatedServices/Areas    │
@@ -223,7 +225,7 @@ Leave empty unless the standfirst and the ideal search snippet genuinely need to
 |---|---|
 | **H1 is the post title.** The body must never contain an H1. | The Lexical editor only offers H2/H3/H4 — the constraint is enforced, not just advised. |
 | **Body headings start at H2.** H3 nests under H2; H4 under H3. | Never skip a level. Never use a heading for visual size. |
-| **Headings render with no `id` attribute.** | **No table of contents and no in-page anchor links are possible** without a code change. Do not write "jump to the section below" or link to a section. Refer to sections by name in prose, or restructure. |
+| **Headings have stable, unique IDs.** | H2/H3 headings automatically populate a TOC when there are at least three. Never maintain a separate TOC field or list. Inspect the rendered anchor before linking to it. |
 | The auto Related Links module emits its own H2s ("Services", "Areas") after the body. | Body headings should not compete — don't end the body with a heading called "Services" or "Related". |
 
 ### Writing headings
@@ -266,8 +268,8 @@ The renderer handles **exactly** these node types. Anything else is ignored or f
 |---|---|
 | **Tables** | **There is no table node.** Comparison content — which is a whole archetype (§10-D) — must be built from H3 sections per option, or a bulleted list per option. **Do not attempt markdown table syntax; it will render as literal pipes.** |
 | **Callout / info / warning boxes** | Use a blockquote for the one line that matters most. |
-| **Accordions / toggles** | Plain H3 + paragraph. |
-| **Table of contents** | Not possible (no heading IDs). Omit. |
+| **Arbitrary accordions / toggles** | Use normal H3 + prose. A trailing FAQ section can render as native disclosures (§13). |
+
 | **Footnotes** | Link inline to the source instead. |
 | **Embeds (video, maps, forms)** | Not supported in the body. |
 | **Custom CTA blocks** | The CTA band is automatic. In-body CTAs are contextual links (§11). |
@@ -607,8 +609,8 @@ Image sourcing, licensing and alt-text strategy belong to `image.md` (not yet cr
 
 FAQs are **optional** and governed by `content-rules.md` §19. Structurally:
 
-- **Placement:** last body section, before the closing paragraph — or omitted.
-- **Markup:** an H2 for the block, then **H3 per question**. Never a bold paragraph pretending to be a heading.
+- **Placement:** optional final body section. For automatic disclosures, use an H2 beginning with FAQ, FAQs, Frequently asked questions, Common questions or Questions, immediately followed by H3 questions and their answers. Put the article closing prose before this section; everything after the final question belongs to its answer. A later heading of another level or introductory FAQ prose preserves normal rich-text rendering.
+- **Markup:** an H2 for the block, then **H3 per question**. The renderer preserves the H2 and H3 semantics and TOC targets inside keyboard-accessible native disclosures. No FAQ field or FAQPage schema is added.
 - **Question form:** phrased as a person would ask it. "My sofa won't fit through the door. Can you still take it?" — not "Sofa removal door size".
 - **Answer length:** `GUIDANCE` — usually 1–3 sentences. The real test: if an answer needs a heading and several paragraphs, it is a body section, not an FAQ.
 - **Count:** as many as are genuinely useful. **Zero is valid.** There is no target.
@@ -644,9 +646,9 @@ FAQs are **optional** and governed by `content-rules.md` §19. Structurally:
 | **2. Keep Reading module** | Up to 3 posts, ranked by **how many `relatedServices` and `relatedAreas` they share with this one.** |
 | **3. Topic clustering** | Job 2 means these fields *are* the site's article-to-article clustering mechanism. |
 
-### The fallback trap
+### Relevance is required
 
-> **If both fields are empty, the Related Links module falls back to the first three services** — whichever they happen to be. The article then points at services it may have nothing to do with, and scores zero overlap with every other post, so Keep Reading degrades to "newest three".
+> **There are no arbitrary fallbacks.** Empty service/area relationships produce no Related Links block. Keep Reading includes only published articles sharing a selected service or area, up to three; zero is valid.
 >
 > **Always set `relatedServices` — exactly one primary, plus genuinely relevant others.** It is not optional metadata; it is the article's place in the architecture.
 
@@ -703,7 +705,7 @@ Run alongside the editorial QA in `content-rules.md` §24. **This checks shape, 
 - [ ] Every heading has substantial content under it
 - [ ] Archetype matches the reader's intent **and carries the coverage plan**, and doesn't duplicate a sibling article's shape
 - [ ] No markdown tables (unsupported — §6)
-- [ ] No TOC, no in-page anchor links (unsupported — §5)
+- [ ] Automatic TOC links reach the correct headings and FAQ questions; no manually authored TOC
 - [ ] Ordered lists used only for genuine sequences
 - [ ] Blockquote used sparingly — typically at most once, for something that earns it
 

@@ -14,7 +14,7 @@ import { hasImage } from '@/lib/images';
  * rendered visibly in both modes: on licensed stock photography it carries the
  * attribution.
  */
-export default function Media({ image, label, height, dark = true, align, priority = false, sizes = '(min-width: 1024px) 50vw, 100vw', fill = true, style, imgStyle }) {
+export default function Media({ image, label, height, dark = true, align, priority = false, className, sizes = '(min-width: 1024px) 50vw, 100vw', fill = true, style, imgStyle }) {
   if (!hasImage(image)) {
     return <Placeholder label={label} height={height} dark={dark} align={align} style={style} />;
   }
@@ -29,7 +29,7 @@ export default function Media({ image, label, height, dark = true, align, priori
 
   if (fill && height) {
     return (
-      <figure style={{ margin: 0, position: 'relative', height, overflow: 'hidden', ...style }}>
+      <figure className={className} style={{ margin: 0, position: 'relative', height, overflow: 'hidden', ...style }}>
         <Image {...common} fill style={{ objectFit: 'cover', ...imgStyle }} />
         {image.caption ? (
           // Visible, because for third-party photography the caption is the licence attribution.
@@ -42,7 +42,7 @@ export default function Media({ image, label, height, dark = true, align, priori
   }
 
   return (
-    <figure style={{ margin: 0, ...style }}>
+    <figure className={className} style={{ margin: 0, ...style }}>
       <Image {...common} width={image.width} height={image.height} style={{ width: '100%', height: 'auto', display: 'block', ...imgStyle }} />
       {image.caption ? <figcaption style={{ marginTop: 8, fontSize: 13, opacity: 0.7 }}>{image.caption}</figcaption> : null}
     </figure>

@@ -17,6 +17,7 @@ export default function PostCard({ post, priority = false }) {
 
   return (
     <article
+      className="jk-card jk-post-card"
       style={{
         outline: '1px solid ' + c.line,
         background: c.mist,
@@ -26,9 +27,11 @@ export default function PostCard({ post, priority = false }) {
       }}
     >
       <Media
+        className="jk-card-media"
         image={post.coverImage}
         label={'photo — ' + post.title}
-        height="clamp(170px, 18vw, 220px)"
+        height="auto"
+        style={{ aspectRatio: '16 / 9' }}
         sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
         priority={priority}
       />
@@ -54,7 +57,7 @@ export default function PostCard({ post, priority = false }) {
           className="jk-h"
           style={{ margin: 0, fontSize: 'clamp(19px, 2vw, 25px)', fontWeight: 800, letterSpacing: '-0.02em', lineHeight: 1.12 }}
         >
-          <Link href={href} className="jk-indent" style={{ color: c.ink }}>
+          <Link href={href} className="jk-card-title">
             {post.title}
           </Link>
         </h2>

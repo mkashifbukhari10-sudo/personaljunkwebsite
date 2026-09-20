@@ -34,6 +34,8 @@ PHASE 4 — QA         Run the full pre-publish checklist (§24).
 
 ## The article production workflow
 
+The reusable presentation and final rendering checks are locked in [`article-presentation.md`](./article-presentation.md). They extend this workflow without changing keyword ownership, claim verification, image sourcing or publishing approval rules.
+
 **An article is not complete when the text is written.** Writing is the first of seven stages, and an article that has only been written is at the *start* of the process, not the end.
 
 ```

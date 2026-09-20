@@ -6,10 +6,8 @@ import { serviceHref, areaHref } from '@/lib/hrefs';
  * The "what this is about" block under a post (plan.md Phase 13): links from
  * the post out to the service and area pages it concerns.
  *
- * This is also the safety net for the internal-linking rule — every post must
- * link to at least one service or area page. If an editor sets no
- * relationships, the page falls back to a few services rather than rendering a
- * post with no route back into the site.
+ * Shows only editorially selected relationships. Missing relationships are a
+ * publishing QA issue, never an excuse to insert unrelated service links.
  */
 const listLink = {
   display: 'flex',

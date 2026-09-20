@@ -14,8 +14,7 @@ import { siteUrl } from '@/lib/site';
  * Rules that matter for SEO and accessibility:
  * - **No `<h1>`.** The page owns the only h1 (the post title), so a heading
  *   node is clamped to h2 even if one arrives from an import or an older doc.
- * - Headings never skip more than one level on the way down; a stray h4 after
- *   an h2 is left alone (that is valid), but h1 becomes h2.
+ * - Editors retain responsibility for heading order; h1 becomes h2.
  * - Internal links render through `next/link`; external ones get
  *   `target="_blank" rel="noopener noreferrer"`, plus `nofollow` when the
  *   editor ticked it.
@@ -34,6 +33,55 @@ const SUPERSCRIPT = 1 << 6;
 
 /** Headings allowed in the body. Anything else (h1, h5, h6) is clamped to h2. */
 const HEADINGS = new Set(['h2', 'h3', 'h4']);
+
+/** Plain text of one node's subtree — used for heading ids and the TOC. */
+function nodeText(node) {
+  if (!node || typeof node !== 'object') return '';
+  if (typeof node.text === 'string') return node.text;
+  if (!Array.isArray(node.children)) return '';
+  return node.children.map(nodeText).join('');
+}
+
+/** "What to send before booking" -> "what-to-send-before-booking". */
+function headingSlug(text) {
+  return String(text)
+    .toLowerCase()
+    .normalize('NFKD')
+    .replace(/[̀-ͯ]/g, '')
+    .replace(/['‘’]/g, '')
+    .replace(/[^a-z0-9]+/g, '-')
+    .replace(/^-+|-+$/g, '')
+    .slice(0, 60);
+}
+
+/**
+ * Stable, unique heading ids for one document, keyed by the heading's index in
+ * `root.children`. The renderer and the table of contents both read from this
+ * one pass, so the ids in the markup and the ids the TOC links to cannot drift.
+ */
+export function headingIds(value) {
+  const root = value && value.root;
+  const out = new Map();
+  if (!root || !Array.isArray(root.children)) return out;
+  const used = new Set(['toc-heading', 'main', 'main-content']);
+  root.children.forEach((node, i) => {
+    if (!node || node.type !== 'heading') return;
+    const text = nodeText(node).trim();
+    if (!text) return;
+    const base = headingSlug(text) || 'section';
+    let id = base;
+    let n = 2;
+    while (used.has(id)) id = base + '-' + n++;
+    used.add(id);
+    out.set(i, { id, text, tag: HEADINGS.has(node.tag) ? node.tag : 'h2' });
+  });
+  return out;
+}
+
+/** The document's h2 and h3 headings, in order, for the table of contents. */
+export function extractHeadings(value) {
+  return [...headingIds(value).values()].filter((h) => h.tag === 'h2' || h.tag === 'h3');
+}
 
 function isExternal(href) {
   if (!href || href.startsWith('/') || href.startsWith('#')) return false;
@@ -100,8 +148,11 @@ function renderNode(node, key, styles) {
     case 'heading': {
       const tag = HEADINGS.has(node.tag) ? node.tag : 'h2';
       const Tag = tag;
+      // `id` comes from the shared headingIds() pass so it matches the TOC.
+      // `jk-anchor` supplies scroll-margin so a linked heading clears the
+      // sticky header instead of hiding behind it.
       return (
-        <Tag key={key} style={styles[tag] || styles.h2}>
+        <Tag key={key} id={node.__id} className={node.__id ? 'jk-anchor' : undefined} style={styles[tag] || styles.h2}>
           {renderChildren(node, styles)}
         </Tag>
       );
@@ -117,7 +168,7 @@ function renderNode(node, key, styles) {
     case 'list': {
       const Tag = node.listType === 'number' ? 'ol' : 'ul';
       return (
-        <Tag key={key} style={styles.list}>
+        <Tag key={key} start={Tag === 'ol' && node.start ? node.start : undefined} style={styles.list}>
           {renderChildren(node, styles)}
         </Tag>
       );
@@ -162,6 +213,7 @@ function renderNode(node, key, styles) {
           image={image}
           fill={false}
           sizes="(min-width: 768px) 720px, 100vw"
+          className={styles.figureClass}
           style={styles.figure}
         />
       );
@@ -178,10 +230,19 @@ function renderNode(node, key, styles) {
  * own type scale without this module importing the theme (keeps it usable from
  * anywhere). Returns null for an empty document.
  */
-export default function RichText({ value, styles = {} }) {
+export default function RichText({ value, styles = {}, anchors = true }) {
   const root = value && value.root;
   if (!root || !Array.isArray(root.children) || !root.children.length) return null;
-  return <>{root.children.map((child, i) => renderNode(child, i, styles))}</>;
+  // Attach the shared heading ids without mutating the stored document.
+  const ids = anchors ? headingIds(value) : new Map();
+  return (
+    <>
+      {root.children.map((child, i) => {
+        const h = ids.get(i);
+        return renderNode(h ? { ...child, __id: h.id } : child, i, styles);
+      })}
+    </>
+  );
 }
 
 /** Plain text of a Lexical document — for excerpts, word counts and schema. */

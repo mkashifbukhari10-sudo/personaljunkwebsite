@@ -7,6 +7,7 @@ import Reveal from '@/components/Reveal';
 import JsonLd from '@/components/JsonLd';
 import Media from '@/components/Media';
 import PostBody from '@/components/blog/PostBody';
+import TableOfContents from '@/components/blog/TableOfContents';
 import PostCard from '@/components/blog/PostCard';
 import RelatedLinks from '@/components/blog/RelatedLinks';
 import { c, mono, shell, eyebrow, h2 } from '@/lib/theme';
@@ -16,6 +17,7 @@ import { getServices } from '@/lib/content/services';
 import { getAreasBySlugs } from '@/lib/content/areas';
 import { pageMetadata, ogImageUrl } from '@/lib/seo';
 import { blogPostingSchema } from '@/lib/schema';
+import { extractHeadings } from '@/lib/content/richtext';
 
 /**
  * A single blog post (plan.md Phase 13).
@@ -31,9 +33,6 @@ import { blogPostingSchema } from '@/lib/schema';
  * Next serves a 404 instead of regenerating it.
  */
 export const dynamicParams = true;
-
-/** Services to fall back to when a post names no related service or area. */
-const FALLBACK_SERVICES = 3;
 
 export async function generateStaticParams() {
   const slugs = await getPostSlugs();
@@ -99,10 +98,9 @@ export default async function PostPage({ params }) {
     getRelatedPosts(post.slug)
   ]);
 
-  // Every post must offer a route back into the money pages. When an editor
-  // has named none, show the first few services rather than nothing.
-  const named = post.relatedServices.map((s) => allServices.find((x) => x.slug === s)).filter(Boolean);
-  const services = named.length || areas.length ? named : allServices.slice(0, FALLBACK_SERVICES);
+  const services = post.relatedServices.map((s) => allServices.find((x) => x.slug === s)).filter(Boolean);
+
+  const headings = extractHeadings(post.content);
 
   const published = post.publishedAt ? new Date(post.publishedAt) : null;
   const updated = post.updatedAt ? new Date(post.updatedAt) : null;
@@ -172,7 +170,8 @@ export default async function PostPage({ params }) {
               <Media
                 image={post.coverImage}
                 label={'photo — ' + post.title}
-                height="clamp(220px, 34vw, 520px)"
+                height="auto"
+                style={{ aspectRatio: '16 / 9' }}
                 sizes="(min-width: 1320px) 1320px, 100vw"
                 priority
               />
@@ -182,16 +181,24 @@ export default async function PostPage({ params }) {
 
         <Reveal style={{ background: c.card, padding: 'clamp(48px, 7vw, 100px) clamp(16px, 3vw, 44px)' }}>
           <div style={shell}>
-            <PostBody content={post.content} />
+            <div className={headings.length >= 3 ? 'jk-article-grid' : 'jk-article-grid jk-article-grid-solo'}>
+              <div>
+                <TableOfContents headings={headings} variant="narrow" />
+                <PostBody content={post.content} />
+              </div>
+              <aside className="jk-article-aside">
+                <TableOfContents headings={headings} variant="wide" />
+              </aside>
+            </div>
           </div>
         </Reveal>
       </article>
 
-      <Reveal style={{ background: c.mist, padding: 'clamp(48px, 7vw, 100px) clamp(16px, 3vw, 44px)', borderTop: '1px solid ' + c.lineSoft }}>
+      {services.length || areas.length ? <Reveal style={{ background: c.mist, padding: 'clamp(48px, 7vw, 100px) clamp(16px, 3vw, 44px)', borderTop: '1px solid ' + c.lineSoft }}>
         <div style={shell}>
           <RelatedLinks services={services} areas={areas} />
         </div>
-      </Reveal>
+      </Reveal> : null}
 
       {related.length ? (
         <Reveal style={{ background: c.card, padding: 'clamp(48px, 7vw, 100px) clamp(16px, 3vw, 44px)', borderTop: '1px solid ' + c.lineSoft }}>

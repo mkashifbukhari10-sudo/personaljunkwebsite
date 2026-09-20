@@ -171,7 +171,7 @@ const run = async () => {
       collection: 'authors',
       data: { name: AUTHOR_NAME },
       overrideAccess: true
-    }));
+    } as Parameters<typeof payload.create>[0]));
   console.log((existingAuthor.docs.length ? 'Author reused:  ' : 'Author created: ') + AUTHOR_NAME);
 
   // Slug -> id for the collections an internal link can point at.
