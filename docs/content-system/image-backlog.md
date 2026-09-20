@@ -64,107 +64,85 @@ Restated only as operating constraints — the reasoning lives in `image.md`.
 
 ## Backlog
 
-**Status values:** `NEEDED` (nothing sourced) · `SOURCING` (candidate under review) · `SELECTED` (image chosen, awaiting alt text) · `DONE` (uploaded, focal point set, alt text written).
+**Every article needs three images:** a **cover**, an **OG/social** image, and at least **one in-content** image with distinct editorial value. Cover and OG may share one asset where the 1200×630 crop genuinely works — do not create a second asset merely to have one.
+
+**Status values:** `NEEDED` · `SOURCING` · `SELECTED` (chosen, awaiting inspection + alt) · `UPLOADED` (in Payload Media, alt written) · `ASSIGNED` (set on the post).
+
+**All 21 slots below are `NEEDED`.** Nothing has been sourced, generated, inspected, uploaded or assigned. See *Blocker* at the foot of this file.
 
 ### IB-1 · `sofa-wont-fit-through-door-dubai` — Article #7
 
-| | |
-|---|---|
-| **Article** | Your Sofa Won't Fit Through the Door. Here's What Actually Happens Next |
-| **Subject** | A sofa at a genuine constraint — angled through a doorway, or a corner unit separated into sections with the route protected. The frame must show **the tight point**, not a styled living room. |
-| **Crop / dimensions** | Landscape ≥1600px wide; doorway and sofa both in frame; subject centred |
-| **Sourcing** | **B or C.** Route A required **only if crew are visible in uniform** — a sofa-and-doorway shot without identifiable crew avoids the constraint entirely and is the easier brief. |
-| **Provenance / licensing** | Licence verified before upload; attribution in `caption` if required; credits-register entry for any third-party image |
-| **Final alt text** | ⛔ **Write after the image is selected and visually inspected.** Must not name company crew unless Route A. |
-| **Status** | `NEEDED` |
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | A sofa angled in a doorway, wedged at the tight point — the constraint is the subject | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | A diagram-like or clear photo of the three measurements that matter: clear opening, sofa cross-section, corridor turn | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
 
 ### IB-2 · `end-of-tenancy-clearance-dubai` — Article #6
 
-| | |
-|---|---|
-| **Article** | End of Tenancy in Dubai: What Has to Be Gone Before Handover |
-| **Subject** | A part-emptied room mid-clearance — some boxes and a few remaining items, clearly in transition. **Not** a styled empty room and **not** a full removals scene. |
-| **Crop / dimensions** | Landscape ≥1600px wide; room depth visible; subject centred |
-| **Sourcing** | **B or C** — the subject does not imply this business, so sourcing is open. Easiest brief in the backlog. |
-| **Provenance / licensing** | As above. Must not depict an identifiable real home or its contents without consent. |
-| **Final alt text** | ⛔ Write after selection and inspection. Must not imply a real customer's property or a completed job. |
-| **Status** | `NEEDED` |
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | A part-emptied room mid-clearance — boxes and a few remaining items, clearly in transition | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | A storage room or above-wardrobe space still full — the spaces the article says get missed | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
 
 ### IB-3 · `palm-frond-disposal-dubai` — Article #13
 
-| | |
-|---|---|
-| **Article** | What to Do With Palm Fronds in Dubai |
-| **Subject** | Cut fronds piled at a villa gate or driveway, with the access route visible. **The pile and the way out** — not a decorative palm tree, not a landscaper mid-cut (the article's whole point is that we do not cut). |
-| **Crop / dimensions** | Landscape ≥1600px wide; pile and approach both in frame |
-| **Sourcing** | **B or C.** Subject does not imply the business. Good CC availability likely for palm/garden waste. |
-| **Provenance / licensing** | As above. No named community may be stated in alt text unless provenance confirms the location. |
-| **Final alt text** | ⛔ Write after selection and inspection. **Must not name a Dubai community** unless the source confirms where it was taken. |
-| **Status** | `NEEDED` |
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | Cut fronds piled at a villa gate or driveway with the access route visible | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | An open truck being loaded with green waste — shows why the load travels uncovered | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
 
 ### IB-4 · `junk-gone-today-dubai` — Article #11
 
-| | |
-|---|---|
-| **Article** | Need It Gone Today? What's Actually Possible in Dubai, and By When |
-| **Subject** | A loaded or part-loaded truck at a kerbside mid-route — conveys routing and movement rather than a posed crew. |
-| **Crop / dimensions** | Landscape ≥1600px wide; truck and street context; subject centred |
-| **Sourcing** | **Route A if the truck carries this company's livery or crew are identifiable.** Otherwise B or C with a generic vehicle. ⚠️ **Hardest brief in the backlog** — a truck shot reads as "our truck" more readily than the other three. If Route A is unavailable, prefer a subject that does not imply ownership (e.g. a loaded flatbed from behind, no branding). |
-| **Provenance / licensing** | As above. No third-party number plates legible. |
-| **Final alt text** | ⛔ Write after selection and inspection. **Must not imply the vehicle or crew belong to this business** unless Route A. |
-| **Status** | `NEEDED` |
-
----
-
-## Summary
-
-| Metric | Count |
-|---|---|
-| Articles awaiting a cover | **7** |
-| `NEEDED` | 7 |
-| `SOURCING` / `SELECTED` / `DONE` | 0 |
-| Route D (existing inventory) | **Closed — library is AI-generated** |
-| Final alt text written | **0 — correctly deferred in all cases** |
-
-**Fastest path to unblocking publication:** IB-2 and IB-3 have the loosest briefs (no implied business ownership, open sourcing) and should clear first. IB-4 is the hardest and may need Route A or a deliberately non-implying subject.
-
-**I-1 is resolved and Route D is closed** — the existing library is AI-generated. **Route C (licensed stock) is now the practical path**, and it is already permitted by `image.md` §6 for subjects that do not imply this business. All four briefs can be satisfied that way; IB-2 and IB-3 most easily.
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | A loaded or part-loaded truck kerbside mid-route — routing, not a posed crew | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | A phone showing a photo being sent of items to be collected — the four things to send | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
 
 ### IB-5 · `villa-handover-clearance-dubai` — Article #27
 
-| | |
-|---|---|
-| **Article** | Villa Handover: What Has to Be Gone Before Inspection |
-| **Subject** | A villa interior or driveway mid-clearance — loaded trolley, stacked boxes, a part-emptied room with villa proportions (double height, marble, garden visible). Must read as **scale**, which is the article’s point. |
-| **Crop / dimensions** | Landscape ≥1600px; room or driveway depth visible; subject centred |
-| **Sourcing** | **Route C.** Subject must not imply this business — no branded vehicle, no identifiable crew in uniform. |
-| **Provenance / licensing** | Commercial web licence, proof retained. Must not depict an identifiable real property. |
-| **Final alt text** | ⛔ Write after selection and inspection. Must not imply a real customer’s villa or a completed job. |
-| **Status** | `NEEDED` |
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | A villa interior or driveway mid-clearance — must read as scale | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | A storage room under stairs, garage corner or roof terrace — a space the article names | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
 
 ### IB-6 · `service-lift-booking-dubai` — Article #8
 
-| | |
-|---|---|
-| **Article** | Service Lift Booking in Dubai Buildings: How It Actually Works |
-| **Subject** | A goods/service lift with its interior protected — padded walls or protective boarding, doors open, ideally something bulky waiting. The **protected lift car** is the subject. |
-| **Crop / dimensions** | Landscape ≥1600px. ⚠️ Lift interiors are naturally tall and narrow — a landscape frame needs the lobby or corridor in shot too. Hardest composition in the backlog. |
-| **Sourcing** | **Route C.** No identifiable crew in uniform. |
-| **Provenance / licensing** | Commercial web licence, proof retained. No identifiable building name or unit number. |
-| **Final alt text** | ⛔ Write after selection and inspection. **Must not name a building or community** unless the source confirms it. |
-| **Status** | `NEEDED` |
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | A goods/service lift with its interior protected, doors open | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | A stairwell landing with a bulky item mid-carry — the no-lift case | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
 
 ### IB-7 · `washing-machine-removal-dubai` — Article #20
 
-| | |
+| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+|---|---|---|---|---|---|---|
+| **Cover** | A washing machine pulled out from its recess, hoses visible, tight space obvious | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
+| **Body** | The disconnection point — supply and waste hoses at the wall | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+
+---
+
+## Blocker — no image can currently be produced
+
+**Recorded honestly rather than worked around. All 21 image slots are `NEEDED` and none can be completed in the current setup.**
+
+| Route | Why it is unavailable |
 |---|---|
-| **Article** | Washing Machine Removal in Dubai: What the Crew Needs to Know First |
-| **Subject** | A washing machine pulled out from its recess in a tight laundry or kitchen — hoses visible, the constrained space obvious. **Not** a showroom appliance shot. |
-| **Crop / dimensions** | Landscape ≥1600px; machine and surrounding space both in frame |
-| **Sourcing** | **Route C.** Easiest of the three — no business implication in the subject. |
-| **Provenance / licensing** | Commercial web licence, proof retained. |
-| **Final alt text** | ⛔ Write after selection and inspection. |
-| **Status** | `NEEDED` |
+| **A · Own photography** | None exists. Requires a shoot. |
+| **B · Creative Commons** | Possible in principle, but each candidate must be licence-verified on its source page and downloaded — and CC imagery of clearance work in interiors is scarce. Not attempted rather than guessed at. |
+| **C · Licensed stock** | Requires a stock account and a paid licence. Cannot be acquired here, and an unlicensed download would breach `image.md` §6. |
+| **D · Existing inventory** | Closed — AI-generated, barred for business depiction. |
+| **Generated editorial imagery** | **Permitted by policy as of 2026-09-20, but there is no image-generation tool available in this environment.** The permission is recorded and ready to use; the capability is absent. |
+
+**What this does and does not block.** It does not block writing — content, claim audit, SEO, internal links, Payload drafts and tracking are all complete for the current batch, and the next batch can proceed. **It does block publication**, because `coverImage` is required by field validation and the three-image requirement is unmet.
+
+**To clear it, one of:** supply real photography · supply licensed stock files · generate the images elsewhere and provide the files · grant an environment with image generation. **Once files exist, upload, alt text, assignment and body insertion are straightforward and can be completed immediately.**
 
 ---
 
@@ -202,3 +180,4 @@ Restated only as operating constraints — the reasoning lives in `image.md`.
 | 2026-09-20 | **I-1 resolved — existing library is AI-generated (C2PA-confirmed). Route D closed permanently unless §7 is amended.** Route C recommended for all four briefs. |
 | 2026-09-20 | **Route C confirmed as the active sourcing route** for article covers. IB-AUDIT-1 logged as deferred work: audit of published images and misleading crew alt text. |
 | 2026-09-20 | IB-5, IB-6, IB-7 added for articles #27, #8, #20. Backlog now 7 covers outstanding. |
+| 2026-09-20 | Restructured to **cover + OG + body per article** (21 slots). Generated editorial imagery permitted by `image.md`. **Blocker recorded: no image-generation tool and no licensed-stock access in this environment** — all 21 slots remain `NEEDED`. |

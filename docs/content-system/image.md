@@ -188,6 +188,7 @@ Markup is a proper `<figure>` / `<figcaption>` pair in both cases.
 | 1 | **The business's own photography** | Confirmed as genuinely taken by or for the business. Consent where people or customer property are identifiable (§12). |
 | 2 | **Creative Commons / public domain** | Licence verified on the source page, attribution in `caption`, entry added to the credits register (§6.1). CC BY, CC BY-SA, CC0 and public domain are all acceptable. **Check the specific file's licence, never assume from the site.** |
 | 3 | **Properly licensed stock** | Licence covering commercial web use, retained proof of licence, and **only where the image does not imply it depicts this business** (§7). |
+| 4 | **Generated editorial imagery** | **Article imagery only**, under every condition in *Editorial imagery for articles* above. Not for service, area or homepage slots. |
 
 ### Prohibited outright
 
@@ -256,6 +257,25 @@ Files: `Appliance Disposal.png`, `Garbage & Waste Removal.png`, `sofa and furtnu
 2. **Alt text asserts company ownership.** `scripts/seed-images.ts` line 67 reads *“Two uniformed **Junk Services Dubai crew** carrying a wrapped sofa…”* — an explicit, and now known to be false, claim. Seven further alts describe *“crew”* generically, which on the company’s own site still reads as its crew.
 
 **The area photography is unaffected.** The 25 Wikimedia Commons images under `public/images/areas/` are genuine licensed photography with verified attribution, and remain fully usable.
+
+### Editorial imagery for articles — generation permitted, scoped
+
+**Approved 2026-09-20.** Generated imagery **is permitted for editorial/blog use**: article covers, OG/social images and in-content supporting images.
+
+**This permission is scoped to article imagery only.** It does **not** change the service-page, area-page or homepage image policy, and it does **not** reopen the existing AI library (Route D) — that remains closed.
+
+**Conditions, all of which apply:**
+
+| # | Condition |
+|---|---|
+| 1 | **Specifically relevant** to the article and the reader’s intent — not generic filler that happens to be on-topic |
+| 2 | **Realistic, useful, generic and unbranded** where appropriate |
+| 3 | **Never presented as** our actual crew, our actual vehicle, our actual customer, a real completed job, a specific customer property, or documentary evidence of our operations |
+| 4 | **No fabricated company branding** — no invented uniforms, vehicle livery, signage or customer identities that would make a synthetic image read as a record of a real business event |
+| 5 | **Inspected before use**, and alt text written only after inspection, describing what is visibly there |
+| 6 | **Recorded in the backlog** with its sourcing route, so provenance is never in doubt later |
+
+> **The line this draws:** a generated image of *a sofa wedged in a doorway* illustrates a problem the article explains, and claims nothing about this business. A generated image of *a uniformed crew beside a branded truck* claims to document the company, and is barred whatever the article is about. **Ask what the picture asserts, not what it depicts.**
 
 ### Before/after imagery
 

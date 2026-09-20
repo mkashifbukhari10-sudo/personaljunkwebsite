@@ -124,7 +124,23 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 8 | `service-lift-booking-dubai` | Service Lift Booking in Dubai Buildings: How It Actually Works | junk removal service lift dubai | SC4 | G | `residential-junk-removal` | — | `DRAFTING` | — | — | none | `/services/residential-junk-removal` (planned) | Reserved territory from #7. Cover: IB-6 |
 | 20 | `washing-machine-removal-dubai` | Washing Machine Removal in Dubai: What the Crew Needs to Know First | washing machine removal dubai | SC1 | A | `appliance-disposal` | — | `DRAFTING` | — | — | none | `/services/appliance-disposal` (planned) | Disposal-chain claims omitted (#16 capability-blocked). Cover: IB-7 |
 
-*All seven now exist in Payload as **drafts** (imported 2026-09-20 via `scripts/import-drafts.ts`), with the author, excerpt, body and `relatedServices` set. Drafts are excluded from `lib/content/posts.js` (`publishedOnly: true`) and from `generateStaticParams`, so none is publicly reachable. They are written and QA’d, held at `DRAFTING` pending a cover image (see [`image-backlog.md`](./image-backlog.md)). `Published` and `Last reviewed` stay empty until they actually publish. `Facts: none` — every claim traces to existing service-page copy; no external, regulatory or pricing facts are load-bearing in any of the four.*
+*All seven exist in Payload as **drafts** (`_status: draft`, 0 published). **Content, claim audit, internal links, SEO fields and Payload relationships are complete.** Drafts are excluded from `lib/content/posts.js` (`publishedOnly: true`) and from `generateStaticParams`, so none is publicly reachable.*
+
+**Per-article completion against the seven-stage workflow** (`content-rules.md`):
+
+| Stage | State |
+|---|---|
+| 1 Content | ✅ all seven |
+| 2 Claim audit | ✅ all seven — #6, #7, #11, #13 audited 2026-09-20 (13 fixes); #8, #20, #27 audited earlier |
+| 3 SEO | ✅ all seven — title, description, canonical on the production domain, `noIndex: false`, OG title, OG description. **OG image outstanding.** |
+| 4 Internal links | ✅ in-article. **Reverse inbound links identified but deliberately not applied** — see below |
+| 5 Images | ⛔ **0 of 21 slots** — see [`image-backlog.md`](./image-backlog.md) |
+| 6 Payload draft | ✅ all seven |
+| 7 QA + tracking | ✅ content QA passed; image QA cannot pass |
+
+> **Why reverse links are not applied yet.** The planned inbound links in §6.1 point from **live service pages** to article URLs that are still drafts. An unpublished post 404s, so applying them now would put broken links on live pages. **They are applied at publish, not before** — which is also when the orphan check in §6.3 becomes meaningful.
+
+**Status stays `DRAFTING`, not `READY FOR PUBLISHING`**, because the image requirement is genuinely unmet. Nothing is marked complete that is not.
 
 ---
 
@@ -531,6 +547,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-20 | **Batch completed through stage 4 of the production workflow.** Claim audit run on #6, #7, #11, #13 (13 corrections). Full SEO written for all seven — title, description, canonical, noIndex, OG title/description. Drafts updated in Payload. **Images remain the sole blocker (0 of 21 slots); reverse links held until publish to avoid live 404s.** | Applying the seven-stage workflow to the existing batch. |
 | 2026-09-20 | **All seven drafts imported into Payload** via `scripts/import-drafts.ts`; author record `Junk Services Dubai Team` created. All at `_status: draft`, 0 published, no cover images. **#6, #7, #11 and #13 predate the claim-audit rule and still need that pass before `REVIEW`.** | Articles moved from documents into the CMS. |
 | 2026-09-20 | Three further articles commissioned and registered at `DRAFTING` (#27, #8, #20). Reverse links recorded; covers IB-5/6/7 opened. **Route C confirmed as the active cover-sourcing route**; IB-AUDIT-1 logged as deferred. | Content workflow continued; covers resolved in parallel. |
 | 2026-09-20 | **D-3 resolved** — existing image library determined AI-generated via signed C2PA credentials. Recorded in `image.md` §7 and §16; Route D closed in the backlog. D-2 remains open and now points at licensed stock or own photography. | Forensic inspection of file provenance. |

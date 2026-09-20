@@ -150,6 +150,10 @@ if (!ARTICLES_FILE) {
   process.exit(1);
 }
 const { articles } = (await import(pathToFileURL(ARTICLES_FILE).href)) as { articles: AnyDoc[] };
+const SEO_FILE = process.env.SEO_FILE;
+const seoMod: AnyDoc = SEO_FILE ? await import(pathToFileURL(SEO_FILE).href) : { seo: {}, SITE: '' };
+const seoBySlug: AnyDoc = seoMod.seo || {};
+const SITE: string = seoMod.SITE || '';
 
 const run = async () => {
   const payload = await getPayload({ config });
@@ -201,11 +205,15 @@ const run = async () => {
       draft: true,
       overrideAccess: true
     });
-    if (existing.docs.length) {
-      console.log('  skip   #' + a.id + '  ' + a.slug + ' (already exists)');
-      skipped++;
-      continue;
-    }
+    const s = seoBySlug[a.slug] || {};
+    const seoData = {
+      title: s.title || a.seoTitle || '',
+      description: s.description || '',
+      canonical: SITE ? SITE + '/blog/' + a.slug : '',
+      noIndex: false,
+      ogTitle: s.ogTitle || '',
+      ogDescription: s.ogDescription || ''
+    };
 
     const relatedServices = a.services
       .map((s: string) => idBySlug.services[s])
@@ -213,6 +221,28 @@ const run = async () => {
     const relatedAreas = (a.areas || [])
       .map((s: string) => idBySlug.areas[s])
       .filter((v: unknown) => v !== undefined);
+
+    if (existing.docs.length) {
+      await payload.update({
+        collection: 'posts',
+        id: (existing.docs[0] as AnyDoc).id,
+        draft: true,
+        overrideAccess: true,
+        data: {
+          _status: 'draft',
+          title: a.title,
+          excerpt: a.excerpt,
+          content: toLexical(a.body, linkFor),
+          author: author.id,
+          relatedServices,
+          relatedAreas,
+          seo: seoData
+        } as AnyDoc
+      });
+      console.log('  update #' + a.id + '  ' + a.slug);
+      skipped++;
+      continue;
+    }
 
     await payload.create({
       collection: 'posts',
@@ -227,7 +257,7 @@ const run = async () => {
         author: author.id,
         relatedServices,
         relatedAreas,
-        ...(a.seoTitle ? { seo: { title: a.seoTitle } } : {})
+        seo: seoData
       } as AnyDoc
     });
 

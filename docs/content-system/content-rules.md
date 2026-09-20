@@ -32,6 +32,36 @@ PHASE 4 — QA         Run the full pre-publish checklist (§24).
 
 ---
 
+## The article production workflow
+
+**An article is not complete when the text is written.** Writing is the first of seven stages, and an article that has only been written is at the *start* of the process, not the end.
+
+```
+1  CONTENT      approved opportunity → mapping, intent, semantic coverage,
+                cannibalization → archetype → draft
+      ↓
+2  CLAIM AUDIT  the dedicated pass in §7. No article is approved without it.
+      ↓
+3  SEO          intentional title, description, canonical, indexing, OG fields.
+                Never left to automatic fallbacks.
+      ↓
+4  INTERNAL     primary money page, supporting links, area links only where
+   LINKS        justified, and the reverse inbound link identified.
+      ↓
+5  IMAGES       cover, OG and at least one in-content image. Sourced, inspected,
+                uploaded to Media, alt text written after inspection.
+      ↓
+6  PAYLOAD      created as a DRAFT with every field populated.
+   DRAFT
+      ↓
+7  QA +         full QA run; article-registry.md and image-backlog.md updated
+   TRACKING     to the real state. Nothing marked complete that is not.
+```
+
+**Stages may be worked in parallel** — a missing image never stops the next article being written — **but an article is not publishable until all seven are genuinely complete.** Status in `article-registry.md` reflects where it actually is, never where it is hoped to be.
+
+---
+
 ## §0 · Quick reference — the non-negotiables
 
 If you remember nothing else:
