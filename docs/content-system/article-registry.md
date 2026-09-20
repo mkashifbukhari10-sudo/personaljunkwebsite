@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-09-20:** **0 published articles and 0 articles in progress.** `/blog` shows its empty state, verified against the live site. §3 is empty; §4 is a queue, not a record — **45 mapped IDs, 44 independently commissionable.**
+**Current state as at 2026-09-20:** **0 published articles · 7 in progress (`DRAFTING`).** `/blog` shows its empty state, verified against the live site. §4 is a queue, not a record — **45 mapped IDs, 44 independently commissionable.**
 
 ---
 
@@ -112,13 +112,19 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**Currently empty — 0 records.** Verified 2026-09-20: `/blog` renders its empty state and nothing is in progress.
+**7 records, all `DRAFTING`. 0 published.** `/blog` still renders its empty state — correctly, since no record has reached `PUBLISHED`.
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| — | — | *No article records yet* | — | — | — | — | — | — | — | — | — | — | — |
+| 7 | `sofa-wont-fit-through-door-dubai` | Your Sofa Won’t Fit Through the Door. Here’s What Actually Happens Next | sofa won’t fit through door dubai | SC1 | G | `sofa-removal` | — | `DRAFTING` | — | — | none | `/services/sofa-removal` (planned) | Cover: IB-1 |
+| 6 | `end-of-tenancy-clearance-dubai` | End of Tenancy in Dubai: What Has to Be Gone Before Handover | end of tenancy clearance dubai | SC3 | F | `house-clearance` | — | `DRAFTING` | — | — | none | `/services/house-clearance` (planned) | Absorbs #23. Cover: IB-2 |
+| 13 | `palm-frond-disposal-dubai` | What to Do With Palm Fronds in Dubai | palm frond removal dubai | SC1 | A | `garden-waste-removal` | — | `DRAFTING` | — | — | none | `/services/garden-waste-removal` (planned) | Cover: IB-3 |
+| 11 | `junk-gone-today-dubai` | Need It Gone Today? What’s Actually Possible in Dubai, and By When | need junk gone today dubai | SC3 | E | `same-day-junk-removal` | — | `DRAFTING` | — | — | none | `/services/same-day-junk-removal` (planned) | C-2 watch. Cover: IB-4 |
+| 27 | `villa-handover-clearance-dubai` | Villa Handover: What Has to Be Gone Before Inspection | villa handover clearance dubai | SC3 | F | `villa-clearance` | — | `DRAFTING` | — | — | none | `/services/villa-clearance` (planned) | C-8 boundary held. Cover: IB-5 |
+| 8 | `service-lift-booking-dubai` | Service Lift Booking in Dubai Buildings: How It Actually Works | junk removal service lift dubai | SC4 | G | `residential-junk-removal` | — | `DRAFTING` | — | — | none | `/services/residential-junk-removal` (planned) | Reserved territory from #7. Cover: IB-6 |
+| 20 | `washing-machine-removal-dubai` | Washing Machine Removal in Dubai: What the Crew Needs to Know First | washing machine removal dubai | SC1 | A | `appliance-disposal` | — | `DRAFTING` | — | — | none | `/services/appliance-disposal` (planned) | Disposal-chain claims omitted (#16 capability-blocked). Cover: IB-7 |
 
-*First record replaces this placeholder. Articles enter this table at commissioning, not at publish.*
+*All four are written and QA’d, held at `DRAFTING` pending a cover image (see [`image-backlog.md`](./image-backlog.md)). `Published` and `Last reviewed` stay empty until they actually publish. `Facts: none` — every claim traces to existing service-page copy; no external, regulatory or pricing facts are load-bearing in any of the four.*
 
 ---
 
@@ -131,6 +137,8 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 **Two articles have no slug assigned in `keywords.md`** (#22, #35). Per `content-structure.md` §4 the slug is set deliberately at commissioning — **do not auto-generate it from the title.** Record it here once chosen.
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
+
+**Commissioned and now tracked in §3:** #6 · #7 · #8 · #11 · #13 · #20 · #27. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -281,7 +289,13 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 
 | Article | Inbound from | Type | Anchor used | Applied |
 |---|---|---|---|---|
-| — | *No articles yet* | — | — | — |
+| #7 `sofa-wont-fit-through-door-dubai` | `/services/sofa-removal` § “Getting a sofa out of an apartment” | service | “what we measure and why” | ☐ planned |
+| #6 `end-of-tenancy-clearance-dubai` | `/services/house-clearance` § “Move-outs, handovers and inspections” | service | “what has to be gone before handover” | ☐ planned |
+| #13 `palm-frond-disposal-dubai` | `/services/garden-waste-removal` § “Green waste we collect” | service | “what to do with cut palm fronds” | ☐ planned |
+| #11 `junk-gone-today-dubai` | `/services/same-day-junk-removal` § “What makes a same-day slot possible” | service | “what decides whether today works” | ☐ planned |
+| #27 `villa-handover-clearance-dubai` | `/services/villa-clearance` § “Every part of the villa” | service | “the spaces that get missed” | ☐ planned |
+| #8 `service-lift-booking-dubai` | `/services/residential-junk-removal` § “Building permissions and service lifts” | service | “how a lift booking actually works” | ☐ planned |
+| #20 `washing-machine-removal-dubai` | `/services/appliance-disposal` § “Strapped, trolleyed, out in one visit” | service | “what to check before the crew arrives” | ☐ planned |
 
 *Type:* `service` · `area` · `article` · `pillar`.
 *Anchor used* is recorded so that `content-rules.md` §14's anchor-diversity rule can actually be checked across the corpus — the only way to notice the same exact-match anchor appearing six times is to have written them all down.
@@ -388,8 +402,8 @@ These block **every** article, not individual ones.
 | # | Dependency | Source | Status |
 |---|---|---|---|
 | **D-1** | **A real author record** — required relationship; `content-rules.md` §6 forbids inventing one | `content-rules.md` B-1 | ☐ Open |
-| **D-2** | **Cover image supply** — required to publish; depends on D-3 | `image.md` I-2 | ☐ Open |
-| **D-3** | **Provenance of the existing 17 photographs** — unresolved | `image.md` I-1 | ☐ Open |
+| **D-2** | **Cover image supply** — required to publish; depends on D-3. **Tracked per article in [`image-backlog.md`](./image-backlog.md)** (IB-1 to IB-4, all `NEEDED`). | `image.md` I-2 | ☐ Open |
+| **D-3** | ~~Provenance of the existing photographs~~ — **RESOLVED 2026-09-20: AI-generated**, C2PA-confirmed. Library unusable for article covers under `image.md` §7; Route D closed. **Does not unblock D-2** — it redirects it to licensed stock or own photography. | `image.md` I-1 | ☑ **Closed** |
 | **D-4** | **`BLOB_READ_WRITE_TOKEN` set** — otherwise uploads are invisible to the live site | `image.md` I-4 | ☐ Open |
 | **D-5** | **Analytics and Search Console** — nothing is measurable until configured | `keywords.md` Measurement Plan | ☐ Open |
 | **D-6** | **C-1 / C-2 pre-publish SEO review** — sign off before publishing at volume | `keywords.md` Cannibalization Map | ☐ Open |
@@ -495,6 +509,9 @@ Run monthly. **The registry's only value is being true.**
 - [ ] No §5.2 claim duplicates a §5.1 money-page claim or a `keywords.md` secondary
 - [ ] Every §5.2 keyword is mapped in `keywords.md`
 
+**Content discipline**
+- [ ] Every article reaching `REVIEW` has a completed claim audit (`content-rules.md` §7)
+
 **Reconciliation**
 - [ ] §4 statuses match the Article Opportunity Map in `keywords.md`
 - [ ] §7 ledgers reconcile with §4 statuses
@@ -514,6 +531,9 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-20 | Three further articles commissioned and registered at `DRAFTING` (#27, #8, #20). Reverse links recorded; covers IB-5/6/7 opened. **Route C confirmed as the active cover-sourcing route**; IB-AUDIT-1 logged as deferred. | Content workflow continued; covers resolved in parallel. |
+| 2026-09-20 | **D-3 resolved** — existing image library determined AI-generated via signed C2PA credentials. Recorded in `image.md` §7 and §16; Route D closed in the backlog. D-2 remains open and now points at licensed stock or own photography. | Forensic inspection of file provenance. |
+| 2026-09-20 | Four articles commissioned and registered in §3 at `DRAFTING` (#6, #7, #11, #13). Planned reverse links recorded in §6.1. [`image-backlog.md`](./image-backlog.md) created and linked from D-2. §4 Status values deliberately left unchanged to preserve the §11 parity check. | Articles written and QA’d; held pending cover images. |
 | 2026-09-20 | **D-7 resolved.** Approved decision applied: #23 consolidated into #6. `keywords.md` corrected (Article Map rows 6 and 23, cluster row H9, consolidation and accounting note). Registry updated: queue row 23 → `CONSOLIDATED → #6` with no slug, §4.1 rewritten as resolved, D-7 closed, counts restated as 45 IDs / 44 commissionable, §11 checks updated. | Resolves the `keywords.md` contradiction between H9 (consolidated) and Article Map row 23 (separate). |
 | 2026-09-20 | §3 renamed *Published articles* → *Active article records*; lifecycle corrected so a record exists from `DRAFTING` onward and only `PUBLISHED`/`UPDATED` imply a live URL (§0, §1, §3, §10, §11 aligned). §4.1 added recording the unresolved #6/#23 slug collision; #23 set to HELD with no slug. D-7 added. §11 rewritten as state-aware checks. | v1 lock review. |
 | 2026-09-20 | Registry created. Queue seeded with the 45 mapped opportunities from `keywords.md`; §5.1 populated from the money-page ownership tables; §7 ledgers built from the article statuses; §3, §5.2, §6.1 and §8 initialised empty. | Baseline. 0 published articles, verified against `/blog`. |

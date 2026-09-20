@@ -674,6 +674,9 @@ Run alongside the editorial QA in `content-rules.md` §24. **This checks shape, 
 - [ ] `relatedAreas` set only if genuinely justified
 - [ ] `seo.*` left empty unless there is a specific reason
 
+### CLAIM AUDIT
+- [ ] **The claim audit in `content-rules.md` §7 has been run** — absolutes, frequency hedges, timings, crew sizes, load quantities, availability, pricing, building practices, guarantees, disposal claims and implied experience all swept and sourced
+
 ### SEMANTIC COVERAGE (§9)
 - [ ] A Semantic Coverage Plan was completed **before** drafting
 - [ ] Primary entity, supporting entities and key concepts are all genuinely present in the article

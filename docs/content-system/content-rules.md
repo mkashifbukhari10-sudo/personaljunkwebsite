@@ -254,6 +254,36 @@ Dubai Municipality services and channels · waste regulations · dumping rules a
 - **If reliable verification is unavailable: do not guess.** Either omit the claim entirely and write the article without it, or keep the article blocked. There is no third option.
 - **Facts age.** Municipality services, numbers and rules change. Any article resting on them carries a re-check obligation — see §25.
 
+### The claim audit — mandatory before any article is approved
+
+**Every article gets a dedicated claim audit.** It is a separate pass, run against the finished draft, not something folded into general proofreading. Most unsupported statements enter an article as ordinary-sounding prose rather than as obvious assertions, and they are only visible when specifically hunted.
+
+**Sweep the draft for every instance of:**
+
+| Trigger | Examples of what to catch |
+|---|---|
+| **Absolute statements** | always · never · every · all · nothing · any |
+| **Frequency hedges** | usually · often · commonly · routinely · typically · most · plenty of · many · rarely |
+| **Time estimates** | “under an hour” · “half a day” · “within minutes” · “a fifteen-minute job” |
+| **Crew sizes** | “two crew” · “four or more” · “a three-crew job” |
+| **Truck and load quantities** | “one truckload” · “multiple loads” · “fits in one visit” |
+| **Availability and scheduling** | same-day · next-morning · weekend · out-of-hours · “slots available” |
+| **Pricing and quote promises** | any figure · “fixed” · “no change on the day” · “included” |
+| **Building and community practices** | “towers require…” · “gated communities set…” · NOC and permission norms |
+| **Operational guarantees** | “nothing is dumped” · “always protected” · “we handle…” |
+| **Disposal, reuse and recycling** | “passed on” · “licensed handlers” · “sorted at our yard” · “recycled” |
+| **Implied experience or frequency** | “the most common…” · “what we see most…” · “the usual cause…” · any superlative about how often something happens |
+
+**For each one found, in order:**
+
+1. **Verify it directly** against approved business facts or existing site copy.
+2. **Keep it only if genuinely supported** — and keep it in the form the source supports, not a stronger one.
+3. **If support is insufficient, soften it conditionally or remove it.** “Where a building requires…” beats “buildings require…”; removal beats a vague hedge.
+4. **Site copy alone is never proof of an external fact.** The business’s own pages are evidence of what the business *does*. They are **not** evidence of what Dubai buildings, communities, landlords or authorities require. An external claim needs a primary source (§7) or must be reframed as something the reader checks for themselves.
+5. **Do not add statistics, frequencies, timings or operational specifics to sound authoritative.** An article with fewer numbers and no invented detail is stronger, not weaker. If a specific was not in the source, it does not go in the article.
+
+> **The distinction that catches most errors:** *“where a tower requires a service-lift booking, we arrange it”* is a supported capability claim. *“most Dubai towers require a service-lift booking”* is an unverified claim about third-party buildings. The two read almost identically and are not remotely equivalent.
+
 ---
 
 ## §8 · Article status rules
@@ -739,6 +769,18 @@ Run this in full on every article. **Any failure blocks publication.**
 - [ ] Service capabilities confirmed with the business
 - [ ] Pricing confirmed where required — **no invented ranges**
 - [ ] No copied or closely paraphrased source text
+
+### CLAIM AUDIT (§7)
+
+- [ ] **Dedicated claim-audit pass run** against the finished draft — not folded into proofreading
+- [ ] Absolutes swept (always / never / every / all)
+- [ ] Frequency hedges swept (usually / often / commonly / routinely / typically / most / many)
+- [ ] Every time estimate, crew size and load quantity traced to an approved source
+- [ ] Every availability, scheduling and pricing statement traced to an approved source
+- [ ] **Building and community practices stated conditionally**, never generalised
+- [ ] Operational guarantees and disposal / reuse / recycling claims verified, or removed
+- [ ] No statement implying business experience or frequency that is not evidenced
+- [ ] **No specific added for authority** — every number and detail came from a source
 
 ### INTERNAL LINKS
 
