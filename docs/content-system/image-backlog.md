@@ -128,21 +128,30 @@ Restated only as operating constraints — the reasoning lives in `image.md`.
 
 ---
 
-## Blocker — no image can currently be produced
+## Blocker — image sourcing attempted 2026-09-20, all routes closed
 
-**Recorded honestly rather than worked around. All 21 image slots are `NEEDED` and none can be completed in the current setup.**
+**Sourcing was attempted properly, not assumed impossible. Every route was tested and each is genuinely unavailable from this environment.**
 
-| Route | Why it is unavailable |
+| Route attempted | Result |
 |---|---|
-| **A · Own photography** | None exists. Requires a shoot. |
-| **B · Creative Commons** | Possible in principle, but each candidate must be licence-verified on its source page and downloaded — and CC imagery of clearance work in interiors is scarce. Not attempted rather than guessed at. |
-| **C · Licensed stock** | Requires a stock account and a paid licence. Cannot be acquired here, and an unlicensed download would breach `image.md` §6. |
-| **D · Existing inventory** | Closed — AI-generated, barred for business depiction. |
-| **Generated editorial imagery** | **Permitted by policy as of 2026-09-20, but there is no image-generation tool available in this environment.** The permission is recorded and ready to use; the capability is absent. |
+| **Wikimedia Commons API** — the source already used for the 25 area photos | `commons.wikimedia.org` does not resolve (DNS blocked). `commons.m.wikimedia.org` resolves but 301-redirects to the blocked host. **Search and licence verification both impossible.** |
+| **upload.wikimedia.org** (file storage) | **Reachable** — files download fine. But without the description pages on `commons.wikimedia.org`, **a licence cannot be verified**, and `image.md` §6 requires verification on the source page. Downloading blind would breach it. |
+| **Openverse API** (Creative Commons aggregator) | Reachable and returned correctly-licensed results with full metadata — then began returning **HTTP 401**. Anonymous quota is exhausted; sustained use needs a registered API key. **No account was created on the business’s behalf.** |
+| **Pixabay / Unsplash / Pexels** | All require an API key. None available. |
+| **Generated editorial imagery** | **Permitted by `image.md` since 2026-09-20, but no image-generation tool exists in this environment.** Policy is ready; capability is absent. |
+| **Route D — existing library** | Closed. AI-generated, barred from depicting the business. |
 
-**What this does and does not block.** It does not block writing — content, claim audit, SEO, internal links, Payload drafts and tracking are all complete for the current batch, and the next batch can proceed. **It does block publication**, because `coverImage` is required by field validation and the three-image requirement is unmet.
+> **Nothing questionable was used.** No unverified image was downloaded, no provenance was invented, no licence was assumed, and no slot was marked complete. That is the correct outcome of this constraint, not a workaround failure.
 
-**To clear it, one of:** supply real photography · supply licensed stock files · generate the images elsewhere and provide the files · grant an environment with image generation. **Once files exist, upload, alt text, assignment and body insertion are straightforward and can be completed immediately.**
+**What clears it — any one of:**
+
+1. **An Openverse API key** (free, registered at openverse.org) — would immediately reopen properly-licensed CC sourcing at scale.
+2. **Network access to `commons.wikimedia.org`** — reopens the exact route already used for the area photography.
+3. **A stock account** (Unsplash/Pexels/Adobe) with an API key or downloaded files.
+4. **Image files supplied directly**, generated or photographed elsewhere.
+5. **An environment with image generation.**
+
+**Once files exist, the remaining work is quick and fully specified:** resize to ≤2400px, upload to Media, write alt text after inspecting each actual image, record attribution in `caption` plus the credits register, assign `coverImage` and `seo.ogImage`, and insert the body image at the position noted in each brief.
 
 ---
 
@@ -180,4 +189,5 @@ Restated only as operating constraints — the reasoning lives in `image.md`.
 | 2026-09-20 | **I-1 resolved — existing library is AI-generated (C2PA-confirmed). Route D closed permanently unless §7 is amended.** Route C recommended for all four briefs. |
 | 2026-09-20 | **Route C confirmed as the active sourcing route** for article covers. IB-AUDIT-1 logged as deferred work: audit of published images and misleading crew alt text. |
 | 2026-09-20 | IB-5, IB-6, IB-7 added for articles #27, #8, #20. Backlog now 7 covers outstanding. |
+| 2026-09-20 | **Sourcing attempted across five routes; all closed** (Commons DNS-blocked, Openverse 401, stock needs API keys, no generation tool). No unverified asset used. Blocker detail recorded above. |
 | 2026-09-20 | Restructured to **cover + OG + body per article** (21 slots). Generated editorial imagery permitted by `image.md`. **Blocker recorded: no image-generation tool and no licensed-stock access in this environment** — all 21 slots remain `NEEDED`. |

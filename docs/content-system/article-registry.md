@@ -134,9 +134,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 2 Claim audit | ✅ all seven — #6, #7, #11, #13 audited 2026-09-20 (13 fixes); #8, #20, #27 audited earlier |
 | 3 SEO | ✅ all seven — title, description, canonical on the production domain, `noIndex: false`, OG title, OG description. **OG image outstanding.** |
 | 4 Internal links | ✅ in-article. **Reverse inbound links identified but deliberately not applied** — see below |
-| 5 Images | ⛔ **0 of 21 slots** — see [`image-backlog.md`](./image-backlog.md) |
+| 5 Images | ⛔ **0 of 21 slots.** Sourcing attempted across five routes 2026-09-20; all closed. No unverified asset used. See [`image-backlog.md`](./image-backlog.md) |
 | 6 Payload draft | ✅ all seven |
-| 7 QA + tracking | ✅ content QA passed; image QA cannot pass |
+| 7 QA + tracking | ✅ **Full field + link QA re-run 2026-09-20: 7/7 pass on structure, content, links and SEO — zero broken internal links.** Image QA cannot pass. |
 
 > **Why reverse links are not applied yet.** The planned inbound links in §6.1 point from **live service pages** to article URLs that are still drafts. An unpublished post 404s, so applying them now would put broken links on live pages. **They are applied at publish, not before** — which is also when the orphan check in §6.3 becomes meaningful.
 
@@ -547,6 +547,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-20 | **Media pass attempted; image sourcing blocked.** Five routes tested (Commons DNS-blocked, Openverse 401 after quota, stock needs API keys, generation tool absent, Route D closed) — no asset sourced, none invented. Full Payload field and link QA re-run: **all seven pass everything except the three image fields; zero broken links.** Statuses unchanged at `DRAFTING`. | Completing media and final CMS work end-to-end. |
 | 2026-09-20 | **Batch completed through stage 4 of the production workflow.** Claim audit run on #6, #7, #11, #13 (13 corrections). Full SEO written for all seven — title, description, canonical, noIndex, OG title/description. Drafts updated in Payload. **Images remain the sole blocker (0 of 21 slots); reverse links held until publish to avoid live 404s.** | Applying the seven-stage workflow to the existing batch. |
 | 2026-09-20 | **All seven drafts imported into Payload** via `scripts/import-drafts.ts`; author record `Junk Services Dubai Team` created. All at `_status: draft`, 0 published, no cover images. **#6, #7, #11 and #13 predate the claim-audit rule and still need that pass before `REVIEW`.** | Articles moved from documents into the CMS. |
 | 2026-09-20 | Three further articles commissioned and registered at `DRAFTING` (#27, #8, #20). Reverse links recorded; covers IB-5/6/7 opened. **Route C confirmed as the active cover-sourcing route**; IB-AUDIT-1 logged as deferred. | Content workflow continued; covers resolved in parallel. |
