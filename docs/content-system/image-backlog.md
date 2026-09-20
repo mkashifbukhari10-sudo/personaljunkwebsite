@@ -62,96 +62,49 @@ Restated only as operating constraints — the reasoning lives in `image.md`.
 
 ---
 
-## Backlog
+## Completed assets — sourced, verified, uploaded
 
-**Every article needs three images:** a **cover**, an **OG/social** image, and at least **one in-content** image with distinct editorial value. Cover and OG may share one asset where the 1200×630 crop genuinely works — do not create a second asset merely to have one.
+**Route C (free licensed stock, Unsplash License — commercial use permitted, modification permitted, attribution not required).** Every image below was **visually inspected before use** and its alt text written from what is actually visible. Provenance recorded here because WebP conversion strips embedded metadata.
 
-**Status values:** `NEEDED` · `SOURCING` · `SELECTED` (chosen, awaiting inspection + alt) · `UPLOADED` (in Payload Media, alt written) · `ASSIGNED` (set on the post).
-
-**All 21 slots below are `NEEDED`.** Nothing has been sourced, generated, inspected, uploaded or assigned. See *Blocker* at the foot of this file.
-
-### IB-1 · `sofa-wont-fit-through-door-dubai` — Article #7
-
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
+| Media ID | File | Source | Photo ID | Licence | Used as | Alt text |
 |---|---|---|---|---|---|---|
-| **Cover** | A sofa angled in a doorway, wedged at the tight point — the constraint is the subject | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | A diagram-like or clear photo of the three measurements that matter: clear opening, sofa cross-section, corridor turn | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+| 69 | `empty-room-before-handover.webp` | Unsplash | `photo-1757742690834-aa581b9f53b2` | Unsplash License | #6 cover + OG | An empty room with a wooden floor and tall windows, cleared except for a small bracket left on the wall. |
+| 70 | `cut-palm-fronds-on-the-ground.webp` | Unsplash | `photo-1728011279859-c4b3bc096035` | Unsplash License | #13 cover + OG | A dense pile of cut palm fronds, green fading to yellow at the cut ends. |
+| 71 | `palm-tree-being-pruned.webp` | Unsplash | `photo-1781297770538-605dccdc52a7` | Unsplash License | #13 body | A tree worker roped to a palm trunk cutting fronds, with a chainsaw hanging on a rope below him. |
+| 72 | `pickup-truck-loaded-with-waste-final.webp` | Unsplash | `photo-1781425009053-2baffa997d8c` | Unsplash License | #11 cover + OG | A white pickup truck at a kerb, its open bed piled high with tied black rubbish bags. |
+| 73 | `laundry-room-cover-final.webp` | Unsplash | `photo-1646592474094-342fbc28736c` | Unsplash License | #20 cover + OG | A washer and dryer side by side in a plain utility room, with a sink beside them and hose connections on the wall behind. |
 
-### IB-2 · `end-of-tenancy-clearance-dubai` — Article #6
+**Processing applied:** covers cropped to 2400×1350 (entropy crop where the original was portrait), body image kept at intrinsic ratio, all converted to **WebP q82**, 150–537KB each. **Media 72 had a legible third-party number plate blurred out** before upload, per `image.md` §12.
 
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
-|---|---|---|---|---|---|---|
-| **Cover** | A part-emptied room mid-clearance — boxes and a few remaining items, clearly in transition | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | A storage room or above-wardrobe space still full — the spaces the article says get missed | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-
-### IB-3 · `palm-frond-disposal-dubai` — Article #13
-
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
-|---|---|---|---|---|---|---|
-| **Cover** | Cut fronds piled at a villa gate or driveway with the access route visible | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | An open truck being loaded with green waste — shows why the load travels uncovered | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-
-### IB-4 · `junk-gone-today-dubai` — Article #11
-
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
-|---|---|---|---|---|---|---|
-| **Cover** | A loaded or part-loaded truck kerbside mid-route — routing, not a posed crew | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | A phone showing a photo being sent of items to be collected — the four things to send | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-
-### IB-5 · `villa-handover-clearance-dubai` — Article #27
-
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
-|---|---|---|---|---|---|---|
-| **Cover** | A villa interior or driveway mid-clearance — must read as scale | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | A storage room under stairs, garage corner or roof terrace — a space the article names | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-
-### IB-6 · `service-lift-booking-dubai` — Article #8
-
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
-|---|---|---|---|---|---|---|
-| **Cover** | A goods/service lift with its interior protected, doors open | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | A stairwell landing with a bulky item mid-carry — the no-lift case | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-
-### IB-7 · `washing-machine-removal-dubai` — Article #20
-
-| Purpose | Subject brief | Crop | Route | Provenance | Alt text | Payload |
-|---|---|---|---|---|---|---|
-| **Cover** | A washing machine pulled out from its recess, hoses visible, tight space obvious | Landscape ≥1600px, subject centred, focal point set | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
-| **OG** | May reuse the cover if the 1200×630 focal crop holds | 1200×630 | As cover | As cover | ⛔ after inspection | `NEEDED` |
-| **Body** | The disconnection point — supply and waste hoses at the wall | Any ratio, ~720px render | C or generated editorial | To record on selection | ⛔ after inspection | `NEEDED` |
+**Cover doubles as OG** on all four — the 2400×1350 source crops cleanly to 1200×630, so no duplicate asset was created.
 
 ---
 
-## Blocker — image sourcing attempted 2026-09-20, all routes closed
+## Rejected on inspection — not used
 
-**Sourcing was attempted properly, not assumed impossible. Every route was tested and each is genuinely unavailable from this environment.**
+Four candidates were downloaded and inspected, then rejected rather than used weakly:
 
-| Route attempted | Result |
-|---|---|
-| **Wikimedia Commons API** — the source already used for the 25 area photos | `commons.wikimedia.org` does not resolve (DNS blocked). `commons.m.wikimedia.org` resolves but 301-redirects to the blocked host. **Search and licence verification both impossible.** |
-| **upload.wikimedia.org** (file storage) | **Reachable** — files download fine. But without the description pages on `commons.wikimedia.org`, **a licence cannot be verified**, and `image.md` §6 requires verification on the source page. Downloading blind would breach it. |
-| **Openverse API** (Creative Commons aggregator) | Reachable and returned correctly-licensed results with full metadata — then began returning **HTTP 401**. Anonymous quota is exhausted; sustained use needs a registered API key. **No account was created on the business’s behalf.** |
-| **Pixabay / Unsplash / Pexels** | All require an API key. None available. |
-| **Generated editorial imagery** | **Permitted by `image.md` since 2026-09-20, but no image-generation tool exists in this environment.** Policy is ready; capability is absent. |
-| **Route D — existing library** | Closed. AI-generated, barred from depicting the business. |
+| Candidate | Intended | Why rejected |
+|---|---|---|
+| Man carrying a striped mattress along a path | #7 cover | Wrong item (mattress, not sofa) and **German street signage** — visibly not Dubai, and the article is about doorways, not outdoor carrying |
+| Styled laundry corner with a washing machine | #20 body | **Visible third-party “PlanetCare” branding**, and a styled product shot rather than the tight recess the article describes |
+| Lift car interior, stainless doors | #8 cover | **Legible Washington DC regulatory notice and phone number** — a location contradiction and a legible document under §12 |
+| Discarded sofa outside a brick building | #7 body | Held — usable, but without a matching cover it would leave the article with a body image and no cover |
 
-> **Nothing questionable was used.** No unverified image was downloaded, no provenance was invented, no licence was assumed, and no slot was marked complete. That is the correct outcome of this constraint, not a workaround failure.
+---
 
-**What clears it — any one of:**
+## Outstanding slots
 
-1. **An Openverse API key** (free, registered at openverse.org) — would immediately reopen properly-licensed CC sourcing at scale.
-2. **Network access to `commons.wikimedia.org`** — reopens the exact route already used for the area photography.
-3. **A stock account** (Unsplash/Pexels/Adobe) with an API key or downloaded files.
-4. **Image files supplied directly**, generated or photographed elsewhere.
-5. **An environment with image generation.**
+| Article | Slot | Status |
+|---|---|---|
+| #7 sofa-wont-fit-through-door | cover, OG, body | `NEEDED` — no suitable stock found for a sofa at a doorway constraint |
+| #8 service-lift-booking | cover, OG, body | `NEEDED` — lift interiors found carry foreign regulatory signage |
+| #27 villa-handover-clearance | cover, OG, body | `NEEDED` — not yet sourced |
+| #6 end-of-tenancy | body | `NEEDED` |
+| #11 junk-gone-today | body | `NEEDED` |
+| #20 washing-machine-removal | body | `NEEDED` |
 
-**Once files exist, the remaining work is quick and fully specified:** resize to ≤2400px, upload to Media, write alt text after inspecting each actual image, record attribution in `caption` plus the credits register, assign `coverImage` and `seo.ogImage`, and insert the body image at the position noted in each brief.
+**These are the slots where generated editorial imagery is now the better route** (`image.md`, *Editorial imagery for articles*) — a sofa wedged in a doorway and a protected goods lift are both specific enough that generic stock keeps failing the relevance test.
 
 ---
 
