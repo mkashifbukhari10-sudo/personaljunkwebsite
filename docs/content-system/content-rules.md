@@ -712,25 +712,27 @@ The final content must be **independently written** from an understanding of the
 
 ## §22 · Article depth
 
-**There is no universal word-count requirement.** Not 1,000. Not 1,500. Not 2,000.
+**Owner requirement, saved 2026-09-21: every blog article must contain at least 2,000 words before publication, including the four existing published articles being revised.** This replaces the previous rule that there was no universal minimum. It is an editorial requirement, not a claim that search engines require 2,000 words.
 
 ### The rule
 
-**Length follows search intent and topic complexity.** An article should be as long as necessary to answer the query properly — **and no longer.**
+**2,000 words is the minimum, not the target quality score.** Within that minimum, structure and coverage must still follow the mapped search intent. Longer articles are appropriate when the topic genuinely needs more explanation.
+
+Count the stored article body only: paragraphs, headings, list items, blockquotes and any useful FAQ questions/answers. Exclude the title, excerpt, metadata, author bio, TOC, image alt text/captions, related cards, navigation and automatic CTA/footer. Count visible words once, not HTML markup or repeated formatting fragments. Use `npm run check:article-length -- path/to/article.json` on a Lexical document or exported post before publication.
 
 - **Do not inflate** with filler, restated points, padded introductions, unnecessary background or summary sections that add nothing.
 - **Do not artificially shorten** a complex topic. A genuinely complicated subject — villa clearance logistics, e-waste rules — needs the room to be correct.
-- **Useful coverage beats word count**, always.
+- **Both useful coverage and the minimum are required.** Add relevant explanations, practical steps, decision criteria, limitations and useful examples; never invent claims or expand into another page's keyword ownership. If the topic cannot support 2,000 useful words, keep it unpublished and revisit its scope rather than padding it or silently waiving the minimum.
 
 ### Practical guidance
 
 | Article type | Typical shape |
 |---|---|
-| Single-item disposal ("how to get rid of a mattress") | Short and direct. The answer, the options, the constraints. |
-| Problem/troubleshooting ("sofa won't fit") | Short to medium. Diagnosis, options, what happens next. |
-| Rules / regulatory | Medium. Accuracy and sourcing matter far more than length. |
-| Comparison | Medium. Structured, honest, with a clear decision path. |
-| Pillar guide | Longer, because it genuinely covers more — never because it is a pillar. |
+| Single-item disposal ("how to get rid of a mattress") | At least 2,000 words. Answer early, then explain relevant options, preparation and constraints. |
+| Problem/troubleshooting ("sofa won't fit") | At least 2,000 words. Diagnosis, decision criteria, options and next steps. |
+| Rules / regulatory | At least 2,000 words. Verified requirements, applicability and practical steps; never invent facts to increase length. |
+| Comparison | At least 2,000 words. Structured, honest alternatives with a clear decision path. |
+| Pillar guide | At least 2,000 words; go longer only when useful coverage requires it. |
 
 **If a section could be deleted without the reader losing anything, delete it.** This applies to the conclusion more often than anywhere else.
 
@@ -790,7 +792,7 @@ Run this in full on every article. **Any failure blocks publication.**
 - [ ] **No unsupported business claims** — capability, availability, certification, partnership
 - [ ] No keyword stuffing; no paragraph exists to host a keyword
 - [ ] No unnecessary repetition; nothing that could be deleted without loss
-- [ ] Length matches intent — not padded, not truncated
+- [ ] Body contains **at least 2,000 words**, verified with `check:article-length`; scope matches intent without padding or truncation
 - [ ] Author is a real person
 
 ### FACTS

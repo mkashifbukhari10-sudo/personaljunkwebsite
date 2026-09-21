@@ -15,6 +15,7 @@
     "seed:images": "payload run scripts/seed-images.ts --",
     "check:links": "node scripts/check-links.mjs",
     "check:blog": "node scripts/check-blog-renderer.mjs && node scripts/check-blog.mjs",
+    "check:article-length": "node scripts/check-article-length.mjs",
     "check:content": "node scripts/check-content.mjs"
   },
   "dependencies": {

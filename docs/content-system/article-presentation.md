@@ -35,11 +35,21 @@ Use meaningful body images where appropriate under the existing image rules; nev
 
 Before publishing or changing the renderer:
 
+- Every future article must have at least **2,000 stored body words**, under `content-rules.md` §22. Run `npm run check:article-length -- path/to/article.json` before publishing; title, excerpt, TOC, metadata, image text and automatic site sections do not count. This is a required editorial QA check, not a new CMS field or automatic Payload publish guard.
+
 - Check the listing and article at desktop, tablet and mobile widths: readable measure, no overflow, sensible crops, reserved image space and visible captions.
 - Follow every TOC link, including duplicate headings and FAQ questions. Operate TOC/FAQ disclosures with keyboard Enter/Space and confirm visible focus.
 - Check card hover/focus color, whole-card navigation and reduced motion.
 - Verify alt text, image loading, primary service relationships and relevant related articles.
 - Confirm one H1, valid heading order, metadata/canonical, BlogPosting and breadcrumbs; no article FAQPage schema. Check sitemap and internal links.
 - Run the production build, `npm run check:blog`, `npm run check:content` and `npm run check:links` against the local production server. Record any environment blockers truthfully.
+
+## Article structure and SEO
+
+Each article must answer its mapped query in the opening paragraphs, retain one descriptive page H1, and use useful H2 sections with H3 subsections only where needed. Use short paragraphs and lists for genuinely parallel information. A tenancy timeline, an urgent-collection decision guide and an appliance checklist should not share an artificial set of identical headings.
+
+Keep the primary service link contextual, add supporting service/article links only when they help the next decision, and preserve canonical/keyword ownership. Give factual sources where needed; never invent operating times, prices, credentials, customer stories or disposal outcomes. FAQs must add distinct reader value and retain the existing no-FAQPage-schema rule. Cover/body images, alt text, authorship, dates, metadata and responsive QA remain part of publishing quality.
+
+The 2,000-word minimum is the owner's editorial standard. Google's [SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide) supports useful, clearly organised content and states that length alone is not a ranking factor; no ranking improvement is promised from reaching a number. These principles were checked on 2026-09-21.
 
 This is a presentation standard, not permission to publish content or modify the CMS model.

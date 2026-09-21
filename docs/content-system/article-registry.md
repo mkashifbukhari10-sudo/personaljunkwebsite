@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-09-20:** **0 published articles · 7 in progress (`DRAFTING`).** `/blog` shows its empty state, verified against the live site. §4 is a queue, not a record — **45 mapped IDs, 44 independently commissionable.**
+**Current state as at 2026-09-21:** **7 published articles, all with at least 2,000 stored body words.** The four existing posts were expanded and the three owner-deleted drafts were recreated as fresh articles with generated editorial cover and body images. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,35 +112,19 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**7 records, all `DRAFTING`. 0 published.** `/blog` still renders its empty state — correctly, since no record has reached `PUBLISHED`.
+**7 published records as of 2026-09-21.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 7 | `sofa-wont-fit-through-door-dubai` | Your Sofa Won’t Fit Through the Door. Here’s What Actually Happens Next | sofa won’t fit through door dubai | SC1 | G | `sofa-removal` | — | `DRAFTING` | — | — | none | `/services/sofa-removal` (planned) | Cover: IB-1 |
-| 6 | `end-of-tenancy-clearance-dubai` | End of Tenancy in Dubai: What Has to Be Gone Before Handover | end of tenancy clearance dubai | SC3 | F | `house-clearance` | — | `DRAFTING` | — | — | none | `/services/house-clearance` (planned) | Absorbs #23. Cover: IB-2 |
-| 13 | `palm-frond-disposal-dubai` | What to Do With Palm Fronds in Dubai | palm frond removal dubai | SC1 | A | `garden-waste-removal` | — | `DRAFTING` | — | — | none | `/services/garden-waste-removal` (planned) | Cover: IB-3 |
-| 11 | `junk-gone-today-dubai` | Need It Gone Today? What’s Actually Possible in Dubai, and By When | need junk gone today dubai | SC3 | E | `same-day-junk-removal` | — | `DRAFTING` | — | — | none | `/services/same-day-junk-removal` (planned) | C-2 watch. Cover: IB-4 |
-| 27 | `villa-handover-clearance-dubai` | Villa Handover: What Has to Be Gone Before Inspection | villa handover clearance dubai | SC3 | F | `villa-clearance` | — | `DRAFTING` | — | — | none | `/services/villa-clearance` (planned) | C-8 boundary held. Cover: IB-5 |
-| 8 | `service-lift-booking-dubai` | Service Lift Booking in Dubai Buildings: How It Actually Works | junk removal service lift dubai | SC4 | G | `residential-junk-removal` | — | `DRAFTING` | — | — | none | `/services/residential-junk-removal` (planned) | Reserved territory from #7. Cover: IB-6 |
-| 20 | `washing-machine-removal-dubai` | Washing Machine Removal in Dubai: What the Crew Needs to Know First | washing machine removal dubai | SC1 | A | `appliance-disposal` | — | `DRAFTING` | — | — | none | `/services/appliance-disposal` (planned) | Disposal-chain claims omitted (#16 capability-blocked). Cover: IB-7 |
+| 6 | `end-of-tenancy-clearance-dubai` | End of Tenancy in Dubai: What Has to Be Gone Before Handover | end of tenancy clearance dubai | SC3 | F | `house-clearance` | — | `UPDATED` | 2026-09-20 | 2026-09-21 | none | `/blog/washing-machine-removal-dubai` | 2233 body words; cover and metadata preserved. |
+| 13 | `palm-frond-disposal-dubai` | What to Do With Palm Fronds in Dubai | palm frond removal dubai | SC1 | A | `garden-waste-removal` | — | `UPDATED` | 2026-09-20 | 2026-09-21 | sourced | `/blog/end-of-tenancy-clearance-dubai` | 2403 body words; cover and metadata preserved. |
+| 11 | `junk-gone-today-dubai` | Need It Gone Today? What’s Actually Possible in Dubai, and By When | need junk gone today dubai | SC3 | E | `same-day-junk-removal` | — | `UPDATED` | 2026-09-20 | 2026-09-21 | none | `/blog/washing-machine-removal-dubai` | 2323 body words; cover and metadata preserved. |
+| 20 | `washing-machine-removal-dubai` | Washing Machine Removal in Dubai: What the Crew Needs to Know First | washing machine removal dubai | SC1 | A | `appliance-disposal` | — | `UPDATED` | 2026-09-20 | 2026-09-21 | sourced | `/blog/end-of-tenancy-clearance-dubai` | 2362 body words; cover and metadata preserved. |
+| 7 | `sofa-wont-fit-through-door-dubai` | Your Sofa Won't Fit Through the Door. Here's What Actually Happens Next | sofa won't fit through door dubai | SC1 | G | `sofa-removal` | — | `PUBLISHED` | 2026-09-21 | 2026-09-21 | none | `/blog/service-lift-booking-dubai` | 2022 body words; generated cover + body illustration. |
+| 8 | `service-lift-booking-dubai` | Service Lift Booking in Dubai Buildings: How It Actually Works | junk removal service lift dubai | SC4 | G | `residential-junk-removal` | — | `PUBLISHED` | 2026-09-21 | 2026-09-21 | none | `/blog/sofa-wont-fit-through-door-dubai` | 2090 body words; generated cover + body illustration. |
+| 27 | `villa-handover-clearance-dubai` | Villa Handover: What Has to Be Gone Before Inspection | villa handover clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-09-21 | 2026-09-21 | none | `/blog/end-of-tenancy-clearance-dubai` | 2116 body words; generated cover + body illustration. |
 
-*All seven exist in Payload as **drafts** (`_status: draft`, 0 published). **Content, claim audit, internal links, SEO fields and Payload relationships are complete.** Drafts are excluded from `lib/content/posts.js` (`publishedOnly: true`) and from `generateStaticParams`, so none is publicly reachable.*
-
-**Per-article completion against the seven-stage workflow** (`content-rules.md`):
-
-| Stage | State |
-|---|---|
-| 1 Content | ✅ all seven |
-| 2 Claim audit | ✅ all seven — #6, #7, #11, #13 audited 2026-09-20 (13 fixes); #8, #20, #27 audited earlier |
-| 3 SEO | ✅ all seven — title, description, canonical on the production domain, `noIndex: false`, OG title, OG description. **OG image outstanding.** |
-| 4 Internal links | ✅ in-article. **Reverse inbound links identified but deliberately not applied** — see below |
-| 5 Images | ⚠ **9 of 21 slots done.** 5 assets sourced (Unsplash, licence-verified), inspected, processed to WebP, uploaded to Media (ids 69–73) and assigned. **#6, #11, #13, #20 have cover + OG; #13 also has a body image.** #7, #8, #27 have none. See [`image-backlog.md`](./image-backlog.md) |
-| 6 Payload draft | ✅ all seven |
-| 7 QA + tracking | ✅ **Full field + link QA re-run: 7/7 pass on structure, content, links and SEO — zero broken internal links.** Image QA passes for 4 of 7. |
-
-> **Why reverse links are not applied yet.** The planned inbound links in §6.1 point from **live service pages** to article URLs that are still drafts. An unpublished post 404s, so applying them now would put broken links on live pages. **They are applied at publish, not before** — which is also when the orphan check in §6.3 becomes meaningful.
-
-**All seven stay `DRAFTING`.** Four (#6, #11, #13, #20) now have cover and OG images and are close to publishable — they still lack a body image, which the workflow requires. Three (#7, #8, #27) have no imagery at all. Nothing is marked complete that is not.
+The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
 ---
 
@@ -154,7 +138,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Commissioned and now tracked in §3:** #6 · #7 · #8 · #11 · #13 · #20 · #27. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #6 · #7 · #8 · #11 · #13 · #20 · #27. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -274,11 +258,14 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-**Currently empty.** Each published article adds exactly one row.
+Four existing articles are published; their keyword ownership is unchanged.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
-| — | *No claims yet* | — | — |
+| end of tenancy clearance dubai | `/blog/end-of-tenancy-clearance-dubai` | 6 | 2026-09-20 |
+| palm frond removal dubai | `/blog/palm-frond-disposal-dubai` | 13 | 2026-09-20 |
+| need junk gone today dubai | `/blog/junk-gone-today-dubai` | 11 | 2026-09-20 |
+| washing machine removal dubai | `/blog/washing-machine-removal-dubai` | 20 | 2026-09-20 |
 
 ### 5.3 · Reserved by the queue
 
@@ -301,7 +288,7 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 
 ### 6.1 · Inbound links to articles
 
-**Currently empty.**
+**Service-page plans below are not verified as applied. Current contextual article links are recorded after this table.**
 
 | Article | Inbound from | Type | Anchor used | Applied |
 |---|---|---|---|---|
@@ -312,6 +299,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #27 `villa-handover-clearance-dubai` | `/services/villa-clearance` § “Every part of the villa” | service | “the spaces that get missed” | ☐ planned |
 | #8 `service-lift-booking-dubai` | `/services/residential-junk-removal` § “Building permissions and service lifts” | service | “how a lift booking actually works” | ☐ planned |
 | #20 `washing-machine-removal-dubai` | `/services/appliance-disposal` § “Strapped, trolleyed, out in one visit” | service | “what to check before the crew arrives” | ☐ planned |
+
+Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
 *Type:* `service` · `area` · `article` · `pillar`.
 *Anchor used* is recorded so that `content-rules.md` §14's anchor-diversity rule can actually be checked across the corpus — the only way to notice the same exact-match anchor appearing six times is to have written them all down.

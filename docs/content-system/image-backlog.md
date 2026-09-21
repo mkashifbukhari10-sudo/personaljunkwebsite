@@ -78,6 +78,19 @@ Restated only as operating constraints — the reasoning lives in `image.md`.
 
 **Cover doubles as OG** on all four — the 2400×1350 source crops cleanly to 1200×630, so no duplicate asset was created.
 
+### Generated editorial imagery — 2026-09-21
+
+Created with OpenAI's built-in image-generation tool under `image.md` §7. These are generic, unbranded editorial illustrations; they do not depict Junk Services Dubai, its crew, vehicles, customers or completed work. Every file was visually inspected before upload. Covers were cropped to 1920×1080 WebP; body images retain their generated 1536×1024 ratio.
+
+| File | Used as | Alt text |
+|---|---|---|
+| `sofa-doorway-cover.webp` | #7 cover + OG | A large beige corner sofa positioned across a narrow apartment doorway. |
+| `sofa-route-measurement.webp` | #7 body | A top-down illustration of a sofa and doorway route with measuring tapes and turning arrows. |
+| `service-lift-cover.webp` | #8 cover + OG | An open padded goods lift in a modern building with an empty flatbed trolley outside. |
+| `service-lift-protection.webp` | #8 body | A goods lift interior protected with blue wall pads and an empty trolley. |
+| `villa-handover-cover.webp` | #27 cover + OG | A mostly empty villa living room with a small group of household items ready to be removed. |
+| `villa-clearance-groups.webp` | #27 body | Household items grouped beside a clear route through a villa to an open patio. |
+
 ---
 
 ## Rejected on inspection — not used
@@ -97,9 +110,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Article | Slot | Status |
 |---|---|---|
-| #7 sofa-wont-fit-through-door | cover, OG, body | `NEEDED` — no suitable stock found for a sofa at a doorway constraint |
-| #8 service-lift-booking | cover, OG, body | `NEEDED` — lift interiors found carry foreign regulatory signage |
-| #27 villa-handover-clearance | cover, OG, body | `NEEDED` — not yet sourced |
+| #7 sofa-wont-fit-through-door | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
+| #8 service-lift-booking | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
+| #27 villa-handover-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -138,6 +151,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-09-21 | Generated, inspected and uploaded cover + body editorial imagery for #7, #8 and #27. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-20 | Backlog created. IB-1 to IB-4 registered at `NEEDED`. Route D recorded as blocked pending I-1. |
 | 2026-09-20 | **I-1 resolved — existing library is AI-generated (C2PA-confirmed). Route D closed permanently unless §7 is amended.** Route C recommended for all four briefs. |
 | 2026-09-20 | **Route C confirmed as the active sourcing route** for article covers. IB-AUDIT-1 logged as deferred work: audit of published images and misleading crew alt text. |

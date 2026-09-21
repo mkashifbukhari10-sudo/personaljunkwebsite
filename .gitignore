@@ -9,3 +9,4 @@ media
 *.db-journal
 .DS_Store
 *.tsbuildinfo
+/.article-backups/

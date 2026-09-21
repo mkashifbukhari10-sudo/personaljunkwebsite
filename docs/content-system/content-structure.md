@@ -426,7 +426,7 @@ A subtopic earns its place only if a reader genuinely needs it **for this intent
 1. **Removal test** — if this subtopic were cut, would the reader still get a complete answer? If yes, cut it.
 2. **Ownership test** — would a reader searching for this subtopic be better served by a different page on this site? If yes, link, don't explain.
 
-Article length still follows intent and complexity (`content-rules.md` §22). **A coverage plan is not a licence to lengthen.**
+Every future article must have **at least 2,000 body words** (`content-rules.md` §22). Plan enough useful coverage within the mapped intent to meet that minimum. **A coverage plan is not a licence to pad, fabricate facts or take over another page's intent.**
 
 ---
 
@@ -689,6 +689,7 @@ Run alongside the editorial QA in `content-rules.md` §24. **This checks shape, 
 - [ ] Likely follow-up questions are answered, sent to an FAQ (§13), or deliberately linked elsewhere
 - [ ] Dubai-specific context is genuinely relevant **and** verified (or annotated and blocked)
 - [ ] **Out-of-scope row honoured** — no drift into another page’s intent; those concepts are linked, not explained
+- [ ] **At least 2,000 body words**, checked using `npm run check:article-length -- path/to/article.json`
 - [ ] **No coverage padding** — nothing added to appear comprehensive, no forced synonyms, no related-phrase insertion
 
 > **The coverage question, asked last:**
