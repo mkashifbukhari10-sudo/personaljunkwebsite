@@ -188,7 +188,8 @@ html { scroll-behavior: smooth; }
   .jk-card, .jk-card-title, .jk-card-media img, .jk-toc-link, .jk-toc-chev, .jk-faq-sign { transition: none; }
 }
 
-.jk-post-card { position: relative; }
+.jk-post-card { position: relative; border-radius: 18px 18px 0 0; overflow: hidden; }
+.jk-post-card .jk-card-media { border-radius: 18px 18px 0 0; }
 .jk-post-card .jk-card-title::after { content: ''; position: absolute; inset: 0; }
 .jk-post-card:focus-within { outline: 2px solid #855F1E !important; outline-offset: 4px; }
 .jk-article-grid > * { min-width: 0; }
@@ -196,6 +197,11 @@ html { scroll-behavior: smooth; }
 .jk-article-content li > p:last-child { margin-bottom: 0 !important; }
 .jk-article-content figcaption { padding: 0 12px 10px; }
 .jk-article-grid-solo { grid-template-columns: minmax(0, 1fr); }
+
+.jk-blog-highlights-heading { align-items: flex-end; display: flex; flex-wrap: wrap; gap: 18px; justify-content: space-between; margin-bottom: 32px; }
+.jk-blog-highlights-grid { display: grid; gap: 22px; grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 900px) { .jk-blog-highlights-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 640px) { .jk-blog-highlights-grid { grid-template-columns: minmax(0, 1fr); } }
 .jk-article-grid-solo .jk-article-aside { display: none; }
 .jk-faq > summary { color: #101726; }
 .jk-faq summary:focus-visible, .jk-toc-summary:focus-visible { outline: 2px solid #855F1E; outline-offset: 4px; }
