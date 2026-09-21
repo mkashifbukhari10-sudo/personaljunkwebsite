@@ -57,7 +57,7 @@ async function templateFor(key) {
   if (key.startsWith('post-')) {
     const post = await getPostBySlug(key.slice('post-'.length));
     if (post) {
-      const photo = (post.seo && post.seo.ogImage) || post.coverImage || null;
+      const photo = (post.seo && post.seo.ogImage) || post.coverOgImage || post.coverImage || null;
       return <OgTemplate logo={logo} eyebrow="From the blog" title={post.title} line={post.excerpt} photo={await loadOgPhoto(photo)} />;
     }
   }
