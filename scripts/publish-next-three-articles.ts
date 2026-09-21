@@ -69,7 +69,7 @@ if (apply) {
     for (const [filename, alt, role] of [[spec.cover, spec.coverAlt, 'cover'], [spec.body, spec.bodyAlt, 'body']] as const) {
       const seedKey = `article-${spec.slug}-${role}`;
       const { docs } = await api.find({ collection: 'media', where: { seedKey: { equals: seedKey } }, limit: 1, depth: 0, overrideAccess: true });
-      const media = docs[0] || await api.create({ collection: 'media', data: { alt, caption: 'AI-generated editorial illustration.', seedKey }, filePath: path.join(imageDir, filename), overrideAccess: true });
+      const media = docs[0] || await api.create({ collection: 'media', data: { alt, seedKey }, filePath: path.join(imageDir, filename), overrideAccess: true });
       mediaIds.set(filename, media.id);
     }
   }

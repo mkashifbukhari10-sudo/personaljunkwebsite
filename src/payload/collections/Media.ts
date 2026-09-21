@@ -83,7 +83,16 @@ export const Media: CollectionConfig = {
           'Describe the photo for someone who cannot see it — "Two Junk Services Dubai crew carrying a grey sofa into a covered truck". No keyword lists.'
       }
     },
-    { name: 'caption', type: 'text', admin: { description: 'Optional. Shown under the image where the layout allows it.' } },
+    {
+      name: 'caption',
+      type: 'text',
+      admin: { description: 'Optional. Shown under the image where the layout allows it.' },
+      hooks: {
+        beforeChange: [
+          ({ value }) => (typeof value === 'string' && /\bAI[- ]generated\b/i.test(value) ? null : value)
+        ]
+      }
+    },
     // Set by scripts/seed-images.ts so a re-run finds the document it created
     // even after Payload has renamed the file ("x.jpg" -> "x-1.jpg"). Hidden
     // from editors; empty on anything uploaded through the admin.
