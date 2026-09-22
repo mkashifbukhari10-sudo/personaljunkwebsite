@@ -90,6 +90,12 @@ Created with OpenAI's built-in image-generation tool under `image.md` §7. These
 | `service-lift-protection.webp` | #8 body | A goods lift interior protected with blue wall pads and an empty trolley. |
 | `villa-handover-cover.webp` | #27 cover + OG | A mostly empty villa living room with a small group of household items ready to be removed. |
 | `villa-clearance-groups.webp` | #27 body | Household items grouped beside a clear route through a villa to an open patio. |
+| `mattress-disposal-cover.webp` | #9 cover + OG | A used mattress standing upright beside an open bedroom doorway in a bright apartment. |
+| `mattress-route-preparation.webp` | #9 body | A covered mattress beside a measured doorway and a clear apartment corridor. |
+| `bulky-item-tower-cover.webp` | #14 cover + OG | A large wrapped cabinet on a trolley beside an open padded service lift in an apartment tower corridor. |
+| `tower-route-measurement.webp` | #14 body | A top-down apartment route with a cabinet, doorways, corridor turns and lift opening marked by measuring tapes. |
+| `old-sofa-delivery-cover.webp` | #17 cover + OG | An old beige sofa prepared for removal beside an open apartment doorway and a cleared living-room space. |
+| `sofa-delivery-route.webp` | #17 body | A top-down apartment plan showing a sofa route through a measured doorway and corridor to a lift. |
 
 ---
 
@@ -113,6 +119,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #7 sofa-wont-fit-through-door | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
 | #8 service-lift-booking | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
 | #27 villa-handover-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
+| #9 mattress-disposal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-22 |
+| #14 bulky-items-tower | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-22 |
+| #17 old-sofa-before-new-delivery | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-22 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -151,6 +160,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-09-22 | Generated, inspected and uploaded cover + body editorial imagery for #9, #14 and #17. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-21 | Generated, inspected and uploaded cover + body editorial imagery for #7, #8 and #27. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-20 | Backlog created. IB-1 to IB-4 registered at `NEEDED`. Route D recorded as blocked pending I-1. |
 | 2026-09-20 | **I-1 resolved — existing library is AI-generated (C2PA-confirmed). Route D closed permanently unless §7 is amended.** Route C recommended for all four briefs. |
