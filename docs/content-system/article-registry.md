@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-09-22:** **10 published articles, all with at least 2,000 stored body words.** The latest three cover mattress disposal, bulky-item tower access and old-sofa removal before replacement delivery. §4 remains the keyword opportunity queue.
+**Current state as at 2026-09-23:** **13 published articles, all with at least 2,000 stored body words.** The latest three cover wardrobe removal, collection-day preparation and skip-hire comparison. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**10 published records as of 2026-09-22.**
+**13 published records as of 2026-09-23.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -126,6 +126,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 9 | `mattress-disposal-dubai` | Mattress Disposal in Dubai: Plan the Whole Route | mattress removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-22 | 2026-09-22 | none | `/blog/old-sofa-before-new-delivery-dubai` | 2217 body words; generated cover + body illustration. |
 | 14 | `bulky-items-tower-dubai` | Getting Bulky Items Out of a Dubai Tower | getting bulky items out of a tower dubai | SC4 | G | `residential-junk-removal` | — | `PUBLISHED` | 2026-09-22 | 2026-09-22 | none | `/blog/old-sofa-before-new-delivery-dubai` | 2132 body words; generated cover + body illustration. |
 | 17 | `old-sofa-before-new-delivery-dubai` | Remove the Old Sofa Before the New One Arrives | remove old sofa before new delivery dubai | SC1 | G | `sofa-removal` | — | `PUBLISHED` | 2026-09-22 | 2026-09-22 | none | `/blog/mattress-disposal-dubai` | 2249 body words; generated cover + body illustration. |
+| 21 | `wardrobe-removal-dubai` | Wardrobe Removal in Dubai: Dismantle or Move It Whole? | wardrobe removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-23 | 2026-09-23 | none | `/blog/before-the-crew-arrives-dubai` | 2114 body words; generated cover + body illustration. |
+| 28 | `before-the-crew-arrives-dubai` | Before the Junk Removal Crew Arrives: A Practical Checklist | what to do before junk removal arrives dubai | SC5 | G | `how-it-works` | — | `PUBLISHED` | 2026-09-23 | 2026-09-23 | none | `/blog/wardrobe-removal-dubai` | 2128 body words; generated cover + body illustration. |
+| 29 | `skip-hire-vs-junk-removal-dubai` | Skip Hire or Junk Removal? Choose the Right Setup | skip hire alternative dubai | SC5 | G | `waste-removal` | — | `PUBLISHED` | 2026-09-23 | 2026-09-23 | none | `/blog/before-the-crew-arrives-dubai` | 2354 body words; generated cover + body illustration. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -141,7 +144,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #27. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -261,7 +264,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Ten articles are published; each primary keyword has one owner.
+Thirteen articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -275,6 +278,9 @@ Ten articles are published; each primary keyword has one owner.
 | mattress removal dubai | `/blog/mattress-disposal-dubai` | 9 | 2026-09-22 |
 | getting bulky items out of a tower dubai | `/blog/bulky-items-tower-dubai` | 14 | 2026-09-22 |
 | remove old sofa before new delivery dubai | `/blog/old-sofa-before-new-delivery-dubai` | 17 | 2026-09-22 |
+| wardrobe removal dubai | `/blog/wardrobe-removal-dubai` | 21 | 2026-09-23 |
+| what to do before junk removal arrives dubai | `/blog/before-the-crew-arrives-dubai` | 28 | 2026-09-23 |
+| skip hire alternative dubai | `/blog/skip-hire-vs-junk-removal-dubai` | 29 | 2026-09-23 |
 
 ### 5.3 · Reserved by the queue
 
@@ -311,6 +317,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #9 `mattress-disposal-dubai` | `/blog/old-sofa-before-new-delivery-dubai` | article | “mattress disposal” | ☑ applied |
 | #14 `bulky-items-tower-dubai` | `/blog/old-sofa-before-new-delivery-dubai` | article | “bulky-item tower checklist” | ☑ applied |
 | #17 `old-sofa-before-new-delivery-dubai` | `/blog/mattress-disposal-dubai` | article | “old-sofa removal timeline” | ☑ applied |
+| #21 `wardrobe-removal-dubai` | `/blog/before-the-crew-arrives-dubai` | article | “wardrobe removal plan” | ☑ applied |
+| #28 `before-the-crew-arrives-dubai` | `/blog/wardrobe-removal-dubai` | article | “pre-arrival checklist” | ☑ applied |
+| #29 `skip-hire-vs-junk-removal-dubai` | `/blog/before-the-crew-arrives-dubai` | article | “skip-hire comparison” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -548,6 +557,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-23 | Published #21, #28 and #29 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Continued the next cleared Month 1 topics in queue order. |
 | 2026-09-22 | Published #9, #14 and #17 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Continued the next cleared Month 1 topics in queue order. |
 | 2026-09-20 | **Image sourcing succeeded via Unsplash.** WebFetch reaches stock search pages even though the shell cannot resolve Commons and Openverse is rate-limited. 5 assets sourced, licence-verified, visually inspected, cropped, converted to WebP, uploaded (Media 69–73) and assigned: covers + OG on #6, #11, #13, #20 and a body image on #13. A legible third-party number plate was blurred before upload. **4 candidates rejected on inspection** rather than used weakly. #7, #8, #27 remain without imagery. | Completing the media work end-to-end. |
 | 2026-09-20 | ~~Media pass attempted; image sourcing blocked~~ — superseded by the entry above, which succeeded via Unsplash. Original finding: five routes tested (Commons DNS-blocked, Openverse 401 after quota, stock needs API keys, generation tool absent, Route D closed). | Superseded. |

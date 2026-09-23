@@ -96,6 +96,12 @@ Created with OpenAI's built-in image-generation tool under `image.md` §7. These
 | `tower-route-measurement.webp` | #14 body | A top-down apartment route with a cabinet, doorways, corridor turns and lift opening marked by measuring tapes. |
 | `old-sofa-delivery-cover.webp` | #17 cover + OG | An old beige sofa prepared for removal beside an open apartment doorway and a cleared living-room space. |
 | `sofa-delivery-route.webp` | #17 body | A top-down apartment plan showing a sofa route through a measured doorway and corridor to a lift. |
+| `wardrobe-removal-cover.webp` | #21 cover + OG | A large wooden wardrobe protected with padded corners and wrap beside a clear bedroom doorway. |
+| `wardrobe-dismantling-plan.webp` | #21 body | Wardrobe doors, shelves, rails, panels and hardware arranged in organised groups on a clean floor. |
+| `before-crew-arrives-cover.webp` | #28 cover + OG | Boxes, an old chair, a small appliance and a rolled rug grouped beside a clear path to an open apartment door. |
+| `crew-arrival-route-plan.webp` | #28 body | A top-down apartment plan with removal items grouped away from a clear route through open doors to the lift. |
+| `skip-hire-comparison-cover.webp` | #29 cover + OG | An empty skip beside a driveway, separated from a grouped sofa, shelving, mattress, rug and bags ready for collection. |
+| `skip-direct-load-comparison.webp` | #29 body | A split top-down property plan comparing repeated loading into a skip with direct loading into a collection vehicle. |
 
 ---
 
@@ -122,6 +128,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #9 mattress-disposal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-22 |
 | #14 bulky-items-tower | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-22 |
 | #17 old-sofa-before-new-delivery | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-22 |
+| #21 wardrobe-removal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-23 |
+| #28 before-the-crew-arrives | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-23 |
+| #29 skip-hire-vs-junk-removal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-23 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -160,6 +169,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-09-23 | Generated, inspected and uploaded cover + body editorial imagery for #21, #28 and #29. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-22 | Generated, inspected and uploaded cover + body editorial imagery for #9, #14 and #17. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-21 | Generated, inspected and uploaded cover + body editorial imagery for #7, #8 and #27. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-20 | Backlog created. IB-1 to IB-4 registered at `NEEDED`. Route D recorded as blocked pending I-1. |
