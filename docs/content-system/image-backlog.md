@@ -102,6 +102,12 @@ Created with OpenAI's built-in image-generation tool under `image.md` §7. These
 | `crew-arrival-route-plan.webp` | #28 body | A top-down apartment plan with removal items grouped away from a clear route through open doors to the lift. |
 | `skip-hire-comparison-cover.webp` | #29 cover + OG | An empty skip beside a driveway, separated from a grouped sofa, shelving, mattress, rug and bags ready for collection. |
 | `skip-direct-load-comparison.webp` | #29 body | A split top-down property plan comparing repeated loading into a skip with direct loading into a collection vehicle. |
+| `office-stripout-cover.webp` | #31 cover + OG | A bright office floor with furniture and loose fixtures organised beside a clear central route. |
+| `office-stripout-phasing-plan.webp` | #31 body | A top-down office plan with three organised work zones and clear routes to a protected service lift and loading point. |
+| `warehouse-clearance-cover.webp` | #33 cover + OG | An organised warehouse with retained stock, a separate clearance zone and an unobstructed route to the loading shutter. |
+| `warehouse-clearance-zone-plan.webp` | #33 body | A top-down warehouse plan showing protected stock, an organised clearance staging zone and a broad route to the loading door. |
+| `gated-community-clearance-cover.webp` | #37 cover + OG | A modern villa with an open gate, clear driveway and grouped household items inside the property boundary. |
+| `gated-community-access-plan.webp` | #37 body | A top-down villa and community access plan showing a clear route from grouped household items through the gate to a collection vehicle. |
 
 ---
 
@@ -131,6 +137,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #21 wardrobe-removal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-23 |
 | #28 before-the-crew-arrives | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-23 |
 | #29 skip-hire-vs-junk-removal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-23 |
+| #31 office-strip-out | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-28 |
+| #33 warehouse-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-28 |
+| #37 gated-community-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-28 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -169,6 +178,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-09-28 | Generated, inspected and uploaded cover + body editorial imagery for #31, #33 and #37. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-23 | Generated, inspected and uploaded cover + body editorial imagery for #21, #28 and #29. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-22 | Generated, inspected and uploaded cover + body editorial imagery for #9, #14 and #17. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-21 | Generated, inspected and uploaded cover + body editorial imagery for #7, #8 and #27. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |

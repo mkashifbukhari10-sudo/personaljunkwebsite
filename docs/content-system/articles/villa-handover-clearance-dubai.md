@@ -68,7 +68,7 @@ The [garden waste removal service](/services/garden-waste-removal) provides the 
 
 Show the route from every floor and outdoor area to the loading point. Note stairs, thresholds, gates, narrow side passages and long carries. Remove small obstacles, secure pets and keep children away during movement.
 
-Ask community security or property management about contractor entry, vehicle access, permitted times and any documents required. Procedures differ, so obtain the current instructions for the address rather than relying on a general statement about Dubai communities.
+Ask community security or property management about contractor entry, vehicle access, permitted times and any documents required. Procedures differ, so obtain the current instructions for the address rather than relying on a general statement about Dubai communities. Use the [gated-community clearance guide](/blog/gated-community-clearance-dubai) to prepare the approved gate, vehicle details and property route as one access brief.
 
 ### Protect surfaces and items that remain
 
