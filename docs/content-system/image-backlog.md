@@ -108,6 +108,12 @@ Created with OpenAI's built-in image-generation tool under `image.md` §7. These
 | `warehouse-clearance-zone-plan.webp` | #33 body | A top-down warehouse plan showing protected stock, an organised clearance staging zone and a broad route to the loading door. |
 | `gated-community-clearance-cover.webp` | #37 cover + OG | A modern villa with an open gate, clear driveway and grouped household items inside the property boundary. |
 | `gated-community-access-plan.webp` | #37 body | A top-down villa and community access plan showing a clear route from grouped household items through the gate to a collection vehicle. |
+| `estate-clearance-cover.webp` | #41 cover + OG | A calm villa living room with household possessions organised in separate boxes beside a blank inventory notebook. |
+| `estate-clearance-sorting-plan.webp` | #41 body | A top-down home plan with possessions organised into separate decision groups, a secure document box and a clear exit route. |
+| `flatpack-furniture-cover.webp` | #42 cover + OG | Flat-pack wardrobe panels and hardware arranged safely on a bedroom floor beside an intact cabinet and clear doorway. |
+| `flatpack-condition-comparison.webp` | #42 body | An intact cabinet, reusable flat-pack panels and damaged swollen panels arranged in separate condition groups with organised hardware. |
+| `choosing-provider-cover.webp` | #45 cover + OG | Three blank provider folders and a checklist beside a photographed household load and generic removal vehicles. |
+| `provider-quote-comparison.webp` | #45 body | Three equally weighted quote sheets beside a photo inventory and route sketch with matching service icons. |
 
 ---
 
@@ -140,6 +146,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #31 office-strip-out | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-28 |
 | #33 warehouse-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-28 |
 | #37 gated-community-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-28 |
+| #41 estate-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-29 |
+| #42 flatpack-furniture-disposal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-29 |
+| #45 choosing-junk-removal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-29 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -178,6 +187,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-09-29 | Generated, inspected and uploaded cover + body editorial imagery for #41, #42 and #45. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-28 | Generated, inspected and uploaded cover + body editorial imagery for #31, #33 and #37. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-23 | Generated, inspected and uploaded cover + body editorial imagery for #21, #28 and #29. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-22 | Generated, inspected and uploaded cover + body editorial imagery for #9, #14 and #17. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |

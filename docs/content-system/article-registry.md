@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-09-28:** **16 published articles, all with at least 2,000 stored body words.** The latest three cover office strip-outs, warehouse clear-outs and gated-community clearance access. §4 remains the keyword opportunity queue.
+**Current state as at 2026-09-29:** **19 published articles, all with at least 2,000 stored body words.** The latest three cover estate clearance, flat-pack furniture and choosing a junk-removal company. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**16 published records as of 2026-09-28.**
+**19 published records as of 2026-09-29.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -132,6 +132,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 31 | `office-strip-out-dubai` | Office Strip-Out in Dubai: Clear a Floor Without Disruption | office strip out clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-09-28 | 2026-09-28 | none | `/blog/warehouse-clearance-dubai` | 2170 body words; generated cover + body illustration. |
 | 33 | `warehouse-clearance-dubai` | Warehouse Clear-Outs: Plan Around Stock and Access | warehouse clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-09-28 | 2026-09-28 | none | `/blog/office-strip-out-dubai` | 2150 body words; generated cover + body illustration. |
 | 37 | `gated-community-clearance-dubai` | Gated Communities: Access, Permits and Timing for a Clearance | gated community clearance access dubai | SC4 | G | `villa-clearance` | — | `PUBLISHED` | 2026-09-28 | 2026-09-28 | none | `/blog/villa-handover-clearance-dubai` | 2003 body words; generated cover + body illustration. |
+| 41 | `estate-clearance-dubai` | Clearing a Home After a Bereavement: A Respectful Plan | estate clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/choosing-junk-removal-dubai` | 2007 body words; generated cover + body illustration. |
+| 42 | `flatpack-furniture-disposal-dubai` | Flat-Pack Furniture: Will It Survive Another Move? | IKEA furniture disposal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/estate-clearance-dubai` | 2094 body words; generated cover + body illustration. |
+| 45 | `choosing-junk-removal-dubai` | How to Choose a Junk Removal Company in Dubai | junk removal companies in dubai | SC5 | D | `/` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/flatpack-furniture-disposal-dubai` | 2257 body words; generated cover + body illustration. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -147,7 +150,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29 · #31 · #33 · #37. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29 · #31 · #33 · #37 · #41 · #42 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -267,7 +270,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Sixteen articles are published; each primary keyword has one owner.
+Nineteen articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -287,6 +290,9 @@ Sixteen articles are published; each primary keyword has one owner.
 | office strip out clearance dubai | `/blog/office-strip-out-dubai` | 31 | 2026-09-28 |
 | warehouse clearance dubai | `/blog/warehouse-clearance-dubai` | 33 | 2026-09-28 |
 | gated community clearance access dubai | `/blog/gated-community-clearance-dubai` | 37 | 2026-09-28 |
+| estate clearance dubai | `/blog/estate-clearance-dubai` | 41 | 2026-09-29 |
+| IKEA furniture disposal dubai | `/blog/flatpack-furniture-disposal-dubai` | 42 | 2026-09-29 |
+| junk removal companies in dubai | `/blog/choosing-junk-removal-dubai` | 45 | 2026-09-29 |
 
 ### 5.3 · Reserved by the queue
 
@@ -329,6 +335,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #31 `office-strip-out-dubai` | `/blog/warehouse-clearance-dubai` | article | “office strip-out plan” | ☑ applied |
 | #33 `warehouse-clearance-dubai` | `/blog/office-strip-out-dubai` | article | “warehouse-clearance plan” | ☑ applied |
 | #37 `gated-community-clearance-dubai` | `/blog/villa-handover-clearance-dubai` | article | “gated-community clearance guide” | ☑ applied |
+| #41 `estate-clearance-dubai` | `/blog/choosing-junk-removal-dubai` | article | “estate-clearance guide” | ☑ applied |
+| #42 `flatpack-furniture-disposal-dubai` | `/blog/estate-clearance-dubai` | article | “flat-pack furniture guide” | ☑ applied |
+| #45 `choosing-junk-removal-dubai` | `/blog/flatpack-furniture-disposal-dubai` | article | “provider comparison checklist” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -566,6 +575,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-29 | Published #41, #42 and #45 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Completed the remaining fully cleared Month 2 topics in queue order. |
 | 2026-09-28 | Published #31, #33 and #37 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and contextual inbound links. Updated #27 with the inbound link for #37 and added all keyword claims and image provenance records. | Continued the next cleared Month 2 topics in queue order. |
 | 2026-09-23 | Published #21, #28 and #29 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Continued the next cleared Month 1 topics in queue order. |
 | 2026-09-22 | Published #9, #14 and #17 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Continued the next cleared Month 1 topics in queue order. |
