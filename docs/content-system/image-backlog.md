@@ -114,6 +114,12 @@ Created with OpenAI's built-in image-generation tool under `image.md` §7. These
 | `flatpack-condition-comparison.webp` | #42 body | An intact cabinet, reusable flat-pack panels and damaged swollen panels arranged in separate condition groups with organised hardware. |
 | `choosing-provider-cover.webp` | #45 cover + OG | Three blank provider folders and a checklist beside a photographed household load and generic removal vehicles. |
 | `provider-quote-comparison.webp` | #45 body | Three equally weighted quote sheets beside a photo inventory and route sketch with matching service icons. |
+| `old-furniture-disposal-cover.webp` | #1 cover + OG | A sofa, chair, cabinet and dismantled shelving grouped safely beside a clear apartment doorway. |
+| `old-furniture-route-options.webp` | #1 body | An old armchair at the centre of four equal visual routes representing reuse, recipient collection, official bulky-waste service and paid collection. |
+| `fridge-disposal-cover.webp` | #2 cover + OG | An empty refrigerator prepared for collection beside a clear kitchen doorway in a Dubai apartment. |
+| `fridge-removal-route-plan.webp` | #2 body | A top-down apartment plan showing an empty refrigerator following a protected route through measured doorways to a service lift. |
+| `municipality-bulky-waste-cover.webp` | #4 cover + OG | Household furniture, an appliance and electronics grouped safely inside a villa driveway with a clear vehicle approach. |
+| `municipality-bulky-waste-process.webp` | #4 body | A four-stage top-down preparation sequence showing household bulky items inside a property and a scheduled collection route. |
 
 ---
 
@@ -149,6 +155,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #41 estate-clearance | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-29 |
 | #42 flatpack-furniture-disposal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-29 |
 | #45 choosing-junk-removal | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-29 |
+| #1 dispose-old-furniture | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-30 |
+| #2 dispose-fridge | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-30 |
+| #4 dubai-municipality-bulky-waste | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-30 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -187,6 +196,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-09-30 | Generated, inspected and uploaded cover + body editorial imagery for #1, #2 and #4. Six WebP files recorded above; all generic and unbranded. |
 | 2026-09-29 | Generated, inspected and uploaded cover + body editorial imagery for #41, #42 and #45. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-28 | Generated, inspected and uploaded cover + body editorial imagery for #31, #33 and #37. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-23 | Generated, inspected and uploaded cover + body editorial imagery for #21, #28 and #29. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |

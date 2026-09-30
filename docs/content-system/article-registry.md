@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-09-29:** **19 published articles, all with at least 2,000 stored body words.** The latest three cover estate clearance, flat-pack furniture and choosing a junk-removal company. §4 remains the keyword opportunity queue.
+**Current state as at 2026-09-30:** **22 published articles, all with at least 2,000 stored body words.** The latest three cover old-furniture disposal, fridge disposal and Dubai Municipality bulky-waste collection. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**19 published records as of 2026-09-29.**
+**22 published records as of 2026-09-30.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -135,6 +135,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 41 | `estate-clearance-dubai` | Clearing a Home After a Bereavement: A Respectful Plan | estate clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/choosing-junk-removal-dubai` | 2007 body words; generated cover + body illustration. |
 | 42 | `flatpack-furniture-disposal-dubai` | Flat-Pack Furniture: Will It Survive Another Move? | IKEA furniture disposal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/estate-clearance-dubai` | 2094 body words; generated cover + body illustration. |
 | 45 | `choosing-junk-removal-dubai` | How to Choose a Junk Removal Company in Dubai | junk removal companies in dubai | SC5 | D | `/` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/flatpack-furniture-disposal-dubai` | 2257 body words; generated cover + body illustration. |
+| 1 | `dispose-old-furniture-dubai` | How to Dispose of Old Furniture in Dubai | how to dispose of old furniture in dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-30 | 2026-09-30 | sourced | `/blog/dubai-municipality-bulky-waste` | 2050 body words; generated cover + body illustration. |
+| 2 | `dispose-fridge-dubai` | How to Dispose of a Fridge in Dubai | how to dispose of a fridge in dubai | SC2 | A+B | `appliance-disposal` | — | `PUBLISHED` | 2026-09-30 | 2026-09-30 | sourced | `/blog/dubai-municipality-bulky-waste` | 2048 body words; generated cover + body illustration. |
+| 4 | `dubai-municipality-bulky-waste` | Dubai Municipality Bulky-Waste Collection: How It Works | dubai municipality bulky waste collection | SC2 | B | `junk-removal` | — | `PUBLISHED` | 2026-09-30 | 2026-09-30 | sourced | `/blog/dispose-old-furniture-dubai` | 2029 body words; generated cover + body illustration. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -150,7 +153,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29 · #31 · #33 · #37 · #41 · #42 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #1 · #2 · #4 · #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29 · #31 · #33 · #37 · #41 · #42 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -270,7 +273,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Nineteen articles are published; each primary keyword has one owner.
+Twenty-two articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -293,6 +296,9 @@ Nineteen articles are published; each primary keyword has one owner.
 | estate clearance dubai | `/blog/estate-clearance-dubai` | 41 | 2026-09-29 |
 | IKEA furniture disposal dubai | `/blog/flatpack-furniture-disposal-dubai` | 42 | 2026-09-29 |
 | junk removal companies in dubai | `/blog/choosing-junk-removal-dubai` | 45 | 2026-09-29 |
+| how to dispose of old furniture in dubai | `/blog/dispose-old-furniture-dubai` | 1 | 2026-09-30 |
+| how to dispose of a fridge in dubai | `/blog/dispose-fridge-dubai` | 2 | 2026-09-30 |
+| dubai municipality bulky waste collection | `/blog/dubai-municipality-bulky-waste` | 4 | 2026-09-30 |
 
 ### 5.3 · Reserved by the queue
 
@@ -338,6 +344,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #41 `estate-clearance-dubai` | `/blog/choosing-junk-removal-dubai` | article | “estate-clearance guide” | ☑ applied |
 | #42 `flatpack-furniture-disposal-dubai` | `/blog/estate-clearance-dubai` | article | “flat-pack furniture guide” | ☑ applied |
 | #45 `choosing-junk-removal-dubai` | `/blog/flatpack-furniture-disposal-dubai` | article | “provider comparison checklist” | ☑ applied |
+| #1 `dispose-old-furniture-dubai` | `/blog/dubai-municipality-bulky-waste` | article | “old-furniture guide” | ☑ applied |
+| #2 `dispose-fridge-dubai` | `/blog/dubai-municipality-bulky-waste` | article | “fridge-disposal guide” | ☑ applied |
+| #4 `dubai-municipality-bulky-waste` | `/blog/dispose-old-furniture-dubai` | article | “official bulky-waste service” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -376,17 +385,14 @@ Any article in §3 with an empty **Inbound** column is an orphan and **must not 
 
 ## §7 · Verification and unblocking ledger
 
-**19 of 45 queued articles are blocked; a further 6 need business input.** Grouped by what unblocks them, because these resolve in batches — one session with the official Municipality sources clears most of the first group.
+**16 of 45 queued articles remain blocked; a further 6 need business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
 
-### 7.1 · BLOCKED — source verification required (15)
+### 7.1 · BLOCKED — source verification required (12 remaining)
 
 Unblocked by verifying against a **primary official source** and citing it. Competitor blogs are not acceptable (`content-rules.md` §7).
 
 | # | Primary keyword | Money page |
 |---|---|---|
-| 1 | how to dispose of old furniture in dubai | `/services/furniture-removal` |
-| 2 | how to dispose of a fridge in dubai | `/services/appliance-disposal` |
-| 4 | dubai municipality bulky waste collection | `/services/junk-removal` |
 | 5 | junk removal vs municipality collection dubai | `/services/junk-removal` |
 | 10 | fine for dumping furniture dubai | `/services/junk-removal` |
 | 12 | where to donate furniture in dubai | `/services/furniture-removal` |
@@ -413,7 +419,7 @@ Unblocked by verifying against a **primary official source** and citing it. Comp
 
 | Fact verified | Source (URL) | Date checked | Checked by | Re-check due |
 |---|---|---|---|---|
-| — | *None yet* | — | — | — |
+| Household furniture, electrical appliances and electronics are included; service is free with a published three-working-day time; investment/development and free-zone exclusions apply. | [Dubai Municipality services](https://www.dm.gov.ae/dubai-municipality-services/) · [official bulky-waste announcement](https://www.dm.gov.ae/dubai-municipality-promotes-waste-segregation-through-free-bulky-waste-disposal-service/) | 2026-09-30 | Codex | 2026-12-30 |
 
 ### 7.2 · BLOCKED — service capability confirmation required (4)
 
@@ -575,6 +581,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-09-30 | Verified the official Municipality bulky-waste scope, service time and exclusions; published #1, #2 and #4 with 2,000+ body words, six generated images, SEO fields and contextual inbound links. | Resolved the next source-verification batch from primary official sources. |
 | 2026-09-29 | Published #41, #42 and #45 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Completed the remaining fully cleared Month 2 topics in queue order. |
 | 2026-09-28 | Published #31, #33 and #37 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and contextual inbound links. Updated #27 with the inbound link for #37 and added all keyword claims and image provenance records. | Continued the next cleared Month 2 topics in queue order. |
 | 2026-09-23 | Published #21, #28 and #29 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Continued the next cleared Month 1 topics in queue order. |
