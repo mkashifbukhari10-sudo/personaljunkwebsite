@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-09-30:** **22 published articles, all with at least 2,000 stored body words.** The latest three cover old-furniture disposal, fridge disposal and Dubai Municipality bulky-waste collection. §4 remains the keyword opportunity queue.
+**Current state as at 2026-10-01:** **25 published articles, all with at least 2,000 stored body words.** The latest three compare Municipality collection with a paid crew, explain what is genuinely free, and set out the law on dumping fines. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**22 published records as of 2026-09-30.**
+**25 published records as of 2026-10-01.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -138,6 +138,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 1 | `dispose-old-furniture-dubai` | How to Dispose of Old Furniture in Dubai | how to dispose of old furniture in dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-30 | 2026-09-30 | sourced | `/blog/dubai-municipality-bulky-waste` | 2050 body words; generated cover + body illustration. |
 | 2 | `dispose-fridge-dubai` | How to Dispose of a Fridge in Dubai | how to dispose of a fridge in dubai | SC2 | A+B | `appliance-disposal` | — | `PUBLISHED` | 2026-09-30 | 2026-09-30 | sourced | `/blog/dubai-municipality-bulky-waste` | 2048 body words; generated cover + body illustration. |
 | 4 | `dubai-municipality-bulky-waste` | Dubai Municipality Bulky-Waste Collection: How It Works | dubai municipality bulky waste collection | SC2 | B | `junk-removal` | — | `PUBLISHED` | 2026-09-30 | 2026-09-30 | sourced | `/blog/dispose-old-furniture-dubai` | 2029 body words; generated cover + body illustration. |
+| 5 | `municipality-vs-paid-junk-removal-dubai` | Free Municipality Collection or a Paid Crew? A Straight Comparison | junk removal vs municipality collection dubai | SC2 | D | `junk-removal` | — | `PUBLISHED` | 2026-10-01 | 2026-10-01 | sourced | `/blog/free-junk-removal-dubai-truth` | 2146 body words; reused existing cover (#4) + body (#45) media. |
+| 30 | `free-junk-removal-dubai-truth` | “Free Junk Removal” in Dubai: What’s Genuinely Free and What Isn’t | free junk removal dubai | SC2 | D | `junk-removal` | — | `PUBLISHED` | 2026-10-01 | 2026-10-01 | sourced | `/blog/municipality-vs-paid-junk-removal-dubai` | 2055 body words; reused existing cover (#28) + body (#1) media. No charity named — charity collection details could not be verified on the charities’ own sites. |
+| 10 | `illegal-dumping-fines-dubai` | Fines for Dumping Furniture in Dubai: What the Law Says | fine for dumping furniture dubai | SC2 | B | `junk-removal` | — | `PUBLISHED` | 2026-10-01 | 2026-10-01 | sourced | `/blog/municipality-vs-paid-junk-removal-dubai` | 2049 body words; reused existing cover (#37) + body (#4) media. States the statutory cap and doubling only; no per-item fine quoted. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -153,7 +156,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #1 · #2 · #4 · #6 · #7 · #8 · #9 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29 · #31 · #33 · #37 · #41 · #42 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #1 · #2 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #13 · #14 · #17 · #20 · #21 · #27 · #28 · #29 · #30 · #31 · #33 · #37 · #41 · #42 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -273,7 +276,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Twenty-two articles are published; each primary keyword has one owner.
+Twenty-five articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -299,6 +302,9 @@ Twenty-two articles are published; each primary keyword has one owner.
 | how to dispose of old furniture in dubai | `/blog/dispose-old-furniture-dubai` | 1 | 2026-09-30 |
 | how to dispose of a fridge in dubai | `/blog/dispose-fridge-dubai` | 2 | 2026-09-30 |
 | dubai municipality bulky waste collection | `/blog/dubai-municipality-bulky-waste` | 4 | 2026-09-30 |
+| junk removal vs municipality collection dubai | `/blog/municipality-vs-paid-junk-removal-dubai` | 5 | 2026-10-01 |
+| free junk removal dubai | `/blog/free-junk-removal-dubai-truth` | 30 | 2026-10-01 |
+| fine for dumping furniture dubai | `/blog/illegal-dumping-fines-dubai` | 10 | 2026-10-01 |
 
 ### 5.3 · Reserved by the queue
 
@@ -347,6 +353,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #1 `dispose-old-furniture-dubai` | `/blog/dubai-municipality-bulky-waste` | article | “old-furniture guide” | ☑ applied |
 | #2 `dispose-fridge-dubai` | `/blog/dubai-municipality-bulky-waste` | article | “fridge-disposal guide” | ☑ applied |
 | #4 `dubai-municipality-bulky-waste` | `/blog/dispose-old-furniture-dubai` | article | “official bulky-waste service” | ☑ applied |
+| #5 `municipality-vs-paid-junk-removal-dubai` | `/blog/free-junk-removal-dubai-truth` | article | “comparison of free collection and a paid crew” | ☑ applied |
+| #30 `free-junk-removal-dubai-truth` | `/blog/municipality-vs-paid-junk-removal-dubai` | article | “guide to what is genuinely free” | ☑ applied |
+| #10 `illegal-dumping-fines-dubai` | `/blog/municipality-vs-paid-junk-removal-dubai` | article | “dumping fines guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -385,26 +394,25 @@ Any article in §3 with an empty **Inbound** column is an orphan and **must not 
 
 ## §7 · Verification and unblocking ledger
 
-**16 of 45 queued articles remain blocked; a further 6 need business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
+**13 of 45 queued articles remain blocked; a further 6 need business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
 
-### 7.1 · BLOCKED — source verification required (12 remaining)
+### 7.1 · BLOCKED — source verification required (9 remaining)
 
 Unblocked by verifying against a **primary official source** and citing it. Competitor blogs are not acceptable (`content-rules.md` §7).
 
 | # | Primary keyword | Money page |
 |---|---|---|
-| 5 | junk removal vs municipality collection dubai | `/services/junk-removal` |
-| 10 | fine for dumping furniture dubai | `/services/junk-removal` |
 | 12 | where to donate furniture in dubai | `/services/furniture-removal` |
 | 15 | NOC to move furniture dubai | `/services/residential-junk-removal` |
 | 19 | AC unit removal dubai | `/services/appliance-disposal` |
 | 22 | TV disposal dubai | `/services/appliance-disposal` |
 | 24 | will landlord deduct deposit for furniture left dubai | `/services/house-clearance` |
 | 26 | garden waste dubai bins | `/services/garden-waste-removal` |
-| 30 | free junk removal dubai | `/services/junk-removal` |
 | 38 | e waste disposal dubai | `/services/appliance-disposal` |
 | 43 | moving out of dubai checklist | `/services/house-clearance` |
 | 44 | what can't you throw in dubai bins | `/services/junk-removal` |
+
+**#12 attempted 2026-10-01 and left blocked:** the Beit Al Khair and Dar Al Ber official sites did not describe a furniture collection service, and Emirates Red Crescent furniture details were found only in secondary news coverage. Charity names, numbers and coverage need confirmation from the organisations themselves.
 
 **Verification batches** — resolving these four clears most of the group:
 
@@ -420,6 +428,9 @@ Unblocked by verifying against a **primary official source** and citing it. Comp
 | Fact verified | Source (URL) | Date checked | Checked by | Re-check due |
 |---|---|---|---|---|
 | Household furniture, electrical appliances and electronics are included; service is free with a published three-working-day time; investment/development and free-zone exclusions apply. | [Dubai Municipality services](https://www.dm.gov.ae/dubai-municipality-services/) · [official bulky-waste announcement](https://www.dm.gov.ae/dubai-municipality-promotes-waste-segregation-through-free-bulky-waste-disposal-service/) | 2026-09-30 | Codex | 2026-12-30 |
+| Law No. (18) of 2024: Art. 6 prohibits dumping, discarding or placing waste in public places and storing waste in buildings or public places; Art. 9 requires a DM permit for waste-management activity; Art. 20 caps fines at AED 500,000 and doubles them for a repeat within one year, with the Executive Council Chairman setting the fine schedule; Art. 30 keeps earlier implementing resolutions in force where consistent; issued 4 September 2024. | [Dubai Legislation Portal — Law No. (18) of 2024](https://dlp.dubai.gov.ae/Legislation%20Reference/2024/Law%20No.%20(18)%20of%202024%20Regulating%20Waste%20Management.html) | 2026-10-01 | Claude | 2027-04-01 |
+| Executive Council Resolution No. (58) of 2017 schedule: AED 1,000 for disposing of general waste other than at the designated disposal site; AED 10,000 for waste-management activity without a permit; doubling on repeat within a year, capped at AED 100,000. No entry specific to furniture left in public places. | [Dubai Legislation Portal — Resolution No. (58) of 2017](https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Executive%20Council%20Resolution%20No.%20(58)%20of%202017.html) | 2026-10-01 | Claude | 2027-04-01 |
+| DM bulky-waste service re-checked: free, three working days, investment-zone exclusion; 2022 announcement states the purpose of eliminating harmful practices including accumulation of bulky waste. | [Dubai Municipality services](https://www.dm.gov.ae/dubai-municipality-services/) | 2026-10-01 | Claude | 2027-01-01 |
 
 ### 7.2 · BLOCKED — service capability confirmation required (4)
 
@@ -581,6 +592,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-01 | Verified Law No. (18) of 2024 and Resolution No. (58) of 2017 on the Dubai Legislation Portal and re-checked the DM bulky-waste service; published #5, #30 and #10 with 2,000+ body words, SEO fields and mutual contextual inbound links. All six image slots reuse existing generated Media documents; no new images created. #12 left blocked — charity collection details could not be confirmed on the charities’ own sites. | Cleared the rest of verification batch A plus #10 from batch B using primary official sources. |
 | 2026-09-30 | Verified the official Municipality bulky-waste scope, service time and exclusions; published #1, #2 and #4 with 2,000+ body words, six generated images, SEO fields and contextual inbound links. | Resolved the next source-verification batch from primary official sources. |
 | 2026-09-29 | Published #41, #42 and #45 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and mutual contextual inbound links. Added their keyword claims and image provenance records. | Completed the remaining fully cleared Month 2 topics in queue order. |
 | 2026-09-28 | Published #31, #33 and #37 with 2,000+ body words, six generated editorial images, SEO fields, service relationships and contextual inbound links. Updated #27 with the inbound link for #37 and added all keyword claims and image provenance records. | Continued the next cleared Month 2 topics in queue order. |

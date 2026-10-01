@@ -121,6 +121,19 @@ Created with OpenAI's built-in image-generation tool under `image.md` §7. These
 | `municipality-bulky-waste-cover.webp` | #4 cover + OG | Household furniture, an appliance and electronics grouped safely inside a villa driveway with a clear vehicle approach. |
 | `municipality-bulky-waste-process.webp` | #4 body | A four-stage top-down preparation sequence showing household bulky items inside a property and a scheduled collection route. |
 
+### Reused existing media — 2026-10-01
+
+No new images were generated or sourced for #5, #30 and #10. Each slot reuses an existing Media document from the table above (`image.md`: reuse before uploading; an accurate repeated image breaks nothing). Every image was re-inspected against its new article, and the existing alt text still describes what is visibly there.
+
+| File | Media seedKey reused | Used as |
+|---|---|---|
+| `municipality-bulky-waste-cover.webp` | `article-dubai-municipality-bulky-waste-cover` | #5 cover + OG |
+| `provider-quote-comparison.webp` | `article-choosing-junk-removal-dubai-body` | #5 body |
+| `before-crew-arrives-cover.webp` | `article-before-the-crew-arrives-dubai-cover` | #30 cover + OG |
+| `old-furniture-route-options.webp` | `article-dispose-old-furniture-dubai-body` | #30 body |
+| `gated-community-clearance-cover.webp` | `article-gated-community-clearance-dubai-cover` | #10 cover + OG |
+| `municipality-bulky-waste-process.webp` | `article-dubai-municipality-bulky-waste-body` | #10 body |
+
 ---
 
 ## Rejected on inspection — not used
@@ -158,6 +171,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #1 dispose-old-furniture | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-30 |
 | #2 dispose-fridge | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-30 |
 | #4 dubai-municipality-bulky-waste | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-30 |
+| #5 municipality-vs-paid-junk-removal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-01 |
+| #30 free-junk-removal-dubai-truth | cover, OG, body | `COMPLETE` — existing media reused 2026-10-01 |
+| #10 illegal-dumping-fines | cover, OG, body | `COMPLETE` — existing media reused 2026-10-01 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -196,6 +212,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-01 | Assigned existing Media documents to #5, #30 and #10 (six slots, no new uploads). Recorded above under *Reused existing media*. |
 | 2026-09-30 | Generated, inspected and uploaded cover + body editorial imagery for #1, #2 and #4. Six WebP files recorded above; all generic and unbranded. |
 | 2026-09-29 | Generated, inspected and uploaded cover + body editorial imagery for #41, #42 and #45. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
 | 2026-09-28 | Generated, inspected and uploaded cover + body editorial imagery for #31, #33 and #37. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
