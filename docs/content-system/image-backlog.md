@@ -134,6 +134,19 @@ No new images were generated or sourced for #5, #30 and #10. Each slot reuses an
 | `gated-community-clearance-cover.webp` | `article-gated-community-clearance-dubai-cover` | #10 cover + OG |
 | `municipality-bulky-waste-process.webp` | `article-dubai-municipality-bulky-waste-body` | #10 body |
 
+### Reused existing media — 2026-10-02
+
+No new images were generated or sourced for #38, #44 and #19. Each slot reuses an existing Media document, re-inspected against its new article; the existing alt text still describes what is visibly there. No air-conditioner image exists in the library, so #19 uses the refrigerator cover — another refrigerant-containing appliance — rather than a misleading substitute or the AI service-page library.
+
+| File | Media reused | Used as |
+|---|---|---|
+| `municipality-bulky-waste-cover.webp` | 108 · `article-dubai-municipality-bulky-waste-cover` | #38 cover + OG |
+| `estate-clearance-sorting-plan.webp` | 99 · `article-estate-clearance-dubai-body` | #38 body |
+| `pickup-truck-loaded-with-waste-final.webp` (Unsplash) | 72 · no seedKey | #44 cover + OG |
+| `municipality-bulky-waste-process.webp` | 109 · `article-dubai-municipality-bulky-waste-body` | #44 body |
+| `fridge-disposal-cover.webp` | 106 · `article-dispose-fridge-dubai-cover` | #19 cover + OG |
+| `service-lift-protection.webp` | 77 · `article-service-lift-booking-dubai-body` | #19 body |
+
 ---
 
 ## Rejected on inspection — not used
@@ -174,6 +187,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #5 municipality-vs-paid-junk-removal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-01 |
 | #30 free-junk-removal-dubai-truth | cover, OG, body | `COMPLETE` — existing media reused 2026-10-01 |
 | #10 illegal-dumping-fines | cover, OG, body | `COMPLETE` — existing media reused 2026-10-01 |
+| #38 e-waste-disposal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-02 |
+| #44 what-dubai-bins-wont-take | cover, OG, body | `COMPLETE` — existing media reused 2026-10-02 |
+| #19 old-ac-unit-disposal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-02 · a dedicated AC image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -212,6 +228,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-02 | Assigned existing Media documents to #38, #44 and #19 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-02*. |
 | 2026-10-01 | Assigned existing Media documents to #5, #30 and #10 (six slots, no new uploads). Recorded above under *Reused existing media*. |
 | 2026-09-30 | Generated, inspected and uploaded cover + body editorial imagery for #1, #2 and #4. Six WebP files recorded above; all generic and unbranded. |
 | 2026-09-29 | Generated, inspected and uploaded cover + body editorial imagery for #41, #42 and #45. Six WebP files recorded above; all generic and unbranded under the approved article-only generation policy. |
