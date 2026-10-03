@@ -147,6 +147,19 @@ No new images were generated or sourced for #38, #44 and #19. Each slot reuses a
 | `fridge-disposal-cover.webp` | 106 · `article-dispose-fridge-dubai-cover` | #19 cover + OG |
 | `service-lift-protection.webp` | 77 · `article-service-lift-booking-dubai-body` | #19 body |
 
+### Generated editorial imagery — 2026-10-03
+
+Created with the AI image generator under `image.md` §7. These are generic, unbranded editorial illustrations and photographs for Batch D tenancy and building clearance articles; they do not depict Junk Services Dubai, its crew, vehicles, customers or completed work. Every file was visually inspected before upload. Covers are 1920×1080 WebP; body diagrams are 1536×1024 WebP.
+
+| File | Used as | Alt text |
+|---|---|---|
+| `noc-moving-furniture-cover.webp` | #15 cover + OG | A modern Dubai apartment building reception desk with a move-out clearance checklist on a clipboard in the foreground and a clear corridor leading to service lifts. |
+| `noc-clearance-process.webp` | #15 body | A clean top-down architectural process diagram showing four sequential steps for moving out of an apartment building: Landlord Clearance, Building Move-Out Permit (NOC), Service Lift Reservation, and Loading Bay Access. |
+| `deposit-deductions-cover.webp` | #24 cover + OG | A bright, vacant modern Dubai apartment living room during a move-out handover inspection with an inspection clipboard on a counter in the foreground. |
+| `handover-inspection-comparison.webp` | #24 body | A side-by-side comparison diagram showing a fully cleared apartment achieving a full deposit refund versus an apartment with abandoned furniture incurring landlord contractor deductions and dispute delays. |
+| `leaving-dubai-checklist-cover.webp` | #43 cover + OG | An organized moving scene inside a bright Dubai apartment with a checklist notebook on a counter in the foreground and neatly stacked moving boxes in the background. |
+| `leaving-dubai-timeline-plan.webp` | #43 body | A horizontal process timeline diagram illustrating the four-week clearance countdown for leaving Dubai, showing sorting, utility disconnection and NOC, junk removal, and handover inspection. |
+
 ---
 
 ## Rejected on inspection — not used
@@ -190,6 +203,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #38 e-waste-disposal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-02 |
 | #44 what-dubai-bins-wont-take | cover, OG, body | `COMPLETE` — existing media reused 2026-10-02 |
 | #19 old-ac-unit-disposal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-02 · a dedicated AC image would make a better future cover |
+| #15 noc-moving-furniture | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-03 |
+| #24 deposit-deductions-left-furniture | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-03 |
+| #43 leaving-dubai-clearance-checklist | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-03 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -228,6 +244,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-03 | Generated, inspected and uploaded cover + body editorial imagery for #15, #24 and #43 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-03*. |
 | 2026-10-02 | Assigned existing Media documents to #38, #44 and #19 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-02*. |
 | 2026-10-01 | Assigned existing Media documents to #5, #30 and #10 (six slots, no new uploads). Recorded above under *Reused existing media*. |
 | 2026-09-30 | Generated, inspected and uploaded cover + body editorial imagery for #1, #2 and #4. Six WebP files recorded above; all generic and unbranded. |
