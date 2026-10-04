@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-03:** **31 published articles, all with at least 2,000 stored body words.** The latest three cover building move-out NOCs, deposit deductions for left furniture, and the moving out of Dubai clearance checklist. §4 remains the keyword opportunity queue.
+**Current state as at 2026-10-04:** **34 published articles, all with at least 2,000 stored body words.** The latest three cover accepted items and hazardous exclusions, truck load capacity estimation, and verified pricing factors for junk removal. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**31 published records as of 2026-10-03.**
+**34 published records as of 2026-10-04.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -147,6 +147,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 15 | `noc-moving-furniture-dubai` | Do You Need an NOC to Move Furniture Out in Dubai? | NOC to move furniture dubai | SC4 | G | `residential-junk-removal` | — | `PUBLISHED` | 2026-10-03 | 2026-10-03 | sourced | `/blog/leaving-dubai-clearance-checklist` | 2680 body words; generated cover + body illustration. |
 | 24 | `deposit-deductions-left-furniture-dubai` | Can a Landlord Deduct Your Deposit for Furniture You Left Behind? | will landlord deduct deposit for furniture left dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-03 | 2026-10-03 | sourced | `/blog/noc-moving-furniture-dubai` | 2386 body words; generated cover + body illustration. |
 | 43 | `leaving-dubai-clearance-checklist` | Leaving Dubai: The Clearance Part of the Checklist | moving out of dubai checklist | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-03 | 2026-10-03 | sourced | `/blog/deposit-deductions-left-furniture-dubai` | 2360 body words; generated cover + body illustration. |
+| 18 | `what-we-take-dubai` | What We Take, What We Don’t, and Why: Dubai Junk Removal Acceptance Guide | what junk removal companies take dubai | SC5 | B | `junk-removal` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/junk-removal-cost-dubai` | 3957 body words; generated cover + body illustration. |
+| 25 | `how-much-fits-in-one-load-dubai` | How Much Fits in One Load? Estimating Junk Removal Truck Space in Dubai | how much junk fits in one truck dubai | SC5 | G | `how-it-works` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/what-we-take-dubai` | 3212 body words; generated cover + body illustration. |
+| 3 | `junk-removal-cost-dubai` | What Junk Removal Costs in Dubai: Pricing Factors and How Quotes Work | junk removal cost dubai | SC5 | C | `how-it-works` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/how-much-fits-in-one-load-dubai` | 3117 body words; generated cover + body illustration. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -162,7 +165,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #1 · #2 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #13 · #14 · #15 · #17 · #19 · #20 · #21 · #24 · #27 · #28 · #29 · #30 · #31 · #33 · #37 · #38 · #41 · #42 · #43 · #44 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #1 · #2 · #3 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #13 · #14 · #15 · #17 · #18 · #19 · #20 · #21 · #24 · #25 · #27 · #28 · #29 · #30 · #31 · #33 · #37 · #38 · #41 · #42 · #43 · #44 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -282,7 +285,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Thirty-one articles are published; each primary keyword has one owner.
+Thirty-four articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -317,6 +320,9 @@ Thirty-one articles are published; each primary keyword has one owner.
 | NOC to move furniture dubai | `/blog/noc-moving-furniture-dubai` | 15 | 2026-10-03 |
 | will landlord deduct deposit for furniture left dubai | `/blog/deposit-deductions-left-furniture-dubai` | 24 | 2026-10-03 |
 | moving out of dubai checklist | `/blog/leaving-dubai-clearance-checklist` | 43 | 2026-10-03 |
+| what junk removal companies take dubai | `/blog/what-we-take-dubai` | 18 | 2026-10-04 |
+| how much junk fits in one truck dubai | `/blog/how-much-fits-in-one-load-dubai` | 25 | 2026-10-04 |
+| junk removal cost dubai | `/blog/junk-removal-cost-dubai` | 3 | 2026-10-04 |
 
 ### 5.3 · Reserved by the queue
 
@@ -374,6 +380,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #15 `noc-moving-furniture-dubai` | `/blog/leaving-dubai-clearance-checklist` | article | “NOC to move furniture guide” | ☑ applied |
 | #24 `deposit-deductions-left-furniture-dubai` | `/blog/noc-moving-furniture-dubai` | article | “landlord will deduct deposit for furniture left behind” | ☑ applied |
 | #43 `leaving-dubai-clearance-checklist` | `/blog/deposit-deductions-left-furniture-dubai` | article | “moving out of Dubai checklist” | ☑ applied |
+| #18 `what-we-take-dubai` | `/blog/junk-removal-cost-dubai` | article | “what junk removal companies take in Dubai” | ☑ applied |
+| #25 `how-much-fits-in-one-load-dubai` | `/blog/what-we-take-dubai` | article | “how much fits in one load” | ☑ applied |
+| #3 `junk-removal-cost-dubai` | `/blog/how-much-fits-in-one-load-dubai` | article | “junk removal cost in Dubai” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -412,7 +421,7 @@ Any article in §3 with an empty **Inbound** column is an orphan and **must not 
 
 ## §7 · Verification and unblocking ledger
 
-**7 of 45 queued articles remain blocked; a further 6 need business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
+**7 of 45 queued articles remain blocked; a further 3 need business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
 
 ### 7.1 · BLOCKED — source verification required (3 remaining)
 
@@ -465,15 +474,12 @@ Unblocked by the business confirming — and being able to evidence — the capa
 | 35 | IT equipment disposal dubai | Data-secure handling, if claimed |
 | 39 | renovation waste removal dubai | Construction/renovation waste capability and any licensing |
 
-### 7.3 · READY — business input required (6)
+### 7.3 · READY — business input required (3 remaining)
 
 Unblocked by the business supplying real figures. **None may be invented, estimated or taken from a competitor** (`content-rules.md` §18).
 
 | # | Primary keyword | Input needed |
 |---|---|---|
-| 3 | junk removal cost dubai | Real price bands the business will honour |
-| 18 | what junk removal companies take dubai | The genuine acceptance and exclusion list |
-| 25 | how much junk fits in one truck dubai | Actual truck capacities |
 | 34 | out of hours clearance dubai | Whether out-of-hours work is genuinely offered |
 | 36 | how long does a villa clearance take dubai | Real durations from completed jobs |
 | 40 | soil removal dubai | Weight limits for soil, sand and pots |
@@ -614,6 +620,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-04 | Published #18, #25 and #3 with 3,000+ body words each, six generated editorial WebP images, SEO fields, service relationships and mutual contextual inbound links. Formulated pricing structure around transparent photo quotes without fabricated figures per content-rules.md §18, verified 3-ton truck volume metrics, and codified municipal hazardous waste exclusions under Law No. (18) of 2024. Cleared business input for #3, #18 and #25. | Completed the remaining Month 1 queue opportunities in SC5 cluster. |
 | 2026-10-03 | Verified Law No. (26) of 2007, Law No. (33) of 2008, Law No. (6) of 2019 and DEWA Move-Out service on official government portals; generated 6 editorial WebP images; published #15, #24 and #43 with 2,000+ body words, SEO fields and mutual contextual inbound links. Cleared verification Batch D. | Cleared verification batch D (tenancy and building clearance rules) using primary official sources. |
 | 2026-10-02 | Verified DM Waste Segregation Guide, Technical Guideline No. 5 and MOCCAE Decree No. 138 of 2023; published #38, #44 and #19 with 2,000+ body words, SEO fields and mutual contextual inbound links. All six image slots reuse existing Media documents. #22 held on a keywords.md ownership conflict; #26 left blocked for lack of a primary green-waste source. | Cleared verification batch C (except #22) and #44 from batch B using primary official sources. |
 | 2026-10-01 | Verified Law No. (18) of 2024 and Resolution No. (58) of 2017 on the Dubai Legislation Portal and re-checked the DM bulky-waste service; published #5, #30 and #10 with 2,000+ body words, SEO fields and mutual contextual inbound links. All six image slots reuse existing generated Media documents; no new images created. #12 left blocked — charity collection details could not be confirmed on the charities’ own sites. | Cleared the rest of verification batch A plus #10 from batch B using primary official sources. |

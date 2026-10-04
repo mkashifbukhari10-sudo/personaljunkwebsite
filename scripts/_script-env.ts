@@ -14,3 +14,26 @@
  * still reach the database through `next dev`, which is unaffected.
  */
 process.env.PAYLOAD_DISABLE_SCHEMA_PUSH = 'true';
+
+import fs from 'node:fs';
+import path from 'node:path';
+
+if (!process.env.DATABASE_URI) {
+  try {
+    const envPath = path.resolve('.env');
+    if (fs.existsSync(envPath)) {
+      const envContent = fs.readFileSync(envPath, 'utf8');
+      for (const line of envContent.split(/\r?\n/)) {
+        const trimmed = line.trim();
+        if (!trimmed || trimmed.startsWith('#')) continue;
+        const idx = trimmed.indexOf('=');
+        if (idx !== -1) {
+          const key = trimmed.slice(0, idx).trim();
+          const val = trimmed.slice(idx + 1).trim();
+          if (!process.env[key]) process.env[key] = val;
+        }
+      }
+    }
+  } catch {}
+}
+

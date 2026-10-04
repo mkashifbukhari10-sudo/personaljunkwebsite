@@ -160,6 +160,20 @@ Created with the AI image generator under `image.md` §7. These are generic, unb
 | `leaving-dubai-checklist-cover.webp` | #43 cover + OG | An organized moving scene inside a bright Dubai apartment with a checklist notebook on a counter in the foreground and neatly stacked moving boxes in the background. |
 | `leaving-dubai-timeline-plan.webp` | #43 body | A horizontal process timeline diagram illustrating the four-week clearance countdown for leaving Dubai, showing sorting, utility disconnection and NOC, junk removal, and handover inspection. |
 
+### Generated editorial imagery — 2026-10-04
+
+Created with the AI image generator under `image.md` §7. These are generic, unbranded editorial illustrations and photographs for Month 1 cost, volume, and acceptance guides (#18, #25, #3); they do not depict Junk Services Dubai, its crew, vehicles, customers or completed work. Every file was visually inspected before upload. Covers are 1920×1080 WebP; body diagrams are 1536×1024 / 1526×1024 WebP.
+
+| File | Used as | Alt text |
+|---|---|---|
+| `what-we-take-cover.webp` | #18 cover + OG | A bright, modern Dubai apartment living room with an organized collection of a fabric sofa, stacked moving boxes, and an appliance staged safely beside an open interior doorway. |
+| `accepted-versus-excluded-guide.webp` | #18 body | A clean architectural comparison diagram showing generic line-art items of accepted household furniture and appliances on the left against excluded hazardous chemicals and gas cylinders on the right. |
+| `truck-load-cover.webp` | #25 cover + OG | A contemporary editorial photograph of a pristine, unbranded white commercial 3-ton covered box truck parked in a clean paved driveway of a modern Dubai residential villa. |
+| `truck-load-capacity-guide.webp` | #25 body | An architectural isometric cutaway diagram of a standard 3-ton clearance truck showing modular volume sections packed with household furniture, appliances, and stacked cartons. |
+| `junk-removal-cost-cover.webp` | #3 cover + OG | A bright, elegant Dubai apartment living room counter with an inventory clipboard and smartphone resting in the foreground with neatly grouped furniture in the background. |
+| `cost-factors-breakdown.webp` | #3 body | A clean architectural infographic diagram illustrating the key variables of a clearance quote including vehicle volume, access distance, elevator availability, furniture dismantling, crew labor, and municipal disposal. |
+
+
 ---
 
 ## Rejected on inspection — not used
@@ -206,6 +220,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #15 noc-moving-furniture | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-03 |
 | #24 deposit-deductions-left-furniture | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-03 |
 | #43 leaving-dubai-clearance-checklist | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-03 |
+| #18 what-we-take | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-04 |
+| #25 how-much-fits-in-one-load | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-04 |
+| #3 junk-removal-cost | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-04 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -244,6 +261,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-04 | Generated, inspected and uploaded cover + body editorial imagery for #18, #25 and #3 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-04*. |
 | 2026-10-03 | Generated, inspected and uploaded cover + body editorial imagery for #15, #24 and #43 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-03*. |
 | 2026-10-02 | Assigned existing Media documents to #38, #44 and #19 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-02*. |
 | 2026-10-01 | Assigned existing Media documents to #5, #30 and #10 (six slots, no new uploads). Recorded above under *Reused existing media*. |
