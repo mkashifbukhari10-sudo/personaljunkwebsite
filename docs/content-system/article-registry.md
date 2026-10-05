@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-04:** **34 published articles, all with at least 2,000 stored body words.** The latest three cover accepted items and hazardous exclusions, truck load capacity estimation, and verified pricing factors for junk removal. §4 remains the keyword opportunity queue.
+**Current state as at 2026-10-05:** **37 published articles, all with at least 2,000 stored body words.** The latest three cover out-of-hours commercial clearance, villa clearance duration, and soil, sand and pot disposal. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**34 published records as of 2026-10-04.**
+**37 published records as of 2026-10-05.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -129,7 +129,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 21 | `wardrobe-removal-dubai` | Wardrobe Removal in Dubai: Dismantle or Move It Whole? | wardrobe removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-09-23 | 2026-09-23 | none | `/blog/before-the-crew-arrives-dubai` | 2114 body words; generated cover + body illustration. |
 | 28 | `before-the-crew-arrives-dubai` | Before the Junk Removal Crew Arrives: A Practical Checklist | what to do before junk removal arrives dubai | SC5 | G | `how-it-works` | — | `PUBLISHED` | 2026-09-23 | 2026-09-23 | none | `/blog/wardrobe-removal-dubai` | 2128 body words; generated cover + body illustration. |
 | 29 | `skip-hire-vs-junk-removal-dubai` | Skip Hire or Junk Removal? Choose the Right Setup | skip hire alternative dubai | SC5 | G | `waste-removal` | — | `PUBLISHED` | 2026-09-23 | 2026-09-23 | none | `/blog/before-the-crew-arrives-dubai` | 2354 body words; generated cover + body illustration. |
-| 31 | `office-strip-out-dubai` | Office Strip-Out in Dubai: Clear a Floor Without Disruption | office strip out clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-09-28 | 2026-09-28 | none | `/blog/warehouse-clearance-dubai` | 2170 body words; generated cover + body illustration. |
+| 31 | `office-strip-out-dubai` | Office Strip-Out in Dubai: Clear a Floor Without Disruption | office strip out clearance dubai | SC6 | H | `commercial-junk-removal` | — | `UPDATED` | 2026-09-28 | 2026-10-05 | none | `/blog/warehouse-clearance-dubai` | 2200 body words; generated cover + body illustration; added contextual link to #34. |
 | 33 | `warehouse-clearance-dubai` | Warehouse Clear-Outs: Plan Around Stock and Access | warehouse clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-09-28 | 2026-09-28 | none | `/blog/office-strip-out-dubai` | 2150 body words; generated cover + body illustration. |
 | 37 | `gated-community-clearance-dubai` | Gated Communities: Access, Permits and Timing for a Clearance | gated community clearance access dubai | SC4 | G | `villa-clearance` | — | `PUBLISHED` | 2026-09-28 | 2026-09-28 | none | `/blog/villa-handover-clearance-dubai` | 2003 body words; generated cover + body illustration. |
 | 41 | `estate-clearance-dubai` | Clearing a Home After a Bereavement: A Respectful Plan | estate clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-09-29 | 2026-09-29 | none | `/blog/choosing-junk-removal-dubai` | 2007 body words; generated cover + body illustration. |
@@ -150,6 +150,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 18 | `what-we-take-dubai` | What We Take, What We Don’t, and Why: Dubai Junk Removal Acceptance Guide | what junk removal companies take dubai | SC5 | B | `junk-removal` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/junk-removal-cost-dubai` | 3957 body words; generated cover + body illustration. |
 | 25 | `how-much-fits-in-one-load-dubai` | How Much Fits in One Load? Estimating Junk Removal Truck Space in Dubai | how much junk fits in one truck dubai | SC5 | G | `how-it-works` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/what-we-take-dubai` | 3212 body words; generated cover + body illustration. |
 | 3 | `junk-removal-cost-dubai` | What Junk Removal Costs in Dubai: Pricing Factors and How Quotes Work | junk removal cost dubai | SC5 | C | `how-it-works` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/how-much-fits-in-one-load-dubai` | 3117 body words; generated cover + body illustration. |
+| 34 | `out-of-hours-clearance-dubai` | Why Offices Book Clearances for Nights and Weekends | out of hours clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | business | `/blog/office-strip-out-dubai` | 2432 body words; reused existing cover (#31, Media 92) + body (#33, Media 95). Availability claims limited to existing site copy (out of hours available for commercial work; pickups 7 days). |
+| 36 | `how-long-villa-clearance-dubai` | How Long Does a Villa Clearance Actually Take? | how long does a villa clearance take dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | business | `/blog/soil-sand-pots-disposal-dubai` | 2129 body words; reused existing cover (#25, Media 118) + body (#37, Media 97). Duration stated only as the site's existing range (half a day to two days, 4+ crew, multiple loads); no per-job durations invented. |
+| 40 | `soil-sand-pots-disposal-dubai` | Soil, Sand and Pots: The Garden Waste People Forget to Plan For | soil removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | sourced | `/blog/how-long-villa-clearance-dubai` | 2126 body words; reused existing cover (#27 body, Media 79) + body (#29, Media 91). No weight limit stated — none supplied; large loose volumes confirmed from photos per existing site copy. Cites DM Waste Segregation Guide and Technical Guideline No. 5 (§7.1). |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -165,7 +168,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #1 · #2 · #3 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #13 · #14 · #15 · #17 · #18 · #19 · #20 · #21 · #24 · #25 · #27 · #28 · #29 · #30 · #31 · #33 · #37 · #38 · #41 · #42 · #43 · #44 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #1 · #2 · #3 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #13 · #14 · #15 · #17 · #18 · #19 · #20 · #21 · #24 · #25 · #27 · #28 · #29 · #30 · #31 · #33 · #37 · #38 · #41 · #42 · #34 · #36 · #40 · #43 · #44 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -285,7 +288,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Thirty-four articles are published; each primary keyword has one owner.
+Thirty-seven articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -323,6 +326,9 @@ Thirty-four articles are published; each primary keyword has one owner.
 | what junk removal companies take dubai | `/blog/what-we-take-dubai` | 18 | 2026-10-04 |
 | how much junk fits in one truck dubai | `/blog/how-much-fits-in-one-load-dubai` | 25 | 2026-10-04 |
 | junk removal cost dubai | `/blog/junk-removal-cost-dubai` | 3 | 2026-10-04 |
+| out of hours clearance dubai | `/blog/out-of-hours-clearance-dubai` | 34 | 2026-10-05 |
+| how long does a villa clearance take dubai | `/blog/how-long-villa-clearance-dubai` | 36 | 2026-10-05 |
+| soil removal dubai | `/blog/soil-sand-pots-disposal-dubai` | 40 | 2026-10-05 |
 
 ### 5.3 · Reserved by the queue
 
@@ -383,6 +389,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #18 `what-we-take-dubai` | `/blog/junk-removal-cost-dubai` | article | “what junk removal companies take in Dubai” | ☑ applied |
 | #25 `how-much-fits-in-one-load-dubai` | `/blog/what-we-take-dubai` | article | “how much fits in one load” | ☑ applied |
 | #3 `junk-removal-cost-dubai` | `/blog/how-much-fits-in-one-load-dubai` | article | “junk removal cost in Dubai” | ☑ applied |
+| #34 `out-of-hours-clearance-dubai` | `/blog/office-strip-out-dubai` | article | “out-of-hours clearance guide” | ☑ applied |
+| #36 `how-long-villa-clearance-dubai` | `/blog/soil-sand-pots-disposal-dubai` | article | “how long a villa clearance takes” | ☑ applied |
+| #40 `soil-sand-pots-disposal-dubai` | `/blog/how-long-villa-clearance-dubai` | article | “soil, sand and pots” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -421,7 +430,7 @@ Any article in §3 with an empty **Inbound** column is an orphan and **must not 
 
 ## §7 · Verification and unblocking ledger
 
-**7 of 45 queued articles remain blocked; a further 3 need business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
+**7 of 45 queued articles remain blocked; none now wait on business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
 
 ### 7.1 · BLOCKED — source verification required (3 remaining)
 
@@ -474,15 +483,15 @@ Unblocked by the business confirming — and being able to evidence — the capa
 | 35 | IT equipment disposal dubai | Data-secure handling, if claimed |
 | 39 | renovation waste removal dubai | Construction/renovation waste capability and any licensing |
 
-### 7.3 · READY — business input required (3 remaining)
+### 7.3 · READY — business input required (0 remaining)
 
 Unblocked by the business supplying real figures. **None may be invented, estimated or taken from a competitor** (`content-rules.md` §18).
 
 | # | Primary keyword | Input needed |
 |---|---|---|
-| 34 | out of hours clearance dubai | Whether out-of-hours work is genuinely offered |
-| 36 | how long does a villa clearance take dubai | Real durations from completed jobs |
-| 40 | soil removal dubai | Weight limits for soil, sand and pots |
+| ~~34~~ | ~~out of hours clearance dubai~~ | **Cleared 2026-10-05** from existing site copy: out-of-hours work available for office/commercial jobs; pickups 7 days a week. |
+| ~~36~~ | ~~how long does a villa clearance take dubai~~ | **Published 2026-10-05** using only the site's existing range (half a day to two days; 4+ crew; multiple loads). Real durations from completed jobs would still strengthen it — not supplied. |
+| ~~40~~ | ~~soil removal dubai~~ | **Published 2026-10-05** without a weight figure: bagged soil is part of a normal load and large loose volumes are confirmed from photos (existing site copy). A real weight limit is still not supplied; add it if the business provides one. |
 
 ### 7.4 · Cross-file dependencies that block publishing entirely
 
@@ -620,6 +629,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-05 | Published #34, #36 and #40 with 2,000+ body words, SEO fields and service relationships. All six image slots reuse existing Media documents (no new images). Added an inbound link to #34 in `/blog/office-strip-out-dubai` (body re-synced, 2170 → 2200 words); #36 and #40 link to each other. Business-input claims limited to existing site copy; no durations, weight limits or availability invented. | Completed the remaining READY · BUS. INPUT queue. |
 | 2026-10-04 | Published #18, #25 and #3 with 3,000+ body words each, six generated editorial WebP images, SEO fields, service relationships and mutual contextual inbound links. Formulated pricing structure around transparent photo quotes without fabricated figures per content-rules.md §18, verified 3-ton truck volume metrics, and codified municipal hazardous waste exclusions under Law No. (18) of 2024. Cleared business input for #3, #18 and #25. | Completed the remaining Month 1 queue opportunities in SC5 cluster. |
 | 2026-10-03 | Verified Law No. (26) of 2007, Law No. (33) of 2008, Law No. (6) of 2019 and DEWA Move-Out service on official government portals; generated 6 editorial WebP images; published #15, #24 and #43 with 2,000+ body words, SEO fields and mutual contextual inbound links. Cleared verification Batch D. | Cleared verification batch D (tenancy and building clearance rules) using primary official sources. |
 | 2026-10-02 | Verified DM Waste Segregation Guide, Technical Guideline No. 5 and MOCCAE Decree No. 138 of 2023; published #38, #44 and #19 with 2,000+ body words, SEO fields and mutual contextual inbound links. All six image slots reuse existing Media documents. #22 held on a keywords.md ownership conflict; #26 left blocked for lack of a primary green-waste source. | Cleared verification batch C (except #22) and #44 from batch B using primary official sources. |

@@ -36,7 +36,7 @@ Keep a change log. If a department adds storage, a landlord excludes a fixture o
 
 Decide whether the office will remain occupied during any part of the work. If it will, separate staff and removal routes as far as possible. Keep reception, washrooms, fire exits and essential facilities available. Do not let temporary staging consume circulation space needed by occupants.
 
-Schedule noisy dismantling and repeated trolley movement around the building’s permitted hours and the tenant’s critical periods. Meetings, customer visits, deliveries and cleaning all compete for the same access. A useful programme shows when each activity owns the route rather than assuming they can overlap.
+Schedule noisy dismantling and repeated trolley movement around the building’s permitted hours and the tenant’s critical periods. Meetings, customer visits, deliveries and cleaning all compete for the same access. A useful programme shows when each activity owns the route rather than assuming they can overlap. Where the building allows it, moving the heaviest work into an evening or weekend window removes much of that overlap; the [out-of-hours clearance guide](/blog/out-of-hours-clearance-dubai) explains when that is worth arranging.
 
 Tell staff exactly when a zone becomes unavailable and what they must remove. Personal items, live files and equipment should be cleared before the crew enters. Labels need a simple shared meaning: remove, retain, transfer or decision pending. Anything pending should stay outside the active work zone.
 

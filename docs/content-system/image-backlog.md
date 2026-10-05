@@ -173,6 +173,18 @@ Created with the AI image generator under `image.md` §7. These are generic, unb
 | `junk-removal-cost-cover.webp` | #3 cover + OG | A bright, elegant Dubai apartment living room counter with an inventory clipboard and smartphone resting in the foreground with neatly grouped furniture in the background. |
 | `cost-factors-breakdown.webp` | #3 body | A clean architectural infographic diagram illustrating the key variables of a clearance quote including vehicle volume, access distance, elevator availability, furniture dismantling, crew labor, and municipal disposal. |
 
+### Reused existing media — 2026-10-05
+
+No new images were generated or sourced for #34, #36 and #40. Each slot reuses an existing Media document, re-inspected against its new article; the existing alt text still describes what is visibly there. No soil or sand image exists in the library, so #40 uses the villa image showing plant pots and a green garden bag of branches rather than the palm-frond photograph, which shows only fronds.
+
+| File | Media reused | Used as |
+|---|---|---|
+| `office-stripout-cover.webp` | 92 · `article-office-strip-out-dubai-cover` | #34 cover + OG |
+| `warehouse-clearance-zone-plan.webp` | 95 · `article-warehouse-clearance-dubai-body` | #34 body |
+| `truck-load-cover.webp` | 118 · `article-how-much-fits-in-one-load-dubai-cover` | #36 cover + OG |
+| `gated-community-access-plan.webp` | 97 · `article-gated-community-clearance-dubai-body` | #36 body |
+| `villa-clearance-groups.webp` | 79 · `article-villa-handover-clearance-dubai-body` | #40 cover + OG |
+| `skip-direct-load-comparison.webp` | 91 · `article-skip-hire-vs-junk-removal-dubai-body` | #40 body |
 
 ---
 
@@ -223,6 +235,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #18 what-we-take | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-04 |
 | #25 how-much-fits-in-one-load | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-04 |
 | #3 junk-removal-cost | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-10-04 |
+| #34 out-of-hours-clearance | cover, OG, body | `COMPLETE` — existing media reused 2026-10-05 |
+| #36 how-long-villa-clearance | cover, OG, body | `COMPLETE` — existing media reused 2026-10-05 |
+| #40 soil-sand-pots-disposal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-05 · a dedicated soil/pots image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -261,6 +276,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-05 | Assigned existing Media documents to #34, #36 and #40 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-05*. |
 | 2026-10-04 | Generated, inspected and uploaded cover + body editorial imagery for #18, #25 and #3 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-04*. |
 | 2026-10-03 | Generated, inspected and uploaded cover + body editorial imagery for #15, #24 and #43 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-03*. |
 | 2026-10-02 | Assigned existing Media documents to #38, #44 and #19 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-02*. |
