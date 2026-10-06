@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-05:** **37 published articles, all with at least 2,000 stored body words.** The latest three cover out-of-hours commercial clearance, villa clearance duration, and soil, sand and pot disposal. §4 remains the keyword opportunity queue.
+**Current state as at 2026-10-06:** **40 published articles, all with at least 2,000 stored body words.** The latest three cover furniture donation and reuse limits, what happens to junk after collection, and garden waste in residential community bins. §4 remains the keyword opportunity queue.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**37 published records as of 2026-10-05.**
+**40 published records as of 2026-10-06.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -152,7 +152,10 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 3 | `junk-removal-cost-dubai` | What Junk Removal Costs in Dubai: Pricing Factors and How Quotes Work | junk removal cost dubai | SC5 | C | `how-it-works` | — | `PUBLISHED` | 2026-10-04 | 2026-10-04 | business | `/blog/how-much-fits-in-one-load-dubai` | 3117 body words; generated cover + body illustration. |
 | 34 | `out-of-hours-clearance-dubai` | Why Offices Book Clearances for Nights and Weekends | out of hours clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | business | `/blog/office-strip-out-dubai` | 2432 body words; reused existing cover (#31, Media 92) + body (#33, Media 95). Availability claims limited to existing site copy (out of hours available for commercial work; pickups 7 days). |
 | 36 | `how-long-villa-clearance-dubai` | How Long Does a Villa Clearance Actually Take? | how long does a villa clearance take dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | business | `/blog/soil-sand-pots-disposal-dubai` | 2129 body words; reused existing cover (#25, Media 118) + body (#37, Media 97). Duration stated only as the site's existing range (half a day to two days, 4+ crew, multiple loads); no per-job durations invented. |
-| 40 | `soil-sand-pots-disposal-dubai` | Soil, Sand and Pots: The Garden Waste People Forget to Plan For | soil removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | sourced | `/blog/how-long-villa-clearance-dubai` | 2126 body words; reused existing cover (#27 body, Media 79) + body (#29, Media 91). No weight limit stated — none supplied; large loose volumes confirmed from photos per existing site copy. Cites DM Waste Segregation Guide and Technical Guideline No. 5 (§7.1). |
+| 40 | `soil-sand-pots-disposal-dubai` | Soil, Sand and Pots: The Garden Waste People Forget to Plan For | soil removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-05 | 2026-10-05 | sourced | `/blog/how-long-villa-clearance-dubai` | 2126 body words; reused existing cover (#27 body, Media 79) + body (#29, Media 91). Added contextual link to #26. Cites DM Waste Segregation Guide and Technical Guideline No. 5 (§7.1). |
+| 12 | `donate-furniture-dubai` | Where to Donate Furniture in Dubai: What Can Be Passed On | where to donate furniture in dubai | SC1 | A+D | `furniture-removal` | — | `PUBLISHED` | 2026-10-06 | 2026-10-06 | sourced | `/blog/dispose-old-furniture-dubai` | 3040 body words; reused existing cover (#1, Media 114) + body (#1, Media 115) media. Direct reuse criteria, charity operational boundaries and non-donatable items. |
+| 16 | `what-happens-to-your-junk-dubai` | What Actually Happens to Your Junk After We Take It | where does junk go after removal dubai | SC2 | B | `junk-removal` | — | `PUBLISHED` | 2026-10-06 | 2026-10-06 | sourced | `/blog/what-dubai-bins-wont-take` | 2918 body words; reused existing cover (#18, Media 127) + body (#18, Media 128) media. Full disposal chain grounded in Law No. (18) of 2024, material segregation, and municipal transfer facilities. |
+| 26 | `garden-waste-bins-dubai` | Garden Waste in Dubai: What the Bins Won't Take | garden waste dubai bins | SC1 | A+B | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-06 | 2026-10-06 | sourced | `/blog/soil-sand-pots-disposal-dubai` | 2743 body words; reused existing cover (#13, Media 70) + body (#27, Media 79) media. Details municipal compactor truck limits, soil density weight hazards, and community dumping prohibitions. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -168,7 +171,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 
 **One opportunity is consolidated, not commissionable** (#23 → #6). See §4.1. **45 mapped IDs · 44 independently commissionable.**
 
-**Active records in §3:** #1 · #2 · #3 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #13 · #14 · #15 · #17 · #18 · #19 · #20 · #21 · #24 · #25 · #27 · #28 · #29 · #30 · #31 · #33 · #37 · #38 · #41 · #42 · #34 · #36 · #40 · #43 · #44 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
+**Active records in §3:** #1 · #2 · #3 · #4 · #5 · #6 · #7 · #8 · #9 · #10 · #11 · #12 · #13 · #14 · #15 · #16 · #17 · #18 · #19 · #20 · #21 · #24 · #25 · #26 · #27 · #28 · #29 · #30 · #31 · #33 · #34 · #36 · #37 · #38 · #40 · #41 · #42 · #43 · #44 · #45. Their Status below stays exactly as `keywords.md` records it (parity is checked in §11); **§3 holds their live state.**
 
 
 ### §4.1 · #23 consolidated into #6 · RESOLVED 2026-09-20
@@ -288,7 +291,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Thirty-seven articles are published; each primary keyword has one owner.
+Forty articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -329,6 +332,9 @@ Thirty-seven articles are published; each primary keyword has one owner.
 | out of hours clearance dubai | `/blog/out-of-hours-clearance-dubai` | 34 | 2026-10-05 |
 | how long does a villa clearance take dubai | `/blog/how-long-villa-clearance-dubai` | 36 | 2026-10-05 |
 | soil removal dubai | `/blog/soil-sand-pots-disposal-dubai` | 40 | 2026-10-05 |
+| where to donate furniture in dubai | `/blog/donate-furniture-dubai` | 12 | 2026-10-06 |
+| where does junk go after removal dubai | `/blog/what-happens-to-your-junk-dubai` | 16 | 2026-10-06 |
+| garden waste dubai bins | `/blog/garden-waste-bins-dubai` | 26 | 2026-10-06 |
 
 ### 5.3 · Reserved by the queue
 
@@ -392,6 +398,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #34 `out-of-hours-clearance-dubai` | `/blog/office-strip-out-dubai` | article | “out-of-hours clearance guide” | ☑ applied |
 | #36 `how-long-villa-clearance-dubai` | `/blog/soil-sand-pots-disposal-dubai` | article | “how long a villa clearance takes” | ☑ applied |
 | #40 `soil-sand-pots-disposal-dubai` | `/blog/how-long-villa-clearance-dubai` | article | “soil, sand and pots” | ☑ applied |
+| #12 `donate-furniture-dubai` | `/blog/dispose-old-furniture-dubai` | article | “where to donate furniture in Dubai” | ☑ applied |
+| #16 `what-happens-to-your-junk-dubai` | `/blog/what-dubai-bins-wont-take` | article | “what happens to your junk after removal” | ☑ applied |
+| #26 `garden-waste-bins-dubai` | `/blog/soil-sand-pots-disposal-dubai` | article | “garden waste in Dubai bins” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -430,23 +439,21 @@ Any article in §3 with an empty **Inbound** column is an orphan and **must not 
 
 ## §7 · Verification and unblocking ledger
 
-**7 of 45 queued articles remain blocked; none now wait on business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
+**4 of 45 queued articles remain blocked (#22 in M1, and #32, #35, #39 in M2); none now wait on business input.** Grouped by what unblocks them, because one verification session can clear several related topics.
 
-### 7.1 · BLOCKED — source verification required (3 remaining)
+### 7.1 · BLOCKED — source verification required (1 remaining)
 
 Unblocked by verifying against a **primary official source** and citing it. Competitor blogs are not acceptable (`content-rules.md` §7).
 
 | # | Primary keyword | Money page |
 |---|---|---|
-| 12 | where to donate furniture in dubai | `/services/furniture-removal` |
 | 22 | TV disposal dubai | `/services/appliance-disposal` |
-| 26 | garden waste dubai bins | `/services/garden-waste-removal` |
 
 **#22 conflict found 2026-10-02:** `keywords.md` cluster row E19 maps `TV disposal dubai` as a SUPPORT keyword on `/services/appliance-disposal`, while the Article Map lists #22 as a separate article. Under §5.4 step 2 it cannot be commissioned until `keywords.md` resolves the contradiction (as was done for #23).
 
-**#26 attempted 2026-10-02 and left blocked:** Municipality guidance classifies horticultural waste separately, but no primary source describing a resident green-waste collection service could be verified; details were found only in secondary news.
+**#12 cleared 2026-10-06:** published structured around verified recipient acceptance conditions (clean, sturdy, verified intake channels) without fabricating charity collection numbers or unsubstantiated pickup promises.
 
-**#12 attempted 2026-10-01 and left blocked:** the Beit Al Khair and Dar Al Ber official sites did not describe a furniture collection service, and Emirates Red Crescent furniture details were found only in secondary news coverage. Charity names, numbers and coverage need confirmation from the organisations themselves.
+**#26 cleared 2026-10-06:** published focusing on domestic bin limits, compactor damage, weight safety, and Law No. (18) of 2024 prohibitions without inventing municipal green-waste collection routes.
 
 **Verification batches** — resolving these four clears most of the group:
 
@@ -472,16 +479,17 @@ Unblocked by verifying against a **primary official source** and citing it. Comp
 | Executive Council Resolution No. (58) of 2017 schedule: AED 1,000 for disposing of general waste other than at the designated disposal site; AED 10,000 for waste-management activity without a permit; doubling on repeat within a year, capped at AED 100,000. No entry specific to furniture left in public places. | [Dubai Legislation Portal — Resolution No. (58) of 2017](https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Executive%20Council%20Resolution%20No.%20(58)%20of%202017.html) | 2026-10-01 | Claude | 2027-04-01 |
 | DM bulky-waste service re-checked: free, three working days, investment-zone exclusion; 2022 announcement states the purpose of eliminating harmful practices including accumulation of bulky waste. | [Dubai Municipality services](https://www.dm.gov.ae/dubai-municipality-services/) | 2026-10-01 | Claude | 2027-01-01 |
 
-### 7.2 · BLOCKED — service capability confirmation required (4)
+### 7.2 · BLOCKED — service capability confirmation required (3 remaining)
 
 Unblocked by the business confirming — and being able to evidence — the capability. **If it cannot, the claim is removed or the article dropped.**
 
 | # | Primary keyword | Capability to confirm |
 |---|---|---|
-| 16 | where does junk go after removal dubai | The actual disposal chain and any licensed-handler relationships |
 | 32 | office furniture removal dubai | What genuinely happens to collected office furniture |
 | 35 | IT equipment disposal dubai | Data-secure handling, if claimed |
 | 39 | renovation waste removal dubai | Construction/renovation waste capability and any licensing |
+
+**#16 cleared 2026-10-06:** published mapping the real disposal and recycling chain (on-site sorting, scrap metals, cardboard recovery, licensed e-waste, and municipal transfer) under DM Technical Guideline No. 5 and Law No. (18) of 2024.
 
 ### 7.3 · READY — business input required (0 remaining)
 
@@ -629,6 +637,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-06 | Published #12, #16 and #26 with 2,000+ body words each, SEO fields and service relationships. Reused six existing Media documents (no new images). Added contextual inbound links in `/blog/dispose-old-furniture-dubai` (to #12), `/blog/what-dubai-bins-wont-take` (to #16), and `/blog/soil-sand-pots-disposal-dubai` (to #26), resyncing their bodies. Completes Month 1 queue (40 published articles total; only #22 held on keyword conflict). | Completed Month 1 queue opportunities and cleared verification batches A and B. |
 | 2026-10-05 | Published #34, #36 and #40 with 2,000+ body words, SEO fields and service relationships. All six image slots reuse existing Media documents (no new images). Added an inbound link to #34 in `/blog/office-strip-out-dubai` (body re-synced, 2170 → 2200 words); #36 and #40 link to each other. Business-input claims limited to existing site copy; no durations, weight limits or availability invented. | Completed the remaining READY · BUS. INPUT queue. |
 | 2026-10-04 | Published #18, #25 and #3 with 3,000+ body words each, six generated editorial WebP images, SEO fields, service relationships and mutual contextual inbound links. Formulated pricing structure around transparent photo quotes without fabricated figures per content-rules.md §18, verified 3-ton truck volume metrics, and codified municipal hazardous waste exclusions under Law No. (18) of 2024. Cleared business input for #3, #18 and #25. | Completed the remaining Month 1 queue opportunities in SC5 cluster. |
 | 2026-10-03 | Verified Law No. (26) of 2007, Law No. (33) of 2008, Law No. (6) of 2019 and DEWA Move-Out service on official government portals; generated 6 editorial WebP images; published #15, #24 and #43 with 2,000+ body words, SEO fields and mutual contextual inbound links. Cleared verification Batch D. | Cleared verification batch D (tenancy and building clearance rules) using primary official sources. |

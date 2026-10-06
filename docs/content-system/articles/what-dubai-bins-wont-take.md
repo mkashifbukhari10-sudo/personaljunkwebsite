@@ -28,7 +28,7 @@ The Waste Segregation Guide states that furniture and white goods can be managed
 
 The [Dubai Municipality services directory](https://www.dm.gov.ae/dubai-municipality-services/) describes that service as free, with a published service time of three working days, and excludes investment zones. The [official bulky-waste service](/blog/dubai-municipality-bulky-waste) guide explains eligibility and preparation in detail.
 
-Until the collection is confirmed, keep large items inside the property. Leaving them by the bins is not a holding arrangement; the [dumping fines guide](/blog/illegal-dumping-fines-dubai) sets out the legal position.
+Until the collection is confirmed, keep large items inside the property. Leaving them by the bins is not a holding arrangement; the [dumping fines guide](/blog/illegal-dumping-fines-dubai) sets out the legal position. To understand how collected materials are sorted for reuse and recycling across the city, see [what happens to your junk after removal](/blog/what-happens-to-your-junk-dubai).
 
 ![A four-stage top-down preparation sequence showing household bulky items inside a property and a scheduled collection route.](media:municipality-bulky-waste-process)
 

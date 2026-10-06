@@ -28,7 +28,7 @@ Set a collection deadline. Expressions of interest do not clear a property. Conf
 
 Do not leave promised furniture in a shared corridor or outside the property. It can block access, suffer damage and create uncertainty over responsibility. Keep it safely inside until the recipient is ready.
 
-For donation, obtain acceptance from the specific organisation or recipient. Acceptance policies and capacity can change. Never claim that an item will be donated merely because it appears reusable.
+For donation, obtain acceptance from the specific organisation or recipient. Acceptance policies and capacity can change. The detailed guide to [where to donate furniture in Dubai](/blog/donate-furniture-dubai) explains what recipients can actually accept, how collections work and what to do when donation is not an option. Never claim that an item will be donated merely because it appears reusable.
 
 ## Route three: Dubai Municipality bulky-waste service
 

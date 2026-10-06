@@ -186,6 +186,19 @@ No new images were generated or sourced for #34, #36 and #40. Each slot reuses a
 | `villa-clearance-groups.webp` | 79 · `article-villa-handover-clearance-dubai-body` | #40 cover + OG |
 | `skip-direct-load-comparison.webp` | 91 · `article-skip-hire-vs-junk-removal-dubai-body` | #40 body |
 
+### Reused existing media — 2026-10-06
+
+No new images were generated or sourced for #12, #16 and #26. Each slot reuses an existing Media document, re-inspected against its new article; the existing alt text still describes what is visibly there. #12 reuses the furniture disposal cover and route options diagram; #16 reuses the acceptance cover and sorting diagram; #26 reuses the cut palm fronds photograph and villa clearance grouping diagram.
+
+| File | Media reused | Used as |
+|---|---|---|
+| `dispose-old-furniture-cover.webp` | 104 · `article-dispose-old-furniture-dubai-cover` | #12 cover + OG |
+| `old-furniture-route-options.webp` | 105 · `article-dispose-old-furniture-dubai-body` | #12 body |
+| `what-we-take-cover.webp` | 116 · `article-what-we-take-dubai-cover` | #16 cover + OG |
+| `accepted-versus-excluded-guide.webp` | 117 · `article-what-we-take-dubai-body` | #16 body |
+| `cut-palm-fronds-on-the-ground.webp` (Unsplash) | 70 · no seedKey | #26 cover + OG |
+| `villa-clearance-groups.webp` | 79 · `article-villa-handover-clearance-dubai-body` | #26 body |
+
 ---
 
 ## Rejected on inspection — not used
@@ -238,6 +251,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #34 out-of-hours-clearance | cover, OG, body | `COMPLETE` — existing media reused 2026-10-05 |
 | #36 how-long-villa-clearance | cover, OG, body | `COMPLETE` — existing media reused 2026-10-05 |
 | #40 soil-sand-pots-disposal | cover, OG, body | `COMPLETE` — existing media reused 2026-10-05 · a dedicated soil/pots image would make a better future cover |
+| #12 donate-furniture-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-06 |
+| #16 what-happens-to-your-junk-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-06 |
+| #26 garden-waste-bins-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-06 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -276,6 +292,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-06 | Assigned existing Media documents to #12, #16 and #26 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-06*. |
 | 2026-10-05 | Assigned existing Media documents to #34, #36 and #40 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-05*. |
 | 2026-10-04 | Generated, inspected and uploaded cover + body editorial imagery for #18, #25 and #3 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-04*. |
 | 2026-10-03 | Generated, inspected and uploaded cover + body editorial imagery for #15, #24 and #43 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-03*. |

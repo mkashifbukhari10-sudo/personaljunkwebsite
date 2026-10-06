@@ -124,7 +124,7 @@ For handovers, check what has to be removed and what must stay. Built-in planter
 
 ## What happens after collection
 
-Garden loads are sorted at the yard with the rest of the collection. Usable items, such as outdoor furniture in reasonable condition, are passed on rather than dumped, and the remainder goes to approved municipal facilities. Dubai Municipality's [waste classification guideline](https://dmpmedia.dm.gov.ae/uploads/2022/01/Technical-Guidelines-no.5-Waste-Classification.pdf) treats horticultural waste as its own category, separate from general household waste, which is one reason garden material benefits from being identified clearly.
+Garden loads are sorted at the yard with the rest of the collection. Usable items, such as outdoor furniture in reasonable condition, are passed on rather than dumped, and the remainder goes to approved municipal facilities. Dubai Municipality's [waste classification guideline](https://dmpmedia.dm.gov.ae/uploads/2022/01/Technical-Guidelines-no.5-Waste-Classification.pdf) treats horticultural waste as its own category, separate from general household waste, which is one reason garden material benefits from being identified clearly. For properties with community wheelie containers, the guide to [garden waste in Dubai bins](/blog/garden-waste-bins-dubai) details why regular domestic bins reject heavy soil, tree branches and pots, and how to stay compliant with community rules.
 
 ## Common mistakes with heavy garden waste
 
