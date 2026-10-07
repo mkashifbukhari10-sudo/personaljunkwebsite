@@ -1,5 +1,7 @@
 An office strip-out succeeds when the floor, building and outgoing materials are treated as one controlled project. Start by defining what must leave, what must remain, who can disconnect fixed elements and when each zone becomes available. That scope protects business continuity and gives the building team enough detail to approve access.
 
+When the job centres on desks, chairs and cabinets, use the [office furniture removal guide](/blog/office-furniture-removal-dubai) to plan condition sorting, reuse and the building route.
+
 ## Define what “strip-out” means for this floor
 
 The term can describe very different jobs. One tenant may be removing loose furniture and storage before a lease handover. Another may need partitions, flooring, counters or fitted joinery removed after specialist disconnection. Write a room-by-room schedule instead of relying on the phrase alone.

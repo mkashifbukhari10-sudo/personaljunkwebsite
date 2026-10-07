@@ -1,5 +1,7 @@
 Skip hire and booked junk removal solve different versions of the same problem. A skip gives you a container to fill over time. A removal crew loads an agreed set of items during a scheduled visit. The right choice depends on the material, property access, project duration, lifting responsibility and whether you have a legal place for a container.
 
+For a project producing tiles, plasterboard and fit-out offcuts, the [renovation waste removal guide](/blog/renovation-waste-removal-dubai) explains how to separate the load and time collection around the work.
+
 ## The basic difference
 
 With a skip, the container is delivered, remains for an agreed period and is collected later. The customer normally moves material into it. That can suit work producing waste gradually, provided the site has appropriate space and the supplier accepts the material.

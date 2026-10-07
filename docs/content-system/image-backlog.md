@@ -216,6 +216,20 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 ## Outstanding slots
 
+### Generated and uploaded editorial imagery — 2026-10-07
+
+The six original, unbranded editorial images below were generated for #22, #32 and #39, visually inspected, saved under `public/images/articles/`, and uploaded to the CMS. Six Media records were verified after publication.
+
+| File | Intended slot | Alt text |
+|---|---|---|
+| `tv-disposal-cover.webp` | #22 cover + OG | An older flat-screen television on a console in a bright, generic apartment living room. |
+| `tv-disposal-routes.webp` | #22 body | An illustration comparing a working TV for reuse, a broken TV for e-waste collection, and a damaged screen protected for handling. |
+| `office-furniture-cover.webp` | #32 cover + OG | Groups of unbranded desks, task chairs and cabinets in a bright generic office floor with a clear corridor. |
+| `office-furniture-sorting.webp` | #32 body | An isometric office plan separating reusable furniture, metal and wood components, and damaged items beside a clear lift route. |
+| `renovation-waste-cover.webp` | #39 cover + OG | Contained bags of tile debris and stacked offcuts beside a protected route in a generic apartment renovation. |
+| `renovation-waste-sorting.webp` | #39 body | An isometric apartment plan separating bagged rubble, wood and metal offcuts, and isolated paint and gas containers. |
+
+
 | Article | Slot | Status |
 |---|---|---|
 | #7 sofa-wont-fit-through-door | cover, OG, body | `COMPLETE` — generated editorial imagery uploaded 2026-09-21 |
@@ -254,6 +268,9 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 | #12 donate-furniture-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-06 |
 | #16 what-happens-to-your-junk-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-06 |
 | #26 garden-waste-bins-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-06 |
+| #22 tv-disposal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-07 |
+| #32 office-furniture-removal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-07 |
+| #39 renovation-waste-removal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-07 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -292,6 +309,7 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 | Date | Change |
 |---|---|
+| 2026-10-07 | Generated, inspected and uploaded six original editorial WebP images for #22, #32 and #39; confirmed all six CMS Media records. |
 | 2026-10-06 | Assigned existing Media documents to #12, #16 and #26 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-06*. |
 | 2026-10-05 | Assigned existing Media documents to #34, #36 and #40 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-05*. |
 | 2026-10-04 | Generated, inspected and uploaded cover + body editorial imagery for #18, #25 and #3 (six WebP files, generic and unbranded under the approved editorial generation policy). Recorded above under *Generated editorial imagery — 2026-10-04*. |
