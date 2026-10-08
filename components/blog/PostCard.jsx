@@ -77,5 +77,5 @@ export default function PostCard({ post, priority = false }) {
 
 /** "12 September 2026" — unambiguous, and matches the en-AE copy elsewhere. */
 function formatDate(date) {
-  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' }).format(date);
+  return new Intl.DateTimeFormat('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Asia/Dubai' }).format(date);
 }
