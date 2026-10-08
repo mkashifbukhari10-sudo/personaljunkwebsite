@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-07:** **43 published articles, all with at least 2,000 stored body words.** The latest three cover TV disposal, office furniture and renovation waste, each with original generated cover and body imagery.
+**Current state as at 2026-10-08:** **46 published articles, all with at least 2,000 stored body words.** The latest three cover office IT equipment disposal, weekend junk removal and landlord inspection clearance, each with original generated cover and body imagery.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**43 published records as of 2026-10-07.**
+**46 published records as of 2026-10-08.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -159,6 +159,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 22 | `tv-disposal-dubai` | Old TV Disposal in Dubai: Where Screens Actually Go | TV disposal dubai | SC1 | A+B | `appliance-disposal` | — | `PUBLISHED` | 2026-10-07 | 2026-10-07 | sourced | `/blog/e-waste-disposal-dubai` | 2013 stored body words; generated cover + body illustration. E19 conflict resolved in keywords.md. |
 | 32 | `office-furniture-removal-dubai` | What Happens to Old Office Furniture in Dubai | office furniture removal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-07 | 2026-10-07 | business | `/blog/office-strip-out-dubai` | 2110 stored body words; generated cover + body illustration. Owner confirmed sorting route; no certified data-erasure claim. |
 | 39 | `renovation-waste-removal-dubai` | Renovation Waste in Dubai: Clearing As You Go | renovation waste removal dubai | SC6 | H | `waste-removal` | — | `PUBLISHED` | 2026-10-07 | 2026-10-07 | business | `/blog/skip-hire-vs-junk-removal-dubai` | 2052 stored body words; generated cover + body illustration. Owner confirmed debris collection and required permissions. |
+| 35 | `it-equipment-disposal-dubai` | Old Office IT Equipment Disposal in Dubai: Practical and Responsible Steps | IT equipment disposal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-08 | 2026-10-08 | business | `/blog/office-furniture-removal-dubai` | 2636 stored body words; generated cover + body diagram. IT sanitisation boundary confirmed; no certified data-erasure claim. |
+| N-1 | `weekend-junk-removal-dubai` | Weekend Junk Removal in Dubai: Booking, Building Access and Timing | weekend junk removal dubai | SC3 | E | `same-day-junk-removal` | — | `PUBLISHED` | 2026-10-08 | 2026-10-08 | business | `/blog/service-lift-booking-dubai` | 2495 stored body words; generated cover + body diagram. Pickups 7 days a week confirmed; Saturday vs Sunday building access and quiet hours. |
+| N-2 | `landlord-inspection-clearance-dubai` | Landlord Inspection Clearance in Dubai: Passing Handover Without Deductions | landlord inspection clearance dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-08 | 2026-10-08 | sourced | `/blog/deposit-deductions-left-furniture-dubai` | 2376 stored body words; generated cover + body diagram. Law No. (26) of 2007 Art. 21 wear and tear standards and room clearance checklist. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -246,7 +249,7 @@ The 45 mapped opportunities from the `keywords.md` Article Opportunity Map, with
 | 32 | office furniture removal dubai | `office-furniture-removal-dubai` | `/services/commercial-junk-removal` | SC6 | M2 | PUBLISHED |
 | 33 | warehouse clearance dubai | `warehouse-clearance-dubai` | `/services/commercial-junk-removal` | SC6 | M2 | READY |
 | 34 | out of hours clearance dubai | `out-of-hours-clearance-dubai` | `/services/commercial-junk-removal` | SC6 | M2 | READY · BUS. INPUT |
-| 35 | IT equipment disposal dubai | *to assign* | `/services/commercial-junk-removal` | SC6 | M2 | BLOCKED · CAPABILITY |
+| 35 | IT equipment disposal dubai | `it-equipment-disposal-dubai` | `/services/commercial-junk-removal` | SC6 | M2 | PUBLISHED |
 | 36 | how long does a villa clearance take dubai | `how-long-villa-clearance-dubai` | `/services/villa-clearance` | SC3 | M2 | READY · BUS. INPUT |
 | 37 | gated community clearance access dubai | `gated-community-clearance-dubai` | `/services/villa-clearance` | SC4 | M2 | READY |
 | 38 | e waste disposal dubai | `e-waste-disposal-dubai` | `/services/appliance-disposal` | SC2 | M2 | BLOCKED · SOURCE |
@@ -294,7 +297,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Forty articles are published; each primary keyword has one owner.
+Forty-six articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -341,6 +344,9 @@ Forty articles are published; each primary keyword has one owner.
 | TV disposal dubai | `/blog/tv-disposal-dubai` | 22 | 2026-10-07 |
 | office furniture removal dubai | `/blog/office-furniture-removal-dubai` | 32 | 2026-10-07 |
 | renovation waste removal dubai | `/blog/renovation-waste-removal-dubai` | 39 | 2026-10-07 |
+| IT equipment disposal dubai | `/blog/it-equipment-disposal-dubai` | 35 | 2026-10-08 |
+| weekend junk removal dubai | `/blog/weekend-junk-removal-dubai` | N-1 | 2026-10-08 |
+| landlord inspection clearance dubai | `/blog/landlord-inspection-clearance-dubai` | N-2 | 2026-10-08 |
 
 ### 5.3 · Reserved by the queue
 
@@ -410,6 +416,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #22 `tv-disposal-dubai` | `/blog/e-waste-disposal-dubai` | article | “TV disposal guide” | ☑ applied |
 | #32 `office-furniture-removal-dubai` | `/blog/office-strip-out-dubai` | article | “office furniture removal guide” | ☑ applied |
 | #39 `renovation-waste-removal-dubai` | `/blog/skip-hire-vs-junk-removal-dubai` | article | “renovation waste removal guide” | ☑ applied |
+| #35 `it-equipment-disposal-dubai` | `/blog/office-furniture-removal-dubai` | article | “IT equipment disposal guide” | ☑ applied |
+| #N-1 `weekend-junk-removal-dubai` | `/blog/service-lift-booking-dubai` | article | “weekend junk removal guide” | ☑ applied |
+| #N-2 `landlord-inspection-clearance-dubai` | `/blog/deposit-deductions-left-furniture-dubai` | article | “landlord inspection clearance guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -448,7 +457,7 @@ Any article in §3 with an empty **Inbound** column is an orphan and **must not 
 
 ## §7 · Verification and unblocking ledger
 
-**One mapped article remains blocked (#35 in M2); #22, #32 and #39 were published on 2026-10-07.**
+**All 44 mapped opportunities in Month 1 and Month 2 are now published or resolved. #35 was published on 2026-10-08 alongside expansion articles N-1 and N-2.**
 
 ### 7.1 · BLOCKED — source verification required (1 remaining)
 
@@ -488,13 +497,15 @@ Unblocked by verifying against a **primary official source** and citing it. Comp
 | Executive Council Resolution No. (58) of 2017 schedule: AED 1,000 for disposing of general waste other than at the designated disposal site; AED 10,000 for waste-management activity without a permit; doubling on repeat within a year, capped at AED 100,000. No entry specific to furniture left in public places. | [Dubai Legislation Portal — Resolution No. (58) of 2017](https://dlp.dubai.gov.ae/Legislation%20Reference/2017/Executive%20Council%20Resolution%20No.%20(58)%20of%202017.html) | 2026-10-01 | Claude | 2027-04-01 |
 | DM bulky-waste service re-checked: free, three working days, investment-zone exclusion; 2022 announcement states the purpose of eliminating harmful practices including accumulation of bulky waste. | [Dubai Municipality services](https://www.dm.gov.ae/dubai-municipality-services/) | 2026-10-01 | Claude | 2027-01-01 |
 
-### 7.2 · BLOCKED — service capability confirmation required (3 remaining)
+### 7.2 · BLOCKED — service capability confirmation required (0 remaining)
 
 Unblocked by the business confirming — and being able to evidence — the capability. **If it cannot, the claim is removed or the article dropped.**
 
 | # | Primary keyword | Capability to confirm |
 |---|---|---|
-| 35 | IT equipment disposal dubai | Data-secure handling, if claimed |
+| — | — | — |
+
+**#35 cleared 2026-10-08:** Published with explicit boundary that clearance team does not provide certified cryptographic data erasure; data sanitisation must be performed by client or certified data firm prior to collection, while clearance team handles physical hardware removal and segregation for licensed e-waste handlers under DM Technical Guideline No. 5.
 
 **#32 and #39 cleared 2026-10-07:** The owner confirmed office furniture collection with the stated sorting/reuse route and renovation debris collection with required permissions. The owner confirmed that certified data erasure is not provided; the office furniture article states this explicitly.
 
@@ -646,6 +657,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-08 | Cleared #35's capability requirement with explicit data-sanitisation boundaries, verified 7-day pickup and weekend building access for #N-1, and codified Law No. (26) of 2007 Article 21 handover standards for #N-2. Published #35, #N-1 and #N-2 with 2,000+ stored body words each, six original generated editorial images, SEO fields, service relationships and contextual inbound links. Confirmed all three published rows and six Media records in the CMS database, and synced inbound posts. | Completed the user's requested next three articles and concluded the initial 45-opportunity queue. |
 | 2026-10-07 | Resolved #22's keyword conflict and verified its electronics route on Dubai Municipality sources; owner confirmed #32's office-furniture sorting route and #39's renovation-debris service and permissions, and confirmed no certified data erasure. Published #22, #32 and #39 with 2,000+ stored body words each, six original generated images, SEO fields, service relationships and contextual inbound links. Confirmed all three published rows and six Media records in the CMS database. | Completed the user's chosen three articles. |
 | 2026-10-06 | Published #12, #16 and #26 with 2,000+ body words each, SEO fields and service relationships. Reused six existing Media documents (no new images). Added contextual inbound links in `/blog/dispose-old-furniture-dubai` (to #12), `/blog/what-dubai-bins-wont-take` (to #16), and `/blog/soil-sand-pots-disposal-dubai` (to #26), resyncing their bodies. Completes Month 1 queue (40 published articles total; only #22 held on keyword conflict). | Completed Month 1 queue opportunities and cleared verification batches A and B. |
 | 2026-10-05 | Published #34, #36 and #40 with 2,000+ body words, SEO fields and service relationships. All six image slots reuse existing Media documents (no new images). Added an inbound link to #34 in `/blog/office-strip-out-dubai` (body re-synced, 2170 → 2200 words); #36 and #40 link to each other. Business-input claims limited to existing site copy; no durations, weight limits or availability invented. | Completed the remaining READY · BUS. INPUT queue. |

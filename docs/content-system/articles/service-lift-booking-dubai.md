@@ -62,7 +62,7 @@ Allow for check-in, access-card collection, lift preparation and movement from t
 
 Ask management how amendments or delays are handled. Ask the provider what notice they need if the building changes the slot. Record contact numbers for the resident representative, provider and building desk, but do not promise that any party can extend the window.
 
-If a same-day request is involved, the [urgent collection guide](/blog/junk-gone-today-dubai) explains why access readiness matters. Provider availability alone does not create a service-lift reservation.
+If a same-day request is involved, the [urgent collection guide](/blog/junk-gone-today-dubai) explains why access readiness matters. If you are clearing items on a Saturday or Sunday, our [weekend junk removal guide](/blog/weekend-junk-removal-dubai) explains how security office hours and freight lift windows differ across Dubai towers. Provider availability alone does not create a service-lift reservation.
 
 ## Loading access is part of the same plan
 

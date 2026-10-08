@@ -216,6 +216,19 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 ## Outstanding slots
 
+### Generated and uploaded editorial imagery — 2026-10-08
+
+The six original, unbranded editorial images below were generated for #35, #N-1 and #N-2, visually inspected, saved under `public/images/articles/`, and uploaded to the CMS. Six Media records were verified after publication.
+
+| File | Intended slot | Alt text |
+|---|---|---|
+| `it-equipment-disposal-cover.webp` | #35 cover + OG | Neatly grouped decommissioned office computers, monitors and server equipment staged along a clear hallway in a modern Dubai commercial office. |
+| `it-equipment-sorting-workflow.webp` | #35 body | An isometric diagram separating office IT equipment into data-cleared hardware, recyclable components, and isolated battery and power units beside a loading bay route. |
+| `weekend-junk-removal-cover.webp` | #N-1 cover + OG | A residential Dubai apartment corridor and open doorway with household items staged neatly for a scheduled weekend clearance. |
+| `weekend-access-schedule-plan.webp` | #N-1 body | A weekend clearance planning diagram showing Saturday and Sunday security office hours, service lift booking windows, and loading bay access checkpoints. |
+| `landlord-inspection-clearance-cover.webp` | #N-2 cover + OG | A spotless, completely cleared Dubai rental apartment living room prepared for the final landlord handover walkthrough and key return. |
+| `inspection-handover-checklist-plan.webp` | #N-2 body | A side-by-side comparison diagram showing a fully cleared property passing inspection without deductions versus common overlooked spots like balcony storage and curtain fixtures. |
+
 ### Generated and uploaded editorial imagery — 2026-10-07
 
 The six original, unbranded editorial images below were generated for #22, #32 and #39, visually inspected, saved under `public/images/articles/`, and uploaded to the CMS. Six Media records were verified after publication.
@@ -271,6 +284,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #22 tv-disposal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-07 |
 | #32 office-furniture-removal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-07 |
 | #39 renovation-waste-removal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-07 |
+| #35 it-equipment-disposal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-08 |
+| #N-1 weekend-junk-removal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-08 |
+| #N-2 landlord-inspection-clearance-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-08 |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -309,6 +325,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-08 | Generated, inspected and uploaded six original editorial WebP images for #35, #N-1 and #N-2; confirmed all six CMS Media records. |
 | 2026-10-07 | Generated, inspected and uploaded six original editorial WebP images for #22, #32 and #39; confirmed all six CMS Media records. |
 | 2026-10-06 | Assigned existing Media documents to #12, #16 and #26 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-06*. |
 | 2026-10-05 | Assigned existing Media documents to #34, #36 and #40 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-05*. |

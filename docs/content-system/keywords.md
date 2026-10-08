@@ -601,7 +601,7 @@ Owner: `/services/same-day-junk-removal`.
 | B7 | last minute junk removal dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P2 | |
 | B8 | short notice junk removal dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P3 | |
 | B9 | next day junk removal dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P2 | Fallback when same-day slots are gone. |
-| B10 | weekend junk removal dubai | Transactional | HIGH | BLOG | `/blog/weekend-junk-removal-dubai` | P2 | Only publish if weekend crews are genuinely available. |
+| B10 | weekend junk removal dubai | Transactional | HIGH | BLOG | `/blog/weekend-junk-removal-dubai` | P2 | Pickups 7 days a week confirmed; Saturday vs Sunday building access verified. |
 | B11 | 24 hour junk removal dubai | Transactional | MED | SUPPORT | `/services/same-day-junk-removal` | P3 | **Only if true.** Do not imply 24h operation otherwise. |
 | B12 | fast junk removal dubai | Commercial | HIGH | SUPPORT | `/services/same-day-junk-removal` | P2 | |
 | B13 | junk removal within hours dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P3 | |
@@ -779,7 +779,7 @@ Owner: `/services/house-clearance`.
 | H10 | move out junk removal dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H11 | moving out rubbish removal dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P2 | |
 | H12 | handover clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
-| H13 | landlord inspection clearance dubai | Commercial | HIGH | BLOG | `/blog/landlord-inspection-clearance-dubai` | P2 | |
+| H13 | landlord inspection clearance dubai | Commercial | HIGH | BLOG | `/blog/landlord-inspection-clearance-dubai` | P2 | Handover walkthrough and Law No. 26 of 2007 Art. 21 wear and tear standards. |
 | H14 | will landlord deduct deposit for furniture left dubai | Problem | HIGH | BLOG | `/blog/deposit-deductions-left-furniture-dubai` | P2 | **High-anxiety long-tail with a clear commercial answer.** |
 | H15 | storage room clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P2 | |
 | H16 | estate clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Skews to larger properties. |
@@ -1251,7 +1251,7 @@ The waste page already carries an FAQ ("What is the difference between waste rem
 | 32 | office furniture removal dubai | Commercial | What Happens to Old Office Furniture in Dubai | SC6 | `/services/commercial-junk-removal` | Business Bay · Deira · Bur Dubai | office furniture disposal · office desk removal | commercial-junk-removal · donate-furniture · what-happens-to-your-junk | MOFU | **P1** | M2 | **READY — service confirmed by owner 2026-10-07** |
 | 33 | warehouse clearance dubai | Commercial | Warehouse Clear-Outs: Planning Around Stock and Access | SC6 | `/services/commercial-junk-removal` | Al Quoz · DIP | warehouse junk removal dubai | commercial-junk-removal · waste-removal · area/al-quoz | MOFU | **P1** | M2 | **READY** |
 | 34 | out of hours clearance dubai | Commercial | Why Offices Book Clearances for Nights and Weekends | SC6 | `/services/commercial-junk-removal` | Business Bay · JLT · Deira | commercial waste collection dubai | commercial-junk-removal · office-strip-out | MOFU | P1 | M2 | **READY — BUSINESS INPUT REQUIRED** |
-| 35 | IT equipment disposal dubai | Commercial | Disposing of Old Office IT Equipment Responsibly | SC6 | `/services/commercial-junk-removal` | DSO · Business Bay | computer disposal dubai · e waste disposal | commercial-junk-removal · e-waste · appliance-disposal | MOFU | P2 | M2 | **BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED** |
+| 35 | IT equipment disposal dubai | Commercial | Old Office IT Equipment Disposal in Dubai: Practical and Responsible Steps | SC6 | `/services/commercial-junk-removal` | DSO · Business Bay | computer disposal dubai · e waste disposal | commercial-junk-removal · e-waste · appliance-disposal | MOFU | P2 | M2 | **READY — capability boundary confirmed 2026-10-08** |
 | 36 | how long does a villa clearance take dubai | Informational | How Long Does a Villa Clearance Actually Take? | SC3 | `/services/villa-clearance` | Arabian Ranches · JGE · DAMAC Hills | large villa clearance dubai | villa-clearance · villa-handover · garden-waste-removal | MOFU | **P1** | M2 | **READY — BUSINESS INPUT REQUIRED** |
 | 37 | gated community clearance access dubai | Informational | Gated Communities: Access, Permits and Timing for a Clearance | SC4 | `/services/villa-clearance` | Arabian Ranches · JGE · DAMAC Hills · The Springs · Town Square | villa clearance services dubai | villa-clearance · how-long-villa-clearance · area pages | MOFU | P1 | M2 | **READY** |
 | 38 | e waste disposal dubai | Commercial | E-Waste Disposal in Dubai: The Rules and the Routes | SC2 | `/services/appliance-disposal` | DSO · Business Bay | e waste collection · e waste recycling dubai | appliance-disposal · dispose-fridge · commercial-junk-removal | TOFU→MOFU | P1 | M2 | **BLOCKED — SOURCE VERIFICATION REQUIRED** |

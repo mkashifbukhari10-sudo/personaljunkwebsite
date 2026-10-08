@@ -80,7 +80,7 @@ If you rented a fully furnished or semi-furnished apartment, every included item
 
 ### The move-out check-out inspection
 
-At the conclusion of the lease, the landlord, property manager, or an independent handover inspector conducts a formal walkthrough. They compare the current state of the property against the initial check-in report.
+At the conclusion of the lease, the landlord, property manager, or an independent handover inspector conducts a formal walkthrough. They compare the current state of the property against the initial check-in report. Our dedicated [landlord inspection clearance guide](/blog/landlord-inspection-clearance-dubai) details how to structure this walkthrough, identify hidden deduction traps, and document the final handover so your security deposit is protected in full.
 
 During this inspection, any foreign item left in the unit is flagged as an outstanding clearance item. If you have already vacated and returned the keys without removing your personal effects, the inspector records the items on the checkout report and requests contractor quotations for their removal.
 
