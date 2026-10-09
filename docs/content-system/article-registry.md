@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-08:** **46 published articles, all with at least 2,000 stored body words.** The latest three cover office IT equipment disposal, weekend junk removal and landlord inspection clearance, each with original generated cover and body imagery.
+**Current state as at 2026-10-09:** **49 published articles, all with at least 2,000 stored body words.** The latest three cover decluttering a small apartment, a seasonal clear-out and a pre-Ramadan clear-out, admitted from mapped `BLOG` rows M17–M19 in `keywords.md` and illustrated with reused Media.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**46 published records as of 2026-10-08.**
+**49 published records as of 2026-10-09.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -162,6 +162,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | 35 | `it-equipment-disposal-dubai` | Old Office IT Equipment Disposal in Dubai: Practical and Responsible Steps | IT equipment disposal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-08 | 2026-10-08 | business | `/blog/office-furniture-removal-dubai` | 2636 stored body words; generated cover + body diagram. IT sanitisation boundary confirmed; no certified data-erasure claim. |
 | N-1 | `weekend-junk-removal-dubai` | Weekend Junk Removal in Dubai: Booking, Building Access and Timing | weekend junk removal dubai | SC3 | E | `same-day-junk-removal` | — | `PUBLISHED` | 2026-10-08 | 2026-10-08 | business | `/blog/service-lift-booking-dubai` | 2495 stored body words; generated cover + body diagram. Pickups 7 days a week confirmed; Saturday vs Sunday building access and quiet hours. |
 | N-2 | `landlord-inspection-clearance-dubai` | Landlord Inspection Clearance in Dubai: Passing Handover Without Deductions | landlord inspection clearance dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-08 | 2026-10-08 | sourced | `/blog/deposit-deductions-left-furniture-dubai` | 2376 stored body words; generated cover + body diagram. Law No. (26) of 2007 Art. 21 wear and tear standards and room clearance checklist. |
+| N-3 | `decluttering-small-dubai-apartment` | Decluttering a Small Dubai Apartment: Start With What Takes Up Floor Space | decluttering tips dubai apartment | SC4 | A | `residential-junk-removal` | — | `PUBLISHED` | 2026-10-09 | 2026-10-09 | sourced | `/blog/seasonal-clear-out-dubai` | 2143 stored body words; keywords.md M17. Reused cover (#18, Media 116) + body (#28, Media 89). Bulky-waste and dumping statements rest on existing §7.1 rows. |
+| N-4 | `seasonal-clear-out-dubai` | A Seasonal Clear-Out in Dubai: Set the Collection Date, Then Sort | spring cleaning clearance dubai | SC5 | F | `junk-removal` | — | `PUBLISHED` | 2026-10-09 | 2026-10-09 | sourced | `/blog/pre-ramadan-clear-out-dubai` | 2063 stored body words; keywords.md M18. Reused cover (#41, Media 98) + body (#41, Media 99). Crew/time figures from group 01 site copy; paint/pesticide route cites DM Waste Segregation Guide. |
+| N-5 | `pre-ramadan-clear-out-dubai` | Clearing Out the Home Before Ramadan: Make Room Before the Month Begins | ramadan home clear out dubai | SC3 | F | `furniture-removal` | — | `PUBLISHED` | 2026-10-09 | 2026-10-09 | business | `/blog/seasonal-clear-out-dubai` | 2011 stored body words; keywords.md M19. Reused cover (#27, Media 78) + body (#1, Media 105). No Ramadan date stated; building hours during the month stated conditionally. Re-check timing references before Ramadan 2027. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -297,7 +300,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Forty-six articles are published; each primary keyword has one owner.
+Forty-nine articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -347,6 +350,9 @@ Forty-six articles are published; each primary keyword has one owner.
 | IT equipment disposal dubai | `/blog/it-equipment-disposal-dubai` | 35 | 2026-10-08 |
 | weekend junk removal dubai | `/blog/weekend-junk-removal-dubai` | N-1 | 2026-10-08 |
 | landlord inspection clearance dubai | `/blog/landlord-inspection-clearance-dubai` | N-2 | 2026-10-08 |
+| decluttering tips dubai apartment | `/blog/decluttering-small-dubai-apartment` | N-3 | 2026-10-09 |
+| spring cleaning clearance dubai | `/blog/seasonal-clear-out-dubai` | N-4 | 2026-10-09 |
+| ramadan home clear out dubai | `/blog/pre-ramadan-clear-out-dubai` | N-5 | 2026-10-09 |
 
 ### 5.3 · Reserved by the queue
 
@@ -419,6 +425,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #35 `it-equipment-disposal-dubai` | `/blog/office-furniture-removal-dubai` | article | “IT equipment disposal guide” | ☑ applied |
 | #N-1 `weekend-junk-removal-dubai` | `/blog/service-lift-booking-dubai` | article | “weekend junk removal guide” | ☑ applied |
 | #N-2 `landlord-inspection-clearance-dubai` | `/blog/deposit-deductions-left-furniture-dubai` | article | “landlord inspection clearance guide” | ☑ applied |
+| #N-3 `decluttering-small-dubai-apartment` | `/blog/seasonal-clear-out-dubai` | article | “guide to decluttering a small apartment” | ☑ applied |
+| #N-4 `seasonal-clear-out-dubai` | `/blog/pre-ramadan-clear-out-dubai` | article | “planning a seasonal clear-out” | ☑ applied |
+| #N-5 `pre-ramadan-clear-out-dubai` | `/blog/seasonal-clear-out-dubai` | article | “pre-Ramadan clear-out guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -657,6 +666,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-09 | Published N-3, N-4 and N-5 (keywords.md M17, M18, M19 — the remaining mapped `BLOG` rows without a URL that clear all gates) with 2,000+ stored body words, SEO fields and service relationships; six image slots reuse existing Media (no new images). Inbound links: N-4 → N-3 and N-5; N-5 → N-4. Remaining unbuilt `BLOG` rows held, not written: A17 `bulk waste disposal dubai` (conflicts with Article Map #4, which lists it as a secondary — needs a keywords.md ruling, as #22 did); E29 `where do old appliances go dubai` (overlaps #16 and the appliance-disposal section "Where old appliances go" — fails gate 6; recommend re-mapping as SUPPORT); H18 hoarder clearance (capability unconfirmed). | Continued with the remaining mapped opportunities after the 45-item queue closed. |
 | 2026-10-08 | Cleared #35's capability requirement with explicit data-sanitisation boundaries, verified 7-day pickup and weekend building access for #N-1, and codified Law No. (26) of 2007 Article 21 handover standards for #N-2. Published #35, #N-1 and #N-2 with 2,000+ stored body words each, six original generated editorial images, SEO fields, service relationships and contextual inbound links. Confirmed all three published rows and six Media records in the CMS database, and synced inbound posts. | Completed the user's requested next three articles and concluded the initial 45-opportunity queue. |
 | 2026-10-07 | Resolved #22's keyword conflict and verified its electronics route on Dubai Municipality sources; owner confirmed #32's office-furniture sorting route and #39's renovation-debris service and permissions, and confirmed no certified data erasure. Published #22, #32 and #39 with 2,000+ stored body words each, six original generated images, SEO fields, service relationships and contextual inbound links. Confirmed all three published rows and six Media records in the CMS database. | Completed the user's chosen three articles. |
 | 2026-10-06 | Published #12, #16 and #26 with 2,000+ body words each, SEO fields and service relationships. Reused six existing Media documents (no new images). Added contextual inbound links in `/blog/dispose-old-furniture-dubai` (to #12), `/blog/what-dubai-bins-wont-take` (to #16), and `/blog/soil-sand-pots-disposal-dubai` (to #26), resyncing their bodies. Completes Month 1 queue (40 published articles total; only #22 held on keyword conflict). | Completed Month 1 queue opportunities and cleared verification batches A and B. |

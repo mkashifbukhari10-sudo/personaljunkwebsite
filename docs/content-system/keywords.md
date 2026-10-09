@@ -933,9 +933,9 @@ These are the **traffic-and-trust engine**. Each must route to a money page.
 | M14 | do I need to sort junk before pickup dubai | Informational | HIGH | SUPPORT | `/blog/before-the-crew-arrives-dubai` | P2 | Mirrors an existing FAQ. |
 | M15 | moving out of dubai checklist | Informational | MED | BLOG | `/blog/leaving-dubai-clearance-checklist` | P2 | Broad but genuinely adjacent; expat churn is constant. Clearance is one section, not the whole piece. |
 | M16 | end of tenancy checklist dubai | Informational | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P1 | |
-| M17 | decluttering tips dubai apartment | Informational | LOW-MED | BLOG | `/blog/decluttering-small-dubai-apartment` | P3 | Top of funnel. Low lead intent — keep the allocation small. |
-| M18 | spring cleaning clearance dubai | Informational | MED | BLOG | `/blog/seasonal-clear-out-dubai` | P3 | Seasonal. |
-| M19 | ramadan home clear out dubai | Informational | MED | BLOG | `/blog/pre-ramadan-clear-out-dubai` | P3 | **Culturally relevant and genuine.** Plan around the actual calendar. |
+| M17 | decluttering tips dubai apartment | Informational | LOW-MED | BLOG | `/blog/decluttering-small-dubai-apartment` | P3 | Top of funnel. Low lead intent — keep the allocation small. Published 2026-10-09 (N-3). |
+| M18 | spring cleaning clearance dubai | Informational | MED | BLOG | `/blog/seasonal-clear-out-dubai` | P3 | Seasonal. Published 2026-10-09 (N-4). |
+| M19 | ramadan home clear out dubai | Informational | MED | BLOG | `/blog/pre-ramadan-clear-out-dubai` | P3 | **Culturally relevant and genuine.** Plan around the actual calendar. Published 2026-10-09 (N-5); no dates stated — re-check before Ramadan 2027. |
 | M20 | what happens to donated furniture dubai | Informational | MED | SUPPORT | `/blog/donate-furniture-dubai` | P2 | |
 | M21 | junk removal vs municipality collection dubai | Comparison | HIGH | BLOG | `/blog/municipality-vs-paid-junk-removal-dubai` | P1 | **The single clearest commercial-decision article available.** Honest side-by-side. |
 | M22 | how much junk fits in one truck dubai | Informational | HIGH | BLOG | `/blog/how-much-fits-in-one-load-dubai` | P2 | Directly supports quoting. |

@@ -199,6 +199,19 @@ No new images were generated or sourced for #12, #16 and #26. Each slot reuses a
 | `cut-palm-fronds-on-the-ground.webp` (Unsplash) | 70 · no seedKey | #26 cover + OG |
 | `villa-clearance-groups.webp` | 79 · `article-villa-handover-clearance-dubai-body` | #26 body |
 
+### Reused existing media — 2026-10-09
+
+No new images were generated or sourced for N-3, N-4 and N-5. Each slot reuses an existing Media document, re-inspected against its new article; the existing alt text still describes what is visibly there.
+
+| File | Media reused | Used as |
+|---|---|---|
+| `what-we-take-cover.webp` | 116 · `article-what-we-take-dubai-cover` | N-3 cover + OG |
+| `crew-arrival-route-plan.webp` | 89 · `article-before-the-crew-arrives-dubai-body` | N-3 body |
+| `estate-clearance-cover.webp` | 98 · `article-estate-clearance-dubai-cover` | N-4 cover + OG |
+| `estate-clearance-sorting-plan.webp` | 99 · `article-estate-clearance-dubai-body` | N-4 body |
+| `villa-handover-cover.webp` | 78 · `article-villa-handover-clearance-dubai-cover` | N-5 cover + OG |
+| `old-furniture-route-options.webp` | 105 · `article-dispose-old-furniture-dubai-body` | N-5 body |
+
 ---
 
 ## Rejected on inspection — not used
@@ -287,6 +300,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #35 it-equipment-disposal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-08 |
 | #N-1 weekend-junk-removal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-08 |
 | #N-2 landlord-inspection-clearance-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-08 |
+| #N-3 decluttering-small-dubai-apartment | cover, OG, body | `COMPLETE` — existing media reused 2026-10-09 |
+| #N-4 seasonal-clear-out-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-09 |
+| #N-5 pre-ramadan-clear-out-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-09 · a majlis/hosting image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -325,6 +341,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-09 | Assigned existing Media documents to N-3, N-4 and N-5 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-09*. |
 | 2026-10-08 | Generated, inspected and uploaded six original editorial WebP images for #35, #N-1 and #N-2; confirmed all six CMS Media records. |
 | 2026-10-07 | Generated, inspected and uploaded six original editorial WebP images for #22, #32 and #39; confirmed all six CMS Media records. |
 | 2026-10-06 | Assigned existing Media documents to #12, #16 and #26 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-06*. |
