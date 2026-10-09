@@ -567,7 +567,7 @@ Owner: `/` (head) and `/services/junk-removal` (qualified variants).
 | A14 | trash removal dubai | Commercial | MED | SUPPORT | `/services/garbage-removal` | P3 | US phrasing. |
 | A15 | take my junk dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P2 | Removal intent, but dominated by an established competitor brand. Secondary only. |
 | A16 | bulky waste removal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | Bridges to the Municipality cluster (M). Strong. |
-| A17 | bulk waste disposal dubai | Commercial | HIGH | BLOG | `/blog/bulky-waste-dubai` | P1 | Municipality-adjacent; high informational-to-commercial conversion. |
+| A17 | bulk waste disposal dubai | Commercial | HIGH | SUPPORT | `/blog/dubai-municipality-bulky-waste` | P1 | Resolved 2026-10-09: existing #4 owns the bulk-waste options and Municipality route. Commercial removal intent is served by `/services/junk-removal` via #4; no second blog URL. Demand is qualitative, not measured. |
 | A18 | bulky item pickup dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P2 | |
 | A19 | junk removal cost dubai | Commercial | HIGH | BLOG | `/blog/junk-removal-cost-dubai` | P1 | **Pillar.** Price research immediately precedes an enquiry. |
 | A20 | junk removal price dubai | Commercial | HIGH | SUPPORT | `/blog/junk-removal-cost-dubai` | P1 | Same intent as A19. |
@@ -700,7 +700,7 @@ Owner: `/services/appliance-disposal`.
 | E26 | e waste recycling dubai | Informational | MED | SUPPORT | `/blog/e-waste-disposal-dubai` | P2 | |
 | E27 | electronics disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E28 | computer disposal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P2 | Consumer volume low; B2B value high. |
-| E29 | where do old appliances go dubai | Informational | MED | BLOG | `/blog/where-appliances-go-dubai` | P2 | Trust/responsibility content. |
+| E29 | where do old appliances go dubai | Informational | MED | SUPPORT | `/blog/what-happens-to-your-junk-dubai` | P2 | Resolved 2026-10-09: destination intent belongs to existing #16; item-specific routes remain on the fridge, AC and e-waste articles. No duplicate blog URL. Demand is qualitative, not measured. |
 
 ---
 
@@ -754,7 +754,7 @@ Owner: `/services/garden-waste-removal`.
 | G15 | sand bags removal dubai | Commercial | MED | SUPPORT | `/blog/soil-sand-pots-disposal-dubai` | P3 | |
 | G16 | plant pot disposal dubai | Commercial | LOW-MED | SUPPORT | `/blog/soil-sand-pots-disposal-dubai` | P3 | |
 | G17 | outdoor furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P2 | Sun-damaged outdoor sets are rarely donatable. |
-| G18 | garden furniture disposal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P2 | |
+| G18 | garden furniture disposal dubai | Commercial | HIGH | BLOG | `/blog/garden-furniture-disposal-dubai` | P2 | Editorial scope: assess a weathered outdoor set, separate furniture from green waste, and plan a mixed patio collection. `/services/garden-waste-removal` keeps the service head term. Commissioned 2026-10-09. |
 | G19 | landscaping waste removal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P2 | **B2B angle** — landscapers are repeat buyers. |
 | G20 | villa garden waste removal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P1 | Bridges to villa clearance. |
 | G21 | garden waste dubai bins | Informational | MED | BLOG | `/blog/garden-waste-bins-dubai` | P2 | "What the bins won't take" — clean problem→service path. |
@@ -781,10 +781,10 @@ Owner: `/services/house-clearance`.
 | H12 | handover clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H13 | landlord inspection clearance dubai | Commercial | HIGH | BLOG | `/blog/landlord-inspection-clearance-dubai` | P2 | Handover walkthrough and Law No. 26 of 2007 Art. 21 wear and tear standards. |
 | H14 | will landlord deduct deposit for furniture left dubai | Problem | HIGH | BLOG | `/blog/deposit-deductions-left-furniture-dubai` | P2 | **High-anxiety long-tail with a clear commercial answer.** |
-| H15 | storage room clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P2 | |
+| H15 | storage room clearance dubai | Commercial | MED | BLOG | `/blog/storage-room-clearance-dubai` | P2 | Editorial scope: inventory and empty a packed apartment store while protecting items to keep and arranging tower access. `/services/house-clearance` keeps the service head term. Commissioned 2026-10-09. |
 | H16 | estate clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Skews to larger properties. |
 | H17 | deceased estate clearance dubai | Commercial | HIGH | BLOG | `/blog/estate-clearance-dubai` | P3 | **Handle with sensitivity.** Real need; tone matters more than keywords. |
-| H18 | hoarder house clearance dubai | Commercial | MED | BLOG | `/blog/heavy-clutter-clearance-dubai` | P3 | Non-stigmatising language required. Verify capability first. |
+| H18 | hoarder house clearance dubai | Commercial | MED | BLOG | `/blog/heavy-clutter-clearance-dubai` | P3 | HOLD — service capability unconfirmed. Do not commission or imply this specialist service is offered. If confirmed, use respectful, non-stigmatising language and review overlap with `/services/house-clearance`. |
 | H19 | studio apartment clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P3 | |
 | H20 | clearance before moving dubai | Commercial | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P2 | |
 
@@ -805,7 +805,7 @@ Owner: `/services/villa-clearance`.
 | I7 | villa handover clearance dubai | Commercial | HIGH | BLOG | `/blog/villa-handover-clearance-dubai` | P1 | |
 | I8 | maid room clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P2 | Distinctly UAE. |
 | I9 | majlis clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | Distinctly UAE; low volume, high relevance. `UNVERIFIED`. |
-| I10 | garage clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P2 | |
+| I10 | garage clearance dubai | Commercial | MED | BLOG | `/blog/garage-clearance-dubai` | P2 | Editorial scope: sort mixed garage contents, identify excluded materials and plan the carrying route. `/services/villa-clearance` keeps the service head term. Commissioned 2026-10-09. |
 | I11 | villa storage clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | |
 | I12 | townhouse clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P2 | Property type sits with villa, not apartment. |
 | I13 | how long does a villa clearance take dubai | Informational | HIGH | BLOG | `/blog/how-long-villa-clearance-dubai` | P2 | Planning-stage, pre-enquiry. |
@@ -1302,6 +1302,49 @@ The waste page already carries an FAQ ("What is the difference between waste rem
 For each of the four owned sites, capture: domain, topical relevance to junk removal/clearance, current Search Console impressions and top queries, whether it has genuine editorial content, whether it already links here, and whether the audiences plausibly overlap. **If a site is not topically relevant, it should not link here at all** — irrelevant links from owned properties carry risk and little benefit.
 
 ---
+
+## Next 30 service-search priorities (2026-10-09 review)
+
+These are **existing mapped searches with no dedicated published article** at the start of this review. Priority is a qualitative judgement of removal intent, service fit and proximity to an enquiry, **not measured search volume**. Most belong on their current service pages; three received a distinct, practical editorial scope and were commissioned below. The order is provisional until Dubai-filtered Search Console and Keyword Planner data are available. Do not turn the SUPPORT rows into 27 more articles.
+
+| Rank | ID | Search | Current destination | Action |
+|---|---|---|---|---|
+| 1 | A8 | junk collection dubai | `/services/junk-removal` | Strengthen service copy |
+| 2 | A10 | junk pickup dubai | `/services/junk-removal` | Strengthen service copy |
+| 3 | A16 | bulky waste removal dubai | `/services/junk-removal` | Clarify paid vs municipal route |
+| 4 | B4 | urgent junk removal dubai | `/services/same-day-junk-removal` | Explain booking constraints |
+| 5 | B6 | junk removal today dubai | `/services/same-day-junk-removal` | Explain same-day availability |
+| 6 | C2 | furniture disposal dubai | `/services/furniture-removal` | Link the disposal options guide |
+| 7 | C3 | old furniture removal dubai | `/services/furniture-removal` | Strengthen service copy |
+| 8 | C6 | furniture pickup dubai | `/services/furniture-removal` | Explain pickup preparation |
+| 9 | E8 | appliance removal dubai | `/services/appliance-disposal` | Strengthen service copy |
+| 10 | G2 | garden waste collection dubai | `/services/garden-waste-removal` | Explain accepted material |
+| 11 | G7 | garden clearance dubai | `/services/garden-waste-removal` | Clarify villa-service boundary |
+| 12 | H15 | storage room clearance dubai | `/blog/storage-room-clearance-dubai` | **Commissioned article**; apartment-store planning angle |
+| 13 | I10 | garage clearance dubai | `/blog/garage-clearance-dubai` | **Commissioned article**; mixed-garage planning angle |
+| 14 | G18 | garden furniture disposal dubai | `/blog/garden-furniture-disposal-dubai` | **Commissioned article**; outdoor-furniture decision angle |
+| 15 | F8 | waste removal company dubai | `/services/waste-removal` | Strengthen provider-selection copy |
+| 16 | F15 | fit out waste removal dubai | `/services/commercial-junk-removal` | Link office strip-out guidance |
+| 17 | F18 | office waste collection dubai | `/services/commercial-junk-removal` | Clarify one-off collection scope |
+| 18 | A9 | junk disposal dubai | `/services/junk-removal` | Explain disposal route accurately |
+| 19 | A12 | rubbish removal dubai | `/services/junk-removal` | Keep British-English variant on same URL |
+| 20 | A18 | bulky item pickup dubai | `/services/junk-removal` | Add item-photo checklist |
+| 21 | B2 | same day rubbish removal dubai | `/services/same-day-junk-removal` | Keep language variant on same URL |
+| 22 | B3 | same day junk pickup dubai | `/services/same-day-junk-removal` | Keep timing variant on same URL |
+| 23 | B9 | next day junk removal dubai | `/services/same-day-junk-removal` | Explain next-day fallback |
+| 24 | C9 | broken furniture disposal dubai | `/services/furniture-removal` | Explain donation boundary |
+| 25 | C10 | furniture dismantling dubai | `/services/furniture-removal` | Link wardrobe and sofa access guides |
+| 26 | D8 | L shaped sofa removal dubai | `/services/sofa-removal` | Link doorway guide |
+| 27 | E10 | old appliance removal dubai | `/services/appliance-disposal` | Link fridge, washer and TV guides |
+| 28 | G20 | villa garden waste removal dubai | `/services/garden-waste-removal` | Cross-link villa-clearance service |
+| 29 | I12 | townhouse clearance dubai | `/services/villa-clearance` | Explain property-size fit |
+| 30 | K6 | office desk removal dubai | `/services/commercial-junk-removal` | Link office-furniture guide |
+
+**Ownership ruling:** H15, I10 and G18 now have article URLs because each draft answers a concrete preparation and separation problem beyond the service-page offer. Their service pages retain the broader transactional head terms. If Search Console later shows the service page and article competing for the same query, consolidate the article's useful sections into the service page and redirect the article. This is an editorial test, not a demand claim.
+
+**Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
+
+**Research note:** [Dubai Municipality bulky-waste service](https://www.dm.gov.ae/dubai-municipality-services/) confirms the topic has an official route; it does not supply search-volume evidence. Search-result presence was checked on 2026-10-09. No Search Console or Keyword Planner data was available for this review.
 
 ## Data-Driven Keyword Expansion
 

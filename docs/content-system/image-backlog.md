@@ -341,6 +341,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-09 | Generated and visually inspected six original, unbranded editorial images for draft articles N-6, N-7 and N-8: `public/images/articles/{storage-room-clearance-dubai,garage-clearance-dubai,garden-furniture-disposal-dubai}-{cover,body}.png`. These are generic illustrative scenes, not business photography. Cover alt text is in `next-three-article-briefs.md`; body alt text is in the article Markdown. CMS Media upload remains pending; no post is published. |
 | 2026-10-09 | Assigned existing Media documents to N-3, N-4 and N-5 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-09*. |
 | 2026-10-08 | Generated, inspected and uploaded six original editorial WebP images for #35, #N-1 and #N-2; confirmed all six CMS Media records. |
 | 2026-10-07 | Generated, inspected and uploaded six original editorial WebP images for #22, #32 and #39; confirmed all six CMS Media records. |
