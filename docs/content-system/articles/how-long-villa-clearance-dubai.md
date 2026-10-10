@@ -149,7 +149,7 @@ Yes, when the volume and access allow it. Villa clearances are planned from half
 
 ### Does the clearance include the garden, garage and maid's room?
 
-Yes, when they are included in the photos. The garden, storage room, maid's room, majlis and garage are all part of a full villa clearance, so photograph each one for the quote.
+Yes, when they are included in the photos. The garden, storage room, maid's room, majlis and garage are all part of a full villa clearance, so photograph each one for the quote. For properties with a packed garage, our [garage-clearance guide](/blog/garage-clearance-dubai) explains how to sort mixed items, separate excluded materials and plan the loading route.
 
 ### How many crew come for a villa clearance?
 

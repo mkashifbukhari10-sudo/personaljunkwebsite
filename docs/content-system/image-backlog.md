@@ -227,7 +227,18 @@ Four candidates were downloaded and inspected, then rejected rather than used we
 
 ---
 
-## Outstanding slots
+### Generated and uploaded editorial imagery — 2026-10-10
+
+The six original, unbranded editorial images below were generated for N-6, N-7 and N-8, visually inspected, saved under `public/images/articles/`, and uploaded to the CMS. Six Media records (134–139) were verified after publication.
+
+| File | Intended slot | Alt text | Media ID |
+|---|---|---|---|
+| `storage-room-clearance-dubai-cover.png` | N-6 cover + OG | Shelves, boxes, a rolled rug and a worn table in a sunlit storage room. | 134 |
+| `storage-room-clearance-dubai-body.png` | N-6 body | Four sorting zones for belongings from a storage room | 135 |
+| `garage-clearance-dubai-cover.png` | N-7 cover + OG | Bicycles, shelves, cartons and worn chairs gathered in a sunlit garage. | 136 |
+| `garage-clearance-dubai-body.png` | N-7 body | Separate groups of garage belongings and materials needing special handling | 137 |
+| `garden-furniture-disposal-dubai-cover.png` | N-8 cover + OG | Weathered outdoor chairs and a table beside stacked cushions and empty pots on a patio. | 138 |
+| `garden-furniture-disposal-dubai-body.png` | N-8 body | Outdoor furniture, branches, pots and cushions kept in separate groups | 139 |
 
 ### Generated and uploaded editorial imagery — 2026-10-08
 
@@ -303,6 +314,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-3 decluttering-small-dubai-apartment | cover, OG, body | `COMPLETE` — existing media reused 2026-10-09 |
 | #N-4 seasonal-clear-out-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-09 |
 | #N-5 pre-ramadan-clear-out-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-09 · a majlis/hosting image would make a better future cover |
+| #N-6 storage-room-clearance-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-10 (Media 134, 135) |
+| #N-7 garage-clearance-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-10 (Media 136, 137) |
+| #N-8 garden-furniture-disposal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-10 (Media 138, 139) |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -341,6 +355,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-10 | Uploaded six original editorial images to CMS Media (Media 134–139) for published articles N-6, N-7 and N-8 with inspected alt text and confirmed database records. |
 | 2026-10-09 | Generated and visually inspected six original, unbranded editorial images for draft articles N-6, N-7 and N-8: `public/images/articles/{storage-room-clearance-dubai,garage-clearance-dubai,garden-furniture-disposal-dubai}-{cover,body}.png`. These are generic illustrative scenes, not business photography. Cover alt text is in `next-three-article-briefs.md`; body alt text is in the article Markdown. CMS Media upload remains pending; no post is published. |
 | 2026-10-09 | Assigned existing Media documents to N-3, N-4 and N-5 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-09*. |
 | 2026-10-08 | Generated, inspected and uploaded six original editorial WebP images for #35, #N-1 and #N-2; confirmed all six CMS Media records. |

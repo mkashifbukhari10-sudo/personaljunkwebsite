@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-09:** **49 published articles, all with at least 2,000 stored body words.** The latest three cover decluttering a small apartment, a seasonal clear-out and a pre-Ramadan clear-out, admitted from mapped `BLOG` rows M17–M19 in `keywords.md` and illustrated with reused Media.
+**Current state as at 2026-10-10:** **52 published articles, all with at least 2,000 stored body words.** The latest three cover storage room clearance, garage clearance and garden furniture disposal, admitted from mapped rows H15, I10 and G18 in `keywords.md` and illustrated with six original uploaded editorial images (Media 134–139).
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**49 published records and 3 local drafts as of 2026-10-09.** The drafts below are not live URLs.
+**52 published records as of 2026-10-10.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -165,9 +165,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-3 | `decluttering-small-dubai-apartment` | Decluttering a Small Dubai Apartment: Start With What Takes Up Floor Space | decluttering tips dubai apartment | SC4 | A | `residential-junk-removal` | — | `PUBLISHED` | 2026-10-09 | 2026-10-09 | sourced | `/blog/seasonal-clear-out-dubai` | 2143 stored body words; keywords.md M17. Reused cover (#18, Media 116) + body (#28, Media 89). Bulky-waste and dumping statements rest on existing §7.1 rows. |
 | N-4 | `seasonal-clear-out-dubai` | A Seasonal Clear-Out in Dubai: Set the Collection Date, Then Sort | spring cleaning clearance dubai | SC5 | F | `junk-removal` | — | `PUBLISHED` | 2026-10-09 | 2026-10-09 | sourced | `/blog/pre-ramadan-clear-out-dubai` | 2063 stored body words; keywords.md M18. Reused cover (#41, Media 98) + body (#41, Media 99). Crew/time figures from group 01 site copy; paint/pesticide route cites DM Waste Segregation Guide. |
 | N-5 | `pre-ramadan-clear-out-dubai` | Clearing Out the Home Before Ramadan: Make Room Before the Month Begins | ramadan home clear out dubai | SC3 | F | `furniture-removal` | — | `PUBLISHED` | 2026-10-09 | 2026-10-09 | business | `/blog/seasonal-clear-out-dubai` | 2011 stored body words; keywords.md M19. Reused cover (#27, Media 78) + body (#1, Media 105). No Ramadan date stated; building hours during the month stated conditionally. Re-check timing references before Ramadan 2027. |
-| N-6 | `storage-room-clearance-dubai` | Storage Room Clearance in Dubai: Sort It, Quote It, Empty It | storage room clearance dubai | SC4 | G | `house-clearance` | — | `DRAFTING` | — | — | none | — | Intended article date 2026-10-10; 2031 Lexical body words; original cover and body illustrations in workspace. CMS Media, reverse link and QA pending. |
-| N-7 | `garage-clearance-dubai` | Garage Clearance in Dubai: Sort Mixed Contents Before Collection | garage clearance dubai | SC3 | F | `villa-clearance` | — | `DRAFTING` | — | — | none | — | Intended article date 2026-10-10; 2028 Lexical body words; original cover and body illustrations in workspace. CMS Media, reverse link and QA pending. |
-| N-8 | `garden-furniture-disposal-dubai` | Garden Furniture Disposal in Dubai: What to Keep Separate | garden furniture disposal dubai | SC1 | A | `garden-waste-removal` | — | `DRAFTING` | — | — | none | — | Intended article date 2026-10-10; 2023 Lexical body words; original cover and body illustrations in workspace. CMS Media, reverse link and QA pending. |
+| N-6 | `storage-room-clearance-dubai` | Storage Room Clearance in Dubai: Sort It, Quote It, Empty It | storage room clearance dubai | SC4 | G | `house-clearance` | — | `PUBLISHED` | 2026-10-10 | 2026-10-10 | none | `/blog/decluttering-small-dubai-apartment` | 2031 stored body words; original cover and body illustrations (Media 134, 135). Inbound from N-3. |
+| N-7 | `garage-clearance-dubai` | Garage Clearance in Dubai: Sort Mixed Contents Before Collection | garage clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-10 | 2026-10-10 | none | `/blog/how-long-villa-clearance-dubai` | 2028 stored body words; original cover and body illustrations (Media 136, 137). Inbound from #36. |
+| N-8 | `garden-furniture-disposal-dubai` | Garden Furniture Disposal in Dubai: What to Keep Separate | garden furniture disposal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-10 | 2026-10-10 | none | `/blog/garden-waste-bins-dubai` | 2023 stored body words; original cover and body illustrations (Media 138, 139). Inbound from #26. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -303,7 +303,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Forty-nine articles are published; each primary keyword has one owner.
+Fifty-two articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -356,6 +356,9 @@ Forty-nine articles are published; each primary keyword has one owner.
 | decluttering tips dubai apartment | `/blog/decluttering-small-dubai-apartment` | N-3 | 2026-10-09 |
 | spring cleaning clearance dubai | `/blog/seasonal-clear-out-dubai` | N-4 | 2026-10-09 |
 | ramadan home clear out dubai | `/blog/pre-ramadan-clear-out-dubai` | N-5 | 2026-10-09 |
+| storage room clearance dubai | `/blog/storage-room-clearance-dubai` | N-6 | 2026-10-10 |
+| garage clearance dubai | `/blog/garage-clearance-dubai` | N-7 | 2026-10-10 |
+| garden furniture disposal dubai | `/blog/garden-furniture-disposal-dubai` | N-8 | 2026-10-10 |
 
 ### 5.3 · Reserved by the queue
 
@@ -431,6 +434,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-3 `decluttering-small-dubai-apartment` | `/blog/seasonal-clear-out-dubai` | article | “guide to decluttering a small apartment” | ☑ applied |
 | #N-4 `seasonal-clear-out-dubai` | `/blog/pre-ramadan-clear-out-dubai` | article | “planning a seasonal clear-out” | ☑ applied |
 | #N-5 `pre-ramadan-clear-out-dubai` | `/blog/seasonal-clear-out-dubai` | article | “pre-Ramadan clear-out guide” | ☑ applied |
+| #N-6 `storage-room-clearance-dubai` | `/blog/decluttering-small-dubai-apartment` | article | “storage-room clearance guide” | ☑ applied |
+| #N-7 `garage-clearance-dubai` | `/blog/how-long-villa-clearance-dubai` | article | “garage-clearance guide” | ☑ applied |
+| #N-8 `garden-furniture-disposal-dubai` | `/blog/garden-waste-bins-dubai` | article | “garden furniture disposal guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -669,6 +675,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-10 | Published N-6, N-7 and N-8 with 2,000+ stored body words each, six original uploaded editorial images (Media 134–139), SEO fields, service relationships and contextual inbound links from N-3, #36 and #26. Updated claimed keywords in §5.2 and synced inbound post bodies in CMS. | Completed publication of storage room, garage, and garden furniture guides per briefs. |
 | 2026-10-09 | Set the intended article date for local drafts N-6, N-7 and N-8 to 2026-10-10 in their briefs and records. Published dates remain empty because none is live. | User requested the article-date change. |
 | 2026-10-09 | Added a 30-search priority list in keywords.md using already mapped, unpublished-support searches. Reassigned H15, I10 and G18 to distinct article scopes and wrote N-6 through N-8 as local 2,000+ word drafts with six original generated editorial images. They are not published; CMS Media, reverse links and pre-publish QA remain. | User requested the next 30 search priorities and three articles; local drafts are recorded at their actual lifecycle state. |
 | 2026-10-09 | Resolved keywords.md A17 as SUPPORT on existing #4 and E29 as SUPPORT on existing #16; removed both proposed duplicate blog URLs from the keyword map. H18 remains held for owner confirmation of specialist heavy-clutter capability. Ranked existing service searches for page improvements, explicitly without search-volume data. No article was commissioned or published. | Prevent competing URLs and use the strongest already-mapped removal searches before speculative expansion. |

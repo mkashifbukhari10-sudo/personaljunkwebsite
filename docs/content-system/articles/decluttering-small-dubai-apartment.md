@@ -87,7 +87,7 @@ A balcony in a small apartment can become storage for things with nowhere else t
 
 ### Storage cupboard or maid's room
 
-If your apartment has a storage cupboard or a small spare room, it may be the fullest space in the home. Empty it completely onto a clear floor, sort everything into the groups, and only put back what is a genuine keep.
+If your apartment has a storage cupboard or a small spare room, it may be the fullest space in the home. Empty it completely onto a clear floor, sort everything into the groups, and only put back what is a genuine keep. For dedicated apartment storage spaces, our [storage-room clearance guide](/blog/storage-room-clearance-dubai) details how to sort boxes, separate hazardous materials and arrange tower service lift access.
 
 ### Work corner
 

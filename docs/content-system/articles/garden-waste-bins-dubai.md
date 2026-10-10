@@ -75,7 +75,7 @@ Old, broken or cracked flower pots made from terracotta, glazed ceramic, stone o
 
 ### Damaged outdoor furniture and fixtures
 
-Sun-damaged plastic garden chairs, rusted iron patio tables, rotted wooden trellises, frayed shade nets and garden hoses are bulky non-compactable items. Forcing outdoor furniture into household bins blocks the container, while leaving items next to the bins violates municipal rules, as outlined in [what you cannot throw in Dubai bins](/blog/what-dubai-bins-wont-take).
+Sun-damaged plastic garden chairs, rusted iron patio tables, rotted wooden trellises, frayed shade nets and garden hoses are bulky non-compactable items. Forcing outdoor furniture into household bins blocks the container, while leaving items next to the bins violates municipal rules, as outlined in [what you cannot throw in Dubai bins](/blog/what-dubai-bins-wont-take). Our [garden furniture disposal guide](/blog/garden-furniture-disposal-dubai) explains how to assess weathered outdoor sets, separate furniture from green trimmings, and arrange collection.
 
 ## What IS acceptable in small, reasonable quantities
 
