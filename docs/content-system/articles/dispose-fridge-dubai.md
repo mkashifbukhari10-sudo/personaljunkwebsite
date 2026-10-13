@@ -8,6 +8,8 @@ Dubai Municipality has separately stated that the service includes used electric
 
 Where the address is excluded, timing is fixed or carrying from inside is needed, a paid collection may be appropriate. Confirm that the provider accepts the appliance and understands its location, size and condition.
 
+For a paid [fridge disposal service in Dubai](/services/appliance-disposal), send a photograph of the appliance, its approximate dimensions, floor level and the route to the vehicle. Say whether it is still connected, has a water line, leaks, or cannot pass through a doorway without adjustment. Ask the provider to confirm acceptance, collection scope and timing before you disconnect or move it. An urgent request still depends on availability and any building access booking; the [same-day collection guide](/blog/junk-gone-today-dubai) explains what information helps with that assessment.
+
 If a retailer is delivering a replacement, read its written removal terms. Do not assume delivery includes old-appliance collection, disconnection or movement from another room.
 
 ## Identify the appliance accurately

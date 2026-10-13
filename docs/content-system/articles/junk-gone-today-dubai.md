@@ -22,6 +22,12 @@ That does not guarantee a smaller collection will be available. It does, however
 
 ## Check whether the request is ready for collection
 
+### Urgent cardboard removal
+
+Cardboard can be urgent after a move, shop delivery or office unpacking when stacks occupy the room needed for the next task. Tell the provider that the load is mainly cardboard; do not describe it only as “junk”. Photograph the full pile with a door or other fixed feature in view, count large unflattened boxes if possible, and separate clean, dry cartons from wet or food-soiled packaging. List foam, plastic wrap, pallets and other items separately so the quote covers the whole job.
+
+Flatten boxes where you can do so safely, but keep the pile inside an area you are allowed to use. Check whether the building permits collection through the service lift or loading bay today. If the required access slot cannot be obtained, a crew's availability alone will not solve the deadline. The [packing-material guide](/blog/packing-material-disposal-dubai) covers sorting and ordinary recycling options; the [same-day removal service](/services/same-day-junk-removal) is the place to ask for an actual available slot.
+
 An urgent enquiry is easier to assess when the items are identified and accessible. Before asking for a slot, establish what is leaving, what must remain and whether any separate preparation is unfinished. Do not move a heavy item yourself just to make the job appear ready; describe its current position honestly.
 
 For the service itself, use the [same-day junk removal page](/services/same-day-junk-removal) and ask about availability for your specific load. This article helps you prepare that enquiry; it does not represent a live booking calendar or a promise that a crew can attend today.

@@ -16,6 +16,14 @@ Put sharp or broken packing pieces in a safe container and tell the collector wh
 
 ## Use the route that fits the actual volume
 
+### When a cardboard removal service makes sense
+
+Book a collection when the cartons exceed the space your building allows, when they must be cleared before a handover, or when carrying them to the permitted collection point is impractical. A few flattened boxes may fit the building's normal route; a room full of delivery cartons is a different job. Ask management before placing a large stack in a shared recycling area.
+
+For a quote, send a wide photo showing the whole cardboard pile and say whether the boxes are flattened, filled or wet. Include any foam, plastic film, wooden packaging or unwanted furniture as separate items. Give the floor, lift and loading-bay details, plus the date the space must be clear. Ask the [junk removal service](/services/junk-removal) to confirm what it can collect and whether your preferred slot is available. A request is not a booking until the scope and time are agreed.
+
+If the pile must go today, send those details immediately and state your latest acceptable completion time. The [urgent collection guide](/blog/junk-gone-today-dubai) explains how availability and building access affect a same-day request. Do not promise a landlord, delivery team or building manager that the cardboard will be gone until the collection is confirmed.
+
 For a few dry cartons, use the recycling or waste facilities your building provides, following its posted rules. Do not fill a shared bin room with a house move's worth of boxes without checking capacity and permission. Large piles may need a booked removal even though each individual box is light. They take up floor space, obstruct access and can fill a vehicle before the heavy items are loaded.
 
 If the packaging is mixed with an old bed, broken shelving or furniture that did not fit the new home, show the complete load in the quote request. One wide photo of every pile is more useful than a close view of a single carton. Include the floor, lift booking, parking and distance to the loading point. The guide to [estimating a load](/blog/how-much-fits-in-one-load-dubai) explains why flattened cartons and intact boxes occupy very different amounts of space.
