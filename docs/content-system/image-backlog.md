@@ -212,6 +212,27 @@ No new images were generated or sourced for N-3, N-4 and N-5. Each slot reuses a
 | `villa-handover-cover.webp` | 78 · `article-villa-handover-clearance-dubai-cover` | N-5 cover + OG |
 | `old-furniture-route-options.webp` | 105 · `article-dispose-old-furniture-dubai-body` | N-5 body |
 
+### Reused existing media — 2026-10-15
+
+No images were generated, downloaded or uploaded for N-9 to N-14. The owner asked for available resources only. Each slot reuses an existing editorial Media document, and each was re-checked against its new article. Where an image was viewed again (Media 100, 104, 114 and 117), it still matched its stored alt text. The photo library at Media 13–28 stays closed (Route D), because it depicts crew and vehicles.
+
+| File | Media reused | Used as |
+|---|---|---|
+| `garden-furniture-disposal-dubai-cover.png` | 138 · `article-garden-furniture-disposal-dubai-cover` | N-9 balcony cover + OG |
+| `accepted-versus-excluded-guide.webp` | 117 · `article-what-we-take-dubai-body` | N-9 body (hazardous items kept apart) |
+| `estate-clearance-cover.webp` | 98 · `article-estate-clearance-dubai-cover` | N-10 children's room cover + OG |
+| `estate-clearance-sorting-plan.webp` | 99 · `article-estate-clearance-dubai-body` | N-10 body (keepsake sorting) |
+| `leaving-dubai-checklist-cover.webp` | 114 · `article-leaving-dubai-clearance-checklist-cover` | N-11 packing cover + OG |
+| `truck-load-capacity-guide.webp` | 119 · `article-how-much-fits-in-one-load-dubai-body` | N-11 body (volume of cartons) |
+| `flatpack-furniture-cover.webp` | 100 · `article-flatpack-furniture-disposal-dubai-cover` | N-12 bed frame cover + OG |
+| `mattress-route-preparation.webp` | 81 · `article-mattress-disposal-dubai-body` | N-12 body (doorway measuring) |
+| `gated-community-clearance-cover.webp` | 96 · `article-gated-community-clearance-dubai-cover` | N-13 townhouse cover + OG |
+| `villa-clearance-groups.webp` | 79 · `article-villa-handover-clearance-dubai-body` | N-13 body (staging route) |
+| `old-furniture-disposal-cover.webp` | 104 · `article-dispose-old-furniture-dubai-cover` | N-14 broken furniture cover + OG |
+| `flatpack-condition-comparison.webp` | 101 · `article-flatpack-furniture-disposal-dubai-body` | N-14 body (damaged vs reusable panels) |
+
+A dedicated balcony, nursery, townhouse-staircase or broken-furniture image would make a stronger future cover; these are reuse choices, not ideal fits.
+
 ---
 
 ## Rejected on inspection — not used
@@ -317,6 +338,12 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-6 storage-room-clearance-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-10 (Media 134, 135) |
 | #N-7 garage-clearance-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-10 (Media 136, 137) |
 | #N-8 garden-furniture-disposal-dubai | cover, OG, body | `COMPLETE` — original editorial images uploaded 2026-10-10 (Media 138, 139) |
+| #N-9 balcony-clearance-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 138, 117) |
+| #N-10 childrens-room-clearance-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 98, 99) |
+| #N-11 packing-material-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 114, 119) |
+| #N-12 bed-frame-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 100, 81) |
+| #N-13 townhouse-clearance-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 96, 79) |
+| #N-14 broken-furniture-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 104, 101) |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -355,6 +382,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-15 | Assigned existing Media documents to N-9 to N-14. That covers twelve slots with no new generation, download or upload, at the owner's instruction to use available resources. Recorded above under *Reused existing media — 2026-10-15*. |
 | 2026-10-10 | Uploaded six original editorial images to CMS Media (Media 134–139) for published articles N-6, N-7 and N-8 with inspected alt text and confirmed database records. |
 | 2026-10-09 | Generated and visually inspected six original, unbranded editorial images for draft articles N-6, N-7 and N-8: `public/images/articles/{storage-room-clearance-dubai,garage-clearance-dubai,garden-furniture-disposal-dubai}-{cover,body}.png`. These are generic illustrative scenes, not business photography. Cover alt text is in `next-three-article-briefs.md`; body alt text is in the article Markdown. CMS Media upload remains pending; no post is published. |
 | 2026-10-09 | Assigned existing Media documents to N-3, N-4 and N-5 (six slots, no new uploads). Recorded above under *Reused existing media — 2026-10-09*. |

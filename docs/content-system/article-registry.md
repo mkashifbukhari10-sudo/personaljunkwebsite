@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-10:** **52 published articles, all with at least 2,000 stored body words.** The latest three cover storage room clearance, garage clearance and garden furniture disposal, admitted from mapped rows H15, I10 and G18 in `keywords.md` and illustrated with six original uploaded editorial images (Media 134–139).
+**Current state as at 2026-10-15:** **58 published articles, all with at least 2,000 stored body words.** The latest six are N-9 to N-14. Three cover balcony clearance, children's room clearance and packing-material disposal: the owner's 2026-10-12 drafts, expanded and admitted as H21, H22 and F19. The other three cover bed frame disposal, townhouse clearance and broken furniture disposal, promoted from mapped rows C15, I12 and C9. All twelve image slots reuse existing Media.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**52 published records as of 2026-10-10.**
+**58 published records as of 2026-10-15.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -168,6 +168,12 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-6 | `storage-room-clearance-dubai` | Storage Room Clearance in Dubai: Sort It, Quote It, Empty It | storage room clearance dubai | SC4 | G | `house-clearance` | — | `PUBLISHED` | 2026-10-10 | 2026-10-10 | none | `/blog/decluttering-small-dubai-apartment` | 2031 stored body words; original cover and body illustrations (Media 134, 135). Inbound from N-3. |
 | N-7 | `garage-clearance-dubai` | Garage Clearance in Dubai: Sort Mixed Contents Before Collection | garage clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-10 | 2026-10-10 | none | `/blog/how-long-villa-clearance-dubai` | 2028 stored body words; original cover and body illustrations (Media 136, 137). Inbound from #36. |
 | N-8 | `garden-furniture-disposal-dubai` | Garden Furniture Disposal in Dubai: What to Keep Separate | garden furniture disposal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-10 | 2026-10-10 | none | `/blog/garden-waste-bins-dubai` | 2023 stored body words; original cover and body illustrations (Media 138, 139). Inbound from #26. |
+| N-9 | `balcony-clearance-dubai` | Balcony Clearance in Dubai: What Leaves, What Stays, How It Gets Out | balcony clearance dubai | SC4 | G | `residential-junk-removal` | — | `PUBLISHED` | 2026-10-15 | 2026-10-15 | none | `/blog/garden-furniture-disposal-dubai` | 2461 stored body words; keywords.md H21 (owner-requested admission). Expanded from the 2026-10-12 draft. Reused cover (Media 138) + body (Media 117). Building rules conditional; gas cylinders framed as declare-and-ask. |
+| N-10 | `childrens-room-clearance-dubai` | Clearing a Child's Room in Dubai: Keepsakes First, Furniture Second | children's room clearance dubai | SC4 | F | `furniture-removal` | — | `PUBLISHED` | 2026-10-15 | 2026-10-15 | none | `/blog/seasonal-clear-out-dubai` | 2491 stored body words; keywords.md H22 (owner-requested admission). Expanded from the 2026-10-12 draft. Reused cover (Media 98) + body (Media 99). No safety-standard or charity claims. |
+| N-11 | `packing-material-disposal-dubai` | Packing Material After a Move: Sort It Before You Book a Pickup | packing material disposal dubai | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-10-15 | 2026-10-15 | sourced | `/blog/junk-gone-today-dubai` | 2316 stored body words; keywords.md F19 (owner-requested admission; cardboard removal dubai recorded as a variant). Expanded from the 2026-10-12 draft, including the owner's 2026-10-13 cardboard section. Reused cover (Media 114) + body (Media 119). Recycling statements cite the DM Waste Segregation Guide already used by #44. |
+| N-12 | `bed-frame-disposal-dubai` | Old Bed Frame to Get Rid Of? Strip It Down or Take It Whole | bed frame disposal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-15 | 2026-10-15 | sourced | `/blog/mattress-disposal-dubai` | 2530 stored body words; keywords.md C15 promoted to BLOG. Reused cover (Media 100) + body (Media 81). Bulky-waste statement rests on the existing services-directory source used by #1 and #4. |
+| N-13 | `townhouse-clearance-dubai` | Townhouse Clearance: Start at the Top Floor, Plan Around the Stairs | townhouse clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-15 | 2026-10-15 | business | `/blog/garage-clearance-dubai` | 2659 stored body words; keywords.md I12 promoted to BLOG. Reused cover (Media 96) + body (Media 79). Scope statements come from villa and house-clearance seed copy; community rules conditional; no areas named. |
+| N-14 | `broken-furniture-disposal-dubai` | Broken Furniture in Dubai: When It Can't Be Reused, Plan the Removal | broken furniture disposal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-15 | 2026-10-15 | sourced | `/blog/dispose-old-furniture-dubai` | 2397 stored body words; keywords.md C9 promoted to BLOG. Reused cover (Media 104) + body (Media 101). Law No. (18) of 2024 Art. 6 and DM bulky-waste statements reuse wording already published in #44 and #10. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -303,7 +309,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Fifty-two articles are published; each primary keyword has one owner.
+Fifty-eight articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -359,6 +365,12 @@ Fifty-two articles are published; each primary keyword has one owner.
 | storage room clearance dubai | `/blog/storage-room-clearance-dubai` | N-6 | 2026-10-10 |
 | garage clearance dubai | `/blog/garage-clearance-dubai` | N-7 | 2026-10-10 |
 | garden furniture disposal dubai | `/blog/garden-furniture-disposal-dubai` | N-8 | 2026-10-10 |
+| balcony clearance dubai | `/blog/balcony-clearance-dubai` | N-9 | 2026-10-15 |
+| children's room clearance dubai | `/blog/childrens-room-clearance-dubai` | N-10 | 2026-10-15 |
+| packing material disposal dubai | `/blog/packing-material-disposal-dubai` | N-11 | 2026-10-15 |
+| bed frame disposal dubai | `/blog/bed-frame-disposal-dubai` | N-12 | 2026-10-15 |
+| townhouse clearance dubai | `/blog/townhouse-clearance-dubai` | N-13 | 2026-10-15 |
+| broken furniture disposal dubai | `/blog/broken-furniture-disposal-dubai` | N-14 | 2026-10-15 |
 
 ### 5.3 · Reserved by the queue
 
@@ -437,6 +449,12 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-6 `storage-room-clearance-dubai` | `/blog/decluttering-small-dubai-apartment` | article | “storage-room clearance guide” | ☑ applied |
 | #N-7 `garage-clearance-dubai` | `/blog/how-long-villa-clearance-dubai` | article | “garage-clearance guide” | ☑ applied |
 | #N-8 `garden-furniture-disposal-dubai` | `/blog/garden-waste-bins-dubai` | article | “garden furniture disposal guide” | ☑ applied |
+| #N-9 `balcony-clearance-dubai` | `/blog/garden-furniture-disposal-dubai` · `/blog/townhouse-clearance-dubai` · `/blog/packing-material-disposal-dubai` | article | “balcony clearance guide” | ☑ applied |
+| #N-10 `childrens-room-clearance-dubai` | `/blog/seasonal-clear-out-dubai` · `/blog/bed-frame-disposal-dubai` | article | “children's room clearance guide” | ☑ applied |
+| #N-11 `packing-material-disposal-dubai` | `/blog/junk-gone-today-dubai` · `/blog/balcony-clearance-dubai` | article | “packing-material guide” | ☑ applied |
+| #N-12 `bed-frame-disposal-dubai` | `/blog/mattress-disposal-dubai` · `/blog/childrens-room-clearance-dubai` · `/blog/broken-furniture-disposal-dubai` | article | “guide to getting rid of a bed frame” | ☑ applied |
+| #N-13 `townhouse-clearance-dubai` | `/blog/garage-clearance-dubai` | article | “townhouse clearance guide” | ☑ applied |
+| #N-14 `broken-furniture-disposal-dubai` | `/blog/dispose-old-furniture-dubai` | article | “broken furniture guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -675,6 +693,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-15 | Published N-9 to N-14, each with 2,000+ stored body words, SEO fields, one primary service relationship and reused Media for all twelve image slots. N-9 to N-11 are the owner's 2026-10-12 drafts, expanded and admitted in keywords.md as H21, H22 and F19 without Search Console evidence. N-12 to N-14 promote mapped SUPPORT rows C15, I12 and C9 to article URLs. Synced six inbound posts to the CMS: garden-furniture, seasonal, mattress, garage and dispose-old-furniture, plus junk-gone-today with the owner's 2026-10-13 cardboard section. The fridge guide's 2026-10-13 local edit was left unsynced. Six articles in one day exceeds the content-rules.md §23 ceiling of three, at the owner's explicit request. Server-based checks (check:content, check:links, check:blog) were not run because no local production server was available; the six live URLs returned 200. | Owner asked to publish the existing drafts and three new mapped topics. |
 | 2026-10-10 | Published N-6, N-7 and N-8 with 2,000+ stored body words each, six original uploaded editorial images (Media 134–139), SEO fields, service relationships and contextual inbound links from N-3, #36 and #26. Updated claimed keywords in §5.2 and synced inbound post bodies in CMS. | Completed publication of storage room, garage, and garden furniture guides per briefs. |
 | 2026-10-09 | Set the intended article date for local drafts N-6, N-7 and N-8 to 2026-10-10 in their briefs and records. Published dates remain empty because none is live. | User requested the article-date change. |
 | 2026-10-09 | Added a 30-search priority list in keywords.md using already mapped, unpublished-support searches. Reassigned H15, I10 and G18 to distinct article scopes and wrote N-6 through N-8 as local 2,000+ word drafts with six original generated editorial images. They are not published; CMS Media, reverse links and pre-publish QA remain. | User requested the next 30 search priorities and three articles; local drafts are recorded at their actual lifecycle state. |

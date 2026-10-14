@@ -4,7 +4,7 @@ Old furniture in Dubai has four practical routes: keep or repair it, transfer it
 
 Start with condition, not appearance. Check frames, joints, bases, upholstery, drawers, glass, mirrors and signs of moisture. Empty every compartment and remove personal items. Photograph the complete piece and any damage.
 
-Ask whether the item remains safe and useful. A scratched solid table may still have years of use, while a clean-looking cabinet with swollen panels may not survive another move. Unstable, contaminated or broken pieces should not be presented as ready for reuse.
+Ask whether the item remains safe and useful. A scratched solid table may still have years of use, while a clean-looking cabinet with swollen panels may not survive another move. Unstable, contaminated or broken pieces should not be presented as ready for reuse. If a piece is already damaged, the [broken furniture guide](/blog/broken-furniture-disposal-dubai) explains how to make it safe to move and describe it for collection.
 
 Measure height, width and depth, including handles and feet. Then measure the path from the room to the loading point. Doorways, turns, stairs, lifts and gates determine whether the item can leave intact.
 

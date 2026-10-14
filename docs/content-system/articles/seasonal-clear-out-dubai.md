@@ -70,7 +70,7 @@ Garages and outdoor stores can hold tools, sports equipment, old bicycles, paint
 
 ### Children's rooms
 
-Clothes, toys, books and furniture are outgrown in stages. A yearly review is natural, especially around the school year. Involve children in deciding what to pass on where that suits your family.
+Clothes, toys, books and furniture are outgrown in stages. A yearly review is natural, especially around the school year. Involve children in deciding what to pass on where that suits your family. For cots, bunk beds and toy collections, the [children's room clearance guide](/blog/childrens-room-clearance-dubai) goes through the order of work.
 
 ### Wardrobes
 

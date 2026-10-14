@@ -44,7 +44,7 @@ If a stored material is unidentified or leaking, pause. A normal garage-clearanc
 
 ## Quote the garage as it really is
 
-Send a wide photograph from each corner and close images of dense or unusual piles. Include any side storage, overhead rack or cupboard that must be emptied. If the garage holds a vehicle that will remain, say whether it can be moved before collection. Show the driveway, gate and distance to the loading point; those affect how the crew can carry and load.
+Send a wide photograph from each corner and close images of dense or unusual piles. Include any side storage, overhead rack or cupboard that must be emptied. If the garage holds a vehicle that will remain, say whether it can be moved before collection. Show the driveway, gate and distance to the loading point; those affect how the crew can carry and load. In a townhouse, where items may also come down an internal staircase, the [townhouse clearance guide](/blog/townhouse-clearance-dubai) explains how to sequence the floors.
 
 List the exclusions plainly: “The bicycles stay,” “The tall rack stays,” or “The labelled paint cans are being handled separately.” If a whole villa is being cleared, photograph the garage alongside the garden, maid's room and interior rooms. That prevents the garage from appearing as a surprise extra load on the day. The [villa duration guide](/blog/how-long-villa-clearance-dubai) explains why a packed garage can change a property's schedule.
 

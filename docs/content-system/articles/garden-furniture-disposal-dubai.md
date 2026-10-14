@@ -64,7 +64,7 @@ For a villa with direct driveway access, the main questions are how far the furn
 
 For a townhouse, check the community's parking and contractor hours. A narrow front garden may have no safe place to stage furniture before loading. Keep it inside your boundary until the collection window. If a neighbour shares a path or gate, arrange a time that leaves it passable. A quick removal should not create an access problem for someone else.
 
-For an apartment balcony, measure the largest table or lounger against the balcony door and service lift. The furniture may have arrived flat-packed but now be assembled; removable legs can change whether it fits. Ask building management about lift booking and protection requirements. A small balcony set can be more complicated to remove than a larger ground-floor set because of the route through shared areas.
+For an apartment balcony, measure the largest table or lounger against the balcony door and service lift. The furniture may have arrived flat-packed but now be assembled; removable legs can change whether it fits. Ask building management about lift booking and protection requirements. A small balcony set can be more complicated to remove than a larger ground-floor set because of the route through shared areas. When the balcony also holds planters, packaging and stored boxes, the [balcony clearance guide](/blog/balcony-clearance-dubai) covers sorting the whole space.
 
 ## Questions to settle before booking
 

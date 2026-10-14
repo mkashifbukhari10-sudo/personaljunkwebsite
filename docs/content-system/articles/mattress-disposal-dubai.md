@@ -6,7 +6,7 @@ Separate disposal from reuse at the beginning. A clean mattress in usable condit
 
 If nobody has agreed to receive it, plan removal rather than leaving it in a lobby, refuse room or beside communal bins. Moving the problem from the bedroom to a shared area does not complete the job. It may also obstruct residents, cleaners or deliveries. Keep the mattress inside the property until the collection window is confirmed, unless building management gives a specific staging location and time.
 
-Check whether the bed base, frame, headboard or protector is leaving too. These are separate pieces with different handling needs. A divan base may split into sections; a wooden frame may need dismantling; a headboard can be wider than the mattress. A clear list produces a more useful quote and enough vehicle space for the whole bed rather than one visible piece.
+Check whether the bed base, frame, headboard or protector is leaving too. These are separate pieces with different handling needs. A divan base may split into sections; a wooden frame may need dismantling; a headboard can be wider than the mattress. A clear list produces a more useful quote and enough vehicle space for the whole bed rather than one visible piece. For divans, storage beds and headboards, see the [guide to getting rid of a bed frame](/blog/bed-frame-disposal-dubai).
 
 ## Record the size, condition and access
 

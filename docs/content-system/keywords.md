@@ -623,13 +623,13 @@ Owner: `/services/furniture-removal`.
 | C6 | furniture pickup dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P1 | |
 | C7 | furniture collection dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
 | C8 | unwanted furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
-| C9 | broken furniture disposal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | Useful: excludes donation, so intent is clearly paid removal. |
+| C9 | broken furniture disposal dubai | Commercial | HIGH | BLOG | `/blog/broken-furniture-disposal-dubai` | P2 | Useful: excludes donation, so intent is clearly paid removal. Editorial scope (2026-10-15): recognise damage that rules out reuse, make the piece safe to handle and describe it for a quote; general route comparison stays with C4. `/services/furniture-removal` keeps the transactional intent. |
 | C10 | furniture dismantling dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | Core differentiator vs free routes. |
 | C11 | bedroom furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P3 | |
 | C12 | wardrobe removal dubai | Commercial | HIGH | BLOG | `/blog/wardrobe-removal-dubai` | P2 | "Won't fit through the door" angle. |
 | C13 | wardrobe disposal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
 | C14 | bed removal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
-| C15 | bed frame disposal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P3 | |
+| C15 | bed frame disposal dubai | Commercial | HIGH | BLOG | `/blog/bed-frame-disposal-dubai` | P3 | Editorial scope (2026-10-15): frame, base, headboard and storage-bed preparation; the mattress stays with #9 and C14 `bed removal dubai` stays SUPPORT on `/services/furniture-removal`. |
 | C16 | mattress removal dubai | Commercial | HIGH | BLOG | `/blog/mattress-disposal-dubai` | P1 | Strong standalone item query; hygiene rules out donation. |
 | C17 | mattress disposal dubai | Commercial | HIGH | SUPPORT | `/blog/mattress-disposal-dubai` | P1 | |
 | C18 | how to get rid of a mattress in dubai | Informational | HIGH | SUPPORT | `/blog/mattress-disposal-dubai` | P1 | |
@@ -728,6 +728,7 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F16 | skip hire alternative dubai | Commercial | HIGH | BLOG | `/blog/skip-hire-vs-junk-removal-dubai` | P2 | **Strong comparison play** — a crew that loads beats a skip you fill yourself. (Skip *hire* itself is excluded.) |
 | F17 | junk removal truck dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | Check intent — if it is truck *rental*, it is excluded. |
 | F18 | office waste collection dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | |
+| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. |
 
 ---
 
@@ -787,6 +788,8 @@ Owner: `/services/house-clearance`.
 | H18 | hoarder house clearance dubai | Commercial | MED | BLOG | `/blog/heavy-clutter-clearance-dubai` | P3 | HOLD — service capability unconfirmed. Do not commission or imply this specialist service is offered. If confirmed, use respectful, non-stigmatising language and review overlap with `/services/house-clearance`. |
 | H19 | studio apartment clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P3 | |
 | H20 | clearance before moving dubai | Commercial | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P2 | |
+| H21 | balcony clearance dubai | Commercial | LOW-MED | BLOG | `/blog/balcony-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; re-check in Search Console. Scope: sorting and carrying a mixed balcony load; garden furniture detail stays with G18. |
+| H22 | children's room clearance dubai | Commercial | LOW-MED | BLOG | `/blog/childrens-room-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Scope: keepsakes first, reuse checks for children's furniture, toys and electronics separated. |
 
 ---
 
@@ -807,7 +810,7 @@ Owner: `/services/villa-clearance`.
 | I9 | majlis clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | Distinctly UAE; low volume, high relevance. `UNVERIFIED`. |
 | I10 | garage clearance dubai | Commercial | MED | BLOG | `/blog/garage-clearance-dubai` | P2 | Editorial scope: sort mixed garage contents, identify excluded materials and plan the carrying route. `/services/villa-clearance` keeps the service head term. Commissioned 2026-10-09. |
 | I11 | villa storage clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | |
-| I12 | townhouse clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P2 | Property type sits with villa, not apartment. |
+| I12 | townhouse clearance dubai | Commercial | MED | BLOG | `/blog/townhouse-clearance-dubai` | P2 | Property type sits with villa, not apartment. Editorial scope (2026-10-15): stairs, floor-by-floor sequencing and compact-plot staging; `/services/villa-clearance` keeps the transactional intent. |
 | I13 | how long does a villa clearance take dubai | Informational | HIGH | BLOG | `/blog/how-long-villa-clearance-dubai` | P2 | Planning-stage, pre-enquiry. |
 | I14 | gated community clearance access dubai | Informational | MED | BLOG | `/blog/gated-community-clearance-dubai` | P2 | Real operational differentiator. |
 
@@ -1332,15 +1335,17 @@ These are **existing mapped searches with no dedicated published article** at th
 | 21 | B2 | same day rubbish removal dubai | `/services/same-day-junk-removal` | Keep language variant on same URL |
 | 22 | B3 | same day junk pickup dubai | `/services/same-day-junk-removal` | Keep timing variant on same URL |
 | 23 | B9 | next day junk removal dubai | `/services/same-day-junk-removal` | Explain next-day fallback |
-| 24 | C9 | broken furniture disposal dubai | `/services/furniture-removal` | Explain donation boundary |
+| 24 | C9 | broken furniture disposal dubai | `/blog/broken-furniture-disposal-dubai` | **Commissioned article 2026-10-15**; damaged-furniture handling angle |
 | 25 | C10 | furniture dismantling dubai | `/services/furniture-removal` | Link wardrobe and sofa access guides |
 | 26 | D8 | L shaped sofa removal dubai | `/services/sofa-removal` | Link doorway guide |
 | 27 | E10 | old appliance removal dubai | `/services/appliance-disposal` | Link fridge, washer and TV guides |
 | 28 | G20 | villa garden waste removal dubai | `/services/garden-waste-removal` | Cross-link villa-clearance service |
-| 29 | I12 | townhouse clearance dubai | `/services/villa-clearance` | Explain property-size fit |
+| 29 | I12 | townhouse clearance dubai | `/blog/townhouse-clearance-dubai` | **Commissioned article 2026-10-15**; stairs and floor-by-floor angle |
 | 30 | K6 | office desk removal dubai | `/services/commercial-junk-removal` | Link office-furniture guide |
 
 **Ownership ruling:** H15, I10 and G18 now have article URLs because each draft answers a concrete preparation and separation problem beyond the service-page offer. Their service pages retain the broader transactional head terms. If Search Console later shows the service page and article competing for the same query, consolidate the article's useful sections into the service page and redirect the article. This is an editorial test, not a demand claim.
+
+**Ownership ruling (2026-10-15):** C9, C15 and I12 now have article URLs on the same basis as H15, I10 and G18. Each answers a preparation problem that its service page does not: damage and safe handling for C9, frame, base and storage-bed dismantling for C15, and stairs and floor-by-floor sequencing for I12. Their service pages keep the transactional terms, and C14 `bed removal dubai` stays SUPPORT on `/services/furniture-removal`. H21, H22 and F19 were admitted at the owner's request from drafts already in the repository. They come from no Search Console evidence and carry `UNVERIFIED SEARCH-DEMAND ASSUMPTION` labels. Each passes admission tests 2–6: it is Dubai-only, it has removal intent, it has one destination, it does not collide with an existing page, and its scope is distinct. Review all six at Day 30 and Day 60 for competition with their money pages.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 
