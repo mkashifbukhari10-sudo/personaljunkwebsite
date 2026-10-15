@@ -1,6 +1,6 @@
-# Next three article briefs — article date 2026-10-16
+# Next three article briefs — article date 2026-10-15
 
-These three articles were published to the live CMS on **16 October 2026** (author Junk Services Dubai Team). Source bodies live in `articles/`. Each promotes a mapped SUPPORT row in `keywords.md` to an article URL with a distinct preparation scope. The service pages keep the transactional terms, and the ruling is recorded under *Next 30 service-search priorities*.
+These three articles were published to the live CMS on **15 October 2026** (Dubai time) (author Junk Services Dubai Team). Source bodies live in `articles/`. Each promotes a mapped SUPPORT row in `keywords.md` to an article URL with a distinct preparation scope. The service pages keep the transactional terms, and the ruling is recorded under *Next 30 service-search priorities*.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover (Media) | Body (Media) |
 |---|---|---|---|---|---|---|---|
