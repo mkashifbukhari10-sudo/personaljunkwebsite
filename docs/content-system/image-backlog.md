@@ -212,6 +212,19 @@ No new images were generated or sourced for N-3, N-4 and N-5. Each slot reuses a
 | `villa-handover-cover.webp` | 78 · `article-villa-handover-clearance-dubai-cover` | N-5 cover + OG |
 | `old-furniture-route-options.webp` | 105 · `article-dispose-old-furniture-dubai-body` | N-5 body |
 
+### Reused existing media — 2026-10-16
+
+No images were generated, downloaded or uploaded for N-15 to N-17. Each slot reuses an existing editorial Media document. Media 84 and 88 were viewed again and still match their stored alt text, and both show the article's subject: a sofa prepared for removal, and a rolled rug beside a clear path. The Media 73 cover shows a utility room with plumbing connections, not a water heater itself. A dedicated water-heater image would be a better future cover.
+
+| File | Media reused | Used as |
+|---|---|---|
+| `before-crew-arrives-cover.webp` | 88 · `article-before-the-crew-arrives-dubai-cover` | N-15 carpet cover + OG |
+| `storage-room-clearance-dubai-cover.png` | 134 · `article-storage-room-clearance-dubai-cover` | N-15 body (rolled rug in storage) |
+| `old-sofa-delivery-cover.webp` | 84 · `article-old-sofa-before-new-delivery-dubai-cover` | N-16 sofa bed cover + OG |
+| `sofa-route-measurement.webp` | 75 · `article-sofa-wont-fit-through-door-dubai-body` | N-16 body (measuring the route) |
+| `laundry-room-cover-final.webp` | 73 · no seed key | N-17 water heater cover + OG |
+| `service-lift-protection.webp` | 77 · `article-service-lift-booking-dubai-body` | N-17 body (protected goods lift) |
+
 ### Reused existing media — 2026-10-15
 
 No images were generated, downloaded or uploaded for N-9 to N-14. The owner asked for available resources only. Each slot reuses an existing editorial Media document, and each was re-checked against its new article. Where an image was viewed again (Media 100, 104, 114 and 117), it still matched its stored alt text. The photo library at Media 13–28 stays closed (Route D), because it depicts crew and vehicles.
@@ -344,6 +357,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-12 bed-frame-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 100, 81) |
 | #N-13 townhouse-clearance-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 96, 79) |
 | #N-14 broken-furniture-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 104, 101) |
+| #N-15 carpet-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 88, 134) |
+| #N-16 sofa-bed-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 84, 75) |
+| #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
 | #20 washing-machine-removal | body | `NEEDED` |
@@ -382,6 +398,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-16 | Assigned existing Media documents to N-15 to N-17. That covers six slots with no new generation, download or upload, at the owner's instruction to use the images already available. |
 | 2026-10-15 | Assigned existing Media documents to N-9 to N-14. That covers twelve slots with no new generation, download or upload, at the owner's instruction to use available resources. Recorded above under *Reused existing media — 2026-10-15*. |
 | 2026-10-10 | Uploaded six original editorial images to CMS Media (Media 134–139) for published articles N-6, N-7 and N-8 with inspected alt text and confirmed database records. |
 | 2026-10-09 | Generated and visually inspected six original, unbranded editorial images for draft articles N-6, N-7 and N-8: `public/images/articles/{storage-room-clearance-dubai,garage-clearance-dubai,garden-furniture-disposal-dubai}-{cover,body}.png`. These are generic illustrative scenes, not business photography. Cover alt text is in `next-three-article-briefs.md`; body alt text is in the article Markdown. CMS Media upload remains pending; no post is published. |

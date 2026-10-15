@@ -18,7 +18,7 @@ Share the make or model if known, but photographs are still essential. Furniture
 
 Record the overall width from one outer arm to the other, the deepest point from front to back, and the height from floor to the highest fixed part of the back. Measure without compressing cushions or excluding protruding fixed parts. If feet are removable, record both the current height and the likely height without them, but do not promise that they can be removed until checked.
 
-For a corner sofa, measure each section and show how the pieces meet. For a chaise, state which side it occupies when facing the sofa. For a recliner or sofa bed, mention the mechanism and whether it is operating normally. These details help a removal provider decide what needs assessment before lifting begins.
+For a corner sofa, measure each section and show how the pieces meet. For a chaise, state which side it occupies when facing the sofa. For a sofa bed, the [sofa bed removal guide](/blog/sofa-bed-removal-dubai) explains how to secure the folding frame first. For a recliner or sofa bed, mention the mechanism and whether it is operating normally. These details help a removal provider decide what needs assessment before lifting begins.
 
 ![A top-down illustration of a sofa and doorway route with measuring tapes and turning arrows.](media:sofa-route-measurement)
 

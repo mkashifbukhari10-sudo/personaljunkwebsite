@@ -46,7 +46,7 @@ Use the instructions for your specific model. Bosch's [washing machine moving gu
 
 ### Do not turn a collection checklist into DIY plumbing instructions
 
-If a connection is inaccessible, a valve appears damaged or you are unsure what to disconnect, arrange qualified help. Do not force fittings, cut hoses or improvise electrical work to meet a collection deadline. Tell the removal provider what remains unresolved and adjust the sequence if necessary.
+If a connection is inaccessible, a valve appears damaged or you are unsure what to disconnect, arrange qualified help. The same applies to a water heater, which also has to be drained; the [water heater removal guide](/blog/water-heater-removal-dubai) covers that sequence. Do not force fittings, cut hoses or improvise electrical work to meet a collection deadline. Tell the removal provider what remains unresolved and adjust the sequence if necessary.
 
 The practical task is to establish responsibility: who makes the appliance safe and ready, when they will do it, and how the collection provider will know it is ready. You do not need to perform the work personally in order to arrange it properly.
 

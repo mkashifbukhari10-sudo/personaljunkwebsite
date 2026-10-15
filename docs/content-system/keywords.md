@@ -637,7 +637,7 @@ Owner: `/services/furniture-removal`.
 | C20 | dining table removal dubai | Commercial | MED | SUPPORT | `/services/furniture-removal` | P3 | |
 | C21 | IKEA furniture disposal dubai | Commercial | MED | BLOG | `/blog/flatpack-furniture-disposal-dubai` | P2 | Flat-pack rarely survives a second assembly — strong "can't donate it" angle. |
 | C22 | furniture removal apartment dubai | Commercial | HIGH | SUPPORT | `/services/residential-junk-removal` | P2 | |
-| C23 | carpet disposal dubai | Commercial | MED | SUPPORT | `/services/furniture-removal` | P3 | |
+| C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
 
 ---
@@ -657,7 +657,7 @@ Owner: `/services/sofa-removal`.
 | D7 | sofa pickup dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
 | D8 | L shaped sofa removal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | Access-problem intent — high conversion. |
 | D9 | corner sofa removal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
-| D10 | sofa bed removal dubai | Commercial | MED | SUPPORT | `/services/sofa-removal` | P3 | |
+| D10 | sofa bed removal dubai | Commercial | MED | BLOG | `/blog/sofa-bed-removal-dubai` | P3 | Editorial scope (2026-10-16): securing the folding mechanism, mattress decision and measuring closed; `/services/sofa-removal` keeps the transactional intent and all other sofa variants. |
 | D11 | 3 seater sofa disposal dubai | Commercial | MED | SUPPORT | `/services/sofa-removal` | P3 | |
 | D12 | armchair removal dubai | Commercial | MED | SUPPORT | `/services/furniture-removal` | P3 | |
 | D13 | sofa removal apartment dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
@@ -689,7 +689,7 @@ Owner: `/services/appliance-disposal`.
 | E15 | cooker disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
 | E16 | dishwasher removal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
 | E17 | microwave disposal dubai | Commercial | LOW-MED | SUPPORT | `/services/appliance-disposal` | P3 | Small item; usually part of a larger load. |
-| E18 | water heater removal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
+| E18 | water heater removal dubai | Commercial | MED | BLOG | `/blog/water-heater-removal-dubai` | P3 | Editorial scope (2026-10-16): landlord ownership, technician disconnection and draining before collection; `/services/appliance-disposal` keeps the transactional intent. |
 | E19 | TV disposal dubai | Commercial | HIGH | BLOG | `/blog/tv-disposal-dubai` | P2 | Item-specific disposal route; appliance service remains the money page. |
 | E20 | old TV removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E21 | AC unit removal dubai | Commercial | HIGH | BLOG | `/blog/old-ac-unit-disposal-dubai` | P2 | Split units need safe handling — genuine expertise angle. |
@@ -1346,6 +1346,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling:** H15, I10 and G18 now have article URLs because each draft answers a concrete preparation and separation problem beyond the service-page offer. Their service pages retain the broader transactional head terms. If Search Console later shows the service page and article competing for the same query, consolidate the article's useful sections into the service page and redirect the article. This is an editorial test, not a demand claim.
 
 **Ownership ruling (2026-10-15):** C9, C15 and I12 now have article URLs on the same basis as H15, I10 and G18. Each answers a preparation problem that its service page does not: damage and safe handling for C9, frame, base and storage-bed dismantling for C15, and stairs and floor-by-floor sequencing for I12. Their service pages keep the transactional terms, and C14 `bed removal dubai` stays SUPPORT on `/services/furniture-removal`. H21, H22 and F19 were admitted at the owner's request from drafts already in the repository. They come from no Search Console evidence and carry `UNVERIFIED SEARCH-DEMAND ASSUMPTION` labels. Each passes admission tests 2–6: it is Dubai-only, it has removal intent, it has one destination, it does not collide with an existing page, and its scope is distinct. Review all six at Day 30 and Day 60 for competition with their money pages.
+
+**Ownership ruling (2026-10-16):** C23, D10 and E18 now have article URLs on the same basis as the earlier single-item guides (mattress, wardrobe, TV, bed frame). Each covers preparation that its service page does not: ownership and fitted-carpet lifting for C23, securing the folding mechanism for D10, and disconnection and draining for E18. Their service pages keep the transactional terms. As with the other item guides, `sofa bed` and `water heater` also appear as item words in the service-cluster Secondary column. The articles target the research-stage preparation question; the service page keeps the booking query. Review at Day 30 and Day 60 for competition with the money pages.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 

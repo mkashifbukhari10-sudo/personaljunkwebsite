@@ -32,7 +32,7 @@ Large objects determine the collection plan. A spare wardrobe panel, folding bed
 
 Do not dismantle furniture automatically. Taking apart a unit that will be reused may create a pile of unlabelled hardware. Leaving a tall unit assembled may make the service route impossible. Photograph it as it stands and ask the collector whether it should stay whole. If dismantling is needed, keep the screws in a labelled bag and separate any sharp edges. Our [wardrobe removal guide](/blog/wardrobe-removal-dubai) explains the same whole-versus-dismantled decision for larger furniture.
 
-Textiles deserve a separate check. Rolled rugs, spare bedding and curtains can conceal moisture, dust or pests after long storage. Bag loose textiles so they do not shed through common areas. Tell the collector if an item is wet or heavily soiled. Do not place an unknown or leaking item into the general collection pile to avoid an awkward conversation; it changes how the load can be handled.
+Textiles deserve a separate check. Rolled rugs, spare bedding and curtains can conceal moisture, dust or pests after long storage. If a rug or carpet is leaving, the [carpet disposal guide](/blog/carpet-disposal-dubai) covers rolling, tying and the lift route. Bag loose textiles so they do not shed through common areas. Tell the collector if an item is wet or heavily soiled. Do not place an unknown or leaking item into the general collection pile to avoid an awkward conversation; it changes how the load can be handled.
 
 ## Keep special materials out of the ordinary load
 
