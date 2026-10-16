@@ -212,6 +212,19 @@ No new images were generated or sourced for N-3, N-4 and N-5. Each slot reuses a
 | `villa-handover-cover.webp` | 78 · `article-villa-handover-clearance-dubai-cover` | N-5 cover + OG |
 | `old-furniture-route-options.webp` | 105 · `article-dispose-old-furniture-dubai-body` | N-5 body |
 
+### Reused existing media for repository posts — 2026-10-16
+
+N-18 to N-20 are repository posts. Their images are existing Vercel Blob assets referenced by URL in `content/file-posts.js`, with no upload, generation or download. The alt text is the stored alt text of the original Media documents.
+
+| Asset | Original Media | Used as |
+|---|---|---|
+| `laundry-room-cover-final.webp` | 73 | N-18 dryer cover + OG (shows a washer and dryer) |
+| `accepted-versus-excluded-guide.webp` | 117 | N-18 body |
+| `old-furniture-disposal-cover.webp` | 104 | N-19 dining table cover + OG |
+| `tower-route-measurement.webp` | 83 | N-19 body (measuring the route) |
+| `before-crew-arrives-cover.webp` | 88 | N-20 armchair cover + OG (worn leather armchair) |
+| `old-furniture-route-options.webp` | 105 | N-20 body (armchair route options) |
+
 ### Reused existing media — 2026-10-16
 
 No images were generated, downloaded or uploaded for N-15 to N-17. Each slot reuses an existing editorial Media document. Media 84 and 88 were viewed again and still match their stored alt text, and both show the article's subject: a sofa prepared for removal, and a rolled rug beside a clear path. The Media 73 cover shows a utility room with plumbing connections, not a water heater itself. A dedicated water-heater image would be a better future cover.
@@ -359,6 +372,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-14 broken-furniture-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-15 (Media 104, 101) |
 | #N-15 carpet-disposal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 88, 134) |
 | #N-16 sofa-bed-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 84, 75) |
+| #N-18 dryer-disposal-dubai | cover, OG, body | `COMPLETE` — existing assets reused 2026-10-16 (repository post) |
+| #N-19 dining-table-removal-dubai | cover, OG, body | `COMPLETE` — existing assets reused 2026-10-16 (repository post) |
+| #N-20 armchair-removal-dubai | cover, OG, body | `COMPLETE` — existing assets reused 2026-10-16 (repository post) |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |

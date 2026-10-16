@@ -62,7 +62,7 @@ Use one primary route and one backup. Avoid promising the same item to several p
 
 ## Prepare sofas and upholstered furniture
 
-Remove cushions and check storage compartments. Look beneath and behind the piece for personal items. Photograph stains, tears, pests, moisture and broken mechanisms honestly.
+Remove cushions and check storage compartments. Look beneath and behind the piece for personal items. Photograph stains, tears, pests, moisture and broken mechanisms honestly. For a single chair or recliner, see the [armchair removal guide](/blog/armchair-removal-dubai).
 
 Measure the rigid frame rather than compressible cushions. Check doorways and turns. Recliners and sofa beds can be heavier and may contain moving mechanisms; disclose them before collection.
 
@@ -82,7 +82,7 @@ Never release structural fixings while an unsupported cabinet carries weight. If
 
 ## Prepare tables, beds and mixed sets
 
-Record every component. A dining set includes the table leaves, legs and chairs. A bed may include frame, slats, headboard, storage base and mattress. Omitting parts changes the load.
+Record every component. A dining set includes the table leaves, legs and chairs. The [dining table removal guide](/blog/dining-table-removal-dubai) covers glass and stone tops in detail. A bed may include frame, slats, headboard, storage base and mattress. Omitting parts changes the load.
 
 Support tabletops before removing legs. Contain bolts and brackets. Protect stone or glass surfaces separately and disclose cracks.
 

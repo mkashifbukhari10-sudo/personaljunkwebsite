@@ -50,6 +50,10 @@ const nextConfig = {
   ...(process.env.NEXT_BUILD_CPUS ? { experimental: { cpus: Number(process.env.NEXT_BUILD_CPUS) } } : {}),
   // One canonical form per URL: /services, never /services/ (plan.md Phase 14).
   trailingSlash: false,
+  // Repository-published posts (lib/content/file-posts.js) read their Markdown
+  // body at render time; ship those files with every server function so a
+  // request-time re-render can still find them.
+  outputFileTracingIncludes: { '/**': ['./docs/content-system/articles/*.md'] },
   images: {
     // Serve modern formats; Next negotiates per browser.
     formats: ['image/avif', 'image/webp'],

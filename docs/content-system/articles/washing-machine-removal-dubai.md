@@ -36,7 +36,7 @@ Remove your own loose belongings from the surrounding area, but leave the heavy 
 
 If a cabinet door is attached to the appliance, or the washer sits within fitted units, show that arrangement. Ask who is responsible for releasing it from the installation. Do not assume that a general collection includes work on cabinetry, brackets or fixtures around the machine.
 
-For a dryer stacked above a washer, identify both appliances and the stacking arrangement. Say which unit is leaving and which must remain. The provider needs to assess the complete setup; removing the lower unit cannot be planned as though nothing is above it.
+For a dryer stacked above a washer, identify both appliances and the stacking arrangement. If the dryer is the one leaving, the [dryer disposal guide](/blog/dryer-disposal-dubai) covers vent hoses, water tanks and unstacking. Say which unit is leaving and which must remain. The provider needs to assess the complete setup; removing the lower unit cannot be planned as though nothing is above it.
 
 ## Confirm disconnection before collection day
 

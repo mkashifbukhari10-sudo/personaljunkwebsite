@@ -44,6 +44,12 @@ Before publishing or changing the renderer:
 - Confirm one H1, valid heading order, metadata/canonical, BlogPosting and breadcrumbs; no article FAQPage schema. Check sitemap and internal links.
 - Run the production build, `npm run check:blog`, `npm run check:content` and `npm run check:links` against the local production server. Record any environment blockers truthfully.
 
+## Repository publishing (from 2026-10-16)
+
+New articles are published from the repository, not the admin. An article is its Markdown body in `docs/content-system/articles/{slug}.md` plus an entry in `content/file-posts.js`. That entry holds the title, excerpt, publishedAt, cover key, primary service and SEO fields. Images are reused from `fileImages` in the same file, which records existing assets only, with their stored alt text and dimensions. `lib/content/file-posts.js` turns each entry into the same shape as a CMS post. Listings, the article page, related posts, the sitemap, the feed and social images therefore treat both kinds identically.
+
+Publishing writes nothing to the database. Commit the two files; the article goes live on the next successful deployment. The site build still reads services, areas and settings from the database, so a deployment needs a reachable database. Every editorial, claim-audit, linking and QA rule in this system applies unchanged. Contextual links added to an older CMS-held article reach the live site only after that article's CMS copy is synced. Record them as pending until then.
+
 ## Article structure and SEO
 
 Each article must answer its mapped query in the opening paragraphs, retain one descriptive page H1, and use useful H2 sections with H3 subsections only where needed. Use short paragraphs and lists for genuinely parallel information. A tenancy timeline, an urgent-collection decision guide and an appliance checklist should not share an artificial set of identical headings.

@@ -1,30 +1,25 @@
-# Next three article briefs — article date 2026-10-15
+# Next three article briefs — article date 2026-10-16
 
-These three articles were published to the live CMS on **15 October 2026** (Dubai time) (author Junk Services Dubai Team). Source bodies live in `articles/`. Each promotes a mapped SUPPORT row in `keywords.md` to an article URL with a distinct preparation scope. The service pages keep the transactional terms, and the ruling is recorded under *Next 30 service-search priorities*.
+These are the first **repository posts**. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). They go live on the next successful deployment. Each promotes a mapped SUPPORT row in `keywords.md` to an article URL; the service pages keep the transactional terms.
 
-| ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover (Media) | Body (Media) |
+| ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |
 |---|---|---|---|---|---|---|---|
-| N-15 | carpet disposal dubai (C23) | Old Carpet or Rug to Clear? Roll It, Check It, Then Book the Route | `carpet-disposal-dubai` | A loose rug can be rolled and collected; a fitted carpet has to be lifted first. Check who owns it, its condition and whether the roll fits your lift before booking. | `furniture-removal` | 88 | 134 |
-| N-16 | sofa bed removal dubai (D10) | Sofa Bed Removal in Dubai: Secure the Mechanism Before It Moves | `sofa-bed-removal-dubai` | A sofa bed hides a heavy folding frame. Identify the type, strap the mechanism shut, check inside for lost items and measure it closed before asking for collection. | `sofa-removal` | 84 | 75 |
-| N-17 | water heater removal dubai (E18) | Taking Out an Old Water Heater: Ownership, Draining and Collection | `water-heater-removal-dubai` | Confirm the heater is yours to remove, have a qualified technician disconnect and drain it, then book collection with photos of the unit and the route out. | `appliance-disposal` | 73 | 77 |
+| N-18 | dryer disposal dubai (E13) | Getting Rid of a Tumble Dryer: Unplug, Empty, Unstack, Collect | `dryer-disposal-dubai` | Check the dryer is yours to remove, empty any water, deal with the vent hose or stacking kit, then send photos of the machine and the route out of the laundry space. | `appliance-disposal` | laundry room (Media 73 asset) | accepted vs excluded (117) |
+| N-19 | dining table removal dubai (C20) | Glass, Stone or Wood? How a Dining Table Leaves the Apartment | `dining-table-removal-dubai` | The top decides the job: wood can be unbolted, glass lifts off a frame and stone needs careful support. Count the chairs, measure the longest piece and pick a route. | `furniture-removal` | old furniture by a doorway (104) | tower route measurement (83) |
+| N-20 | armchair removal dubai (D12) | Wingback, Recliner or Swivel? Getting an Old Armchair Out | `armchair-removal-dubai` | An armchair's arms, back and any recliner mechanism decide how it leaves. Close and unplug it, measure its widest point and choose a route before you book a collection. | `furniture-removal` | worn armchair beside boxes (88) | armchair route options (105) |
 
 ## Images
 
-No images were generated, downloaded or uploaded. All six slots reuse existing editorial Media documents, and each body image's alt text is the Media document's existing alt text. Details are in `image-backlog.md` under *Reused existing media — 2026-10-16*.
+All six slots reuse existing Vercel Blob assets by URL, with no upload, generation or download. Alt text is the stored alt text of the original Media documents. See `image-backlog.md`.
 
-## Claim boundaries
+## Inbound links
 
-- **Carpet:** fitted-carpet lifting is framed as a question to put to the provider; the article does not claim the service does it.
-- **Water heater:** disconnection and draining are left to a qualified technician; the article does not claim the business disconnects heaters.
-- **Sofa bed:** crew capabilities come only from the sofa-removal seed copy.
-- **Bulky waste and dumping:** these statements reuse sources already published.
+- **Live with the deployment:** dining table ↔ armchair, since both are repository posts.
+- **Pending CMS sync (added to the Markdown only):**
+  - washing-machine-removal → dryer
+  - dispose-old-furniture → dining table and armchair
 
-## Inbound links (synced to the CMS)
+## Open items
 
-| Article | Linked from |
-|---|---|
-| N-15 carpet | `storage-room-clearance-dubai` |
-| N-16 sofa bed | `sofa-wont-fit-through-door-dubai` |
-| N-17 water heater | `washing-machine-removal-dubai` |
-
-Publish script: `scripts/publish-carpet-sofabed-heater-three.ts`. The pre-rendered pages for the three synced posts refresh on the next deployment. `check:content`, `check:links` and `check:blog` need a local production server and were not run.
+- The build still reads services, areas and settings from Neon. The first deployment of these posts needs the database reachable again: either the network-transfer allowance resets or the project moves to a new database.
+- Push the transfer fix (`43e45af`) with or before these posts.

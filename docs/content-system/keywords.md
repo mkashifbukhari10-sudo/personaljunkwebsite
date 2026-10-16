@@ -634,7 +634,7 @@ Owner: `/services/furniture-removal`.
 | C17 | mattress disposal dubai | Commercial | HIGH | SUPPORT | `/blog/mattress-disposal-dubai` | P1 | |
 | C18 | how to get rid of a mattress in dubai | Informational | HIGH | SUPPORT | `/blog/mattress-disposal-dubai` | P1 | |
 | C19 | old mattress pickup dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
-| C20 | dining table removal dubai | Commercial | MED | SUPPORT | `/services/furniture-removal` | P3 | |
+| C20 | dining table removal dubai | Commercial | MED | BLOG | `/blog/dining-table-removal-dubai` | P3 | Editorial scope (2026-10-16): glass, stone and wood tops, extension leaves, chairs and the longest piece against the route; `/services/furniture-removal` keeps the transactional intent. |
 | C21 | IKEA furniture disposal dubai | Commercial | MED | BLOG | `/blog/flatpack-furniture-disposal-dubai` | P2 | Flat-pack rarely survives a second assembly — strong "can't donate it" angle. |
 | C22 | furniture removal apartment dubai | Commercial | HIGH | SUPPORT | `/services/residential-junk-removal` | P2 | |
 | C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
@@ -659,7 +659,7 @@ Owner: `/services/sofa-removal`.
 | D9 | corner sofa removal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
 | D10 | sofa bed removal dubai | Commercial | MED | BLOG | `/blog/sofa-bed-removal-dubai` | P3 | Editorial scope (2026-10-16): securing the folding mechanism, mattress decision and measuring closed; `/services/sofa-removal` keeps the transactional intent and all other sofa variants. |
 | D11 | 3 seater sofa disposal dubai | Commercial | MED | SUPPORT | `/services/sofa-removal` | P3 | |
-| D12 | armchair removal dubai | Commercial | MED | SUPPORT | `/services/furniture-removal` | P3 | |
+| D12 | armchair removal dubai | Commercial | MED | BLOG | `/blog/armchair-removal-dubai` | P3 | Editorial scope (2026-10-16): wingbacks, swivel bases and recliner mechanisms, closing and unplugging before collection; `/services/furniture-removal` keeps the transactional intent. |
 | D13 | sofa removal apartment dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
 | D14 | sofa won't fit through door dubai | Problem | HIGH | BLOG | `/blog/sofa-wont-fit-through-door-dubai` | P1 | **Excellent long-tail.** Panic-stage query with only one realistic answer. |
 | D15 | remove old sofa before new delivery dubai | Problem | HIGH | BLOG | `/blog/old-sofa-before-new-delivery-dubai` | P1 | Hard-deadline scenario; links to same-day. |
@@ -684,7 +684,7 @@ Owner: `/services/appliance-disposal`.
 | E10 | old appliance removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E11 | washing machine removal dubai | Commercial | HIGH | BLOG | `/blog/washing-machine-removal-dubai` | P2 | |
 | E12 | washing machine disposal dubai | Commercial | HIGH | SUPPORT | `/blog/washing-machine-removal-dubai` | P2 | |
-| E13 | dryer disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
+| E13 | dryer disposal dubai | Commercial | MED | BLOG | `/blog/dryer-disposal-dubai` | P3 | Editorial scope (2026-10-16): vented, condenser and stacked dryers, emptying water and vent hoses before collection; `/services/appliance-disposal` keeps the transactional intent. |
 | E14 | oven removal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
 | E15 | cooker disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
 | E16 | dishwasher removal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
