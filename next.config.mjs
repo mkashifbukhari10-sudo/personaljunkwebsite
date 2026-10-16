@@ -1,5 +1,3 @@
-import { withPayload } from '@payloadcms/next/withPayload';
-
 /** @type {import('next').NextConfig} */
 /**
  * Content Security Policy (plan.md Phase 15), sent **report-only** for now.
@@ -70,4 +68,4 @@ const nextConfig = {
   }
 };
 
-export default withPayload(nextConfig);
+export default nextConfig;

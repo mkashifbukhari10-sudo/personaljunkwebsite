@@ -1,7 +1,6 @@
 /**
- * Seed data — the site-wide FAQ pool as it was written before the Payload
- * migration (plan.md Phase 9). Read ONLY by scripts/seed.ts; the homepage
- * reads these from Payload through lib/content/faqs.js.
+ * The site-wide FAQ list shown on the homepage, in display order. Read by
+ * lib/content/faqs.js.
  */
 
 export const faqs = [

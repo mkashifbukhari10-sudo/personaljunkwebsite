@@ -1,7 +1,7 @@
 /**
- * Seed data — the twelve original coverage areas as they were written before
- * the Payload migration (plan.md Phase 9); areas-expansion.js adds eighteen more. Read ONLY by scripts/seed.ts; the site
- * reads areas from Payload through lib/content/areas.js.
+ * The twelve original coverage areas; areas-expansion.js adds eighteen more.
+ * Read by lib/content/areas.js, which joins the two lists. Photos are assigned
+ * in content/images.js.
  *
  * `map` is the marker position on the /areas grid; `home` is the position and
  * order on the homepage grid for the 9 featured areas.

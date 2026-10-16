@@ -46,9 +46,9 @@ Before publishing or changing the renderer:
 
 ## Repository publishing (from 2026-10-16)
 
-New articles are published from the repository, not the admin. An article is its Markdown body in `docs/content-system/articles/{slug}.md` plus an entry in `content/file-posts.js`. That entry holds the title, excerpt, publishedAt, cover key, primary service and SEO fields. Images are reused from `fileImages` in the same file, which records existing assets only, with their stored alt text and dimensions. `lib/content/file-posts.js` turns each entry into the same shape as a CMS post. Listings, the article page, related posts, the sitemap, the feed and social images therefore treat both kinds identically.
+There is no CMS. On 2026-10-16 the site moved off Payload and Postgres, and every article is now a repository post: its Markdown body in `docs/content-system/articles/{slug}.md` plus an entry in `content/file-posts.js`. The entry holds the title, excerpt, publishedAt, optional updatedAt, cover key, services, and SEO and social fields. Images are keys into `fileImages` in the same file, which records existing assets only, with their stored alt text and dimensions. `lib/content/file-posts.js` builds each post from its entry and its Markdown. Listings, the article page, related posts, the sitemap, the feed and social images all read the result.
 
-Publishing writes nothing to the database. Commit the two files; the article goes live on the next successful deployment. The site build still reads services, areas and settings from the database, so a deployment needs a reachable database. Every editorial, claim-audit, linking and QA rule in this system applies unchanged. Contextual links added to an older CMS-held article reach the live site only after that article's CMS copy is synced. Record them as pending until then.
+To publish, commit the two files and deploy. The build needs no database. Services, areas, FAQs and settings also live in `content/`. Editing an article means editing its Markdown, and the change is live after the next deployment. Bump the entry's `updatedAt` when the change is substantive. Every editorial, claim-audit, linking and QA rule in this system applies unchanged. Where the other files in this system mention Payload drafts, Media uploads or CMS fields, read them as these repository files.
 
 ## Article structure and SEO
 

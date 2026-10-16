@@ -1,7 +1,6 @@
 /**
- * Seed data — the blog index copy, approved by the owner in plan.md Phase 12.
- * Read ONLY by scripts/seed.ts; the site reads it from the Blog global through
- * lib/content/blog.js.
+ * The blog index copy (H1, intro, empty state, SEO), approved by the owner in
+ * plan.md Phase 12. Read by lib/content/blog.js.
  */
 export const blog = {
   h1: 'Junk removal guides and advice for Dubai',

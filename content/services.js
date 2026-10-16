@@ -1,11 +1,7 @@
 /**
- * Seed data — the twelve services as they were written before the Payload
- * migration (plan.md Phase 9). Read ONLY by scripts/seed.ts to bootstrap an
- * empty database; the site itself reads services from Payload through
- * lib/content/services.js and never imports this file.
- *
- * Once a database is seeded, the CMS is the source of truth: `npm run seed`
- * skips documents that already exist unless it is given --update.
+ * The twelve services: landing-page copy for every /services/{slug} page,
+ * read by lib/content/services.js. Edit here and deploy to change a page; photos
+ * are assigned in content/images.js.
  *
  * Content source: service-pages-content.md (approved). Items marked
  * NEEDS BUSINESS INPUT there are deliberately absent here.

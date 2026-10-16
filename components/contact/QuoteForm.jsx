@@ -11,8 +11,8 @@ const lineField = { border: 'none', borderBottom: '2px solid rgba(16,23,38,0.2)'
 /**
  * Quote request panel. Client-only so the page can stay a server component.
  *
- * Submitting posts to /api/quote, which stores the request in Payload as a
- * Pickup request, and the customer is thanked in place.
+ * Submitting posts to /api/quote, which emails the request to the business
+ * through Resend, and the customer is thanked in place.
  *
  * This button used to open WhatsApp with the details prefilled. It no longer
  * does, which means the save is now the only channel behind it, so a failure

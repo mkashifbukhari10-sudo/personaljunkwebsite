@@ -1,7 +1,7 @@
 /**
- * Seed data — the eighteen coverage areas added on 2026-09-15 to take the
- * area pages from twelve to thirty (plan.md Phase 4 pattern). Same shape as
- * areas.js; read ONLY by scripts/seed.ts, which concatenates the two lists.
+ * The eighteen coverage areas added on 2026-09-15 to take the area pages from
+ * twelve to thirty (plan.md Phase 4 pattern). Same shape as areas.js; read by
+ * lib/content/areas.js, which joins the two lists.
  *
  * None of these is featured on the homepage (`home: null`), so the `map`
  * position only matters if one is promoted later. Copy follows the rules of

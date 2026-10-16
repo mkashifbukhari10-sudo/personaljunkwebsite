@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { redirectOrNotFound } from '@/lib/content/redirects';
-import { draftMode } from 'next/headers';
 import Breadcrumbs from '@/components/Breadcrumbs';
 import CtaBand from '@/components/CtaBand';
 import Reveal from '@/components/Reveal';
@@ -12,7 +11,7 @@ import PostCard from '@/components/blog/PostCard';
 import RelatedLinks from '@/components/blog/RelatedLinks';
 import { c, mono, shell, eyebrow, h2 } from '@/lib/theme';
 import { postHref } from '@/lib/hrefs';
-import { getPostSlugs, getPostBySlug, getDraftPostBySlug, getRelatedPosts } from '@/lib/content/posts';
+import { getPostSlugs, getPostBySlug, getRelatedPosts } from '@/lib/content/posts';
 import { getServices } from '@/lib/content/services';
 import { getAreasBySlugs } from '@/lib/content/areas';
 import { pageMetadata, ogImageUrl } from '@/lib/seo';
@@ -22,15 +21,9 @@ import { extractHeadings } from '@/lib/content/richtext';
 /**
  * A single blog post (plan.md Phase 13).
  *
- * Published posts are prerendered from `generateStaticParams`. Drafts are
- * never in that list and 404 for the public; an editor previewing from the
- * admin enables Next's Draft Mode (see app/(frontend)/api/preview), which
- * switches this route to a request-time render of the working copy and marks
- * it `noindex`.
- *
- * `dynamicParams` stays true for the Phase 8 reason: with it false, a path
- * revalidated by a Payload hook is no longer in the build-time params list and
- * Next serves a 404 instead of regenerating it.
+ * Every post is prerendered from `generateStaticParams`. `dynamicParams`
+ * stays true so an unknown slug still reaches `redirectOrNotFound`, which
+ * serves a redirect for a renamed post and a 404 otherwise.
  */
 export const dynamicParams = true;
 
@@ -39,15 +32,9 @@ export async function generateStaticParams() {
   return slugs.map((slug) => ({ slug }));
 }
 
-/** The published post, or the working copy when Draft Mode is on. */
+/** The published post. Drafts are reviewed as files before they are published. */
 async function loadPost(slug) {
-  const { isEnabled } = await draftMode();
-  if (isEnabled) {
-    const draft = await getDraftPostBySlug(slug);
-    if (draft) return { post: draft, isDraft: true };
-  }
-  const post = await getPostBySlug(slug);
-  return { post, isDraft: false };
+  return { post: await getPostBySlug(slug), isDraft: false };
 }
 
 export async function generateMetadata({ params }) {

@@ -1,6 +1,6 @@
 # Next three article briefs — article date 2026-10-16
 
-These are the first **repository posts**. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). They go live on the next successful deployment. Each promotes a mapped SUPPORT row in `keywords.md` to an article URL; the service pages keep the transactional terms.
+These were the first **repository posts**; since the 2026-10-16 migration every post is one. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes a mapped SUPPORT row in `keywords.md` to an article URL; the service pages keep the transactional terms.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |
 |---|---|---|---|---|---|---|---|
@@ -14,12 +14,8 @@ All six slots reuse existing Vercel Blob assets by URL, with no upload, generati
 
 ## Inbound links
 
-- **Live with the deployment:** dining table ↔ armchair, since both are repository posts.
-- **Pending CMS sync (added to the Markdown only):**
-  - washing-machine-removal → dryer
-  - dispose-old-furniture → dining table and armchair
+- dining table ↔ armchair
+- washing-machine-removal → dryer
+- dispose-old-furniture → dining table and armchair
 
-## Open items
-
-- The build still reads services, areas and settings from Neon. The first deployment of these posts needs the database reachable again: either the network-transfer allowance resets or the project moves to a new database.
-- Push the transfer fix (`43e45af`) with or before these posts.
+All of these went live with the move to repository posts on 2026-10-16.
