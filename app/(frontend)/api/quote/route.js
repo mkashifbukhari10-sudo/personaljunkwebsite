@@ -46,12 +46,38 @@ const FIELDS = [
   ['Items', 'items']
 ];
 
+/** The form shrinks photos before sending; this caps what reaches Resend. */
+const MAX_PHOTO_BYTES = 4 * 1024 * 1024;
+
+/**
+ * The form sends multipart data (fields plus an optional `photo`); plain JSON
+ * without a photo is still accepted. Returns the fields and the photo, if any.
+ */
+async function readRequest(request) {
+  const type = request.headers.get('content-type') || '';
+  if (type.startsWith('multipart/form-data')) {
+    const form = await request.formData();
+    const body = {};
+    for (const key of ['name', 'phone', 'area', 'items', 'time', 'company']) {
+      const value = form.get(key);
+      if (typeof value === 'string') body[key] = value;
+    }
+    const photo = form.get('photo');
+    return { body, photo: photo && typeof photo === 'object' && photo.size > 0 ? photo : null };
+  }
+  return { body: await request.json(), photo: null };
+}
+
 export async function POST(request) {
   let body;
+  let photo;
   try {
-    body = await request.json();
+    ({ body, photo } = await readRequest(request));
   } catch {
-    return json({ error: 'Expected a JSON body.' }, 400);
+    return json({ error: 'Expected form data or a JSON body.' }, 400);
+  }
+  if (photo && (!String(photo.type).startsWith('image/') || photo.size > MAX_PHOTO_BYTES)) {
+    return json({ error: 'The photo must be an image under 4 MB.' }, 400);
   }
 
   // Honeypot: a filled "company" field means a bot. Pretend it worked.
@@ -94,10 +120,20 @@ export async function POST(request) {
         from,
         to,
         subject: 'Pickup request: ' + data.name + (data.area ? ' (' + data.area + ')' : ''),
-        text,
-        html
+        text: text + (photo ? '\n\nPhoto attached.' : ''),
+        html: html + (photo ? '<p style="color:#555">Photo attached.</p>' : ''),
+        ...(photo
+          ? {
+              attachments: [
+                {
+                  filename: String(photo.name || 'photo.jpg').replace(/[^\w.-]+/g, '_').slice(0, 100) || 'photo.jpg',
+                  content: Buffer.from(await photo.arrayBuffer()).toString('base64')
+                }
+              ]
+            }
+          : {})
       }),
-      signal: AbortSignal.timeout(10000)
+      signal: AbortSignal.timeout(15000)
     });
     if (!res.ok) throw new Error('Resend HTTP ' + res.status + ': ' + (await res.text()).slice(0, 300));
     const sent = await res.json();

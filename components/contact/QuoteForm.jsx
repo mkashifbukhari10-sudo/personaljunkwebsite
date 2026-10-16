@@ -1,9 +1,36 @@
 'use client';
 
-import { useId, useState } from 'react';
+import { useId, useRef, useState } from 'react';
 import { c, mono } from '@/lib/theme';
 /** `areaNames` comes from the server page via the content layer. */
 const TIMES = ['Today, as soon as possible', 'Today, afternoon', 'Tomorrow, morning', 'Tomorrow, afternoon', 'This week', 'Weekend'];
+
+/** Vercel caps a request body at 4.5 MB; stay well under it. */
+const MAX_PHOTO_BYTES = 4 * 1024 * 1024;
+const PHOTO_EDGE = 1600;
+
+/**
+ * Phone photos are often several megabytes. Redraw the photo at most 1600px on
+ * its long edge as a JPEG, which is plenty to price a job from and usually a
+ * few hundred kilobytes. If the browser cannot decode the file (some HEIC
+ * photos outside Safari), send the original instead.
+ */
+async function shrinkPhoto(file) {
+  try {
+    const bitmap = await createImageBitmap(file);
+    const scale = Math.min(1, PHOTO_EDGE / Math.max(bitmap.width, bitmap.height));
+    const canvas = document.createElement('canvas');
+    canvas.width = Math.round(bitmap.width * scale);
+    canvas.height = Math.round(bitmap.height * scale);
+    canvas.getContext('2d').drawImage(bitmap, 0, 0, canvas.width, canvas.height);
+    bitmap.close();
+    const blob = await new Promise((resolve) => canvas.toBlob(resolve, 'image/jpeg', 0.82));
+    if (!blob) return file;
+    return new File([blob], file.name.replace(/\.[^.]*$/, '') + '.jpg', { type: 'image/jpeg' });
+  } catch {
+    return file;
+  }
+}
 
 const fieldLabel = { fontFamily: mono, fontSize: 10, letterSpacing: '0.16em', textTransform: 'uppercase', color: c.body };
 const lineField = { border: 'none', borderBottom: '2px solid rgba(16,23,38,0.2)', background: 'transparent', padding: '12px 2px', fontSize: 17, color: c.ink, minHeight: 44, fontFamily: 'inherit' };
@@ -11,8 +38,10 @@ const lineField = { border: 'none', borderBottom: '2px solid rgba(16,23,38,0.2)'
 /**
  * Quote request panel. Client-only so the page can stay a server component.
  *
- * Submitting posts to /api/quote, which emails the request to the business
- * through Resend, and the customer is thanked in place.
+ * Submitting posts to /api/quote as multipart form data, which emails the
+ * request to the business through Resend with the photo attached, and the
+ * customer is thanked in place. The photo is shrunk in the browser first so it
+ * fits the request size limit.
  *
  * This button used to open WhatsApp with the details prefilled. It no longer
  * does, which means the save is now the only channel behind it, so a failure
@@ -29,6 +58,7 @@ export default function QuoteForm({ areaNames }) {
   const [isError, setIsError] = useState(false);
   const [sending, setSending] = useState(false);
   const noteId = useId();
+  const photoRef = useRef(null);
 
   const set = (key) => (e) => setForm((f) => ({ ...f, [key]: e.target.value }));
 
@@ -44,16 +74,26 @@ export default function QuoteForm({ areaNames }) {
     setSending(true);
     setNote('Sending your request...');
     try {
-      const res = await fetch('/api/quote', {
-        method: 'POST',
-        headers: { 'content-type': 'application/json' },
-        body: JSON.stringify({ ...form, company })
-      });
+      const body = new FormData();
+      for (const [key, value] of Object.entries(form)) body.append(key, value);
+      body.append('company', company);
+      const picked = photoRef.current && photoRef.current.files && photoRef.current.files[0];
+      if (picked) {
+        const photo = await shrinkPhoto(picked);
+        if (photo.size > MAX_PHOTO_BYTES) {
+          setIsError(true);
+          setNote('That photo is too large to send here. Send the request without it and share the photo on WhatsApp.');
+          return;
+        }
+        body.append('photo', photo, photo.name);
+      }
+      const res = await fetch('/api/quote', { method: 'POST', body });
       if (!res.ok) throw new Error('Request failed with status ' + res.status);
       setIsError(false);
       setNote('Thank you. Your pickup request is in, and we will get back to you urgently.');
       // Cleared so a second click cannot resend the same request by accident.
       setForm({ name: '', phone: '', area: '', items: '', time: '' });
+      if (photoRef.current) photoRef.current.value = '';
     } catch {
       setIsError(true);
       setNote('That did not send. Please try again, or reach us on WhatsApp or by phone.');
@@ -104,7 +144,7 @@ export default function QuoteForm({ areaNames }) {
 
         <label style={{ display: 'grid', gap: 8 }}>
           <span style={fieldLabel}>Photo (optional)</span>
-          <input type="file" name="photo" accept="image/*" style={{ fontSize: 14, color: c.body, padding: '10px 0', minHeight: 44 }} />
+          <input ref={photoRef} type="file" name="photo" accept="image/*" style={{ fontSize: 14, color: c.body, padding: '10px 0', minHeight: 44 }} />
         </label>
 
         {/*
