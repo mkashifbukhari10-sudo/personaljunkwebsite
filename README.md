@@ -66,8 +66,9 @@ Setting `NEXT_PUBLIC_SITE_URL` on a **production** deployment is the single swit
 Environment variables (see `.env.example`):
 
 - `NEXT_PUBLIC_SITE_URL` — the canonical origin.
-- `RESEND_API_KEY`, `CONTACT_TO_EMAIL`, `CONTACT_FROM_EMAIL` — contact form delivery. Without them the form shows an
-  error and asks the customer to use WhatsApp or the phone instead. The sender must be on a domain verified in Resend.
+- `RESEND_API_KEY` — contact form delivery through Resend. Without it the form shows an error and asks the
+  customer to use WhatsApp or the phone instead. Requests go to the owner's inbox from Resend's test sender by
+  default. To change that, set `CONTACT_TO_EMAIL`, plus `CONTACT_FROM_EMAIL` on a domain verified in Resend.
 - `NEXT_PUBLIC_PLAUSIBLE_DOMAIN` (optional) — analytics.
 
 The build needs no database or secrets: every page is generated from the repository.

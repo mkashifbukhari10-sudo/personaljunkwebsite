@@ -6,8 +6,11 @@
  * behind the form, so a failure returns an error the form shows to the
  * customer, who can then use the WhatsApp or phone buttons instead.
  *
- * Configuration: RESEND_API_KEY, CONTACT_TO_EMAIL (comma-separated for several
- * inboxes) and CONTACT_FROM_EMAIL (a sender on a domain verified in Resend).
+ * Configuration: RESEND_API_KEY is required. CONTACT_TO_EMAIL (comma-separated
+ * for several inboxes) and CONTACT_FROM_EMAIL are optional and default to the
+ * owner's inbox and Resend's shared test sender. That sender can only deliver
+ * to the Resend account's own address; to send from the business domain or to
+ * other inboxes, verify the domain in Resend and set both variables.
  *
  * Spam: the form carries a honeypot field that real people leave empty, and
  * every value is length-capped below. That stops casual bots, not a determined
@@ -31,6 +34,9 @@ function clean(value, max) {
 
 const escapeHtml = (value) =>
   value.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+const DEFAULT_TO = 'mkashifshah10@gmail.com';
+const DEFAULT_FROM = 'Junk Services Dubai <onboarding@resend.dev>';
 
 const FIELDS = [
   ['Name', 'name'],
@@ -64,10 +70,10 @@ export async function POST(request) {
   }
 
   const apiKey = process.env.RESEND_API_KEY;
-  const to = (process.env.CONTACT_TO_EMAIL || '').split(',').map((s) => s.trim()).filter(Boolean);
-  const from = process.env.CONTACT_FROM_EMAIL;
-  if (!apiKey || !to.length || !from) {
-    console.error('[quote] email delivery is not configured (RESEND_API_KEY, CONTACT_TO_EMAIL, CONTACT_FROM_EMAIL)');
+  const to = (process.env.CONTACT_TO_EMAIL || DEFAULT_TO).split(',').map((s) => s.trim()).filter(Boolean);
+  const from = process.env.CONTACT_FROM_EMAIL || DEFAULT_FROM;
+  if (!apiKey) {
+    console.error('[quote] email delivery is not configured: RESEND_API_KEY is not set');
     return json({ error: 'Could not send the request.' }, 500);
   }
 
