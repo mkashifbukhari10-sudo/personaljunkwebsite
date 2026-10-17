@@ -678,16 +678,16 @@ Owner: `/services/appliance-disposal`.
 | E4 | refrigerator disposal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | Formal variant. |
 | E5 | old fridge pickup dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E6 | how to dispose of a fridge in dubai | Informational | HIGH | BLOG | `/blog/dispose-fridge-dubai` | P1 | **Pillar.** Refrigerant/e-waste rules make this high-anxiety and high-conversion. |
-| E7 | freezer disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
+| E7 | freezer disposal dubai | Commercial | MED | BLOG | `/blog/freezer-disposal-dubai` | P3 | Editorial scope (2026-10-17): food planning, defrosting, meltwater, chest versus upright units and route measurement; `/services/appliance-disposal` keeps the transactional intent. |
 | E8 | appliance removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P1 | |
 | E9 | appliance disposal dubai | Commercial | HIGH | SERVICE | `/services/appliance-disposal` | P1 | Page's own primary. |
 | E10 | old appliance removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E11 | washing machine removal dubai | Commercial | HIGH | BLOG | `/blog/washing-machine-removal-dubai` | P2 | |
 | E12 | washing machine disposal dubai | Commercial | HIGH | SUPPORT | `/blog/washing-machine-removal-dubai` | P2 | |
 | E13 | dryer disposal dubai | Commercial | MED | BLOG | `/blog/dryer-disposal-dubai` | P3 | Editorial scope (2026-10-16): vented, condenser and stacked dryers, emptying water and vent hoses before collection; `/services/appliance-disposal` keeps the transactional intent. |
-| E14 | oven removal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
+| E14 | oven removal dubai | Commercial | MED | BLOG | `/blog/oven-removal-dubai` | P3 | Editorial scope (2026-10-17): built-in versus freestanding, electric versus gas, technician disconnection and cabinet release; `/services/appliance-disposal` keeps the transactional intent. |
 | E15 | cooker disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
-| E16 | dishwasher removal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
+| E16 | dishwasher removal dubai | Commercial | MED | BLOG | `/blog/dishwasher-removal-dubai` | P3 | Editorial scope (2026-10-17): power, water, waste hose, retained water and integrated cabinet fixings; `/services/appliance-disposal` keeps the transactional intent. |
 | E17 | microwave disposal dubai | Commercial | LOW-MED | SUPPORT | `/services/appliance-disposal` | P3 | Small item; usually part of a larger load. |
 | E18 | water heater removal dubai | Commercial | MED | BLOG | `/blog/water-heater-removal-dubai` | P3 | Editorial scope (2026-10-16): landlord ownership, technician disconnection and draining before collection; `/services/appliance-disposal` keeps the transactional intent. |
 | E19 | TV disposal dubai | Commercial | HIGH | BLOG | `/blog/tv-disposal-dubai` | P2 | Item-specific disposal route; appliance service remains the money page. |

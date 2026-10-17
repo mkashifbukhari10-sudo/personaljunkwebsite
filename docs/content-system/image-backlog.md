@@ -375,6 +375,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-18 dryer-disposal-dubai | cover, OG, body | `COMPLETE` — existing assets reused 2026-10-16 (repository post) |
 | #N-19 dining-table-removal-dubai | cover, OG, body | `COMPLETE` — existing assets reused 2026-10-16 (repository post) |
 | #N-20 armchair-removal-dubai | cover, OG, body | `COMPLETE` — existing assets reused 2026-10-16 (repository post) |
+| #N-21 freezer-disposal-dubai | cover, OG, body | `COMPLETE` — existing fridge cover and route asset reused 2026-10-17 (repository post) |
+| #N-22 oven-removal-dubai | cover, OG, body | `COMPLETE` — existing household-load cover and route asset reused 2026-10-17 (repository post) |
+| #N-23 dishwasher-removal-dubai | cover, OG, body | `COMPLETE` — existing laundry-room cover and route asset reused 2026-10-17 (repository post) |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |

@@ -1,12 +1,12 @@
-# Next three article briefs — article date 2026-10-16
+# Next three article briefs — article date 2026-10-17
 
-These were the first **repository posts**; since the 2026-10-16 migration every post is one. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes a mapped SUPPORT row in `keywords.md` to an article URL; the service pages keep the transactional terms.
+These are **repository posts**. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes a mapped SUPPORT row in `keywords.md` to an article URL; the appliance service page keeps the transactional booking terms.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |
 |---|---|---|---|---|---|---|---|
-| N-18 | dryer disposal dubai (E13) | Getting Rid of a Tumble Dryer: Unplug, Empty, Unstack, Collect | `dryer-disposal-dubai` | Check the dryer is yours to remove, empty any water, deal with the vent hose or stacking kit, then send photos of the machine and the route out of the laundry space. | `appliance-disposal` | laundry room (Media 73 asset) | accepted vs excluded (117) |
-| N-19 | dining table removal dubai (C20) | Glass, Stone or Wood? How a Dining Table Leaves the Apartment | `dining-table-removal-dubai` | The top decides the job: wood can be unbolted, glass lifts off a frame and stone needs careful support. Count the chairs, measure the longest piece and pick a route. | `furniture-removal` | old furniture by a doorway (104) | tower route measurement (83) |
-| N-20 | armchair removal dubai (D12) | Wingback, Recliner or Swivel? Getting an Old Armchair Out | `armchair-removal-dubai` | An armchair's arms, back and any recliner mechanism decide how it leaves. Close and unplug it, measure its widest point and choose a route before you book a collection. | `furniture-removal` | worn armchair beside boxes (88) | armchair route options (105) |
+| N-21 | freezer disposal dubai (E7) | Freezer Disposal: Empty, Defrost, Dry, Then Collect | `freezer-disposal-dubai` | Plan the food first, allow time for all the ice to melt, contain the water and show the collector whether the freezer is upright, chest or built in. | `appliance-disposal` | prepared refrigerator (Media 74 asset) | cooling-appliance route (75) |
+| N-22 | oven removal dubai (E14) | Old Oven to Remove? Separate Disconnection From Collection | `oven-removal-dubai` | Built-in, freestanding, electric and gas ovens need different preparation. Confirm ownership, arrange the right disconnection and show the route before collection. | `appliance-disposal` | grouped household load (Media 88 asset) | clear apartment route (81) |
+| N-23 | dishwasher removal dubai (E16) | Dishwasher Removal: Disconnect, Drain and Protect the Kitchen | `dishwasher-removal-dubai` | Identify every connection before the machine moves. Isolate the power and water, control retained drain water, release cabinet fixings and plan the route out. | `appliance-disposal` | utility room (Media 73 asset) | clear apartment route (81) |
 
 ## Images
 
@@ -14,8 +14,8 @@ All six slots reuse existing Vercel Blob assets by URL, with no upload, generati
 
 ## Inbound links
 
-- dining table ↔ armchair
-- washing-machine-removal → dryer
-- dispose-old-furniture → dining table and armchair
+- dispose-fridge → freezer
+- washing-machine-removal → dishwasher
+- oven ↔ dishwasher
 
-All of these went live with the move to repository posts on 2026-10-16.
+All three are dated 2026-10-17 in Dubai time.

@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "dishwasher-removal-dubai",
+    title: "Dishwasher Removal: Disconnect, Drain and Protect the Kitchen",
+    excerpt: "Identify every connection before the machine moves. Isolate the power and water, control retained drain water, release cabinet fixings and plan the route out.",
+    publishedAt: "2026-10-17T05:00:10.000Z",
+    cover: "laundry-room-cover",
+    services: [
+      "appliance-disposal"
+    ],
+    seoTitle: "Dishwasher Removal Dubai: Disconnect, Drain and Collect",
+    seoDescription: "How to remove an old dishwasher in Dubai: confirm ownership, arrange safe disconnection, manage retained water, release cabinet fixings and book collection."
+  },
+  {
+    slug: "oven-removal-dubai",
+    title: "Old Oven to Remove? Separate Disconnection From Collection",
+    excerpt: "Built-in, freestanding, electric and gas ovens need different preparation. Confirm ownership, arrange the right disconnection and show the route before collection.",
+    publishedAt: "2026-10-17T05:00:05.000Z",
+    cover: "before-crew-arrives-cover",
+    services: [
+      "appliance-disposal"
+    ],
+    seoTitle: "Oven Removal Dubai: Built-In, Electric and Gas Cookers",
+    seoDescription: "How to remove an old oven in Dubai: identify built-in, electric or gas connections, arrange safe disconnection, clear the route and choose collection."
+  },
+  {
+    slug: "freezer-disposal-dubai",
+    title: "Freezer Disposal: Empty, Defrost, Dry, Then Collect",
+    excerpt: "Plan the food first, allow time for all the ice to melt, contain the water and show the collector whether the freezer is upright, chest or built in.",
+    publishedAt: "2026-10-17T05:00:00.000Z",
+    cover: "fridge-disposal-cover",
+    services: [
+      "appliance-disposal"
+    ],
+    seoTitle: "Freezer Disposal Dubai: Empty, Defrost and Arrange Collection",
+    seoDescription: "How to dispose of a freezer in Dubai: plan the food, defrost and dry it, check water connections, measure the route and choose a collection option."
+  },
+  {
     slug: "armchair-removal-dubai",
     title: "Wingback, Recliner or Swivel? Getting an Old Armchair Out",
     excerpt: "An armchair's arms, back and any recliner mechanism decide how it leaves. Close and unplug it, measure its widest point and choose a route before you book a collection.",

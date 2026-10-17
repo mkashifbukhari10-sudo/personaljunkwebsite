@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-15:** **61 published articles, all with at least 2,000 stored body words.** The latest three, N-15 to N-17, are guides to carpet disposal, sofa bed removal and water heater removal. They were promoted from mapped rows C23, D10 and E18, and all six image slots reuse existing Media. The batch before them: The latest six are N-9 to N-14. Three cover balcony clearance, children's room clearance and packing-material disposal: the owner's 2026-10-12 drafts, expanded and admitted as H21, H22 and F19. The other three cover bed frame disposal, townhouse clearance and broken furniture disposal, promoted from mapped rows C15, I12 and C9. All twelve image slots reuse existing Media.
+**Current state as at 2026-10-17:** **67 published repository articles, all with at least 2,000 body words.** The latest three, N-21 to N-23, cover freezer disposal, oven removal and dishwasher removal. They promote mapped appliance rows E7, E14 and E16 to distinct preparation guides while the appliance service page retains transactional booking intent. Existing inspected images are reused for all cover and body slots.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**61 published records as of 2026-10-15.**
+**67 published records as of 2026-10-17.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -180,6 +180,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-18 | `dryer-disposal-dubai` | Getting Rid of a Tumble Dryer: Unplug, Empty, Unstack, Collect | dryer disposal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-16 | 2026-10-16 | sourced | `/blog/washing-machine-removal-dubai` | 2307 body words; keywords.md E13. Repository post (content/file-posts.js), dated 2026-10-16 Dubai time; published with the move to repository posts. Bulky-waste statement uses the existing services-directory source. |
 | N-19 | `dining-table-removal-dubai` | Glass, Stone or Wood? How a Dining Table Leaves the Apartment | dining table removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-16 | 2026-10-16 | sourced | `/blog/armchair-removal-dubai` | 2451 body words; keywords.md C20. Repository post, dated 2026-10-16. Also linked from dispose-old-furniture. |
 | N-20 | `armchair-removal-dubai` | Wingback, Recliner or Swivel? Getting an Old Armchair Out | armchair removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-16 | 2026-10-16 | sourced | `/blog/dining-table-removal-dubai` | 2405 body words; keywords.md D12. Repository post, dated 2026-10-16. Also linked from dispose-old-furniture. |
+| N-21 | `freezer-disposal-dubai` | Freezer Disposal: Empty, Defrost, Dry, Then Collect | freezer disposal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-17 | 2026-10-17 | sourced | `/blog/dispose-fridge-dubai` | 2,000+ body words; keywords.md E7. Repository post. Bulky-waste statement reuses the verified services-directory source. |
+| N-22 | `oven-removal-dubai` | Old Oven to Remove? Separate Disconnection From Collection | oven removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-17 | 2026-10-17 | sourced | `/blog/dishwasher-removal-dubai` | 2,000+ body words; keywords.md E14. Technician boundaries are explicit; no claim that the collection crew disconnects gas or hard-wired appliances. |
+| N-23 | `dishwasher-removal-dubai` | Dishwasher Removal: Disconnect, Drain and Protect the Kitchen | dishwasher removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-17 | 2026-10-17 | sourced | `/blog/washing-machine-removal-dubai` | 2,000+ body words; keywords.md E16. Plumbing, electrical and cabinet-release responsibilities remain conditional. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -315,7 +318,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Sixty-one articles are published; each primary keyword has one owner.
+Sixty-seven articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -380,6 +383,12 @@ Sixty-one articles are published; each primary keyword has one owner.
 | carpet disposal dubai | `/blog/carpet-disposal-dubai` | N-15 | 2026-10-15 |
 | sofa bed removal dubai | `/blog/sofa-bed-removal-dubai` | N-16 | 2026-10-15 |
 | water heater removal dubai | `/blog/water-heater-removal-dubai` | N-17 | 2026-10-15 |
+| dryer disposal dubai | `/blog/dryer-disposal-dubai` | N-18 | 2026-10-16 |
+| dining table removal dubai | `/blog/dining-table-removal-dubai` | N-19 | 2026-10-16 |
+| armchair removal dubai | `/blog/armchair-removal-dubai` | N-20 | 2026-10-16 |
+| freezer disposal dubai | `/blog/freezer-disposal-dubai` | N-21 | 2026-10-17 |
+| oven removal dubai | `/blog/oven-removal-dubai` | N-22 | 2026-10-17 |
+| dishwasher removal dubai | `/blog/dishwasher-removal-dubai` | N-23 | 2026-10-17 |
 
 ### 5.3 · Reserved by the queue
 
@@ -467,6 +476,12 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-15 `carpet-disposal-dubai` | `/blog/storage-room-clearance-dubai` | article | “carpet disposal guide” | ☑ applied |
 | #N-16 `sofa-bed-removal-dubai` | `/blog/sofa-wont-fit-through-door-dubai` | article | “sofa bed removal guide” | ☑ applied |
 | #N-17 `water-heater-removal-dubai` | `/blog/washing-machine-removal-dubai` | article | “water heater removal guide” | ☑ applied |
+| #N-18 `dryer-disposal-dubai` | `/blog/washing-machine-removal-dubai` | article | “dryer disposal guide” | ☑ applied |
+| #N-19 `dining-table-removal-dubai` | `/blog/armchair-removal-dubai` · `/blog/dispose-old-furniture-dubai` | article | “dining table guide” | ☑ applied |
+| #N-20 `armchair-removal-dubai` | `/blog/dining-table-removal-dubai` · `/blog/dispose-old-furniture-dubai` | article | “armchair guide” | ☑ applied |
+| #N-21 `freezer-disposal-dubai` | `/blog/dispose-fridge-dubai` | article | “freezer disposal guide” | ☑ applied |
+| #N-22 `oven-removal-dubai` | `/blog/dishwasher-removal-dubai` | article | “oven removal guide” | ☑ applied |
+| #N-23 `dishwasher-removal-dubai` | `/blog/washing-machine-removal-dubai` · `/blog/oven-removal-dubai` | article | “dishwasher removal guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -705,6 +720,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-17 | Added N-21 to N-23 as repository posts: freezer disposal, oven removal and dishwasher removal. Promoted mapped rows E7, E14 and E16 to article URLs with narrow preparation scopes, reused existing inspected imagery and added contextual inbound links from the fridge and washing-machine guides plus cross-links between the new kitchen-appliance guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-16 | Moved the whole site off Payload CMS and Postgres. All 64 articles are now repository posts in content/file-posts.js plus their Markdown bodies. The 61 previously published articles kept their exact live titles, excerpts, dates, SEO and social fields, covers and services, scraped from the live pages and checked against them. Their Markdown matched the live text except for the pending inbound links and the owner's 2026-10-13 fridge edit, both of which are now part of the posts. Services, areas, FAQs, settings and photography also moved to content/. A full build with no database was compared page by page with the live site: every service, area and static page was identical, and blog differences came only from the three new posts. | Neon free-plan transfer limit exhausted; owner chose a code-only site with the contact form on Resend. |
 | 2026-10-16 | Added N-18 to N-20 (dryer disposal, dining table removal and armchair removal) as the first repository posts. They live in content/file-posts.js plus Markdown, with no database writes, because the Neon free-plan network-transfer allowance is exhausted and new articles are now published from the code. State stays REVIEW until a deployment succeeds. Inbound links from washing-machine-removal and dispose-old-furniture were added to their Markdown, pending CMS sync. | Owner asked for daily articles published from the website code instead of the admin. |
 | 2026-10-16 | Set the article dates to three per day in Dubai time: N-9 to N-11 on 2026-10-13, N-12 to N-14 on 2026-10-14, N-15 to N-17 on 2026-10-15. N-15 to N-17 had been recorded as 2026-10-16 but were actually published at 23:36 Dubai time on 2026-10-15. The CMS publishedAt and updatedAt were set together so no "updated" label appears. | Owner requested three articles per date. |
