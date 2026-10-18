@@ -16,7 +16,7 @@ Heavy removal should normally happen before the final clean because movement can
 
 ## Build a complete villa inventory
 
-Walk the property systematically and photograph each area. Include bedrooms, bathrooms, living rooms, kitchen, utility room, maid’s room, study, stairs and landings. Then check balconies, roof access where permitted, garage, driveway, garden, side passages, sheds, under-stair cupboards and external storage.
+Walk the property systematically and photograph each area. Include bedrooms, bathrooms, living rooms, kitchen, utility room, maid’s room, study, stairs and landings. Treat an occupied or recently vacated maid’s room as a private inventory zone: the [maid’s-room clearance guide](/blog/maids-room-clearance-dubai) covers consent, personal property, landlord items and connected appliances. Then check balconies, roof access where permitted, garage, driveway, garden, side passages, sheds, under-stair cupboards and external storage.
 
 Use three clear decisions: remains, leaves, or needs owner confirmation. Avoid an ambiguous “maybe” pile on collection day. Label or separate items that stay so the attending team does not have to infer ownership.
 

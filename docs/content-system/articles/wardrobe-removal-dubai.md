@@ -6,7 +6,7 @@ Start with its construction. A solid freestanding wardrobe may tolerate movement
 
 Open the doors and inspect the inside. Look for visible screws, cam fittings, brackets, rails and separate top or base sections. Check whether the back is thin board fixed with nails or staples. Photograph the joints before taking anything apart. If the wardrobe will be reused, those pictures help with reassembly. If it is being disposed of, they still show where panels may separate safely.
 
-Do not assume dismantling is always easier. A well-made cabinet can become a collection of large, awkward panels with exposed fasteners. Conversely, forcing a tall wardrobe through a narrow turn can damage both the item and the doorway. Measure first, then choose the smallest amount of dismantling that creates a controlled route.
+Do not assume dismantling is always easier. A well-made cabinet can become a collection of large, awkward panels with exposed fasteners. Conversely, forcing a tall wardrobe through a narrow turn can damage both the item and the doorway. Measure first, then choose the smallest amount of dismantling that creates a controlled route. The broader [furniture dismantling guide](/blog/furniture-dismantling-dubai) explains how destination, construction and the largest resulting part should decide the method.
 
 ## Empty and inspect every compartment
 

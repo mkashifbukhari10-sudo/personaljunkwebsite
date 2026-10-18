@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "shop-clearance-dubai",
+    title: "Closing or Refitting a Shop? Plan the Clearance by Asset and Access",
+    excerpt: "Separate stock, landlord fixtures, business assets, electronics and approved disposal before the last trading day, then align the work with the building's access window.",
+    publishedAt: "2026-10-18T05:00:10.000Z",
+    cover: "office-stripout-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "Shop Clearance Dubai: Stock, Fixtures and Access Plan",
+    seoDescription: "Plan a Dubai shop clearance by separating stock, assets, data-bearing equipment and fixed fit-out, then confirming mall access, loading and handover timing."
+  },
+  {
+    slug: "maids-room-clearance-dubai",
+    title: "Clearing a Maid's Room: Consent, Ownership and a Complete Inventory",
+    excerpt: "Protect personal belongings first, confirm what belongs to the occupant or property, inventory furniture and appliances, and include the room in the wider clearance plan.",
+    publishedAt: "2026-10-18T05:00:05.000Z",
+    cover: "villa-handover-cover",
+    services: [
+      "villa-clearance"
+    ],
+    seoTitle: "Maid's Room Clearance Dubai: Ownership and Inventory Guide",
+    seoDescription: "Plan a maid's-room clearance in Dubai with consent, ownership checks, a complete inventory, furniture and appliance preparation, access and handover timing."
+  },
+  {
+    slug: "furniture-dismantling-dubai",
+    title: "Should You Dismantle Furniture Before Collection?",
+    excerpt: "Inspect the construction, measure the largest parts and agree who dismantles before removing screws. Disposal and reuse need different preparation.",
+    publishedAt: "2026-10-18T05:00:00.000Z",
+    cover: "flatpack-furniture-cover",
+    services: [
+      "furniture-removal"
+    ],
+    seoTitle: "Furniture Dismantling Dubai: What to Check Before Collection",
+    seoDescription: "When to dismantle furniture before collection in Dubai: check ownership, construction, damage, route dimensions, loose parts and the provider's scope."
+  },
+  {
     slug: "dishwasher-removal-dubai",
     title: "Dishwasher Removal: Disconnect, Drain and Protect the Kitchen",
     excerpt: "Identify every connection before the machine moves. Isolate the power and water, control retained drain water, release cabinet fixings and plan the route out.",

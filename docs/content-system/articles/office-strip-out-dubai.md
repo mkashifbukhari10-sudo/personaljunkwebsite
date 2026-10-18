@@ -4,7 +4,7 @@ When the job centres on desks, chairs and cabinets, use the [office furniture re
 
 ## Define what “strip-out” means for this floor
 
-The term can describe very different jobs. One tenant may be removing loose furniture and storage before a lease handover. Another may need partitions, flooring, counters or fitted joinery removed after specialist disconnection. Write a room-by-room schedule instead of relying on the phrase alone.
+The term can describe very different jobs. One tenant may be removing loose furniture and storage before a lease handover. Another may need partitions, flooring, counters or fitted joinery removed after specialist disconnection. Write a room-by-room schedule instead of relying on the phrase alone. A retail unit also needs stock and trading decisions; the [shop clearance guide](/blog/shop-clearance-dubai) separates saleable goods, leased assets, customer data and loose contents before strip-out begins.
 
 Separate loose contents, reusable assets, confidential material, fixed fixtures and building-owned elements. Mark anything that stays. Confirm who owns meeting-room screens, access-control equipment, data cabinets, blinds, kitchen appliances and reception features. A removal crew should not be asked to make ownership decisions after work begins.
 

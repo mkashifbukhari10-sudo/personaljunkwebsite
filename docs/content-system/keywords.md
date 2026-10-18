@@ -624,7 +624,7 @@ Owner: `/services/furniture-removal`.
 | C7 | furniture collection dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
 | C8 | unwanted furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
 | C9 | broken furniture disposal dubai | Commercial | HIGH | BLOG | `/blog/broken-furniture-disposal-dubai` | P2 | Useful: excludes donation, so intent is clearly paid removal. Editorial scope (2026-10-15): recognise damage that rules out reuse, make the piece safe to handle and describe it for a quote; general route comparison stays with C4. `/services/furniture-removal` keeps the transactional intent. |
-| C10 | furniture dismantling dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | Core differentiator vs free routes. |
+| C10 | furniture dismantling dubai | Commercial | HIGH | BLOG | `/blog/furniture-dismantling-dubai` | P2 | Editorial scope (2026-10-18): decide whether dismantling is required from construction, condition, destination and the largest resulting part; `/services/furniture-removal` keeps the transactional booking intent. |
 | C11 | bedroom furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P3 | |
 | C12 | wardrobe removal dubai | Commercial | HIGH | BLOG | `/blog/wardrobe-removal-dubai` | P2 | "Won't fit through the door" angle. |
 | C13 | wardrobe disposal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
@@ -806,7 +806,7 @@ Owner: `/services/villa-clearance`.
 | I5 | villa clearance services dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | |
 | I6 | large villa clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Hypothesised highest ticket values; unmeasured. |
 | I7 | villa handover clearance dubai | Commercial | HIGH | BLOG | `/blog/villa-handover-clearance-dubai` | P1 | |
-| I8 | maid room clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P2 | Distinctly UAE. |
+| I8 | maid room clearance dubai | Commercial | MED | BLOG | `/blog/maids-room-clearance-dubai` | P2 | Editorial scope (2026-10-18): consent, personal-property ownership, landlord fixtures and a room-level inventory within a wider property clearance; `/services/villa-clearance` keeps the transactional intent. |
 | I9 | majlis clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | Distinctly UAE; low volume, high relevance. `UNVERIFIED`. |
 | I10 | garage clearance dubai | Commercial | MED | BLOG | `/blog/garage-clearance-dubai` | P2 | Editorial scope: sort mixed garage contents, identify excluded materials and plan the carrying route. `/services/villa-clearance` keeps the service head term. Commissioned 2026-10-09. |
 | I11 | villa storage clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | |
@@ -851,7 +851,7 @@ Owner: `/services/commercial-junk-removal`.
 | K6 | office desk removal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K7 | office strip out clearance dubai | Commercial | HIGH | BLOG | `/blog/office-strip-out-dubai` | P2 | High-value contractor audience. |
 | K8 | office relocation junk removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Removal only — **not** relocation (excluded). |
-| K9 | shop clearance dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | |
+| K9 | shop clearance dubai | Commercial | HIGH | BLOG | `/blog/shop-clearance-dubai` | P2 | Editorial scope (2026-10-18): stock and asset control, loose contents versus fit-out, data-bearing equipment and retail-property access; `/services/commercial-junk-removal` keeps the transactional intent. |
 | K10 | retail fit out waste removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K11 | warehouse clearance dubai | Commercial | HIGH | BLOG | `/blog/warehouse-clearance-dubai` | P2 | Strong in Al Quoz / DIP. |
 | K12 | warehouse junk removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | |
@@ -1348,6 +1348,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling (2026-10-15):** C9, C15 and I12 now have article URLs on the same basis as H15, I10 and G18. Each answers a preparation problem that its service page does not: damage and safe handling for C9, frame, base and storage-bed dismantling for C15, and stairs and floor-by-floor sequencing for I12. Their service pages keep the transactional terms, and C14 `bed removal dubai` stays SUPPORT on `/services/furniture-removal`. H21, H22 and F19 were admitted at the owner's request from drafts already in the repository. They come from no Search Console evidence and carry `UNVERIFIED SEARCH-DEMAND ASSUMPTION` labels. Each passes admission tests 2–6: it is Dubai-only, it has removal intent, it has one destination, it does not collide with an existing page, and its scope is distinct. Review all six at Day 30 and Day 60 for competition with their money pages.
 
 **Ownership ruling (2026-10-16):** C23, D10 and E18 now have article URLs on the same basis as the earlier single-item guides (mattress, wardrobe, TV, bed frame). Each covers preparation that its service page does not: ownership and fitted-carpet lifting for C23, securing the folding mechanism for D10, and disconnection and draining for E18. Their service pages keep the transactional terms. As with the other item guides, `sofa bed` and `water heater` also appear as item words in the service-cluster Secondary column. The articles target the research-stage preparation question; the service page keeps the booking query. Review at Day 30 and Day 60 for competition with the money pages.
+
+**Ownership ruling (2026-10-18):** C10, I8 and K9 now have article URLs with deliberately narrow planning scopes. C10 answers whether and how an item should be dismantled before collection; I8 protects consent and ownership decisions inside one private room; K9 separates retail stock, assets and fit-out before a commercial handback. The furniture, villa-clearance and commercial service pages retain their broad transactional terms. These promotions are qualitative editorial tests without Search Console or Keyword Planner demand evidence; review them at Day 30 and Day 60 and consolidate if either page competes with its money page.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 

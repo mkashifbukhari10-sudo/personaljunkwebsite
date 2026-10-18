@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-17:** **67 published repository articles, all with at least 2,000 body words.** The latest three, N-21 to N-23, cover freezer disposal, oven removal and dishwasher removal. They promote mapped appliance rows E7, E14 and E16 to distinct preparation guides while the appliance service page retains transactional booking intent. Existing inspected images are reused for all cover and body slots.
+**Current state as at 2026-10-18:** **70 published repository articles, all with at least 2,000 body words.** The latest three, N-24 to N-26, cover furniture dismantling, maid's-room clearance and shop clearance. They promote mapped rows C10, I8 and K9 to distinct planning guides while the furniture, villa-clearance and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
 
 ---
 
@@ -183,6 +183,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-21 | `freezer-disposal-dubai` | Freezer Disposal: Empty, Defrost, Dry, Then Collect | freezer disposal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-17 | 2026-10-17 | sourced | `/blog/dispose-fridge-dubai` | 2,000+ body words; keywords.md E7. Repository post. Bulky-waste statement reuses the verified services-directory source. |
 | N-22 | `oven-removal-dubai` | Old Oven to Remove? Separate Disconnection From Collection | oven removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-17 | 2026-10-17 | sourced | `/blog/dishwasher-removal-dubai` | 2,000+ body words; keywords.md E14. Technician boundaries are explicit; no claim that the collection crew disconnects gas or hard-wired appliances. |
 | N-23 | `dishwasher-removal-dubai` | Dishwasher Removal: Disconnect, Drain and Protect the Kitchen | dishwasher removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-17 | 2026-10-17 | sourced | `/blog/washing-machine-removal-dubai` | 2,000+ body words; keywords.md E16. Plumbing, electrical and cabinet-release responsibilities remain conditional. |
+| N-24 | `furniture-dismantling-dubai` | Should You Dismantle Furniture Before Collection? | furniture dismantling dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-18 | 2026-10-18 | none | `/blog/wardrobe-removal-dubai` | 2396 body words; keywords.md C10 promoted to BLOG. Repository post. Reused flat-pack cover and wardrobe dismantling body illustration. Scope is preparation and controlled separation; the service page retains the transactional term. |
+| N-25 | `maids-room-clearance-dubai` | Clearing a Maid's Room: Consent, Ownership and a Complete Inventory | maid room clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-18 | 2026-10-18 | sourced | `/blog/villa-handover-clearance-dubai` | 2308 body words; keywords.md I8 promoted to BLOG. Repository post. Consent and personal-property boundaries are explicit; the bulky-waste statement reuses the verified services-directory source. |
+| N-26 | `shop-clearance-dubai` | Closing or Refitting a Shop? Plan the Clearance by Asset and Access | shop clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-18 | 2026-10-18 | none | `/blog/office-strip-out-dubai` | 2396 body words; keywords.md K9 promoted to BLOG. Repository post. Retail stock, data and fitted-work boundaries are conditional; no disposal outcome or out-of-hours availability invented. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -389,6 +392,9 @@ Sixty-seven articles are published; each primary keyword has one owner.
 | freezer disposal dubai | `/blog/freezer-disposal-dubai` | N-21 | 2026-10-17 |
 | oven removal dubai | `/blog/oven-removal-dubai` | N-22 | 2026-10-17 |
 | dishwasher removal dubai | `/blog/dishwasher-removal-dubai` | N-23 | 2026-10-17 |
+| furniture dismantling dubai | `/blog/furniture-dismantling-dubai` | N-24 | 2026-10-18 |
+| maid room clearance dubai | `/blog/maids-room-clearance-dubai` | N-25 | 2026-10-18 |
+| shop clearance dubai | `/blog/shop-clearance-dubai` | N-26 | 2026-10-18 |
 
 ### 5.3 · Reserved by the queue
 
@@ -482,6 +488,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-21 `freezer-disposal-dubai` | `/blog/dispose-fridge-dubai` | article | “freezer disposal guide” | ☑ applied |
 | #N-22 `oven-removal-dubai` | `/blog/dishwasher-removal-dubai` | article | “oven removal guide” | ☑ applied |
 | #N-23 `dishwasher-removal-dubai` | `/blog/washing-machine-removal-dubai` · `/blog/oven-removal-dubai` | article | “dishwasher removal guide” | ☑ applied |
+| #N-24 `furniture-dismantling-dubai` | `/blog/wardrobe-removal-dubai` | article | “furniture dismantling guide” | ☑ applied |
+| #N-25 `maids-room-clearance-dubai` | `/blog/villa-handover-clearance-dubai` | article | “maid's-room clearance guide” | ☑ applied |
+| #N-26 `shop-clearance-dubai` | `/blog/office-strip-out-dubai` | article | “shop clearance guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -720,6 +729,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-18 | Added N-24 to N-26 as repository posts: furniture dismantling, maid's-room clearance and shop clearance. Promoted mapped rows C10, I8 and K9 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the wardrobe, villa-handover and office-strip-out guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-17 | Added N-21 to N-23 as repository posts: freezer disposal, oven removal and dishwasher removal. Promoted mapped rows E7, E14 and E16 to article URLs with narrow preparation scopes, reused existing inspected imagery and added contextual inbound links from the fridge and washing-machine guides plus cross-links between the new kitchen-appliance guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-16 | Moved the whole site off Payload CMS and Postgres. All 64 articles are now repository posts in content/file-posts.js plus their Markdown bodies. The 61 previously published articles kept their exact live titles, excerpts, dates, SEO and social fields, covers and services, scraped from the live pages and checked against them. Their Markdown matched the live text except for the pending inbound links and the owner's 2026-10-13 fridge edit, both of which are now part of the posts. Services, areas, FAQs, settings and photography also moved to content/. A full build with no database was compared page by page with the live site: every service, area and static page was identical, and blog differences came only from the three new posts. | Neon free-plan transfer limit exhausted; owner chose a code-only site with the contact form on Resend. |
 | 2026-10-16 | Added N-18 to N-20 (dryer disposal, dining table removal and armchair removal) as the first repository posts. They live in content/file-posts.js plus Markdown, with no database writes, because the Neon free-plan network-transfer allowance is exhausted and new articles are now published from the code. State stays REVIEW until a deployment succeeds. Inbound links from washing-machine-removal and dispose-old-furniture were added to their Markdown, pending CMS sync. | Owner asked for daily articles published from the website code instead of the admin. |
