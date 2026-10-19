@@ -756,7 +756,7 @@ Owner: `/services/garden-waste-removal`.
 | G16 | plant pot disposal dubai | Commercial | LOW-MED | SUPPORT | `/blog/soil-sand-pots-disposal-dubai` | P3 | |
 | G17 | outdoor furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P2 | Sun-damaged outdoor sets are rarely donatable. |
 | G18 | garden furniture disposal dubai | Commercial | HIGH | BLOG | `/blog/garden-furniture-disposal-dubai` | P2 | Editorial scope: assess a weathered outdoor set, separate furniture from green waste, and plan a mixed patio collection. `/services/garden-waste-removal` keeps the service head term. Commissioned 2026-10-09. |
-| G19 | landscaping waste removal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P2 | **B2B angle** — landscapers are repeat buyers. |
+| G19 | landscaping waste removal dubai | Commercial | HIGH | BLOG | `/blog/landscaping-waste-removal-dubai` | P2 | Editorial scope (2026-10-19): separate the finished landscaping load by material, define cutting versus collection, control dense and excluded material, and plan the garden-to-vehicle route. `/services/garden-waste-removal` keeps the transactional booking term. |
 | G20 | villa garden waste removal dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P1 | Bridges to villa clearance. |
 | G21 | garden waste dubai bins | Informational | MED | BLOG | `/blog/garden-waste-bins-dubai` | P2 | "What the bins won't take" — clean problem→service path. |
 
@@ -807,7 +807,7 @@ Owner: `/services/villa-clearance`.
 | I6 | large villa clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Hypothesised highest ticket values; unmeasured. |
 | I7 | villa handover clearance dubai | Commercial | HIGH | BLOG | `/blog/villa-handover-clearance-dubai` | P1 | |
 | I8 | maid room clearance dubai | Commercial | MED | BLOG | `/blog/maids-room-clearance-dubai` | P2 | Editorial scope (2026-10-18): consent, personal-property ownership, landlord fixtures and a room-level inventory within a wider property clearance; `/services/villa-clearance` keeps the transactional intent. |
-| I9 | majlis clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | Distinctly UAE; low volume, high relevance. `UNVERIFIED`. |
+| I9 | majlis clearance dubai | Commercial | MED | BLOG | `/blog/majlis-clearance-dubai` | P3 | Editorial scope (2026-10-19): ownership, significant personal items, room inventory, long seating, rugs, heavy tables and fitted-versus-loose boundaries. `/services/villa-clearance` keeps the transactional booking term. Demand remains `UNVERIFIED`. |
 | I10 | garage clearance dubai | Commercial | MED | BLOG | `/blog/garage-clearance-dubai` | P2 | Editorial scope: sort mixed garage contents, identify excluded materials and plan the carrying route. `/services/villa-clearance` keeps the service head term. Commissioned 2026-10-09. |
 | I11 | villa storage clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | |
 | I12 | townhouse clearance dubai | Commercial | MED | BLOG | `/blog/townhouse-clearance-dubai` | P2 | Property type sits with villa, not apartment. Editorial scope (2026-10-15): stairs, floor-by-floor sequencing and compact-plot staging; `/services/villa-clearance` keeps the transactional intent. |
@@ -855,7 +855,7 @@ Owner: `/services/commercial-junk-removal`.
 | K10 | retail fit out waste removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K11 | warehouse clearance dubai | Commercial | HIGH | BLOG | `/blog/warehouse-clearance-dubai` | P2 | Strong in Al Quoz / DIP. |
 | K12 | warehouse junk removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | |
-| K13 | restaurant equipment removal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P3 | High-churn sector. |
+| K13 | restaurant equipment removal dubai | Commercial | MED | BLOG | `/blog/restaurant-equipment-removal-dubai` | P3 | Editorial scope (2026-10-19): asset ownership, food and residue removal, utility disconnection, refrigeration and loading-route coordination. `/services/commercial-junk-removal` keeps the transactional booking term. |
 | K14 | commercial waste collection dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Check licensing claims. |
 | K15 | business junk removal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K16 | recurring waste collection dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | Recurring contracts. |
@@ -1350,6 +1350,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling (2026-10-16):** C23, D10 and E18 now have article URLs on the same basis as the earlier single-item guides (mattress, wardrobe, TV, bed frame). Each covers preparation that its service page does not: ownership and fitted-carpet lifting for C23, securing the folding mechanism for D10, and disconnection and draining for E18. Their service pages keep the transactional terms. As with the other item guides, `sofa bed` and `water heater` also appear as item words in the service-cluster Secondary column. The articles target the research-stage preparation question; the service page keeps the booking query. Review at Day 30 and Day 60 for competition with the money pages.
 
 **Ownership ruling (2026-10-18):** C10, I8 and K9 now have article URLs with deliberately narrow planning scopes. C10 answers whether and how an item should be dismantled before collection; I8 protects consent and ownership decisions inside one private room; K9 separates retail stock, assets and fit-out before a commercial handback. The furniture, villa-clearance and commercial service pages retain their broad transactional terms. These promotions are qualitative editorial tests without Search Console or Keyword Planner demand evidence; review them at Day 30 and Day 60 and consolidate if either page competes with its money page.
+
+**Ownership ruling (2026-10-19):** G19, I9 and K13 now have narrow planning articles. G19 owns the landscaper-to-collector handoff and material separation after garden work; I9 owns consent, significant belongings and item-level route planning inside a majlis; K13 owns restaurant asset control, technical disconnection boundaries, residues and loading coordination. Their garden-waste, villa-clearance and commercial service pages retain the broad transactional terms. No Day 30 Search Console export or Keyword Planner evidence was available in the repository, so these remain qualitative editorial tests and must be consolidated if the article and money page compete.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 

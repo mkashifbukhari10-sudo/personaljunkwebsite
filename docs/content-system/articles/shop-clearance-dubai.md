@@ -99,7 +99,7 @@ Small batteries, lamps and electrical components should remain identifiable. Hid
 
 Retail refrigerators, freezers, ice machines, coffee equipment and display cases may be connected to power, water, drainage or remote systems. Record the make, approximate dimensions, connection type and whether the unit is leased. Empty all product before preparation.
 
-Arrange appropriate technical disconnection and make the property-side connection safe. Do not cut cables, hoses or refrigeration lines. Commercial equipment is not automatically within a standard household-appliance collection, so ask for a specific assessment.
+Arrange appropriate technical disconnection and make the property-side connection safe. Do not cut cables, hoses or refrigeration lines. Commercial equipment is not automatically within a standard household-appliance collection, so ask for a specific assessment. Food-service premises should follow the [restaurant-equipment removal guide](/blog/restaurant-equipment-removal-dubai) for stock, residues, utility disconnection, refrigeration and loading-route decisions.
 
 If a small standalone unit is approved for collection, follow its manufacturer’s preparation guidance. Defrost and dry cooling equipment where applicable, and disclose leaks, damaged cables or unknown residue. Confirm whether doors, shelves or glass panels need separate protection.
 

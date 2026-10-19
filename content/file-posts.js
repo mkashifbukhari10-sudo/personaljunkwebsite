@@ -477,10 +477,47 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "restaurant-equipment-removal-dubai",
+    title: "Restaurant Equipment Removal: Disconnect, Empty and Plan the Loading Route",
+    excerpt: "Settle ownership, food and utility responsibilities before equipment moves, then inventory every appliance and align technical disconnection with the loading window.",
+    publishedAt: "2026-10-19T05:00:10.000Z",
+    cover: "office-stripout-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "Restaurant Equipment Removal Dubai: A Clearance Plan",
+    seoDescription: "Plan restaurant equipment removal in Dubai: verify ownership, empty stock and liquids, arrange safe disconnection, measure the route and coordinate loading."
+  },
+  {
+    slug: "majlis-clearance-dubai",
+    title: "Majlis Clearance: Protect Personal Items and Plan Every Large Piece",
+    excerpt: "Confirm ownership, protect significant belongings, inventory seating, rugs, tables and electronics, and measure the complete route before the majlis is cleared.",
+    publishedAt: "2026-10-19T05:00:05.000Z",
+    cover: "villa-handover-cover",
+    services: [
+      "villa-clearance"
+    ],
+    seoTitle: "Majlis Clearance Dubai: Inventory, Ownership and Access",
+    seoDescription: "Plan a Dubai majlis clearance by confirming ownership, protecting personal items, inventorying seating and rugs, and measuring the route for large pieces."
+  },
+  {
+    slug: "landscaping-waste-removal-dubai",
+    title: "Landscaping Waste Removal: Sort the Finished Load Before Collection",
+    excerpt: "Separate cut greenery, branches, soil, pots, hardware and chemicals, then count the finished groups and confirm how they travel from the garden to the vehicle.",
+    publishedAt: "2026-10-19T05:00:00.000Z",
+    cover: "garden-furniture-disposal-dubai-cover",
+    services: [
+      "garden-waste-removal"
+    ],
+    seoTitle: "Landscaping Waste Removal Dubai: Sort and Plan the Load",
+    seoDescription: "Plan landscaping waste removal in Dubai by separating branches, greenery, soil, pots and hardware, controlling access and describing the finished load."
+  },
+  {
     slug: "shop-clearance-dubai",
     title: "Closing or Refitting a Shop? Plan the Clearance by Asset and Access",
     excerpt: "Separate stock, landlord fixtures, business assets, electronics and approved disposal before the last trading day, then align the work with the building's access window.",
     publishedAt: "2026-10-18T05:00:10.000Z",
+    updatedAt: "2026-10-19T05:00:20.000Z",
     cover: "office-stripout-cover",
     services: [
       "commercial-junk-removal"
@@ -706,7 +743,7 @@ export const filePosts = [
     title: "Garden Furniture Disposal in Dubai: What to Keep Separate",
     excerpt: "Assess an old outdoor set, separate furniture from garden trimmings and heavy pots, then plan a collection that fits the property and deadline.",
     publishedAt: "2026-10-10T16:40:18.080Z",
-    updatedAt: "2026-10-14T20:56:27.529Z",
+    updatedAt: "2026-10-19T05:00:20.000Z",
     cover: "garden-furniture-disposal-dubai-cover",
     services: [
       "garden-waste-removal"
@@ -1355,7 +1392,7 @@ export const filePosts = [
     title: "Villa Handover: What Has to Be Gone Before Inspection",
     excerpt: "A villa handover needs more than an empty living room. Build a full inventory, settle ownership, clear every storage area and leave time for cleaning and repairs.",
     publishedAt: "2026-09-21T14:14:56.345Z",
-    updatedAt: "2026-09-28T07:09:48.302Z",
+    updatedAt: "2026-10-19T05:00:20.000Z",
     cover: "villa-handover-cover",
     services: [
       "villa-clearance"

@@ -36,7 +36,7 @@ For electrical items such as outdoor lights or a powered fan, remove them from t
 
 ## Time the collection around the rest of the garden work
 
-If a landscaper is cutting back trees and replacing an outdoor set, schedule collection after the final pile is known. A photograph taken before the trimming begins may understate the load. If replacement furniture is arriving first, check whether there is a clear place to receive it without blocking a gate or communal path.
+If a landscaper is cutting back trees and replacing an outdoor set, schedule collection after the final pile is known. A photograph taken before the trimming begins may understate the load. The [landscaping-waste removal guide](/blog/landscaping-waste-removal-dubai) explains how to separate cut greenery, branches, soil, pots and hardware before that mixed garden collection. If replacement furniture is arriving first, check whether there is a clear place to receive it without blocking a gate or communal path.
 
 In a villa, include the garden set when planning a [full villa clearance](/services/villa-clearance). The garden, garage and storage areas can add substantial volume beyond the rooms inside. In a tower, check permitted movement hours before promising a same-day handover of the balcony. Access can control the timetable even when the furniture itself is simple to lift.
 

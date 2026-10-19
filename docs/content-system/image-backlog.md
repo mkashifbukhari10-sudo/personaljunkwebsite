@@ -381,6 +381,9 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-24 furniture-dismantling-dubai | cover, OG, body | `COMPLETE` — existing flat-pack cover and wardrobe dismantling plan reused 2026-10-18 (repository post) |
 | #N-25 maids-room-clearance-dubai | cover, OG, body | `COMPLETE` — existing villa-handover cover and villa grouping plan reused 2026-10-18 (repository post) |
 | #N-26 shop-clearance-dubai | cover, OG, body | `COMPLETE` — existing office strip-out cover and phasing plan reused 2026-10-18 (repository post) |
+| #N-27 landscaping-waste-removal-dubai | cover, OG, body | `COMPLETE` — existing garden-furniture cover and grouping image reused 2026-10-19 (repository post) |
+| #N-28 majlis-clearance-dubai | cover, OG, body | `COMPLETE` — existing villa-handover cover and villa grouping plan reused 2026-10-19 (repository post) |
+| #N-29 restaurant-equipment-removal-dubai | cover, OG, body | `COMPLETE` — existing office strip-out cover and phasing plan reused 2026-10-19 (repository post) |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |

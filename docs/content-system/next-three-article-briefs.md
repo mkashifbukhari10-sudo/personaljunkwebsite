@@ -1,18 +1,18 @@
-# Next three article briefs — article date 2026-10-18
+# Next three article briefs — article date 2026-10-19
 
 These are **repository posts**. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes an existing mapped SUPPORT row in `keywords.md` to a deliberately narrow article URL. The three service pages keep the broad transactional booking terms.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |
 |---|---|---|---|---|---|---|---|
-| N-24 | furniture dismantling dubai (C10) | Should You Dismantle Furniture Before Collection? | `furniture-dismantling-dubai` | Inspect the construction, measure the largest parts and agree who dismantles before removing screws. Disposal and reuse need different preparation. | `furniture-removal` | `flatpack-furniture-cover` | `wardrobe-dismantling-plan` |
-| N-25 | maid room clearance dubai (I8) | Clearing a Maid's Room: Consent, Ownership and a Complete Inventory | `maids-room-clearance-dubai` | Protect personal belongings first, confirm what belongs to the occupant or property, inventory furniture and appliances, and include the room in the wider clearance plan. | `villa-clearance` | `villa-handover-cover` | `villa-clearance-groups` |
-| N-26 | shop clearance dubai (K9) | Closing or Refitting a Shop? Plan the Clearance by Asset and Access | `shop-clearance-dubai` | Separate stock, landlord fixtures, business assets, electronics and approved disposal before the last trading day, then align the work with the building's access window. | `commercial-junk-removal` | `office-stripout-cover` | `office-stripout-phasing-plan` |
+| N-27 | landscaping waste removal dubai (G19) | Landscaping Waste Removal: Sort the Finished Load Before Collection | `landscaping-waste-removal-dubai` | Separate cut greenery, branches, soil, pots, hardware and chemicals, then count the finished groups and confirm how they travel from the garden to the vehicle. | `garden-waste-removal` | `garden-furniture-disposal-dubai-cover` | `article-garden-furniture-disposal-dubai-body` |
+| N-28 | majlis clearance dubai (I9) | Majlis Clearance: Protect Personal Items and Plan Every Large Piece | `majlis-clearance-dubai` | Confirm ownership, protect significant belongings, inventory seating, rugs, tables and electronics, and measure the complete route before the majlis is cleared. | `villa-clearance` | `villa-handover-cover` | `villa-clearance-groups` |
+| N-29 | restaurant equipment removal dubai (K13) | Restaurant Equipment Removal: Disconnect, Empty and Plan the Loading Route | `restaurant-equipment-removal-dubai` | Settle ownership, food and utility responsibilities before equipment moves, then inventory every appliance and align technical disconnection with the loading window. | `commercial-junk-removal` | `office-stripout-cover` | `office-stripout-phasing-plan` |
 
 ## Mapping and cannibalization boundary
 
-- C10 owns the research-stage decision about whether dismantling is necessary, who does it and how to control parts. `/services/furniture-removal` keeps the general furniture-removal transaction.
-- I8 owns consent, personal-property and room-inventory decisions. `/services/villa-clearance` keeps the full-property clearance transaction.
-- K9 owns the retail planning problem: stock and asset control, loose contents versus fit-out, data-bearing equipment and mall or building access. `/services/commercial-junk-removal` keeps the commercial booking term.
+- G19 owns the landscaping handoff: what the landscaper prepares, how material groups remain visible and how the finished load reaches the vehicle. `/services/garden-waste-removal` keeps the general booking transaction.
+- I9 owns consent, significant belongings, the majlis inventory and route decisions for its large furnishings. `/services/villa-clearance` keeps the full-property clearance transaction.
+- K13 owns the restaurant planning problem: asset control, food and residues, technical disconnection boundaries, refrigeration and loading access. `/services/commercial-junk-removal` keeps the commercial booking term.
 - All three are qualitative editorial tests without Search Console or Keyword Planner demand evidence. Review at Day 30 and Day 60 and consolidate if an article competes with its money page.
 
 ## Images
@@ -21,8 +21,8 @@ All six slots reuse existing Vercel Blob assets by URL, with no upload, generati
 
 ## Inbound links
 
-- wardrobe removal → furniture dismantling
-- villa handover clearance → maid's-room clearance
-- office strip-out → shop clearance
+- garden furniture disposal → landscaping-waste removal
+- villa handover clearance → majlis clearance
+- shop clearance → restaurant-equipment removal
 
-All three are dated 2026-10-18 in Dubai time.
+All three are dated 2026-10-19 in Dubai time.

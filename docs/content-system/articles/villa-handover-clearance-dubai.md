@@ -6,7 +6,7 @@ This is practical clearance guidance, not legal advice or an interpretation of y
 
 Ask for the checkout or handover instructions and compare them with the original inventory. Identify landlord furniture, appliances, fixtures, keys, access devices and outdoor items. Mark anything disputed and resolve ownership before it joins the removal pile.
 
-Do not use “empty villa” as an assumed standard. A furnished property may need specified items to remain, while an unfurnished property can still include fixed equipment, curtains, garden features or maintenance items. Translate the written requirement into a room-by-room list.
+Do not use “empty villa” as an assumed standard. A furnished property may need specified items to remain, while an unfurnished property can still include fixed equipment, curtains, garden features or maintenance items. Translate the written requirement into a room-by-room list. If the property includes a formal sitting room, use the [majlis-clearance guide](/blog/majlis-clearance-dubai) to protect personal items and inventory long seating, rugs and heavy tables separately.
 
 ### Separate removal from repairs and cleaning
 

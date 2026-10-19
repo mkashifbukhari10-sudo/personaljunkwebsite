@@ -42,7 +42,11 @@ export async function generateMetadata({ params }) {
     seo: {
       ...index.seo,
       title: index.seo.title + ' — Page ' + page,
+      description: index.seo.description + ' Page ' + page + ' of the article archive.',
       ogTitle: index.seo.ogTitle ? index.seo.ogTitle + ' — Page ' + page : '',
+      ogDescription: index.seo.ogDescription
+        ? index.seo.ogDescription + ' Page ' + page + ' of the article archive.'
+        : '',
       noIndex: index.seo.noIndex || totalPosts === 0
     }
   });
