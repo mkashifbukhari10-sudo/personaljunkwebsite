@@ -747,7 +747,7 @@ Owner: `/services/garden-waste-removal`.
 | G7 | garden clearance dubai | Commercial | HIGH | SUPPORT | `/services/garden-waste-removal` | P1 | See C-9 boundary vs villa clearance. |
 | G8 | palm frond removal dubai | Commercial | HIGH | BLOG | `/blog/palm-frond-disposal-dubai` | P1 | **Highly Dubai-specific, low competition, genuine expertise angle.** |
 | G9 | palm tree waste removal dubai | Commercial | HIGH | SUPPORT | `/blog/palm-frond-disposal-dubai` | P2 | |
-| G10 | tree branch removal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P2 | Removal of cut branches, **not** tree surgery. |
+| G10 | tree branch removal dubai | Commercial | MED | BLOG | `/blog/tree-branch-removal-dubai` | P2 | Editorial scope (2026-10-20): the visible already-cut load, branch dimensions, sharp material, separation and the garden-to-vehicle route. Tree cutting and tree surgery stay explicitly outside the collection scope. `/services/garden-waste-removal` keeps the transactional booking term. |
 | G11 | tree trimming waste removal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P2 | Clarify: we remove, we do not trim. |
 | G12 | grass clippings disposal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P3 | |
 | G13 | hedge trimming waste removal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P3 | |
@@ -809,7 +809,7 @@ Owner: `/services/villa-clearance`.
 | I8 | maid room clearance dubai | Commercial | MED | BLOG | `/blog/maids-room-clearance-dubai` | P2 | Editorial scope (2026-10-18): consent, personal-property ownership, landlord fixtures and a room-level inventory within a wider property clearance; `/services/villa-clearance` keeps the transactional intent. |
 | I9 | majlis clearance dubai | Commercial | MED | BLOG | `/blog/majlis-clearance-dubai` | P3 | Editorial scope (2026-10-19): ownership, significant personal items, room inventory, long seating, rugs, heavy tables and fitted-versus-loose boundaries. `/services/villa-clearance` keeps the transactional booking term. Demand remains `UNVERIFIED`. |
 | I10 | garage clearance dubai | Commercial | MED | BLOG | `/blog/garage-clearance-dubai` | P2 | Editorial scope: sort mixed garage contents, identify excluded materials and plan the carrying route. `/services/villa-clearance` keeps the service head term. Commissioned 2026-10-09. |
-| I11 | villa storage clearance dubai | Commercial | MED | SUPPORT | `/services/villa-clearance` | P3 | |
+| I11 | villa storage clearance dubai | Commercial | MED | BLOG | `/blog/villa-storage-clearance-dubai` | P3 | Editorial scope (2026-10-20): map and reconcile several storage zones across a villa, settle ownership and sequence the property-wide route. The existing storage-room article retains its single packed apartment-store scope; `/services/villa-clearance` keeps the transaction. Demand remains `UNVERIFIED`. |
 | I12 | townhouse clearance dubai | Commercial | MED | BLOG | `/blog/townhouse-clearance-dubai` | P2 | Property type sits with villa, not apartment. Editorial scope (2026-10-15): stairs, floor-by-floor sequencing and compact-plot staging; `/services/villa-clearance` keeps the transactional intent. |
 | I13 | how long does a villa clearance take dubai | Informational | HIGH | BLOG | `/blog/how-long-villa-clearance-dubai` | P2 | Planning-stage, pre-enquiry. |
 | I14 | gated community clearance access dubai | Informational | MED | BLOG | `/blog/gated-community-clearance-dubai` | P2 | Real operational differentiator. |
@@ -850,7 +850,7 @@ Owner: `/services/commercial-junk-removal`.
 | K5 | office furniture disposal dubai | Commercial | HIGH | SUPPORT | `/blog/office-furniture-removal-dubai` | P2 | |
 | K6 | office desk removal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K7 | office strip out clearance dubai | Commercial | HIGH | BLOG | `/blog/office-strip-out-dubai` | P2 | High-value contractor audience. |
-| K8 | office relocation junk removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Removal only — **not** relocation (excluded). |
+| K8 | office relocation junk removal dubai | Commercial | HIGH | BLOG | `/blog/office-relocation-junk-removal-dubai` | P2 | Editorial scope (2026-10-20): separate the authorised unwanted load from move stock, leased assets, data-bearing equipment and technical handoffs. Removal only — **not** a relocation service. `/services/commercial-junk-removal` keeps the transaction. |
 | K9 | shop clearance dubai | Commercial | HIGH | BLOG | `/blog/shop-clearance-dubai` | P2 | Editorial scope (2026-10-18): stock and asset control, loose contents versus fit-out, data-bearing equipment and retail-property access; `/services/commercial-junk-removal` keeps the transactional intent. |
 | K10 | retail fit out waste removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K11 | warehouse clearance dubai | Commercial | HIGH | BLOG | `/blog/warehouse-clearance-dubai` | P2 | Strong in Al Quoz / DIP. |

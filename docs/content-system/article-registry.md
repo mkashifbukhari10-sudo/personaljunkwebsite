@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-19:** **73 published repository articles, all with at least 2,000 body words.** The latest three, N-27 to N-29, cover landscaping waste, majlis clearance and restaurant equipment removal. They promote mapped rows G19, I9 and K13 to distinct planning guides while the garden-waste, villa-clearance and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
+**Current state as at 2026-10-20:** **76 published repository articles, all with at least 2,000 body words.** The latest three, N-30 to N-32, cover cut tree branches, villa storage areas and junk removal during an office relocation. They promote mapped rows G10, I11 and K8 to distinct planning guides while the garden-waste, villa-clearance and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**67 published records as of 2026-10-17.**
+**76 published records as of 2026-10-20.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -189,6 +189,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-27 | `landscaping-waste-removal-dubai` | Landscaping Waste Removal: Sort the Finished Load Before Collection | landscaping waste removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-19 | 2026-10-19 | none | `/blog/garden-furniture-disposal-dubai` | 2283 body words; keywords.md G19 promoted to BLOG. Repository post. Scope separates landscaping work from collection and keeps chemicals, unknown contamination and property rules conditional. |
 | N-28 | `majlis-clearance-dubai` | Majlis Clearance: Protect Personal Items and Plan Every Large Piece | majlis clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-19 | 2026-10-19 | none | `/blog/villa-handover-clearance-dubai` | 2142 body words; keywords.md I9 promoted to BLOG. Repository post. Ownership, consent and significant belongings are resolved before removal; fitted work stays outside the assumed scope. |
 | N-29 | `restaurant-equipment-removal-dubai` | Restaurant Equipment Removal: Disconnect, Empty and Plan the Loading Route | restaurant equipment removal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-19 | 2026-10-19 | none | `/blog/shop-clearance-dubai` | 2388 body words; keywords.md K13 promoted to BLOG. Repository post. Utility work, food safety, refrigeration, residues and fitted systems remain with appropriate responsible providers. |
+| N-30 | `tree-branch-removal-dubai` | Tree Branch Removal: Quote the Cut Load, Not the Tree | tree branch removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-20 | 2026-10-20 | none | `/blog/landscaping-waste-removal-dubai` | 2054 body words; keywords.md G10 promoted to BLOG. Repository post. Covers only already-cut material; pruning, cutting and tree surgery remain outside the collection scope. |
+| N-31 | `villa-storage-clearance-dubai` | Villa Storage Clearance: Inventory Every Store Before Loading | villa storage clearance dubai | SC3 | F | `villa-clearance` | — | `PUBLISHED` | 2026-10-20 | 2026-10-20 | none | `/blog/villa-handover-clearance-dubai` | 2008 body words; keywords.md I11 promoted to BLOG. Repository post. Property-wide multi-zone inventory stays distinct from the single packed apartment-store article. |
+| N-32 | `office-relocation-junk-removal-dubai` | Office Relocation Junk Removal: Keep the Move and Clearance Separate | office relocation junk removal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-20 | 2026-10-20 | none | `/blog/office-furniture-removal-dubai` | 2051 body words; keywords.md K8 promoted to BLOG. Repository post. Clearance remains separate from moving, installation, live IT handling and fixed fit-out work. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -401,6 +404,9 @@ Sixty-seven articles are published; each primary keyword has one owner.
 | landscaping waste removal dubai | `/blog/landscaping-waste-removal-dubai` | N-27 | 2026-10-19 |
 | majlis clearance dubai | `/blog/majlis-clearance-dubai` | N-28 | 2026-10-19 |
 | restaurant equipment removal dubai | `/blog/restaurant-equipment-removal-dubai` | N-29 | 2026-10-19 |
+| tree branch removal dubai | `/blog/tree-branch-removal-dubai` | N-30 | 2026-10-20 |
+| villa storage clearance dubai | `/blog/villa-storage-clearance-dubai` | N-31 | 2026-10-20 |
+| office relocation junk removal dubai | `/blog/office-relocation-junk-removal-dubai` | N-32 | 2026-10-20 |
 
 ### 5.3 · Reserved by the queue
 
@@ -500,6 +506,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-27 `landscaping-waste-removal-dubai` | `/blog/garden-furniture-disposal-dubai` | article | “landscaping-waste removal guide” | ☑ applied |
 | #N-28 `majlis-clearance-dubai` | `/blog/villa-handover-clearance-dubai` | article | “majlis-clearance guide” | ☑ applied |
 | #N-29 `restaurant-equipment-removal-dubai` | `/blog/shop-clearance-dubai` | article | “restaurant-equipment removal guide” | ☑ applied |
+| #N-30 `tree-branch-removal-dubai` | `/blog/landscaping-waste-removal-dubai` | article | “tree branch removal guide” | ☑ applied |
+| #N-31 `villa-storage-clearance-dubai` | `/blog/villa-handover-clearance-dubai` | article | “villa storage clearance guide” | ☑ applied |
+| #N-32 `office-relocation-junk-removal-dubai` | `/blog/office-furniture-removal-dubai` | article | “office-relocation junk-removal guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -738,6 +747,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-20 | Added N-30 to N-32 as repository posts: cut tree-branch removal, villa-storage clearance and office-relocation junk removal. Promoted mapped rows G10, I11 and K8 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the landscaping-waste, villa-handover and office-furniture guides. | Owner requested the next three articles following the Markdown content system, dated 20/10/2026. |
 | 2026-10-19 | Added N-27 to N-29 as repository posts: landscaping-waste removal, majlis clearance and restaurant-equipment removal. Promoted mapped rows G19, I9 and K13 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the garden-furniture, villa-handover and shop-clearance guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-18 | Added N-24 to N-26 as repository posts: furniture dismantling, maid's-room clearance and shop clearance. Promoted mapped rows C10, I8 and K9 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the wardrobe, villa-handover and office-strip-out guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-17 | Added N-21 to N-23 as repository posts: freezer disposal, oven removal and dishwasher removal. Promoted mapped rows E7, E14 and E16 to article URLs with narrow preparation scopes, reused existing inspected imagery and added contextual inbound links from the fridge and washing-machine guides plus cross-links between the new kitchen-appliance guides. | Owner requested the next three articles following the Markdown content system. |

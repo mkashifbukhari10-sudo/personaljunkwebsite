@@ -34,7 +34,7 @@ Bundle manageable cut branches only if the collector asks for it. Do not bind a 
 
 ## Plan branches and palm material around the route
 
-Cut material should be reduced to an agreed size by the landscaping provider. The longest branch, not the overall pile, may determine whether it can turn through a side gate or enter the vehicle safely. Photograph the longest pieces against a recognisable reference and give approximate dimensions.
+Cut material should be reduced to an agreed size by the landscaping provider. The longest branch, not the overall pile, may determine whether it can turn through a side gate or enter the vehicle safely. Photograph the longest pieces against a recognisable reference and give approximate dimensions. For a load made mainly of woody cuttings, use the [tree branch removal guide](/blog/tree-branch-removal-dubai) to separate the tree-work and collection scopes.
 
 Turn sharp ends away from pedestrian routes. Do not lean heavy branches against gates, vehicles, walls or utility equipment. If the material is unstable, spread it into a controlled low group rather than creating a tall heap.
 

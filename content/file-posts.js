@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "office-relocation-junk-removal-dubai",
+    title: "Office Relocation Junk Removal: Keep the Move and Clearance Separate",
+    excerpt: "Approve the unwanted load separately from relocation stock, protect data and leased assets, and schedule removal around movers, technicians and building access.",
+    publishedAt: "2026-10-20T05:00:10.000Z",
+    cover: "office-furniture-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "Office Relocation Junk Removal Dubai: Clearance Plan",
+    seoDescription: "Plan junk removal during a Dubai office relocation by separating move stock, assets, data, furniture and specialist items before the handover window."
+  },
+  {
+    slug: "villa-storage-clearance-dubai",
+    title: "Villa Storage Clearance: Inventory Every Store Before Loading",
+    excerpt: "Map every storage zone, settle ownership, isolate personal and specialist items, and clear the villa in a sequence that keeps retained belongings protected.",
+    publishedAt: "2026-10-20T05:00:05.000Z",
+    cover: "article-storage-room-clearance-dubai-cover",
+    services: [
+      "villa-clearance"
+    ],
+    seoTitle: "Villa Storage Clearance Dubai: A Zone-by-Zone Plan",
+    seoDescription: "Plan a Dubai villa storage clearance by mapping every store, confirming ownership, sorting specialist materials and controlling the route zone by zone."
+  },
+  {
+    slug: "tree-branch-removal-dubai",
+    title: "Tree Branch Removal: Quote the Cut Load, Not the Tree",
+    excerpt: "Separate cutting from collection, measure the longest pieces, keep soil and chemicals apart, and confirm the complete route from the garden to the vehicle.",
+    publishedAt: "2026-10-20T05:00:00.000Z",
+    cover: "cut-palm-fronds-on-the-ground",
+    services: [
+      "garden-waste-removal"
+    ],
+    seoTitle: "Tree Branch Removal Dubai: Prepare the Cut Load",
+    seoDescription: "Prepare cut branches for removal in Dubai: separate tree work from collection, describe the finished load, control sharp pieces and plan the route."
+  },
+  {
     slug: "restaurant-equipment-removal-dubai",
     title: "Restaurant Equipment Removal: Disconnect, Empty and Plan the Loading Route",
     excerpt: "Settle ownership, food and utility responsibilities before equipment moves, then inventory every appliance and align technical disconnection with the loading window.",
