@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "school-office-clearance-dubai",
+    title: "School Office Clearance: Freeze Assets Before the Closure Window",
+    excerpt: "Approve the unwanted inventory, isolate records and IT, protect school access, and clear each office against a controlled asset list during the confirmed window.",
+    publishedAt: "2026-10-21T05:00:10.000Z",
+    cover: "office-furniture-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "School Office Clearance Dubai: Asset and Access Plan",
+    seoDescription: "Plan a Dubai school-office clearance by controlling assets, records, IT, fixed items, site access and room-by-room sign-off during a closure window."
+  },
+  {
+    slug: "studio-apartment-clearance-dubai",
+    title: "Studio Apartment Clearance: Make Every Item Decision First",
+    excerpt: "Protect personal and landlord property, inventory the whole studio, prepare large items and appliances, and reserve one clear route through the building.",
+    publishedAt: "2026-10-21T05:00:05.000Z",
+    cover: "before-crew-arrives-cover",
+    services: [
+      "house-clearance"
+    ],
+    seoTitle: "Studio Apartment Clearance Dubai: A One-Room Plan",
+    seoDescription: "Plan a Dubai studio-apartment clearance with ownership checks, a complete inventory, appliance preparation, building access and handover sequencing."
+  },
+  {
+    slug: "grass-clippings-disposal-dubai",
+    title: "Grass Clippings Disposal: Count the Finished Bags, Not the Lawn",
+    excerpt: "Separate mowing from collection, disclose wet clippings, keep soil and chemicals out, and quote the finished bags with the full garden-to-vehicle route.",
+    publishedAt: "2026-10-21T05:00:00.000Z",
+    cover: "cut-palm-fronds-on-the-ground",
+    services: [
+      "garden-waste-removal"
+    ],
+    seoTitle: "Grass Clippings Disposal Dubai: Prepare the Load",
+    seoDescription: "Prepare grass clippings for collection in Dubai: count the finished bags, disclose moisture, separate mixed materials and show the route to the vehicle."
+  },
+  {
     slug: "office-relocation-junk-removal-dubai",
     title: "Office Relocation Junk Removal: Keep the Move and Clearance Separate",
     excerpt: "Approve the unwanted load separately from relocation stock, protect data and leased assets, and schedule removal around movers, technicians and building access.",

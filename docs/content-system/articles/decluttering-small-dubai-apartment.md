@@ -141,6 +141,8 @@ A [residential junk removal](/services/residential-junk-removal) crew carries th
 
 ## Keeping a small apartment clear
 
+If the entire one-room home must be emptied for a move or handover, switch from gradual decluttering to the inventory and access sequence in the [studio-apartment clearance guide](/blog/studio-apartment-clearance-dubai).
+
 The clear-out is easier to maintain than to repeat.
 
 - When something new comes in, something similar leaves.

@@ -80,6 +80,8 @@ Identify floor boxes, power and data cabling, wall anchors and built-in joinery 
 
 ## A practical week-before checklist
 
+For an education site, the [school-office clearance guide](/blog/school-office-clearance-dubai) adds the asset, records, IT and controlled-access checks needed during a fixed closure window.
+
 Seven days before the target date, freeze the inventory and tell staff when personal items must be removed. Confirm the building's contractor and vehicle requirements, reserve the lift and send the route information to the collector. Ask IT to complete its device inventory and approved data handling. Arrange any reuse recipients with a firm pickup date, and mark those pieces so they are not loaded by mistake.
 
 Two days before the job, empty drawers, take final condition photos and check that the receiving premises or loading bay will actually be open. Verify the largest furniture dimensions against the lift and corridor. Move confidential paper to a controlled location. If departments are still operating, identify a safe temporary route for employees while the clearance zone is active.

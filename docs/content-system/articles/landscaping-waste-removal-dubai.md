@@ -139,6 +139,8 @@ Provide:
 - Gate, steps, distance, parking and access requirements.
 - Whether the landscaper will remain on site.
 
+If the finished load is mainly mowing waste, use the [grass-clippings disposal guide](/blog/grass-clippings-disposal-dubai) to record moisture, bag count and separation before requesting the collection quote.
+
 Send the completed scope to the [garden waste removal service](/services/garden-waste-removal) and ask what is accepted, how it should be presented, and whether the quoted work includes carry-out from the garden. A precise request allows the provider to assess the actual load instead of guessing from the size of the property.
 
 ## Check the garden and route before sign-off

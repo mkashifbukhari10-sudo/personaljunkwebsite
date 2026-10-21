@@ -749,7 +749,7 @@ Owner: `/services/garden-waste-removal`.
 | G9 | palm tree waste removal dubai | Commercial | HIGH | SUPPORT | `/blog/palm-frond-disposal-dubai` | P2 | |
 | G10 | tree branch removal dubai | Commercial | MED | BLOG | `/blog/tree-branch-removal-dubai` | P2 | Editorial scope (2026-10-20): the visible already-cut load, branch dimensions, sharp material, separation and the garden-to-vehicle route. Tree cutting and tree surgery stay explicitly outside the collection scope. `/services/garden-waste-removal` keeps the transactional booking term. |
 | G11 | tree trimming waste removal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P2 | Clarify: we remove, we do not trim. |
-| G12 | grass clippings disposal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P3 | |
+| G12 | grass clippings disposal dubai | Commercial | MED | BLOG | `/blog/grass-clippings-disposal-dubai` | P3 | Editorial scope (2026-10-21): preparation of an already-cut grass load, including moisture, containers, clean separation, finished count and the garden-to-vehicle route. Mowing and landscaping remain outside the collection scope; `/services/garden-waste-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | G13 | hedge trimming waste removal dubai | Commercial | MED | SUPPORT | `/services/garden-waste-removal` | P3 | |
 | G14 | soil removal dubai | Commercial | MED | BLOG | `/blog/soil-sand-pots-disposal-dubai` | P2 | Weight-limited — set expectations on-page. |
 | G15 | sand bags removal dubai | Commercial | MED | SUPPORT | `/blog/soil-sand-pots-disposal-dubai` | P3 | |
@@ -786,7 +786,7 @@ Owner: `/services/house-clearance`.
 | H16 | estate clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Skews to larger properties. |
 | H17 | deceased estate clearance dubai | Commercial | HIGH | BLOG | `/blog/estate-clearance-dubai` | P3 | **Handle with sensitivity.** Real need; tone matters more than keywords. |
 | H18 | hoarder house clearance dubai | Commercial | MED | BLOG | `/blog/heavy-clutter-clearance-dubai` | P3 | HOLD — service capability unconfirmed. Do not commission or imply this specialist service is offered. If confirmed, use respectful, non-stigmatising language and review overlap with `/services/house-clearance`. |
-| H19 | studio apartment clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P3 | |
+| H19 | studio apartment clearance dubai | Commercial | MED | BLOG | `/blog/studio-apartment-clearance-dubai` | P3 | Editorial scope (2026-10-21): the one-room ownership, inventory, appliance and clearance-sequencing problem, including hidden storage and a single building route. `/services/house-clearance` keeps apartment-clearance and full-property transactional intent. Demand remains `UNVERIFIED`. |
 | H20 | clearance before moving dubai | Commercial | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P2 | |
 | H21 | balcony clearance dubai | Commercial | LOW-MED | BLOG | `/blog/balcony-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; re-check in Search Console. Scope: sorting and carrying a mixed balcony load; garden furniture detail stays with G18. |
 | H22 | children's room clearance dubai | Commercial | LOW-MED | BLOG | `/blog/childrens-room-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Scope: keepsakes first, reuse checks for children's furniture, toys and electronics separated. |
@@ -861,7 +861,7 @@ Owner: `/services/commercial-junk-removal`.
 | K16 | recurring waste collection dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | Recurring contracts. |
 | K17 | IT equipment disposal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Data-security angle is a real differentiator. |
 | K18 | out of hours clearance dubai | Commercial | MED | BLOG | `/blog/out-of-hours-clearance-dubai` | P2 | Matches existing page copy. |
-| K19 | school office clearance dubai | Commercial | LOW-MED | SUPPORT | `/services/commercial-junk-removal` | P3 | Seasonal (end of academic year). |
+| K19 | school office clearance dubai | Commercial | LOW-MED | BLOG | `/blog/school-office-clearance-dubai` | P3 | Editorial scope (2026-10-21): asset, records, IT and access control for administrative offices during a fixed school closure window. Classrooms and specialist rooms stay outside the assumed scope; `/services/commercial-junk-removal` keeps the transaction. Seasonal and `UNVERIFIED`. |
 
 ---
 
@@ -1352,6 +1352,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling (2026-10-18):** C10, I8 and K9 now have article URLs with deliberately narrow planning scopes. C10 answers whether and how an item should be dismantled before collection; I8 protects consent and ownership decisions inside one private room; K9 separates retail stock, assets and fit-out before a commercial handback. The furniture, villa-clearance and commercial service pages retain their broad transactional terms. These promotions are qualitative editorial tests without Search Console or Keyword Planner demand evidence; review them at Day 30 and Day 60 and consolidate if either page competes with its money page.
 
 **Ownership ruling (2026-10-19):** G19, I9 and K13 now have narrow planning articles. G19 owns the landscaper-to-collector handoff and material separation after garden work; I9 owns consent, significant belongings and item-level route planning inside a majlis; K13 owns restaurant asset control, technical disconnection boundaries, residues and loading coordination. Their garden-waste, villa-clearance and commercial service pages retain the broad transactional terms. No Day 30 Search Console export or Keyword Planner evidence was available in the repository, so these remain qualitative editorial tests and must be consolidated if the article and money page compete.
+
+**Ownership ruling (2026-10-21):** G12, H19 and K19 now have deliberately narrow planning articles. G12 owns the finished grass load after mowing, including moisture, container count, separation and route; H19 owns the one-room studio inventory and clearance sequence; K19 owns authorised assets, records, IT and access for school administrative offices during a fixed closure window. The garden-waste, house-clearance and commercial service pages retain their broad transactional terms. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 
