@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-20:** **76 published repository articles, all with at least 2,000 body words.** The latest three, N-30 to N-32, cover cut tree branches, villa storage areas and junk removal during an office relocation. They promote mapped rows G10, I11 and K8 to distinct planning guides while the garden-waste, villa-clearance and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
+**Current state as at 2026-10-22:** **82 published repository articles, all with at least 2,000 body words.** The latest three, N-36 to N-38, cover hedge-trimming waste, office desk removal and agent- or owner-arranged property clearance. They promote mapped rows G13, K6 and H6 to distinct planning guides while the garden-waste, commercial and house-clearance service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**76 published records as of 2026-10-20.**
+**82 published records as of 2026-10-22.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -195,6 +195,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-33 | `grass-clippings-disposal-dubai` | Grass Clippings Disposal: Count the Finished Bags, Not the Lawn | grass clippings disposal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-21 | 2026-10-21 | none | `/blog/landscaping-waste-removal-dubai` | 2119 body words; keywords.md G12 promoted to BLOG. Repository post. Covers the already-cut grass load; mowing and landscaping remain outside the collection scope. |
 | N-34 | `studio-apartment-clearance-dubai` | Studio Apartment Clearance: Make Every Item Decision First | studio apartment clearance dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-21 | 2026-10-21 | none | `/blog/decluttering-small-dubai-apartment` | 2097 body words; keywords.md H19 promoted to BLOG. Repository post. Owns the one-room inventory and sequencing problem while the service page keeps apartment-clearance transactions. |
 | N-35 | `school-office-clearance-dubai` | School Office Clearance: Freeze Assets Before the Closure Window | school office clearance dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-21 | 2026-10-21 | none | `/blog/office-furniture-removal-dubai` | 2272 body words; keywords.md K19 promoted to BLOG. Repository post. Limited to authorised administrative-office assets; specialist school rooms remain outside the assumed scope. |
+| N-36 | `hedge-trimming-waste-removal-dubai` | Hedge Trimming Waste Removal: Separate Stems, Leaves and Sharp Cuttings | hedge trimming waste removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-22 | 2026-10-22 | none | `/blog/tree-branch-removal-dubai` | 2606 body words; keywords.md G13 promoted to BLOG. Repository post. Covers only already-cut hedge material; trimming and shaping remain outside the collection scope. |
+| N-37 | `office-desk-removal-dubai` | Office Desk Removal: Clear Drawers, Cables and Ownership First | office desk removal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-22 | 2026-10-22 | none | `/blog/office-furniture-removal-dubai` | 2664 body words; keywords.md K6 promoted to BLOG. Repository post. Desk-level scope; data erasure, hard-wired power and fixed fit-out stay with the office and appropriate trades. |
+| N-38 | `property-clearance-dubai` | Property Clearance: Confirm Authority Before Anything Leaves | property clearance dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-22 | 2026-10-22 | none | `/blog/landlord-inspection-clearance-dubai` | 2811 body words; keywords.md H6 promoted to BLOG. Repository post. Third-party-arranged clearance; ownership disputes and legal questions stay with the owner or relevant authority. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -413,6 +416,9 @@ Sixty-seven articles are published; each primary keyword has one owner.
 | grass clippings disposal dubai | `/blog/grass-clippings-disposal-dubai` | N-33 | 2026-10-21 |
 | studio apartment clearance dubai | `/blog/studio-apartment-clearance-dubai` | N-34 | 2026-10-21 |
 | school office clearance dubai | `/blog/school-office-clearance-dubai` | N-35 | 2026-10-21 |
+| hedge trimming waste removal dubai | `/blog/hedge-trimming-waste-removal-dubai` | N-36 | 2026-10-22 |
+| office desk removal dubai | `/blog/office-desk-removal-dubai` | N-37 | 2026-10-22 |
+| property clearance dubai | `/blog/property-clearance-dubai` | N-38 | 2026-10-22 |
 
 ### 5.3 · Reserved by the queue
 
@@ -518,6 +524,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-33 `grass-clippings-disposal-dubai` | `/blog/landscaping-waste-removal-dubai` | article | “grass-clippings disposal guide” | ☑ applied |
 | #N-34 `studio-apartment-clearance-dubai` | `/blog/decluttering-small-dubai-apartment` | article | “studio-apartment clearance guide” | ☑ applied |
 | #N-35 `school-office-clearance-dubai` | `/blog/office-furniture-removal-dubai` | article | “school-office clearance guide” | ☑ applied |
+| #N-36 `hedge-trimming-waste-removal-dubai` | `/blog/tree-branch-removal-dubai` | article | “hedge-trimming waste guide” | ☑ applied |
+| #N-37 `office-desk-removal-dubai` | `/blog/office-furniture-removal-dubai` | article | “office desk removal guide” | ☑ applied |
+| #N-38 `property-clearance-dubai` | `/blog/landlord-inspection-clearance-dubai` | article | “property clearance guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -756,6 +765,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-22 | Added N-36 to N-38 as repository posts: hedge-trimming waste removal, office desk removal and property clearance. Promoted mapped rows G13, K6 and H6 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the tree-branch, office-furniture and landlord-inspection guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-21 | Added N-33 to N-35 as repository posts: grass-clippings disposal, studio-apartment clearance and school-office clearance. Promoted mapped rows G12, H19 and K19 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the landscaping-waste, small-apartment and office-furniture guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-20 | Added N-30 to N-32 as repository posts: cut tree-branch removal, villa-storage clearance and office-relocation junk removal. Promoted mapped rows G10, I11 and K8 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the landscaping-waste, villa-handover and office-furniture guides. | Owner requested the next three articles following the Markdown content system, dated 20/10/2026. |
 | 2026-10-19 | Added N-27 to N-29 as repository posts: landscaping-waste removal, majlis clearance and restaurant-equipment removal. Promoted mapped rows G19, I9 and K13 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the garden-furniture, villa-handover and shop-clearance guides. | Owner requested the next three articles following the Markdown content system. |

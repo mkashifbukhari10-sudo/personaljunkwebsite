@@ -87,3 +87,5 @@ Seven days before the target date, freeze the inventory and tell staff when pers
 Two days before the job, empty drawers, take final condition photos and check that the receiving premises or loading bay will actually be open. Verify the largest furniture dimensions against the lift and corridor. Move confidential paper to a controlled location. If departments are still operating, identify a safe temporary route for employees while the clearance zone is active.
 
 On the day, appoint one person who can answer “keep or remove” questions and authorise changes. Give the crew a copy of the marked inventory and walk the first zone together. At completion, compare the removed items against that inventory and walk the common route with building staff if required. These simple checks prevent most last-minute disputes about missing furniture, damage or an item left behind.
+
+If the job is mainly workstations, the [office desk removal guide](/blog/office-desk-removal-dubai) covers drawers, cables, modular systems and fixed units desk by desk.

@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "property-clearance-dubai",
+    title: "Property Clearance: Confirm Authority Before Anything Leaves",
+    excerpt: "Confirm who can approve the work, inspect and photograph the contents, hold uncertain items, arrange access and quote the whole property before the crew arrives.",
+    publishedAt: "2026-10-22T05:00:10.000Z",
+    cover: "empty-room-before-handover",
+    services: [
+      "house-clearance"
+    ],
+    seoTitle: "Property Clearance Dubai: Authority and Access Plan",
+    seoDescription: "Plan a Dubai property clearance for an owner, agent or landlord: confirm authority, record contents, protect uncertain items, arrange access and quote the full scope."
+  },
+  {
+    slug: "office-desk-removal-dubai",
+    title: "Office Desk Removal: Clear Drawers, Cables and Ownership First",
+    excerpt: "Inventory every desk, empty drawers and lockers, separate screens and cables, check fixed or modular parts, and measure the route before removal.",
+    publishedAt: "2026-10-22T05:00:05.000Z",
+    cover: "office-stripout-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "Office Desk Removal Dubai: Prepare Every Workstation",
+    seoDescription: "Prepare office desks for removal in Dubai: inventory workstations, clear drawers, separate IT and cables, check fixed units and plan the building route."
+  },
+  {
+    slug: "hedge-trimming-waste-removal-dubai",
+    title: "Hedge Trimming Waste Removal: Separate Stems, Leaves and Sharp Cuttings",
+    excerpt: "Separate cutting from collection, split soft leaves from woody and thorny stems, count the finished bags and bundles, and show the full route to the vehicle.",
+    publishedAt: "2026-10-22T05:00:00.000Z",
+    cover: "cut-palm-fronds-on-the-ground",
+    services: [
+      "garden-waste-removal"
+    ],
+    seoTitle: "Hedge Trimming Waste Removal Dubai: Prepare the Load",
+    seoDescription: "Prepare hedge trimmings for collection in Dubai: separate stems from leaves, control sharp cuttings, count the finished load and plan the route."
+  },
+  {
     slug: "school-office-clearance-dubai",
     title: "School Office Clearance: Freeze Assets Before the Closure Window",
     excerpt: "Approve the unwanted inventory, isolate records and IT, protect school access, and clear each office against a controlled asset list during the confirmed window.",

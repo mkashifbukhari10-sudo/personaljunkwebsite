@@ -154,3 +154,5 @@ Do not use a communal or public area without explicit approval. Keep the load on
 ### What if the landscaper produces more than expected?
 
 Photograph and recount the final load, then update the collection provider before arrival. The finished material, not the original estimate, defines the job.
+
+If the cuttings come from a shaped hedge rather than a tree, the [hedge-trimming waste guide](/blog/hedge-trimming-waste-removal-dubai) explains how to separate leaves, woody stems and sharp material before requesting a quote.

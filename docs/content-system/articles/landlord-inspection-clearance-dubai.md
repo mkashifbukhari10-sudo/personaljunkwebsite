@@ -131,3 +131,5 @@ Under standard Dubai tenancy practice, landlords typically process security depo
 Passing your landlord handover inspection in Dubai without deposit deductions requires methodical preparation, legal clarity and comprehensive physical clearance. By understanding Article 21's wear-and-tear boundary, clearing high-risk deduction areas like balconies and utility alcoves, reversing custom wall fixings and booking professional clearance well before inspection day, you protect your hard-earned security deposit and end your tenancy on flawless terms.
 
 When your move-out date approaches, professional clearance ensures that every unwanted item, broken appliance and piece of redundant furniture is removed, carried out and disposed of responsibly, leaving your property pristine and ready for a stress-free key handover.
+
+If an agent, landlord or representative is arranging the clearance for someone else, the [property clearance guide](/blog/property-clearance-dubai) explains how to confirm authority, hold uncertain items and record the contents.
