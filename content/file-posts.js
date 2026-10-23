@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "retail-fit-out-waste-removal-dubai",
+    title: "Retail Fit-Out Waste Removal: Release, Sort and Stage Every Load",
+    excerpt: "Freeze assets and stock, release fixed items through the right trades, separate each material group, and schedule collection around confirmed building access.",
+    publishedAt: "2026-10-23T05:00:10.000Z",
+    cover: "office-stripout-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "Retail Fit-Out Waste Removal Dubai: Project Plan",
+    seoDescription: "Plan retail fit-out waste removal in Dubai: control assets, release fixed items, sort materials, confirm access and sign off every collection phase."
+  },
+  {
+    slug: "bedroom-furniture-removal-dubai",
+    title: "Bedroom Furniture Removal: Inventory the Whole Room First",
+    excerpt: "Settle ownership, empty every storage space, list the bed and mattress separately, protect mirrors, and measure the largest component against the full route.",
+    publishedAt: "2026-10-23T05:00:05.000Z",
+    cover: "wardrobe-removal-cover",
+    services: [
+      "furniture-removal"
+    ],
+    seoTitle: "Bedroom Furniture Removal Dubai: Room-by-Room Plan",
+    seoDescription: "Prepare bedroom furniture for removal in Dubai: confirm ownership, empty storage, separate beds and mattresses, protect glass and measure the route."
+  },
+  {
+    slug: "villa-garden-waste-removal-dubai",
+    title: "Villa Garden Waste Removal: Map Every Zone and Material",
+    excerpt: "Finish the garden work, inventory every outdoor zone, separate cuttings from soil and furniture, count the load, and trace each route to the vehicle.",
+    publishedAt: "2026-10-23T05:00:00.000Z",
+    cover: "garden-furniture-disposal-dubai-cover",
+    services: [
+      "garden-waste-removal"
+    ],
+    seoTitle: "Villa Garden Waste Removal Dubai: Map the Full Load",
+    seoDescription: "Plan villa garden waste removal in Dubai: map every zone, separate green waste, soil and furniture, count the load and confirm the vehicle route."
+  },
+  {
     slug: "property-clearance-dubai",
     title: "Property Clearance: Confirm Authority Before Anything Leaves",
     excerpt: "Confirm who can approve the work, inspect and photograph the contents, hold uncertain items, arrange access and quote the whole property before the crew arrives.",

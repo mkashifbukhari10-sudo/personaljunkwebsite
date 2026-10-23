@@ -192,3 +192,5 @@ Do not assume so. Stock may require write-off, return or category-specific handl
 ### What information is needed for a quote?
 
 Provide the itemised inventory, photographs, fixed-versus-loose status, equipment connections, access route, building requirements and deadline. Floor area alone does not describe the load.
+
+If contractors are releasing counters, displays, flooring or other installed material during a refit, the [retail fit-out waste removal guide](/blog/retail-fit-out-waste-removal-dubai) separates asset control and technical release from the loose collection load.

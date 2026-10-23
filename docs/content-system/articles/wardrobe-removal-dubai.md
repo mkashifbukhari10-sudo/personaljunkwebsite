@@ -143,3 +143,5 @@ They need separate handling, edge protection and stable transport. Show the mirr
 Book after you know the item, access rules and target date. Towers may need more lead time for permits and service-lift reservations. Leave a buffer before a tenancy handover or delivery of replacement furniture so one delay does not block the next appointment.
 
 Wardrobe removal becomes predictable when construction, condition, route and destination are known. Empty it completely, measure the real restrictions and dismantle only with a supported sequence. That keeps a large bedroom object from turning into loose panels, lost hardware and a blocked lift.
+
+When the wardrobe is leaving with a bed, mattress, drawers and other pieces, use the [bedroom-furniture removal guide](/blog/bedroom-furniture-removal-dubai) to settle ownership, empty hidden storage and plan the whole room against one route.
