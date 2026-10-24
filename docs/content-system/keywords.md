@@ -636,7 +636,7 @@ Owner: `/services/furniture-removal`.
 | C19 | old mattress pickup dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
 | C20 | dining table removal dubai | Commercial | MED | BLOG | `/blog/dining-table-removal-dubai` | P3 | Editorial scope (2026-10-16): glass, stone and wood tops, extension leaves, chairs and the longest piece against the route; `/services/furniture-removal` keeps the transactional intent. |
 | C21 | IKEA furniture disposal dubai | Commercial | MED | BLOG | `/blog/flatpack-furniture-disposal-dubai` | P2 | Flat-pack rarely survives a second assembly — strong "can't donate it" angle. |
-| C22 | furniture removal apartment dubai | Commercial | HIGH | SUPPORT | `/services/residential-junk-removal` | P2 | |
+| C22 | furniture removal apartment dubai | Commercial | HIGH | BLOG | `/blog/apartment-furniture-removal-dubai` | P2 | Editorial scope (2026-10-24): whole-apartment furniture inventory, ownership, dismantling decisions and one lift-ready building route. Item guides and tower logistics keep their detail; `/services/residential-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
 
@@ -655,7 +655,7 @@ Owner: `/services/sofa-removal`.
 | D5 | couch removal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | US phrasing; same intent. |
 | D6 | couch disposal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
 | D7 | sofa pickup dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
-| D8 | L shaped sofa removal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | Access-problem intent — high conversion. |
+| D8 | L shaped sofa removal dubai | Commercial | HIGH | BLOG | `/blog/l-shaped-sofa-removal-dubai` | P2 | Editorial scope (2026-10-24): sectional module identification, intended connections and the largest rigid section against the complete route. D14 keeps general sofa route geometry; `/services/sofa-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | D9 | corner sofa removal dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
 | D10 | sofa bed removal dubai | Commercial | MED | BLOG | `/blog/sofa-bed-removal-dubai` | P3 | Editorial scope (2026-10-16): securing the folding mechanism, mattress decision and measuring closed; `/services/sofa-removal` keeps the transactional intent and all other sofa variants. |
 | D11 | 3 seater sofa disposal dubai | Commercial | MED | SUPPORT | `/services/sofa-removal` | P3 | |
@@ -727,7 +727,7 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F15 | fit out waste removal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | B2B; higher value. |
 | F16 | skip hire alternative dubai | Commercial | HIGH | BLOG | `/blog/skip-hire-vs-junk-removal-dubai` | P2 | **Strong comparison play** — a crew that loads beats a skip you fill yourself. (Skip *hire* itself is excluded.) |
 | F17 | junk removal truck dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | Check intent — if it is truck *rental*, it is excluded. |
-| F18 | office waste collection dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | |
+| F18 | office waste collection dubai | Commercial | HIGH | BLOG | `/blog/office-waste-collection-dubai` | P2 | Editorial scope (2026-10-24): define a one-off loose office load and separate it from routine bins, data/records processes, technical material and recurring service. `/services/commercial-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. |
 
 ---
@@ -1328,7 +1328,7 @@ These are **existing mapped searches with no dedicated published article** at th
 | 14 | G18 | garden furniture disposal dubai | `/blog/garden-furniture-disposal-dubai` | **Commissioned article**; outdoor-furniture decision angle |
 | 15 | F8 | waste removal company dubai | `/services/waste-removal` | Strengthen provider-selection copy |
 | 16 | F15 | fit out waste removal dubai | `/services/commercial-junk-removal` | Link office strip-out guidance |
-| 17 | F18 | office waste collection dubai | `/services/commercial-junk-removal` | Clarify one-off collection scope |
+| 17 | F18 | office waste collection dubai | `/blog/office-waste-collection-dubai` | **Commissioned article 2026-10-24**; one-off load and routine-waste boundary |
 | 18 | A9 | junk disposal dubai | `/services/junk-removal` | Explain disposal route accurately |
 | 19 | A12 | rubbish removal dubai | `/services/junk-removal` | Keep British-English variant on same URL |
 | 20 | A18 | bulky item pickup dubai | `/services/junk-removal` | Add item-photo checklist |
@@ -1337,7 +1337,7 @@ These are **existing mapped searches with no dedicated published article** at th
 | 23 | B9 | next day junk removal dubai | `/services/same-day-junk-removal` | Explain next-day fallback |
 | 24 | C9 | broken furniture disposal dubai | `/blog/broken-furniture-disposal-dubai` | **Commissioned article 2026-10-15**; damaged-furniture handling angle |
 | 25 | C10 | furniture dismantling dubai | `/services/furniture-removal` | Link wardrobe and sofa access guides |
-| 26 | D8 | L shaped sofa removal dubai | `/services/sofa-removal` | Link doorway guide |
+| 26 | D8 | L shaped sofa removal dubai | `/blog/l-shaped-sofa-removal-dubai` | **Commissioned article 2026-10-24**; sectional-module and route angle |
 | 27 | E10 | old appliance removal dubai | `/services/appliance-disposal` | Link fridge, washer and TV guides |
 | 28 | G20 | villa garden waste removal dubai | `/blog/villa-garden-waste-removal-dubai` | **Commissioned article 2026-10-23**; multi-zone garden inventory and contractor-handoff angle |
 | 29 | I12 | townhouse clearance dubai | `/blog/townhouse-clearance-dubai` | **Commissioned article 2026-10-15**; stairs and floor-by-floor angle |
@@ -1358,6 +1358,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling (2026-10-22):** G13, H6 and K6 now have narrow planning articles. G13 owns the finished hedge-trimming load (leaf/stem/sharp separation, count and route); H6 owns third-party authority, contents record and held items when an owner, agent or representative clears a property they do not occupy; K6 owns desk-level preparation (drawers, IT, modular or fixed units) and leaves wider office furniture with the existing guide. The garden-waste, house-clearance and commercial service pages retain their broad transactional terms. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 
 **Ownership ruling (2026-10-23):** G20, C11 and K10 now have narrow planning articles. G20 owns the multi-zone villa-garden inventory, material separation and contractor-to-collector handoff; C11 owns a whole-bedroom inventory and coordinated route while item-specific bed, mattress and wardrobe guides keep their detail; K10 owns the project handoff from fixed retail fit-out to a loose, sorted and access-approved collection load. The garden-waste, furniture and commercial service pages retain the broad transactional terms. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
+
+**Ownership ruling (2026-10-24):** D8, C22 and F18 now have narrow planning articles. D8 owns sectional-sofa modules, connectors and the largest released section; C22 owns the whole-apartment furniture inventory tied to one building route; F18 owns the boundary and preparation for a defined one-off office load. The sofa, residential and commercial service pages retain broad transactional intent. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 

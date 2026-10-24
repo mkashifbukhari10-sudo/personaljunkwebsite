@@ -98,6 +98,8 @@ Another mistake is removing doors or hardware before responsibility is agreed. A
 
 Finally, do not promise that a sofa can be donated or reused merely because it looks acceptable. Condition, hygiene, demand, transport and recipient criteria all matter. Ask about the intended disposal route without inventing a guaranteed outcome.
 
+For a sectional or corner configuration, the [L-shaped sofa removal guide](/blog/l-shaped-sofa-removal-dubai) adds module identification, connector checks and a route test for the largest released section.
+
 ## A practical decision path
 
 First, identify the sofa configuration and whether it must remain reusable. Second, measure the fixed frame and all clear openings. Third, check modular connections and removable loose parts. Fourth, document every turn from the room to the loading point. Fifth, confirm building access. Then send the complete evidence for assessment.
@@ -123,4 +125,3 @@ Many can, but not all use the same connection. Look for manufacturer guidance an
 ### What if the sofa fits the door but not the lift?
 
 Provide the lift-door and car dimensions, photographs and the building’s approved alternative. The provider may assess stairs or another permitted route. Do not assume a passenger lift, balcony or emergency exit may be used.
-

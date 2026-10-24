@@ -1,18 +1,18 @@
-# Next three article briefs — article date 2026-10-23
+# Next three article briefs — article date 2026-10-24
 
 These are **repository posts**. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes an existing mapped SUPPORT row in `keywords.md` to a deliberately narrow article URL. The three service pages keep the broad transactional booking terms.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |
 |---|---|---|---|---|---|---|---|
-| N-39 | villa garden waste removal dubai (G20) | Villa Garden Waste Removal: Map Every Zone and Material | `villa-garden-waste-removal-dubai` | Finish the garden work, inventory every outdoor zone, separate cuttings from soil and furniture, count the load, and trace each route to the vehicle. | `garden-waste-removal` | `garden-furniture-disposal-dubai-cover` | `article-garden-furniture-disposal-dubai-body` |
-| N-40 | bedroom furniture removal dubai (C11) | Bedroom Furniture Removal: Inventory the Whole Room First | `bedroom-furniture-removal-dubai` | Settle ownership, empty every storage space, list the bed and mattress separately, protect mirrors, and measure the largest component against the full route. | `furniture-removal` | `wardrobe-removal-cover` | `wardrobe-dismantling-plan` |
-| N-41 | retail fit out waste removal dubai (K10) | Retail Fit-Out Waste Removal: Release, Sort and Stage Every Load | `retail-fit-out-waste-removal-dubai` | Freeze assets and stock, release fixed items through the right trades, separate each material group, and schedule collection around confirmed building access. | `commercial-junk-removal` | `office-stripout-cover` | `renovation-waste-sorting` |
+| N-42 | L shaped sofa removal dubai (D8) | L-Shaped Sofa Removal: Map Every Section and Turn | `l-shaped-sofa-removal-dubai` | Identify every sofa module, find the intended connections, measure the largest rigid section, and test it against every doorway, turn, lift and loading point. | `sofa-removal` | `sofa-doorway-cover` | `sofa-route-measurement` |
+| N-43 | furniture removal apartment dubai (C22) | Apartment Furniture Removal: Build One Lift-Ready Plan | `apartment-furniture-removal-dubai` | Inventory every outgoing piece, settle ownership, dismantle only where needed, measure the largest component, and reserve one clear building route. | `residential-junk-removal` | `bulky-item-tower-cover` | `tower-route-measurement` |
+| N-44 | office waste collection dubai (F18) | Office Waste Collection: Define the One-Off Load First | `office-waste-collection-dubai` | Separate a one-off office clearance from routine waste, freeze assets and data decisions, sort the finished load, and confirm the building route before collection. | `commercial-junk-removal` | `office-furniture-cover` | `office-furniture-sorting` |
 
 ## Mapping and cannibalization boundary
 
-- G20 owns the property-wide outdoor inventory: garden zones, material groups, contractor handoff and the route from every zone. The individual cut-material guides keep their preparation detail, whole-villa contents stay with villa clearance, and `/services/garden-waste-removal` keeps the booking transaction.
-- C11 owns coordination of a whole bedroom: ownership, hidden contents, the combined inventory and the largest component against one route. Bed, mattress and wardrobe guides keep their item-level detail; `/services/furniture-removal` keeps the booking term.
-- K10 owns the fit-out-to-collection handoff: asset freeze, fixed-versus-loose boundary, technical release, material separation, phased quantities and managed access. Shop handback, office strip-out and renovation debris retain their existing scopes; `/services/commercial-junk-removal` keeps the commercial booking term.
+- D8 owns sectional-sofa preparation: module identification, intended connections and the largest released section against the full route. The general doorway-problem guide keeps route geometry for all sofas, and `/services/sofa-removal` keeps transactional variants.
+- C22 owns coordination of furniture across a whole apartment: ownership, room inventory, dismantling decisions and one building window. Individual-item and tower-logistics guides keep their detail; `/services/residential-junk-removal` keeps apartment booking intent.
+- F18 owns a defined one-off office load and its boundary from routine bins, confidential/data processes and technical waste. Office-furniture and fit-out guides retain their narrower scopes; `/services/commercial-junk-removal` keeps the commercial booking term.
 - All three are qualitative editorial tests without Search Console or Keyword Planner demand evidence. Review at Day 30 and Day 60 and consolidate if an article competes with its money page.
 
 ## Images
@@ -21,8 +21,8 @@ All slots reuse existing Vercel Blob assets by URL, with no upload, generation o
 
 ## Inbound links
 
-- garden-furniture disposal → villa-garden waste removal
-- wardrobe removal → bedroom-furniture removal
-- shop clearance → retail fit-out waste removal
+- sofa-won't-fit guide → L-shaped sofa removal
+- bulky-items tower guide → apartment furniture removal
+- office-furniture removal → one-off office waste collection
 
-All three are dated 2026-10-23 in Dubai time.
+All three are dated 2026-10-24 in Dubai time.

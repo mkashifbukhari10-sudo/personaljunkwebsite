@@ -80,6 +80,8 @@ Identify floor boxes, power and data cabling, wall anchors and built-in joinery 
 
 ## A practical week-before checklist
 
+If the job also includes packaging and cleared office contents, the [one-off office waste collection guide](/blog/office-waste-collection-dubai) separates that finished load from routine bins, records, IT and technical material.
+
 For an education site, the [school-office clearance guide](/blog/school-office-clearance-dubai) adds the asset, records, IT and controlled-access checks needed during a fixed closure window.
 
 Seven days before the target date, freeze the inventory and tell staff when personal items must be removed. Confirm the building's contractor and vehicle requirements, reserve the lift and send the route information to the collector. Ask IT to complete its device inventory and approved data handling. Arrange any reuse recipients with a firm pickup date, and mark those pieces so they are not loaded by mistake.

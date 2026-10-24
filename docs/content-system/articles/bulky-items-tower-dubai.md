@@ -89,6 +89,8 @@ A tower move succeeds when the item, route, lift, building permission and vehicl
 
 ## Plan several bulky items as one movement sequence
 
+When the job covers furniture across several rooms, the [apartment furniture removal guide](/blog/apartment-furniture-removal-dubai) ties the item inventory, ownership decisions and building window into one lift-ready plan.
+
 When a room contains several large pieces, avoid treating each item as an isolated carry. Record the dimensions and dismantling needs of every piece, then decide which one must leave first to create working space. A dining table may block access to a cabinet; a bed frame may need to leave before a wardrobe can rotate. The correct sequence is based on space, not value or visual size.
 
 Keep dismantled parts beside their parent item until they are ready to move. Label reusable panels and bag hardware. Do not stack glass, mirrors or narrow boards against a corridor wall where they can fall or reduce the turning radius. If an item is being kept, protect its finish and agree where it will be reassembled. If it is being removed, keep all of its parts in the outgoing inventory.

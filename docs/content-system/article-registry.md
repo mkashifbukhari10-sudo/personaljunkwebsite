@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-23:** **85 published repository articles, all with at least 2,000 body words.** The latest three, N-39 to N-41, cover multi-zone villa garden waste, whole-room bedroom furniture and the retail fit-out handoff from project trades to collection. They promote mapped rows G20, C11 and K10 to distinct planning guides while the garden-waste, furniture and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
+**Current state as at 2026-10-24:** **88 published repository articles, all with at least 2,000 body words.** The latest three, N-42 to N-44, cover sectional L-shaped sofas, whole-apartment furniture logistics and the boundary for a one-off office waste load. They promote mapped rows D8, C22 and F18 to distinct planning guides while the sofa, residential and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
 
 ---
 
@@ -201,6 +201,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-39 | `villa-garden-waste-removal-dubai` | Villa Garden Waste Removal: Map Every Zone and Material | villa garden waste removal dubai | SC1 | G | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-23 | 2026-10-23 | none | `/blog/garden-furniture-disposal-dubai` | 2263 body words; keywords.md G20 promoted to BLOG. Repository post. Owns the multi-zone outdoor inventory and contractor handoff; individual material guides keep their detail. |
 | N-40 | `bedroom-furniture-removal-dubai` | Bedroom Furniture Removal: Inventory the Whole Room First | bedroom furniture removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-23 | 2026-10-23 | none | `/blog/wardrobe-removal-dubai` | 2185 body words; keywords.md C11 promoted to BLOG. Repository post. Owns whole-room coordination; bed, mattress and wardrobe articles retain item-level preparation. |
 | N-41 | `retail-fit-out-waste-removal-dubai` | Retail Fit-Out Waste Removal: Release, Sort and Stage Every Load | retail fit out waste removal dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-23 | 2026-10-23 | none | `/blog/shop-clearance-dubai` | 2346 body words; keywords.md K10 promoted to BLOG. Repository post. Collection begins after authorised project trades release fixed material; no demolition or technical disconnection implied. |
+| N-42 | `l-shaped-sofa-removal-dubai` | L-Shaped Sofa Removal: Map Every Section and Turn | L shaped sofa removal dubai | SC1 | G | `sofa-removal` | — | `PUBLISHED` | 2026-10-24 | 2026-10-24 | none | `/blog/sofa-wont-fit-through-door-dubai` | 2077 body words; keywords.md D8 promoted to BLOG. Repository post. Owns sectional modules and connectors; the existing doorway guide keeps general route geometry. |
+| N-43 | `apartment-furniture-removal-dubai` | Apartment Furniture Removal: Build One Lift-Ready Plan | furniture removal apartment dubai | SC1 | G | `residential-junk-removal` | — | `PUBLISHED` | 2026-10-24 | 2026-10-24 | none | `/blog/bulky-items-tower-dubai` | 2000+ body words; keywords.md C22 promoted to BLOG. Repository post. Owns whole-apartment furniture coordination; item guides and tower logistics keep their detailed scopes. |
+| N-44 | `office-waste-collection-dubai` | Office Waste Collection: Define the One-Off Load First | office waste collection dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-24 | 2026-10-24 | none | `/blog/office-furniture-removal-dubai` | 2121 body words; keywords.md F18 promoted to BLOG. Repository post. Owns a defined one-off loose load and explicitly excludes assumed recurring, data-destruction and technical services. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -425,6 +428,9 @@ Eighty-five articles are published; each primary keyword has one owner.
 | villa garden waste removal dubai | `/blog/villa-garden-waste-removal-dubai` | N-39 | 2026-10-23 |
 | bedroom furniture removal dubai | `/blog/bedroom-furniture-removal-dubai` | N-40 | 2026-10-23 |
 | retail fit out waste removal dubai | `/blog/retail-fit-out-waste-removal-dubai` | N-41 | 2026-10-23 |
+| L shaped sofa removal dubai | `/blog/l-shaped-sofa-removal-dubai` | N-42 | 2026-10-24 |
+| furniture removal apartment dubai | `/blog/apartment-furniture-removal-dubai` | N-43 | 2026-10-24 |
+| office waste collection dubai | `/blog/office-waste-collection-dubai` | N-44 | 2026-10-24 |
 
 ### 5.3 · Reserved by the queue
 
@@ -536,6 +542,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-39 `villa-garden-waste-removal-dubai` | `/blog/garden-furniture-disposal-dubai` | article | “villa-garden waste removal guide” | ☑ applied |
 | #N-40 `bedroom-furniture-removal-dubai` | `/blog/wardrobe-removal-dubai` | article | “bedroom-furniture removal guide” | ☑ applied |
 | #N-41 `retail-fit-out-waste-removal-dubai` | `/blog/shop-clearance-dubai` | article | “retail fit-out waste removal guide” | ☑ applied |
+| #N-42 `l-shaped-sofa-removal-dubai` | `/blog/sofa-wont-fit-through-door-dubai` | article | “L-shaped sofa removal guide” | ☑ applied |
+| #N-43 `apartment-furniture-removal-dubai` | `/blog/bulky-items-tower-dubai` | article | “apartment furniture removal guide” | ☑ applied |
+| #N-44 `office-waste-collection-dubai` | `/blog/office-furniture-removal-dubai` | article | “one-off office waste collection guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -774,6 +783,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-24 | Added N-42 to N-44 as repository posts: L-shaped sofa removal, apartment furniture removal and one-off office waste collection. Promoted mapped rows D8, C22 and F18 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the sofa-doorway, tower and office-furniture guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-23 | Added N-39 to N-41 as repository posts: villa-garden waste removal, bedroom-furniture removal and retail fit-out waste removal. Promoted mapped rows G20, C11 and K10 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the garden-furniture, wardrobe and shop-clearance guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-22 | Added N-36 to N-38 as repository posts: hedge-trimming waste removal, office desk removal and property clearance. Promoted mapped rows G13, K6 and H6 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the tree-branch, office-furniture and landlord-inspection guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-21 | Added N-33 to N-35 as repository posts: grass-clippings disposal, studio-apartment clearance and school-office clearance. Promoted mapped rows G12, H19 and K19 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the landscaping-waste, small-apartment and office-furniture guides. | Owner requested the next three articles following the Markdown content system. |

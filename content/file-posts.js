@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "office-waste-collection-dubai",
+    title: "Office Waste Collection: Define the One-Off Load First",
+    excerpt: "Separate a one-off office clearance from routine waste, freeze assets and data decisions, sort the finished load, and confirm the building route before collection.",
+    publishedAt: "2026-10-24T05:00:10.000Z",
+    cover: "office-furniture-cover",
+    services: [
+      "commercial-junk-removal"
+    ],
+    seoTitle: "Office Waste Collection Dubai: Plan a One-Off Load",
+    seoDescription: "Plan one-off office waste collection in Dubai: define the load, freeze assets, isolate records and IT, sort materials and confirm building access."
+  },
+  {
+    slug: "apartment-furniture-removal-dubai",
+    title: "Apartment Furniture Removal: Build One Lift-Ready Plan",
+    excerpt: "Inventory every outgoing piece, settle ownership, dismantle only where needed, measure the largest component, and reserve one clear building route.",
+    publishedAt: "2026-10-24T05:00:05.000Z",
+    cover: "bulky-item-tower-cover",
+    services: [
+      "residential-junk-removal"
+    ],
+    seoTitle: "Apartment Furniture Removal Dubai: Lift-Ready Plan",
+    seoDescription: "Plan apartment furniture removal in Dubai: inventory every piece, confirm ownership, measure the largest component and reserve the lift and loading route."
+  },
+  {
+    slug: "l-shaped-sofa-removal-dubai",
+    title: "L-Shaped Sofa Removal: Map Every Section and Turn",
+    excerpt: "Identify every sofa module, find the intended connections, measure the largest rigid section, and test it against every doorway, turn, lift and loading point.",
+    publishedAt: "2026-10-24T05:00:00.000Z",
+    cover: "sofa-doorway-cover",
+    services: [
+      "sofa-removal"
+    ],
+    seoTitle: "L-Shaped Sofa Removal Dubai: Section and Route Plan",
+    seoDescription: "Prepare an L-shaped sofa for removal in Dubai: identify modules and connections, measure the largest section and test every turn, lift and doorway."
+  },
+  {
     slug: "retail-fit-out-waste-removal-dubai",
     title: "Retail Fit-Out Waste Removal: Release, Sort and Stage Every Load",
     excerpt: "Freeze assets and stock, release fixed items through the right trades, separate each material group, and schedule collection around confirmed building access.",
