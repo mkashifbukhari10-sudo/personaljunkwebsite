@@ -477,6 +477,42 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "old-appliance-removal-dubai",
+    title: "Old Appliance Removal: Release Every Unit Before Collection",
+    excerpt: "List every appliance, confirm ownership, assign disconnection, empty and drain each unit, then coordinate one clear route with replacement deliveries.",
+    publishedAt: "2026-10-25T05:00:10.000Z",
+    cover: "fridge-disposal-cover",
+    services: [
+      "appliance-disposal"
+    ],
+    seoTitle: "Old Appliance Removal Dubai: Multi-Appliance Plan",
+    seoDescription: "Plan old-appliance removal in Dubai: confirm ownership, assign safe disconnection, empty and drain every unit, measure routes and coordinate delivery."
+  },
+  {
+    slug: "next-day-junk-removal-dubai",
+    title: "Next-Day Junk Removal: Use Tonight to Make Tomorrow Work",
+    excerpt: "Confirm the date and deadline, freeze the load, secure building access, prepare awkward items, and give collection a clear window before tomorrow arrives.",
+    publishedAt: "2026-10-25T05:00:05.000Z",
+    cover: "before-crew-arrives-cover",
+    services: [
+      "same-day-junk-removal"
+    ],
+    seoTitle: "Next-Day Junk Removal Dubai: Overnight Checklist",
+    seoDescription: "Prepare next-day junk removal in Dubai: confirm availability, freeze the load, secure access, ready appliances and protect the handover deadline."
+  },
+  {
+    slug: "bulky-item-pickup-dubai",
+    title: "Bulky-Item Pickup: Show the Object and the Whole Route",
+    excerpt: "Name every large item, show its condition, measure the largest rigid part, photograph each route restriction, and confirm the building loading window.",
+    publishedAt: "2026-10-25T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: [
+      "junk-removal"
+    ],
+    seoTitle: "Bulky Item Pickup Dubai: Photo and Route Checklist",
+    seoDescription: "Prepare a bulky-item pickup in Dubai with a complete inventory, useful photos, dimensions, route checks, building approval and loading access."
+  },
+  {
     slug: "office-waste-collection-dubai",
     title: "Office Waste Collection: Define the One-Off Load First",
     excerpt: "Separate a one-off office clearance from routine waste, freeze assets and data decisions, sort the finished load, and confirm the building route before collection.",

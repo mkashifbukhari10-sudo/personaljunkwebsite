@@ -1,28 +1,28 @@
-# Next three article briefs — article date 2026-10-24
+# Next three article briefs — article date 2026-10-25
 
-These are **repository posts**. Each is a Markdown body in `articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes an existing mapped SUPPORT row in `keywords.md` to a deliberately narrow article URL. The three service pages keep the broad transactional booking terms.
+These are **repository posts**. Each is a Markdown body in `docs/content-system/articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes an existing mapped SUPPORT row in `keywords.md` to a deliberately narrow article URL. The three service pages keep the broad transactional booking terms.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |
 |---|---|---|---|---|---|---|---|
-| N-42 | L shaped sofa removal dubai (D8) | L-Shaped Sofa Removal: Map Every Section and Turn | `l-shaped-sofa-removal-dubai` | Identify every sofa module, find the intended connections, measure the largest rigid section, and test it against every doorway, turn, lift and loading point. | `sofa-removal` | `sofa-doorway-cover` | `sofa-route-measurement` |
-| N-43 | furniture removal apartment dubai (C22) | Apartment Furniture Removal: Build One Lift-Ready Plan | `apartment-furniture-removal-dubai` | Inventory every outgoing piece, settle ownership, dismantle only where needed, measure the largest component, and reserve one clear building route. | `residential-junk-removal` | `bulky-item-tower-cover` | `tower-route-measurement` |
-| N-44 | office waste collection dubai (F18) | Office Waste Collection: Define the One-Off Load First | `office-waste-collection-dubai` | Separate a one-off office clearance from routine waste, freeze assets and data decisions, sort the finished load, and confirm the building route before collection. | `commercial-junk-removal` | `office-furniture-cover` | `office-furniture-sorting` |
+| N-45 | bulky item pickup dubai (A18) | Bulky-Item Pickup: Show the Object and the Whole Route | `bulky-item-pickup-dubai` | Name every large item, show its condition, measure the largest rigid part, photograph each route restriction, and confirm the building loading window. | `junk-removal` | `old-furniture-disposal-cover` | `old-furniture-disposal-cover` |
+| N-46 | next day junk removal dubai (B9) | Next-Day Junk Removal: Use Tonight to Make Tomorrow Work | `next-day-junk-removal-dubai` | Confirm the date and deadline, freeze the load, secure building access, prepare awkward items, and give collection a clear window before tomorrow arrives. | `same-day-junk-removal` | `before-crew-arrives-cover` | `before-crew-arrives-cover` |
+| N-47 | old appliance removal dubai (E10) | Old Appliance Removal: Release Every Unit Before Collection | `old-appliance-removal-dubai` | List every appliance, confirm ownership, assign disconnection, empty and drain each unit, then coordinate one clear route with replacement deliveries. | `appliance-disposal` | `fridge-disposal-cover` | `fridge-disposal-cover` |
 
 ## Mapping and cannibalization boundary
 
-- D8 owns sectional-sofa preparation: module identification, intended connections and the largest released section against the full route. The general doorway-problem guide keeps route geometry for all sofas, and `/services/sofa-removal` keeps transactional variants.
-- C22 owns coordination of furniture across a whole apartment: ownership, room inventory, dismantling decisions and one building window. Individual-item and tower-logistics guides keep their detail; `/services/residential-junk-removal` keeps apartment booking intent.
-- F18 owns a defined one-off office load and its boundary from routine bins, confidential/data processes and technical waste. Office-furniture and fit-out guides retain their narrower scopes; `/services/commercial-junk-removal` keeps the commercial booking term.
+- A18 owns the information needed to assess a specific bulky object: complete item identification, condition, useful photographs, the largest rigid component and the complete route. General acceptance and booking stay with `/services/junk-removal`; tower logistics and individual furniture guides keep their detail.
+- B9 owns the overnight preparation window after same-day is unavailable: fixed date and deadline, frozen load, access confirmation, dependencies and a fallback. `/services/same-day-junk-removal` keeps urgent booking intent, and the existing same-day article keeps the question of whether collection today is possible.
+- E10 owns coordination of several unlike old appliances in one collection: ownership, a unit-by-unit release register, draining, route order and replacement-delivery sequencing. Individual appliance guides keep item-specific preparation; `/services/appliance-disposal` keeps the broad transaction.
 - All three are qualitative editorial tests without Search Console or Keyword Planner demand evidence. Review at Day 30 and Day 60 and consolidate if an article competes with its money page.
 
 ## Images
 
-All slots reuse existing Vercel Blob assets by URL, with no upload, generation or download. Alt text is the stored alt text of the original Media documents. See `image-backlog.md`.
+All slots reuse existing Vercel Blob assets by key, with no upload, generation or download. Alt text is the stored alt text in `fileImages`. See `image-backlog.md`.
 
 ## Inbound links
 
-- sofa-won't-fit guide → L-shaped sofa removal
-- bulky-items tower guide → apartment furniture removal
-- office-furniture removal → one-off office waste collection
+- before-the-crew guide → bulky-item pickup
+- same-day reality guide → next-day junk removal
+- fridge-disposal guide → multi-appliance removal
 
-All three are dated 2026-10-24 in Dubai time.
+All three are dated 2026-10-25 in Dubai time.

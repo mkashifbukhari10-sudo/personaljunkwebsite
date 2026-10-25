@@ -568,7 +568,7 @@ Owner: `/` (head) and `/services/junk-removal` (qualified variants).
 | A15 | take my junk dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P2 | Removal intent, but dominated by an established competitor brand. Secondary only. |
 | A16 | bulky waste removal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | Bridges to the Municipality cluster (M). Strong. |
 | A17 | bulk waste disposal dubai | Commercial | HIGH | SUPPORT | `/blog/dubai-municipality-bulky-waste` | P1 | Resolved 2026-10-09: existing #4 owns the bulk-waste options and Municipality route. Commercial removal intent is served by `/services/junk-removal` via #4; no second blog URL. Demand is qualitative, not measured. |
-| A18 | bulky item pickup dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P2 | |
+| A18 | bulky item pickup dubai | Commercial | HIGH | BLOG | `/blog/bulky-item-pickup-dubai` | P2 | Editorial scope (2026-10-25): identify a specific bulky object, show condition, photograph the route and compare the largest rigid component with every restriction. `/services/junk-removal` keeps acceptance and transactional booking intent. Demand remains `UNVERIFIED`. |
 | A19 | junk removal cost dubai | Commercial | HIGH | BLOG | `/blog/junk-removal-cost-dubai` | P1 | **Pillar.** Price research immediately precedes an enquiry. |
 | A20 | junk removal price dubai | Commercial | HIGH | SUPPORT | `/blog/junk-removal-cost-dubai` | P1 | Same intent as A19. |
 | A21 | junk removal price list dubai | Commercial | MED | SUPPORT | `/blog/junk-removal-cost-dubai` | P2 | Only publish real, honoured prices. |
@@ -600,7 +600,7 @@ Owner: `/services/same-day-junk-removal`.
 | B6 | junk removal today dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P1 | |
 | B7 | last minute junk removal dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P2 | |
 | B8 | short notice junk removal dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P3 | |
-| B9 | next day junk removal dubai | Transactional | HIGH | SUPPORT | `/services/same-day-junk-removal` | P2 | Fallback when same-day slots are gone. |
+| B9 | next day junk removal dubai | Transactional | HIGH | BLOG | `/blog/next-day-junk-removal-dubai` | P2 | Editorial scope (2026-10-25): use the overnight preparation window to freeze the load, confirm building access, sequence dependencies and protect a next-day deadline. `/services/same-day-junk-removal` keeps the booking transaction; B14 keeps same-day feasibility. Demand remains `UNVERIFIED`. |
 | B10 | weekend junk removal dubai | Transactional | HIGH | BLOG | `/blog/weekend-junk-removal-dubai` | P2 | Pickups 7 days a week confirmed; Saturday vs Sunday building access verified. |
 | B11 | 24 hour junk removal dubai | Transactional | MED | SUPPORT | `/services/same-day-junk-removal` | P3 | **Only if true.** Do not imply 24h operation otherwise. |
 | B12 | fast junk removal dubai | Commercial | HIGH | SUPPORT | `/services/same-day-junk-removal` | P2 | |
@@ -681,7 +681,7 @@ Owner: `/services/appliance-disposal`.
 | E7 | freezer disposal dubai | Commercial | MED | BLOG | `/blog/freezer-disposal-dubai` | P3 | Editorial scope (2026-10-17): food planning, defrosting, meltwater, chest versus upright units and route measurement; `/services/appliance-disposal` keeps the transactional intent. |
 | E8 | appliance removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P1 | |
 | E9 | appliance disposal dubai | Commercial | HIGH | SERVICE | `/services/appliance-disposal` | P1 | Page's own primary. |
-| E10 | old appliance removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
+| E10 | old appliance removal dubai | Commercial | HIGH | BLOG | `/blog/old-appliance-removal-dubai` | P2 | Editorial scope (2026-10-25): coordinate several unlike appliances through a unit-by-unit ownership, disconnection, draining, route and replacement-delivery register. Individual appliance guides keep item detail; `/services/appliance-disposal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | E11 | washing machine removal dubai | Commercial | HIGH | BLOG | `/blog/washing-machine-removal-dubai` | P2 | |
 | E12 | washing machine disposal dubai | Commercial | HIGH | SUPPORT | `/blog/washing-machine-removal-dubai` | P2 | |
 | E13 | dryer disposal dubai | Commercial | MED | BLOG | `/blog/dryer-disposal-dubai` | P3 | Editorial scope (2026-10-16): vented, condenser and stacked dryers, emptying water and vent hoses before collection; `/services/appliance-disposal` keeps the transactional intent. |
@@ -1331,14 +1331,14 @@ These are **existing mapped searches with no dedicated published article** at th
 | 17 | F18 | office waste collection dubai | `/blog/office-waste-collection-dubai` | **Commissioned article 2026-10-24**; one-off load and routine-waste boundary |
 | 18 | A9 | junk disposal dubai | `/services/junk-removal` | Explain disposal route accurately |
 | 19 | A12 | rubbish removal dubai | `/services/junk-removal` | Keep British-English variant on same URL |
-| 20 | A18 | bulky item pickup dubai | `/services/junk-removal` | Add item-photo checklist |
+| 20 | A18 | bulky item pickup dubai | `/blog/bulky-item-pickup-dubai` | **Commissioned article 2026-10-25**; object-photo and complete-route brief |
 | 21 | B2 | same day rubbish removal dubai | `/services/same-day-junk-removal` | Keep language variant on same URL |
 | 22 | B3 | same day junk pickup dubai | `/services/same-day-junk-removal` | Keep timing variant on same URL |
-| 23 | B9 | next day junk removal dubai | `/services/same-day-junk-removal` | Explain next-day fallback |
+| 23 | B9 | next day junk removal dubai | `/blog/next-day-junk-removal-dubai` | **Commissioned article 2026-10-25**; overnight preparation and deadline angle |
 | 24 | C9 | broken furniture disposal dubai | `/blog/broken-furniture-disposal-dubai` | **Commissioned article 2026-10-15**; damaged-furniture handling angle |
 | 25 | C10 | furniture dismantling dubai | `/services/furniture-removal` | Link wardrobe and sofa access guides |
 | 26 | D8 | L shaped sofa removal dubai | `/blog/l-shaped-sofa-removal-dubai` | **Commissioned article 2026-10-24**; sectional-module and route angle |
-| 27 | E10 | old appliance removal dubai | `/services/appliance-disposal` | Link fridge, washer and TV guides |
+| 27 | E10 | old appliance removal dubai | `/blog/old-appliance-removal-dubai` | **Commissioned article 2026-10-25**; multi-appliance release register |
 | 28 | G20 | villa garden waste removal dubai | `/blog/villa-garden-waste-removal-dubai` | **Commissioned article 2026-10-23**; multi-zone garden inventory and contractor-handoff angle |
 | 29 | I12 | townhouse clearance dubai | `/blog/townhouse-clearance-dubai` | **Commissioned article 2026-10-15**; stairs and floor-by-floor angle |
 | 30 | K6 | office desk removal dubai | `/services/commercial-junk-removal` | Link office-furniture guide |
@@ -1360,6 +1360,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling (2026-10-23):** G20, C11 and K10 now have narrow planning articles. G20 owns the multi-zone villa-garden inventory, material separation and contractor-to-collector handoff; C11 owns a whole-bedroom inventory and coordinated route while item-specific bed, mattress and wardrobe guides keep their detail; K10 owns the project handoff from fixed retail fit-out to a loose, sorted and access-approved collection load. The garden-waste, furniture and commercial service pages retain the broad transactional terms. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 
 **Ownership ruling (2026-10-24):** D8, C22 and F18 now have narrow planning articles. D8 owns sectional-sofa modules, connectors and the largest released section; C22 owns the whole-apartment furniture inventory tied to one building route; F18 owns the boundary and preparation for a defined one-off office load. The sofa, residential and commercial service pages retain broad transactional intent. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
+
+**Ownership ruling (2026-10-25):** A18, B9 and E10 now have narrow planning articles. A18 owns the photo-and-route brief for one or more bulky objects; B9 owns the overnight preparation window between an unavailable same-day request and a confirmed next-day collection; E10 owns the register that coordinates several unlike appliances without replacing item-specific guides. The junk-removal, same-day and appliance-disposal service pages retain broad transactional intent. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 
 **Held:** H18 `hoarder house clearance dubai` remains uncommissionable until the owner confirms the capability and safe scope. A17 and E29 remain SUPPORT on published guides, resolving their duplicate article URLs.
 

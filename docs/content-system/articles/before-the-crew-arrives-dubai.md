@@ -91,7 +91,7 @@ If a large cabinet is included, review the [wardrobe removal plan](/blog/wardrob
 
 ## A room-by-room method
 
-Start at the farthest room. Mark the outgoing items, remove personal contents and photograph the load. Then inspect the path to the main route. Repeat for each room without moving everything into one central pile.
+Start at the farthest room. Mark the outgoing items, remove personal contents and photograph the load. Then inspect the path to the main route. Repeat for each room without moving everything into one central pile. For a large single object, use the [bulky-item pickup photo and route checklist](/blog/bulky-item-pickup-dubai) to capture the item, its largest rigid component and every restriction to the vehicle.
 
 Keep small items boxed by room where practical. Group frame parts and hardware together. Leave enough working space around large furniture for dismantling or lifting. In kitchens and utility rooms, confirm appliances are ready under the provider’s requirements.
 

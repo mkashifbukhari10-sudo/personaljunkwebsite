@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-24:** **88 published repository articles, all with at least 2,000 body words.** The latest three, N-42 to N-44, cover sectional L-shaped sofas, whole-apartment furniture logistics and the boundary for a one-off office waste load. They promote mapped rows D8, C22 and F18 to distinct planning guides while the sofa, residential and commercial service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
+**Current state as at 2026-10-25:** **91 published repository articles, all with at least 2,000 body words.** The latest three, N-45 to N-47, cover the photo-and-route brief for bulky items, overnight preparation for next-day removal and coordination of a mixed old-appliance load. They promote mapped rows A18, B9 and E10 to distinct planning guides while the junk-removal, same-day and appliance-disposal service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**85 published records as of 2026-10-23.**
+**91 published records as of 2026-10-25.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -204,6 +204,9 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | N-42 | `l-shaped-sofa-removal-dubai` | L-Shaped Sofa Removal: Map Every Section and Turn | L shaped sofa removal dubai | SC1 | G | `sofa-removal` | — | `PUBLISHED` | 2026-10-24 | 2026-10-24 | none | `/blog/sofa-wont-fit-through-door-dubai` | 2077 body words; keywords.md D8 promoted to BLOG. Repository post. Owns sectional modules and connectors; the existing doorway guide keeps general route geometry. |
 | N-43 | `apartment-furniture-removal-dubai` | Apartment Furniture Removal: Build One Lift-Ready Plan | furniture removal apartment dubai | SC1 | G | `residential-junk-removal` | — | `PUBLISHED` | 2026-10-24 | 2026-10-24 | none | `/blog/bulky-items-tower-dubai` | 2000+ body words; keywords.md C22 promoted to BLOG. Repository post. Owns whole-apartment furniture coordination; item guides and tower logistics keep their detailed scopes. |
 | N-44 | `office-waste-collection-dubai` | Office Waste Collection: Define the One-Off Load First | office waste collection dubai | SC6 | H | `commercial-junk-removal` | — | `PUBLISHED` | 2026-10-24 | 2026-10-24 | none | `/blog/office-furniture-removal-dubai` | 2121 body words; keywords.md F18 promoted to BLOG. Repository post. Owns a defined one-off loose load and explicitly excludes assumed recurring, data-destruction and technical services. |
+| N-45 | `bulky-item-pickup-dubai` | Bulky-Item Pickup: Show the Object and the Whole Route | bulky item pickup dubai | SC1 | G | `junk-removal` | — | `PUBLISHED` | 2026-10-25 | 2026-10-25 | none | `/blog/before-the-crew-arrives-dubai` | 2113 body words; keywords.md A18 promoted to BLOG. Repository post. Owns the object-photo and full-route brief; general acceptance and booking stay with the service page. |
+| N-46 | `next-day-junk-removal-dubai` | Next-Day Junk Removal: Use Tonight to Make Tomorrow Work | next day junk removal dubai | SC3 | E | `same-day-junk-removal` | — | `PUBLISHED` | 2026-10-25 | 2026-10-25 | none | `/blog/junk-gone-today-dubai` | 2010 body words; keywords.md B9 promoted to BLOG. Repository post. Owns overnight preparation and next-day deadline control while the service page keeps the urgent booking transaction. |
+| N-47 | `old-appliance-removal-dubai` | Old Appliance Removal: Release Every Unit Before Collection | old appliance removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-25 | 2026-10-25 | none | `/blog/dispose-fridge-dubai` | 2158 body words; keywords.md E10 promoted to BLOG. Repository post. Owns coordination of several unlike appliances; the individual appliance guides retain item-level preparation. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -339,7 +342,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Eighty-five articles are published; each primary keyword has one owner.
+Ninety-one articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -431,6 +434,9 @@ Eighty-five articles are published; each primary keyword has one owner.
 | L shaped sofa removal dubai | `/blog/l-shaped-sofa-removal-dubai` | N-42 | 2026-10-24 |
 | furniture removal apartment dubai | `/blog/apartment-furniture-removal-dubai` | N-43 | 2026-10-24 |
 | office waste collection dubai | `/blog/office-waste-collection-dubai` | N-44 | 2026-10-24 |
+| bulky item pickup dubai | `/blog/bulky-item-pickup-dubai` | N-45 | 2026-10-25 |
+| next day junk removal dubai | `/blog/next-day-junk-removal-dubai` | N-46 | 2026-10-25 |
+| old appliance removal dubai | `/blog/old-appliance-removal-dubai` | N-47 | 2026-10-25 |
 
 ### 5.3 · Reserved by the queue
 
@@ -545,6 +551,9 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #N-42 `l-shaped-sofa-removal-dubai` | `/blog/sofa-wont-fit-through-door-dubai` | article | “L-shaped sofa removal guide” | ☑ applied |
 | #N-43 `apartment-furniture-removal-dubai` | `/blog/bulky-items-tower-dubai` | article | “apartment furniture removal guide” | ☑ applied |
 | #N-44 `office-waste-collection-dubai` | `/blog/office-furniture-removal-dubai` | article | “one-off office waste collection guide” | ☑ applied |
+| #N-45 `bulky-item-pickup-dubai` | `/blog/before-the-crew-arrives-dubai` | article | “bulky-item pickup photo and route checklist” | ☑ applied |
+| #N-46 `next-day-junk-removal-dubai` | `/blog/junk-gone-today-dubai` | article | “next-day junk-removal checklist” | ☑ applied |
+| #N-47 `old-appliance-removal-dubai` | `/blog/dispose-fridge-dubai` | article | “old-appliance removal register” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -783,6 +792,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-25 | Added N-45 to N-47 as repository posts: bulky-item pickup, next-day junk removal and multi-appliance removal. Promoted mapped rows A18, B9 and E10 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the crew-preparation, same-day and fridge guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-24 | Added N-42 to N-44 as repository posts: L-shaped sofa removal, apartment furniture removal and one-off office waste collection. Promoted mapped rows D8, C22 and F18 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the sofa-doorway, tower and office-furniture guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-23 | Added N-39 to N-41 as repository posts: villa-garden waste removal, bedroom-furniture removal and retail fit-out waste removal. Promoted mapped rows G20, C11 and K10 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the garden-furniture, wardrobe and shop-clearance guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-22 | Added N-36 to N-38 as repository posts: hedge-trimming waste removal, office desk removal and property clearance. Promoted mapped rows G13, K6 and H6 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the tree-branch, office-furniture and landlord-inspection guides. | Owner requested the next three articles following the Markdown content system. |

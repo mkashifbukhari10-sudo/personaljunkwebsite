@@ -108,7 +108,7 @@ If anything changes, send the update promptly: another item added, a lift bookin
 
 ## Have a fallback if today cannot be confirmed
 
-Ask for the earliest confirmed alternative rather than treating an unconfirmed possibility as your only plan. Identify which dependent appointment can move and who needs to know. If your building access window changes, coordinate that separately; a new collection time may require a new access arrangement.
+Ask for the earliest confirmed alternative rather than treating an unconfirmed possibility as your only plan. If tomorrow is available, the [next-day junk-removal checklist](/blog/next-day-junk-removal-dubai) shows how to use the overnight window to freeze the load and secure access. Identify which dependent appointment can move and who needs to know. If your building access window changes, coordinate that separately; a new collection time may require a new access arrangement.
 
 For a handover, review the wider [end-of-tenancy clearance timeline](/blog/end-of-tenancy-clearance-dubai). A missed collection slot can affect cleaning and inspection readiness. Work through those dependencies directly instead of assuming that booking another truck is the only decision involved.
 

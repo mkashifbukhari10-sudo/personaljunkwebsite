@@ -128,7 +128,7 @@ Do not leave the unit beside a communal bin. Use the official service where elig
 
 List every additional item. A washing machine, cooker, mattress or sofa affects vehicle space and carrying order. Do not assume small furniture can be added without notice.
 
-Keep appliance preparation separate. Each unit must be empty and ready under its own instructions. Loose furniture should not be stored inside the fridge.
+Keep appliance preparation separate. Each unit must be empty and ready under its own instructions. Loose furniture should not be stored inside the fridge. If the load includes several different units, build one [old-appliance removal register](/blog/old-appliance-removal-dubai) so ownership, disconnection and route decisions stay attached to the correct appliance.
 
 If old furniture is part of the same clearance, the [old-furniture disposal guide](/blog/dispose-old-furniture-dubai) compares reuse, recipient transfer, Municipality service and paid collection.
 
