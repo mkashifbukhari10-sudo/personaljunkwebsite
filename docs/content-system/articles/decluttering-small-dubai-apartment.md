@@ -57,7 +57,7 @@ A useful order:
 - Bathroom and personal items.
 - Papers, cables and small items.
 
-Large items are also the ones most likely to need help leaving. Deciding on them early gives you time to arrange a collection while you work on the smaller categories.
+Large items are also the ones most likely to need help leaving. Deciding on them early gives you time to arrange a collection while you work on the smaller categories. If the decisions themselves are the obstacle, compare a [decluttering service with junk removal](/blog/decluttering-service-or-junk-removal-dubai) before booking either type of help.
 
 ## Room by room in a small apartment
 

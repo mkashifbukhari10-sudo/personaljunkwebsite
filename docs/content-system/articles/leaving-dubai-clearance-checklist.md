@@ -30,7 +30,7 @@ Under Article 6 of [Law No. (18) of 2024 Regulating Waste Management in the Emir
 
 A successful relocation clearance begins four weeks before your scheduled departure date. The goal of this phase is to establish complete clarity on what will physically happen to every item in your home.
 
-Walk through every room with a notebook and divide your household contents into four distinct, realistic categories:
+Walk through every room with a notebook and divide your household contents into four distinct, realistic categories. If you are staying in Dubai but moving to a smaller property, use the separate [downsizing clearance plan](/blog/downsizing-clearance-dubai) to measure the destination and split the moving and removal inventories.
 
 ### Group one: Keep and ship internationally
 

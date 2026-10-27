@@ -102,7 +102,7 @@ Parking also affects the job. State whether the vehicle can reach the loading po
 
 ## Keep special items outside the ordinary furniture brief
 
-Some large objects need decisions beyond ordinary carry-out. Declare them early rather than placing them under “bulky items.” Examples include connected appliances, air-conditioning equipment, very dense stone, safes, large mirrors, aquariums, exercise machines and anything fixed to the property.
+Some large objects need decisions beyond ordinary carry-out. Declare them early rather than placing them under “bulky items.” Examples include connected appliances, air-conditioning equipment, very dense stone, safes, large mirrors, aquariums, exercise machines and anything fixed to the property. For a household running machine, the [treadmill removal guide](/blog/treadmill-removal-dubai) covers model identification, folding parts, loose accessories and the machine-specific route check.
 
 The collection crew should not be assumed to disconnect gas, hard-wired electricity, plumbing, refrigeration lines or fixed building systems. Arrange the appropriate technician or responsible party where needed, and confirm that the item will be released, empty and safe before collection. Likewise, do not promise that a heavy or unusual object is acceptable until its size, material and route have been assessed.
 

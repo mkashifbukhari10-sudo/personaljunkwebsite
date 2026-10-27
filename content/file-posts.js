@@ -477,6 +477,78 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "downsizing-clearance-dubai",
+    title: "Downsizing in Dubai: Clear for a Smaller Home Without Guesswork",
+    excerpt: "Measure the smaller home first, inventory every possession, separate moving and removal lists, and work backwards from the final property deadline.",
+    publishedAt: "2026-10-27T05:00:10.000Z",
+    cover: "leaving-dubai-checklist-cover",
+    services: ["house-clearance"],
+    seoTitle: "Downsizing in Dubai: Smaller-Home Clearance Plan",
+    seoDescription: "Plan a Dubai downsizing clearance: measure the new home, decide what moves, confirm recipient transfers, separate movers from removal and control access.",
+    ogTitle: "Downsizing in Dubai: Plan for the Home You Will Have",
+    ogDescription: "Measure capacity, separate every destination and clear only the final approved load."
+  },
+  {
+    slug: "decluttering-service-or-junk-removal-dubai",
+    title: "Decluttering Service or Junk Removal? Choose the Right Help",
+    excerpt: "An organiser helps you decide what stays; a junk removal crew takes away the final outgoing load. Use the right service at the right stage.",
+    publishedAt: "2026-10-27T05:00:05.000Z",
+    cover: "estate-clearance-cover",
+    services: ["junk-removal"],
+    seoTitle: "Decluttering Service vs Junk Removal in Dubai",
+    seoDescription: "Compare a Dubai decluttering service with junk removal: who helps make decisions, who carries the outgoing load, and when you need both in sequence.",
+    ogTitle: "Decluttering Service or Junk Removal?",
+    ogDescription: "Choose decision support first and physical removal after the outgoing load is final."
+  },
+  {
+    slug: "treadmill-removal-dubai",
+    title: "Treadmill Removal in Dubai: Prepare the Machine and the Route",
+    excerpt: "Identify the treadmill, secure the deck and loose parts, measure its largest rigid section, and prove the complete route to the collection vehicle.",
+    publishedAt: "2026-10-27T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Treadmill Removal Dubai: Machine and Route Guide",
+    seoDescription: "Prepare a household treadmill for removal in Dubai: identify the model, secure loose parts, measure the rigid frame and check doors, lifts and loading access.",
+    ogTitle: "Treadmill Removal: Prepare the Machine and Route",
+    ogDescription: "Identify the exact machine and measure every restriction before it moves."
+  },
+  {
+    slug: "downsizing-clearance-dubai",
+    title: "Downsizing in Dubai: Clear for a Smaller Home Without Guesswork",
+    excerpt: "Measure the smaller home first, inventory every possession, separate moving and removal lists, and work backwards from the final property deadline.",
+    publishedAt: "2026-10-27T05:00:10.000Z",
+    cover: "leaving-dubai-checklist-cover",
+    services: ["house-clearance"],
+    seoTitle: "Downsizing in Dubai: Smaller-Home Clearance Plan",
+    seoDescription: "Plan a Dubai downsizing clearance: measure the new home, decide what moves, confirm recipient transfers, separate movers from removal and control access.",
+    ogTitle: "Downsizing in Dubai: Plan for the Home You Will Have",
+    ogDescription: "Measure capacity, separate every destination and clear only the final approved load."
+  },
+  {
+    slug: "decluttering-service-or-junk-removal-dubai",
+    title: "Decluttering Service or Junk Removal? Choose the Right Help",
+    excerpt: "An organiser helps you decide what stays; a junk removal crew takes away the final outgoing load. Use the right service at the right stage.",
+    publishedAt: "2026-10-27T05:00:05.000Z",
+    cover: "estate-clearance-cover",
+    services: ["junk-removal"],
+    seoTitle: "Decluttering Service vs Junk Removal in Dubai",
+    seoDescription: "Compare a Dubai decluttering service with junk removal: who helps make decisions, who carries the outgoing load, and when you need both in sequence.",
+    ogTitle: "Decluttering Service or Junk Removal?",
+    ogDescription: "Choose decision support first and physical removal after the outgoing load is final."
+  },
+  {
+    slug: "treadmill-removal-dubai",
+    title: "Treadmill Removal in Dubai: Prepare the Machine and the Route",
+    excerpt: "Identify the treadmill, secure the deck and loose parts, measure its largest rigid section, and prove the complete route to the collection vehicle.",
+    publishedAt: "2026-10-27T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Treadmill Removal Dubai: Machine and Route Guide",
+    seoDescription: "Prepare a household treadmill for removal in Dubai: identify the model, secure loose parts, measure the rigid frame and check doors, lifts and loading access.",
+    ogTitle: "Treadmill Removal: Prepare the Machine and Route",
+    ogDescription: "Identify the exact machine and measure every restriction before it moves."
+  },
+  {
     slug: "old-appliance-removal-dubai",
     title: "Old Appliance Removal: Release Every Unit Before Collection",
     excerpt: "List every appliance, confirm ownership, assign disconnection, empty and drain each unit, then coordinate one clear route with replacement deliveries.",

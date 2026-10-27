@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 283 researched, relevant and mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count; the *demand* behind each keyword is not.
+**Count: 302 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **283 researched, relevant and mapped Dubai keyword opportunities**. They are **not** 283 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **302 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27). They are **not** 302 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -528,20 +528,20 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 
 | Cluster | Theme | Keywords |
 |---|---|---|
-| A | Core junk removal (head + company variants) | 32 |
+| A | Core junk removal (head + company variants) | 33 |
 | B | Same-day / urgent | 14 |
-| C | Furniture | 24 |
+| C | Furniture | 25 |
 | D | Sofa / couch | 15 |
 | E | Appliances, fridge & e-waste | 29 |
-| F | Garbage & waste | 18 |
-| G | Garden / green waste | 21 |
-| H | House / apartment clearance | 20 |
+| F | Garbage & waste | 19 |
+| G | Garden / green waste | 26 |
+| H | House / apartment clearance | 24 |
 | I | Villa clearance | 14 |
 | J | Residential / tower access | 12 |
-| K | Commercial / B2B | 19 |
+| K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
-| M | Informational support | 25 |
-| | **Total** | **283** |
+| M | Informational support | 30 |
+| | **Total** | **302** |
 
 ---
 
@@ -583,6 +583,7 @@ Owner: `/` (head) and `/services/junk-removal` (qualified variants).
 | A30 | book junk removal dubai | Transactional | HIGH | SUPPORT | `/contact` | P1 | Bottom of funnel. |
 | A31 | junk removal quote dubai | Transactional | HIGH | SUPPORT | `/contact` | P1 | |
 | A32 | what junk removal companies take dubai | Informational | MED | BLOG | `/blog/what-we-take-dubai` | P2 | Pre-qualifies leads; reduces wasted enquiries. |
+| A33 | treadmill removal dubai | Commercial | MED | BLOG | `/blog/treadmill-removal-dubai` | P3 | Editorial scope (2026-10-27): machine-specific preparation for treadmills and home-gym kit; crew actions limited to repository copy. `/services/junk-removal` keeps the transaction; `/areas/sports-city` keeps the area. Status `READY`. Qualitative, no autosuggest signal. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -639,6 +640,7 @@ Owner: `/services/furniture-removal`.
 | C22 | furniture removal apartment dubai | Commercial | HIGH | BLOG | `/blog/apartment-furniture-removal-dubai` | P2 | Editorial scope (2026-10-24): whole-apartment furniture inventory, ownership, dismantling decisions and one lift-ready building route. Item guides and tower logistics keep their detail; `/services/residential-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
+| C25 | media wall unit removal dubai | Commercial | MED | BLOG | `/blog/media-wall-unit-removal-dubai` | P3 | Editorial scope (2026-10-27): loose console versus built-in wall unit, fixings and ownership. No claim to remove fixed joinery. Status `READY`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -759,6 +761,11 @@ Owner: `/services/garden-waste-removal`.
 | G19 | landscaping waste removal dubai | Commercial | HIGH | BLOG | `/blog/landscaping-waste-removal-dubai` | P2 | Editorial scope (2026-10-19): separate the finished landscaping load by material, define cutting versus collection, control dense and excluded material, and plan the garden-to-vehicle route. `/services/garden-waste-removal` keeps the transactional booking term. |
 | G20 | villa garden waste removal dubai | Commercial | HIGH | BLOG | `/blog/villa-garden-waste-removal-dubai` | P1 | Editorial scope (2026-10-23): property-wide outdoor-zone inventory, separation of green material from soil, furniture and chemicals, contractor handoff and routes from every garden zone. `/services/garden-waste-removal` keeps the transaction; whole-villa contents stay with villa clearance. Demand remains `UNVERIFIED`. |
 | G21 | garden waste dubai bins | Informational | MED | BLOG | `/blog/garden-waste-bins-dubai` | P2 | "What the bins won't take" — clean problem→service path. |
+| G22 | trampoline removal dubai | Commercial | MED | BLOG | `/blog/trampoline-removal-dubai` | P3 | Editorial scope (2026-10-27): trampoline and play-set components, anchoring and permission, footprint. Status `READY — BUSINESS INPUT REQUIRED` (single capability source). Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| G23 | bbq grill disposal dubai | Commercial | MED | BLOG | `/blog/bbq-grill-disposal-dubai` | P3 | Editorial scope (2026-10-27): safety-led; gas cylinder separated and returned via supplier. Status `READY — BUSINESS INPUT REQUIRED`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| G24 | pergola removal dubai | Commercial | MED | BLOG | `/blog/pergola-removal-dubai` | P3 | Editorial scope (2026-10-27): ownership and release of dismantled pergola, shed, deck and fence material. Status `READY — BUSINESS INPUT REQUIRED`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| G25 | artificial grass removal dubai | Commercial | MED | BLOG | `/blog/artificial-grass-removal-dubai` | P3 | Editorial scope (2026-10-27): turf rolls, infill and base weight, ownership. Status `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| G26 | dubai municipality green waste collection | Informational | MED | BLOG | `/blog/dubai-municipality-green-waste-collection` | P2 | Editorial scope (2026-10-27): honest comparison of the reported municipal green-waste pickup with a paid garden clear-out; never implies the paid service is free. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` (no official DM page found). Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -790,6 +797,8 @@ Owner: `/services/house-clearance`.
 | H20 | clearance before moving dubai | Commercial | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P2 | |
 | H21 | balcony clearance dubai | Commercial | LOW-MED | BLOG | `/blog/balcony-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; re-check in Search Console. Scope: sorting and carrying a mixed balcony load; garden furniture detail stays with G18. |
 | H22 | children's room clearance dubai | Commercial | LOW-MED | BLOG | `/blog/childrens-room-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Scope: keepsakes first, reuse checks for children's furniture, toys and electronics separated. |
+| H23 | downsizing in dubai | Planning | MED | BLOG | `/blog/downsizing-clearance-dubai` | P3 | Editorial scope (2026-10-27): keep, donate or dispose sequence when moving to a smaller home. Status `READY`. Phrase observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
+| H24 | clear apartment before selling dubai | Planning | MED | BLOG | `/blog/clear-apartment-before-selling-dubai` | P3 | Editorial scope (2026-10-27): owner clearing a vacant unit before viewings; no real-estate or legal advice. Status `READY`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -862,6 +871,8 @@ Owner: `/services/commercial-junk-removal`.
 | K17 | IT equipment disposal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Data-security angle is a real differentiator. |
 | K18 | out of hours clearance dubai | Commercial | MED | BLOG | `/blog/out-of-hours-clearance-dubai` | P2 | Matches existing page copy. |
 | K19 | school office clearance dubai | Commercial | LOW-MED | BLOG | `/blog/school-office-clearance-dubai` | P3 | Editorial scope (2026-10-21): asset, records, IT and access control for administrative offices during a fixed school closure window. Classrooms and specialist rooms stay outside the assumed scope; `/services/commercial-junk-removal` keeps the transaction. Seasonal and `UNVERIFIED`. |
+| K20 | exhibition stand waste removal dubai | Commercial | MED | BLOG | `/blog/exhibition-stand-waste-removal-dubai` | P3 | Editorial scope (2026-10-27): loose post-show stand material; venue rules only as a reader checklist. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` and `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| K21 | restaurant furniture removal dubai | Commercial | MED | BLOG | `/blog/restaurant-furniture-removal-dubai` | P3 | Editorial scope (2026-10-27): furniture-only clearance during a closure or refit; kitchen equipment stays with K13. Status `READY — BUSINESS INPUT REQUIRED`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -945,6 +956,11 @@ These are the **traffic-and-trust engine**. Each must route to a money page.
 | M23 | how to prepare for a house clearance dubai | Informational | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P2 | |
 | M24 | who removes old furniture in dubai | Informational | HIGH | SUPPORT | `/blog/dispose-old-furniture-dubai` | P1 | Natural-language head query. |
 | M25 | junk removal dubai reviews | Navigational | MED | SUPPORT | GBP + `/about` | P2 | Won with real reviews, never fabricated ones. |
+| M26 | decluttering service dubai | Comparison | MED | BLOG | `/blog/decluttering-service-or-junk-removal-dubai` | P2 | Editorial scope (2026-10-27): organiser versus removal crew; no claim that this business offers organising. Status `READY`. Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
+| M27 | dubai municipality recycling centres | Informational | INFO | BLOG | `/blog/dubai-recycling-centres` | P2 | Editorial scope (2026-10-27): what Smart Sustainability Oasis centres take and what they do not; absorbs M10. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` (partly cleared 2026-10-27 from the official DM page). Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
+| M28 | rubbish dump dubai | Informational | INFO | BLOG | `/blog/where-to-take-rubbish-dubai` | P2 | Editorial scope (2026-10-27): what residents can actually do with rubbish and bulky items. Status `BLOCKED — SOURCE VERIFICATION REQUIRED`. Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
+| M29 | dubai municipality approved waste transporters | Informational | MED | BLOG | `/blog/waste-transporter-permit-dubai` | P2 | Editorial scope (2026-10-27): what licensed or approved means and what a customer can check; must not imply this business holds a permit. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` and `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
+| M30 | water damaged furniture removal dubai | Problem | MED | BLOG | `/blog/water-damaged-furniture-removal-dubai` | P3 | Editorial scope (2026-10-27): wet furniture and appliances after rain or a leak; contamination excluded. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` and `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Qualitative with an official-service pointer. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -988,7 +1004,7 @@ Six blog clusters. Every article belongs to exactly one, and every cluster point
 
 ## Keyword-to-Page Map
 
-Summary of the 283-keyword database by destination.
+Summary of the 302-keyword database by destination (approximate counts below predate the 2026-10-27 admissions).
 
 | Classification | Count (approx.) | Rule |
 |---|---|---|
@@ -1367,6 +1383,135 @@ These are **existing mapped searches with no dedicated published article** at th
 
 **Research note:** [Dubai Municipality bulky-waste service](https://www.dm.gov.ae/dubai-municipality-services/) confirms the topic has an official route; it does not supply search-volume evidence. Search-result presence was checked on 2026-10-09. No Search Console or Keyword Planner data was available for this review.
 
+## Expansion admissions (2026-10-27 research pass)
+
+**Purpose.** A request for up to 90 new article topics over 30 days (2026-10-26 → 2026-11-24) was tested against the six admission tests in *Data-Driven Keyword Expansion*. **Sixteen opportunities were admitted and are now rows in clusters A, C, G, H, K and M of the Master Keyword Database (counted in its totals).** Of the 16, five are fully `READY`, four are `READY — BUSINESS INPUT REQUIRED`, and seven are blocked. The shortfall against 90 is explained below with evidence. The dated schedule is in [`publishing-plan-2026-10-26.md`](./publishing-plan-2026-10-26.md).
+
+### Sources used, and what each can and cannot support
+
+| # | Source | Date | Used for | Limit |
+|---|---|---|---|---|
+| 1 | Repository audit: `keywords.md` (all cluster rows, C-1 to C-14), `article-registry.md`, `content-rules.md`, `content-structure.md`, `article-presentation*.md`, `image*.md`, `next-three-article-briefs.md`, all 91 article files (searched), `content/services.js`, `content/areas-expansion.js` | 2026-10-27 | Ownership baseline, cannibalization checks, owner-written capability evidence | — |
+| 2 | Google autocomplete (`suggestqueries.google.com`, `hl=en`, `gl=ae`): **3,506 harvested queries** (334 item and situation seeds × 6–9 templates, plus 30 core seeds × 26 letters) plus about 250 earlier manual probes | 2026-10-27 | Which Dubai phrasings Google completes. **Phrase presence, not volume.** | No volume, trend, CPC or difficulty. Empty results are weak evidence, not proof of no demand. A second planned harvest (question and comparison templates) was **blocked by HTTP 403 throttling** and was not retried, so those templates were not run. |
+| 3 | Web searches (US-geolocated tool): competitor and rule coverage for treadmill, trampoline, artificial grass, exhibition waste, holiday-home furniture, water-damaged furniture, recycling centres, green-waste pickup, approved waste transporters, public drop-off | 2026-10-27 | Competitor presence, existence of official services | Dubai SERPs and the local pack not observed. Results are not rankings. |
+| 4 | Official Dubai Municipality pages fetched: services directory (bulky waste, "doesn't include investment zones", 3 working days); 2022 bulky-waste release ("real estate development zones and free zones" excluded); Smart Sustainability Oasis page (Nadd Al Hamar Park; 18 material types; open every day around the clock; **page last modified 2026-10-26**) | 2026-10-27 | Existence and scope of municipal services | Does not give search demand. Garden-waste and transporter-list pages were **not found** officially. |
+| 5 | Gulf News / Khaleej Times / Property Finder reports: DM rain-damaged furniture WhatsApp service (2024-04-24), DM free green-waste pickup (undated, older), recycling-centre guide | 2026-10-27 | Pointers to topics only | Secondary sources. Not acceptable for publishing regulatory facts (`content-rules.md` §7). |
+| 6 | Google Trends | 2026-10-27 | Attempted | **HTTP 429, no data.** |
+| 7 | Google Search Console, Google Keyword Planner, People Also Ask, related-search panels, paid keyword tools | — | **Not accessible this session.** No Search Console export exists in the repository (Open Question 2, Measurement Plan D-5). The search tool does not expose PAA or related searches. | — |
+
+**No search volume, CPC, competition, trend or ranking figure is recorded for any keyword.** Every demand statement below is either "phrase observed in autocomplete" (a real, dated observation) or `UNVERIFIED SEARCH-DEMAND ASSUMPTION`.
+
+### Funnel: candidates researched, admitted, rejected
+
+| Stage | Count |
+|---|---|
+| Autocomplete queries harvested | 3,506 (3,506 returned, 0 failed) |
+| Unique suggestions returned | 2,740 |
+| Unique Dubai-containing suggestions not identical to a seed | 2,006 |
+| Of those, removal-related after filtering off-topic noise | 651 |
+| Of those, on-topic variants of removal, disposal, clearance or waste | 210 (all but a handful are wording variants of mapped keywords) |
+| **Candidate units evaluated** = 241 item seeds + 93 situation seeds + 25 further topics surfaced by autocomplete, SERPs and official sources | **359** |
+| Admitted (34 candidate units, several merged into one article because they share one intent) | **16 articles** |
+| Rejected or not admitted | **325** |
+
+**Why 325 failed (counts are candidate units, from the ledger):**
+
+| Reason | Units |
+|---|---|
+| Already owned by a service page, area page or published article, or only a fragment of one | 235 |
+| Capability unconfirmed or service not offered (including tree cutting, demolition, specialist rooms) | 41 |
+| Excluded or unsupported intent (hazardous, medical, scrap, selling, moving, donation, legal or other trades) | 30 |
+| No removal intent in any completion (seasonal, finance, health, snagging, fire, leak) | 10 |
+| Wording variants, recorded as secondaries on existing owners (table below) | 9 |
+| **Total rejected** | **325** |
+
+### Why the number is 16, not 90
+
+1. **The Dubai demand vocabulary is already covered.** Every on-topic phrase Google completes for Dubai maps to an existing row: *junk removal dubai free / price / near me / marina / now / municipality / hills / reviews*, *furniture disposal dubai free / municipality*, *how to dispose of furniture / mattress / sofa / tv / washing machine in dubai*, *e waste …*, *bulky waste …*, *garden waste removal dubai price*, *where to throw furniture in dubai*, *move out permit / procedure / inspection dubai*. Writing more on these is the near-duplication the system forbids.
+2. **Item and situation seeds mostly return nothing Dubai-specific.** Of 241 item seeds, 26 were admitted (merged into 9 articles), 168 are already owned or fragments of owned articles (sofas, appliances, garden material, renovation and commercial furniture), 30 depend on unconfirmed capability (piano, pool table, aquarium, safe, hot tub, machinery, mouldy or infested furniture and similar) and 17 are excluded materials (paint, batteries, oil, tyres, gas cylinders, clothes, books).
+3. **The remaining admissible space is thin.** The 16 admitted articles are the topics left that (a) have a distinct search intent, (b) match a service the business states it offers or a verifiable municipal fact, and (c) sit outside every existing article's scope. Anything past them would be filler and fail Test 5 or Test 6.
+4. **Evidence strength is mixed, and the file says so.** Only 6 of the 16 have a Dubai autocomplete phrase behind them. The other 10 are qualitative editorial tests resting on owner-written capability, labelled as such, and follow the 2026-10-15 to 2026-10-25 rulings. If the owner wants proof of demand before spending article capacity, defer those 10 until Search Console exists.
+5. **Better next-batch source.** The 2026-11-16 Search Console review is the designated source of new keywords. The plan reserves up to three slots a day for whatever it surfaces.
+
+### Admitted opportunities — mapping
+
+All have the Dest. `BLOG`. IDs refer to the new rows in the Master Keyword Database. Cluster = Supporting Content Cluster (SC).
+
+| ID | Primary keyword | Secondary keywords | SC | Intent | Pri. | Target URL | Primary money page | Status |
+|---|---|---|---|---|---|---|---|---|
+| A33 | treadmill removal dubai | treadmill disposal dubai · home gym equipment removal dubai · exercise bike removal dubai · weight bench removal dubai · gym weights removal dubai | SC1 | Commercial / practical | P3 | `/blog/treadmill-removal-dubai` | `/services/junk-removal` | `READY` |
+| C25 | media wall unit removal dubai | tv unit removal dubai · tv console disposal dubai · tv stand removal dubai | SC1 | Commercial / practical | P3 | `/blog/media-wall-unit-removal-dubai` | `/services/furniture-removal` | `READY` |
+| G22 | trampoline removal dubai | outdoor play equipment removal dubai · play set removal dubai · playhouse removal dubai | SC1 | Commercial / practical | P3 | `/blog/trampoline-removal-dubai` | `/services/garden-waste-removal` | `READY — BUSINESS INPUT REQUIRED` |
+| G23 | bbq grill disposal dubai | barbecue removal dubai · patio heater disposal dubai · outdoor smoker removal dubai | SC1 | Commercial / practical, safety-led | P3 | `/blog/bbq-grill-disposal-dubai` | `/services/garden-waste-removal` | `READY — BUSINESS INPUT REQUIRED` |
+| G24 | pergola removal dubai | garden shed removal dubai · wooden deck removal dubai · gazebo removal dubai · fence removal dubai | SC1 | Commercial / practical | P3 | `/blog/pergola-removal-dubai` | `/services/garden-waste-removal` | `READY — BUSINESS INPUT REQUIRED` |
+| G25 | artificial grass removal dubai | artificial turf removal dubai · fake grass disposal dubai | SC1 | Commercial / practical | P3 | `/blog/artificial-grass-removal-dubai` | `/services/garden-waste-removal` | `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
+| G26 | dubai municipality green waste collection | free garden waste removal dubai · dubai municipality garden waste collection | SC2 | Informational / comparison | **P2** | `/blog/dubai-municipality-green-waste-collection` | `/services/garden-waste-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` |
+| H23 | downsizing in dubai | downsizing clearance dubai · moving to a smaller home dubai | SC3 | Planning / move-out | P3 | `/blog/downsizing-clearance-dubai` | `/services/house-clearance` | `READY` |
+| H24 | clear apartment before selling dubai | vacant property clearance dubai · property clearance before sale dubai | SC3 | Planning / deadline | P3 | `/blog/clear-apartment-before-selling-dubai` | `/services/house-clearance` | `READY` |
+| K20 | exhibition stand waste removal dubai | event teardown waste removal dubai · exhibition dismantling clearance dubai | SC6 | B2B, deadline-driven | P3 | `/blog/exhibition-stand-waste-removal-dubai` | `/services/commercial-junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
+| K21 | restaurant furniture removal dubai | cafe furniture removal dubai · hospitality furniture clearance dubai · banquet chairs removal dubai | SC6 | B2B, project-driven | P3 | `/blog/restaurant-furniture-removal-dubai` | `/services/commercial-junk-removal` | `READY — BUSINESS INPUT REQUIRED` |
+| M26 | decluttering service dubai | decluttering company dubai · decluttering service in dubai | SC5 | Comparison / service-type choice | **P2** | `/blog/decluttering-service-or-junk-removal-dubai` | `/services/junk-removal` | `READY` |
+| M27 | dubai municipality recycling centres | where to recycle in dubai · smart sustainability oasis dubai · recycling station dubai · recycling bins dubai | SC2 | Informational | **P2** | `/blog/dubai-recycling-centres` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` (partly cleared 2026-10-27) |
+| M28 | rubbish dump dubai | rubbish tip dubai · garbage dump dubai | SC2 | Informational / options | **P2** | `/blog/where-to-take-rubbish-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` |
+| M29 | dubai municipality approved waste transporters | approved waste disposal companies dubai · licensed waste collection company dubai | SC5 | Verification / trust | **P2** | `/blog/waste-transporter-permit-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
+| M30 | water damaged furniture removal dubai | rain damaged furniture disposal dubai · flood damaged furniture dubai | SC2 | Problem-led | P3 | `/blog/water-damaged-furniture-removal-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
+
+**Status totals:** 5 `READY` (A33, C25, H23, H24, M26) · 4 `READY — BUSINESS INPUT REQUIRED` (G22, G23, G24, K21) · 7 blocked (G25, G26, K20, M27, M28, M29, M30).
+
+### Admitted opportunities — evidence, scope and cannibalization boundary
+
+Evidence labels: **Phrase observed** = the phrase was returned by Google autocomplete (`gl=ae`) on 2026-10-27; demand remains `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. **Qualitative** = no demand signal found.
+
+| ID | Evidence (source · date) | Editorial scope | Cannibalization boundary |
+|---|---|---|---|
+| A33 | **Qualitative.** Autocomplete returned nothing for treadmill, gym equipment or exercise-bike seeds (2026-10-27). Web search: Dubai competitors list generic categories only; no dedicated treadmill page seen. Capability (`VERIFIED FACT`, repository): `content/areas-expansion.js` Sports City section "Treadmills, benches and racks" and FAQ "Can you remove a treadmill…?" — "Yes"; `what-we-take-dubai.md` line 45. | Machine-specific preparation: read the model or weight label, folding versus fixed deck, power cable and console, moving belt, loose accessories, floor and lift protection, measure the machine against the route. Multi-station gyms and weights as a secondary section. Crew actions limited to the two repository sources (straps, trolley, dismantling where needed, partial unbolting). No weights, times, crew sizes, prices or reuse/recycling outcomes unless supplied. | Not `/areas/sports-city` (article carries no area; must pass the C-12 substitution test). Not `bulky-item-pickup-dubai` (A18 keeps the generic photo-and-route brief). Not commercial gyms (capability unconfirmed). Not selling or resale. |
+| C25 | **Qualitative.** Autocomplete empty for tv unit, tv stand and media unit seeds. Capability: `what-we-take-dubai.md` line 9 (TV consoles, media wall units; crews carry tools to take down modular cabinetry). | Loose console versus built-in or wall-fixed unit; ownership and landlord position for fixed work; clear electronics and cables first; glass shelves; sectional units against the route. No claim the crew removes fixed carpentry. | Not `tv-disposal-dubai` (the screen), not `furniture-dismantling-dubai` (general dismantling), not `bedroom-` or `apartment-furniture-removal`. Fixed joinery removal belongs to a contractor. |
+| G22 | **Qualitative.** Autocomplete for *trampoline removal dubai* returned only generic *junk removal dubai…* completions. Web search: no Dubai provider page; UK, US, Canada pages only. Capability (single source): `what-we-take-dubai.md` lines 47 and 57. | What comes apart: net, mat, springs, frame, legs; weathering and sharp edges; ground anchoring and landlord permission stated conditionally; clearing the footprint; the garden-to-vehicle route. No safety-standard, injury, reuse or recycling claims. | Not `garden-furniture-disposal-dubai` (N-8: furniture sets), not `villa-garden-waste-removal-dubai` (N-39: zones), not `childrens-room-clearance-dubai` (N-10: indoor). Service page does not mention play equipment; add one sentence as the reverse-link slot. |
+| G23 | **Qualitative.** Autocomplete empty for bbq, barbecue and patio heater seeds. Capability (single source): `what-we-take-dubai.md` line 57 (grills, smokers, patio heaters "with gas cylinders detached") and lines 85–87 (LPG cylinders not collected). | Safety-led: gas cylinder separated and returned through the supplier, not the crew; cooling; grease; built-in versus freestanding; heavy bases. Cylinder facts stated only as this business's collection boundary unless an official source is added. | Not `what-we-take-dubai` (acceptance list), not `garden-furniture-disposal-dubai`, not `garage-clearance-dubai`. |
+| G24 | **Qualitative.** Autocomplete empty for pergola, gazebo, shed and fence seeds. Capability (single source): `what-we-take-dubai.md` lines 55–57 (dismantled pergolas, deck tiles, fencing, plastic storage sheds). | Who owns or may remove the structure (stated conditionally); what "dismantled and released" means before collection; anchors, footings and electrics are outside collection; sorting timber, metal and fittings. | Not N-8, N-39, G22 or `tree-branch-removal-dubai`. Not demolition (F12 stays unconfirmed). |
+| G25 | **Qualitative.** Autocomplete empty. Web search: no Dubai-specific rules; generic removal guides only. Capability **not** evidenced (`what-we-take` mentions natural turf only). | Rolls versus loose sections, infill and base weight, ownership, ground preparation outside collection scope. Drafted only if the owner confirms turf collection and weight limits. | Not `grass-clippings-disposal-dubai` (natural grass), `soil-sand-pots-disposal-dubai`, `landscaping-waste-removal-dubai`. |
+| G26 | **Phrase observed:** *dubai municipality garden waste collection*, *dubai municipality green waste collection*, *free garden waste removal dubai*. Official page **not found**; only older Gulf News reports of a free 800900 pickup that excludes freehold areas. | Honest comparison: what a municipal green-waste pickup reportedly covers and where it may not apply, versus what a villa garden clear-out needs. Never implies the paid service is free. Blocked until DM itself confirms the service, channel and eligibility. | Not `garden-waste-bins-dubai` (#26: what bins won't take), not `palm-frond-disposal-dubai`, N-30, N-33, N-36, N-39. Same "free" rule as M3. |
+| H23 | **Phrase observed:** *downsizing in dubai* (single phrase). | Decision sequence when moving to a smaller home: inventory, keep, donate, dispose; timeline back from the lease end; what a clearance removes versus what a mover carries (movers mentioned only, never targeted). No selling guidance. | Not `decluttering-small-dubai-apartment` (floor-space tips), `end-of-tenancy-clearance-dubai`, `leaving-dubai-clearance-checklist`, `studio-apartment-clearance-dubai`. |
+| H24 | **Qualitative.** Autocomplete for the *sale of property* seed returned only purchase, tax and commission queries; no removal-intent phrase. | Owner clearing a vacant or vacated unit before viewings or listing: what to remove, what stays for presentation, access and building permissions, deadline planning. **No real-estate, valuation, commission or legal advice.** | Not `property-clearance-dubai` (N-38: third-party authority), `end-of-tenancy-clearance-dubai` (tenant), `storage-room-clearance-dubai`. |
+| K20 | **Qualitative.** Autocomplete empty. Web search found **no official DWTC rule text**; Doha and European organiser manuals only. Capability (single source): `what-we-take-dubai.md` line 67. | Loose, already-dismantled stand material collected after the show: counting, staging, loading access and timing windows. Venue and organiser rules appear only as a checklist the reader obtains from their organiser's manual. | Not `retail-fit-out-waste-removal-dubai` (K10), `warehouse-clearance-dubai`, `office-strip-out-dubai`. Stand building and event logistics are different businesses: mention only. |
+| K21 | **Qualitative.** Autocomplete empty for restaurant, hotel and cafe furniture seeds. Capability (single source): `what-we-take-dubai.md` line 65 (restaurant dining tables, banquet chairs, terrace seating). | Furniture-only clearance during a closure or refurbishment: count and group seating and tables, terrace pieces, glass and stone tops, access and loading windows. Hotel-scale FF&E not claimed. | Not `restaurant-equipment-removal-dubai` (N-29: kitchen, refrigeration, utilities), `office-furniture-removal-dubai`, `shop-clearance-dubai`. |
+| M26 | **Phrase observed:** *decluttering company dubai*, *decluttering service in dubai*. | A straight comparison: an organiser or declutter service helps you decide what to keep; a removal crew takes away what you have decided to remove. Which you need, in what order, and what each does not do. **No claim that this business offers organising.** | Not `decluttering-small-dubai-apartment` (N-3: tips), A27 `clutter removal dubai` (service page), `before-the-crew-arrives-dubai`. |
+| M27 | **Phrase observed** (9 phrases): *where to recycle in dubai*, *how to recycle in dubai*, *dubai recycling center*, *dubai municipality recycling centres*, *recycling station dubai*, *recycling bins dubai*, *recycling collection dubai*, *dubai recycling bins*, *recycling dubai*. **Official source fetched 2026-10-27:** DM Smart Sustainability Oasis page — 18 material types, open every day around the clock, page modified 2026-10-26. | What the recycling centres take, how to use them, what they will not take (bulky furniture and appliances go through the bulky-waste service), and when a paid crew is the practical route. Locations and per-site acceptance taken from DM at drafting time. Absorbs M10. | Not `e-waste-disposal-dubai` (#38: e-waste rules and routes), `what-dubai-bins-wont-take` (#44), `what-happens-to-your-junk-dubai` (#16), `dubai-municipality-bulky-waste` (#4). |
+| M28 | **Phrase observed:** *rubbish dump dubai*, *rubbish tip dubai*, *garbage dump dubai*. Web search found **no confirmed public general-waste drop-off**; reports that active landfill sites close by 2027 (secondary source). | What a resident can actually do with rubbish and bulky items: bins, bulky-waste collection, recycling centres, paid pickup. Written only after DM confirms whether any public drop-off exists. | Not #4, #44, M27. |
+| M29 | **Phrase observed:** *dubai municipality approved waste transporters*, *…approved waste disposal companies*, *…approved waste management companies*, *disposal company dubai*. DM Waste Department publishes approved **hazardous**-waste transporter lists; DM Technical Guideline No. 4 (Duty of Care) says waste should be carried by licensed companies. **No public register for ordinary municipal-waste collectors found.** | What "licensed" and "approved" mean, what a customer can ask for, and the duty-of-care principle. **The article must not imply this business holds any permit** until the owner states and evidences it. | Not `choosing-junk-removal-dubai` (#45: how to choose), `illegal-dumping-fines-dubai` (#10), `what-happens-to-your-junk-dubai` (#16). |
+| M30 | **Qualitative, with an official-service pointer.** No autosuggest for water-damaged furniture seeds. Gulf News (2024-04-24) reported a DM WhatsApp bulk-waste channel for rain-damaged furniture and appliances (800900, collection within three days, some zones excluded). Official DM text for that channel not located. | Wet upholstery, boards and appliances after rain or a leak: documenting damage, drying versus discarding, preparing for collection, the municipal route if it still applies, when a paid crew is practical. Sewage or biological contamination is outside the collection scope. | Not #4, #5, `broken-furniture-disposal-dubai`, `bulky-item-pickup-dubai`. Mould remediation and cleaning are different services: mention only. |
+
+All 16 pass admission tests 1–6 (genuinely new; Dubai and in scope; removal intent; one destination; no material cannibalization; new URL justified by a distinct intent). Test 5 is the closest call for G22, G24, M27 and H24. Each must also pass the 2,000-word minimum without padding, or stay unpublished.
+
+### Wording variants recorded against existing owners (not new rows)
+
+Test 1 requires variants to be recorded, not added. Add these as secondary keywords when the owning page is next updated.
+
+| Phrase observed 2026-10-27 | Existing owner |
+|---|---|
+| move out process dubai · move out procedure for tenants dubai | `/blog/end-of-tenancy-clearance-dubai` (#6) |
+| move out permit dubai · move out noc dubai · moving out permit dubai | `/blog/noc-moving-furniture-dubai` (#15) |
+| move out inspection dubai | `/blog/landlord-inspection-clearance-dubai` (N-2) |
+| where to throw / dispose furniture in dubai · get rid of unwanted furniture dubai | `/blog/dispose-old-furniture-dubai` (#1) |
+| how to throw garbage in dubai · where to throw trash in dubai | `/blog/what-dubai-bins-wont-take` (#44) |
+| where does dubai waste go · how does dubai get rid of trash | `/blog/what-happens-to-your-junk-dubai` (#16) |
+| mattress recycling dubai · mattress donation dubai | `/blog/mattress-disposal-dubai` (#9) |
+| laptop recycling dubai · computer recycling dubai · e waste drop off dubai | `/blog/e-waste-disposal-dubai` (#38) |
+| junk collectors dubai · junk clearing dubai · junk truck dubai · junk pick up dubai | `/services/junk-removal` |
+| furniture / rubbish / junk removal dubai price · garden waste removal dubai price | `/blog/junk-removal-cost-dubai` (#3) |
+
+### Tested and rejected, by reason
+
+| Reason | Examples |
+|---|---|
+| **Already owned (page or article)** | sofa, bed, mattress, wardrobe, dining table, carpet, fridge, freezer, washing machine, dryer, oven, dishwasher, water heater, AC, TV, e-waste, desks, palm fronds, hedges, soil, garden furniture, cardboard, pallets, racking, shop fittings, restaurant equipment, all property-type clearances (villa, apartment, studio, townhouse, garage, balcony, majlis, maid room, storage), all urgency terms |
+| **Capability unconfirmed** | piano, pool table, foosball, aquarium, safe, hot tub, jacuzzi, machinery, forklift, generator, boat, caravan, bath/toilet/sink fixtures, salon, clinic, gym and hotel-apartment clearance, staff accommodation, labour camp |
+| **Excluded or unsupported intent** | paint, chemicals, batteries, vapes, tyres, oil, gas cylinders, fire extinguishers, clothes, shoes, books, scrap, medical waste; moving, cleaning, painting, selling, eviction or visa legal questions, move-out permit procedures (already #15) |
+| **Near-duplicate or fragment** | bookshelf, chest of drawers, dressing table, office chair, baby cot, toys, mirror, glass table, kitchen or bathroom renovation waste, doors, tiles, false ceiling, holiday-home furniture, previous-tenant furniture, builder handover waste, shared-accommodation partitions, curtains, bunk bed |
+| **No removal intent in any completion** | new year, eid, national day, shopping festival, summer, night, holiday, fire, leak, pest, bed bugs, snagging, landscaping, demolition, relocating |
+
+---
+
 ## Data-Driven Keyword Expansion
 
 **This file is a living document, but it changes under control.** The initial research pass is complete and is not to be repeated. **Do not continuously generate hundreds of speculative new keywords** — that produces an unmappable list, invites cannibalization, and buries the keywords that are actually earning impressions.
@@ -1376,7 +1521,7 @@ From here, **Google Search Console becomes the primary source of new keyword opp
 ### The permanent expansion loop
 
 ```
-   Initial master research  (COMPLETE — the 283 mapped opportunities in this file)
+   Initial master research  (COMPLETE — the original 283 mapped opportunities, plus 16 admitted on 2026-10-27)
                 │
                 ▼
    Publish approved content  (only what clears the six quality gates)
@@ -1408,7 +1553,7 @@ A query found in Search Console is added to this file only if **all** of these h
 
 | # | Test | Fails if… |
 |---|---|---|
-| 1 | **Genuinely new** | It is already in the 283 as a primary or a secondary, or is a wording variant of one. Variants are recorded against the existing entry, not added as new rows. |
+| 1 | **Genuinely new** | It is already a mapped row (any cluster) as a primary or a secondary, or is a wording variant of one. Variants are recorded against the existing entry, not added as new rows. |
 | 2 | **Dubai and in-scope** | It is outside Dubai, or its intent is buying, selling, scrap, marketplace, moving, rental, cleaning or employment — see *Excluded Search Intent*. |
 | 3 | **Removal/clearance intent** | The searcher's primary intent is not to have something taken away. |
 | 4 | **Has one destination** | No existing page can justifiably own it **and** no new page is genuinely warranted. If it has no defensible home, it is marked DO NOT TARGET rather than forced onto a page. |
