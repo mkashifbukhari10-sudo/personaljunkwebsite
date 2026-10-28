@@ -2,7 +2,7 @@ import { Archivo, IBM_Plex_Mono } from 'next/font/google';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import JsonLd from '@/components/JsonLd';
-import { site, indexable } from '@/lib/site';
+import { site, indexable, canonicalOrigin } from '@/lib/site';
 import { openGraphFor, feedAlternate } from '@/lib/seo';
 import { localBusinessSchema, webSiteSchema } from '@/lib/schema';
 import Analytics from '@/components/Analytics';
@@ -54,7 +54,7 @@ export const viewport = {
 export async function generateMetadata() {
   const settings = await getSiteSettings();
   const metadata = {
-    metadataBase: new URL(site.url),
+    metadataBase: new URL(canonicalOrigin()),
     manifest: '/manifest.webmanifest',
     title: {
       default: site.defaultTitle,

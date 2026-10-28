@@ -24,10 +24,11 @@ import { getPosts } from '@/lib/content/posts';
 
 // Title is omitted so the layout default applies (the template is not used for the homepage).
 export const metadata = pageMetadata({
+  title: 'Junk Removal Dubai | Same-Day Pickup | Junk Services Dubai',
   description: site.description,
   path: '/',
   og: {
-    title: 'Junk Services Dubai — You point. We lift. It is gone.',
+    title: 'Junk Removal Dubai | Same-Day Pickup | Junk Services Dubai',
     description: site.shortDescription
   }
 });

@@ -870,7 +870,7 @@ export const filePosts = [
     services: [
       "appliance-disposal"
     ],
-    seoTitle: "Freezer Disposal Dubai: Empty, Defrost and Arrange Collection",
+    seoTitle: "Freezer Disposal Dubai: Empty, Defrost, Then Collect",
     seoDescription: "How to dispose of a freezer in Dubai: plan the food, defrost and dry it, check water connections, measure the route and choose a collection option."
   },
   {
@@ -882,7 +882,7 @@ export const filePosts = [
     services: [
       "furniture-removal"
     ],
-    seoTitle: "Armchair Removal Dubai: Recliners, Wingbacks and Accent Chairs",
+    seoTitle: "Armchair Removal Dubai: Recliners and Wingbacks",
     seoDescription: "How to remove an old armchair in Dubai: close and unplug recliners, measure the widest point, check reuse realistically and choose a collection route."
   },
   {
@@ -894,7 +894,7 @@ export const filePosts = [
     services: [
       "furniture-removal"
     ],
-    seoTitle: "Dining Table Removal Dubai: Glass, Marble and Extendable Sets",
+    seoTitle: "Dining Table Removal Dubai: Glass, Marble, Wood",
     seoDescription: "How to remove an old dining table in Dubai: handle glass and stone tops, extension leaves and chairs, measure the route and choose a collection route."
   },
   {
@@ -919,7 +919,7 @@ export const filePosts = [
     services: [
       "appliance-disposal"
     ],
-    seoTitle: "Water Heater Removal Dubai: Disconnection, Draining and Disposal",
+    seoTitle: "Water Heater Removal Dubai: Drain, Then Collect",
     seoDescription: "How to remove an old water heater in Dubai: check landlord ownership, arrange disconnection and draining, plan the route out and choose a disposal route."
   },
   {
@@ -932,7 +932,7 @@ export const filePosts = [
     services: [
       "sofa-removal"
     ],
-    seoTitle: "Sofa Bed Removal Dubai: Pull-Out, Click-Clack and Corner Units",
+    seoTitle: "Sofa Bed Removal Dubai: Secure the Mechanism",
     seoDescription: "How to remove a sofa bed in Dubai: secure the pull-out mechanism, decide on the mattress, measure it closed, choose a route and plan lift or stair access."
   },
   {
@@ -945,7 +945,7 @@ export const filePosts = [
     services: [
       "furniture-removal"
     ],
-    seoTitle: "Carpet Disposal Dubai: Rugs, Fitted Carpet and Underlay Removal",
+    seoTitle: "Carpet Disposal Dubai: Rugs, Fitted Carpet, Underlay",
     seoDescription: "How to dispose of an old carpet or rug in Dubai: roll and tie it, handle fitted carpet, underlay and gripper strips, and check the lift route before collection."
   },
   {
@@ -971,7 +971,7 @@ export const filePosts = [
     services: [
       "villa-clearance"
     ],
-    seoTitle: "Townhouse Clearance Dubai: Stairs, Staging and Floor-by-Floor Plan",
+    seoTitle: "Townhouse Clearance Dubai: Plan Floor by Floor",
     seoDescription: "How to clear a Dubai townhouse: work top-down, measure the staircase, stage items without blocking neighbours, and choose house or villa clearance scope."
   },
   {
@@ -984,7 +984,7 @@ export const filePosts = [
     services: [
       "furniture-removal"
     ],
-    seoTitle: "Bed Frame Disposal Dubai: Divans, Storage Beds and Headboards",
+    seoTitle: "Bed Frame Disposal Dubai: Divans and Storage Beds",
     seoDescription: "How to get rid of an old bed frame in Dubai: identify divans, storage and metal frames, measure the route, choose a disposal route and plan tower or villa access."
   },
   {
@@ -1023,7 +1023,7 @@ export const filePosts = [
     services: [
       "residential-junk-removal"
     ],
-    seoTitle: "Balcony Clearance Dubai: Sorting, Hazards and Building Access",
+    seoTitle: "Balcony Clearance Dubai: What Leaves, What Stays",
     seoDescription: "How to clear a balcony in Dubai: sort outdoor furniture, pots and packaging, keep gas cylinders and chemicals separate, and plan lift access before collection."
   },
   {
@@ -1036,7 +1036,7 @@ export const filePosts = [
     services: [
       "garden-waste-removal"
     ],
-    seoTitle: "Garden Furniture Disposal Dubai: Outdoor Furniture Removal Guide",
+    seoTitle: "Garden Furniture Disposal Dubai: What to Separate",
     seoDescription: "How to dispose of old garden furniture in Dubai: decide whether to pass it on, separate furniture from green waste, and coordinate collection across villas and towers."
   },
   {
@@ -1049,7 +1049,7 @@ export const filePosts = [
     services: [
       "villa-clearance"
     ],
-    seoTitle: "Garage Clearance Dubai: Villa Garage Clear-Out & Sorting Guide",
+    seoTitle: "Garage Clearance Dubai: Sort Before Collection",
     seoDescription: "How to clear a villa garage in Dubai: sort mixed items, identify restricted chemicals, manage heavy and awkward loads, and coordinate gated community access."
   },
   {
@@ -1062,7 +1062,7 @@ export const filePosts = [
     services: [
       "house-clearance"
     ],
-    seoTitle: "Storage Room Clearance in Dubai: Apartment Store Clear-Out Guide",
+    seoTitle: "Storage Room Clearance Dubai: Sort, Quote, Empty",
     seoDescription: "How to clear an apartment storage room in Dubai: sort keep from collection, handle special materials, photograph for quotes, and manage tower service lift access."
   },
   {
@@ -1090,7 +1090,7 @@ export const filePosts = [
     services: [
       "junk-removal"
     ],
-    seoTitle: "Spring Cleaning Clearance in Dubai: A Seasonal Clear-Out Plan",
+    seoTitle: "Seasonal Clear-Out in Dubai: Set the Date First",
     seoDescription: "Plan a spring-cleaning clearance in Dubai: pick the moment, set the collection date, sort storage rooms, garages and wardrobes, and separate items that need another route.",
     ogTitle: "A Seasonal Clear-Out That Actually Finishes",
     ogDescription: "Set the collection date first, then work backwards through every space."
@@ -1133,7 +1133,7 @@ export const filePosts = [
     services: [
       "same-day-junk-removal"
     ],
-    seoTitle: "Weekend Junk Removal Dubai: Saturday & Sunday Collection Guide",
+    seoTitle: "Weekend Junk Removal Dubai: Saturday & Sunday",
     seoDescription: "How weekend junk removal in Dubai works: book Saturday or Sunday slots, secure building security approval, manage service lift hours and clear your home without delays."
   },
   {
@@ -1146,7 +1146,7 @@ export const filePosts = [
     services: [
       "commercial-junk-removal"
     ],
-    seoTitle: "IT Equipment Disposal Dubai: Office Computers & E-Waste Guide",
+    seoTitle: "IT Equipment Disposal Dubai: Computers & E-Waste",
     seoDescription: "How to dispose of office IT equipment in Dubai: data-security boundaries, separating electronics, arranging building loading bay access and compliant e-waste removal."
   },
   {
@@ -1198,7 +1198,7 @@ export const filePosts = [
     services: [
       "garden-waste-removal"
     ],
-    seoTitle: "Garden Waste in Dubai Bins: Rules, Limits and Proper Disposal",
+    seoTitle: "Garden Waste in Dubai: What Bins Will Not Take",
     seoDescription: "Why Dubai residential bins reject garden waste: restrictions on branches, palm fronds, soil, and pots, municipal rules, and how to arrange legal green waste collection.",
     ogDescription: "Why community bins reject garden and landscaping waste, and how to dispose of green waste legally in Dubai."
   },
@@ -1226,7 +1226,7 @@ export const filePosts = [
     services: [
       "furniture-removal"
     ],
-    seoTitle: "Where to Donate Furniture in Dubai: Charities and Reuse Options",
+    seoTitle: "Donate Furniture in Dubai: What Can Be Passed On",
     seoDescription: "How to donate furniture in Dubai: what charities and recipients accept, why damaged pieces are rejected, collection logistics and removal options.",
     ogDescription: "What recipients accept, how collection works and what to do when donation is not an option."
   },
@@ -1283,7 +1283,7 @@ export const filePosts = [
     services: [
       "junk-removal"
     ],
-    seoTitle: "Junk Removal Cost Dubai: Pricing Factors, Quotes & Transparency",
+    seoTitle: "Junk Removal Cost Dubai: What Changes the Quote",
     seoDescription: "What drives junk removal costs in Dubai: truck volume, access, floor level, dismantling, and municipal disposal fees. How fixed upfront photo quotes work.",
     ogTitle: "What Junk Removal Actually Costs in Dubai",
     ogDescription: "Learn the verified variables that determine junk removal costs in Dubai and how transparent upfront photo quoting works."
@@ -1298,7 +1298,7 @@ export const filePosts = [
     services: [
       "junk-removal"
     ],
-    seoTitle: "How Much Fits in One Junk Removal Truck in Dubai? Capacity Guide",
+    seoTitle: "How Much Fits in One Junk Load in Dubai",
     seoDescription: "How much junk fits in a standard Dubai removal truck: 3-ton capacity, volume fractions, apartment vs villa loads, and how professional packing maximizes space.",
     ogTitle: "How Much Actually Fits in One Load?",
     ogDescription: "Understand 3-ton truck volume fractions, packing methods, and how to estimate your clearance load in Dubai."
@@ -1313,7 +1313,7 @@ export const filePosts = [
     services: [
       "junk-removal"
     ],
-    seoTitle: "What Junk Removal Companies Take in Dubai: Accepted Items & Exclusions",
+    seoTitle: "What We Take in Dubai: Accepted Items & Exclusions",
     seoDescription: "Clear guide to what Dubai junk removal companies take: furniture, white goods, electronics, garden waste, plus strictly excluded hazardous materials.",
     ogTitle: "What We Take, What We Don’t, and Why",
     ogDescription: "Check what Dubai junk removal crews take, what hazardous materials are excluded, and how mixed loads are handled."
@@ -1689,7 +1689,6 @@ export const filePosts = [
     seoDescription: "Plan a Dubai villa handover clearance room by room, including ownership checks, appliances, garden waste, access, cleaning and the final inspection.",
     ogTitle: "Villa Handover Clearance: What Must Be Gone",
     ogDescription: "A practical room-by-room plan for clearing a villa before inspection and key return.",
-    canonical: "https://junkservicesdubai.com/blog/villa-handover-clearance-dubai"
   },
   {
     slug: "service-lift-booking-dubai",
@@ -1705,7 +1704,6 @@ export const filePosts = [
     seoDescription: "How to confirm a service-lift window, building documents, protection rules, loading access and removal timing in a Dubai tower.",
     ogTitle: "How Service Lift Booking Works for Junk Removal",
     ogDescription: "Match building approval, lift access and the collection booking before removal day.",
-    canonical: "https://junkservicesdubai.com/blog/service-lift-booking-dubai"
   },
   {
     slug: "sofa-wont-fit-through-door-dubai",
@@ -1721,7 +1719,6 @@ export const filePosts = [
     seoDescription: "What to measure when a sofa will not fit through a doorway, how sectional parts and access routes affect removal, and what to send before booking.",
     ogTitle: "Sofa Won't Fit? Plan the Route Before Removal",
     ogDescription: "A practical Dubai guide to sofa dimensions, doorways, turns, lift access and dismantling decisions.",
-    canonical: "https://junkservicesdubai.com/blog/sofa-wont-fit-through-door-dubai"
   },
   {
     slug: "washing-machine-removal-dubai",
@@ -1739,7 +1736,6 @@ export const filePosts = [
     seoDescription: "Why the room matters more than the machine, the one thing to confirm before booking, and how upper floors without a lift change the job.",
     ogTitle: "Washing Machine Removal in Dubai: What to Check",
     ogDescription: "The room is usually the constraint, not the machine. What decides the job, and the one thing worth confirming before you book.",
-    canonical: "https://junkservicesdubai.com/blog/washing-machine-removal-dubai"
   },
   {
     slug: "palm-frond-disposal-dubai",
@@ -1757,7 +1753,6 @@ export const filePosts = [
     seoDescription: "Cutting and removal are two different jobs. What goes in a green-waste load, how a garden collection runs, and what to send for a fixed quote.",
     ogTitle: "Palm Fronds in Dubai: Who Cuts, Who Clears",
     ogDescription: "A landscaper cuts; a collection takes it away. What goes in a green-waste load and how the pickup actually runs.",
-    canonical: "https://junkservicesdubai.com/blog/palm-frond-disposal-dubai"
   },
   {
     slug: "junk-gone-today-dubai",
@@ -1775,7 +1770,6 @@ export const filePosts = [
     seoDescription: "Same-day depends on routing, not speed. What decides whether today works, what to send for a straight answer, and what happens when it cannot be today.",
     ogTitle: "Need It Gone Today? What’s Actually Possible in Dubai",
     ogDescription: "Same-day is a routing question. What decides it, what to send, and the honest answer when today is not possible.",
-    canonical: "https://junkservicesdubai.com/blog/junk-gone-today-dubai"
   },
   {
     slug: "end-of-tenancy-clearance-dubai",
@@ -1793,6 +1787,5 @@ export const filePosts = [
     seoDescription: "What has to be cleared before a Dubai handover, what a clearance does and does not cover, and how to work backwards from the inspection time.",
     ogTitle: "End of Tenancy in Dubai: What Has to Be Gone",
     ogDescription: "Handover has a fixed time attached. What typically has to go, what a clearance does not cover, and how to plan backwards from the inspection.",
-    canonical: "https://junkservicesdubai.com/blog/end-of-tenancy-clearance-dubai"
   }
 ];

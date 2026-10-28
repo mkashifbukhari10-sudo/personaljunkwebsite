@@ -14,7 +14,7 @@ export default function BlogHighlights({ posts = [] }) {
             <div style={{ maxWidth: '720px' }}>
               <div style={eyebrow(c.bronzeDeep)}>From the blog</div>
               <h2 id="home-blog-title" style={{ ...h2, marginTop: '10px' }}>
-                Practical guides for a smoother clear-out
+                Junk removal guides for Dubai
               </h2>
               <p style={{ color: c.muted, fontSize: 'clamp(16px, 1.5vw, 19px)', lineHeight: 1.6, margin: '12px 0 0', maxWidth: '620px' }}>
                 Clear advice on junk removal, recycling, pricing, and preparing your space before collection day.

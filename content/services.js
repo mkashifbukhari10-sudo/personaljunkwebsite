@@ -17,7 +17,7 @@ export const services = [
     name: 'Junk Removal',
     blurb: 'Everything you no longer need, carried out and taken away in one visit.',
     seo: {
-      title: 'Junk Removal in Dubai — One Photo, One Visit',
+      title: 'Junk Removal Dubai | Mixed Loads & Bulky Items',
       description: 'Mixed household junk, bulky items or a full load carried out and taken away in one visit. Send a photo on WhatsApp for a fixed price, crews across Dubai 7 days a week.'
     },
     h1: 'Junk removal in Dubai for anything you no longer need',
@@ -61,7 +61,7 @@ export const services = [
       { q: 'What if some of my junk is hazardous?', a: 'We take everything except hazardous chemicals, paint solvents, gas cylinders and medical waste, and we will tell you where those can go.' }
     ],
     relatedServices: ['same-day-junk-removal', 'residential-junk-removal', 'house-clearance', 'furniture-removal'],
-    popularAreas: ['jvc', 'mirdif', 'dubai-silicon-oasis'],
+    popularAreas: ['jvc', 'mirdif', 'dubai-silicon-oasis', 'al-barsha', 'international-city', 'al-nahda'],
     cta: ['Send a photo of the pile.', 'We will send the price.'],
     image: null
   },
@@ -71,7 +71,7 @@ export const services = [
     name: 'Garbage Removal',
     blurb: 'Household and office garbage collected fast when it piles up.',
     seo: {
-      title: 'Garbage Removal in Dubai — One-Off or Recurring Collection',
+      title: 'Garbage Removal Dubai | Bags, Bins & One-Off Loads',
       description: 'Household and office garbage collected fast when it piles up. One-off pickups or a recurring schedule, crews sized to the volume, fixed price from a photo.'
     },
     h1: 'Garbage removal in Dubai when the bins are not enough',
@@ -115,7 +115,7 @@ export const services = [
       { q: 'How do you decide the crew size?', a: 'From your photo. Two crew for a normal household load, up to four for a large office or site pickup.' }
     ],
     relatedServices: ['waste-removal', 'commercial-junk-removal', 'junk-removal'],
-    popularAreas: ['deira', 'business-bay', 'al-barsha'],
+    popularAreas: ['deira', 'business-bay', 'al-barsha', 'bur-dubai', 'karama', 'al-qusais'],
     cta: ['Send a photo of the pile.', 'Tell us if it will happen again.'],
     image: null
   },
@@ -125,7 +125,7 @@ export const services = [
     name: 'Furniture Removal',
     blurb: 'Beds, wardrobes and dining sets dismantled and loaded by hand.',
     seo: {
-      title: 'Furniture Removal in Dubai — Dismantled, Carried, Gone',
+      title: 'Furniture Removal Dubai | Old Furniture Pickup Same Day',
       description: 'Beds, wardrobes, dining sets and mattresses dismantled where needed and loaded by hand. Two crew, tools included, most items cleared in under an hour.'
     },
     h1: 'Furniture removal in Dubai, dismantling and heavy lifting included',
@@ -169,7 +169,7 @@ export const services = [
       { q: 'Will you scratch the floor or the lift?', a: 'Floors, lift interiors and doorframes are protected while the crew carries, and the area is swept before they leave.' }
     ],
     relatedServices: ['sofa-removal', 'house-clearance', 'junk-removal', 'residential-junk-removal'],
-    popularAreas: ['dubai-hills', 'downtown-dubai', 'dubai-marina'],
+    popularAreas: ['dubai-hills', 'downtown-dubai', 'dubai-marina', 'jlt', 'jvc', 'arabian-ranches'],
     cta: ['Photograph the piece and the doorway.', 'We will quote and bring the tools.'],
     image: null
   },
@@ -179,7 +179,7 @@ export const services = [
     name: 'Sofa Removal',
     blurb: 'Two-seaters to corner units, through tight doors and service lifts.',
     seo: {
-      title: 'Sofa Removal in Dubai — Through Tight Doors and Service Lifts',
+      title: 'Sofa Removal Dubai | Old Sofa Disposal & Pickup',
       description: 'Two-seaters to corner units carried out of apartments and villas, dismantled if the door or lift is too small. Fixed price from a photo, same-day slots where available.'
     },
     h1: 'Sofa removal in Dubai apartments and villas',
@@ -222,7 +222,7 @@ export const services = [
       { q: 'Is a sofa removal priced per item?', a: 'It is priced from your photo as a fixed quote covering labour, loading and disposal; a single sofa is normally a two-crew job under an hour.' }
     ],
     relatedServices: ['furniture-removal', 'same-day-junk-removal', 'residential-junk-removal'],
-    popularAreas: ['dubai-marina', 'downtown-dubai', 'jvc'],
+    popularAreas: ['dubai-marina', 'downtown-dubai', 'jvc', 'jlt', 'jbr', 'business-bay'],
     cta: ['Send two photos:', 'the sofa and the doorway.'],
     image: null
   },
@@ -232,7 +232,7 @@ export const services = [
     name: 'Appliance Disposal',
     blurb: 'Fridges, washers, ovens and AC units passed to licensed handlers.',
     seo: {
-      title: 'Appliance Disposal in Dubai — Fridges, Washers, Ovens and AC Units',
+      title: 'Appliance Disposal Dubai | Fridge, Washer & AC Removal',
       description: 'Old fridges, freezers, washers, dryers, ovens, TVs and AC units collected with straps and trolley and passed to licensed handlers. Same visit, 30 to 60 minutes.'
     },
     h1: 'Appliance disposal in Dubai through licensed handlers',
@@ -274,7 +274,7 @@ export const services = [
       { q: 'Do you collect a single TV?', a: 'Yes. Small electronics are a normal single-item pickup and can be added to any other job.' }
     ],
     relatedServices: ['commercial-junk-removal', 'junk-removal', 'house-clearance'],
-    popularAreas: ['mirdif', 'dubai-silicon-oasis', 'al-barsha'],
+    popularAreas: ['mirdif', 'dubai-silicon-oasis', 'al-barsha', 'deira', 'international-city', 'al-qusais'],
     cta: ['Photograph the appliance and the door.', 'We will confirm the slot.'],
     image: null
   },
@@ -284,7 +284,7 @@ export const services = [
     name: 'Waste Removal',
     blurb: 'Mixed loads from renovations, clear-outs and site work.',
     seo: {
-      title: 'Waste Removal in Dubai — Renovation, Clear-Out and Site Loads',
+      title: 'Waste Removal Dubai | Renovation & Site Debris Removal',
       description: 'Mixed loads from renovations, fit-outs, clear-outs and site work loaded by crew and sorted by material at our yard. Fixed price from a photo, one-off or on a schedule.'
     },
     h1: 'Waste removal in Dubai for renovation, clear-out and site loads',
@@ -326,7 +326,7 @@ export const services = [
       { q: 'Does the waste need to be bagged?', a: 'No. Loose loads are fine; sorting happens at our yard.' }
     ],
     relatedServices: ['garbage-removal', 'commercial-junk-removal', 'house-clearance', 'appliance-disposal'],
-    popularAreas: ['business-bay', 'deira', 'al-barsha'],
+    popularAreas: ['business-bay', 'deira', 'al-barsha', 'al-quoz', 'dip', 'dubai-south'],
     cta: ['Send a photo of the pile after the work.', 'We will quote the load.'],
     image: null
   },
@@ -336,7 +336,7 @@ export const services = [
     name: 'Garden Waste Removal',
     blurb: 'Branches, trimmings, soil bags, pots and old outdoor furniture.',
     seo: {
-      title: 'Garden Waste Removal in Dubai — Branches, Soil, Pots and Outdoor Sets',
+      title: 'Garden Waste Removal Dubai | Branches, Soil, Palm Fronds',
       description: 'Branches, trimmings, soil bags, pots and old outdoor furniture cleared from villas and gardens with an open truck. Two crew, one to three hours.'
     },
     h1: 'Garden waste removal for Dubai villas and outdoor spaces',
@@ -376,7 +376,7 @@ export const services = [
       { q: 'Do you cut or trim plants?', a: 'No. We remove what has already been cut; a landscaper does the cutting.' }
     ],
     relatedServices: ['villa-clearance', 'junk-removal', 'furniture-removal'],
-    popularAreas: ['jumeirah', 'arabian-ranches', 'palm-jumeirah'],
+    popularAreas: ['jumeirah', 'arabian-ranches', 'palm-jumeirah', 'dubai-hills', 'the-springs', 'jumeirah-golf-estates'],
     cta: ['Photograph the pile from the gate.', 'We will quote the load.'],
     image: null
   },
@@ -386,7 +386,7 @@ export const services = [
     name: 'House Clearance',
     blurb: 'Room by room or the whole house, ready for handover.',
     seo: {
-      title: 'House Clearance in Dubai — Ready for Handover',
+      title: 'House Clearance Dubai | Apartment Clear-Outs, Fixed Price',
       description: 'Apartments from studio to four bedrooms and family homes cleared room by room or all at once, swept and ready for inspection. Crew sized to the property, fixed price from photos.'
     },
     h1: 'House and apartment clearance in Dubai before you hand over',
@@ -430,7 +430,7 @@ export const services = [
       { q: 'Will the place be ready for the landlord inspection?', a: 'The crew sweeps the rooms before leaving so the property is empty and clean of debris. Deep cleaning is not part of the service.' }
     ],
     relatedServices: ['villa-clearance', 'residential-junk-removal', 'furniture-removal', 'appliance-disposal'],
-    popularAreas: ['dubai-hills', 'downtown-dubai', 'dubai-marina'],
+    popularAreas: ['dubai-hills', 'downtown-dubai', 'dubai-marina', 'jlt', 'jvc', 'business-bay'],
     cta: ['Send a photo of each room', 'and your handover date.'],
     image: null
   },
@@ -440,7 +440,7 @@ export const services = [
     name: 'Villa Clearance',
     blurb: 'Large crews for full villas, including garden, storage and maid room.',
     seo: {
-      title: 'Villa Clearance in Dubai — Garden, Storage, Maid Room and Majlis',
+      title: 'Villa Clearance Dubai | Full Clear-Out in 1–2 Days',
       description: 'Full villa clearances with crews of four or more and multiple loads, covering garden, storage, maid room and majlis. Scheduled over one to two days, fixed price from photos.'
     },
     h1: 'Full villa clearance across Dubai, scheduled over one or two days',
@@ -483,7 +483,7 @@ export const services = [
       { q: 'What happens to the good furniture in a full villa?', a: 'It is separated at our yard and passed on rather than dumped. Flag valuable pieces in advance and the crew lead confirms them with you on site.' }
     ],
     relatedServices: ['house-clearance', 'garden-waste-removal', 'furniture-removal', 'appliance-disposal'],
-    popularAreas: ['arabian-ranches', 'jumeirah', 'palm-jumeirah'],
+    popularAreas: ['arabian-ranches', 'jumeirah', 'palm-jumeirah', 'dubai-hills', 'emirates-hills', 'the-springs'],
     cta: ['Photograph every space, garden included.', 'We will plan the days.'],
     image: null
   },
@@ -493,7 +493,7 @@ export const services = [
     name: 'Same-Day Junk Removal',
     blurb: 'Message in the morning, cleared the same afternoon where slots allow.',
     seo: {
-      title: 'Same-Day Junk Removal in Dubai — Message Before Midday',
+      title: 'Same-Day Junk Removal Dubai | Book Before Midday',
       description: 'Message before midday and the nearest crew on route can clear your junk the same afternoon where slots allow. Urgent single items or a full apartment, fixed price from a photo.'
     },
     h1: 'Same-day junk removal in Dubai when it has to go today',
@@ -536,7 +536,7 @@ export const services = [
       { q: 'Can you clear a full apartment the same day?', a: 'Where a crew has the slot, yes; a full apartment is a normal same-day request. Larger properties are planned for the next available day.' }
     ],
     relatedServices: ['junk-removal', 'sofa-removal', 'house-clearance', 'residential-junk-removal'],
-    popularAreas: ['downtown-dubai', 'dubai-marina', 'jvc'],
+    popularAreas: ['downtown-dubai', 'dubai-marina', 'jvc', 'jlt', 'jbr', 'business-bay'],
     cta: ['Send the photo now, with your area', 'and the time it must be clear by.'],
     image: null
   },
@@ -546,7 +546,7 @@ export const services = [
     name: 'Residential Junk Removal',
     blurb: 'Apartments and homes, with building permissions handled for you.',
     seo: {
-      title: 'Residential Junk Removal in Dubai — Building Permissions Handled',
+      title: 'Residential Junk Removal Dubai | Homes & Towers',
       description: 'Junk removal for apartments and homes with building permissions, service-lift bookings and move-out timings handled for you. Floors and lifts protected, fixed price from a photo.'
     },
     h1: 'Residential junk removal for Dubai apartments and homes',
@@ -588,7 +588,7 @@ export const services = [
       { q: 'Will the building manager have anything to complain about?', a: 'Lifts, floors and doorframes are protected and the area is swept before the crew leaves.' }
     ],
     relatedServices: ['house-clearance', 'junk-removal', 'sofa-removal', 'same-day-junk-removal'],
-    popularAreas: ['dubai-marina', 'palm-jumeirah', 'dubai-hills'],
+    popularAreas: ['dubai-marina', 'palm-jumeirah', 'dubai-hills', 'jlt', 'downtown-dubai', 'jvc'],
     cta: ['Tell us the building and the floor.', 'We will handle the rest of the paperwork.'],
     image: null
   },
@@ -599,7 +599,7 @@ export const services = [
     blurb: 'Offices, shops and warehouses, out of hours when you need it.',
     audience: 'business',
     seo: {
-      title: 'Commercial Junk Removal in Dubai — Offices, Shops and Warehouses',
+      title: 'Office & Commercial Junk Removal Dubai | Out of Hours',
       description: 'Office strip-outs, shop clear-outs and warehouse loads cleared out of hours or on a recurring schedule. Desks, partitions, IT waste and stock loaded by crew, fixed price from photos.'
     },
     h1: 'Commercial junk removal for Dubai offices, shops and warehouses',
@@ -639,7 +639,7 @@ export const services = [
       { q: 'Can we set up regular pickups for packaging and site waste?', a: 'Yes. Recurring schedules are available for premises that produce waste continuously.' }
     ],
     relatedServices: ['waste-removal', 'appliance-disposal', 'garbage-removal', 'junk-removal'],
-    popularAreas: ['business-bay', 'deira', 'dubai-silicon-oasis', 'al-barsha'],
+    popularAreas: ['business-bay', 'deira', 'dubai-silicon-oasis', 'al-barsha', 'difc', 'al-quoz'],
     cta: ['Send photos of the floor', 'and the hours we can have it.'],
     image: null
   }

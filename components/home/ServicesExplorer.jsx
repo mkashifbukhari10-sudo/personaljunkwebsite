@@ -25,9 +25,9 @@ export default function ServicesExplorer({ groups }) {
           <div>
             <div style={eyebrow(c.muted)}>The removal system</div>
             <h2 style={{ margin: '16px 0 0', fontSize: 'clamp(38px, 6vw, 78px)', lineHeight: 0.92, fontWeight: 900, letterSpacing: '-0.04em', textTransform: 'uppercase' }}>
-              One crew.
+              Junk removal
               <br />
-              Everything out.
+              services in Dubai
             </h2>
           </div>
           <Link href="/services" style={{ fontFamily: mono, fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase', color: c.ink, borderBottom: '2px solid ' + c.bronze, paddingBottom: 6 }}>
@@ -46,21 +46,23 @@ export default function ServicesExplorer({ groups }) {
                   onMouseEnter={() => setActive(i)}
                   style={{ padding: 'clamp(14px, 1.8vw, 22px) 0', borderBottom: '1px solid ' + c.line, background: on ? c.card : 'transparent', transition: 'background 0.2s ease' }}
                 >
-                  <h3 className="jk-h">
-                    <button
-                      type="button"
-                      className="jk-plain-btn"
-                      aria-expanded={on}
-                      aria-controls={panelId}
-                      onClick={() => setActive(i)}
-                      onFocus={() => setActive(i)}
-                      style={{ width: '100%', display: 'flex', alignItems: 'baseline', gap: 'clamp(14px, 2vw, 26px)' }}
-                    >
-                      <span style={{ fontFamily: mono, fontSize: 12, letterSpacing: '0.12em', color: on ? c.bronzeDeep : c.dim, flex: 'none', width: 'clamp(30px, 4vw, 48px)' }}>{s.num}</span>
-                      <span style={{ fontSize: 'clamp(21px, 2.9vw, 38px)', fontWeight: 800, letterSpacing: '-0.03em', textTransform: 'uppercase', lineHeight: 1, color: on ? c.ink : c.muted, transition: 'color 0.2s ease' }}>{s.name}</span>
-                      <span aria-hidden="true" style={{ fontFamily: mono, fontSize: 14, color: c.bronzeDeep, opacity: on ? 1 : 0, transform: on ? 'none' : 'translateX(-6px)', transition: 'opacity 0.2s ease, transform 0.2s ease' }}>&#8594;</span>
-                    </button>
-                  </h3>
+                  <div style={{ display: 'flex', alignItems: 'baseline', gap: 'clamp(14px, 2vw, 26px)' }}>
+                    <span aria-hidden="true" style={{ fontFamily: mono, fontSize: 12, letterSpacing: '0.12em', color: on ? c.bronzeDeep : c.dim, flex: 'none', width: 'clamp(30px, 4vw, 48px)' }}>{s.num}</span>
+                    <h3 className="jk-h" style={{ flex: '1 1 auto', margin: 0, minWidth: 0 }}>
+                      <button
+                        type="button"
+                        className="jk-plain-btn"
+                        aria-expanded={on}
+                        aria-controls={panelId}
+                        onClick={() => setActive(i)}
+                        onFocus={() => setActive(i)}
+                        style={{ width: '100%', textAlign: 'left', fontSize: 'clamp(21px, 2.9vw, 38px)', fontWeight: 800, letterSpacing: '-0.03em', textTransform: 'uppercase', lineHeight: 1, color: on ? c.ink : c.muted, transition: 'color 0.2s ease' }}
+                      >
+                        {s.name}
+                      </button>
+                    </h3>
+                    <span aria-hidden="true" style={{ fontFamily: mono, fontSize: 14, color: c.bronzeDeep, opacity: on ? 1 : 0, transform: on ? 'none' : 'translateX(-6px)', transition: 'opacity 0.2s ease, transform 0.2s ease' }}>&#8594;</span>
+                  </div>
                   <div id={panelId} aria-hidden={!on} style={{ overflow: 'hidden', transition: 'max-height 0.32s ease, opacity 0.25s ease', maxHeight: on ? 170 : 0, opacity: on ? 1 : 0, paddingTop: on ? 12 : 0 }}>
                     <p style={{ margin: 0, fontSize: 15, lineHeight: 1.6, color: c.body, maxWidth: '52ch', paddingLeft: 'clamp(46px, 6vw, 74px)', textWrap: 'pretty' }}>{s.blurb}</p>
                   </div>

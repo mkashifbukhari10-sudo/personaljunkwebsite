@@ -10,7 +10,7 @@ export default function Disposal() {
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-end', gap: 24, flexWrap: 'wrap' }}>
           <div>
             <div style={eyebrow(c.sageDeep)}>Responsible disposal</div>
-            <h2 style={{ ...h2, marginTop: 16, maxWidth: '20ch' }}>Removing junk is easy.</h2>
+            <h2 style={{ ...h2, marginTop: 16, maxWidth: '20ch' }}>Where junk goes after pickup in Dubai</h2>
           </div>
           <div style={{ maxWidth: '34ch' }}>
             <p style={{ margin: 0, fontSize: 16, lineHeight: 1.6, color: c.body }}>

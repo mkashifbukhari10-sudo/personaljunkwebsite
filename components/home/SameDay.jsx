@@ -17,9 +17,9 @@ export default function SameDay() {
           <div>
             <div style={eyebrow(c.bronze)}>Same-day pickup</div>
             <h2 style={{ margin: '16px 0 0', fontSize: 'clamp(44px, 8vw, 104px)', lineHeight: 0.88, fontWeight: 900, letterSpacing: '-0.045em', textTransform: 'uppercase' }}>
-              Need it gone
+              Same-day junk
               <br />
-              <span style={{ color: c.bronze }}>today?</span>
+              <span style={{ color: c.bronze }}>pickup across Dubai</span>
             </h2>
           </div>
           <div>

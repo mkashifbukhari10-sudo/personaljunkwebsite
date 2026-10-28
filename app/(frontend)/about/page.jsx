@@ -19,7 +19,7 @@ const POINTS = [
 ];
 
 export const metadata = pageMetadata({
-  title: 'About Us — Junk Removal in Dubai Since 2020',
+  title: 'About Junk Removal in Dubai | Crew Since 2020',
   description: 'Junk Services Dubai has been running junk removal and property clearance pickups since 2020. Uniformed crews, upfront pricing and responsible disposal.',
   path: '/about'
 });
@@ -90,7 +90,7 @@ export default async function AboutPage() {
       </Reveal>
 
       <CtaBand title={<>Got junk?<br />Let&#8217;s clear it.</>} />
-      <JsonLd data={webPageSchema('AboutPage', { path: '/about', name: metadata.title, description: metadata.description })} />
+      <JsonLd data={webPageSchema('AboutPage', { path: '/about', name: 'About Junk Removal in Dubai | Crew Since 2020', description: 'Junk Services Dubai has been running junk removal and property clearance pickups since 2020. Uniformed crews, upfront pricing and responsible disposal.' })} />
     </>
   );
 }

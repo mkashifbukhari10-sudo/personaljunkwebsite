@@ -29,7 +29,7 @@ export default async function Crew() {
 
         <div>
           <div style={eyebrow(c.muted)}>The crew</div>
-          <h2 style={{ ...h2, marginTop: 16 }}>Trained to carry. Careful with your property.</h2>
+          <h2 style={{ ...h2, marginTop: 16 }}>Junk removal crews for Dubai properties</h2>
           <p style={{ margin: '24px 0 0', fontSize: 17, lineHeight: 1.6, color: c.body, maxWidth: '48ch', textWrap: 'pretty' }}>
             Uniformed, equipped and briefed before arrival. We protect lift interiors and floors, dismantle what will not fit through the door, and take every piece away in one visit.
           </p>

@@ -1,4 +1,4 @@
-A mattress is awkward long before it reaches the front door. It is wide, flexible, difficult to grip and easily catches on handles, light fittings and corridor corners. Start by deciding whether the mattress is genuinely finished, then plan the route and collection as one job. That prevents the common situation in which a bedroom is cleared but the mattress remains blocking a hallway while someone searches for a way to move it.
+A mattress is awkward long before it reaches the front door. It is wide, flexible, difficult to grip and easily catches on handles, light fittings and corridor corners. Start by deciding whether the mattress is genuinely finished, then plan the route and collection as one job. That prevents the common situation in which a bedroom is cleared but the mattress remains blocking a hallway while someone searches for a way to move it. This guide is the planning checklist. To book the crew, use the [mattress disposal service](/services/mattress-disposal).
 
 ## Decide whether the mattress is leaving or changing hands
 

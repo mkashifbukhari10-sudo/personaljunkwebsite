@@ -8,8 +8,8 @@ import InlineText from '@/components/InlineText';
 import FaqAccordion from '@/components/FaqAccordion';
 import Media from '@/components/Media';
 import { c, mono, shell, eyebrow, h2 } from '@/lib/theme';
-import { serviceHref, areaHref } from '@/lib/hrefs';
-import { getAreas, getAreaBySlug, getNearbyAreas, getPopularServicesForArea } from '@/lib/content/areas';
+import { serviceHref, areaHref, postHref } from '@/lib/hrefs';
+import { getAreas, getAreaBySlug, getNearbyAreas, getPopularServicesForArea, getGuidesForArea } from '@/lib/content/areas';
 import { pageMetadata, ogImageUrl } from '@/lib/seo';
 import { areaServiceSchema, faqPageSchema } from '@/lib/schema';
 
@@ -50,7 +50,11 @@ export default async function AreaPage({ params }) {
   // An old slug still has a redirect behind it; only a genuinely unknown one 404s.
   if (!area) await redirectOrNotFound(areaHref(slug));
 
-  const [popular, nearby] = await Promise.all([getPopularServicesForArea(area.slug), getNearbyAreas(area.slug)]);
+  const [popular, nearby, guides] = await Promise.all([
+    getPopularServicesForArea(area.slug),
+    getNearbyAreas(area.slug),
+    getGuidesForArea(area.slug)
+  ]);
   const schemas = [areaServiceSchema(area)];
   if (area.faqs.length >= 2) schemas.push(faqPageSchema(area.faqs));
 
@@ -99,7 +103,7 @@ export default async function AreaPage({ params }) {
             {popular.map((s) => (
               <Link key={s.slug} href={serviceHref(s.slug)} className="jk-tint-dark" style={{ flex: '1 1 260px', outline: '1px solid rgba(255,255,255,0.14)', padding: 'clamp(22px, 2.6vw, 32px)', color: '#fff', display: 'flex', flexDirection: 'column' }}>
                 <span style={{ fontFamily: mono, fontSize: 10, letterSpacing: '0.18em', color: c.bronze }}>{s.num}</span>
-                <span style={{ marginTop: 14, fontSize: 'clamp(19px, 2vw, 24px)', fontWeight: 800, letterSpacing: '-0.025em', textTransform: 'uppercase', lineHeight: 1.05 }}>{s.name}</span>
+                <span style={{ marginTop: 14, fontSize: 'clamp(19px, 2vw, 24px)', fontWeight: 800, letterSpacing: '-0.025em', textTransform: 'uppercase', lineHeight: 1.05 }}>{s.name} in {area.name}</span>
                 <span style={{ marginTop: 10, fontSize: 14, lineHeight: 1.55, color: 'rgba(255,255,255,0.6)' }}>{s.blurb}</span>
               </Link>
             ))}
@@ -137,6 +141,20 @@ export default async function AreaPage({ params }) {
           </nav>
 
           <div>
+            {guides.length ? (
+              <nav aria-label="Related guides" style={{ marginBottom: 28 }}>
+                <div style={eyebrow(c.muted)}>Related guides</div>
+                <h2 className="jk-h" style={{ marginTop: 16, fontSize: 'clamp(22px, 2.4vw, 30px)', fontWeight: 800, letterSpacing: '-0.025em', textTransform: 'uppercase' }}>Read before you book</h2>
+                <div style={{ marginTop: 20, display: 'grid', borderTop: '1px solid ' + c.line }}>
+                  {guides.map((guide) => (
+                    <Link key={guide.slug} href={postHref(guide.slug)} className="jk-indent" style={listLink}>
+                      <span>{guide.title}</span>
+                      <span style={{ fontFamily: mono, fontSize: 14, color: c.bronzeDeep }}>&#8594;</span>
+                    </Link>
+                  ))}
+                </div>
+              </nav>
+            ) : null}
             <div style={eyebrow(c.muted)}>Booking</div>
             <h2 className="jk-h" style={{ marginTop: 16, fontSize: 'clamp(22px, 2.4vw, 30px)', fontWeight: 800, letterSpacing: '-0.025em', textTransform: 'uppercase' }}>Send a photo, get a price</h2>
             <p style={{ margin: '16px 0 0', fontSize: 16, lineHeight: 1.6, color: c.body, maxWidth: '48ch' }}>

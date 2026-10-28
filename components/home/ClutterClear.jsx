@@ -51,9 +51,9 @@ export default function ClutterClear({ before = null, after = null }) {
           <div>
             <div style={eyebrow(c.bronzeDeep)}>Clutter &#8594; clear</div>
             <h2 style={{ margin: '16px 0 0', fontSize: 'clamp(38px, 6.4vw, 84px)', lineHeight: 0.9, fontWeight: 900, letterSpacing: '-0.045em', textTransform: 'uppercase' }}>
-              More space.
+              Before and after
               <br />
-              Less stress.
+              junk removal
             </h2>
           </div>
           <div style={{ textAlign: 'right' }}>

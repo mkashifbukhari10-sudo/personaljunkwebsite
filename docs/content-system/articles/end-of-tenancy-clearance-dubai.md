@@ -1,4 +1,4 @@
-For end-of-tenancy clearance in Dubai, start with the handover deadline, identify exactly what must leave, and confirm access before arranging collection. Keep removal, cleaning and any repair work as separate tasks. The property needs to be ready for the inspection, not merely ready for a truck to arrive.
+For end-of-tenancy clearance in Dubai, start with the handover deadline, identify exactly what must leave, and confirm access before arranging collection. Keep removal, cleaning and any repair work as separate tasks. The property needs to be ready for the inspection, not merely ready for a truck to arrive. Book the crew on the [move-out clearance](/services/move-out-clearance) page. This guide is the order of work, not a second copy of that service.
 
 This guide is a practical clearance plan, not a statement of your contractual obligations. Check your own agreement, inventory and written instructions from the landlord or property manager. What stays in one furnished apartment may need to leave in another, and a collection booking does not decide that question for you.
 

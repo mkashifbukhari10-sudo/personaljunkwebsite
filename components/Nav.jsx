@@ -52,7 +52,10 @@ export default function Nav({ links = navLinks }) {
           }}
         >
         <Link href="/" aria-label="Junk Services Dubai home" style={{ display: 'flex', alignItems: 'center', padding: '14px 0', flexShrink: 0 }}>
-          <Image src={brand.logoOnDark} alt="Junk Services Dubai" width={brand.logoWidth} height={brand.logoHeight} priority sizes="160px" style={{ height: 40, width: 'auto', display: 'block' }} />
+          {/* Width is the 2× display size (~150px tall-logo). Do not pass `sizes`:
+              Next then builds a srcset of every device width and points `src` at
+              w=3840. Without `sizes`, the candidates stay at 1×/2× of this width. */}
+          <Image src={brand.logoOnDark} alt="Junk Services Dubai" width={192} height={52} priority style={{ height: 40, width: 'auto', display: 'block' }} />
         </Link>
 
         <div

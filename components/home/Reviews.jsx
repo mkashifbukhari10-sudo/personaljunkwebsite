@@ -20,7 +20,7 @@ export default function Reviews({ items = [] }) {
     <Reveal id="reviews" style={{ background: c.ink, color: '#fff', padding: 'clamp(56px, 8vw, 116px) clamp(16px, 3vw, 44px)', borderTop: '1px solid rgba(255,255,255,0.12)' }}>
       <div style={{ maxWidth: 1100, margin: '0 auto' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', gap: 20, flexWrap: 'wrap', fontFamily: mono, fontSize: 11, letterSpacing: '0.2em', textTransform: 'uppercase', color: 'rgba(255,255,255,0.5)' }}>
-          <h2 className="jk-h">Customer reviews</h2>
+          <h2 className="jk-h">Junk removal reviews in Dubai</h2>
           <span>{String(i + 1).padStart(2, '0')} / {String(reviews.length).padStart(2, '0')}</span>
         </div>
 

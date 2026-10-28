@@ -25,23 +25,23 @@ export default function FaqAccordion({ items, initialOpen = 0 }) {
             key={f.q}
             style={{ borderBottom: '1px solid rgba(16,23,38,0.18)', background: on ? c.card : 'transparent', padding: on ? '0 14px' : 0, transition: 'background 0.2s ease' }}
           >
-            <h3 className="jk-h">
-              <button
-                type="button"
-                id={btnId}
-                className="jk-plain-btn"
-                aria-expanded={on}
-                aria-controls={panelId}
-                onClick={() => setOpen(on ? -1 : i)}
-                style={{ width: '100%', display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', gap: 20, padding: 'clamp(18px, 2.2vw, 26px) 0' }}
-              >
-                <span style={{ display: 'flex', alignItems: 'baseline', gap: 'clamp(14px, 2vw, 26px)' }}>
-                  <span style={{ fontFamily: mono, fontSize: 11, letterSpacing: '0.14em', color: on ? c.bronzeDeep : c.dim, flex: 'none', transition: 'color 0.2s ease' }}>{String(i + 1).padStart(2, '0')}</span>
-                  <span style={{ fontSize: 'clamp(17px, 2vw, 24px)', fontWeight: 700, letterSpacing: '-0.015em' }}>{f.q}</span>
-                </span>
-                <span aria-hidden="true" style={{ fontFamily: mono, fontSize: 18, color: c.bronzeDeep, flex: 'none' }}>{on ? '−' : '+'}</span>
-              </button>
-            </h3>
+            <div style={{ display: 'flex', alignItems: 'baseline', gap: 20, padding: 'clamp(18px, 2.2vw, 26px) 0' }}>
+              <span aria-hidden="true" style={{ fontFamily: mono, fontSize: 11, letterSpacing: '0.14em', color: on ? c.bronzeDeep : c.dim, flex: 'none', transition: 'color 0.2s ease' }}>{String(i + 1).padStart(2, '0')}</span>
+              <h3 className="jk-h" style={{ flex: '1 1 auto', margin: 0, minWidth: 0 }}>
+                <button
+                  type="button"
+                  id={btnId}
+                  className="jk-plain-btn"
+                  aria-expanded={on}
+                  aria-controls={panelId}
+                  onClick={() => setOpen(on ? -1 : i)}
+                  style={{ width: '100%', textAlign: 'left', fontSize: 'clamp(17px, 2vw, 24px)', fontWeight: 700, letterSpacing: '-0.015em', color: 'inherit' }}
+                >
+                  {f.q}
+                </button>
+              </h3>
+              <span aria-hidden="true" style={{ fontFamily: mono, fontSize: 18, color: c.bronzeDeep, flex: 'none' }}>{on ? '\u2212' : '+'}</span>
+            </div>
             <div
               id={panelId}
               role="region"

@@ -144,7 +144,7 @@ export default async function ServicePage({ params }) {
             <div style={{ marginTop: 20, display: 'grid', borderTop: '1px solid ' + c.line }}>
               {areas.map((a) => (
                 <Link key={a.slug} href={areaHref(a.slug)} className="jk-indent" style={listLink}>
-                  <span>{a.name}</span>
+                  <span>Junk removal in {a.name}</span>
                   <span style={{ fontFamily: mono, fontSize: 12, color: c.body, textAlign: 'right', fontWeight: 400 }}>{a.note}</span>
                 </Link>
               ))}

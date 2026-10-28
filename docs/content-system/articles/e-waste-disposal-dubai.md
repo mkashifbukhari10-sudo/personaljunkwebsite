@@ -1,6 +1,6 @@
 Electronic waste in Dubai has its own routes, and the general waste bin is not one of them. Dubai Municipality’s Waste Segregation Guide directs households to place e-waste at a Smart Sustainability Oasis or contact an approved e-waste processing company. Larger household appliances and electronics can go through the Municipality’s bulky-waste collection programme.
 
-For one large screen, the [TV disposal guide](/blog/tv-disposal-dubai) covers testing, safe carrying and the choice between reuse and an electronics collection route.
+For one large screen, the [TV disposal guide](/blog/tv-disposal-dubai) covers testing, safe carrying and the choice between reuse and an electronics collection route. This article explains the routes. The [e-waste disposal service](/services/e-waste-disposal) is where you book a collection from the room.
 
 ## What counts as e-waste
 
