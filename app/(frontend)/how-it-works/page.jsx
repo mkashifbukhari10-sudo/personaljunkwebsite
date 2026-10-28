@@ -25,7 +25,7 @@ const QUICK = [
 const moreLink = { display: 'inline-block', fontFamily: mono, fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase', color: c.ink, borderBottom: '2px solid ' + c.bronze, paddingBottom: 6 };
 
 export const metadata = pageMetadata({
-  title: 'How It Works — Photo, Quote, Pickup',
+  title: 'How Junk Removal Works in Dubai | Photo to Pickup',
   description:
     'Send a photo on WhatsApp, get a fixed price upfront, choose a slot and our crew dismantles, carries and clears it. Same-day pickup slots available across Dubai.',
   path: '/how-it-works'

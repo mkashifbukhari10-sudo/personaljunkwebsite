@@ -21,15 +21,20 @@ const inlineLink = { color: '#fff', borderBottom: '1px solid ' + c.bronze };
 const moreLink = { display: 'inline-block', fontFamily: mono, fontSize: 11, letterSpacing: '0.16em', textTransform: 'uppercase', color: c.ink, borderBottom: '2px solid ' + c.bronze, paddingBottom: 6 };
 
 export const metadata = pageMetadata({
-  title: 'Junk Removal Services in Dubai',
+  title: 'Junk Removal Services in Dubai | Prices & Same-Day Slots',
   description:
-    'Twelve services, one crew: junk removal, garbage and waste removal, furniture and sofa removal, appliance disposal, garden waste, house and villa clearance and same-day pickup across Dubai.',
+    'Junk removal, furniture, mattress, appliance, rubbish, office and clearance services across Dubai. WhatsApp a photo for a fixed quote.',
   path: '/services'
 });
 
 export default async function ServicesPage() {
   const services = (await getServices()).map((s) => ({ slug: s.slug, num: s.num, name: s.name, blurb: s.blurb }));
-  const collection = collectionPageSchema({ path: '/services', name: metadata.title, description: metadata.description, items: services.map((s) => ({ name: s.name, href: serviceHref(s.slug) })) });
+  const collection = collectionPageSchema({
+    path: '/services',
+    name: 'Junk Removal Services in Dubai | Prices & Same-Day Slots',
+    description: 'Junk removal, furniture, mattress, appliance, rubbish, office and clearance services across Dubai. WhatsApp a photo for a fixed quote.',
+    items: services.map((s) => ({ name: s.name, href: serviceHref(s.slug) }))
+  });
   return (
     <>
       <PageHero
@@ -37,7 +42,7 @@ export default async function ServicesPage() {
         crumbs={[{ href: '/services', label: 'Services' }]}
         lead={
           <>
-            Twelve services, one crew and one number. Apartments, villas, offices and commercial spaces{' '}
+            {services.length} services, one crew and one number. Apartments, villas, offices and commercial spaces{' '}
             <Link href="/areas" style={inlineLink}>across the city</Link>.
           </>
         }

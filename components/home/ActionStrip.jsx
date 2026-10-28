@@ -2,10 +2,10 @@ import Reveal from '@/components/Reveal';
 import { c, mono, shell } from '@/lib/theme';
 
 const CELLS = [
-  { num: '01', title: 'Same-day pickup', body: 'Message before midday and a crew can reach you the same afternoon.' },
-  { num: '02', title: 'WhatsApp quote', body: 'One photo is enough for a fixed price. No site visit needed.' },
-  { num: '03', title: 'Professional crew', body: 'Uniformed, equipped and briefed before they knock.' },
-  { num: '04', title: 'Upfront pricing', body: 'Labour, loading and disposal in the number you are given.' }
+  { num: '01', title: 'Same-day junk pickup', body: 'Message before midday and a crew can reach you the same afternoon.' },
+  { num: '02', title: 'WhatsApp junk quote', body: 'One photo is enough for a fixed price. No site visit needed.' },
+  { num: '03', title: 'Uniformed removal crew', body: 'Uniformed, equipped and briefed before they knock.' },
+  { num: '04', title: 'Fixed-price junk removal', body: 'Labour, loading and disposal in the number you are given.' }
 ];
 
 export default function ActionStrip() {

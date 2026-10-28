@@ -7,9 +7,9 @@ export default function FinalCta() {
         <div style={{ background: c.ink, color: '#fff', padding: 'clamp(48px, 7vw, 104px) clamp(16px, 3vw, 44px)' }}>
           <div style={{ maxWidth: 620, marginLeft: 'auto', marginRight: 'clamp(0px, 3vw, 40px)' }}>
             <h2 style={{ margin: 0, fontSize: 'clamp(44px, 7vw, 96px)', lineHeight: 0.88, fontWeight: 900, letterSpacing: '-0.045em', textTransform: 'uppercase' }}>
-              Got junk?
+              Book junk removal
               <br />
-              <span style={{ color: c.bronze }}>Let&#8217;s clear it.</span>
+              <span style={{ color: c.bronze }}>in Dubai</span>
             </h2>
             <p style={{ margin: '26px 0 0', fontSize: 17, lineHeight: 1.6, color: 'rgba(255,255,255,0.65)', maxWidth: '40ch' }}>
               Send the photo. We will send the price, the slot and the crew. Everything else is our job.

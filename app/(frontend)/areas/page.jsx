@@ -11,9 +11,9 @@ import { collectionPageSchema } from '@/lib/schema';
 import { areaHref } from '@/lib/hrefs';
 
 export const metadata = pageMetadata({
-  title: 'Areas We Cover in Dubai',
+  title: 'Junk Removal Areas in Dubai | Communities We Cover',
   description:
-    'Dubai-wide junk removal with daily routes from Dubai Marina and Palm Jumeirah to Downtown, Business Bay, JVC, Jumeirah, Arabian Ranches, Dubai Hills, Mirdif, Al Barsha, Deira and Silicon Oasis.',
+    'Junk removal across Dubai communities, from the Marina and Downtown to villas, warehouses and newer districts. WhatsApp your area for a fixed quote.',
   path: '/areas'
 });
 
@@ -23,7 +23,12 @@ export default async function AreasPage() {
   const pick = (a) => ({ slug: a.slug, num: a.num, name: a.name, note: a.note, map: a.map });
   const areas = allAreas.map(pick);
   const featured = allFeatured.map(pick);
-  const collection = collectionPageSchema({ path: '/areas', name: metadata.title, description: metadata.description, items: areas.map((a) => ({ name: a.name, href: areaHref(a.slug) })) });
+  const collection = collectionPageSchema({
+    path: '/areas',
+    name: 'Junk Removal Areas in Dubai | Communities We Cover',
+    description: 'Junk removal across Dubai communities, from the Marina and Downtown to villas, warehouses and newer districts. WhatsApp your area for a fixed quote.',
+    items: areas.map((a) => ({ name: a.name, href: areaHref(a.slug) }))
+  });
   return (
     <AreaHoverProvider>
       <section style={{ background: c.ink, color: '#fff', padding: 'clamp(44px, 6vw, 92px) clamp(16px, 3vw, 44px)' }}>

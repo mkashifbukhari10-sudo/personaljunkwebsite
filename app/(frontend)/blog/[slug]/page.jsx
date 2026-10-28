@@ -16,6 +16,7 @@ import { getServices } from '@/lib/content/services';
 import { getAreasBySlugs } from '@/lib/content/areas';
 import { pageMetadata, ogImageUrl } from '@/lib/seo';
 import { blogPostingSchema } from '@/lib/schema';
+import { inferRelated, serviceAnchor, areaAnchor } from '@/lib/content/related';
 import { extractHeadings } from '@/lib/content/richtext';
 
 /**
@@ -79,13 +80,18 @@ export default async function PostPage({ params }) {
   // An old slug still has a redirect behind it; only a genuinely unknown one 404s.
   if (!post) await redirectOrNotFound(postHref(slug));
 
-  const [allServices, areas, related] = await Promise.all([
+  const picked = inferRelated(post);
+  const [allServices, areaRecords, related] = await Promise.all([
     getServices(),
-    getAreasBySlugs(post.relatedAreas),
+    getAreasBySlugs(picked.areas),
     getRelatedPosts(post.slug)
   ]);
 
-  const services = post.relatedServices.map((s) => allServices.find((x) => x.slug === s)).filter(Boolean);
+  const services = picked.services
+    .map((slug) => allServices.find((service) => service.slug === slug))
+    .filter(Boolean)
+    .map((service) => ({ ...service, anchor: serviceAnchor(service) }));
+  const areas = areaRecords.map((area) => ({ ...area, anchor: areaAnchor(area) }));
 
   const headings = extractHeadings(post.content);
 

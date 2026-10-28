@@ -16,7 +16,7 @@ const FACTS = [
 ];
 
 export const metadata = pageMetadata({
-  title: 'Book a Pickup — Get a Quote on WhatsApp',
+  title: 'Book Junk Removal in Dubai | Call or WhatsApp',
   description:
     'Send your name, area and a photo of what needs removing. Fixed quote on WhatsApp, usually within minutes, 7 days a week. Or call ' + contact.phone + '.',
   path: '/contact'
@@ -72,7 +72,7 @@ export default async function ContactPage() {
           </div>
         </div>
       </Reveal>
-      <JsonLd data={webPageSchema('ContactPage', { path: '/contact', name: metadata.title, description: metadata.description })} />
+      <JsonLd data={webPageSchema('ContactPage', { path: '/contact', name: 'Book Junk Removal in Dubai | Call or WhatsApp', description: 'Send your name, area and a photo of what needs removing. Fixed quote on WhatsApp, usually within minutes, 7 days a week. Or call ' + contact.phone + '.' })} />
     </>
   );
 }

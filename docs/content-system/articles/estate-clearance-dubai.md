@@ -1,4 +1,4 @@
-Clearing a home after a bereavement should begin with authority, decisions and time, not lifting. Confirm who may instruct the work, protect documents and personal items, and divide the property into clear decision groups before arranging removal. A measured process reduces the risk of losing something important while giving the family a practical route through a difficult task.
+Clearing a home after a bereavement should begin with authority, decisions and time, not lifting. Confirm who may instruct the work, protect documents and personal items, and divide the property into clear decision groups before arranging removal. A measured process reduces the risk of losing something important while giving the family a practical route through a difficult task. When someone with authority is ready for items to leave, the booking sits on the [estate and warehouse clearance](/services/estate-and-warehouse-clearance) page. This article stays the planning guide.
 
 ## Confirm who can make decisions
 

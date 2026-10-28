@@ -21,9 +21,9 @@ export default function DubaiMap({ areas }) {
         <div>
           <div style={eyebrow(c.bronze)}>Service area</div>
           <h2 style={{ ...h2, marginTop: 16 }}>
-            Dubai-wide.
+            Areas we cover
             <br />
-            Marina to Mirdif.
+            in Dubai
           </h2>
           <p style={{ margin: '22px 0 0', fontSize: 16, lineHeight: 1.6, color: 'rgba(255,255,255,0.65)', maxWidth: '40ch' }}>
             Crews run daily routes across the city. Hover a community to find it on the grid, or send your location and we will confirm the next slot.

@@ -28,13 +28,11 @@ export default async function Clearance() {
           <div>
             <div style={eyebrow(c.bronze)}>Full property clearance</div>
             <h2 style={{ margin: '20px 0 0', fontSize: 'clamp(38px, 7vw, 100px)', lineHeight: 0.86, fontWeight: 900, letterSpacing: '-0.05em', textTransform: 'uppercase' }}>
-              One item.
+              House and villa
               <br />
-              One room.
+              clearance
               <br />
-              One villa.
-              <br />
-              <span style={{ color: c.bronze }}>We clear it all.</span>
+              <span style={{ color: c.bronze }}>in Dubai</span>
             </h2>
           </div>
 

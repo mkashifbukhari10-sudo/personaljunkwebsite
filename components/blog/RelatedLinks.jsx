@@ -48,7 +48,7 @@ function Column({ label, heading, items, hrefFor, allHref, allLabel, meta }) {
       <div style={{ marginTop: 20, display: 'grid', borderTop: '1px solid ' + c.line }}>
         {items.map((item) => (
           <Link key={item.slug} href={hrefFor(item.slug)} className="jk-indent" style={listLink}>
-            <span>{item.name}</span>
+            <span>{item.anchor || item.name}</span>
             {meta ? (
               <span style={{ fontFamily: mono, fontSize: 12, color: c.body, textAlign: 'right', fontWeight: 400 }}>{meta(item)}</span>
             ) : (

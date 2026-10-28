@@ -14,7 +14,7 @@ export default async function Faq() {
     <Reveal id="faq" style={{ background: c.mist, padding: 'clamp(56px, 8vw, 120px) clamp(16px, 3vw, 44px)' }}>
       <div style={{ maxWidth: 1100, margin: '0 auto' }}>
         <div style={eyebrow(c.muted)}>Questions</div>
-        <h2 style={{ ...h2, margin: '16px 0 clamp(28px, 4vw, 48px)' }}>Straight answers.</h2>
+        <h2 style={{ ...h2, margin: '16px 0 clamp(28px, 4vw, 48px)' }}>Junk removal Dubai FAQs</h2>
         <FaqAccordion items={faqs} />
       </div>
     </Reveal>

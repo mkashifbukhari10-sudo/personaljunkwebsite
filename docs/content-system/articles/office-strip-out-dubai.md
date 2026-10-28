@@ -1,4 +1,4 @@
-An office strip-out succeeds when the floor, building and outgoing materials are treated as one controlled project. Start by defining what must leave, what must remain, who can disconnect fixed elements and when each zone becomes available. That scope protects business continuity and gives the building team enough detail to approve access.
+An office strip-out succeeds when the floor, building and outgoing materials are treated as one controlled project. Start by defining what must leave, what must remain, who can disconnect fixed elements and when each zone becomes available. That scope protects business continuity and gives the building team enough detail to approve access. Desk and equipment collection is booked on the [office clearance](/services/office-clearance) page once the scope is agreed.
 
 When the job centres on desks, chairs and cabinets, use the [office furniture removal guide](/blog/office-furniture-removal-dubai) to plan condition sorting, reuse and the building route.
 

@@ -81,7 +81,14 @@ export const serviceSlots = {
   'villa-clearance': 'villa',
   'residential-junk-removal': 'residential',
   'commercial-junk-removal': 'officeStripOut',
-  'same-day-junk-removal': 'crewStreet'
+  'same-day-junk-removal': 'crewStreet',
+  'rubbish-removal': 'garbageBins',
+  'mattress-disposal': 'houseVilla',
+  'office-clearance': 'officeStripOut',
+  'construction-debris-removal': 'wasteTruck',
+  'e-waste-disposal': 'appliance',
+  'move-out-clearance': 'apartment',
+  'estate-and-warehouse-clearance': 'crewTruck'
 };
 
 /** Area page photo by area slug. Four areas reuse site photos. */

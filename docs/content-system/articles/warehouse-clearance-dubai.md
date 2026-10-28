@@ -1,4 +1,4 @@
-A warehouse clear-out must protect live stock, staff movement and loading operations while removing material at scale. Begin with an inventory boundary: identify what remains, what leaves, what needs specialist handling and which routes must stay operational. Vehicle size and labour can only be planned after those decisions are visible.
+A warehouse clear-out must protect live stock, staff movement and loading operations while removing material at scale. Begin with an inventory boundary: identify what remains, what leaves, what needs specialist handling and which routes must stay operational. Vehicle size and labour can only be planned after those decisions are visible. When the inventory is settled, book the crew on the [estate and warehouse clearance](/services/estate-and-warehouse-clearance) page rather than treating this guide as the service itself.
 
 ## Separate stock from the clearance scope
 
