@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-29:** **96 published repository articles, all with at least 2,000 body words.** The latest two, C25 and H24, cover media-wall and TV-console preparation, and an owner clearing a vacant apartment before viewings. The furniture-removal and house-clearance service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots. The next plan item, G22, stays unpublished until the owner confirms trampoline collection. N-11 was revised in place the same day: a signpost to the office, shop, retail-fit-out and renovation guides, three extra FAQs, and an inbound link from `/services/junk-removal`. No new cardboard URL.
+**Current state as at 2026-10-29:** **98 published repository articles, all with at least 2,000 body words.** E30 and A34 are dated 2026-10-28 and cover a household cooker hood and bicycle removal. They were admitted after the READY queue was exhausted; G22–G24 and K21 stay blocked. The latest dated posts on the site remain C25 and H24 (2026-10-29), which cover media-wall preparation and clearing a vacant apartment before viewings. The furniture-removal and house-clearance service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots. The next plan item, G22, stays unpublished until the owner confirms trampoline collection. N-11 was revised in place the same day: a signpost to the office, shop, retail-fit-out and renovation guides, three extra FAQs, and an inbound link from `/services/junk-removal`. No new cardboard URL.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**96 published records as of 2026-10-29.**
+**98 published records as of 2026-10-29.** The two articles dated 2026-10-28 were admitted after that date’s original READY trio had already been published on 2026-10-27.
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -212,6 +212,8 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | H23 | `downsizing-clearance-dubai` | Downsizing in Dubai: Clear for a Smaller Home Without Guesswork | downsizing in dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-27 | 2026-10-27 | none | `/blog/leaving-dubai-clearance-checklist` | 2358 body words. Repository post. Owns smaller-home capacity and move-versus-clearance sequencing; no selling or valuation advice. |
 | C25 | `media-wall-unit-removal-dubai` | Media wall unit removal in Dubai: check the fixings | media wall unit removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-29 | 2026-10-29 | business | `/blog/tv-disposal-dubai` | 2355 body words. Repository post. Owns loose console versus wall-fixed unit, ownership and the largest rigid section. Fixed joinery stays with a contractor. Crew actions limited to the published acceptance notes. |
 | H24 | `clear-apartment-before-selling-dubai` | Clear apartment before selling in Dubai: set the date | clear apartment before selling dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-29 | 2026-10-29 | none | `/blog/property-clearance-dubai` | 2286 body words. Repository post. Owns a vacant-unit stay/leave inventory and access timing. No price, marketing, commission or legal advice. |
+| E30 | `cooker-hood-removal-dubai` | Cooker hood removal in Dubai: release it safely | cooker hood removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-28 | 2026-10-28 | business | `/blog/oven-removal-dubai` | 2177 body words. Repository post. Owns a household hood’s type, power, duct and route. The oven guide keeps the cooker; commercial canopies stay with restaurant equipment. No claim the crew cuts cables or building ducts. |
+| A34 | `bicycle-removal-dubai` | Bicycle removal in Dubai: locks, size and route | bicycle removal dubai | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-10-28 | 2026-10-28 | business | `/blog/garage-clearance-dubai` | 2121 body words. Repository post. Owns locks, handlebar width, declared motors and the store-to-vehicle route. Gym machines stay with the treadmill guide; a mixed garage stays with the garage guide. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -447,6 +449,8 @@ Ninety-one articles are published; each primary keyword has one owner.
 | downsizing in dubai | `/blog/downsizing-clearance-dubai` | H23 | 2026-10-27 |
 | media wall unit removal dubai | `/blog/media-wall-unit-removal-dubai` | C25 | 2026-10-29 |
 | clear apartment before selling dubai | `/blog/clear-apartment-before-selling-dubai` | H24 | 2026-10-29 |
+| cooker hood removal dubai | `/blog/cooker-hood-removal-dubai` | E30 | 2026-10-28 |
+| bicycle removal dubai | `/blog/bicycle-removal-dubai` | A34 | 2026-10-28 |
 
 ### 5.3 · Reserved by the queue
 
@@ -569,6 +573,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #H23 `downsizing-clearance-dubai` | `/blog/leaving-dubai-clearance-checklist` | article | “downsizing clearance plan” | ☑ applied |
 | #C25 `media-wall-unit-removal-dubai` | `/blog/tv-disposal-dubai` | article | “media-wall unit guide” | ☑ applied |
 | #H24 `clear-apartment-before-selling-dubai` | `/blog/property-clearance-dubai` | article | “pre-sale apartment plan” | ☑ applied |
+| #E30 `cooker-hood-removal-dubai` | `/blog/oven-removal-dubai` | article | “cooker-hood guide” | ☑ applied |
+| #A34 `bicycle-removal-dubai` | `/blog/garage-clearance-dubai` | article | “bicycle removal guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -808,6 +814,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-29 | Published E30 and A34 as repository posts dated 2026-10-28. Admitted `cooker hood removal dubai` and `bicycle removal dubai` after the READY queue was exhausted and G22–G24, K21 and the source-blocked rows were skipped. Reused existing images. Inbound links from the oven and garage guides. | Owner asked for the next two eligible articles with a 2026-10-28 date. No unpublished READY brief remained. |
 | 2026-10-29 | Revised N-11 in place. Added a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, three FAQs the existing four did not answer, and a contextual inbound link from `/services/junk-removal` (“guide to sorting packing material”). Body is 2542 stored words. SEO title and description unchanged. No new URL: `cardboard removal dubai` stays a variant of F19. | Owner approved the closest compliant option after a new cardboard article was blocked by keyword ownership. |
 | 2026-10-29 | Published C25 and H24 as repository posts with 2,000+ body words, existing inspected images, SEO fields and contextual inbound links from the TV-disposal and property-clearance guides. Left G22 unpublished: trampoline collection still requires owner confirmation. No SUPPORT row passed the new-URL gates. | Owner requested the next articles. The 2026-10-29 plan slot is two READY articles; the third queue item is blocked. |
 | 2026-10-25 | Added N-45 to N-47 as repository posts: bulky-item pickup, next-day junk removal and multi-appliance removal. Promoted mapped rows A18, B9 and E10 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the crew-preparation, same-day and fridge guides. | Owner requested the next three articles following the Markdown content system. |

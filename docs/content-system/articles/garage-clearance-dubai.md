@@ -32,7 +32,7 @@ A garage can be fuller by weight than by volume. A few boxes of books, tiles, so
 
 Photograph any shelving before dismantling it. A freestanding unit may leave whole if the route is wide, or it may need to be emptied and taken apart. Ask the crew what helps. Loose screws and sharp metal uprights should be contained rather than mixed with soft goods. Long poles, timber and folded tables also need their lengths shown in photos, not just their width.
 
-Bicycles, gym equipment and large play items have protruding parts. If they are leaving, note whether tyres, pedals or handles make them awkward to pass through the garage opening or side gate. If an item works and someone wants it, arrange that transfer before the removal day. An uncertain buyer or recipient should not be allowed to hold the rest of the clearance past a handover deadline.
+Bicycles, gym equipment and large play items have protruding parts. If they are leaving, note whether tyres, pedals or handles make them awkward to pass through the garage opening or side gate. The [bicycle removal guide](/blog/bicycle-removal-dubai) covers the lock, the handlebar width and a motor battery for the bike itself. If an item works and someone wants it, arrange that transfer before the removal day. An uncertain buyer or recipient should not be allowed to hold the rest of the clearance past a handover deadline.
 
 ## Keep fuels, batteries and chemicals separate
 

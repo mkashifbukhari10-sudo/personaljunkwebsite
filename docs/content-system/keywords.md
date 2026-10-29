@@ -584,6 +584,7 @@ Owner: `/` (head) and `/services/junk-removal` (qualified variants).
 | A31 | junk removal quote dubai | Transactional | HIGH | SUPPORT | `/contact` | P1 | |
 | A32 | what junk removal companies take dubai | Informational | MED | BLOG | `/blog/what-we-take-dubai` | P2 | Pre-qualifies leads; reduces wasted enquiries. |
 | A33 | treadmill removal dubai | Commercial | MED | BLOG | `/blog/treadmill-removal-dubai` | P3 | Editorial scope (2026-10-27): machine-specific preparation for treadmills and home-gym kit; crew actions limited to repository copy. `/services/junk-removal` keeps the transaction; `/areas/sports-city` keeps the area. Status `READY`. Qualitative, no autosuggest signal. Admitted 2026-10-27; see *Expansion admissions*. |
+| A34 | bicycle removal dubai | Commercial | MED | BLOG | `/blog/bicycle-removal-dubai` | P3 | Editorial scope (2026-10-29): each bicycle’s lock, handlebar width, declared motor or battery, and the store-to-vehicle route. Exercise bikes and other gym machines stay with A33. A mixed garage stays with I10. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-28. Qualitative. Admitted because no unpublished READY row remained; see *Further admissions (2026-10-29)*. |
 
 ---
 
@@ -703,6 +704,7 @@ Owner: `/services/appliance-disposal`.
 | E27 | electronics disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E28 | computer disposal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P2 | Consumer volume low; B2B value high. |
 | E29 | where do old appliances go dubai | Informational | MED | SUPPORT | `/blog/what-happens-to-your-junk-dubai` | P2 | Resolved 2026-10-09: destination intent belongs to existing #16; item-specific routes remain on the fridge, AC and e-waste articles. No duplicate blog URL. Demand is qualitative, not measured. |
+| E30 | cooker hood removal dubai | Commercial | MED | BLOG | `/blog/cooker-hood-removal-dubai` | P3 | Editorial scope (2026-10-29): household canopy, integrated, island or downdraft hood — ownership, plug versus fixed supply, duct left with the building, filters and the kitchen route. The oven stays with E14. Commercial canopies stay with K13. `/services/appliance-disposal` keeps the transaction. Status `PUBLISHED` 2026-10-28. Qualitative. Admitted because no unpublished READY row remained; see *Further admissions (2026-10-29)*. |
 
 ---
 
@@ -1457,7 +1459,24 @@ All have the Dest. `BLOG`. IDs refer to the new rows in the Master Keyword Datab
 | M29 | dubai municipality approved waste transporters | approved waste disposal companies dubai · licensed waste collection company dubai | SC5 | Verification / trust | **P2** | `/blog/waste-transporter-permit-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
 | M30 | water damaged furniture removal dubai | rain damaged furniture disposal dubai · flood damaged furniture dubai | SC2 | Problem-led | P3 | `/blog/water-damaged-furniture-removal-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
 
-**Status totals:** 5 formerly `READY`, now published (A33, M26 and H23 on 2026-10-27; C25 and H24 on 2026-10-29) · 4 `READY — BUSINESS INPUT REQUIRED` (G22, G23, G24, K21) · 7 blocked (G25, G26, K20, M27, M28, M29, M30).
+**Status totals:** 5 formerly `READY`, now published (A33, M26 and H23 on 2026-10-27; C25 and H24 on 2026-10-29) · 4 `READY — BUSINESS INPUT REQUIRED` (G22, G23, G24, K21) · 7 blocked (G25, G26, K20, M27, M28, M29, M30). Two later rows, E30 and A34, were admitted on 2026-10-29 and published with a 2026-10-28 date. See below.
+
+### Further admissions (2026-10-29)
+
+No unpublished `READY` brief remained. G22, G23, G24 and K21 still need business input. G25, G26, K20 and M27–M30 stay source- or capability-blocked. The next SUPPORT rows in the 2026-10-09 priority list are service-page variants and fail the new-URL test.
+
+E30 `cooker hood removal dubai` and A34 `bicycle removal dubai` were admitted under the six tests, with no search-volume figure:
+
+| Test | E30 cooker hood | A34 bicycle |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of E14 `oven removal dubai`. | Not a mapped primary or secondary. Not a variant of A33 `exercise bike removal dubai`. |
+| 2 Dubai and in scope | Household appliance removal. | Household item removal. |
+| 3 Removal intent | The reader wants the hood taken away. | The reader wants the bicycle taken away. |
+| 4 One destination | `/blog/cooker-hood-removal-dubai` | `/blog/bicycle-removal-dubai` |
+| 5 Cannibalization | Oven guide keeps the cooker. Restaurant-equipment guide keeps commercial canopies. | Treadmill guide keeps gym machines. Garage guide keeps a mixed garage. |
+| 6 New URL justified | Release, power, duct and kitchen route are a different job from moving the oven. | Lock, width and store route are a different job from a treadmill or a whole garage. |
+
+Capability is limited to published acceptance copy: cooker extraction hoods are listed with cooking appliances once isolated, and crews do not cut live cables; bicycles are listed with household fitness items. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 30 and Day 60 and consolidate if either article competes with its money page. Secondaries, used only where they fit: E30 `extractor hood removal dubai`; A34 `bike removal dubai`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 
