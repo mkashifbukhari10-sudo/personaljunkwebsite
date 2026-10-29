@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-27:** **94 published repository articles, all with at least 2,000 body words.** The latest three, A33, M26 and H23, cover household treadmill preparation, the boundary between organising and removal, and clearance planning when moving to a smaller home. The junk-removal and house-clearance service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots.
+**Current state as at 2026-10-29:** **96 published repository articles, all with at least 2,000 body words.** The latest two, C25 and H24, cover media-wall and TV-console preparation, and an owner clearing a vacant apartment before viewings. The furniture-removal and house-clearance service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots. The next plan item, G22, stays unpublished until the owner confirms trampoline collection.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**94 published records as of 2026-10-27.**
+**96 published records as of 2026-10-29.**
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -210,6 +210,8 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | A33 | `treadmill-removal-dubai` | Treadmill Removal in Dubai: Prepare the Machine and the Route | treadmill removal dubai | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-10-27 | 2026-10-27 | business | `/blog/bulky-item-pickup-dubai` | 2144 body words. Repository post. Household scope and handling claims limited to existing repository copy; commercial gyms and fixed systems remain conditional. |
 | M26 | `decluttering-service-or-junk-removal-dubai` | Decluttering Service or Junk Removal? Choose the Right Help | decluttering service dubai | SC5 | D | `junk-removal` | — | `PUBLISHED` | 2026-10-27 | 2026-10-27 | none | `/blog/decluttering-small-dubai-apartment` | 2115 body words. Repository post. Explicitly states the business does not provide organising and owns only the service-type comparison. |
 | H23 | `downsizing-clearance-dubai` | Downsizing in Dubai: Clear for a Smaller Home Without Guesswork | downsizing in dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-27 | 2026-10-27 | none | `/blog/leaving-dubai-clearance-checklist` | 2358 body words. Repository post. Owns smaller-home capacity and move-versus-clearance sequencing; no selling or valuation advice. |
+| C25 | `media-wall-unit-removal-dubai` | Media wall unit removal in Dubai: check the fixings | media wall unit removal dubai | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-10-29 | 2026-10-29 | business | `/blog/tv-disposal-dubai` | 2355 body words. Repository post. Owns loose console versus wall-fixed unit, ownership and the largest rigid section. Fixed joinery stays with a contractor. Crew actions limited to the published acceptance notes. |
+| H24 | `clear-apartment-before-selling-dubai` | Clear apartment before selling in Dubai: set the date | clear apartment before selling dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-29 | 2026-10-29 | none | `/blog/property-clearance-dubai` | 2286 body words. Repository post. Owns a vacant-unit stay/leave inventory and access timing. No price, marketing, commission or legal advice. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -443,6 +445,8 @@ Ninety-one articles are published; each primary keyword has one owner.
 | treadmill removal dubai | `/blog/treadmill-removal-dubai` | A33 | 2026-10-27 |
 | decluttering service dubai | `/blog/decluttering-service-or-junk-removal-dubai` | M26 | 2026-10-27 |
 | downsizing in dubai | `/blog/downsizing-clearance-dubai` | H23 | 2026-10-27 |
+| media wall unit removal dubai | `/blog/media-wall-unit-removal-dubai` | C25 | 2026-10-29 |
+| clear apartment before selling dubai | `/blog/clear-apartment-before-selling-dubai` | H24 | 2026-10-29 |
 
 ### 5.3 · Reserved by the queue
 
@@ -563,6 +567,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #A33 `treadmill-removal-dubai` | `/blog/bulky-item-pickup-dubai` | article | “treadmill removal guide” | ☑ applied |
 | #M26 `decluttering-service-or-junk-removal-dubai` | `/blog/decluttering-small-dubai-apartment` | article | “decluttering service with junk removal” | ☑ applied |
 | #H23 `downsizing-clearance-dubai` | `/blog/leaving-dubai-clearance-checklist` | article | “downsizing clearance plan” | ☑ applied |
+| #C25 `media-wall-unit-removal-dubai` | `/blog/tv-disposal-dubai` | article | “media-wall unit guide” | ☑ applied |
+| #H24 `clear-apartment-before-selling-dubai` | `/blog/property-clearance-dubai` | article | “pre-sale apartment plan” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -801,6 +807,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-29 | Published C25 and H24 as repository posts with 2,000+ body words, existing inspected images, SEO fields and contextual inbound links from the TV-disposal and property-clearance guides. Left G22 unpublished: trampoline collection still requires owner confirmation. No SUPPORT row passed the new-URL gates. | Owner requested the next articles. The 2026-10-29 plan slot is two READY articles; the third queue item is blocked. |
 | 2026-10-25 | Added N-45 to N-47 as repository posts: bulky-item pickup, next-day junk removal and multi-appliance removal. Promoted mapped rows A18, B9 and E10 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the crew-preparation, same-day and fridge guides. | Owner requested the next three articles following the Markdown content system. |
 | 2026-10-27 | Published A33, M26 and H23 as repository posts with 2,000+ body words each, explicit scope boundaries, existing inspected cover/body images, SEO fields and contextual inbound links. | Owner requested the next three articles and specified 27/10/26. |
 | 2026-10-24 | Added N-42 to N-44 as repository posts: L-shaped sofa removal, apartment furniture removal and one-off office waste collection. Promoted mapped rows D8, C22 and F18 to narrow planning articles, reused existing inspected imagery and added contextual inbound links from the sofa-doorway, tower and office-furniture guides. | Owner requested the next three articles following the Markdown content system. |

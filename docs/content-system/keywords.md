@@ -640,7 +640,7 @@ Owner: `/services/furniture-removal`.
 | C22 | furniture removal apartment dubai | Commercial | HIGH | BLOG | `/blog/apartment-furniture-removal-dubai` | P2 | Editorial scope (2026-10-24): whole-apartment furniture inventory, ownership, dismantling decisions and one lift-ready building route. Item guides and tower logistics keep their detail; `/services/residential-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
-| C25 | media wall unit removal dubai | Commercial | MED | BLOG | `/blog/media-wall-unit-removal-dubai` | P3 | Editorial scope (2026-10-27): loose console versus built-in wall unit, fixings and ownership. No claim to remove fixed joinery. Status `READY`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| C25 | media wall unit removal dubai | Commercial | MED | BLOG | `/blog/media-wall-unit-removal-dubai` | P3 | Editorial scope (2026-10-27): loose console versus built-in wall unit, fixings and ownership. No claim to remove fixed joinery. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -798,7 +798,7 @@ Owner: `/services/house-clearance`.
 | H21 | balcony clearance dubai | Commercial | LOW-MED | BLOG | `/blog/balcony-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; re-check in Search Console. Scope: sorting and carrying a mixed balcony load; garden furniture detail stays with G18. |
 | H22 | children's room clearance dubai | Commercial | LOW-MED | BLOG | `/blog/childrens-room-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Scope: keepsakes first, reuse checks for children's furniture, toys and electronics separated. |
 | H23 | downsizing in dubai | Planning | MED | BLOG | `/blog/downsizing-clearance-dubai` | P3 | Editorial scope (2026-10-27): keep, donate or dispose sequence when moving to a smaller home. Status `READY`. Phrase observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
-| H24 | clear apartment before selling dubai | Planning | MED | BLOG | `/blog/clear-apartment-before-selling-dubai` | P3 | Editorial scope (2026-10-27): owner clearing a vacant unit before viewings; no real-estate or legal advice. Status `READY`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| H24 | clear apartment before selling dubai | Planning | MED | BLOG | `/blog/clear-apartment-before-selling-dubai` | P3 | Editorial scope (2026-10-27): owner clearing a vacant unit before viewings; no real-estate or legal advice. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
 
 ---
 
@@ -1440,14 +1440,14 @@ All have the Dest. `BLOG`. IDs refer to the new rows in the Master Keyword Datab
 | ID | Primary keyword | Secondary keywords | SC | Intent | Pri. | Target URL | Primary money page | Status |
 |---|---|---|---|---|---|---|---|---|
 | A33 | treadmill removal dubai | treadmill disposal dubai · home gym equipment removal dubai · exercise bike removal dubai · weight bench removal dubai · gym weights removal dubai | SC1 | Commercial / practical | P3 | `/blog/treadmill-removal-dubai` | `/services/junk-removal` | `READY` |
-| C25 | media wall unit removal dubai | tv unit removal dubai · tv console disposal dubai · tv stand removal dubai | SC1 | Commercial / practical | P3 | `/blog/media-wall-unit-removal-dubai` | `/services/furniture-removal` | `READY` |
+| C25 | media wall unit removal dubai | tv unit removal dubai · tv console disposal dubai · tv stand removal dubai | SC1 | Commercial / practical | P3 | `/blog/media-wall-unit-removal-dubai` | `/services/furniture-removal` | `PUBLISHED` 2026-10-29 |
 | G22 | trampoline removal dubai | outdoor play equipment removal dubai · play set removal dubai · playhouse removal dubai | SC1 | Commercial / practical | P3 | `/blog/trampoline-removal-dubai` | `/services/garden-waste-removal` | `READY — BUSINESS INPUT REQUIRED` |
 | G23 | bbq grill disposal dubai | barbecue removal dubai · patio heater disposal dubai · outdoor smoker removal dubai | SC1 | Commercial / practical, safety-led | P3 | `/blog/bbq-grill-disposal-dubai` | `/services/garden-waste-removal` | `READY — BUSINESS INPUT REQUIRED` |
 | G24 | pergola removal dubai | garden shed removal dubai · wooden deck removal dubai · gazebo removal dubai · fence removal dubai | SC1 | Commercial / practical | P3 | `/blog/pergola-removal-dubai` | `/services/garden-waste-removal` | `READY — BUSINESS INPUT REQUIRED` |
 | G25 | artificial grass removal dubai | artificial turf removal dubai · fake grass disposal dubai | SC1 | Commercial / practical | P3 | `/blog/artificial-grass-removal-dubai` | `/services/garden-waste-removal` | `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
 | G26 | dubai municipality green waste collection | free garden waste removal dubai · dubai municipality garden waste collection | SC2 | Informational / comparison | **P2** | `/blog/dubai-municipality-green-waste-collection` | `/services/garden-waste-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` |
 | H23 | downsizing in dubai | downsizing clearance dubai · moving to a smaller home dubai | SC3 | Planning / move-out | P3 | `/blog/downsizing-clearance-dubai` | `/services/house-clearance` | `READY` |
-| H24 | clear apartment before selling dubai | vacant property clearance dubai · property clearance before sale dubai | SC3 | Planning / deadline | P3 | `/blog/clear-apartment-before-selling-dubai` | `/services/house-clearance` | `READY` |
+| H24 | clear apartment before selling dubai | vacant property clearance dubai · property clearance before sale dubai | SC3 | Planning / deadline | P3 | `/blog/clear-apartment-before-selling-dubai` | `/services/house-clearance` | `PUBLISHED` 2026-10-29 |
 | K20 | exhibition stand waste removal dubai | event teardown waste removal dubai · exhibition dismantling clearance dubai | SC6 | B2B, deadline-driven | P3 | `/blog/exhibition-stand-waste-removal-dubai` | `/services/commercial-junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
 | K21 | restaurant furniture removal dubai | cafe furniture removal dubai · hospitality furniture clearance dubai · banquet chairs removal dubai | SC6 | B2B, project-driven | P3 | `/blog/restaurant-furniture-removal-dubai` | `/services/commercial-junk-removal` | `READY — BUSINESS INPUT REQUIRED` |
 | M26 | decluttering service dubai | decluttering company dubai · decluttering service in dubai | SC5 | Comparison / service-type choice | **P2** | `/blog/decluttering-service-or-junk-removal-dubai` | `/services/junk-removal` | `READY` |
@@ -1456,7 +1456,7 @@ All have the Dest. `BLOG`. IDs refer to the new rows in the Master Keyword Datab
 | M29 | dubai municipality approved waste transporters | approved waste disposal companies dubai · licensed waste collection company dubai | SC5 | Verification / trust | **P2** | `/blog/waste-transporter-permit-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
 | M30 | water damaged furniture removal dubai | rain damaged furniture disposal dubai · flood damaged furniture dubai | SC2 | Problem-led | P3 | `/blog/water-damaged-furniture-removal-dubai` | `/services/junk-removal` | `BLOCKED — SOURCE VERIFICATION REQUIRED` + `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED` |
 
-**Status totals:** 5 `READY` (A33, C25, H23, H24, M26) · 4 `READY — BUSINESS INPUT REQUIRED` (G22, G23, G24, K21) · 7 blocked (G25, G26, K20, M27, M28, M29, M30).
+**Status totals:** 5 formerly `READY`, now published (A33, M26 and H23 on 2026-10-27; C25 and H24 on 2026-10-29) · 4 `READY — BUSINESS INPUT REQUIRED` (G22, G23, G24, K21) · 7 blocked (G25, G26, K20, M27, M28, M29, M30).
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

@@ -1,5 +1,7 @@
 # Next three article briefs — article date 2026-10-25
 
+**Status 2026-10-29:** N-45, N-46 and N-47 below are published. The next publishable plan items were C25 and H24 (published 2026-10-29). G22 remains blocked on owner confirmation, so it was not written.
+
 These are **repository posts**. Each is a Markdown body in `docs/content-system/articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes an existing mapped SUPPORT row in `keywords.md` to a deliberately narrow article URL. The three service pages keep the broad transactional booking terms.
 
 | ID | Primary keyword | Title / H1 | Slug | Excerpt | Primary service | Cover | Body image |

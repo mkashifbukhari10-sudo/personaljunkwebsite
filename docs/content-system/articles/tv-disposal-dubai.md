@@ -22,7 +22,7 @@ Where those routes do not fit your timing, a removal service can collect the TV 
 
 ## Protect the screen before anyone moves it
 
-Unplug the set and remove all cables. Bundle each cable separately so a loose lead cannot catch under a trolley wheel. If the screen was wall-mounted, confirm who will detach it, what tools are needed and whether the bracket stays with the property. Do not pull a mounted screen forward without supporting its weight; the bracket can release suddenly and a thin panel can flex. If the unit is large, use two people and follow the manufacturer's handling instructions.
+Unplug the set and remove all cables. Bundle each cable separately so a loose lead cannot catch under a trolley wheel. If the screen was wall-mounted, confirm who will detach it, what tools are needed and whether the bracket stays with the property. When the cabinet or stand under the screen is the item leaving, the [media-wall unit guide](/blog/media-wall-unit-removal-dubai) separates a loose console from wall-fixed joinery. Do not pull a mounted screen forward without supporting its weight; the bracket can release suddenly and a thin panel can flex. If the unit is large, use two people and follow the manufacturer's handling instructions.
 
 Keep the TV upright where possible. Protect the front with a soft clean layer and a rigid outer surface, without pressing tape directly onto the display. The original carton and shaped inserts are ideal if they are still available. Otherwise, use a padded moving blanket and secure it around the body, not across an exposed panel edge. A cracked screen should be handled as broken electronics: avoid touching exposed glass and tell the collector what is damaged before arrival.
 

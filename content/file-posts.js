@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "clear-apartment-before-selling-dubai",
+    title: "Clear apartment before selling in Dubai: set the date",
+    excerpt: "Mark what leaves, what stays and what is on hold, then book building access so collection finishes before the apartment has to be ready.",
+    publishedAt: "2026-10-29T05:00:05.000Z",
+    cover: "empty-room-before-handover",
+    services: ["house-clearance"],
+    seoTitle: "Clear apartment before selling in Dubai",
+    seoDescription: "Mark what leaves and what stays, then book building access before the apartment must be ready.",
+    ogTitle: "Clear an apartment before selling in Dubai",
+    ogDescription: "Set the date, mark the inventory and book access before viewings."
+  },
+  {
+    slug: "media-wall-unit-removal-dubai",
+    title: "Media wall unit removal in Dubai: check the fixings",
+    excerpt: "Name the console or wall unit, separate the television and cables, confirm who owns a wall fixing, and measure the largest rigid section before you ask for collection.",
+    publishedAt: "2026-10-29T05:00:00.000Z",
+    cover: "tv-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Media wall unit removal Dubai: fixings guide",
+    seoDescription: "Separate a loose TV console from a wall-fixed unit, then measure the largest section.",
+    ogTitle: "Media wall unit removal: check the fixings",
+    ogDescription: "Name the unit, separate the screen and measure the largest rigid section."
+  },
+  {
     slug: "downsizing-clearance-dubai",
     title: "Downsizing in Dubai: Clear for a Smaller Home Without Guesswork",
     excerpt: "Measure the smaller home first, inventory every possession, separate moving and removal lists, and work backwards from the final property deadline.",
