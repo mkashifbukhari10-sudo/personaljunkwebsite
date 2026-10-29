@@ -501,6 +501,30 @@ export const filePosts = [
     ogDescription: "Name the unit, separate the screen and measure the largest rigid section."
   },
   {
+    slug: "bicycle-removal-dubai",
+    title: "Bicycle removal in Dubai: locks, size and route",
+    excerpt: "Count each bike, open the lock or show that it is still shut, and measure the handlebars against the door, lift or gate.",
+    publishedAt: "2026-10-28T05:00:05.000Z",
+    cover: "garage-clearance-dubai-cover",
+    services: ["junk-removal"],
+    seoTitle: "Bicycle removal Dubai: locks, size and route",
+    seoDescription: "List each bicycle, deal with the lock, ask about a motor battery, and measure the handlebars.",
+    ogTitle: "Bicycle removal in Dubai: locks and the route",
+    ogDescription: "Name each bike, deal with the lock and measure the handlebars."
+  },
+  {
+    slug: "cooker-hood-removal-dubai",
+    title: "Cooker hood removal in Dubai: release it safely",
+    excerpt: "Photograph the canopy or cupboard unit, confirm who owns it, and separate the cable and duct from the oven before you book collection.",
+    publishedAt: "2026-10-28T05:00:00.000Z",
+    cover: "fridge-disposal-cover",
+    services: ["appliance-disposal"],
+    seoTitle: "Cooker hood removal Dubai: release it safely",
+    seoDescription: "Identify the hood, isolate a simple plug, leave building ducts alone, and measure the canopy.",
+    ogTitle: "Cooker hood removal: release it before collection",
+    ogDescription: "Name the hood, separate power and duct, and measure the canopy."
+  },
+  {
     slug: "downsizing-clearance-dubai",
     title: "Downsizing in Dubai: Clear for a Smaller Home Without Guesswork",
     excerpt: "Measure the smaller home first, inventory every possession, separate moving and removal lists, and work backwards from the final property deadline.",

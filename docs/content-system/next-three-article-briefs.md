@@ -1,6 +1,11 @@
 # Next three article briefs — article date 2026-10-25
 
-**Status 2026-10-29:** N-45, N-46 and N-47 below are published. The next publishable plan items were C25 and H24 (published 2026-10-29). G22 remains blocked on owner confirmation, so it was not written.
+**Status 2026-10-29:** N-45, N-46 and N-47 below are published. C25 and H24 are published (2026-10-29). No further READY brief remained. G22, G23, G24 and K21 stay blocked on business input. E30 and A34 were admitted under the keyword tests and published with a 2026-10-28 date.
+
+| ID | Primary keyword | Title / H1 | Slug | Primary service | Cover |
+|---|---|---|---|---|---|
+| E30 | cooker hood removal dubai | Cooker hood removal in Dubai: release it safely | `cooker-hood-removal-dubai` | `appliance-disposal` | `fridge-disposal-cover` |
+| A34 | bicycle removal dubai | Bicycle removal in Dubai: locks, size and route | `bicycle-removal-dubai` | `junk-removal` | `garage-clearance-dubai-cover` |
 
 These are **repository posts**. Each is a Markdown body in `docs/content-system/articles/` plus an entry in `content/file-posts.js`, with no admin or database step (see *Repository publishing* in `article-presentation.md`). Each promotes an existing mapped SUPPORT row in `keywords.md` to a deliberately narrow article URL. The three service pages keep the broad transactional booking terms.
 

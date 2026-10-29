@@ -24,7 +24,7 @@ Any gas connection changes the preparation plan. Do not disconnect, cap or test 
 
 A countertop appliance is smaller and is normally unplugged rather than fixed into the kitchen. It still needs to be empty, cool and clean, with its glass turntable or loose tray secured separately. If several small electrical appliances are leaving, list them all; do not describe a mixed load simply as “one oven.”
 
-This article focuses on domestic ovens and cookers. Commercial kitchen equipment, extraction systems and fixed counters require a specific commercial assessment.
+This article focuses on domestic ovens and cookers. A household cooker hood has its own release steps in the [cooker-hood guide](/blog/cooker-hood-removal-dubai). Commercial extraction canopies and fixed kitchen fabric need the [restaurant-equipment guide](/blog/restaurant-equipment-removal-dubai) rather than a domestic oven booking.
 
 ## Confirm that you have authority to remove it
 
