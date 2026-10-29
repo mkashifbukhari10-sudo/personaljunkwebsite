@@ -730,7 +730,7 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F16 | skip hire alternative dubai | Commercial | HIGH | BLOG | `/blog/skip-hire-vs-junk-removal-dubai` | P2 | **Strong comparison play** — a crew that loads beats a skip you fill yourself. (Skip *hire* itself is excluded.) |
 | F17 | junk removal truck dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | Check intent — if it is truck *rental*, it is excluded. |
 | F18 | office waste collection dubai | Commercial | HIGH | BLOG | `/blog/office-waste-collection-dubai` | P2 | Editorial scope (2026-10-24): define a one-off loose office load and separate it from routine bins, data/records processes, technical material and recurring service. `/services/commercial-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
-| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. |
+| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. |
 
 ---
 
@@ -1079,6 +1079,7 @@ The service pages already contain contextual inline links (e.g. `/services/junk-
 | Existing page | Existing section to extend | Link down to |
 |---|---|---|
 | `/services/junk-removal` | "What we cannot take" | `/blog/what-dubai-bins-wont-take` · `/blog/illegal-dumping-fines-dubai` |
+| `/services/junk-removal` | "What counts as junk" | `/blog/packing-material-disposal-dubai` (applied 2026-10-29) |
 | `/services/furniture-removal` | "Usable furniture is passed on" | `/blog/donate-furniture-dubai` · `/blog/dispose-old-furniture-dubai` |
 | `/services/sofa-removal` | "Getting a sofa out of an apartment" | `/blog/sofa-wont-fit-through-door-dubai` · `/blog/service-lift-booking-dubai` |
 | `/services/appliance-disposal` | "Where old appliances go" | `/blog/dispose-fridge-dubai` · `/blog/e-waste-disposal-dubai` |

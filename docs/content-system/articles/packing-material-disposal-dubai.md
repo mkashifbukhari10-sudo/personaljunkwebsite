@@ -62,6 +62,8 @@ For a quote, send a wide photo showing the whole cardboard pile and say whether 
 
 If the pile must go today, send those details immediately and state your latest acceptable completion time. The [urgent collection guide](/blog/junk-gone-today-dubai) explains how availability and building access affect a same-day request. Do not promise a landlord, delivery team or building manager that the cardboard will be gone until the collection is confirmed.
 
+This article is the packaging left by a move or a home delivery. For cardboard that comes out with an office clear-out, read the [one-off office waste guide](/blog/office-waste-collection-dubai). A shop being emptied follows [shop clearance planning](/blog/shop-clearance-dubai). Loose packaging from a retail refit follows the [retail fit-out waste guide](/blog/retail-fit-out-waste-removal-dubai). Cartons mixed with tiles, gypsum or timber belong with the [renovation waste guide](/blog/renovation-waste-removal-dubai).
+
 ## Prepare the pile so it can be carried
 
 A well-prepared pile is quicker to quote, safer to handle and less likely to leave debris behind. The aim is a small number of stable, separate groups that can be carried out without sorting on the day.
@@ -117,4 +119,16 @@ You can ask for a collection that is mainly packaging. Describe it as cardboard 
 
 ### Is wet cardboard still recyclable?
 
-The Municipality guide excludes cardboard contaminated with food from the recyclables stream; for cardboard that is simply wet, ask what your building's route accepts. Soaked cardboard is also hard to handle, so keep it separate and mention it in any quote request.
+The Municipality guide excludes cardboard contaminated with food, and cardboard coated with plastic, from the recyclables stream. For cardboard that is simply wet, ask what your building's route accepts. Soaked cardboard is also hard to handle, so keep it separate and mention it in any quote request.
+
+### What if some boxes belong to the mover?
+
+Check the agreement before you flatten or cut a carton. Keep the mover's boxes, crates and blankets apart from material you own. If the agreement does not say who takes the packaging back, ask the mover rather than treating it as waste.
+
+### What about boxes from a furniture or appliance delivery?
+
+Ask the retailer whether the delivery team takes that packaging away, and check the answer in writing. If they do not, add the cartons to the same pile and arrange one collection once most of the unpacking is finished, rather than a separate booking for each delivery.
+
+### Do I need to flatten the cardboard first?
+
+Flatten cartons you own and stack them in bundles one person can carry. Tie or tape each bundle so the sheets stay together. Leave any carton the mover expects back in usable condition. In the quote, say whether the pile is flattened, still boxed, or wet.
