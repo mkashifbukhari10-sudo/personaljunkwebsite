@@ -35,7 +35,7 @@ export default function Hero() {
           {/* Descriptive H1 in the eyebrow slot; the display slogan below is supporting text. No entry animation so LCP is not delayed. */}
           <h1 style={{ ...eyebrow(c.bronze), margin: 0, fontWeight: 400, display: 'flex', alignItems: 'center', gap: 12 }}>
             <span style={{ width: 8, height: 8, background: c.bronze, display: 'block' }} />
-            Same-day junk removal across Dubai
+            Junk removal Dubai
           </h1>
 
           <p style={{ margin: '22px 0 0', fontSize: 'clamp(40px, 6vw, 132px)', lineHeight: 0.86, fontWeight: 900, letterSpacing: '-0.045em', textTransform: 'uppercase' }}>
@@ -45,7 +45,7 @@ export default function Hero() {
           </p>
 
           <p style={{ margin: '30px 0 0', maxWidth: '46ch', fontSize: 'clamp(16px, 1.4vw, 19px)', lineHeight: 1.6, color: c.onDark, textWrap: 'pretty' }}>
-            <Link href="/services" style={{ color: '#fff', borderBottom: '1px solid ' + c.bronze }}>Furniture, appliances, garden waste, whole villas</Link>. Send one photo on WhatsApp, get a price, and a uniformed crew arrives to carry it out. You do not lift a thing.
+            Dubai junk removal for furniture, appliances, garden waste or a whole villa. This junk removal service collects from the room: send one photo on WhatsApp, see <Link href="/services/junk-removal" style={{ color: '#fff', borderBottom: '1px solid ' + c.bronze }}>how a pickup is booked</Link>, and a uniformed crew carries it out. Junk collection covers one piece or a full load. You do not lift a thing.
           </p>
 
           <div style={{ margin: '36px 0 0', display: 'flex', gap: 12, flexWrap: 'wrap' }}>

@@ -1,4 +1,4 @@
-Dubai Municipality currently provides a bulky-waste service for household furniture, electrical appliances and electronics, but it does not cover every Dubai address. The official directory describes the service as free, gives a three-working-day completion time and excludes investment zones. Verify the live service details and your address before placing anything outside.
+Dubai Municipality bulky waste collection currently covers household furniture, electrical appliances and electronics, but it does not cover every Dubai address. The official directory describes the service as free, gives a three-working-day completion time and excludes investment zones. Verify the live service details and your address before placing anything outside.
 
 ## What the official service covers
 

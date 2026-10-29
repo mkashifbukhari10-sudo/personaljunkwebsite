@@ -24,7 +24,7 @@ export const areas = [
       description: 'Junk, sofa and furniture removal from Dubai Marina towers with the service-lift booking handled for you. Fixed price from a photo, crews on daily routes.'
     },
     h1: 'Junk removal in Dubai Marina with the service lift booked for you',
-    intro: 'Marina pickups are tower pickups: a high floor, a lobby with rules, and a service lift that has to be booked before a sofa can leave. Send a photo of what needs to go and your building, and we handle the lift booking and the timing so the crew arrives with permission to work.',
+    intro: 'Marina pickups are tower pickups: a high floor, a lobby with rules, and a service lift that has to be booked before a sofa can leave. Send a photo of what needs to go and your building, and we handle the lift booking and the timing so the crew arrives with permission to work. Flattened boxes from a furnished turnover can travel with the furniture. The [packing-material guide](/blog/packing-material-disposal-dubai) covers what to separate, and the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check when a free collection might fit the tower.',
     body: [
       {
         heading: 'Getting bulky items out of a Marina tower',
@@ -64,11 +64,11 @@ export const areas = [
     map: { x: 9, y: 28 },
     home: { x: 10, y: 26, order: 1 },
     seo: {
-      title: 'Junk Removal on Palm Jumeirah — Villas and Apartments, Gate Access Arranged',
+      title: 'Junk Removal on Palm Jumeirah — Gate Access Arranged',
       description: 'Villa clearances, garden waste and apartment pickups across Palm Jumeirah with gate and community access arranged in advance. Fixed price from photos.'
     },
     h1: 'Junk removal on Palm Jumeirah with gate access arranged',
-    intro: 'The Palm has two kinds of pickup: villas on the fronds with gardens, storage and gate security, and apartment buildings on the trunk with lobbies and lifts. Tell us which you are in and we arrange the access before the crew sets off.',
+    intro: 'The Palm has two kinds of pickup: villas on the fronds with gardens, storage and gate security, and apartment buildings on the trunk with lobbies and lifts. Tell us which you are in and we arrange the access before the crew sets off. Frond villas and trunk apartments are different carries. [Furniture collection](/services/furniture-removal) is the booked crew, and the [bulky-waste note](/blog/dubai-municipality-bulky-waste) is worth reading for that exact address before you assume a free pickup.',
     body: [
       {
         heading: 'Frond villas: gate access and garden',
@@ -106,11 +106,11 @@ export const areas = [
     map: { x: 45, y: 58 },
     home: { x: 45, y: 60, order: 4 },
     seo: {
-      title: 'Junk Removal in Downtown Dubai — High-Rise Clear-Outs, Same-Day Slots',
+      title: 'Junk Removal in Downtown Dubai — High-Rise Clear-Outs',
       description: 'High-rise apartment clear-outs, sofa and furniture removal in Downtown Dubai, with same-day slots where crews are on route. Fixed price from a photo.'
     },
     h1: 'Junk removal in Downtown Dubai with same-day slots',
-    intro: 'Downtown is where same-day requests come from most: a handover this evening, a delivery arriving this afternoon, a landlord inspection tomorrow. Message in the morning with a photo and your building and we check which crew on route can reach you today.',
+    intro: 'Downtown is where same-day requests come from most: a handover this evening, a delivery arriving this afternoon, a landlord inspection tomorrow. Message in the morning with a photo and your building and we check which crew on route can reach you today. A handover deadline and a free collection are different clocks. Read [whether bulky collection covers this tower](/blog/dubai-municipality-bulky-waste) before you rely on it.',
     body: [
       {
         heading: 'Same-day in a high-rise district',
@@ -149,11 +149,11 @@ export const areas = [
     map: { x: 53, y: 36 },
     home: { x: 55, y: 34, order: 5 },
     seo: {
-      title: 'Junk Removal in Business Bay — Office Furniture and Commercial Loads',
+      title: 'Junk Removal in Business Bay — Offices and Loads',
       description: 'Office strip-outs, commercial loads and building waste cleared from Business Bay towers, out of hours where needed. Fixed price from photos of the space.'
     },
     h1: 'Office and commercial junk removal in Business Bay',
-    intro: 'Business Bay pickups are mostly commercial: an office floor being vacated, workstations and partitions coming out, packaging and site waste from a fit-out. We quote the load from photos, work out of hours where trading or staff would be disrupted, and take IT equipment with the rest as e-waste.',
+    intro: 'Business Bay pickups are mostly commercial: an office floor being vacated, workstations and partitions coming out, packaging and site waste from a fit-out. We quote the load from photos, work out of hours where trading or staff would be disrupted, and take IT equipment with the rest as e-waste. Office desks and flattened cardboard from a fit-out can share a load. The [packing-material guide](/blog/packing-material-disposal-dubai) is the sorting note, [desk and chair removal](/services/furniture-removal) is the furniture, and the [household bulky-waste guide](/blog/dubai-municipality-bulky-waste) is a residence check, not an office contract.',
     body: [
       {
         heading: 'Office furniture and strip-outs',
@@ -196,7 +196,7 @@ export const areas = [
       description: 'Junk, sofa and same-day pickups in Jumeirah Village Circle, from a single item to a full apartment. Frequent routes, fixed price from a photo.'
     },
     h1: 'Junk removal in JVC, from one item to a full load',
-    intro: 'JVC is on our routes often, which makes it a good area for the everyday pickup: a single sofa, a few boxes and a broken chair, or a whole apartment before a move. Send a photo and we quote the load, small or full, as a fixed price.',
+    intro: 'JVC is on our routes often, which makes it a good area for the everyday pickup: a single sofa, a few boxes and a broken chair, or a whole apartment before a move. Send a photo and we quote the load, small or full, as a fixed price. When the load is the beds and wardrobes rather than a mixed pile, that is [furniture collection](/services/furniture-removal). The [bulky-waste guide for this building](/blog/dubai-municipality-bulky-waste) is the other route to check.',
     body: [
       {
         heading: 'Small loads are welcome',
@@ -239,7 +239,7 @@ export const areas = [
       description: 'Villa clearances, garden waste and furniture removal across Jumeirah’s villa streets. Larger crews for full properties, open truck for garden loads, fixed price from photos.'
     },
     h1: 'Villa clearance and garden waste removal in Jumeirah',
-    intro: 'Jumeirah jobs are villa jobs: a garden cut back and piled by the gate, a storage room emptied before a renovation, or a whole villa cleared before handover. We size the crew to the property and quote the whole job from your photos.',
+    intro: 'Jumeirah jobs are villa jobs: a garden cut back and piled by the gate, a storage room emptied before a renovation, or a whole villa cleared before handover. We size the crew to the property and quote the whole job from your photos. Garden piles and a house full of furniture are different jobs: [furniture collection](/services/furniture-removal) for the rooms, and a [one-off rubbish pickup](/services/junk-removal) when the rest is mixed. Check the [bulky-waste note](/blog/dubai-municipality-bulky-waste) for the villa address before counting on a free collection.',
     body: [
       {
         heading: 'Garden waste from Jumeirah villas',
@@ -277,11 +277,11 @@ export const areas = [
     map: { x: 72, y: 60 },
     home: { x: 74, y: 50, order: 8 },
     seo: {
-      title: 'Junk Removal in Arabian Ranches — Large Villa Crews, Garden and Storage',
+      title: 'Junk Removal in Arabian Ranches — Large Villa Crews',
       description: 'Full villa clearances in Arabian Ranches with crews of four or more, garden and storage included, gate access arranged with the community. Fixed price from photos.'
     },
     h1: 'Villa clearance in Arabian Ranches with a crew sized to the house',
-    intro: 'Ranches villas are big, and so are the clear-outs: years of storage, a garden that needs emptying, furniture from every bedroom. We send a larger crew, plan the loads over one or two days if needed, and arrange gate access with the community before the first truck arrives.',
+    intro: 'Ranches villas are big, and so are the clear-outs: years of storage, a garden that needs emptying, furniture from every bedroom. We send a larger crew, plan the loads over one or two days if needed, and arrange gate access with the community before the first truck arrives. A mixed villa load that is not only furniture is a [one-off rubbish pickup](/services/junk-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is a separate check for that plot, not a promise that the community is covered.',
     body: [
       {
         heading: 'Crew size for a Ranches villa',
@@ -319,11 +319,11 @@ export const areas = [
     map: { x: 63, y: 72 },
     home: { x: 66, y: 72, order: 7 },
     seo: {
-      title: 'Junk Removal in Dubai Hills — Move-Outs and Handover Clearances',
+      title: 'Junk Removal in Dubai Hills — Handover Clearances',
       description: 'Move-out and handover clearances in Dubai Hills for apartments, townhouses and villas, planned back from your handover date. Fixed price from photos.'
     },
     h1: 'Move-out and handover clearances in Dubai Hills',
-    intro: 'Dubai Hills pickups tend to have a date on them: a handover, a lease end, a new tenant arriving. We plan the clearance back from that date, confirm the inventory with you before loading, and leave the property swept for inspection.',
+    intro: 'Dubai Hills pickups tend to have a date on them: a handover, a lease end, a new tenant arriving. We plan the clearance back from that date, confirm the inventory with you before loading, and leave the property swept for inspection. Move-out furniture is the usual job here. Whether the address can use [municipal bulky collection](/blog/dubai-municipality-bulky-waste) is a separate question from the handover date.',
     body: [
       {
         heading: 'Working back from the handover date',
@@ -362,11 +362,11 @@ export const areas = [
     map: { x: 80, y: 24 },
     home: { x: 82, y: 22, order: 9 },
     seo: {
-      title: 'Junk Removal in Mirdif — Household Junk and Appliance Disposal',
+      title: 'Junk Removal in Mirdif — Household and Appliances',
       description: 'Household junk, old appliances and bulky items collected from Mirdif homes and passed to licensed handlers. Fixed price from a photo, 7 days a week.'
     },
     h1: 'Household junk removal and appliance disposal in Mirdif',
-    intro: 'Mirdif jobs are the everyday kind: a fridge that died, a garage full of things nobody uses, a mattress and two chairs after a room change. Send a photo of the pile or the appliance and a two-person crew clears it in one visit.',
+    intro: 'Mirdif jobs are the everyday kind: a fridge that died, a garage full of things nobody uses, a mattress and two chairs after a room change. Send a photo of the pile or the appliance and a two-person crew clears it in one visit. An old fridge or another bulky household piece may be eligible for [municipal bulky collection](/blog/dubai-municipality-bulky-waste). The guide is the check, and a paid crew is the alternative when the address or the date does not qualify.',
     body: [
       {
         heading: 'Household junk from Mirdif homes',
@@ -403,11 +403,11 @@ export const areas = [
     note: 'Apartments, offices and shop clear-outs.',
     map: { x: 44, y: 26 },
     seo: {
-      title: 'Junk Removal in Al Barsha — Apartments, Offices and Shop Clear-Outs',
+      title: 'Junk Removal in Al Barsha — Flats, Offices and Shops',
       description: 'Apartment pickups, office clearances and shop fit-out clear-outs across Al Barsha. Crew sized to the load, out of hours for businesses, fixed price from photos.'
     },
     h1: 'Junk removal in Al Barsha for apartments, offices and shops',
-    intro: 'Al Barsha mixes everything: apartment buildings, office blocks and retail units side by side. One day it is a sofa from a third-floor flat, the next a shop being stripped before a new tenant. We quote each as a load from photos and work around the premises’ hours.',
+    intro: 'Al Barsha mixes everything: apartment buildings, office blocks and retail units side by side. One day it is a sofa from a third-floor flat, the next a shop being stripped before a new tenant. We quote each as a load from photos and work around the premises’ hours. Older buildings without a service lift still need a crew for the carry. [Municipal bulky collection](/blog/dubai-municipality-bulky-waste) does not replace that carry. Read it only to see whether the address is eligible.',
     body: [
       {
         heading: 'Apartment pickups',
@@ -444,11 +444,11 @@ export const areas = [
     note: 'Commercial waste and recurring pickups.',
     map: { x: 88, y: 46 },
     seo: {
-      title: 'Junk Removal in Deira — Commercial Waste and Recurring Pickups',
+      title: 'Junk Removal in Deira — Commercial Recurring Pickups',
       description: 'Commercial waste, packaging and stock clear-outs collected from Deira shops, warehouses and offices on a recurring schedule or one-off. Fixed price from photos.'
     },
     h1: 'Commercial junk removal and recurring pickups in Deira',
-    intro: 'Deira is a trading district, and its waste is commercial: packaging that builds up weekly, stock that needs clearing, a warehouse corner that has not moved in years. We set recurring pickups for premises that fill up on a rhythm, and quote one-off loads from photos.',
+    intro: 'Deira is a trading district, and its waste is commercial: packaging that builds up weekly, stock that needs clearing, a warehouse corner that has not moved in years. We set recurring pickups for premises that fill up on a rhythm, and quote one-off loads from photos. A one-off pile from a shop is [rubbish removal](/services/junk-removal), not a municipal bin round. The [household bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the wrong assumption for a warehouse corner.',
     body: [
       {
         heading: 'Recurring commercial pickups',
@@ -485,11 +485,11 @@ export const areas = [
     note: 'Offices, e-waste and bulky items.',
     map: { x: 86, y: 70 },
     seo: {
-      title: 'Junk Removal in Dubai Silicon Oasis — Offices, E-Waste and Bulky Items',
+      title: 'Junk Removal in Dubai Silicon Oasis — Offices',
       description: 'Office clearances, IT and e-waste disposal and bulky-item pickups across Dubai Silicon Oasis, with electronics routed to licensed handlers. Fixed price from photos.'
     },
     h1: 'Office clearance and e-waste removal in Dubai Silicon Oasis',
-    intro: 'Silicon Oasis jobs lean towards offices and electronics: a floor of workstations, cabinets of old IT equipment, monitors and printers nobody wants to carry. We dismantle and load the furniture, and route the electronics to licensed handlers as e-waste rather than general waste.',
+    intro: 'Silicon Oasis jobs lean towards offices and electronics: a floor of workstations, cabinets of old IT equipment, monitors and printers nobody wants to carry. We dismantle and load the furniture, and route the electronics to licensed handlers as e-waste rather than general waste. Office furniture from a floor clear-out is [furniture collection](/services/furniture-removal). The [household bulky-waste guide](/blog/dubai-municipality-bulky-waste) is a home service, so an office should not assume it applies.',
     body: [
       {
         heading: 'IT and e-waste from offices',

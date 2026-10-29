@@ -22,7 +22,7 @@ export const areasExpansion = [
       description: 'Junk, furniture and office clear-outs across the JLT clusters. Tell us the cluster letter and tower; we arrange the service lift and quote a fixed price from your photo.'
     },
     h1: 'Junk removal in JLT, tower by tower across the clusters',
-    intro: 'Jumeirah Lake Towers is laid out in lettered clusters of three towers, and many of them mix offices and apartments in the same building. Give us the cluster letter, the tower and the floor with your photo, and the crew arrives at the right loading bay with the lift arranged.',
+    intro: 'Jumeirah Lake Towers is laid out in lettered clusters of three towers, and many of them mix offices and apartments in the same building. Give us the cluster letter, the tower and the floor with your photo, and the crew arrives at the right loading bay with the lift arranged. Furnished move-outs leave cardboard with the beds. Sort it with the [packing-material guide](/blog/packing-material-disposal-dubai), and check [whether bulky collection covers this cluster](/blog/dubai-municipality-bulky-waste) before you rely on a free slot.',
     body: [
       {
         heading: 'Finding the right tower and loading bay',
@@ -62,11 +62,11 @@ export const areasExpansion = [
     map: { x: 8, y: 66 },
     home: null,
     seo: {
-      title: 'Junk Removal in JBR — Beachfront Towers and Furnished Apartments',
+      title: 'Junk Removal in JBR — Beachfront Furnished Flats',
       description: 'Sofa, furniture and apartment clear-outs from Jumeirah Beach Residence towers, including furnished holiday lets between guests. Fixed price from a photo, lift booked.'
     },
     h1: 'Junk removal in JBR, from beachfront towers and furnished apartments',
-    intro: 'Jumeirah Beach Residence is a row of tall residential towers behind The Walk, and a large share of its apartments are furnished lets that turn over often. Whether it is one tired sofa or a whole apartment refit, send a photo and the tower name and we will handle the rest.',
+    intro: 'Jumeirah Beach Residence is a row of tall residential towers behind The Walk, and a large share of its apartments are furnished lets that turn over often. Whether it is one tired sofa or a whole apartment refit, send a photo and the tower name and we will handle the rest. Short-let turnovers leave sofas and a stack of boxes. Flattened cardboard goes in the junk load. The [packing-material guide](/blog/packing-material-disposal-dubai) says what is wet or loose, and the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the address check.',
     body: [
       {
         heading: 'Furnished apartments between guests',
@@ -110,7 +110,7 @@ export const areasExpansion = [
       description: 'Warehouse clear-outs, workshop waste and bulk loads collected from Al Quoz industrial areas. Loading-dock pickups, multiple truckloads, fixed price from photos.'
     },
     h1: 'Warehouse and workshop clear-outs in Al Quoz',
-    intro: 'Al Quoz is Dubai’s working district: warehouses, workshops, showrooms and the studios that have moved into them. Loads here are bigger and heavier than a home pickup, so we plan crews and trucks from your photos rather than sending a standard van.',
+    intro: 'Al Quoz is Dubai’s working district: warehouses, workshops, showrooms and the studios that have moved into them. Loads here are bigger and heavier than a home pickup, so we plan crews and trucks from your photos rather than sending a standard van. Warehouse cardboard rides with the junk load. The [packing-material guide](/blog/packing-material-disposal-dubai) is what to flatten and what to keep dry. The [household bulky-waste guide](/blog/dubai-municipality-bulky-waste) is not the plan for a warehouse clear-out.',
     body: [
       {
         heading: 'Loading-dock pickups',
@@ -150,11 +150,11 @@ export const areasExpansion = [
     map: { x: 58, y: 80 },
     home: null,
     seo: {
-      title: 'Junk Removal in Motor City — Townhouses, Apartments and Garages',
+      title: 'Junk Removal in Motor City — Townhouses and Garages',
       description: 'Junk and furniture removal from Motor City townhouses and apartments, including garages and storage rooms full of years of clutter. Fixed price from a photo.'
     },
     h1: 'Junk removal in Motor City, townhouses and apartments included',
-    intro: 'Motor City mixes low-rise apartment blocks with townhouses and villas in the Green Community, and most homes here have a garage or a storage room that has quietly filled up. We clear the house, the garage or both, priced from your photos.',
+    intro: 'Motor City mixes low-rise apartment blocks with townhouses and villas in the Green Community, and most homes here have a garage or a storage room that has quietly filled up. We clear the house, the garage or both, priced from your photos. Garages full of household pieces are a paid pickup. Check the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) for the address if you want to know whether a free collection is open to it.',
     body: [
       {
         heading: 'Garages and storage rooms',
@@ -194,11 +194,11 @@ export const areasExpansion = [
     map: { x: 52, y: 84 },
     home: null,
     seo: {
-      title: 'Junk Removal in Dubai Sports City — Apartments, Villas and Gym Kit',
+      title: 'Junk Removal in Dubai Sports City — Gym Kit Included',
       description: 'Furniture, junk and gym equipment removal from Dubai Sports City apartments and Victory Heights villas. Heavy items handled, fixed price from a photo.'
     },
     h1: 'Junk removal in Dubai Sports City, heavy items included',
-    intro: 'Sports City is mostly mid-rise apartment towers around the stadiums, with the Victory Heights villas alongside. We collect the usual sofas and beds, and the heavy pieces this area produces more than most: treadmills, weight benches and home-gym racks.',
+    intro: 'Sports City is mostly mid-rise apartment towers around the stadiums, with the Victory Heights villas alongside. We collect the usual sofas and beds, and the heavy pieces this area produces more than most: treadmills, weight benches and home-gym racks. Sofas, beds and gym racks leave with a crew. Read the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) for the address before you assume a sofa or a treadmill is collected for free.',
     body: [
       {
         heading: 'Treadmills, benches and racks',
@@ -237,11 +237,11 @@ export const areasExpansion = [
     map: { x: 40, y: 92 },
     home: null,
     seo: {
-      title: 'Junk Removal in Dubai Investment Park — Warehouses and Villas',
+      title: 'Junk Removal in Dubai Investment Park — Warehouses',
       description: 'Commercial waste, warehouse clear-outs and villa junk removal across Dubai Investment Park, from the industrial zones to Green Community. Fixed price from photos.'
     },
     h1: 'Junk removal across Dubai Investment Park, industrial and residential',
-    intro: 'DIP is two places at once: industrial and warehouse zones on one side, and Green Community villas and apartment blocks on the other. We serve both, with trucks sized to the job rather than one standard van.',
+    intro: 'DIP is two places at once: industrial and warehouse zones on one side, and Green Community villas and apartment blocks on the other. We serve both, with trucks sized to the job rather than one standard van. Warehouse cardboard is separated the way the [packing-material guide](/blog/packing-material-disposal-dubai) describes, and it travels in the junk load. Villa furniture is [furniture collection](/services/furniture-removal). Use the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) as an address check, not as a warehouse service.',
     body: [
       {
         heading: 'Warehouse and factory units',
@@ -280,11 +280,11 @@ export const areasExpansion = [
     map: { x: 22, y: 88 },
     home: null,
     seo: {
-      title: 'Junk Removal in Discovery Gardens — Small Loads, Frequent Route',
+      title: 'Junk Removal in Discovery Gardens — Small Loads',
       description: 'Sofa, mattress and single-item pickups from Discovery Gardens apartment blocks, with a crew passing most days. Fixed price from a photo, small loads welcome.'
     },
     h1: 'Junk removal in Discovery Gardens, small loads on a regular route',
-    intro: 'Discovery Gardens is rows of low-rise apartment blocks with shared parking between them, and most pickups here are one or two pieces from a studio or one-bedroom. A crew passes the area most days, so a single mattress is as easy to book as a full clear-out.',
+    intro: 'Discovery Gardens is rows of low-rise apartment blocks with shared parking between them, and most pickups here are one or two pieces from a studio or one-bedroom. A crew passes the area most days, so a single mattress is as easy to book as a full clear-out. A mattress or sofa from a low block is [furniture collection](/services/furniture-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is where to look for whether that address is covered, not a guess from the building name.',
     body: [
       {
         heading: 'One piece is a normal job here',
@@ -323,11 +323,11 @@ export const areasExpansion = [
     map: { x: 82, y: 84 },
     home: null,
     seo: {
-      title: 'Junk Removal in International City — Studios, Clusters and Appliances',
+      title: 'Junk Removal in International City — Studios',
       description: 'Junk, furniture and appliance removal from International City clusters. Studio and one-bedroom clear-outs, old fridges and cookers, fixed price from a photo.'
     },
     h1: 'Junk removal in International City, cluster by cluster',
-    intro: 'International City is a grid of named clusters — China, England, Persia and the rest — of walk-up and low-rise blocks with small apartments and fast tenant turnover. Give us the cluster, the building and a photo, and we quote the pickup as a fixed price.',
+    intro: 'International City is a grid of named clusters — China, England, Persia and the rest — of walk-up and low-rise blocks with small apartments and fast tenant turnover. Give us the cluster, the building and a photo, and we quote the pickup as a fixed price. Studio clear-outs of beds and appliances are [furniture collection](/services/furniture-removal) when the pieces are the job. The [bulky-waste guide for this cluster](/blog/dubai-municipality-bulky-waste) is the free-route check.',
     body: [
       {
         heading: 'Which cluster, which building',
@@ -367,11 +367,11 @@ export const areasExpansion = [
     map: { x: 92, y: 30 },
     home: null,
     seo: {
-      title: 'Junk Removal in Al Nahda — Family Apartments and Weekend Pickups',
+      title: 'Junk Removal in Al Nahda — Weekend Family Pickups',
       description: 'Furniture, junk and appliance removal from Al Nahda apartment buildings, with weekend slots for working families. Fixed price from a photo, building rules followed.'
     },
     h1: 'Junk removal in Al Nahda with weekend slots for families',
-    intro: 'Al Nahda is dense family housing: mid-rise apartment buildings on busy streets close to the Sharjah border, where most people are at work on weekdays. We keep weekend and evening slots for the area so a clear-out fits around the household, not the other way round.',
+    intro: 'Al Nahda is dense family housing: mid-rise apartment buildings on busy streets close to the Sharjah border, where most people are at work on weekdays. We keep weekend and evening slots for the area so a clear-out fits around the household, not the other way round. Weekend family loads of furniture and appliances still need the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) checked for the building before anyone treats the collection as free.',
     body: [
       {
         heading: 'Weekend and evening pickups',
@@ -411,11 +411,11 @@ export const areasExpansion = [
     map: { x: 78, y: 40 },
     home: null,
     seo: {
-      title: 'Junk Removal in Bur Dubai — Older Buildings and Shop Clearances',
+      title: 'Junk Removal in Bur Dubai — Older Buildings and Shops',
       description: 'Junk, furniture and shop clear-outs in Bur Dubai, where older buildings, small lifts and one-way streets need a crew that plans the carry-out. Fixed price from a photo.'
     },
     h1: 'Junk removal in Bur Dubai, planned around older buildings',
-    intro: 'Bur Dubai is the old city: apartment buildings from decades ago, small lifts or none, and streets around Meena Bazaar and Al Fahidi where a truck cannot always stop outside the door. We plan the carry-out from your photos so the crew arrives knowing how the piece is coming down.',
+    intro: 'Bur Dubai is the old city: apartment buildings from decades ago, small lifts or none, and streets around Meena Bazaar and Al Fahidi where a truck cannot always stop outside the door. We plan the carry-out from your photos so the crew arrives knowing how the piece is coming down. Older buildings and shop stock are a paid carry. If the unit is a home, the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the eligibility check. A shop clear-out is not that household service.',
     body: [
       {
         heading: 'Small lifts and stair carry-downs',
@@ -459,7 +459,7 @@ export const areasExpansion = [
       description: 'Furniture and junk removal from Karama apartments and shops, including buildings without lifts. Crews carry down by hand, fixed price from a photo, no surprises on the day.'
     },
     h1: 'Junk removal in Karama, including buildings without a lift',
-    intro: 'Karama’s low-rise blocks and shopping streets are among the busiest in the city, and a good number of the older buildings have no lift at all. We quote from your photo with the stairs already priced in, so the crew turns up ready to carry.',
+    intro: 'Karama’s low-rise blocks and shopping streets are among the busiest in the city, and a good number of the older buildings have no lift at all. We quote from your photo with the stairs already priced in, so the crew turns up ready to carry. Walk-up flats and shop stock leave with a crew. Household pieces can be compared with the [bulky-waste guide](/blog/dubai-municipality-bulky-waste). The stairs are still the access problem either way.',
     body: [
       {
         heading: 'No lift, no problem',
@@ -498,11 +498,11 @@ export const areasExpansion = [
     map: { x: 28, y: 84 },
     home: null,
     seo: {
-      title: 'Junk Removal in Al Furjan — Handovers, Move-Ins and Villa Clear-Outs',
+      title: 'Junk Removal in Al Furjan — Handovers and Move-Ins',
       description: 'Junk, furniture and packaging removal from Al Furjan villas, townhouses and new apartment buildings. Move-in cardboard, old furniture and garden waste, fixed price from a photo.'
     },
     h1: 'Junk removal in Al Furjan, from move-in boxes to villa clear-outs',
-    intro: 'Al Furjan is a young community of villas, townhouses and apartment buildings still being handed over, so a lot of what we collect here is the other end of moving in: flattened boxes, packing foam, the furniture that did not survive the move and the old set the new one replaced.',
+    intro: 'Al Furjan is a young community of villas, townhouses and apartment buildings still being handed over, so a lot of what we collect here is the other end of moving in: flattened boxes, packing foam, the furniture that did not survive the move and the old set the new one replaced. Move-in boxes and the furniture they replaced are [furniture collection](/services/furniture-removal) when the pieces are the load. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the address check before you rely on it for a handover.',
     body: [
       {
         heading: 'After the move-in',
@@ -542,11 +542,11 @@ export const areasExpansion = [
     map: { x: 66, y: 86 },
     home: null,
     seo: {
-      title: 'Junk Removal in DAMAC Hills — Villas, Townhouses and Apartments',
+      title: 'Junk Removal in DAMAC Hills — Villas and Townhouses',
       description: 'Villa clearances, furniture removal and junk pickups across DAMAC Hills, with community security arranged and crews sized to the house. Fixed price from photos.'
     },
     h1: 'Junk removal in DAMAC Hills for villas, townhouses and apartments',
-    intro: 'DAMAC Hills wraps villas and townhouses around a golf course, with apartment towers along its edge. Every visit goes through community security, so we ask for the cluster and house number with your photo and make sure the truck is expected before it sets off.',
+    intro: 'DAMAC Hills wraps villas and townhouses around a golf course, with apartment towers along its edge. Every visit goes through community security, so we ask for the cluster and house number with your photo and make sure the truck is expected before it sets off. Villa furniture already has a crew path through community security. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is a separate eligibility question for the house.',
     body: [
       {
         heading: 'Through the gate with the right details',
@@ -586,11 +586,11 @@ export const areasExpansion = [
     map: { x: 44, y: 90 },
     home: null,
     seo: {
-      title: 'Junk Removal in Jumeirah Golf Estates — Large Villas and Gardens',
+      title: 'Junk Removal in Jumeirah Golf Estates — Villas',
       description: 'Villa clearances, outdoor furniture and garden waste removal in Jumeirah Golf Estates. Crews sized to large houses, community access arranged, fixed price from photos.'
     },
     h1: 'Villa clearances and garden loads in Jumeirah Golf Estates',
-    intro: 'Jumeirah Golf Estates is large villas on large plots along two golf courses, which means bigger rooms, bigger gardens and more outdoor furniture than almost anywhere else we cover. We plan crews and trucks from your photos so a whole house is cleared in the days we promise.',
+    intro: 'Jumeirah Golf Estates is large villas on large plots along two golf courses, which means bigger rooms, bigger gardens and more outdoor furniture than almost anywhere else we cover. We plan crews and trucks from your photos so a whole house is cleared in the days we promise. Large villa furniture and garden loads are a booked crew. Read the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) before assuming a free collection reaches the plot.',
     body: [
       {
         heading: 'Crews sized to the house',
@@ -629,11 +629,11 @@ export const areasExpansion = [
     map: { x: 24, y: 70 },
     home: null,
     seo: {
-      title: 'Junk Removal in The Springs and The Meadows — Townhouses and Gardens',
+      title: 'Junk Removal in Springs and Meadows — Gardens',
       description: 'Townhouse and villa move-outs, furniture removal and garden waste pickups across The Springs, The Meadows and the rest of Emirates Living. Fixed price from a photo.'
     },
     h1: 'Junk removal in The Springs and The Meadows, townhouses and gardens',
-    intro: 'The Springs and The Meadows are established townhouse and villa communities in Emirates Living, with mature gardens and families who have been in the same house for years. We clear the accumulated storage, the outgrown furniture and the garden trimmings, quoted from your photos.',
+    intro: 'The Springs and The Meadows are established townhouse and villa communities in Emirates Living, with mature gardens and families who have been in the same house for years. We clear the accumulated storage, the outgrown furniture and the garden trimmings, quoted from your photos. Townhouse furniture and garden trimmings are a booked visit. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check for that Emirates Living address.',
     body: [
       {
         heading: 'Years of storage in one visit',
@@ -672,11 +672,11 @@ export const areasExpansion = [
     map: { x: 70, y: 30 },
     home: null,
     seo: {
-      title: 'Junk Removal in Dubai Creek Harbour — New Towers and Handovers',
+      title: 'Junk Removal in Dubai Creek Harbour — New Towers',
       description: 'Junk, packaging and furniture removal from Dubai Creek Harbour towers, from post-handover cardboard to full apartment clear-outs. Service lift booked, fixed price from a photo.'
     },
     h1: 'Junk removal in Dubai Creek Harbour, from handover boxes to full clear-outs',
-    intro: 'Dubai Creek Harbour is new towers being handed over and furnished for the first time, so much of what we collect is the packaging from a whole apartment of new furniture, plus the pieces that turned out not to fit. Send a photo and the tower; we book the service lift and take it all in one visit.',
+    intro: 'Dubai Creek Harbour is new towers being handed over and furnished for the first time, so much of what we collect is the packaging from a whole apartment of new furniture, plus the pieces that turned out not to fit. Send a photo and the tower; we book the service lift and take it all in one visit. Handover packaging and furniture that did not fit leave with the crew. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the address check if you hope the municipality will take the household pieces.',
     body: [
       {
         heading: 'The first month after handover',
@@ -716,11 +716,11 @@ export const areasExpansion = [
     map: { x: 90, y: 60 },
     home: null,
     seo: {
-      title: 'Junk Removal in Al Warqa — Family Villas and Household Clear-Outs',
+      title: 'Junk Removal in Al Warqa — Family Villa Clear-Outs',
       description: 'Household junk, furniture and appliance removal from Al Warqa villas and apartment buildings. Big family loads, garden waste and old appliances, fixed price from photos.'
     },
     h1: 'Household junk removal in Al Warqa for family villas',
-    intro: 'Al Warqa is family villas on wide streets, with apartment buildings along the main roads. Villas here hold large households and large amounts of furniture, and the majlis, the storage room and the garden all tend to need clearing at once. We quote the whole lot from your photos.',
+    intro: 'Al Warqa is family villas on wide streets, with apartment buildings along the main roads. Villas here hold large households and large amounts of furniture, and the majlis, the storage room and the garden all tend to need clearing at once. We quote the whole lot from your photos. A family villa full of mixed household junk, not only furniture, is a [one-off rubbish pickup](/services/junk-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the eligibility check for the house.',
     body: [
       {
         heading: 'Whole-house loads',
@@ -759,11 +759,11 @@ export const areasExpansion = [
     map: { x: 76, y: 92 },
     home: null,
     seo: {
-      title: 'Junk Removal in Town Square — Townhouses and Apartments on Route Days',
+      title: 'Junk Removal in Town Square — Townhouses on Route Days',
       description: 'Junk, furniture and sofa removal from Town Square townhouses and apartment buildings, with set route days so small loads stay affordable. Fixed price from a photo.'
     },
     h1: 'Junk removal in Town Square on scheduled route days',
-    intro: 'Town Square is a large community of townhouses and low-rise apartment buildings a fair drive from the centre, so we run it on route days rather than one-off trips. That keeps a single sofa affordable to collect and gives you a known day to plan around.',
+    intro: 'Town Square is a large community of townhouses and low-rise apartment buildings a fair drive from the centre, so we run it on route days rather than one-off trips. That keeps a single sofa affordable to collect and gives you a known day to plan around. Townhouse sofas and beds on a route day are [furniture collection](/services/furniture-removal). Check the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) for the community before you treat a free collection as available.',
     body: [
       {
         heading: 'How route days work',
