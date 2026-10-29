@@ -2,7 +2,7 @@
 
 **Written:** 2026-10-27 (replaces the earlier 3-topic plan). **Ceiling:** up to 3 articles a day, 90 maximum (`content-rules.md` §23). **Approved topics: 16** (rows A33, C25, G22–G26, H23, H24, K20, K21, M26–M30 in `keywords.md`). **Not 90.** The evidence-based reason is in `keywords.md` → *Expansion admissions* → *Why the number is 16, not 90*: 359 candidate units were evaluated and 325 failed the admission tests, mostly because the Dubai search vocabulary is already owned by existing pages and articles.
 
-**Status mix:** 5 `READY` · 4 `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Only the 5 `READY` articles can publish without an external step. The other 11 are scheduled **conditionally** and slide to the next free day, or are dropped, if their condition is not met. Nothing is written around a block.
+**Status mix (updated 2026-10-29):** the 5 `READY` articles are published (A33, M26, H23, C25, H24). 4 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block.
 
 **No demand figures.** No volume, CPC, difficulty or ranking number exists for any topic. Evidence is autocomplete phrase presence (2026-10-27) or qualitative.
 
@@ -17,8 +17,8 @@
 | A33 | `/blog/treadmill-removal-dubai` | treadmill removal dubai | `/services/junk-removal` | `READY` | Crew actions limited to repository copy. |
 | M26 | `/blog/decluttering-service-or-junk-removal-dubai` | decluttering service dubai | `/services/junk-removal` | `READY` | Must not imply the business offers organising. |
 | H23 | `/blog/downsizing-clearance-dubai` | downsizing in dubai | `/services/house-clearance` | `READY` | No selling guidance. |
-| C25 | `/blog/media-wall-unit-removal-dubai` | media wall unit removal dubai | `/services/furniture-removal` | `READY` | No claim to remove fixed joinery. |
-| H24 | `/blog/clear-apartment-before-selling-dubai` | clear apartment before selling dubai | `/services/house-clearance` | `READY` | No real-estate, valuation or legal advice. |
+| C25 | `/blog/media-wall-unit-removal-dubai` | media wall unit removal dubai | `/services/furniture-removal` | `PUBLISHED` 2026-10-29 | No claim to remove fixed joinery. |
+| H24 | `/blog/clear-apartment-before-selling-dubai` | clear apartment before selling dubai | `/services/house-clearance` | `PUBLISHED` 2026-10-29 | No real-estate, valuation or legal advice. |
 | G22 | `/blog/trampoline-removal-dubai` | trampoline removal dubai | `/services/garden-waste-removal` | `READY — BUSINESS INPUT` | Owner confirms trampoline and play-set collection with on-site dismantling. Add a sentence on play equipment to the service page. |
 | G23 | `/blog/bbq-grill-disposal-dubai` | bbq grill disposal dubai | `/services/garden-waste-removal` | `READY — BUSINESS INPUT` | Owner confirms grill and patio-heater collection and the gas-cylinder boundary. |
 | G24 | `/blog/pergola-removal-dubai` | pergola removal dubai | `/services/garden-waste-removal` | `READY — BUSINESS INPUT` | Owner confirms collection of released pergola, shed, deck and fence material. |
@@ -42,7 +42,7 @@ Days with a named article: **8** (10-28, 10-29, 10-31, 11-02, 11-03, 11-04, 11-0
 | 1 | Mon 10-26 | — | Elapsed before this plan was written. |
 | 2 | Tue 10-27 | — | Research complete. **Owner decisions:** approve the 16, or defer the 10 qualitative ones until Search Console exists. Send the input questions below. |
 | 3 | Wed 10-28 | **A33 · M26 · H23** | Three `READY` articles. Claim audit, images, registry records, inbound links. |
-| 4 | Thu 10-29 | **C25 · H24** | Two `READY` articles. |
+| 4 | Thu 10-29 | **C25 · H24** | Published. The third daily slot was left empty: G22 remains `READY — BUSINESS INPUT`, and no remaining SUPPORT row passed the new-URL gates. |
 | 5 | Fri 10-30 | — | **Verification day.** Fetch and record: DM recycling-centre list (M27), DM Duty of Care guideline and waste-department bulletin (M29), any official DM green-waste statement (G26), DM public drop-off position (M28), DM statement on the 2024 rain-damage channel (M30). **Owner answers due** for G22, G23, G24, K21, G25, K20 and the M29 and M30 capability questions. |
 | 6 | Sat 10-31 | G22 · G23 | Each only if confirmed on day 5. |
 | 7 | Sun 11-01 | — | — |

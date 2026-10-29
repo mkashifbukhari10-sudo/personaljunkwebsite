@@ -399,6 +399,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #N-42 l-shaped-sofa-removal-dubai | cover, OG, body | `COMPLETE` — existing sofa-doorway cover and route-measurement image reused 2026-10-24 (repository post) |
 | #N-43 apartment-furniture-removal-dubai | cover, OG, body | `COMPLETE` — existing tower bulky-item cover and route-measurement image reused 2026-10-24 (repository post) |
 | #N-44 office-waste-collection-dubai | cover, OG, body | `COMPLETE` — existing office-furniture cover and sorting image reused 2026-10-24 (repository post) |
+| #C25 media-wall-unit-removal-dubai | cover, OG, body | `COMPLETE` — existing TV-on-console cover and flat-pack condition image reused 2026-10-29 (repository post). A dedicated media-wall photograph would make a clearer future cover. |
+| #H24 clear-apartment-before-selling-dubai | cover, OG, body | `COMPLETE` — existing empty-room cover and estate sorting plan reused 2026-10-29 (repository post) |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -438,6 +440,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-29 | Reused existing inspected assets for C25 (`tv-disposal-cover`, `flatpack-condition-comparison`) and H24 (`empty-room-before-handover`, `estate-clearance-sorting-plan`). No generation, download or upload. |
 | 2026-10-16 | Assigned existing Media documents to N-15 to N-17. That covers six slots with no new generation, download or upload, at the owner's instruction to use the images already available. |
 | 2026-10-15 | Assigned existing Media documents to N-9 to N-14. That covers twelve slots with no new generation, download or upload, at the owner's instruction to use available resources. Recorded above under *Reused existing media — 2026-10-15*. |
 | 2026-10-10 | Uploaded six original editorial images to CMS Media (Media 134–139) for published articles N-6, N-7 and N-8 with inspected alt text and confirmed database records. |

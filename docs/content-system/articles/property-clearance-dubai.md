@@ -1,6 +1,6 @@
 Property clearance is easiest when the person arranging it has clear authority, a written scope and an agreed way to record what is leaving. When an agent, landlord, owner or representative is clearing a home they do not currently occupy, settle who may approve removal, document the contents, arrange access and decide what happens to anything of uncertain ownership before the crew is booked.
 
-This is different from a family clearing their own home. Here the person arranging the job may never have lived in the property, may be dealing with an absent owner or former occupier, and may have to answer questions about every item that left. The purpose of a good plan is to make those answers available before anyone asks.
+This is different from a family clearing their own home. Here the person arranging the job may never have lived in the property, may be dealing with an absent owner or former occupier, and may have to answer questions about every item that left. The purpose of a good plan is to make those answers available before anyone asks. An owner clearing their own vacant apartment before viewings follows the [pre-sale apartment plan](/blog/clear-apartment-before-selling-dubai) instead.
 
 ## Confirm who can authorise the clearance
 
