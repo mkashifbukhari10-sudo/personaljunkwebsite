@@ -1500,16 +1500,16 @@ export const filePosts = [
   },
   {
     slug: "dubai-municipality-bulky-waste",
-    title: "Dubai Municipality Bulky-Waste Collection: How It Works",
+    title: "How Dubai Municipality Bulky Waste Collection Works",
     excerpt: "Check current address eligibility, list every item and follow the official staging instructions before using Dubai Municipality’s bulky-waste service.",
     publishedAt: "2026-09-30T08:54:29.970Z",
-    updatedAt: "2026-09-30T08:54:29.973Z",
+    updatedAt: "2026-10-29T16:00:00.000Z",
     cover: "municipality-bulky-waste-cover",
     services: [
       "junk-removal"
     ],
-    seoTitle: "Dubai Municipality Bulky-Waste Collection Guide",
-    seoDescription: "Check Dubai Municipality bulky-waste eligibility, official application details, accepted household items, access and safe collection preparation.",
+    seoTitle: "Bulky Waste Collection: Municipality Guide",
+    seoDescription: "Bulky waste collection by Dubai Municipality: eligibility, the official application, accepted household items and how to prepare them.",
     ogTitle: "Use Dubai Municipality Bulky-Waste Collection",
     ogDescription: "Verify the address, list the load and follow the current official collection instructions."
   },

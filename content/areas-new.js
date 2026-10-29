@@ -13,11 +13,11 @@ export const areasNew = [
     map: { x: 48, y: 42 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in DIFC — Offices and Gate Avenue',
       description: 'Office clearance and apartment junk removal in DIFC, with dock times and out-of-hours slots. WhatsApp the floor and a photo for a fixed quote.'
     },
     h1: 'Junk removal in DIFC for offices and Gate Avenue homes',
-    intro: 'DIFC is a financial district with a retail podium and a smaller number of residences around Gate Avenue and the park. The pickup is usually an office that has to be empty before staff arrive, or a flat whose service lift is controlled by a precinct desk. Send the building name. “DIFC” alone is not a loading plan.',
+    intro: 'DIFC is a financial district with a retail podium and a smaller number of residences around Gate Avenue and the park. The pickup is usually an office that has to be empty before staff arrive, or a flat whose service lift is controlled by a precinct desk. Send the building name. “DIFC” alone is not a loading plan. Flattened office cardboard is sorted with the [packing-material guide](/blog/packing-material-disposal-dubai) and taken in the junk load. Fit-out rubble is [waste collection](/services/waste-removal). Desks are [furniture collection](/services/furniture-removal). A residence here still needs the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) checked for that building.',
     body: [
       {
         heading: 'Precinct security and the goods lift',
@@ -61,11 +61,11 @@ export const areasNew = [
     map: { x: 38, y: 48 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in City Walk — Off Retail Streets',
       description: 'Junk removal from City Walk residences and retail units, using the service yard rather than the pedestrian streets. WhatsApp a photo for a fixed quote.'
     },
     h1: 'Junk removal in City Walk without blocking the retail streets',
-    intro: 'City Walk is a pedestrian district: shops at ground level, homes in the buildings around and above them, and a service yard that is not the street you stroll. Furniture leaves through that yard. Send the building name and whether the job is a flat or a shop unit.',
+    intro: 'City Walk is a pedestrian district: shops at ground level, homes in the buildings around and above them, and a service yard that is not the street you stroll. Furniture leaves through that yard. Send the building name and whether the job is a flat or a shop unit. A flat and its furniture leave by the service yard, not the pedestrian street. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check for a home, not for a shop unit.',
     body: [
       {
         heading: 'Pedestrian streets are not a loading bay',
@@ -109,11 +109,11 @@ export const areasNew = [
     map: { x: 22, y: 70 },
     home: null,
     seo: {
-      title: '',
+      title: 'Villa Clearance in Emirates Hills — Gate Planned',
       description: 'Villa clearance in Emirates Hills, including gardens, stores and gate logging. WhatsApp photos of each room for a fixed quote before the crew is sent.'
     },
     h1: 'Villa clearance in Emirates Hills, gate and driveway planned',
-    intro: 'Emirates Hills is a gated villa community beside the golf course, not a tower district and not the same streets as The Springs. Plots are large, driveways are long, and the gate wants the villa number before a truck is waved through. A full house here is a planned [villa clearance](/services/villa-clearance), usually more than one load.',
+    intro: 'Emirates Hills is a gated villa community beside the golf course, not a tower district and not the same streets as The Springs. Plots are large, driveways are long, and the gate wants the villa number before a truck is waved through. A full house here is a planned [villa clearance](/services/villa-clearance), usually more than one load. Mixed leftovers that are not furniture are a [one-off rubbish pickup](/services/junk-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the eligibility check for the villa, not a gate booking.',
     body: [
       {
         heading: 'Gates, golf traffic and where the truck waits',
@@ -157,11 +157,11 @@ export const areasNew = [
     map: { x: 8, y: 48 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal on Bluewaters — Lift and Bridge',
       description: 'Junk and sofa removal from Bluewaters towers, with the island bridge and basement loading planned in. WhatsApp the building and a photo.'
     },
     h1: 'Junk removal on Bluewaters Island, lift and bridge included in the plan',
-    intro: 'Bluewaters is a small island of residential towers reached by a bridge from JBR. The public plazas and the hotel frontage are not loading bays. Furniture leaves through a basement or a service door, then the truck crosses the bridge. Send the tower name. “Near Ain Dubai” is not an address a crew can use.',
+    intro: 'Bluewaters is a small island of residential towers reached by a bridge from JBR. The public plazas and the hotel frontage are not loading bays. Furniture leaves through a basement or a service door, then the truck crosses the bridge. Send the tower name. “Near Ain Dubai” is not an address a crew can use. Tower furniture crosses the bridge with a booked crew. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is a separate question about whether the island address is covered.',
     body: [
       {
         heading: 'The bridge is part of the timing',
@@ -205,11 +205,11 @@ export const areasNew = [
     map: { x: 28, y: 78 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in JVT — Townhouses and Apartments',
       description: 'Junk removal in Jumeirah Village Triangle for townhouses and apartments, including stairs and district access. WhatsApp photos for a fixed quote.'
     },
     h1: 'Junk removal in JVT for townhouses and apartment districts',
-    intro: 'Jumeirah Village Triangle sits beside JVC but it is not the same circle. Districts mix townhouses, which mean stairs and a parking bay, with mid-rise apartments that may or may not have a usable service lift. Send the district and the building or villa number. A pin that only says JVT lands the crew on the wrong ring road.',
+    intro: 'Jumeirah Village Triangle sits beside JVC but it is not the same circle. Districts mix townhouses, which mean stairs and a parking bay, with mid-rise apartments that may or may not have a usable service lift. Send the district and the building or villa number. A pin that only says JVT lands the crew on the wrong ring road. Townhouse stairs and apartment lifts are different carries. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the address check before you assume a free collection.',
     body: [
       {
         heading: 'Townhouses first, because the stairs decide the time',
@@ -253,11 +253,11 @@ export const areasNew = [
     map: { x: 34, y: 82 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Arjan — Apartment Handovers',
       description: 'Apartment junk removal and move-out clearance in Arjan, Dubailand. WhatsApp the building and photos for a fixed quote, including stairs or lift access.'
     },
     h1: 'Junk removal in Arjan for Dubailand apartment handovers',
-    intro: 'Arjan is a Dubailand apartment district south of Motor City, with mid-rise buildings, a lot of furnished rentals and a steady handover cycle. It is not a villa community and it is not Al Barari next door. Send the building name. Many blocks look alike from the main road, and the service entrance is rarely the glass door in the listing photo.',
+    intro: 'Arjan is a Dubailand apartment district south of Motor City, with mid-rise buildings, a lot of furnished rentals and a steady handover cycle. It is not a villa community and it is not Al Barari next door. Send the building name. Many blocks look alike from the main road, and the service entrance is rarely the glass door in the listing photo. Handover furniture and a smaller junk pile are already different bookings. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check when you want to know if the building is eligible.',
     body: [
       {
         heading: 'Handovers and furnished stock',
@@ -301,11 +301,11 @@ export const areasNew = [
     map: { x: 58, y: 32 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Meydan — Race-Day Roads',
       description: 'Junk removal for Meydan and Meydan One residences, planned around tower lifts and race-day roads. WhatsApp the building and a photo.'
     },
     h1: 'Junk removal in Meydan, with race-day roads taken seriously',
-    intro: 'Meydan is the racecourse district in Mohammed Bin Rashid City: newer residential towers, a large events calendar, and roads that close or slow when the racecourse is in use. A pickup here is a tower job plus a calendar check. Send the building. If you are in a villa community next door rather than in Meydan itself, name that community instead.',
+    intro: 'Meydan is the racecourse district in Mohammed Bin Rashid City: newer residential towers, a large events calendar, and roads that close or slow when the racecourse is in use. A pickup here is a tower job plus a calendar check. Send the building. If you are in a villa community next door rather than in Meydan itself, name that community instead. Race-day roads do not change the eligibility question. Read the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) for the tower before you plan around a free collection.',
     body: [
       {
         heading: 'Race days and event traffic',
@@ -349,11 +349,11 @@ export const areasNew = [
     map: { x: 18, y: 92 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Dubai South — Sites and Housing',
       description: 'Warehouse, site and residential junk removal in Dubai South, near Al Maktoum Airport. WhatsApp photos and the gate details for a fixed quote.'
     },
     h1: 'Junk removal in Dubai South for warehouses, sites and housing',
-    intro: 'Dubai South is a logistics and residential district beside Al Maktoum International Airport and the Expo site, a long way from the Marina. Distance is part of the booking. A warehouse clear-out or a staff-housing clear-out can be done properly. It is rarely a gap between two tower jobs, and we will not pretend the drive is free.',
+    intro: 'Dubai South is a logistics and residential district beside Al Maktoum International Airport and the Expo site, a long way from the Marina. Distance is part of the booking. A warehouse clear-out or a staff-housing clear-out can be done properly. It is rarely a gap between two tower jobs, and we will not pretend the drive is free. Household pieces in the staff accommodation should be checked in the [bulky-waste guide](/blog/dubai-municipality-bulky-waste). A warehouse is not that household service.',
     body: [
       {
         heading: 'Warehouses and what authority looks like',
@@ -397,11 +397,11 @@ export const areasNew = [
     map: { x: 16, y: 74 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Jumeirah Park — Villas and Gates',
       description: 'Villa junk removal in Jumeirah Park, including gardens, stores and community gate access. WhatsApp the villa number and photos for a fixed quote.'
     },
     h1: 'Junk removal in Jumeirah Park villas, garden and gate included',
-    intro: 'Jumeirah Park is a Nakheel villa community beside Jumeirah Islands and the Emirates Living lakes. Homes are villas with gardens, not apartments, and the community gate is the first stop. A clearance here looks like a smaller Arabian Ranches job: driveway, store, maid’s room, garden. It is not a JLT cluster.',
+    intro: 'Jumeirah Park is a Nakheel villa community beside Jumeirah Islands and the Emirates Living lakes. Homes are villas with gardens, not apartments, and the community gate is the first stop. A clearance here looks like a smaller Arabian Ranches job: driveway, store, maid’s room, garden. It is not a JLT cluster. Villa rooms and the garden are a booked crew. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the eligibility check for the house, not a substitute for the community gate.',
     body: [
       {
         heading: 'Regional villas and what changes the quote',
@@ -445,11 +445,11 @@ export const areasNew = [
     map: { x: 14, y: 68 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal on Jumeirah Islands — Cluster Gate',
       description: 'Villa clearance on Jumeirah Islands, with cluster gates and lake-bridge access planned before the truck moves. WhatsApp the cluster and photos.'
     },
     h1: 'Junk removal on Jumeirah Islands, cluster gate and bridge first',
-    intro: 'Jumeirah Islands is a Nakheel community of villa clusters built around lakes. Each cluster has its own feel and its own gate behaviour, and the internal bridges are not a place for a wrong-sized truck to experiment. Send the cluster name and the villa number. “The Islands” is a postcard, not a delivery address.',
+    intro: 'Jumeirah Islands is a Nakheel community of villa clusters built around lakes. Each cluster has its own feel and its own gate behaviour, and the internal bridges are not a place for a wrong-sized truck to experiment. Send the cluster name and the villa number. “The Islands” is a postcard, not a delivery address. Cluster-gate villa furniture is a booked crew. Mixed household leftovers are a [one-off rubbish pickup](/services/junk-removal). Check the [bulky-waste guide](/blog/dubai-municipality-bulky-waste) for that cluster before counting on a free collection.',
     body: [
       {
         heading: 'Why the cluster name matters',
@@ -493,11 +493,11 @@ export const areasNew = [
     map: { x: 20, y: 76 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in The Lakes — Townhouses',
       description: 'Townhouse and villa junk removal in The Lakes, Emirates Living, including stairs, stores and community access. WhatsApp photos for a fixed quote.'
     },
     h1: 'Junk removal in The Lakes for Emirates Living townhouses',
-    intro: 'The Lakes is the Emirates Living community of townhouses and villas around the water, next to The Springs and The Meadows but not the same streets. This page is only The Lakes. Springs and Meadows already have their own page. Access is a community gate, a driveway and internal stairs. There is no service lift to book.',
+    intro: 'The Lakes is the Emirates Living community of townhouses and villas around the water, next to The Springs and The Meadows but not the same streets. This page is only The Lakes. Springs and Meadows already have their own page. Access is a community gate, a driveway and internal stairs. There is no service lift to book. Townhouse furniture comes down internal stairs with a crew. A mixed pile that is not furniture is a [one-off rubbish pickup](/services/junk-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the address check.',
     body: [
       {
         heading: 'Townhouses, landings and the top floor',
@@ -541,11 +541,11 @@ export const areasNew = [
     map: { x: 8, y: 88 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in DAMAC Hills 2 — Townhouses',
       description: 'Townhouse junk removal in DAMAC Hills 2 (Akoya), with community gates and the longer drive planned in. WhatsApp photos for a fixed quote.'
     },
     h1: 'Junk removal in DAMAC Hills 2, townhouses and the longer drive',
-    intro: 'DAMAC Hills 2, also called Akoya, is a townhouse and villa community well south of [DAMAC Hills](/areas/damac-hills). The drive is part of the job. Stairs, a community gate and a small garden are the access. It is not a tower, and it is not a stop we bolt onto a Marina morning.',
+    intro: 'DAMAC Hills 2, also called Akoya, is a townhouse and villa community well south of [DAMAC Hills](/areas/damac-hills). The drive is part of the job. Stairs, a community gate and a small garden are the access. It is not a tower, and it is not a stop we bolt onto a Marina morning. The longer drive and the community gate are part of a booked pickup. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the eligibility check for the townhouse, not a reason to skip the gate.',
     body: [
       {
         heading: 'Akoya is not DAMAC Hills',
@@ -589,11 +589,11 @@ export const areasNew = [
     map: { x: 12, y: 84 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Mudon — Arabella Townhouses',
       description: 'Junk removal in Mudon for Arabella townhouses and villas, including stairs, stores and community gates. WhatsApp photos for a fixed quote.'
     },
     h1: 'Junk removal in Mudon for Arabella townhouses and villas',
-    intro: 'Mudon is a Dubai Properties community of villas and Arabella townhouses, with its own gates, internal pools of traffic at school time, and stairs in the townhouses. It sits near Remraam and the Ranches side of the city, not on the coast. Send Arabella or the villa phase, plus the number. The two housing types are not the same carry.',
+    intro: 'Mudon is a Dubai Properties community of villas and Arabella townhouses, with its own gates, internal pools of traffic at school time, and stairs in the townhouses. It sits near Remraam and the Ranches side of the city, not on the coast. Send Arabella or the villa phase, plus the number. The two housing types are not the same carry. Arabella townhouses and villas are different carries, both booked. Mixed leftovers are a [one-off rubbish pickup](/services/junk-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check for that phase.',
     body: [
       {
         heading: 'Arabella stairs versus a villa driveway',
@@ -637,11 +637,11 @@ export const areasNew = [
     map: { x: 22, y: 86 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Remraam — Apartment Clusters',
       description: 'Apartment junk removal in Remraam, with cluster gates and lift access checked before the crew comes. WhatsApp the building and photos.'
     },
     h1: 'Junk removal in Remraam apartment clusters',
-    intro: 'Remraam is a gated apartment community near Motor City: clusters of mid-rise buildings around shared pools, with a community entrance and building lobbies that still have their own rules. It is not a townhouse estate and it is not JVC. Send the cluster and the building. The outer gate and the lobby are two conversations.',
+    intro: 'Remraam is a gated apartment community near Motor City: clusters of mid-rise buildings around shared pools, with a community entrance and building lobbies that still have their own rules. It is not a townhouse estate and it is not JVC. Send the cluster and the building. The outer gate and the lobby are two conversations. Apartment beds and sofas are [furniture collection](/services/furniture-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the eligibility check for the cluster.',
     body: [
       {
         heading: 'Two gates, not one',
@@ -685,11 +685,11 @@ export const areasNew = [
     map: { x: 72, y: 28 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Al Qusais — Flats and Workshops',
       description: 'Junk, appliance and workshop clearance in Al Qusais, including walk-up buildings. WhatsApp the building and photos for a fixed quote.'
     },
     h1: 'Junk removal in Al Qusais for flats, shops and workshops',
-    intro: 'Al Qusais is older Dubai: residential blocks, shops and a large industrial area, close to Al Nahda and the airport corridor. Many buildings have no service lift. Workshops and flats sit on the same streets. Tell us which you are clearing. A walk-up fridge and a workshop of metal offcuts are not the same truck plan.',
+    intro: 'Al Qusais is older Dubai: residential blocks, shops and a large industrial area, close to Al Nahda and the airport corridor. Many buildings have no service lift. Workshops and flats sit on the same streets. Tell us which you are clearing. A walk-up fridge and a workshop of metal offcuts are not the same truck plan. Walk-up appliances and a workshop of offcuts are different trucks. Household furniture is [furniture collection](/services/furniture-removal). The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) applies to the household question, not to a workshop.',
     body: [
       {
         heading: 'Walk-ups and parked streets',
@@ -733,11 +733,11 @@ export const areasNew = [
     map: { x: 78, y: 34 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Muhaisnah — Units and Workshops',
       description: 'Waste, warehouse and apartment junk removal in Muhaisnah. WhatsApp photos of the unit or flat for a fixed quote. Hazardous waste is refused.'
     },
     h1: 'Junk removal in Muhaisnah for units, workshops and flats',
-    intro: 'Muhaisnah mixes residential blocks with a large industrial area. A flat clearance and a warehouse shutter are both bookable, and they should not be described as the same job. The area sits near Al Qusais and Al Nahda, on the airport side of the city. Send the sub-community, Muhaisnah 1 through 4 or the industrial zone, because the gates are not the same.',
+    intro: 'Muhaisnah mixes residential blocks with a large industrial area. A flat clearance and a warehouse shutter are both bookable, and they should not be described as the same job. The area sits near Al Qusais and Al Nahda, on the airport side of the city. Send the sub-community, Muhaisnah 1 through 4 or the industrial zone, because the gates are not the same. A flat and a warehouse shutter stay separate jobs. Household pieces can be checked against the [bulky-waste guide](/blog/dubai-municipality-bulky-waste). The yard waste is not that programme.',
     body: [
       {
         heading: 'Industrial units and yards',
@@ -781,11 +781,11 @@ export const areasNew = [
     map: { x: 84, y: 22 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal in Al Khawaneej — Villas and Plots',
       description: 'Villa and garden-waste removal in Al Khawaneej, including large plots and gate access. WhatsApp photos of the house and the pile for a fixed quote.'
     },
     h1: 'Junk removal in Al Khawaneej for villas, plots and green waste',
-    intro: 'Al Khawaneej is a villa and large-plot district on the city’s north-eastern edge, split across Khawaneej 1 and 2. Homes sit behind gates, gardens are bigger than in a townhouse community, and some plots are closer to small farms than to a suburban street. The job is almost never a service lift. It is a driveway, a yard and a pile.',
+    intro: 'Al Khawaneej is a villa and large-plot district on the city’s north-eastern edge, split across Khawaneej 1 and 2. Homes sit behind gates, gardens are bigger than in a townhouse community, and some plots are closer to small farms than to a suburban street. The job is almost never a service lift. It is a driveway, a yard and a pile. Villa and garden loads are a booked crew. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the household check for the plot. Cuttings and soil are not that list.',
     body: [
       {
         heading: 'Large plots and long carries',
@@ -829,11 +829,11 @@ export const areasNew = [
     map: { x: 64, y: 40 },
     home: null,
     seo: {
-      title: '',
+      title: 'Junk Removal at Dubai Festival City — Mall Traffic',
       description: 'Apartment junk removal at Dubai Festival City, with mall traffic and tower lifts planned in. WhatsApp the building and a photo for a fixed quote.'
     },
     h1: 'Junk removal at Dubai Festival City, mall traffic kept out of the plan',
-    intro: 'Dubai Festival City is a mall, hotels and residential towers on Dubai Creek. The homes are the job. The mall’s loading yards belong to the mall. Your tower has its own basement and its own facility desk, and the creek-side roads are busy when the mall is. Send the residence name, not “near IKEA”.',
+    intro: 'Dubai Festival City is a mall, hotels and residential towers on Dubai Creek. The homes are the job. The mall’s loading yards belong to the mall. Your tower has its own basement and its own facility desk, and the creek-side roads are busy when the mall is. Send the residence name, not “near IKEA”. Tower homes are the job. The mall yard is not. The [bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check for the residence, not for a mall unit.',
     body: [
       {
         heading: 'Mall traffic is not your dock',

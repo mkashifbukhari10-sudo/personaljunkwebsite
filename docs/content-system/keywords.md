@@ -151,12 +151,12 @@ This table is the **cannibalization baseline**. Before any new content is create
 
 | URL | Current `<title>` | Current H1 | **Owns (primary)** | Owns (secondary) | Must NOT target |
 |---|---|---|---|---|---|
-| `/services/junk-removal` | Junk Removal in Dubai — One Photo, One Visit | Junk removal in Dubai for anything you no longer need | junk removal service dubai | junk collection dubai · junk disposal dubai · rubbish removal dubai · take my junk dubai · bulky junk removal dubai | same-day terms · clearance terms |
-| `/services/garbage-removal` | Garbage Removal in Dubai — One-Off or Recurring Collection | Garbage removal in Dubai when the bins are not enough | garbage removal dubai | garbage collection dubai · household garbage removal dubai · recurring garbage pickup dubai | construction/renovation waste (belongs to `/waste-removal`) |
-| `/services/furniture-removal` | Furniture Removal in Dubai — Dismantled, Carried, Gone | Furniture removal in Dubai, dismantling and heavy lifting included | **furniture removal dubai** | furniture disposal dubai · old furniture removal dubai · wardrobe/bed/mattress removal dubai · furniture pickup dubai | sofa/couch terms (belong to `/sofa-removal`) |
+| `/services/junk-removal` | Rubbish Removal Service \| Trash Pickup Dubai | One-off rubbish removal, carried out from the room | rubbish removal dubai · trash pickup dubai | junk disposal dubai · take my junk dubai · bulky waste removal dubai · flattened cardboard in a junk load | the homepage head terms (`junk removal dubai`, `dubai junk removal`, `junk removal service`, `junk collection`) · a cardboard baling route · same-day as the title |
+| `/services/garbage-removal` | Garbage Removal in Dubai — One-Off or Recurring Collection | Garbage removal in Dubai when the bins are not enough | garbage removal dubai | garbage collection dubai · household garbage removal dubai · recurring garbage pickup dubai | construction/renovation waste (belongs to `/waste-removal`) · one-off `trash pickup dubai` (belongs to `/junk-removal`) |
+| `/services/furniture-removal` | Furniture Removal Dubai \| Old Furniture Pickup Same Day | Furniture removal in Dubai, dismantling and heavy lifting included | **furniture removal dubai** | furniture disposal dubai · old furniture removal dubai · wardrobe/bed/mattress removal dubai · furniture pickup dubai | sofa/couch terms (belong to `/sofa-removal`) |
 | `/services/sofa-removal` | Sofa Removal in Dubai — Through Tight Doors and Service Lifts | Sofa removal in Dubai apartments and villas | **sofa removal dubai** | couch removal dubai · old sofa disposal dubai · L-shape/corner sofa removal dubai | generic furniture terms |
 | `/services/appliance-disposal` | Appliance Disposal in Dubai — Fridges, Washers, Ovens and AC Units | Appliance disposal in Dubai through licensed handlers | appliance disposal dubai · **fridge disposal dubai** | washing machine / oven / TV / AC / e-waste disposal dubai | commercial IT-asset disposal at scale (→ `/commercial-junk-removal`) |
-| `/services/waste-removal` | Waste Removal in Dubai — Renovation, Clear-Out and Site Loads | Waste removal in Dubai for renovation, clear-out and site loads | waste removal dubai · construction waste removal dubai | renovation waste · debris/rubble removal · site clearance dubai | household bin/garbage terms (→ `/garbage-removal`) |
+| `/services/waste-removal` | Waste Collection Service Dubai \| Project Loads | Waste collection service in Dubai for project and site loads | waste removal dubai · waste collection service dubai | renovation waste · debris/rubble removal · site clearance dubai | household bin/garbage terms (→ `/garbage-removal`) · clinical waste · a licence or tonnage claim |
 | `/services/garden-waste-removal` | Garden Waste Removal in Dubai — Branches, Soil, Pots and Outdoor Sets | Garden waste removal for Dubai villas and outdoor spaces | **garden waste removal dubai** | green waste collection dubai · palm frond removal dubai · garden clearance dubai · outdoor furniture removal dubai | full villa clearance (→ `/villa-clearance`) |
 | `/services/house-clearance` | House Clearance in Dubai — Ready for Handover | House and apartment clearance in Dubai before you hand over | **house clearance dubai** | apartment clearance dubai · end of tenancy clearance dubai · move-out clearance dubai · property clearance dubai | villa-specific terms (→ `/villa-clearance`) |
 | `/services/villa-clearance` | Villa Clearance in Dubai — Garden, Storage, Maid Room and Majlis | Full villa clearance across Dubai, scheduled over one or two days | **villa clearance dubai** | villa junk removal dubai · full villa cleanout dubai · maid room / majlis / garage clearance dubai | apartment terms (→ `/house-clearance`) |
@@ -239,7 +239,7 @@ No two slots below are wording variants of one another. Each resolves to a disti
 | **Related area pages** | Route-dense areas where same-day is most deliverable: `/areas/dubai-marina` · `/areas/jlt` · `/areas/business-bay` · `/areas/downtown-dubai` · `/areas/jvc` · `/areas/discovery-gardens` |
 | **Supporting articles** | *Need junk gone today in Dubai? What's actually possible and by when* · *Moving out this week: a realistic clearance timeline* · *Landlord inspection tomorrow — what to clear first* |
 | **Internal-link strategy** | Every urgency-flavoured article links here with deadline-framed anchors ("clear it the same afternoon", "a same-day slot"). Reverse links from the homepage hero and the six route-dense area pages. |
-| **Cannibalization risks** | **Medium-high** against the homepage H1, currently *"Same-day junk removal across Dubai"*. See **C-2**. |
+| **Cannibalization risks** | **Medium-high** against the homepage if the H1 repeats the same-day phrase. As of 2026-10-29 the homepage H1 is *"Junk removal Dubai"*. See **C-2**. |
 | **Priority** | **P1** |
 | **Month emphasis** | **Month 1 — flagship.** `QUALITATIVE SEO ASSESSMENT` — prioritised on the expectation of earlier movement than the head terms and, per the hypothesis above, stronger lead quality. Both expectations are unmeasured. |
 
@@ -547,7 +547,7 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 
 ### Cluster A — Core junk removal (head + company variants)
 
-Owner: `/` (head) and `/services/junk-removal` (qualified variants).
+Owner: `/` for the head term and for `junk removal service` and `junk collection` (2026-10-29). `/services/junk-removal` keeps rubbish removal, one-off trash pickup, and cardboard inside a junk load.
 
 | # | Keyword | Intent | Lead | Dest. | Target URL | Pri. | Notes |
 |---|---|---|---|---|---|---|---|
@@ -555,18 +555,18 @@ Owner: `/` (head) and `/services/junk-removal` (qualified variants).
 | A2 | dubai junk removal | Commercial | HIGH | SUPPORT | `/` | P1 | Same intent as A1. Word-order variant — **never a separate page.** |
 | A3 | junk removal in dubai | Commercial | HIGH | SUPPORT | `/` | P1 | Same intent as A1. |
 | A4 | junk removal services dubai | Commercial | HIGH | SERVICE | `/services/junk-removal` | P1 | Plural "services" skews to comparing providers; hub page suits it. |
-| A5 | junk removal service dubai | Commercial | HIGH | SERVICE | `/services/junk-removal` | P1 | Primary for the service page. |
+| A5 | junk removal service dubai | Commercial | HIGH | SERVICE | `/` | P1 | Ranking phrase on the homepage as of 2026-10-29, with A1, A2 and A8. The service page must not use it as a title or H1. |
 | A6 | junk removal company dubai | Commercial | HIGH | SERVICE | `/services/junk-removal` | P1 | Provider-selection intent. Supports trust content. |
 | A7 | junk removal companies in dubai | Commercial | MED | BLOG | `/blog/choosing-junk-removal-dubai` | P2 | Comparison intent — a list-shaped SERP. Honest comparison piece, not self-promotion. |
-| A8 | junk collection dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | Common UAE phrasing. |
+| A8 | junk collection dubai | Commercial | HIGH | SUPPORT | `/` | P1 | Ranking phrase on the homepage as of 2026-10-29. The service page may still say “collection” inside a how-the-pickup-works paragraph. |
 | A9 | junk disposal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | "Disposal" skews slightly more to where-it-goes. |
 | A10 | junk pickup dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | |
 | A11 | junk hauling dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | US phrasing; low UAE usage. `UNVERIFIED`. |
 | A12 | rubbish removal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | **British-English variant, heavily used in the UAE expat market.** See C-3 — secondary, not a page. |
 | A13 | rubbish collection dubai | Commercial | MED | SUPPORT | `/services/garbage-removal` | P2 | Leans municipal/bin-collection. |
-| A14 | trash removal dubai | Commercial | MED | SUPPORT | `/services/garbage-removal` | P3 | US phrasing. |
+| A14 | trash removal dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | One-off trash pickup shares the junk-removal page with rubbish removal (A12) as of 2026-10-29. `/services/garbage-removal` keeps recurring household rubbish and must not use this as its H1. |
 | A15 | take my junk dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P2 | Removal intent, but dominated by an established competitor brand. Secondary only. |
-| A16 | bulky waste removal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | Bridges to the Municipality cluster (M). Strong. |
+| A16 | bulky waste removal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | Bridges to the Municipality cluster (M). The shorter phrase “bulky waste collection” stays on `/blog/dubai-municipality-bulky-waste`. Do not retitle the homepage or this service page to that phrase. |
 | A17 | bulk waste disposal dubai | Commercial | HIGH | SUPPORT | `/blog/dubai-municipality-bulky-waste` | P1 | Resolved 2026-10-09: existing #4 owns the bulk-waste options and Municipality route. Commercial removal intent is served by `/services/junk-removal` via #4; no second blog URL. Demand is qualitative, not measured. |
 | A18 | bulky item pickup dubai | Commercial | HIGH | BLOG | `/blog/bulky-item-pickup-dubai` | P2 | Editorial scope (2026-10-25): identify a specific bulky object, show condition, photograph the route and compare the largest rigid component with every restriction. `/services/junk-removal` keeps acceptance and transactional booking intent. Demand remains `UNVERIFIED`. |
 | A19 | junk removal cost dubai | Commercial | HIGH | BLOG | `/blog/junk-removal-cost-dubai` | P1 | **Pillar.** Price research immediately precedes an enquiry. |
@@ -719,7 +719,7 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F3 | household garbage removal dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | |
 | F4 | recurring garbage pickup dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | Recurring revenue — high lifetime value. |
 | F5 | waste removal dubai | Commercial | HIGH | SERVICE | `/services/waste-removal` | P2 | Page primary. |
-| F6 | waste collection dubai | Commercial | MED | SUPPORT | `/services/waste-removal` | P3 | Municipal-skewed SERP. |
+| F6 | waste collection dubai | Commercial | MED | SUPPORT | `/services/waste-removal` | P3 | Municipal-skewed SERP. The page title carries “waste collection service” for a paid project load, and the copy says it is not a municipal bin contract and not clinical waste. No licence or tonnage claim. |
 | F7 | waste disposal dubai | Commercial | MED | SUPPORT | `/services/waste-removal` | P3 | |
 | F8 | waste removal company dubai | Commercial | HIGH | SUPPORT | `/services/waste-removal` | P2 | |
 | F9 | renovation waste removal dubai | Commercial | HIGH | BLOG | `/blog/renovation-waste-removal-dubai` | P2 | Strong intent; clear timing trigger. |
@@ -972,14 +972,14 @@ One cluster per money page. **This is the authority list for "which page owns wh
 
 | Cluster | Money page | Primary | Secondary (on-page, no separate URL) | Never targets |
 |---|---|---|---|---|
-| **Junk removal (head)** | `/` | junk removal dubai | dubai junk removal · junk removal in dubai · brand terms | service-specific or clearance terms |
-| **Junk removal (service)** | `/services/junk-removal` | junk removal service dubai | junk removal services dubai · junk removal company dubai · junk collection dubai · junk disposal dubai · rubbish removal dubai · take my junk dubai · bulky waste removal dubai · junk pickup dubai | same-day · clearance · any item-specific term |
+| **Junk removal (head)** | `/` | junk removal dubai | dubai junk removal · junk removal in dubai · junk removal service · junk collection · brand terms | service-specific or clearance terms · the four head phrases repeated as a second page’s title |
+| **Junk removal (service)** | `/services/junk-removal` | rubbish removal dubai · trash pickup dubai | junk removal services dubai · junk removal company dubai · junk disposal dubai · take my junk dubai · bulky waste removal dubai · junk pickup dubai · flattened cardboard in a junk load | the homepage head terms · a cardboard baling or dedicated recycling route · same-day as the title |
 | **Same-day / urgent** | `/services/same-day-junk-removal` | same day junk removal dubai | urgent · emergency · today · last minute · next day · short notice · weekend junk removal dubai | the unqualified head term |
 | **Furniture** | `/services/furniture-removal` | furniture removal dubai | furniture disposal · old furniture removal · furniture pickup/collection · wardrobe · bed · mattress · dining table · dismantling | sofa/couch terms · whole-property clearance |
 | **Sofa** | `/services/sofa-removal` | sofa removal dubai | sofa disposal · old sofa · couch removal/disposal · L-shaped · corner · sofa bed · armchair | generic furniture terms |
 | **Appliances / e-waste** | `/services/appliance-disposal` | appliance disposal dubai · fridge disposal dubai | fridge/refrigerator/freezer · washing machine · dryer · oven · dishwasher · TV · AC unit · e-waste · electronics · water heater | bulk commercial IT disposal |
 | **Garbage (household/recurring)** | `/services/garbage-removal` | garbage removal dubai | garbage collection · household garbage · recurring pickup · rubbish collection | renovation/construction waste |
-| **Waste (site/renovation)** | `/services/waste-removal` | waste removal dubai | construction waste · renovation waste · debris · rubble · site clearance · skip-hire alternative | household bin/garbage terms |
+| **Waste (site/renovation)** | `/services/waste-removal` | waste removal dubai · waste collection service dubai | construction waste · renovation waste · debris · rubble · site clearance · skip-hire alternative | household bin/garbage terms · clinical waste · licence or tonnage claims |
 | **Garden / green waste** | `/services/garden-waste-removal` | garden waste removal dubai | green waste · garden clearance · palm fronds · branches · grass · soil/sand/pots · outdoor furniture · landscaping waste | whole-property villa clearance |
 | **House / apartment clearance** | `/services/house-clearance` | house clearance dubai | apartment/flat/home/property clearance · end of tenancy · move-out · handover · landlord inspection · storage room | villa/townhouse terms |
 | **Villa clearance** | `/services/villa-clearance` | villa clearance dubai | villa junk removal · villa cleanout · maid room · majlis · garage · townhouse · estate clearance · large villa | apartment terms |
@@ -1112,6 +1112,8 @@ Fourteen identified overlaps and the ruling on each. **These rulings are binding
 - `/` owns the bare head term `junk removal dubai` — it has the strongest link equity, the brand, and head local terms usually resolve to homepages.
 - `/services/junk-removal` owns **qualified** variants: `junk removal service dubai`, `junk collection dubai`, `junk disposal dubai`, `rubbish removal dubai`, `bulky waste removal dubai`.
 - `/services` is a **navigational hub**, not a ranking target. It should not be optimised for any commercial term.
+
+**Superseded in part on 2026-10-29.** `junk removal service` and `junk collection` now rank on `/` with A1 and A2, so two URLs do not fight. `/services/junk-removal` keeps rubbish removal, one-off trash pickup, and flattened cardboard inside a junk load. It must not reuse the homepage title. `bulky waste collection` stays on `/blog/dubai-municipality-bulky-waste`. `waste collection service dubai` stays on `/services/waste-removal` as paid project waste, not a municipal bin contract and not clinical waste. Area pages own the service plus the community. They do not paste one keyword block across every community.
 **Pre-publish review checklist (documentation only — no code changes in this task):**
 1. Confirm `/` is the only one of the three whose title/H1 carries the bare head term.
 2. Confirm `/services/junk-removal` keeps its current, more specific title and that "junk removal Dubai" is **not** added as an H1/title string.
@@ -1126,7 +1128,7 @@ Fourteen identified overlaps and the ruling on each. **These rulings are binding
 > ### ⚠ PRE-PUBLISH SEO REVIEW
 > **C-2 must be reviewed and signed off BEFORE large-scale supporting-content publication begins**, for the same reason as C-1: the same-day cluster is a Month 1 flagship, and its articles will push authority at whichever URL their anchors name. **Verification only — no website code is modified in this task.**
 
-**Severity: MEDIUM-HIGH.** The homepage H1 is currently *"Same-day junk removal across Dubai"* — a near-exact match for another page's primary keyword.
+**Severity: MEDIUM-HIGH.** The homepage H1 was *"Same-day junk removal across Dubai"* until 2026-10-29, a near-exact match for another page's primary keyword. The homepage H1 is now *"Junk removal Dubai"*. The same-day phrase stays on the service page.
 **Ruling: the service page owns it.**
 
 **Pre-publish review checklist (documentation only — no code changes in this task):**
@@ -1331,7 +1333,7 @@ These are **existing mapped searches with no dedicated published article** at th
 
 | Rank | ID | Search | Current destination | Action |
 |---|---|---|---|---|
-| 1 | A8 | junk collection dubai | `/services/junk-removal` | Strengthen service copy |
+| 1 | A8 | junk collection dubai | `/` | On the homepage intro as of 2026-10-29. Do not give it a second URL. |
 | 2 | A10 | junk pickup dubai | `/services/junk-removal` | Strengthen service copy |
 | 3 | A16 | bulky waste removal dubai | `/services/junk-removal` | Clarify paid vs municipal route |
 | 4 | B4 | urgent junk removal dubai | `/services/same-day-junk-removal` | Explain booking constraints |
@@ -1379,6 +1381,8 @@ These are **existing mapped searches with no dedicated published article** at th
 **Ownership ruling (2026-10-23):** G20, C11 and K10 now have narrow planning articles. G20 owns the multi-zone villa-garden inventory, material separation and contractor-to-collector handoff; C11 owns a whole-bedroom inventory and coordinated route while item-specific bed, mattress and wardrobe guides keep their detail; K10 owns the project handoff from fixed retail fit-out to a loose, sorted and access-approved collection load. The garden-waste, furniture and commercial service pages retain the broad transactional terms. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 
 **Ownership ruling (2026-10-24):** D8, C22 and F18 now have narrow planning articles. D8 owns sectional-sofa modules, connectors and the largest released section; C22 owns the whole-apartment furniture inventory tied to one building route; F18 owns the boundary and preparation for a defined one-off office load. The sofa, residential and commercial service pages retain broad transactional intent. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
+
+**Ownership ruling (2026-10-29, on-page only):** The ten goal phrases keep existing URLs. Homepage: junk removal Dubai, Dubai junk removal, junk removal service, Dubai junk collection. `/services/junk-removal`: rubbish removal service, trash pickup Dubai, and cardboard inside a junk load (no baling route). `/blog/dubai-municipality-bulky-waste`: bulky waste collection. `/services/furniture-removal`: furniture removal Dubai. `/services/waste-removal`: waste collection service Dubai. A14’s one-off trash pickup moves off `/services/garbage-removal` for ranking only. No new article was published for this change.
 
 **Ownership ruling (2026-10-25):** A18, B9 and E10 now have narrow planning articles. A18 owns the photo-and-route brief for one or more bulky objects; B9 owns the overnight preparation window between an unavailable same-day request and a confirmed next-day collection; E10 owns the register that coordinates several unlike appliances without replacing item-specific guides. The junk-removal, same-day and appliance-disposal service pages retain broad transactional intent. No Search Console or Keyword Planner evidence was available in the repository, so these are qualitative editorial tests and must be consolidated if an article competes with its money page.
 

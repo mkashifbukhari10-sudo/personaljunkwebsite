@@ -17,16 +17,17 @@ export const services = [
     name: 'Junk Removal',
     blurb: 'Everything you no longer need, carried out and taken away in one visit.',
     seo: {
-      title: 'Junk Removal Dubai | Mixed Loads & Bulky Items',
-      description: 'Mixed household junk, bulky items or a full load carried out and taken away in one visit. Send a photo on WhatsApp for a fixed price, crews across Dubai 7 days a week.'
+      title: 'Rubbish Removal Service | Trash Pickup Dubai',
+      description: 'One-off rubbish removal and trash pickup for mixed loads, including flattened cardboard in the same visit. WhatsApp a photo for a fixed price.'
     },
-    h1: 'Junk removal in Dubai for anything you no longer need',
-    intro: 'If you have a pile of things that do not fit one neat category — a broken chair, boxes from the last move, an old rug, a fan that stopped working — this is the service. You do not need to sort it, bag it or bring it downstairs. [Send a photo, get a price](/how-it-works), and a crew carries it out in one visit.',
+    h1: 'One-off rubbish removal, carried out from the room',
+    intro: 'If you have a pile of things that do not fit one neat category — a broken chair, boxes from the last move, an old rug, a fan that stopped working — this is the rubbish removal service. Trash pickup in Dubai here means one load, not a scheduled bin contract. You do not need to sort it, bag it or bring it downstairs. [Send a photo, get a price](/how-it-works), and a crew carries it out in one visit.',
     body: [
       {
         heading: 'What counts as junk',
         paragraphs: [
-          'Almost anything that no longer earns its space: bulky items, general household junk, boxes, small furniture, broken or outdated things you have stopped using. It does not have to be sorted. When the boxes are the main pile, the [guide to sorting packing material](/blog/packing-material-disposal-dubai) explains how to separate cardboard, foam and crates so the photo matches the load.',
+          'Almost anything that no longer earns its space: bulky items, general household junk, boxes, small furniture, broken or outdated things you have stopped using. It does not have to be sorted. Flattened cardboard can ride in that same junk load. This page is not a cardboard recycling route. When the boxes are the main pile, the [guide to sorting packing material](/blog/packing-material-disposal-dubai) explains how to separate cardboard, foam and crates so the photo matches the load.',
+          'When the address qualifies, Dubai Municipality runs a free bulky-waste collection. When the date or the address does not, a paid crew is the alternative. The [municipality bulky-waste guide](/blog/dubai-municipality-bulky-waste) is the check. This page is not a list of excluded communities.',
           'If it is a [sofa](/services/sofa-removal), an [appliance](/services/appliance-disposal) or [garden waste](/services/garden-waste-removal), we still take it, but those have their own pages with more detail. If it is whatever is left after the obvious stuff, it belongs here.'
         ]
       },
@@ -134,8 +135,8 @@ export const services = [
       {
         heading: 'Beds, wardrobes and dining sets',
         paragraphs: [
-          'These are the pieces we move most. A bed frame and mattress, a wardrobe that was built inside the bedroom, a six-seat dining set, a chest of drawers.',
-          'One piece or the contents of a whole room, priced from your photo before we come. If it is every room, see [house clearance](/services/house-clearance).'
+          'These are the pieces we move most. A [bed frame](/blog/bed-frame-disposal-dubai) and mattress, a [wardrobe](/blog/wardrobe-removal-dubai) that was built inside the bedroom, a six-seat dining set, a chest of drawers.',
+          'One piece or the contents of a whole room, priced from your photo before we come. If it is every room, see [house clearance](/services/house-clearance). If the question is whether to repair, pass on or collect a piece, the [old-furniture disposal guide](/blog/dispose-old-furniture-dubai) sets out those choices before you book.'
         ]
       },
       {
@@ -284,11 +285,11 @@ export const services = [
     name: 'Waste Removal',
     blurb: 'Mixed loads from renovations, clear-outs and site work.',
     seo: {
-      title: 'Waste Removal Dubai | Renovation & Site Debris Removal',
-      description: 'Mixed loads from renovations, fit-outs, clear-outs and site work loaded by crew and sorted by material at our yard. Fixed price from a photo, one-off or on a schedule.'
+      title: 'Waste Collection Service Dubai | Project Loads',
+      description: 'Paid waste collection for renovation, fit-out and site loads in Dubai. Not a municipal bin contract and not clinical waste. WhatsApp a photo for a fixed price.'
     },
-    h1: 'Waste removal in Dubai for renovation, clear-out and site loads',
-    intro: 'After the contractors leave, what stays behind is rarely one kind of thing: offcuts, broken tiles, packaging, old fittings, bags of everything. Waste removal is for those mixed loads. We load them, take them to our yard, separate by material and send each stream where it should go.',
+    h1: 'Waste collection service in Dubai for project and site loads',
+    intro: 'After the contractors leave, what stays behind is rarely one kind of thing: offcuts, broken tiles, packaging, old fittings, bags of everything. This waste collection service is a paid project or site load, not a municipal bin contract and not clinical waste. We load it, take it to our yard, separate by material and send each stream where it should go. The [renovation waste guide](/blog/renovation-waste-removal-dubai) is the refit pile. The [skip comparison](/blog/skip-hire-vs-junk-removal-dubai) is for when a container would sit longer than a crew visit.',
     body: [
       {
         heading: 'Renovation and fit-out waste',
