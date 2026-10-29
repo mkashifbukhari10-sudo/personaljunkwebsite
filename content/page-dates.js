@@ -4,7 +4,7 @@
  * page's copy changes.
  */
 export const serviceUpdatedAt = {
-  "junk-removal": "2026-09-15T10:24:22.636Z",
+  "junk-removal": "2026-10-29T12:00:00.000Z",
   "garbage-removal": "2026-09-15T10:24:29.710Z",
   "furniture-removal": "2026-09-15T10:24:37.827Z",
   "sofa-removal": "2026-09-15T10:24:44.719Z",

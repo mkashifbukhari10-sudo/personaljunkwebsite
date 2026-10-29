@@ -26,7 +26,7 @@ export const services = [
       {
         heading: 'What counts as junk',
         paragraphs: [
-          'Almost anything that no longer earns its space: bulky items, general household junk, boxes, small furniture, broken or outdated things you have stopped using. It does not have to be sorted.',
+          'Almost anything that no longer earns its space: bulky items, general household junk, boxes, small furniture, broken or outdated things you have stopped using. It does not have to be sorted. When the boxes are the main pile, the [guide to sorting packing material](/blog/packing-material-disposal-dubai) explains how to separate cardboard, foam and crates so the photo matches the load.',
           'If it is a [sofa](/services/sofa-removal), an [appliance](/services/appliance-disposal) or [garden waste](/services/garden-waste-removal), we still take it, but those have their own pages with more detail. If it is whatever is left after the obvious stuff, it belongs here.'
         ]
       },

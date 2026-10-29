@@ -1016,7 +1016,7 @@ export const filePosts = [
     title: "Packing Material After a Move: Sort It Before You Book a Pickup",
     excerpt: "Flattened, dry cartons can follow your building's recycling route; foam, film, wet cardboard and crates need separating, and a full room of boxes is a collection job.",
     publishedAt: "2026-10-12T20:56:12.425Z",
-    updatedAt: "2026-10-12T20:56:12.430Z",
+    updatedAt: "2026-10-29T12:00:00.000Z",
     cover: "leaving-dubai-checklist-cover",
     services: [
       "junk-removal"
