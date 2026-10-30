@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "bbq-grill-disposal-dubai",
+    title: "BBQ grill disposal in Dubai: separate the fuel",
+    excerpt: "Identify the grill, detach and retain every gas cylinder, empty cold ash and grease, release fixed connections, and measure the patio-to-vehicle route.",
+    publishedAt: "2026-10-30T05:00:05.000Z",
+    cover: "garden-furniture-disposal-dubai-cover",
+    services: ["garden-waste-removal"],
+    seoTitle: "BBQ grill disposal Dubai: separate the fuel",
+    seoDescription: "Prepare a BBQ grill, smoker or patio heater for disposal: detach gas cylinders, empty residue, release fixed work and measure the route.",
+    ogTitle: "BBQ grill disposal: separate every fuel source",
+    ogDescription: "Detach the cylinder, empty the grill and prove the route before collection."
+  },
+  {
+    slug: "trampoline-removal-dubai",
+    title: "Trampoline removal in Dubai: fixings and route",
+    excerpt: "Photograph the complete structure, confirm permission, identify every anchor, and measure the largest rigid section before on-site dismantling begins.",
+    publishedAt: "2026-10-30T05:00:00.000Z",
+    cover: "garden-furniture-disposal-dubai-cover",
+    services: ["garden-waste-removal"],
+    seoTitle: "Trampoline removal Dubai: fixings and route",
+    seoDescription: "Prepare a trampoline or outdoor play set for removal: confirm ownership, show anchors, plan dismantling and measure the garden-to-vehicle route.",
+    ogTitle: "Trampoline removal: show every fixing",
+    ogDescription: "Confirm permission, photograph anchors and measure the route before dismantling."
+  },
+  {
     slug: "clear-apartment-before-selling-dubai",
     title: "Clear apartment before selling in Dubai: set the date",
     excerpt: "Mark what leaves, what stays and what is on hold, then book building access so collection finishes before the apartment has to be ready.",

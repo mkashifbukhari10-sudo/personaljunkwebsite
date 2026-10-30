@@ -352,7 +352,9 @@ export const services = [
       {
         heading: 'Old outdoor furniture goes too',
         paragraphs: [
-          'Rusted loungers, a cracked plastic table, a sun-bleached rattan set. [Outdoor furniture](/services/furniture-removal) is loaded with the green waste in the same visit and [sorted with the rest at our yard](/about#disposal), so usable pieces can be passed on.'
+          'Rusted loungers, a cracked plastic table, a sun-bleached rattan set. [Outdoor furniture](/services/furniture-removal) is loaded with the green waste in the same visit and [sorted with the rest at our yard](/about#disposal), so usable pieces can be passed on.',
+          'Trampolines and outdoor play sets can also be collected and dismantled on site. The [trampoline removal guide](/blog/trampoline-removal-dubai) explains how to confirm ownership, show anchors and measure the route before the structure comes apart.',
+          'Freestanding barbecue grills, smokers and patio heaters can join an approved outdoor load after every gas cylinder is detached and kept by the customer. The [BBQ grill disposal guide](/blog/bbq-grill-disposal-dubai) covers fuel, residue, fixed connections and access.'
         ]
       },
       {

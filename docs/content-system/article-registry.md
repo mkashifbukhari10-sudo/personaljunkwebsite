@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-29:** **98 published repository articles, all with at least 2,000 body words.** E30 and A34 are dated 2026-10-28 and cover a household cooker hood and bicycle removal. They were admitted after the READY queue was exhausted; G22–G24 and K21 stay blocked. The latest dated posts on the site remain C25 and H24 (2026-10-29), which cover media-wall preparation and clearing a vacant apartment before viewings. The furniture-removal and house-clearance service pages retain transactional booking intent. Existing inspected images are reused for all cover and body slots. The next plan item, G22, stays unpublished until the owner confirms trampoline collection. N-11 was revised in place the same day: a signpost to the office, shop, retail-fit-out and renovation guides, three extra FAQs, and an inbound link from `/services/junk-removal`. No new cardboard URL.
+**Current state as at 2026-10-30:** **100 published repository articles, all with at least 2,000 body words.** G22 and G23 are dated 2026-10-30 after the owner confirmed trampoline/play-set collection and on-site dismantling, plus grill/smoker/patio-heater collection with cylinders retained by the customer. G24 and K21 stay blocked on business input. The garden-waste service page retains transactional booking intent and supplies both inbound links. Existing inspected imagery is reused for all cover and body slots.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**98 published records as of 2026-10-29.** The two articles dated 2026-10-28 were admitted after that date’s original READY trio had already been published on 2026-10-27.
+**100 published records as of 2026-10-30.** G22 and G23 are the repository posts dated 2026-10-30 after their business-input blocks cleared.
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -214,6 +214,8 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | H24 | `clear-apartment-before-selling-dubai` | Clear apartment before selling in Dubai: set the date | clear apartment before selling dubai | SC3 | F | `house-clearance` | — | `PUBLISHED` | 2026-10-29 | 2026-10-29 | none | `/blog/property-clearance-dubai` | 2286 body words. Repository post. Owns a vacant-unit stay/leave inventory and access timing. No price, marketing, commission or legal advice. |
 | E30 | `cooker-hood-removal-dubai` | Cooker hood removal in Dubai: release it safely | cooker hood removal dubai | SC1 | A | `appliance-disposal` | — | `PUBLISHED` | 2026-10-28 | 2026-10-28 | business | `/blog/oven-removal-dubai` | 2177 body words. Repository post. Owns a household hood’s type, power, duct and route. The oven guide keeps the cooker; commercial canopies stay with restaurant equipment. No claim the crew cuts cables or building ducts. |
 | A34 | `bicycle-removal-dubai` | Bicycle removal in Dubai: locks, size and route | bicycle removal dubai | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-10-28 | 2026-10-28 | business | `/blog/garage-clearance-dubai` | 2121 body words. Repository post. Owns locks, handlebar width, declared motors and the store-to-vehicle route. Gym machines stay with the treadmill guide; a mixed garage stays with the garage guide. |
+| G22 | `trampoline-removal-dubai` | Trampoline removal in Dubai: fixings and route | trampoline removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-30 | 2026-10-30 | business | `/services/garden-waste-removal` | 2510 body words. Repository post. Owner confirmed collection and on-site dismantling. Buried anchors, concrete footings, fixed services and property repair remain outside the assumed scope. |
+| G23 | `bbq-grill-disposal-dubai` | BBQ grill disposal in Dubai: separate the fuel | bbq grill disposal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-30 | 2026-10-30 | business | `/services/garden-waste-removal` | 2650 body words. Repository post. Owner confirmed grill, smoker and patio-heater collection. Gas cylinders and other fuel stay with the customer; fixed utility work and outdoor-kitchen demolition remain outside scope. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -451,6 +453,8 @@ Ninety-one articles are published; each primary keyword has one owner.
 | clear apartment before selling dubai | `/blog/clear-apartment-before-selling-dubai` | H24 | 2026-10-29 |
 | cooker hood removal dubai | `/blog/cooker-hood-removal-dubai` | E30 | 2026-10-28 |
 | bicycle removal dubai | `/blog/bicycle-removal-dubai` | A34 | 2026-10-28 |
+| trampoline removal dubai | `/blog/trampoline-removal-dubai` | G22 | 2026-10-30 |
+| bbq grill disposal dubai | `/blog/bbq-grill-disposal-dubai` | G23 | 2026-10-30 |
 
 ### 5.3 · Reserved by the queue
 
@@ -575,6 +579,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #H24 `clear-apartment-before-selling-dubai` | `/blog/property-clearance-dubai` | article | “pre-sale apartment plan” | ☑ applied |
 | #E30 `cooker-hood-removal-dubai` | `/blog/oven-removal-dubai` | article | “cooker-hood guide” | ☑ applied |
 | #A34 `bicycle-removal-dubai` | `/blog/garage-clearance-dubai` | article | “bicycle removal guide” | ☑ applied |
+| #G22 `trampoline-removal-dubai` | `/services/garden-waste-removal` | service | “trampoline removal guide” | ☑ applied |
+| #G23 `bbq-grill-disposal-dubai` | `/services/garden-waste-removal` | service | “BBQ grill disposal guide” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -814,6 +820,8 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-30 | Published G22 as a repository post dated 2026-10-30 after the owner confirmed trampoline and outdoor play-set collection with on-site dismantling. Added the service-page inbound link and reused existing inspected garden imagery. | Owner selected the first of the two business-input questions, clearing G22 only. G23 remained blocked at that point. |
+| 2026-10-30 | Published G23 as a repository post dated 2026-10-30 after the owner confirmed grill, smoker and patio-heater collection with gas cylinders retained by the customer. Added the service-page inbound link and reused inspected existing imagery. | Owner then approved the second business-input topic, clearing G23. |
 | 2026-10-29 | Retitled `dubai-municipality-bulky-waste` to “How Dubai Municipality Bulky Waste Collection Works” (SEO title “Bulky Waste Collection: Municipality Guide”). Opening sentence uses the same eligibility facts. No new article. | The guide owns “bulky waste collection”. Homepage and service titles were not pointed at that phrase. |
 | 2026-10-29 | Published E30 and A34 as repository posts dated 2026-10-28. Admitted `cooker hood removal dubai` and `bicycle removal dubai` after the READY queue was exhausted and G22–G24, K21 and the source-blocked rows were skipped. Reused existing images. Inbound links from the oven and garage guides. | Owner asked for the next two eligible articles with a 2026-10-28 date. No unpublished READY brief remained. |
 | 2026-10-29 | Revised N-11 in place. Added a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, three FAQs the existing four did not answer, and a contextual inbound link from `/services/junk-removal` (“guide to sorting packing material”). Body is 2542 stored words. SEO title and description unchanged. No new URL: `cardboard removal dubai` stays a variant of F19. | Owner approved the closest compliant option after a new cardboard article was blocked by keyword ownership. |

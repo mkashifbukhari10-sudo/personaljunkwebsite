@@ -2,7 +2,7 @@
 
 **Written:** 2026-10-27 (replaces the earlier 3-topic plan). **Ceiling:** up to 3 articles a day, 90 maximum (`content-rules.md` §23). **Approved topics: 16** (rows A33, C25, G22–G26, H23, H24, K20, K21, M26–M30 in `keywords.md`). **Not 90.** The evidence-based reason is in `keywords.md` → *Expansion admissions* → *Why the number is 16, not 90*: 359 candidate units were evaluated and 325 failed the admission tests, mostly because the Dubai search vocabulary is already owned by existing pages and articles.
 
-**Status mix (updated 2026-10-29):** the 5 `READY` articles are published (A33, M26, H23, C25, H24). 4 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date.
+**Status mix (updated 2026-10-30):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date.
 
 **No demand figures.** No volume, CPC, difficulty or ranking number exists for any topic. Evidence is autocomplete phrase presence (2026-10-27) or qualitative.
 
@@ -19,8 +19,8 @@
 | H23 | `/blog/downsizing-clearance-dubai` | downsizing in dubai | `/services/house-clearance` | `READY` | No selling guidance. |
 | C25 | `/blog/media-wall-unit-removal-dubai` | media wall unit removal dubai | `/services/furniture-removal` | `PUBLISHED` 2026-10-29 | No claim to remove fixed joinery. |
 | H24 | `/blog/clear-apartment-before-selling-dubai` | clear apartment before selling dubai | `/services/house-clearance` | `PUBLISHED` 2026-10-29 | No real-estate, valuation or legal advice. |
-| G22 | `/blog/trampoline-removal-dubai` | trampoline removal dubai | `/services/garden-waste-removal` | `READY — BUSINESS INPUT` | Owner confirms trampoline and play-set collection with on-site dismantling. Add a sentence on play equipment to the service page. |
-| G23 | `/blog/bbq-grill-disposal-dubai` | bbq grill disposal dubai | `/services/garden-waste-removal` | `READY — BUSINESS INPUT` | Owner confirms grill and patio-heater collection and the gas-cylinder boundary. |
+| G22 | `/blog/trampoline-removal-dubai` | trampoline removal dubai | `/services/garden-waste-removal` | `PUBLISHED` 2026-10-30 | Owner confirmed trampoline and play-set collection with on-site dismantling on 2026-10-30. Service-page inbound link applied. |
+| G23 | `/blog/bbq-grill-disposal-dubai` | bbq grill disposal dubai | `/services/garden-waste-removal` | `PUBLISHED` 2026-10-30 | Owner confirmed grill, smoker and patio-heater collection; cylinders are detached and retained by the customer. Service-page inbound link applied. |
 | G24 | `/blog/pergola-removal-dubai` | pergola removal dubai | `/services/garden-waste-removal` | `READY — BUSINESS INPUT` | Owner confirms collection of released pergola, shed, deck and fence material. |
 | K21 | `/blog/restaurant-furniture-removal-dubai` | restaurant furniture removal dubai | `/services/commercial-junk-removal` | `READY — BUSINESS INPUT` | Owner confirms hospitality furniture clearance and its scale. |
 | M27 | `/blog/dubai-recycling-centres` | dubai municipality recycling centres | `/services/junk-removal` | `BLOCKED — SOURCE` (partly cleared) | Fetch the current DM centre list and per-site acceptance; record in `article-registry.md` §7.1. |
@@ -45,8 +45,8 @@ Days with a named article: **8** (10-28, 10-29, 10-31, 11-02, 11-03, 11-04, 11-0
 | 2 | Tue 10-27 | — | Research complete. **Owner decisions:** approve the 16, or defer the 10 qualitative ones until Search Console exists. Send the input questions below. |
 | 3 | Wed 10-28 | **A33 · M26 · H23** were published with a 2026-10-27 date. **E30 · A34** are the posts dated 2026-10-28, admitted after the READY queue closed. |
 | 4 | Thu 10-29 | **C25 · H24** | Published. The third daily slot was left empty: G22 remains `READY — BUSINESS INPUT`, and no remaining SUPPORT row passed the new-URL gates. |
-| 5 | Fri 10-30 | — | **Verification day.** Fetch and record: DM recycling-centre list (M27), DM Duty of Care guideline and waste-department bulletin (M29), any official DM green-waste statement (G26), DM public drop-off position (M28), DM statement on the 2024 rain-damage channel (M30). **Owner answers due** for G22, G23, G24, K21, G25, K20 and the M29 and M30 capability questions. |
-| 6 | Sat 10-31 | G22 · G23 | Each only if confirmed on day 5. |
+| 5 | Fri 10-30 | **G22 · G23** | Both published after owner confirmation. Verification work remains for M27–M30 and G26; owner answers remain due for G24, K21, G25, K20, M29 and M30. |
+| 6 | Sat 10-31 | — | G22 and G23 moved to 10-30 at the owner's request. |
 | 7 | Sun 11-01 | — | — |
 | 8 | Mon 11-02 | G24 · K21 | Each only if confirmed. |
 | 9 | Tue 11-03 | M27 | Only if the source is recorded. |

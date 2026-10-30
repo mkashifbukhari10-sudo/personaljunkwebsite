@@ -403,6 +403,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #H24 clear-apartment-before-selling-dubai | cover, OG, body | `COMPLETE` — existing empty-room cover and estate sorting plan reused 2026-10-29 (repository post) |
 | #E30 cooker-hood-removal-dubai | cover, body | `COMPLETE` — existing refrigerator-at-kitchen-door cover reused 2026-10-28 (repository post). No cooker-hood photograph exists; the cover shows a different kitchen appliance. A hood-specific image would be a clearer future cover. |
 | #A34 bicycle-removal-dubai | cover, OG | `COMPLETE` — existing garage cover reused 2026-10-28 (repository post). The stored alt already includes bicycles in the garage. |
+| #G22 trampoline-removal-dubai | cover, OG, body | `COMPLETE` — existing garden-furniture cover and garden grouping image reused 2026-10-30 (repository post). No trampoline-specific image exists; a dedicated image would make a clearer future cover. |
+| #G23 bbq-grill-disposal-dubai | cover, OG, body | `COMPLETE` — existing garden-furniture cover and accepted-versus-excluded diagram reused 2026-10-30 (repository post). The body image visibly includes the gas-cylinder exclusion; a grill-specific cover would be clearer in future. |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -442,6 +444,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-30 | Reused `garden-furniture-disposal-dubai-cover` and `article-garden-furniture-disposal-dubai-body` for G22. No generation, download or upload. A trampoline-specific cover would be clearer in future. |
+| 2026-10-30 | Reused `garden-furniture-disposal-dubai-cover` and `accepted-versus-excluded-guide` for G23. No generation, download or upload. The exclusion diagram supports the gas-cylinder boundary. |
 | 2026-10-29 | Reused `fridge-disposal-cover` for E30 and `garage-clearance-dubai-cover` for A34. No generation, download or upload. The hood cover is a refrigerator, recorded as the nearest kitchen-appliance image. |
 | 2026-10-29 | Reused existing inspected assets for C25 (`tv-disposal-cover`, `flatpack-condition-comparison`) and H24 (`empty-room-before-handover`, `estate-clearance-sorting-plan`). No generation, download or upload. |
 | 2026-10-16 | Assigned existing Media documents to N-15 to N-17. That covers six slots with no new generation, download or upload, at the owner's instruction to use the images already available. |

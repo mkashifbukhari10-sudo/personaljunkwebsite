@@ -1,6 +1,6 @@
 # Next three article briefs — article date 2026-10-25
 
-**Status 2026-10-29:** N-45, N-46 and N-47 below are published. C25 and H24 are published (2026-10-29). No further READY brief remained. G22, G23, G24 and K21 stay blocked on business input. E30 and A34 were admitted under the keyword tests and published with a 2026-10-28 date.
+**Status 2026-10-30:** N-45, N-46 and N-47 below are published. C25 and H24 are published (2026-10-29). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. G24 and K21 stay blocked on business input. E30 and A34 were admitted under the keyword tests and published with a 2026-10-28 date.
 
 | ID | Primary keyword | Title / H1 | Slug | Primary service | Cover |
 |---|---|---|---|---|---|
