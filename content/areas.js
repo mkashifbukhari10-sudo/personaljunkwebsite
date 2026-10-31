@@ -407,7 +407,7 @@ export const areas = [
       description: 'Apartment pickups, office clearances and shop fit-out clear-outs across Al Barsha. Crew sized to the load, out of hours for businesses, fixed price from photos.'
     },
     h1: 'Junk removal in Al Barsha for apartments, offices and shops',
-    intro: 'Al Barsha mixes everything: apartment buildings, office blocks and retail units side by side. One day it is a sofa from a third-floor flat, the next a shop being stripped before a new tenant. We quote each as a load from photos and work around the premises’ hours. Older buildings without a service lift still need a crew for the carry. [Municipal bulky collection](/blog/dubai-municipality-bulky-waste) does not replace that carry. Read it only to see whether the address is eligible.',
+    intro: 'Al Barsha mixes everything: apartment buildings, office blocks and retail units side by side. One day it is a sofa from a third-floor flat, the next a shop being stripped before a new tenant. We quote each as a load from photos and work around the premises’ hours. Older buildings without a service lift still need a crew for the carry. The [walk-up stairs guide](/blog/walk-up-stairs-no-lift-dubai) is how to show that route. [Municipal bulky collection](/blog/dubai-municipality-bulky-waste) does not replace that carry. Read it only to see whether the address is eligible.',
     body: [
       {
         heading: 'Apartment pickups',

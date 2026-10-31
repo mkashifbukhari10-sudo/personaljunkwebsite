@@ -2,7 +2,7 @@
 
 **Written:** 2026-10-27 (replaces the earlier 3-topic plan). **Ceiling:** up to 3 articles a day, 90 maximum (`content-rules.md` §23). **Approved topics: 16** (rows A33, C25, G22–G26, H23, H24, K20, K21, M26–M30 in `keywords.md`). **Not 90.** The evidence-based reason is in `keywords.md` → *Expansion admissions* → *Why the number is 16, not 90*: 359 candidate units were evaluated and 325 failed the admission tests, mostly because the Dubai search vocabulary is already owned by existing pages and articles.
 
-**Status mix (updated 2026-10-30):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date.
+**Status mix (updated 2026-10-31):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date. On 2026-10-31 the next two cleared slots were taken from the goal-keyword calendar instead (J13, F20), because this plan had no unblocked article left to write.
 
 **No demand figures.** No volume, CPC, difficulty or ranking number exists for any topic. Evidence is autocomplete phrase presence (2026-10-27) or qualitative.
 
@@ -32,6 +32,8 @@
 | K20 | `/blog/exhibition-stand-waste-removal-dubai` | exhibition stand waste removal dubai | `/services/commercial-junk-removal` | `BLOCKED — SOURCE + CAPABILITY` | Organiser and venue rules sourced officially; owner confirms post-event collection and dock access. |
 | E30 | `/blog/cooker-hood-removal-dubai` | cooker hood removal dubai | `/services/appliance-disposal` | `PUBLISHED` 2026-10-28 | Household hood only. No cable cutting and no building-duct removal. |
 | A34 | `/blog/bicycle-removal-dubai` | bicycle removal dubai | `/services/junk-removal` | `PUBLISHED` 2026-10-28 | Not an exercise bike. Motor batteries are declared and asked about, not assumed. |
+| J13 | `/blog/walk-up-stairs-no-lift-dubai` | walk-up stairs with no service lift | `/services/junk-removal` | `PUBLISHED` 2026-10-31 | From the goal-keyword calendar, not the original 16. No goods lift to book. Townhouse stairs and service-lift bookings stay on their own URLs. |
+| F20 | `/blog/shipping-cartons-filling-a-flat-dubai` | shipping cartons filling a flat | `/services/junk-removal` | `PUBLISHED` 2026-10-31 | From the goal-keyword calendar, not the original 16. Lived-in delivery cartons only. `cardboard removal dubai` stays on the packing guide. |
 
 ---
 
@@ -46,7 +48,7 @@ Days with a named article: **8** (10-28, 10-29, 10-31, 11-02, 11-03, 11-04, 11-0
 | 3 | Wed 10-28 | **A33 · M26 · H23** were published with a 2026-10-27 date. **E30 · A34** are the posts dated 2026-10-28, admitted after the READY queue closed. |
 | 4 | Thu 10-29 | **C25 · H24** | Published. The third daily slot was left empty: G22 remains `READY — BUSINESS INPUT`, and no remaining SUPPORT row passed the new-URL gates. |
 | 5 | Fri 10-30 | **G22 · G23** | Both published after owner confirmation. Verification work remains for M27–M30 and G26; owner answers remain due for G24, K21, G25, K20, M29 and M30. |
-| 6 | Sat 10-31 | — | G22 and G23 moved to 10-30 at the owner's request. |
+| 6 | Sat 10-31 | **J13 · F20** | Published from the goal-keyword calendar (walk-up stairs with no service lift; shipping cartons filling a flat). G22 and G23 had already moved to 10-30. G24, K21, G25, K20, M29 and M30 stayed unpublished. |
 | 7 | Sun 11-01 | — | — |
 | 8 | Mon 11-02 | G24 · K21 | Each only if confirmed. |
 | 9 | Tue 11-03 | M27 | Only if the source is recorded. |

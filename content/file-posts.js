@@ -477,6 +477,31 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "shipping-cartons-filling-a-flat-dubai",
+    title: "Shipping cartons filling a flat after deliveries",
+    excerpt: "Separate boxes that still hold something you are keeping, then book the empty ones with the other junk once they block the rooms you use.",
+    publishedAt: "2026-10-31T05:00:05.000Z",
+    cover: "before-crew-arrives-cover",
+    services: ["junk-removal"],
+    seoTitle: "Shipping cartons filling a flat",
+    seoDescription: "Name each delivery pile, keep packed goods separate, and book the empty cartons with the other junk.",
+    ogTitle: "Delivery cartons filling a lived-in flat",
+    ogDescription: "Keep full boxes separate and book the empty ones with the junk."
+  },
+  {
+    slug: "walk-up-stairs-no-lift-dubai",
+    title: "Walk-up stairs when there is no service lift",
+    excerpt: "Photograph the landings and turns, name the floor, and send the building's answer on the goods lift with the load.",
+    publishedAt: "2026-10-31T05:00:00.000Z",
+    cover: "weekend-junk-removal-cover",
+    services: ["junk-removal"],
+    areas: ["al-barsha"],
+    seoTitle: "Walk-up stairs with no service lift",
+    seoDescription: "Photograph each landing and turn, then book a stair carry where the building has no service lift.",
+    ogTitle: "No service lift: plan the stair carry",
+    ogDescription: "Show the landings, the turns and the largest piece before you book."
+  },
+  {
     slug: "bbq-grill-disposal-dubai",
     title: "BBQ grill disposal in Dubai: separate the fuel",
     excerpt: "Identify the grill, detach and retain every gas cylinder, empty cold ash and grease, release fixed connections, and measure the patio-to-vehicle route.",
@@ -1064,7 +1089,7 @@ export const filePosts = [
     title: "Packing Material After a Move: Sort It Before You Book a Pickup",
     excerpt: "Flattened, dry cartons can follow your building's recycling route; foam, film, wet cardboard and crates need separating, and a full room of boxes is a collection job.",
     publishedAt: "2026-10-12T20:56:12.425Z",
-    updatedAt: "2026-10-29T12:00:00.000Z",
+    updatedAt: "2026-10-31T05:00:00.000Z",
     cover: "leaving-dubai-checklist-cover",
     services: [
       "junk-removal"
@@ -1767,7 +1792,7 @@ export const filePosts = [
     title: "Service Lift Booking in Dubai Buildings: How It Actually Works",
     excerpt: "The building controls the service lift, while the removal provider plans around the approved window. Here is what to confirm before fixing a collection time.",
     publishedAt: "2026-09-21T14:14:52.347Z",
-    updatedAt: "2026-10-07T20:19:23.058Z",
+    updatedAt: "2026-10-31T05:00:00.000Z",
     cover: "service-lift-cover",
     services: [
       "residential-junk-removal"

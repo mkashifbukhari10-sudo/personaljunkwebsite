@@ -444,6 +444,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-10-31 | Reused `weekend-junk-removal-cover` and `mattress-route-preparation` for J13, and `before-crew-arrives-cover` and `what-we-take-cover` for F20. No generation, download or upload. Neither image shows a service lift or claims a completed job. |
 | 2026-10-30 | Reused `garden-furniture-disposal-dubai-cover` and `article-garden-furniture-disposal-dubai-body` for G22. No generation, download or upload. A trampoline-specific cover would be clearer in future. |
 | 2026-10-30 | Reused `garden-furniture-disposal-dubai-cover` and `accepted-versus-excluded-guide` for G23. No generation, download or upload. The exclusion diagram supports the gas-cylinder boundary. |
 | 2026-10-29 | Reused `fridge-disposal-cover` for E30 and `garage-clearance-dubai-cover` for A34. No generation, download or upload. The hood cover is a refrigerator, recorded as the nearest kitchen-appliance image. |

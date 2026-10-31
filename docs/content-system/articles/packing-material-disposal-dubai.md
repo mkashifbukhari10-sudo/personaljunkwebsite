@@ -62,7 +62,7 @@ For a quote, send a wide photo showing the whole cardboard pile and say whether 
 
 If the pile must go today, send those details immediately and state your latest acceptable completion time. The [urgent collection guide](/blog/junk-gone-today-dubai) explains how availability and building access affect a same-day request. Do not promise a landlord, delivery team or building manager that the cardboard will be gone until the collection is confirmed.
 
-This article is the packaging left by a move or a home delivery. For cardboard that comes out with an office clear-out, read the [one-off office waste guide](/blog/office-waste-collection-dubai). A shop being emptied follows [shop clearance planning](/blog/shop-clearance-dubai). Loose packaging from a retail refit follows the [retail fit-out waste guide](/blog/retail-fit-out-waste-removal-dubai). Cartons mixed with tiles, gypsum or timber belong with the [renovation waste guide](/blog/renovation-waste-removal-dubai).
+This article is the packaging left by a move: what to sort, what to flatten and what the building's recycling route can take. A flat you still live in, filling with successive delivery cartons and no move underway, follows the [shipping-carton plan](/blog/shipping-cartons-filling-a-flat-dubai). For cardboard that comes out with an office clear-out, read the [one-off office waste guide](/blog/office-waste-collection-dubai). A shop being emptied follows [shop clearance planning](/blog/shop-clearance-dubai). Loose packaging from a retail refit follows the [retail fit-out waste guide](/blog/retail-fit-out-waste-removal-dubai). Cartons mixed with tiles, gypsum or timber belong with the [renovation waste guide](/blog/renovation-waste-removal-dubai).
 
 ## Prepare the pile so it can be carried
 
@@ -127,7 +127,7 @@ Check the agreement before you flatten or cut a carton. Keep the mover's boxes, 
 
 ### What about boxes from a furniture or appliance delivery?
 
-Ask the retailer whether the delivery team takes that packaging away, and check the answer in writing. If they do not, add the cartons to the same pile and arrange one collection once most of the unpacking is finished, rather than a separate booking for each delivery.
+Ask the retailer whether the delivery team takes that packaging away, and check the answer in writing. During a move, if they do not, add those cartons to the move pile and arrange one collection once most of the unpacking is finished. If you are not moving and the deliveries are filling the flat, use the [shipping-carton plan](/blog/shipping-cartons-filling-a-flat-dubai) instead of treating them as leftover moving boxes.
 
 ### Do I need to flatten the cardboard first?
 
