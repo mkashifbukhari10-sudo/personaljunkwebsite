@@ -154,7 +154,9 @@ Anchors are suggestions. Vary them. Do not use the raw target as the anchor on e
 
 ### Day 1 — Friday 2026-10-30
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-10-31. They were the next cleared slots, so they were published that day. The publishing plan’s remaining named topics stayed blocked.
+
+#### Slot A — `PUBLISHED 2026-10-31` — Strong
 
 - **Primary keyword:** walk-up stairs with no service lift
 - **Title:** Walk-up stairs when there is no service lift
@@ -165,7 +167,7 @@ Anchors are suggestions. Vary them. Do not use the raw target as the anchor on e
 - **Why this slot:** The tower guides assume a lift. Al Barsha’s page already says many older buildings have none.
 - **SERP note:** Junk-removal results are company homepages, not a stairs-only guide. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-10-31` — Strong
 
 - **Primary keyword:** shipping cartons filling a flat
 - **Title:** Shipping cartons filling a flat after deliveries

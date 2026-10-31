@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 302 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302). The *demand* behind each keyword is not verified.
+**Count: 306 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **302 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27). They are **not** 302 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **306 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31). They are **not** 306 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -528,20 +528,20 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 
 | Cluster | Theme | Keywords |
 |---|---|---|
-| A | Core junk removal (head + company variants) | 33 |
+| A | Core junk removal (head + company variants) | 34 |
 | B | Same-day / urgent | 14 |
 | C | Furniture | 25 |
 | D | Sofa / couch | 15 |
-| E | Appliances, fridge & e-waste | 29 |
-| F | Garbage & waste | 19 |
+| E | Appliances, fridge & e-waste | 30 |
+| F | Garbage & waste | 20 |
 | G | Garden / green waste | 26 |
 | H | House / apartment clearance | 24 |
 | I | Villa clearance | 14 |
-| J | Residential / tower access | 12 |
+| J | Residential / tower access | 13 |
 | K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
 | M | Informational support | 30 |
-| | **Total** | **302** |
+| | **Total** | **306** |
 
 ---
 
@@ -732,7 +732,8 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F16 | skip hire alternative dubai | Commercial | HIGH | BLOG | `/blog/skip-hire-vs-junk-removal-dubai` | P2 | **Strong comparison play** — a crew that loads beats a skip you fill yourself. (Skip *hire* itself is excluded.) |
 | F17 | junk removal truck dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | Check intent — if it is truck *rental*, it is excluded. |
 | F18 | office waste collection dubai | Commercial | HIGH | BLOG | `/blog/office-waste-collection-dubai` | P2 | Editorial scope (2026-10-24): define a one-off loose office load and separate it from routine bins, data/records processes, technical material and recurring service. `/services/commercial-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
-| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. |
+| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. 2026-10-31: signpost added to F20 for delivery cartons filling a lived-in flat. |
+| F20 | shipping cartons filling a flat | Problem | MED | BLOG | `/blog/shipping-cartons-filling-a-flat-dubai` | P3 | Editorial scope (2026-10-31): successive deliveries filling a flat the resident still lives in. Sorting, flattening, mover-owned cartons and the recycling test stay with F19. `cardboard removal dubai` stays a variant of F19, not a new URL. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. |
 
 ---
 
@@ -845,6 +846,7 @@ Owner: `/services/residential-junk-removal`.
 | J10 | building permission junk removal dubai | Informational | MED | SUPPORT | `/blog/noc-moving-furniture-dubai` | P2 | |
 | J11 | move out hours dubai building | Informational | MED | SUPPORT | `/blog/service-lift-booking-dubai` | P2 | |
 | J12 | getting bulky items out of a tower dubai | Problem | HIGH | BLOG | `/blog/bulky-items-tower-dubai` | P1 | Feeds every tower area page. |
+| J13 | walk-up stairs with no service lift | Problem | MED | BLOG | `/blog/walk-up-stairs-no-lift-dubai` | P3 | Editorial scope (2026-10-31): a shared building that has no goods lift to book. J7–J8 and J12 keep the service-lift and tower-route jobs. Townhouse stairs stay with I12. `/services/junk-removal` keeps the one-off booking. Al Barsha is the only area link, because that page already mentions older buildings without a service lift. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. |
 
 ---
 
@@ -1006,7 +1008,7 @@ Six blog clusters. Every article belongs to exactly one, and every cluster point
 
 ## Keyword-to-Page Map
 
-Summary of the 302-keyword database by destination (approximate counts below predate the 2026-10-27 admissions).
+Summary of the 306-keyword database by destination (approximate counts below predate the 2026-10-27 admissions and the later E30, A34, J13 and F20 rows).
 
 | Classification | Count (approx.) | Rule |
 |---|---|---|
@@ -1481,6 +1483,21 @@ E30 `cooker hood removal dubai` and A34 `bicycle removal dubai` were admitted un
 | 6 New URL justified | Release, power, duct and kitchen route are a different job from moving the oven. | Lock, width and store route are a different job from a treadmill or a whole garage. |
 
 Capability is limited to published acceptance copy: cooker extraction hoods are listed with cooking appliances once isolated, and crews do not cut live cables; bicycles are listed with household fitness items. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 30 and Day 60 and consolidate if either article competes with its money page. Secondaries, used only where they fit: E30 `extractor hood removal dubai`; A34 `bike removal dubai`.
+
+### Further admissions (2026-10-31)
+
+The publishing plan’s remaining named articles were still blocked or waiting on owner answers (G24, K21, G25, K20, M27–M30). The next two unwritten slots on the goal-keyword calendar that were not on that block list were admitted under the six tests. No search-volume figure exists for either. The 2026-10-29 plan recorded qualitative SERP notes only: junk-removal homepages for the stair query, and a competitor cardboard page for delivery cartons. Those notes are not volumes.
+
+| Test | J13 walk-up stairs | F20 shipping cartons |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of J7 `junk removal service lift dubai` or J12 `getting bulky items out of a tower dubai`. | Not a mapped primary or secondary. Not a variant of F19. `cardboard removal dubai` stays on F19. |
+| 2 Dubai and in scope | Household removal from a shared stair. | Household packaging from deliveries in a flat. |
+| 3 Removal intent | The reader wants the load carried out with no goods lift to book. | The reader wants the empty delivery cartons taken. |
+| 4 One destination | `/blog/walk-up-stairs-no-lift-dubai` | `/blog/shipping-cartons-filling-a-flat-dubai` |
+| 5 Cannibalization | Service-lift guide keeps a goods lift that exists. Tower guide keeps the lift route. Townhouse guide keeps internal house stairs. | Packing guide keeps a move, flattening and the recycling test. Office, shop, fit-out and renovation guides keep those premises. |
+| 6 New URL justified | Landings and turns when no service lift exists are a different job from booking a lift. | Successive deliveries filling a lived-in flat are a different job from unpacking after a move. |
+
+Both money pages are `/services/junk-removal`. The ten generic targets stay on their owner URLs. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page. Secondaries, used only where they fit: J13 `no goods lift stair carry`; F20 `delivery boxes filling a flat`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

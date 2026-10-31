@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-10-30:** **100 published repository articles, all with at least 2,000 body words.** G22 and G23 are dated 2026-10-30 after the owner confirmed trampoline/play-set collection and on-site dismantling, plus grill/smoker/patio-heater collection with cylinders retained by the customer. G24 and K21 stay blocked on business input. The garden-waste service page retains transactional booking intent and supplies both inbound links. Existing inspected imagery is reused for all cover and body slots.
+**Current state as at 2026-10-31:** **102 published repository articles, all with at least 2,000 body words.** J13 and F20 are dated 2026-10-31. They are the first two cleared slots on the goal-keyword calendar. G24, K21, G25, K20, M29 and M30 stayed unpublished because they still need owner answers or sources. Existing inspected imagery is reused for the new cover and body slots. G22 and G23 remain dated 2026-10-30.
 
 ---
 
@@ -216,6 +216,8 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | A34 | `bicycle-removal-dubai` | Bicycle removal in Dubai: locks, size and route | bicycle removal dubai | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-10-28 | 2026-10-28 | business | `/blog/garage-clearance-dubai` | 2121 body words. Repository post. Owns locks, handlebar width, declared motors and the store-to-vehicle route. Gym machines stay with the treadmill guide; a mixed garage stays with the garage guide. |
 | G22 | `trampoline-removal-dubai` | Trampoline removal in Dubai: fixings and route | trampoline removal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-30 | 2026-10-30 | business | `/services/garden-waste-removal` | 2510 body words. Repository post. Owner confirmed collection and on-site dismantling. Buried anchors, concrete footings, fixed services and property repair remain outside the assumed scope. |
 | G23 | `bbq-grill-disposal-dubai` | BBQ grill disposal in Dubai: separate the fuel | bbq grill disposal dubai | SC1 | A | `garden-waste-removal` | — | `PUBLISHED` | 2026-10-30 | 2026-10-30 | business | `/services/garden-waste-removal` | 2650 body words. Repository post. Owner confirmed grill, smoker and patio-heater collection. Gas cylinders and other fuel stay with the customer; fixed utility work and outdoor-kitchen demolition remain outside scope. |
+| J13 | `walk-up-stairs-no-lift-dubai` | Walk-up stairs when there is no service lift | walk-up stairs with no service lift | SC4 | G | `junk-removal` | `al-barsha` | `PUBLISHED` | 2026-10-31 | 2026-10-31 | business | `/blog/service-lift-booking-dubai` · `/areas/al-barsha` | 3528 body words. Repository post. Owns a shared stair when no goods lift exists. Service-lift booking, tower routes and townhouse stairs stay on their own URLs. Stair-carry statements are limited to the furniture and appliance pages already published. |
+| F20 | `shipping-cartons-filling-a-flat-dubai` | Shipping cartons filling a flat after deliveries | shipping cartons filling a flat | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-10-31 | 2026-10-31 | none | `/services/junk-removal` · `/blog/packing-material-disposal-dubai` | 3033 body words. Repository post. Owns successive delivery cartons in a flat the resident still lives in. Move sorting, flattening and the recycling test stay with N-11. `cardboard removal dubai` is not retargeted. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -351,7 +353,7 @@ These are owned by service, area and static pages. **An article may never claim 
 
 ### 5.2 · Claimed by published articles
 
-Ninety-one articles are published; each primary keyword has one owner.
+102 articles are published; each primary keyword has one owner.
 
 | Keyword | Owning URL | ID | Claimed on |
 |---|---|---|---|
@@ -455,6 +457,8 @@ Ninety-one articles are published; each primary keyword has one owner.
 | bicycle removal dubai | `/blog/bicycle-removal-dubai` | A34 | 2026-10-28 |
 | trampoline removal dubai | `/blog/trampoline-removal-dubai` | G22 | 2026-10-30 |
 | bbq grill disposal dubai | `/blog/bbq-grill-disposal-dubai` | G23 | 2026-10-30 |
+| walk-up stairs with no service lift | `/blog/walk-up-stairs-no-lift-dubai` | J13 | 2026-10-31 |
+| shipping cartons filling a flat | `/blog/shipping-cartons-filling-a-flat-dubai` | F20 | 2026-10-31 |
 
 ### 5.3 · Reserved by the queue
 
@@ -581,6 +585,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #A34 `bicycle-removal-dubai` | `/blog/garage-clearance-dubai` | article | “bicycle removal guide” | ☑ applied |
 | #G22 `trampoline-removal-dubai` | `/services/garden-waste-removal` | service | “trampoline removal guide” | ☑ applied |
 | #G23 `bbq-grill-disposal-dubai` | `/services/garden-waste-removal` | service | “BBQ grill disposal guide” | ☑ applied |
+| #J13 `walk-up-stairs-no-lift-dubai` | `/blog/service-lift-booking-dubai` · `/areas/al-barsha` | article · area | “walk-up stairs guide” | ☑ applied |
+| #F20 `shipping-cartons-filling-a-flat-dubai` | `/services/junk-removal` · `/blog/packing-material-disposal-dubai` | service · article | “shipping-carton plan” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -820,6 +826,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-10-31 | Published J13 and F20 as repository posts dated 2026-10-31. Admitted `walk-up stairs with no service lift` and `shipping cartons filling a flat`. Reused existing inspected images. Inbound links from the service-lift guide and the Al Barsha page, and from the junk-removal page and the packing guide. Left G24, K21, G25, K20, M29 and M30 unpublished. | The next two cleared slots on the goal-keyword calendar. The publishing plan’s remaining named topics still need owner answers or sources. |
 | 2026-10-30 | Published G22 as a repository post dated 2026-10-30 after the owner confirmed trampoline and outdoor play-set collection with on-site dismantling. Added the service-page inbound link and reused existing inspected garden imagery. | Owner selected the first of the two business-input questions, clearing G22 only. G23 remained blocked at that point. |
 | 2026-10-30 | Published G23 as a repository post dated 2026-10-30 after the owner confirmed grill, smoker and patio-heater collection with gas cylinders retained by the customer. Added the service-page inbound link and reused inspected existing imagery. | Owner then approved the second business-input topic, clearing G23. |
 | 2026-10-29 | Retitled `dubai-municipality-bulky-waste` to “How Dubai Municipality Bulky Waste Collection Works” (SEO title “Bulky Waste Collection: Municipality Guide”). Opening sentence uses the same eligibility facts. No new article. | The guide owns “bulky waste collection”. Homepage and service titles were not pointed at that phrase. |

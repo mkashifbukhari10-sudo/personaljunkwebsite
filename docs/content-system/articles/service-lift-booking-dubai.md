@@ -98,6 +98,8 @@ Do not switch automatically to stairs, a passenger lift, balcony or emergency ex
 
 Give the exact floor and images of landings, turns and doors. Ask whether stair movement is permitted and whether the provider accepts it. Never assume that a stair carry is included because the lift is unavailable.
 
+A building that has no service lift to book is a different case from a goods lift that is too small, booked out or out of service. The [walk-up stairs guide](/blog/walk-up-stairs-no-lift-dubai) covers landings, turns and a carry when there is no goods lift.
+
 The same applies when a booked lift is out of service. Report the change and ask both parties for a revised plan. Pressuring the attending team to use an unapproved route creates risk and may breach building instructions.
 
 ## A complete booking message
