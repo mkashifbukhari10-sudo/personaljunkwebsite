@@ -405,6 +405,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #A34 bicycle-removal-dubai | cover, OG | `COMPLETE` — existing garage cover reused 2026-10-28 (repository post). The stored alt already includes bicycles in the garage. |
 | #G22 trampoline-removal-dubai | cover, OG, body | `COMPLETE` — existing garden-furniture cover and garden grouping image reused 2026-10-30 (repository post). No trampoline-specific image exists; a dedicated image would make a clearer future cover. |
 | #G23 bbq-grill-disposal-dubai | cover, OG, body | `COMPLETE` — existing garden-furniture cover and accepted-versus-excluded diagram reused 2026-10-30 (repository post). The body image visibly includes the gas-cylinder exclusion; a grill-specific cover would be clearer in future. |
+| #F21 wet-cardboard-after-a-leak-dubai | cover, body | `COMPLETE` — existing moving-boxes cover and sorting-plan image reused 2026-11-01 (repository post). Neither image shows wet board; a soaked-cardboard photograph would make a clearer future cover. |
+| #M31 bulky-pickup-after-handover-dubai | cover, body | `COMPLETE` — existing handover-inspection cover and empty-room image reused 2026-11-01 (repository post). |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -444,6 +446,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-11-01 | Reused `leaving-dubai-checklist-cover` and `estate-clearance-sorting-plan` for F21, and `landlord-inspection-clearance-cover` and `empty-room-before-handover` for M31. No generation, download or upload. The cardboard cover shows dry stacked boxes, not a leak. |
 | 2026-10-31 | Reused `weekend-junk-removal-cover` and `mattress-route-preparation` for J13, and `before-crew-arrives-cover` and `what-we-take-cover` for F20. No generation, download or upload. Neither image shows a service lift or claims a completed job. |
 | 2026-10-30 | Reused `garden-furniture-disposal-dubai-cover` and `article-garden-furniture-disposal-dubai-body` for G22. No generation, download or upload. A trampoline-specific cover would be clearer in future. |
 | 2026-10-30 | Reused `garden-furniture-disposal-dubai-cover` and `accepted-versus-excluded-guide` for G23. No generation, download or upload. The exclusion diagram supports the gas-cylinder boundary. |

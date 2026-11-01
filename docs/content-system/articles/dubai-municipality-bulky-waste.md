@@ -98,7 +98,7 @@ The Municipality’s current directory states a three-working-day completion tim
 
 Do not schedule a handover, flight or replacement delivery on an assumption that leaves no buffer. Application details, address eligibility, access and correct preparation still need to align.
 
-Submit the request early enough to receive and follow instructions. If a deadline is tighter than the confirmed route can meet, consider an appropriately scoped alternative.
+Submit the request early enough to receive and follow instructions. If a deadline is tighter than the confirmed route can meet, consider an appropriately scoped alternative. When that deadline is a key return and the confirmed window is later, use the [guide to a pickup that falls after handover](/blog/bulky-pickup-after-handover-dubai). This section stays the published service time.
 
 Avoid describing the official time as a guaranteed appointment at a chosen hour. Use the confirmation provided for the actual request.
 

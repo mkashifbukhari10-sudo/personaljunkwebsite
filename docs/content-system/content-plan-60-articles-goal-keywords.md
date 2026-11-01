@@ -180,7 +180,9 @@ Both slots below were still unwritten on 2026-10-31. They were the next cleared 
 
 ### Day 2 — Saturday 2026-10-31
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-01. They were the next cleared slots, so they were published that day. The publishing plan’s remaining named topics stayed blocked.
+
+#### Slot A — `PUBLISHED 2026-11-01` — Strong
 
 - **Primary keyword:** wet cardboard after a leak
 - **Title:** Wet cardboard a recycling pickup may refuse
@@ -191,7 +193,7 @@ Both slots below were still unwritten on 2026-10-31. They were the next cleared 
 - **Why this slot:** Recyclers and junk crews are different. Wet board is the decision point.
 - **SERP note:** ClearEarth and Green Mile present dry packaging recycling. They are not this company. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-01` — Strong
 
 - **Primary keyword:** municipal pickup date after key handover
 - **Title:** When the bulky pickup is after handover

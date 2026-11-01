@@ -119,7 +119,7 @@ You can ask for a collection that is mainly packaging. Describe it as cardboard 
 
 ### Is wet cardboard still recyclable?
 
-The Municipality guide excludes cardboard contaminated with food, and cardboard coated with plastic, from the recyclables stream. For cardboard that is simply wet, ask what your building's route accepts. Soaked cardboard is also hard to handle, so keep it separate and mention it in any quote request.
+The Municipality guide excludes cardboard contaminated with food, and cardboard coated with plastic, from the recyclables stream. For cardboard that is simply wet, ask what your building's route accepts. Soaked cardboard is also hard to handle, so keep it separate and mention it in any quote request. If a leak soaked the stack, the [wet-cardboard note](/blog/wet-cardboard-after-a-leak-dubai) is the separation and the booking. This answer stays the recycling test.
 
 ### What if some boxes belong to the mover?
 
