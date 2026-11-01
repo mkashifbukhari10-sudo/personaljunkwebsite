@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 306 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306). The *demand* behind each keyword is not verified.
+**Count: 308 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **306 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31). They are **not** 306 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **308 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01). They are **not** 308 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -533,15 +533,15 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 | C | Furniture | 25 |
 | D | Sofa / couch | 15 |
 | E | Appliances, fridge & e-waste | 30 |
-| F | Garbage & waste | 20 |
+| F | Garbage & waste | 21 |
 | G | Garden / green waste | 26 |
 | H | House / apartment clearance | 24 |
 | I | Villa clearance | 14 |
 | J | Residential / tower access | 13 |
 | K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
-| M | Informational support | 30 |
-| | **Total** | **306** |
+| M | Informational support | 31 |
+| | **Total** | **308** |
 
 ---
 
@@ -732,8 +732,9 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F16 | skip hire alternative dubai | Commercial | HIGH | BLOG | `/blog/skip-hire-vs-junk-removal-dubai` | P2 | **Strong comparison play** — a crew that loads beats a skip you fill yourself. (Skip *hire* itself is excluded.) |
 | F17 | junk removal truck dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | Check intent — if it is truck *rental*, it is excluded. |
 | F18 | office waste collection dubai | Commercial | HIGH | BLOG | `/blog/office-waste-collection-dubai` | P2 | Editorial scope (2026-10-24): define a one-off loose office load and separate it from routine bins, data/records processes, technical material and recurring service. `/services/commercial-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
-| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. 2026-10-31: signpost added to F20 for delivery cartons filling a lived-in flat. |
-| F20 | shipping cartons filling a flat | Problem | MED | BLOG | `/blog/shipping-cartons-filling-a-flat-dubai` | P3 | Editorial scope (2026-10-31): successive deliveries filling a flat the resident still lives in. Sorting, flattening, mover-owned cartons and the recycling test stay with F19. `cardboard removal dubai` stays a variant of F19, not a new URL. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. |
+| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. 2026-10-31: signpost added to F20 for delivery cartons filling a lived-in flat. 2026-11-01: signpost added to F21 for cardboard soaked by a leak. |
+| F20 | shipping cartons filling a flat | Problem | MED | BLOG | `/blog/shipping-cartons-filling-a-flat-dubai` | P3 | Editorial scope (2026-10-31): successive deliveries filling a flat the resident still lives in. Sorting, flattening, mover-owned cartons and the recycling test stay with F19. `cardboard removal dubai` stays a variant of F19, not a new URL. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. 2026-11-01: signpost added to F21 when a leak has soaked the pile. |
+| F21 | wet cardboard after a leak | Problem | MED | BLOG | `/blog/wet-cardboard-after-a-leak-dubai` | P3 | Editorial scope (2026-11-01): cardboard soaked by a leak, kept off a dry recycling stack. The move sort, flattening and the food-soiled or plastic-coated test stay with F19. Dry delivery volume in a lived-in flat stays with F20. `cardboard removal dubai` is not retargeted. `/services/junk-removal` keeps the transaction. A renovation pile may link `/services/waste-removal` without taking that page’s head term. Status `PUBLISHED` 2026-11-01. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-01)*. |
 
 ---
 
@@ -965,6 +966,7 @@ These are the **traffic-and-trust engine**. Each must route to a money page.
 | M28 | rubbish dump dubai | Informational | INFO | BLOG | `/blog/where-to-take-rubbish-dubai` | P2 | Editorial scope (2026-10-27): what residents can actually do with rubbish and bulky items. Status `BLOCKED — SOURCE VERIFICATION REQUIRED`. Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
 | M29 | dubai municipality approved waste transporters | Informational | MED | BLOG | `/blog/waste-transporter-permit-dubai` | P2 | Editorial scope (2026-10-27): what licensed or approved means and what a customer can check; must not imply this business holds a permit. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` and `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Phrases observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
 | M30 | water damaged furniture removal dubai | Problem | MED | BLOG | `/blog/water-damaged-furniture-removal-dubai` | P3 | Editorial scope (2026-10-27): wet furniture and appliances after rain or a leak; contamination excluded. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` and `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Qualitative with an official-service pointer. Admitted 2026-10-27; see *Expansion admissions*. |
+| M31 | municipal pickup date after key handover | Problem | MED | BLOG | `/blog/bulky-pickup-after-handover-dubai` | P3 | Editorial scope (2026-11-01): the municipal window finishes after the keys are due. Eligibility, the application and the general free-versus-paid choice stay with M1 and M21. The tenancy order of work stays with the end-of-tenancy guide. `bulky waste collection` is not retargeted. `/services/junk-removal` is the paid booking when the window is late. Status `PUBLISHED` 2026-11-01. Directory summary re-read 2026-11-01. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-01)*. |
 
 ---
 
@@ -1008,7 +1010,7 @@ Six blog clusters. Every article belongs to exactly one, and every cluster point
 
 ## Keyword-to-Page Map
 
-Summary of the 306-keyword database by destination (approximate counts below predate the 2026-10-27 admissions and the later E30, A34, J13 and F20 rows).
+Summary of the 308-keyword database by destination (approximate counts below predate the 2026-10-27 admissions and the later E30, A34, J13, F20, F21 and M31 rows).
 
 | Classification | Count (approx.) | Rule |
 |---|---|---|
@@ -1498,6 +1500,21 @@ The publishing plan’s remaining named articles were still blocked or waiting o
 | 6 New URL justified | Landings and turns when no service lift exists are a different job from booking a lift. | Successive deliveries filling a lived-in flat are a different job from unpacking after a move. |
 
 Both money pages are `/services/junk-removal`. The ten generic targets stay on their owner URLs. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page. Secondaries, used only where they fit: J13 `no goods lift stair carry`; F20 `delivery boxes filling a flat`.
+
+### Further admissions (2026-11-01)
+
+The publishing plan’s remaining named articles were still blocked or waiting on owner answers (G24, K21, G25, K20, M27–M30). The next two unwritten slots on the goal-keyword calendar that were not on that block list were admitted under the six tests. No search-volume figure exists for either. The 2026-10-29 plan recorded qualitative SERP notes only: dry-packaging recyclers for wet board, and the Municipality directory’s three-working-day line for a handover that falls sooner. Those notes are not volumes. The directory summary was re-read on 2026-11-01. The 12 July 2022 announcement was re-read the same day. No new eligibility community was added.
+
+| Test | F21 wet cardboard | M31 pickup after handover |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of F19. `cardboard removal dubai` stays on F19. | Not a mapped primary or secondary. Not a variant of M1 `dubai municipality bulky waste collection` or M21. `bulky waste collection` stays on the municipal guide. |
+| 2 Dubai and in scope | Household packaging spoiled by a leak. | Household bulky items that must leave before a key return. |
+| 3 Removal intent | The reader wants soaked board taken once a dry recycling route will not take it. | The reader wants the items gone before access ends. |
+| 4 One destination | `/blog/wet-cardboard-after-a-leak-dubai` | `/blog/bulky-pickup-after-handover-dubai` |
+| 5 Cannibalization | Packing guide keeps the move and the recycling test. Shipping-carton guide keeps dry delivery volume. Water-damaged furniture stays blocked on M30. | Municipal guide keeps the service description. Comparison article keeps the general choice. End-of-tenancy guide keeps the clearance order. |
+| 6 New URL justified | A leak that soaks the board is a different job from sorting a move or clearing dry delivery cartons. | A confirmed municipal window after the keys is a different job from explaining the service or comparing it in general. |
+
+Both money pages are `/services/junk-removal`. The ten generic targets stay on their owner URLs. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page or with the municipal guide. Secondaries, used only where they fit: F21 `soaked cardboard after a leak`; M31 `bulky pickup after key handover`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

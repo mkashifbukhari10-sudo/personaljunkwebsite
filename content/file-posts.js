@@ -477,10 +477,35 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "bulky-pickup-after-handover-dubai",
+    title: "When the bulky pickup is after handover",
+    excerpt: "Put the key-return date next to the municipal confirmation. If the window is later, book the items that must be gone while you can still open the door.",
+    publishedAt: "2026-11-01T05:00:05.000Z",
+    cover: "landlord-inspection-clearance-cover",
+    services: ["junk-removal"],
+    seoTitle: "Bulky pickup after key handover",
+    seoDescription: "Compare the key-return date with the confirmed municipal window before the items have to be gone.",
+    ogTitle: "Keys due before the municipal window",
+    ogDescription: "Use the free bulky service only if you can still open the door for it."
+  },
+  {
+    slug: "wet-cardboard-after-a-leak-dubai",
+    title: "Wet cardboard a recycling pickup may refuse",
+    excerpt: "Keep soaked board off the dry stack and name the drip. Ask what that route will take, then book the wet pile with the other junk once the sheets are waste.",
+    publishedAt: "2026-11-01T05:00:00.000Z",
+    cover: "leaving-dubai-checklist-cover",
+    services: ["junk-removal"],
+    seoTitle: "Wet cardboard after a leak",
+    seoDescription: "Separate soaked board from the dry stack and book the wet pile with the other junk.",
+    ogTitle: "Soaked cardboard is not a dry recycling stack",
+    ogDescription: "Split the wet sheets off the dry board before you ask for a collection."
+  },
+  {
     slug: "shipping-cartons-filling-a-flat-dubai",
     title: "Shipping cartons filling a flat after deliveries",
     excerpt: "Separate boxes that still hold something you are keeping, then book the empty ones with the other junk once they block the rooms you use.",
     publishedAt: "2026-10-31T05:00:05.000Z",
+    updatedAt: "2026-11-01T05:00:00.000Z",
     cover: "before-crew-arrives-cover",
     services: ["junk-removal"],
     seoTitle: "Shipping cartons filling a flat",
@@ -1089,7 +1114,7 @@ export const filePosts = [
     title: "Packing Material After a Move: Sort It Before You Book a Pickup",
     excerpt: "Flattened, dry cartons can follow your building's recycling route; foam, film, wet cardboard and crates need separating, and a full room of boxes is a collection job.",
     publishedAt: "2026-10-12T20:56:12.425Z",
-    updatedAt: "2026-10-31T05:00:00.000Z",
+    updatedAt: "2026-11-01T05:00:00.000Z",
     cover: "leaving-dubai-checklist-cover",
     services: [
       "junk-removal"
@@ -1552,7 +1577,7 @@ export const filePosts = [
     title: "How Dubai Municipality Bulky Waste Collection Works",
     excerpt: "Check current address eligibility, list every item and follow the official staging instructions before using Dubai Municipality’s bulky-waste service.",
     publishedAt: "2026-09-30T08:54:29.970Z",
-    updatedAt: "2026-10-29T16:00:00.000Z",
+    updatedAt: "2026-11-01T05:00:00.000Z",
     cover: "municipality-bulky-waste-cover",
     services: [
       "junk-removal"
@@ -1873,7 +1898,7 @@ export const filePosts = [
     title: "End of Tenancy in Dubai: What Has to Be Gone Before Handover",
     excerpt: "Handover day has a fixed time attached, and \"empty\" usually means more than furniture. Here’s what typically has to go, and how to work backwards from the inspection.",
     publishedAt: "2026-09-20T17:19:32.017Z",
-    updatedAt: "2026-09-21T09:10:45.185Z",
+    updatedAt: "2026-11-01T05:00:00.000Z",
     cover: "empty-room-before-handover",
     services: [
       "house-clearance",

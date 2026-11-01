@@ -80,6 +80,8 @@ Decide who will let the crew in and who will stay available to resolve questions
 
 If access depends on security staff receiving a name, vehicle detail or reference, check that process with management. Confirm it has been completed rather than assuming that a message sent to one person is visible to everyone at the gate or reception desk.
 
+If you hoped to use the municipal bulky service and the confirmed window finishes after the keys go back, that timing is a separate decision. The [guide to a bulky pickup after handover](/blog/bulky-pickup-after-handover-dubai) is that gap. This page stays the order of the clearance itself.
+
 ## Keep clearance, cleaning and repairs separate
 
 Clearance removes the agreed items. It should not be treated as a promise of professional cleaning, repairs, painting or restoration. Ask what the quotation includes, and arrange any other required work with the appropriate provider. This prevents a clean-looking empty room from being mistaken for a completed handover obligation.

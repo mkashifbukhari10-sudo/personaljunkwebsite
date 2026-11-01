@@ -2,7 +2,7 @@
 
 **Written:** 2026-10-27 (replaces the earlier 3-topic plan). **Ceiling:** up to 3 articles a day, 90 maximum (`content-rules.md` §23). **Approved topics: 16** (rows A33, C25, G22–G26, H23, H24, K20, K21, M26–M30 in `keywords.md`). **Not 90.** The evidence-based reason is in `keywords.md` → *Expansion admissions* → *Why the number is 16, not 90*: 359 candidate units were evaluated and 325 failed the admission tests, mostly because the Dubai search vocabulary is already owned by existing pages and articles.
 
-**Status mix (updated 2026-10-31):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date. On 2026-10-31 the next two cleared slots were taken from the goal-keyword calendar instead (J13, F20), because this plan had no unblocked article left to write.
+**Status mix (updated 2026-11-01):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date. On 2026-10-31 the next two cleared slots were taken from the goal-keyword calendar (J13, F20). On 2026-11-01 the next two (F21, M31) were taken the same way, because this plan had no unblocked article left to write.
 
 **No demand figures.** No volume, CPC, difficulty or ranking number exists for any topic. Evidence is autocomplete phrase presence (2026-10-27) or qualitative.
 
@@ -34,12 +34,14 @@
 | A34 | `/blog/bicycle-removal-dubai` | bicycle removal dubai | `/services/junk-removal` | `PUBLISHED` 2026-10-28 | Not an exercise bike. Motor batteries are declared and asked about, not assumed. |
 | J13 | `/blog/walk-up-stairs-no-lift-dubai` | walk-up stairs with no service lift | `/services/junk-removal` | `PUBLISHED` 2026-10-31 | From the goal-keyword calendar, not the original 16. No goods lift to book. Townhouse stairs and service-lift bookings stay on their own URLs. |
 | F20 | `/blog/shipping-cartons-filling-a-flat-dubai` | shipping cartons filling a flat | `/services/junk-removal` | `PUBLISHED` 2026-10-31 | From the goal-keyword calendar, not the original 16. Lived-in delivery cartons only. `cardboard removal dubai` stays on the packing guide. |
+| F21 | `/blog/wet-cardboard-after-a-leak-dubai` | wet cardboard after a leak | `/services/junk-removal` | `PUBLISHED` 2026-11-01 | From the goal-keyword calendar, not the original 16. Leak-soaked board only. The recycling test and `cardboard removal dubai` stay on the packing guide. Water-damaged furniture stays blocked on M30. |
+| M31 | `/blog/bulky-pickup-after-handover-dubai` | municipal pickup date after key handover | `/services/junk-removal` | `PUBLISHED` 2026-11-01 | From the goal-keyword calendar, not the original 16. The date clash only. The service description stays on the municipal guide. `bulky waste collection` is not retargeted. |
 
 ---
 
 ## Calendar
 
-Days with a named article: **8** (10-28, 10-29, 10-31, 11-02, 11-03, 11-04, 11-05, 11-06). Two catch-up days (11-09, 11-10) and six reserved days (11-17 to 11-20, 11-23, 11-24) take Search Console findings or slipped items. Maximum before the Day 60 review: 16 articles, never more than 3 on one day. The whole plan covers 30 calendar days.
+Days with a named article: **10** (10-28, 10-29, 10-30, 10-31, 11-01, 11-02, 11-03, 11-04, 11-05, 11-06). Two catch-up days (11-09, 11-10) and six reserved days (11-17 to 11-20, 11-23, 11-24) take Search Console findings or slipped items. Maximum before the Day 60 review: 16 articles, never more than 3 on one day. The whole plan covers 30 calendar days.
 
 | Day | Date | Articles | Work for the day |
 |---|---|---|---|
@@ -49,7 +51,7 @@ Days with a named article: **8** (10-28, 10-29, 10-31, 11-02, 11-03, 11-04, 11-0
 | 4 | Thu 10-29 | **C25 · H24** | Published. The third daily slot was left empty: G22 remains `READY — BUSINESS INPUT`, and no remaining SUPPORT row passed the new-URL gates. |
 | 5 | Fri 10-30 | **G22 · G23** | Both published after owner confirmation. Verification work remains for M27–M30 and G26; owner answers remain due for G24, K21, G25, K20, M29 and M30. |
 | 6 | Sat 10-31 | **J13 · F20** | Published from the goal-keyword calendar (walk-up stairs with no service lift; shipping cartons filling a flat). G22 and G23 had already moved to 10-30. G24, K21, G25, K20, M29 and M30 stayed unpublished. |
-| 7 | Sun 11-01 | — | — |
+| 7 | Sun 11-01 | **F21 · M31** | Published from the goal-keyword calendar (wet cardboard after a leak; municipal pickup date after key handover). G24, K21, G25, K20, M29 and M30 stayed unpublished. |
 | 8 | Mon 11-02 | G24 · K21 | Each only if confirmed. |
 | 9 | Tue 11-03 | M27 | Only if the source is recorded. |
 | 10 | Wed 11-04 | G26 · M28 | Each only if its official source exists. If DM publishes nothing, drop and record why. |
