@@ -206,7 +206,9 @@ Both slots below were still unwritten on 2026-11-01. They were the next cleared 
 
 ### Day 3 — Sunday 2026-11-01
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-02. They were the next cleared slots, so they were published that day. The publishing plan’s 11-02 topics, G24 and K21, stayed blocked on owner answers.
+
+#### Slot A — `PUBLISHED 2026-11-02` — Strong
 
 - **Primary keyword:** flatmate left furniture behind
 - **Title:** A flatmate left furniture and moved out
@@ -217,7 +219,7 @@ Both slots below were still unwritten on 2026-11-01. They were the next cleared 
 - **Why this slot:** Not a whole-tenancy handover and not an agent clearing an empty home.
 - **SERP note:** Furniture results are service pages, not a shared-flat ownership note. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-02` — Strong
 
 - **Primary keyword:** short-let manager clearing a furnished flat
 - **Title:** A short-let manager clearing one furnished flat
