@@ -98,7 +98,7 @@ export const areaDepth = {
         heading: 'Holiday lets and furniture churn',
         paragraphs: [
           'A lot of JBR stock is furnished and turns over with short lets. Sofas, mattresses and balcony sets are replaced more often than in a family villa community. Those pieces are bulky, often salt-worn, and they still have to leave through a service lift that the hotel-style management treats as a booked amenity.',
-          'If a new sofa is being delivered the same day, read the [old sofa before delivery](/blog/old-sofa-before-new-delivery-dubai) note and book the removal first. Two crews and a new sofa in one lift slot rarely fit. [Sofa removal](/services/sofa-removal) from JBR is a normal job. Lowering anything from a beachfront balcony is not.'
+          'If a new sofa is being delivered the same day, read the [old sofa before delivery](/blog/old-sofa-before-new-delivery-dubai) note and book the removal first. Two crews and a new sofa in one lift slot rarely fit. [Sofa removal](/services/sofa-removal) from JBR is a normal job. Lowering anything from a beachfront balcony is not. A manager clearing one furnished flat, rather than booking a general pickup for the tower, follows the [short-let furnished-flat note](/blog/short-let-furnished-flat-clearance-dubai).'
         ]
       },
       {

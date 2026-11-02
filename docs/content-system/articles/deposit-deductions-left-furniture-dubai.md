@@ -2,6 +2,8 @@ If you leave unwanted furniture behind in a rented property in Dubai, the landlo
 
 Understanding what Dubai tenancy law specifies about security deposits, how landlords and property managers calculate clearance costs, and how to carry out a proper end-of-tenancy clearance protects your money before the final handover walkthrough.
 
+If you still live in the flat and one occupant left their furniture, the deposit at the end of the lease is not the question yet. Use the [shared-home furniture note](/blog/flatmate-left-furniture-dubai). Stay on this page when the tenancy is ending and the deduction is the issue.
+
 ## Dubai tenancy law on property handover and security deposits
 
 Tenancy relationships across the Emirate of Dubai are governed by [Law No. (26) of 2007 Regulating Relationship Between Landlords and Tenants in the Emirate of Dubai](https://dlp.dubai.gov.ae/Legislation%20Reference/2007/Law%20No.%20(26)%20of%202007%20Regarding%20regulation%20between%20the%20lessor%20and%20the%20lessee.pdf), as amended by [Law No. (33) of 2008](https://dlp.dubai.gov.ae/Legislation%20Reference/2009/Law%20No.%20(33)%20of%202008%20Amending%20Law%20No.%20(26)%20of%202007.html).

@@ -477,6 +477,31 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "short-let-furnished-flat-clearance-dubai",
+    title: "A short-let manager clearing one furnished flat",
+    excerpt: "Separate landlord stock from the furniture you are replacing, name the one unit, and book the pieces that have to leave before the date you were given.",
+    publishedAt: "2026-11-02T05:00:05.000Z",
+    cover: "old-sofa-delivery-cover",
+    services: ["furniture-removal"],
+    areas: ["jbr"],
+    seoTitle: "Short-let manager clearing a furnished flat",
+    seoDescription: "Separate landlord stock from the furniture you are replacing in one flat.",
+    ogTitle: "One furnished flat, one removal list",
+    ogDescription: "Keep landlord stock off the list and name the unit."
+  },
+  {
+    slug: "flatmate-left-furniture-dubai",
+    title: "A flatmate left furniture and moved out",
+    excerpt: "Name each piece the person left, keep the rooms you still use out of the load, and book only the items you are allowed to send.",
+    publishedAt: "2026-11-02T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Flatmate left furniture behind",
+    seoDescription: "Name the pieces a flatmate left and book only what you may send.",
+    ogTitle: "Furniture a flatmate left behind",
+    ogDescription: "Confirm who owns each piece before it joins the load."
+  },
+  {
     slug: "bulky-pickup-after-handover-dubai",
     title: "When the bulky pickup is after handover",
     excerpt: "Put the key-return date next to the municipal confirmation. If the window is later, book the items that must be gone while you can still open the door.",
@@ -783,6 +808,7 @@ export const filePosts = [
     title: "Property Clearance: Confirm Authority Before Anything Leaves",
     excerpt: "Confirm who can approve the work, inspect and photograph the contents, hold uncertain items, arrange access and quote the whole property before the crew arrives.",
     publishedAt: "2026-10-22T05:00:10.000Z",
+    updatedAt: "2026-11-02T05:00:00.000Z",
     cover: "empty-room-before-handover",
     services: [
       "house-clearance"
@@ -1459,7 +1485,7 @@ export const filePosts = [
     title: "Can a Landlord Deduct Your Deposit for Furniture You Left Behind?",
     excerpt: "Leaving furniture behind in a rented Dubai home allows landlords to deduct removal costs from your deposit. Learn what Dubai tenancy law says and how to protect your money.",
     publishedAt: "2026-10-03T17:30:25.173Z",
-    updatedAt: "2026-10-07T20:19:28.651Z",
+    updatedAt: "2026-11-02T05:00:00.000Z",
     cover: "deposit-deductions-cover",
     services: [
       "house-clearance"
@@ -1898,7 +1924,7 @@ export const filePosts = [
     title: "End of Tenancy in Dubai: What Has to Be Gone Before Handover",
     excerpt: "Handover day has a fixed time attached, and \"empty\" usually means more than furniture. Here’s what typically has to go, and how to work backwards from the inspection.",
     publishedAt: "2026-09-20T17:19:32.017Z",
-    updatedAt: "2026-11-01T05:00:00.000Z",
+    updatedAt: "2026-11-02T05:00:00.000Z",
     cover: "empty-room-before-handover",
     services: [
       "house-clearance",

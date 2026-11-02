@@ -16,7 +16,7 @@ Do not assume that a useful addition is welcome simply because it is in good con
 
 ### Give one person responsibility for the final list
 
-In a shared home, ask each occupant to identify their belongings before making the booking. Decide who can approve the removal list on collection day. Conflicting instructions are harder to resolve once items are being carried downstairs, particularly when another occupant is at work or already travelling.
+In a shared home, ask each occupant to identify their belongings before making the booking. Decide who can approve the removal list on collection day. Conflicting instructions are harder to resolve once items are being carried downstairs, particularly when another occupant is at work or already travelling. If the lease is continuing and only one occupant has moved out, the list is not a handover inventory. Use the [guide to furniture a flatmate left](/blog/flatmate-left-furniture-dubai). Stay here when the whole tenancy is ending.
 
 Keep passports, keys, documents, medication, electronics and other essentials outside the clearance area. These do not belong in a general sorting pile. A labelled box in a separate room is easier to protect than a request to remember several small exceptions among bags of unwanted items.
 

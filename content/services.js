@@ -136,7 +136,7 @@ export const services = [
         heading: 'Beds, wardrobes and dining sets',
         paragraphs: [
           'These are the pieces we move most. A [bed frame](/blog/bed-frame-disposal-dubai) and mattress, a [wardrobe](/blog/wardrobe-removal-dubai) that was built inside the bedroom, a six-seat dining set, a chest of drawers.',
-          'One piece or the contents of a whole room, priced from your photo before we come. If it is every room, see [house clearance](/services/house-clearance). If the question is whether to repair, pass on or collect a piece, the [old-furniture disposal guide](/blog/dispose-old-furniture-dubai) sets out those choices before you book.'
+          'One piece or the contents of a whole room, priced from your photo before we come. If it is every room, see [house clearance](/services/house-clearance). If the question is whether to repair, pass on or collect a piece, the [old-furniture disposal guide](/blog/dispose-old-furniture-dubai) sets out those choices before you book. Furniture one person left in a home the others still use is not a whole-room booking by default. Read the [note on furniture a flatmate left](/blog/flatmate-left-furniture-dubai) before you send the photos. A manager clearing one furnished flat they operate follows the [short-let clearance note](/blog/short-let-furnished-flat-clearance-dubai).'
         ]
       },
       {

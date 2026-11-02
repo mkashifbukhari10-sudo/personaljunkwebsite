@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 308 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308). The *demand* behind each keyword is not verified.
+**Count: 310 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **308 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01). They are **not** 308 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **310 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02). They are **not** 310 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -535,13 +535,13 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 | E | Appliances, fridge & e-waste | 30 |
 | F | Garbage & waste | 21 |
 | G | Garden / green waste | 26 |
-| H | House / apartment clearance | 24 |
+| H | House / apartment clearance | 26 |
 | I | Villa clearance | 14 |
 | J | Residential / tower access | 13 |
 | K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
 | M | Informational support | 31 |
-| | **Total** | **308** |
+| | **Total** | **310** |
 
 ---
 
@@ -784,15 +784,15 @@ Owner: `/services/house-clearance`.
 | H3 | apartment clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H4 | flat clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P3 | UK phrasing. |
 | H5 | home clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P2 | |
-| H6 | property clearance dubai | Commercial | HIGH | BLOG | `/blog/property-clearance-dubai` | P2 | Editorial scope (2026-10-22): clearance arranged by an owner, agent or representative for a property they do not occupy — written authority, contents record, held items, building access and sign-off. Estate (bereavement) and tenant handover scopes stay with their existing articles; `/services/house-clearance` keeps the transactional term. |
+| H6 | property clearance dubai | Commercial | HIGH | BLOG | `/blog/property-clearance-dubai` | P2 | Editorial scope (2026-10-22): clearance arranged by an owner, agent or representative for a property they do not occupy — written authority, contents record, held items, building access and sign-off. Estate (bereavement) and tenant handover scopes stay with their existing articles; `/services/house-clearance` keeps the transactional term. 2026-11-02: signposts to H25 (a flatmate’s furniture while someone still lives there) and H26 (one furnished flat an operator is clearing). |
 | H7 | house cleanout dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P2 | US phrasing. |
-| H8 | end of tenancy clearance dubai | Commercial | HIGH | BLOG | `/blog/end-of-tenancy-clearance-dubai` | P1 | **Pillar.** Hard deadline + deposit at stake. |
+| H8 | end of tenancy clearance dubai | Commercial | HIGH | BLOG | `/blog/end-of-tenancy-clearance-dubai` | P1 | **Pillar.** Hard deadline + deposit at stake. 2026-11-02: signpost to H25 when one occupant left and the lease continues. |
 | H9 | move out clearance dubai | Commercial | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P1 | Secondary keyword on article **#6**. Opportunity #23 is consolidated into #6 — **no separate URL.** |
 | H10 | move out junk removal dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H11 | moving out rubbish removal dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P2 | |
 | H12 | handover clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H13 | landlord inspection clearance dubai | Commercial | HIGH | BLOG | `/blog/landlord-inspection-clearance-dubai` | P2 | Handover walkthrough and Law No. 26 of 2007 Art. 21 wear and tear standards. |
-| H14 | will landlord deduct deposit for furniture left dubai | Problem | HIGH | BLOG | `/blog/deposit-deductions-left-furniture-dubai` | P2 | **High-anxiety long-tail with a clear commercial answer.** |
+| H14 | will landlord deduct deposit for furniture left dubai | Problem | HIGH | BLOG | `/blog/deposit-deductions-left-furniture-dubai` | P2 | **High-anxiety long-tail with a clear commercial answer.** 2026-11-02: signpost to H25 when one occupant left and the tenancy is still running. |
 | H15 | storage room clearance dubai | Commercial | MED | BLOG | `/blog/storage-room-clearance-dubai` | P2 | Editorial scope: inventory and empty a packed apartment store while protecting items to keep and arranging tower access. `/services/house-clearance` keeps the service head term. Commissioned 2026-10-09. |
 | H16 | estate clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Skews to larger properties. |
 | H17 | deceased estate clearance dubai | Commercial | HIGH | BLOG | `/blog/estate-clearance-dubai` | P3 | **Handle with sensitivity.** Real need; tone matters more than keywords. |
@@ -803,6 +803,8 @@ Owner: `/services/house-clearance`.
 | H22 | children's room clearance dubai | Commercial | LOW-MED | BLOG | `/blog/childrens-room-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Scope: keepsakes first, reuse checks for children's furniture, toys and electronics separated. |
 | H23 | downsizing in dubai | Planning | MED | BLOG | `/blog/downsizing-clearance-dubai` | P3 | Editorial scope (2026-10-27): keep, donate or dispose sequence when moving to a smaller home. Status `READY`. Phrase observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
 | H24 | clear apartment before selling dubai | Planning | MED | BLOG | `/blog/clear-apartment-before-selling-dubai` | P3 | Editorial scope (2026-10-27): owner clearing a vacant unit before viewings; no real-estate or legal advice. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| H25 | flatmate left furniture behind | Problem | MED | BLOG | `/blog/flatmate-left-furniture-dubai` | P3 | Editorial scope (2026-11-02): furniture one occupant left while others still live there. Whole-tenancy handover stays with H8. Third-party vacant clearance stays with H6. Deposit deductions stay with H14. Whole-apartment furniture stays with C22. `furniture removal dubai` is not retargeted. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-02. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-02)*. |
+| H26 | short-let manager clearing a furnished flat | Problem | MED | BLOG | `/blog/short-let-furnished-flat-clearance-dubai` | P3 | Editorial scope (2026-11-02): one furnished flat an operator is clearing. Landlord inventory, operator furniture and guest leftovers stay split. JBR keeps the community page. Vacant third-party clearance stays with H6. A sofa that will not fit stays with the doorway guide. `furniture removal dubai` is not retargeted. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-02. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-02)*. |
 
 ---
 
@@ -1010,7 +1012,7 @@ Six blog clusters. Every article belongs to exactly one, and every cluster point
 
 ## Keyword-to-Page Map
 
-Summary of the 308-keyword database by destination (approximate counts below predate the 2026-10-27 admissions and the later E30, A34, J13, F20, F21 and M31 rows).
+Summary of the 310-keyword database by destination (approximate counts below predate the 2026-10-27 admissions and the later E30, A34, J13, F20, F21, M31, H25 and H26 rows).
 
 | Classification | Count (approx.) | Rule |
 |---|---|---|
@@ -1515,6 +1517,21 @@ The publishing plan’s remaining named articles were still blocked or waiting o
 | 6 New URL justified | A leak that soaks the board is a different job from sorting a move or clearing dry delivery cartons. | A confirmed municipal window after the keys is a different job from explaining the service or comparing it in general. |
 
 Both money pages are `/services/junk-removal`. The ten generic targets stay on their owner URLs. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page or with the municipal guide. Secondaries, used only where they fit: F21 `soaked cardboard after a leak`; M31 `bulky pickup after key handover`.
+
+### Further admissions (2026-11-02)
+
+The publishing plan’s 11-02 topics were still waiting on owner answers (G24, K21), and G25, K20, M27–M30 stayed blocked. The next two unwritten slots on the goal-keyword calendar that were not on that block list were Day 3, still unwritten, and they were admitted under the six tests. No search-volume figure exists for either. The 2026-10-29 plan recorded qualitative SERP notes only: furniture results are service pages for the flatmate query, and this site’s own JBR copy already describes short-let sofa and balcony-set replacement. Those notes are not volumes. No new building name was added.
+
+| Test | H25 flatmate furniture | H26 one furnished flat |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of H8, H6, H14 or C22. | Not a mapped primary or secondary. Not a variant of H6 or of junk removal in JBR. |
+| 2 Dubai and in scope | Household furniture left in a shared home the others still occupy. | One furnished flat an operator is clearing in Dubai. |
+| 3 Removal intent | The reader wants the agreed pieces taken, not a legal ruling on the deposit. | The reader wants the operator’s furniture taken from that one unit. |
+| 4 One destination | `/blog/flatmate-left-furniture-dubai` | `/blog/short-let-furnished-flat-clearance-dubai` |
+| 5 Cannibalization | End-of-tenancy guide keeps the whole handover. Property-clearance guide keeps a vacant home the booker does not occupy. Deposit guide keeps the deduction question. Apartment-furniture guide keeps a whole flat the resident owns. `furniture removal dubai` stays on `/services/furniture-removal`. | Property-clearance guide keeps vacant third-party clearance. JBR keeps the community page, including the hotel-style lift already described there. The sofa doorway guide keeps the fit problem. `furniture removal dubai` stays on `/services/furniture-removal`. |
+| 6 New URL justified | One occupant leaving while the lease continues is a different job from emptying the tenancy or clearing a vacant flat for an agent. | One operator-run furnished flat is a different job from a community junk page or from an agent clearing a home they do not occupy. |
+
+Both money pages are `/services/furniture-removal`. The ten generic targets stay on their owner URLs. JBR is the only area link, and only on H26, because that page already describes short-let turnover. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page or with JBR. Secondaries, used only where they fit: H25 `furniture a flatmate left`; H26 `one furnished short-let clearance`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 
