@@ -107,6 +107,8 @@ State anything you are unsure about, such as whether a stone top is bonded to it
 
 Once the set has gone, check under where the table stood for felt pads, loose bolts or a forgotten leaf, and look inside the sideboard space for anything left behind.
 
+A tall glazed cabinet is not prepared like a loose tabletop. Use the [glass display-cabinet guide](/blog/glass-display-cabinet-removal-dubai) to empty it, remove loose shelves and count the fixed panels before the frame moves.
+
 ## Questions about dining table removal
 
 ### Do I need to take the table apart before collection?

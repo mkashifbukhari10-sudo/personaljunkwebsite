@@ -147,6 +147,8 @@ Only use a staging zone that has been sized and approved. Moving the whole scope
 
 Racking should be emptied and formally released before dismantling. Its ownership, condition and safe method must be established by the responsible site team. Do not treat a loaded or damaged storage structure as ordinary loose furniture.
 
+A small freestanding rack in a garage or back room is a narrower case. The [bolt-together shelving guide](/blog/bolt-together-shelving-removal-dubai) covers that item; it does not replace the controls for pallet racking in an active warehouse.
+
 ### What if an unknown container is discovered?
 
 Stop handling it, isolate the immediate area according to the warehouse process and notify the site lead. Use labels and business records to identify the contents and obtain the correct specialist advice. Never open, mix or conceal an unknown substance in the general load.

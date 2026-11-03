@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "bolt-together-shelving-removal-dubai",
+    title: "Bolt-together metal shelving before it tips",
+    excerpt: "Empty the rack from the top, identify anchors and braces, measure the complete frame, and agree whether it travels whole or as labelled parts.",
+    publishedAt: "2026-11-03T05:00:05.000Z",
+    cover: "garage-clearance-dubai-cover",
+    services: ["junk-removal"],
+    seoTitle: "Bolt-together metal shelving removal Dubai",
+    seoDescription: "Empty a bolt-together rack safely, identify anchors and braces, and plan whole-frame collection or controlled dismantling.",
+    ogTitle: "Empty the metal rack before touching its bolts",
+    ogDescription: "Show the frame, fixings and route before dismantling begins."
+  },
+  {
+    slug: "glass-display-cabinet-removal-dubai",
+    title: "Glass display cabinet: shelves out first",
+    excerpt: "Empty the cabinet, count every glass panel, remove loose shelves, secure the doors, and measure the rigid frame against the complete route.",
+    publishedAt: "2026-11-03T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Glass display cabinet removal Dubai",
+    seoDescription: "Prepare a glass display cabinet for removal by emptying it, removing loose shelves and measuring its rigid frame and route.",
+    ogTitle: "Glass shelves out before the cabinet moves",
+    ogDescription: "Count loose and fixed glass, show damage and measure the route."
+  },
+  {
     slug: "short-let-furnished-flat-clearance-dubai",
     title: "A short-let manager clearing one furnished flat",
     excerpt: "Separate landlord stock from the furniture you are replacing, name the one unit, and book the pieces that have to leave before the date you were given.",

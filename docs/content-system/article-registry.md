@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-11-02:** **106 published repository articles, all with at least 2,000 body words.** H25 and H26 are dated 2026-11-02. They are the next two cleared slots on the goal-keyword calendar. G24, K21, G25, K20, M29 and M30 stayed unpublished because they still need owner answers or sources. Existing inspected imagery is reused for the new cover and body slots. F21 and M31 remain dated 2026-11-01.
+**Current state as at 2026-11-03:** **108 published repository articles, all with at least 2,000 body words.** C26 and A35 are dated 2026-11-03. They are the next two cleared slots on the goal-keyword calendar. M27 and the other source- or owner-blocked topics stayed unpublished. Existing inspected imagery is reused for both covers.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**106 published records as of 2026-11-02.** H25 and H26 are the repository posts dated 2026-11-02. G24, K21, G25, K20, M29 and M30 remain unpublished.
+**108 published records as of 2026-11-03.** C26 and A35 are the repository posts dated 2026-11-03. G24, K21, G25, K20, M27–M30 remain unpublished.
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -222,6 +222,8 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | M31 | `bulky-pickup-after-handover-dubai` | When the bulky pickup is after handover | municipal pickup date after key handover | SC3 | F | `junk-removal` | — | `PUBLISHED` | 2026-11-01 | 2026-11-01 | sourced | `/blog/dubai-municipality-bulky-waste` · `/blog/end-of-tenancy-clearance-dubai` | 2561 body words. Repository post. Owns a municipal window that finishes after the keys. The service description stays with #4. The general comparison stays with #5. The clearance order stays with #6. `bulky waste collection` is not retargeted. Directory summary re-read 2026-11-01. |
 | H25 | `flatmate-left-furniture-dubai` | A flatmate left furniture and moved out | flatmate left furniture behind | SC3 | F | `furniture-removal` | — | `PUBLISHED` | 2026-11-02 | 2026-11-02 | none | `/services/furniture-removal` · `/blog/property-clearance-dubai` · `/blog/end-of-tenancy-clearance-dubai` · `/blog/deposit-deductions-left-furniture-dubai` | 3274 body words. Repository post. Owns furniture one occupant left while others still live there. Whole-tenancy handover stays with #6. Third-party vacant clearance stays with N-38. Deposit deductions stay with #24. Whole-apartment furniture stays with N-43. `furniture removal dubai` is not retargeted. |
 | H26 | `short-let-furnished-flat-clearance-dubai` | A short-let manager clearing one furnished flat | short-let manager clearing a furnished flat | SC3 | F | `furniture-removal` | `jbr` | `PUBLISHED` | 2026-11-02 | 2026-11-02 | none | `/services/furniture-removal` · `/blog/property-clearance-dubai` · `/areas/jbr` | 2607 body words. Repository post. Owns one furnished flat an operator is clearing. Landlord inventory, operator furniture and guest leftovers stay split. JBR keeps the community page. Vacant third-party clearance stays with N-38. A sofa that will not fit stays with #7. `furniture removal dubai` is not retargeted. |
+| C26 | `glass-display-cabinet-removal-dubai` | Glass display cabinet: shelves out first | glass display cabinet removal | SC1 | A | `furniture-removal` | — | `PUBLISHED` | 2026-11-03 | 2026-11-03 | none | `/services/furniture-removal` · `/blog/dining-table-removal-dubai` · `/blog/furniture-dismantling-dubai` | 2653 body words. Repository post. Owns the contents, loose glass shelves, fixed glazing, doors and rigid frame of a freestanding cabinet. Dining-table glass stays with N-19. General dismantling stays with N-24. Fixed joinery remains outside scope. |
+| A35 | `bolt-together-shelving-removal-dubai` | Bolt-together metal shelving before it tips | bolt-together metal shelving removal | SC1 | A | `junk-removal` | — | `PUBLISHED` | 2026-11-03 | 2026-11-03 | none | `/services/junk-removal` · `/blog/garage-clearance-dubai` · `/blog/furniture-dismantling-dubai` · `/blog/warehouse-clearance-dubai` | 2632 body words. Repository post. Owns emptying, anchors, braces and the whole-versus-labelled-parts decision for a modest rack. Garage sorting, general dismantling and pallet racking stay on their existing URLs. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -467,6 +469,8 @@ These are owned by service, area and static pages. **An article may never claim 
 | municipal pickup date after key handover | `/blog/bulky-pickup-after-handover-dubai` | M31 | 2026-11-01 |
 | flatmate left furniture behind | `/blog/flatmate-left-furniture-dubai` | H25 | 2026-11-02 |
 | short-let manager clearing a furnished flat | `/blog/short-let-furnished-flat-clearance-dubai` | H26 | 2026-11-02 |
+| glass display cabinet removal | `/blog/glass-display-cabinet-removal-dubai` | C26 | 2026-11-03 |
+| bolt-together metal shelving removal | `/blog/bolt-together-shelving-removal-dubai` | A35 | 2026-11-03 |
 
 ### 5.3 · Reserved by the queue
 
@@ -599,6 +603,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #M31 `bulky-pickup-after-handover-dubai` | `/blog/dubai-municipality-bulky-waste` · `/blog/end-of-tenancy-clearance-dubai` | article | “guide to a pickup that falls after handover” | ☑ applied |
 | #H25 `flatmate-left-furniture-dubai` | `/services/furniture-removal` · `/blog/property-clearance-dubai` · `/blog/end-of-tenancy-clearance-dubai` · `/blog/deposit-deductions-left-furniture-dubai` | service · article | “note on furniture a flatmate left” | ☑ applied |
 | #H26 `short-let-furnished-flat-clearance-dubai` | `/services/furniture-removal` · `/blog/property-clearance-dubai` · `/areas/jbr` | service · article · area | “short-let clearance note” | ☑ applied |
+| #C26 `glass-display-cabinet-removal-dubai` | `/services/furniture-removal` · `/blog/dining-table-removal-dubai` · `/blog/furniture-dismantling-dubai` | service · article | “glass display-cabinet note” | ☑ applied |
+| #A35 `bolt-together-shelving-removal-dubai` | `/services/junk-removal` · `/blog/garage-clearance-dubai` · `/blog/furniture-dismantling-dubai` · `/blog/warehouse-clearance-dubai` | service · article | “metal-shelving note” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -838,6 +844,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-11-03 | Published C26 and A35 as repository posts dated 2026-11-03. Admitted `glass display cabinet removal` and `bolt-together metal shelving removal`. Reused existing inspected furniture and garage images. Added inbound links from both money pages and the dining-table, dismantling, garage and warehouse guides. Left all source- and owner-blocked topics unpublished. | The next two cleared slots on the goal-keyword calendar (Day 4); M27 remained source-blocked. |
 | 2026-11-02 | Published H25 and H26 as repository posts dated 2026-11-02. Admitted `flatmate left furniture behind` and `short-let manager clearing a furnished flat`. Reused existing inspected images. Inbound links from the furniture-removal page, the property-clearance guide, the end-of-tenancy guide, the deposit guide, and the JBR area page. Left G24, K21, G25, K20, M29 and M30 unpublished. | The next two cleared slots on the goal-keyword calendar (Day 3). The publishing plan’s 11-02 topics still need owner answers. |
 | 2026-11-01 | Published F21 and M31 as repository posts dated 2026-11-01. Admitted `wet cardboard after a leak` and `municipal pickup date after key handover`. Reused existing inspected images. Inbound links from the junk-removal page and the packing guide, and from the bulky-waste guide and the end-of-tenancy guide. Left G24, K21, G25, K20, M29 and M30 unpublished. | The next two cleared slots on the goal-keyword calendar. The publishing plan’s remaining named topics still need owner answers or sources. |
 | 2026-10-31 | Published J13 and F20 as repository posts dated 2026-10-31. Admitted `walk-up stairs with no service lift` and `shipping cartons filling a flat`. Reused existing inspected images. Inbound links from the service-lift guide and the Al Barsha page, and from the junk-removal page and the packing guide. Left G24, K21, G25, K20, M29 and M30 unpublished. | The next two cleared slots on the goal-keyword calendar. The publishing plan’s remaining named topics still need owner answers or sources. |

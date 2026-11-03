@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 310 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310). The *demand* behind each keyword is not verified.
+**Count: 312 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **310 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02). They are **not** 310 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **312 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03). They are **not** 312 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -585,6 +585,7 @@ Owner: `/` for the head term and for `junk removal service` and `junk collection
 | A32 | what junk removal companies take dubai | Informational | MED | BLOG | `/blog/what-we-take-dubai` | P2 | Pre-qualifies leads; reduces wasted enquiries. |
 | A33 | treadmill removal dubai | Commercial | MED | BLOG | `/blog/treadmill-removal-dubai` | P3 | Editorial scope (2026-10-27): machine-specific preparation for treadmills and home-gym kit; crew actions limited to repository copy. `/services/junk-removal` keeps the transaction; `/areas/sports-city` keeps the area. Status `READY`. Qualitative, no autosuggest signal. Admitted 2026-10-27; see *Expansion admissions*. |
 | A34 | bicycle removal dubai | Commercial | MED | BLOG | `/blog/bicycle-removal-dubai` | P3 | Editorial scope (2026-10-29): each bicycle’s lock, handlebar width, declared motor or battery, and the store-to-vehicle route. Exercise bikes and other gym machines stay with A33. A mixed garage stays with I10. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-28. Qualitative. Admitted because no unpublished READY row remained; see *Further admissions (2026-10-29)*. |
+| A35 | bolt-together metal shelving removal | Problem | MED | BLOG | `/blog/bolt-together-shelving-removal-dubai` | P3 | Editorial scope (2026-11-03): empty a modest freestanding rack, identify anchors and braces, measure the complete frame, then decide whole-frame collection versus controlled labelled parts. Garage sorting stays with I10. General dismantling stays with C10. Pallet racking and warehouse operations stay with K18. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-11-03. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-03)*. |
 
 ---
 
@@ -642,6 +643,7 @@ Owner: `/services/furniture-removal`.
 | C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
 | C25 | media wall unit removal dubai | Commercial | MED | BLOG | `/blog/media-wall-unit-removal-dubai` | P3 | Editorial scope (2026-10-27): loose console versus built-in wall unit, fixings and ownership. No claim to remove fixed joinery. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| C26 | glass display cabinet removal | Problem | MED | BLOG | `/blog/glass-display-cabinet-removal-dubai` | P3 | Editorial scope (2026-11-03): ownership, contents, loose glass shelves, fixed glazing, doors, damage and the rigid frame against the route. Dining-table glass stays with C20. General dismantling stays with C10. Fixed shop joinery stays outside the article. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-03. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-03)*. |
 
 ---
 
@@ -1532,6 +1534,21 @@ The publishing plan’s 11-02 topics were still waiting on owner answers (G24, K
 | 6 New URL justified | One occupant leaving while the lease continues is a different job from emptying the tenancy or clearing a vacant flat for an agent. | One operator-run furnished flat is a different job from a community junk page or from an agent clearing a home they do not occupy. |
 
 Both money pages are `/services/furniture-removal`. The ten generic targets stay on their owner URLs. JBR is the only area link, and only on H26, because that page already describes short-let turnover. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page or with JBR. Secondaries, used only where they fit: H25 `furniture a flatmate left`; H26 `one furnished short-let clearance`.
+
+### Further admissions (2026-11-03)
+
+The publishing plan's source-blocked M27 slot remained unpublished. The next two unwritten, unblocked slots on the goal-keyword calendar were Day 4: a freestanding glazed cabinet and modest bolt-together shelving. No search-volume figure exists for either; both are qualitative editorial tests.
+
+| Test | C26 glass display cabinet | A35 bolt-together shelving |
+|---|---|---|
+| 1 Genuinely new | Not a variant of dining-table glass, media walls or generic furniture dismantling. | Not a variant of garage clearance, generic dismantling or warehouse pallet racking. |
+| 2 Dubai and in scope | A freestanding household or released commercial furniture item with a Dubai collection route. | A modest freestanding rack in a garage, store room or back room. |
+| 3 Removal intent | The reader needs the fragile cabinet emptied, prepared and collected. | The reader needs an empty rack assessed whole or in controlled parts. |
+| 4 One destination | `/blog/glass-display-cabinet-removal-dubai` | `/blog/bolt-together-shelving-removal-dubai` |
+| 5 Cannibalization | C20 keeps table tops. C10 keeps general dismantling. C25 keeps media walls. Fixed joinery remains outside scope. | I10 keeps the mixed garage. C10 keeps general dismantling. K18 keeps warehouse operations and pallet racking. |
+| 6 New URL justified | Loose shelves, fixed glazing, doors and a tall rigid frame create a preparation job no existing item guide owns. | Unloading order, anchors and bracing create a stability problem no existing clearance guide owns. |
+
+C26 supports `/services/furniture-removal`; A35 supports `/services/junk-removal`. The service pages keep the transactions. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; review both at Day 60 and consolidate if either competes with its money page.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

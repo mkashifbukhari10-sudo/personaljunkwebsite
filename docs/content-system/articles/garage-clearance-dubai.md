@@ -70,6 +70,8 @@ Can a garage be cleared without clearing the villa? Yes, when the scope is expli
 
 What happens to installed shelving? Do not remove a rack fixed to the building without checking whether it belongs to the property and whether removal is permitted. Freestanding shelving can be assessed for whole-piece collection or dismantling. Empty it first and show the frame dimensions to the collector. Protect exposed screws or sharp edges once it is taken apart.
 
+For a freestanding frame assembled with bolts, follow the [bolt-together shelving guide](/blog/bolt-together-shelving-removal-dubai). It separates the contents, anchors and braces before deciding whether the rack travels whole or in labelled parts.
+
 Can old paint go with the furniture? Do not assume so. Separate every container, photograph its label and ask for the accepted route. Paint and solvents are different from chairs and cardboard. An empty-looking can may still have liquid residue, and a container without a label cannot be treated as ordinary household waste by guesswork.
 
 Can everything go in one truck? The answer depends on volume, density and what is accepted. A pile of folded cartons may take little space; a heavy stack of tiles changes the load even though it occupies one corner. Give dimensions and counts, then let the collector assess the vehicle and number of visits. Avoid promising a one-load outcome to a landlord or buyer before receiving that assessment.
