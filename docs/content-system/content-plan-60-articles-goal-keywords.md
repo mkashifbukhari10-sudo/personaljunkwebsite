@@ -232,7 +232,9 @@ Both slots below were still unwritten on 2026-11-02. They were the next cleared 
 
 ### Day 4 — Monday 2026-11-02
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-03. They were the next cleared slots, so they were published that day. The publishing plan’s 11-03 topic, M27, stayed blocked on its source.
+
+#### Slot A — `PUBLISHED 2026-11-03` — Strong
 
 - **Primary keyword:** glass display cabinet removal
 - **Title:** Glass display cabinet: shelves out first
@@ -243,7 +245,7 @@ Both slots below were still unwritten on 2026-11-02. They were the next cleared 
 - **Why this slot:** A glazed cabinet is not the glass dining table guide and not a media wall.
 - **SERP note:** Competitor furniture pages list cabinets in a menu, not this preparation. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-03` — Strong
 
 - **Primary keyword:** bolt-together metal shelving removal
 - **Title:** Bolt-together metal shelving before it tips
@@ -256,7 +258,9 @@ Both slots below were still unwritten on 2026-11-02. They were the next cleared 
 
 ### Day 5 — Tuesday 2026-11-03
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-04. They were the next cleared slots, so they were published that day. The publishing plan’s 11-04 topics, G26 and M28, stayed blocked on official sources.
+
+#### Slot A — `PUBLISHED 2026-11-04` — Strong
 
 - **Primary keyword:** plumbed water dispenser removal
 - **Title:** Plumbed water dispenser: do not cut the pipe
@@ -267,7 +271,7 @@ Both slots below were still unwritten on 2026-11-02. They were the next cleared 
 - **Why this slot:** A bottle cooler is not a fridge. The pipe is the hazard.
 - **SERP note:** Appliance menus on junk homepages do not separate a plumbed cooler. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-04` — Strong
 
 - **Primary keyword:** product boxes versus moving boxes
 - **Title:** Product boxes, not boxes from a house move

@@ -18,7 +18,7 @@ State whether it is a refrigerator, fridge-freezer, side-by-side unit, chest fre
 
 Measure width, depth and height, including handles and hinges. Check whether doors or drawers can be removed under the manufacturer’s instructions if clearance is tight.
 
-Record the floor level, stairs, lift and carry distance. Mention water dispensers, ice makers, visible leaks, damaged doors, broken glass shelves or unstable feet.
+Record the floor level, stairs, lift and carry distance. Mention water dispensers, ice makers, visible leaks, damaged doors, broken glass shelves or unstable feet. A spout in the refrigerator door is part of this appliance. A separate cabinet that chills bottles on its own pipe is the [plumbed-dispenser note](/blog/plumbed-water-dispenser-removal-dubai).
 
 Do not move the appliance simply to improve the photos if its condition or connection is uncertain. Share what can be seen and request guidance.
 

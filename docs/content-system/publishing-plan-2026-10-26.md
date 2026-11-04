@@ -2,7 +2,7 @@
 
 **Written:** 2026-10-27 (replaces the earlier 3-topic plan). **Ceiling:** up to 3 articles a day, 90 maximum (`content-rules.md` §23). **Approved topics: 16** (rows A33, C25, G22–G26, H23, H24, K20, K21, M26–M30 in `keywords.md`). **Not 90.** The evidence-based reason is in `keywords.md` → *Expansion admissions* → *Why the number is 16, not 90*: 359 candidate units were evaluated and 325 failed the admission tests, mostly because the Dubai search vocabulary is already owned by existing pages and articles.
 
-**Status mix (updated 2026-11-03):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date. On 2026-10-31 the next two cleared slots were taken from the goal-keyword calendar (J13, F20). On 2026-11-01 the next two (F21, M31) were taken the same way. On 2026-11-02 the next two were H25 and H26. On 2026-11-03 the next two were C26 and A35 because M27 remained source-blocked.
+**Status mix (updated 2026-11-04):** the 5 originally `READY` articles are published (A33, M26, H23, C25, H24). G22 and G23 were cleared by owner confirmation and published on 2026-10-30. 2 remain `READY — BUSINESS INPUT REQUIRED` · 7 blocked. Nothing is written around a block. E30 and A34 were admitted after that queue and published with a 2026-10-28 date. On 2026-10-31 the next two cleared slots were taken from the goal-keyword calendar (J13, F20). On 2026-11-01 the next two (F21, M31) were taken the same way. On 2026-11-02 the next two were H25 and H26. On 2026-11-03 the next two were C26 and A35 because M27 remained source-blocked. On 2026-11-04 the next two were E31 and F22 because G26 and M28 remained source-blocked.
 
 **No demand figures.** No volume, CPC, difficulty or ranking number exists for any topic. Evidence is autocomplete phrase presence (2026-10-27) or qualitative.
 
@@ -40,6 +40,8 @@
 | H26 | `/blog/short-let-furnished-flat-clearance-dubai` | short-let manager clearing a furnished flat | `/services/furniture-removal` | `PUBLISHED` 2026-11-02 | From the goal-keyword calendar, not the original 16. One furnished flat an operator is clearing. JBR keeps the community page. No new building names. `furniture removal dubai` is not retargeted. |
 | C26 | `/blog/glass-display-cabinet-removal-dubai` | glass display cabinet removal | `/services/furniture-removal` | `PUBLISHED` 2026-11-03 | From the goal-keyword calendar. Loose shelves, fixed glazing and the rigid frame only. Dining-table glass, general dismantling and fixed joinery stay on their own scopes. |
 | A35 | `/blog/bolt-together-shelving-removal-dubai` | bolt-together metal shelving removal | `/services/junk-removal` | `PUBLISHED` 2026-11-03 | From the goal-keyword calendar. A modest freestanding rack only. Garage sorting, general dismantling and pallet racking stay on their own scopes. |
+| E31 | `/blog/plumbed-water-dispenser-removal-dubai` | plumbed water dispenser removal | `/services/junk-removal` | `PUBLISHED` 2026-11-04 | From the goal-keyword calendar. The supply pipe, the reservoir and the free cabinet only. A fridge door dispenser, a hot-water tank and a multi-appliance register stay on their own URLs. The pipe is not cut. |
+| F22 | `/blog/product-boxes-not-moving-boxes-dubai` | product boxes versus moving boxes | `/services/junk-removal` | `PUBLISHED` 2026-11-04 | From the goal-keyword calendar. Empty stock cartons only. A house move, home deliveries, a whole shop and a whole warehouse stay on their own URLs. `cardboard removal dubai` is not retargeted. Al Quoz is the only area link. |
 
 ---
 
@@ -58,7 +60,7 @@ Days with a named article: **10** (10-28, 10-29, 10-30, 10-31, 11-01, 11-02, 11-
 | 7 | Sun 11-01 | **F21 · M31** | Published from the goal-keyword calendar (wet cardboard after a leak; municipal pickup date after key handover). G24, K21, G25, K20, M29 and M30 stayed unpublished. |
 | 8 | Mon 11-02 | **H25 · H26** | Published from the goal-keyword calendar (flatmate left furniture; a short-let manager clearing one furnished flat). G24 and K21 stayed unpublished because they still need owner answers. |
 | 9 | Tue 11-03 | **C26 · A35** | Published from the goal-keyword calendar (glass display cabinet; bolt-together metal shelving). M27 stayed unpublished because its source condition was not cleared. |
-| 10 | Wed 11-04 | G26 · M28 | Each only if its official source exists. If DM publishes nothing, drop and record why. |
+| 10 | Wed 11-04 | **E31 · F22** | Published from the goal-keyword calendar (plumbed water dispenser; product boxes, not a house move). G26 and M28 stayed unpublished because their official sources were not added. |
 | 11 | Thu 11-05 | M29 · M30 | Each only if source and owner statement both exist. M29 never implies a permit the business has not evidenced. |
 | 12 | Fri 11-06 | G25 · K20 | Each only if capability (and for K20, source) is cleared. |
 | 13 | Sat 11-07 | — | — |
