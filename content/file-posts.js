@@ -477,6 +477,31 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "product-boxes-not-moving-boxes-dubai",
+    title: "Product boxes, not boxes from a house move",
+    excerpt: "Empty the cartons that held stock, keep goods still for sale out of the pile, and book only the packaging you are allowed to send.",
+    publishedAt: "2026-11-04T05:00:05.000Z",
+    cover: "warehouse-clearance-cover",
+    services: ["junk-removal"],
+    areas: ["al-quoz"],
+    seoTitle: "Product boxes versus moving boxes",
+    seoDescription: "Separate empty stock cartons from a house move and book only the packaging you may send.",
+    ogTitle: "Stock cartons are not a house move",
+    ogDescription: "Name the empty packaging and leave the goods in place."
+  },
+  {
+    slug: "plumbed-water-dispenser-removal-dubai",
+    title: "Plumbed water dispenser: do not cut the pipe",
+    excerpt: "Shut the drinking-water supply, empty the reservoir, and book the cabinet only after it stands clear of the wall.",
+    publishedAt: "2026-11-04T05:00:00.000Z",
+    cover: "fridge-disposal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Plumbed water dispenser removal Dubai",
+    seoDescription: "Isolate the supply, empty the reservoir, and book the cooler only after the pipe is capped.",
+    ogTitle: "Cap the cooler pipe before it moves",
+    ogDescription: "Empty the reservoir and leave the supply capped."
+  },
+  {
     slug: "bolt-together-shelving-removal-dubai",
     title: "Bolt-together metal shelving before it tips",
     excerpt: "Empty the rack from the top, identify anchors and braces, measure the complete frame, and agree whether it travels whole or as labelled parts.",

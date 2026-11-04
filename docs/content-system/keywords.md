@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 312 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312). The *demand* behind each keyword is not verified.
+**Count: 314 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312; E31 and F22 were admitted on 2026-11-04, giving 314). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **312 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03). They are **not** 312 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **314 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03, E31 and F22 admitted 2026-11-04). They are **not** 314 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -528,12 +528,12 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 
 | Cluster | Theme | Keywords |
 |---|---|---|
-| A | Core junk removal (head + company variants) | 34 |
+| A | Core junk removal (head + company variants) | 35 |
 | B | Same-day / urgent | 14 |
-| C | Furniture | 25 |
+| C | Furniture | 26 |
 | D | Sofa / couch | 15 |
-| E | Appliances, fridge & e-waste | 30 |
-| F | Garbage & waste | 21 |
+| E | Appliances, fridge & e-waste | 31 |
+| F | Garbage & waste | 22 |
 | G | Garden / green waste | 26 |
 | H | House / apartment clearance | 26 |
 | I | Villa clearance | 14 |
@@ -541,7 +541,7 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 | K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
 | M | Informational support | 31 |
-| | **Total** | **310** |
+| | **Total** | **314** |
 
 ---
 
@@ -682,11 +682,11 @@ Owner: `/services/appliance-disposal`.
 | E3 | old fridge disposal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P1 | |
 | E4 | refrigerator disposal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | Formal variant. |
 | E5 | old fridge pickup dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
-| E6 | how to dispose of a fridge in dubai | Informational | HIGH | BLOG | `/blog/dispose-fridge-dubai` | P1 | **Pillar.** Refrigerant/e-waste rules make this high-anxiety and high-conversion. |
+| E6 | how to dispose of a fridge in dubai | Informational | HIGH | BLOG | `/blog/dispose-fridge-dubai` | P1 | **Pillar.** Refrigerant/e-waste rules make this high-anxiety and high-conversion. 2026-11-04: a door dispenser stays on this fridge; a separate plumbed drinking-water cabinet is E31. |
 | E7 | freezer disposal dubai | Commercial | MED | BLOG | `/blog/freezer-disposal-dubai` | P3 | Editorial scope (2026-10-17): food planning, defrosting, meltwater, chest versus upright units and route measurement; `/services/appliance-disposal` keeps the transactional intent. |
 | E8 | appliance removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P1 | |
 | E9 | appliance disposal dubai | Commercial | HIGH | SERVICE | `/services/appliance-disposal` | P1 | Page's own primary. |
-| E10 | old appliance removal dubai | Commercial | HIGH | BLOG | `/blog/old-appliance-removal-dubai` | P2 | Editorial scope (2026-10-25): coordinate several unlike appliances through a unit-by-unit ownership, disconnection, draining, route and replacement-delivery register. Individual appliance guides keep item detail; `/services/appliance-disposal` keeps the transaction. Demand remains `UNVERIFIED`. |
+| E10 | old appliance removal dubai | Commercial | HIGH | BLOG | `/blog/old-appliance-removal-dubai` | P2 | Editorial scope (2026-10-25): coordinate several unlike appliances through a unit-by-unit ownership, disconnection, draining, route and replacement-delivery register. Individual appliance guides keep item detail; `/services/appliance-disposal` keeps the transaction. Demand remains `UNVERIFIED`. 2026-11-04: signpost to E31 for one plumbed drinking-water cabinet. |
 | E11 | washing machine removal dubai | Commercial | HIGH | BLOG | `/blog/washing-machine-removal-dubai` | P2 | |
 | E12 | washing machine disposal dubai | Commercial | HIGH | SUPPORT | `/blog/washing-machine-removal-dubai` | P2 | |
 | E13 | dryer disposal dubai | Commercial | MED | BLOG | `/blog/dryer-disposal-dubai` | P3 | Editorial scope (2026-10-16): vented, condenser and stacked dryers, emptying water and vent hoses before collection; `/services/appliance-disposal` keeps the transactional intent. |
@@ -694,7 +694,7 @@ Owner: `/services/appliance-disposal`.
 | E15 | cooker disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P3 | |
 | E16 | dishwasher removal dubai | Commercial | MED | BLOG | `/blog/dishwasher-removal-dubai` | P3 | Editorial scope (2026-10-17): power, water, waste hose, retained water and integrated cabinet fixings; `/services/appliance-disposal` keeps the transactional intent. |
 | E17 | microwave disposal dubai | Commercial | LOW-MED | SUPPORT | `/services/appliance-disposal` | P3 | Small item; usually part of a larger load. |
-| E18 | water heater removal dubai | Commercial | MED | BLOG | `/blog/water-heater-removal-dubai` | P3 | Editorial scope (2026-10-16): landlord ownership, technician disconnection and draining before collection; `/services/appliance-disposal` keeps the transactional intent. |
+| E18 | water heater removal dubai | Commercial | MED | BLOG | `/blog/water-heater-removal-dubai` | P3 | Editorial scope (2026-10-16): landlord ownership, technician disconnection and draining before collection; `/services/appliance-disposal` keeps the transactional intent. 2026-11-04: signpost to E31 when the unit only chills or dispenses drinking water. |
 | E19 | TV disposal dubai | Commercial | HIGH | BLOG | `/blog/tv-disposal-dubai` | P2 | Item-specific disposal route; appliance service remains the money page. |
 | E20 | old TV removal dubai | Commercial | HIGH | SUPPORT | `/services/appliance-disposal` | P2 | |
 | E21 | AC unit removal dubai | Commercial | HIGH | BLOG | `/blog/old-ac-unit-disposal-dubai` | P2 | Split units need safe handling — genuine expertise angle. |
@@ -707,6 +707,7 @@ Owner: `/services/appliance-disposal`.
 | E28 | computer disposal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P2 | Consumer volume low; B2B value high. |
 | E29 | where do old appliances go dubai | Informational | MED | SUPPORT | `/blog/what-happens-to-your-junk-dubai` | P2 | Resolved 2026-10-09: destination intent belongs to existing #16; item-specific routes remain on the fridge, AC and e-waste articles. No duplicate blog URL. Demand is qualitative, not measured. |
 | E30 | cooker hood removal dubai | Commercial | MED | BLOG | `/blog/cooker-hood-removal-dubai` | P3 | Editorial scope (2026-10-29): household canopy, integrated, island or downdraft hood — ownership, plug versus fixed supply, duct left with the building, filters and the kitchen route. The oven stays with E14. Commercial canopies stay with K13. `/services/appliance-disposal` keeps the transaction. Status `PUBLISHED` 2026-10-28. Qualitative. Admitted because no unpublished READY row remained; see *Further admissions (2026-10-29)*. |
+| E31 | plumbed water dispenser removal | Problem | MED | BLOG | `/blog/plumbed-water-dispenser-removal-dubai` | P3 | Editorial scope (2026-11-04): isolate and cap the drinking-water pipe, empty the reservoir, and book the cabinet only once it stands free. A bottle cooler with no pipe is named and emptied, not cut. A fridge door dispenser stays with E6. A hot-water tank stays with E18. Several unlike appliances stay with E10. Do not cut the pipe or open a sealed cooling housing. `/services/junk-removal` keeps the one-off pickup after disconnection. `junk removal dubai` and `junk removal service in dubai` are not retargeted. Status `PUBLISHED` 2026-11-04. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-04)*. |
 
 ---
 
@@ -734,9 +735,10 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F16 | skip hire alternative dubai | Commercial | HIGH | BLOG | `/blog/skip-hire-vs-junk-removal-dubai` | P2 | **Strong comparison play** — a crew that loads beats a skip you fill yourself. (Skip *hire* itself is excluded.) |
 | F17 | junk removal truck dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P3 | Check intent — if it is truck *rental*, it is excluded. |
 | F18 | office waste collection dubai | Commercial | HIGH | BLOG | `/blog/office-waste-collection-dubai` | P2 | Editorial scope (2026-10-24): define a one-off loose office load and separate it from routine bins, data/records processes, technical material and recurring service. `/services/commercial-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
-| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. 2026-10-31: signpost added to F20 for delivery cartons filling a lived-in flat. 2026-11-01: signpost added to F21 for cardboard soaked by a leak. |
-| F20 | shipping cartons filling a flat | Problem | MED | BLOG | `/blog/shipping-cartons-filling-a-flat-dubai` | P3 | Editorial scope (2026-10-31): successive deliveries filling a flat the resident still lives in. Sorting, flattening, mover-owned cartons and the recycling test stay with F19. `cardboard removal dubai` stays a variant of F19, not a new URL. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. 2026-11-01: signpost added to F21 when a leak has soaked the pile. |
+| F19 | packing material disposal dubai | Commercial | MED | BLOG | `/blog/packing-material-disposal-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft; variants `cardboard removal dubai` and `moving boxes disposal dubai` recorded here, not as new rows. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. `/services/junk-removal` keeps the transactional intent. 2026-10-29: article revised in place with a signpost to the office-waste, shop-clearance, retail-fit-out and renovation-waste guides, and `/services/junk-removal` now links down. No new URL. 2026-10-31: signpost added to F20 for delivery cartons filling a lived-in flat. 2026-11-01: signpost added to F21 for cardboard soaked by a leak. 2026-11-04: signpost added to F22 for empty product cartons that held stock. |
+| F20 | shipping cartons filling a flat | Problem | MED | BLOG | `/blog/shipping-cartons-filling-a-flat-dubai` | P3 | Editorial scope (2026-10-31): successive deliveries filling a flat the resident still lives in. Sorting, flattening, mover-owned cartons and the recycling test stay with F19. `cardboard removal dubai` stays a variant of F19, not a new URL. `/services/junk-removal` keeps the transaction. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. 2026-11-01: signpost added to F21 when a leak has soaked the pile. 2026-11-04: signpost added to F22 when the cartons held goods for sale rather than home deliveries. |
 | F21 | wet cardboard after a leak | Problem | MED | BLOG | `/blog/wet-cardboard-after-a-leak-dubai` | P3 | Editorial scope (2026-11-01): cardboard soaked by a leak, kept off a dry recycling stack. The move sort, flattening and the food-soiled or plastic-coated test stay with F19. Dry delivery volume in a lived-in flat stays with F20. `cardboard removal dubai` is not retargeted. `/services/junk-removal` keeps the transaction. A renovation pile may link `/services/waste-removal` without taking that page’s head term. Status `PUBLISHED` 2026-11-01. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-01)*. |
+| F22 | product boxes versus moving boxes | Problem | MED | BLOG | `/blog/product-boxes-not-moving-boxes-dubai` | P3 | Editorial scope (2026-11-04): empty cartons that held stock for sale, with goods, open orders and returns kept out of the pile. A house move stays with F19. Home delivery cartons in a lived-in flat stay with F20. Wet board stays with F21. A whole shop stays with K9. A whole warehouse stays with K18. `cardboard removal dubai` is not retargeted. `/services/junk-removal` keeps the transaction. Al Quoz is the only area link, because that page already takes warehouse packaging. Status `PUBLISHED` 2026-11-04. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-04)*. |
 
 ---
 
@@ -1549,6 +1551,21 @@ The publishing plan's source-blocked M27 slot remained unpublished. The next two
 | 6 New URL justified | Loose shelves, fixed glazing, doors and a tall rigid frame create a preparation job no existing item guide owns. | Unloading order, anchors and bracing create a stability problem no existing clearance guide owns. |
 
 C26 supports `/services/furniture-removal`; A35 supports `/services/junk-removal`. The service pages keep the transactions. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; review both at Day 60 and consolidate if either competes with its money page.
+
+### Further admissions (2026-11-04)
+
+The publishing plan’s 11-04 topics, G26 and M28, stayed blocked because no official source was added. The next two unwritten slots on the goal-keyword calendar that were not on the owner-answer or source block list were Day 5: a plumbed drinking-water cabinet, and empty product cartons that are not a house move. No search-volume figure exists for either. The 2026-10-29 plan recorded qualitative SERP notes only: appliance menus do not separate a plumbed cooler, and a competitor splits warehouse and retail cardboard from moving boxes. Those notes are not volumes. No new Al Quoz fact was added.
+
+| Test | E31 plumbed water dispenser | F22 product boxes |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of E6, E18 or E10. | Not a mapped primary or secondary. Not a variant of F19. `cardboard removal dubai` stays on F19. |
+| 2 Dubai and in scope | A drinking-water cabinet with a supply pipe, collected in Dubai after it is isolated. | Empty stock packaging from a seller, a shop back room or a warehouse unit. |
+| 3 Removal intent | The reader wants the cabinet taken once the pipe is capped, not a plumbing job. | The reader wants the empty cartons taken, not the goods inside them. |
+| 4 One destination | `/blog/plumbed-water-dispenser-removal-dubai` | `/blog/product-boxes-not-moving-boxes-dubai` |
+| 5 Cannibalization | Fridge guide keeps a door dispenser and a refrigerator. Water-heater guide keeps a hot tank. Old-appliance guide keeps several unlike units. `junk removal dubai` and `junk removal service in dubai` stay on `/`. | Packing guide keeps a house move and the recycling test. Shipping-carton guide keeps home deliveries. Wet-cardboard guide keeps a soaked pile. Shop and warehouse guides keep those whole premises. `cardboard removal service` stays on `/services/junk-removal` for the commercial wording. |
+| 6 New URL justified | The supply pipe, and the instruction not to cut it, is a different job from moving a fridge or draining a heater. | Stock cartons, with goods kept out, are a different job from unpacking a home or clearing a whole shop. |
+
+Both money pages are `/services/junk-removal`. The ten generic targets stay on their owner URLs. Al Quoz is the only area link, and only on F22, because that page already describes warehouse packaging. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page, with the packing guide, or with Al Quoz. Secondaries, used only where they fit: E31 `plumbed drinking-water cooler`; F22 `empty product cartons`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

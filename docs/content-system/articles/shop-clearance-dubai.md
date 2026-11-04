@@ -55,7 +55,7 @@ If another carrier is collecting transferred stock, schedule it before disposal 
 
 Create zones for retained assets, outgoing stock, loose furniture, electrical equipment, approved disposal and excluded materials. Keep a clear pedestrian route and do not block fire exits, mall corridors, loading doors or neighbouring units.
 
-The stockroom needs its own pass. Check high shelves, lockers, drawers, cabinets and packaging stores. A final row of cartons can materially change the load even when the sales floor is empty.
+The stockroom needs its own pass. Check high shelves, lockers, drawers, cabinets and packaging stores. A final row of cartons can materially change the load even when the sales floor is empty. A row that is only empty product cartons, with the stock already decided, is the [product-box note](/blog/product-boxes-not-moving-boxes-dubai). This page stays the shop.
 
 Use wide photographs of each zone plus detail images of heavy, fixed or hazardous-looking items. A close-up of one display stand does not describe a whole retail unit.
 

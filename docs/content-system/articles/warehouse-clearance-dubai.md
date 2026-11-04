@@ -2,7 +2,7 @@ A warehouse clear-out must protect live stock, staff movement and loading operat
 
 ## Separate stock from the clearance scope
 
-Do not start with one mixed list. Divide the warehouse into saleable stock, customer property, returns, packaging, fixtures, damaged items, empty pallets and material approved for removal. Assign an owner to every category. A clearance crew cannot decide whether an unlabelled carton is obsolete or awaiting dispatch.
+Do not start with one mixed list. Divide the warehouse into saleable stock, customer property, returns, packaging, fixtures, damaged items, empty pallets and material approved for removal. A pile that is only empty product cartons, with stock already removed, is the [product-box note](/blog/product-boxes-not-moving-boxes-dubai). A warehouse clear-out stays on this page. Assign an owner to every category. A clearance crew cannot decide whether an unlabelled carton is obsolete or awaiting dispatch.
 
 Use physical zones that match the inventory. Keep retained stock within marked racking or protected bays and place approved clearance items in a controlled staging area. Items awaiting a decision should remain outside both streams until authorised.
 

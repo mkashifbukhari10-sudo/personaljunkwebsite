@@ -110,7 +110,7 @@ export const areasExpansion = [
       description: 'Warehouse clear-outs, workshop waste and bulk loads collected from Al Quoz industrial areas. Loading-dock pickups, multiple truckloads, fixed price from photos.'
     },
     h1: 'Warehouse and workshop clear-outs in Al Quoz',
-    intro: 'Al Quoz is Dubai’s working district: warehouses, workshops, showrooms and the studios that have moved into them. Loads here are bigger and heavier than a home pickup, so we plan crews and trucks from your photos rather than sending a standard van. Warehouse cardboard rides with the junk load. The [packing-material guide](/blog/packing-material-disposal-dubai) is what to flatten and what to keep dry. The [household bulky-waste guide](/blog/dubai-municipality-bulky-waste) is not the plan for a warehouse clear-out.',
+    intro: 'Al Quoz is Dubai’s working district: warehouses, workshops, showrooms and the studios that have moved into them. Loads here are bigger and heavier than a home pickup, so we plan crews and trucks from your photos rather than sending a standard van. Warehouse cardboard rides with the junk load. The [packing-material guide](/blog/packing-material-disposal-dubai) is what to flatten and what to keep dry. Empty product cartons, rather than boxes from a house move, follow the [product-box note](/blog/product-boxes-not-moving-boxes-dubai). The [household bulky-waste guide](/blog/dubai-municipality-bulky-waste) is not the plan for a warehouse clear-out.',
     body: [
       {
         heading: 'Loading-dock pickups',

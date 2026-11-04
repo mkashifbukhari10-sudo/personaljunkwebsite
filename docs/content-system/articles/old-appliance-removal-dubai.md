@@ -2,7 +2,7 @@ Plan old-appliance removal as a small project with separate decisions for owners
 
 Begin with a room-by-room list. Name the appliance, say whether it is freestanding or built in, record whether it still works and state who owns it. Then note the person responsible for electrical, gas, water, drainage, cabinetry or refrigeration work. The removal crew should not be assumed to perform technical disconnection.
 
-A multi-appliance pickup can involve very different preparation: a refrigerator must be empty; a washer can retain water; an oven may be hard-wired or connected to gas; an air-conditioning unit is part of a technical system. Treating all of them as “old white goods” hides the decisions that matter.
+A multi-appliance pickup can involve very different preparation: a refrigerator must be empty; a washer can retain water; an oven may be hard-wired or connected to gas; an air-conditioning unit is part of a technical system. Treating all of them as “old white goods” hides the decisions that matter. One plumbed drinking-water cabinet, where the open question is the pipe, is the [plumbed-dispenser note](/blog/plumbed-water-dispenser-removal-dubai). Use this register when several unlike appliances share the booking.
 
 ## Make one appliance register
 

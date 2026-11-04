@@ -10,7 +10,7 @@ Stay on this page if you still live in the flat and the cartons came from delive
 
 If both are true — you moved in, and later deliveries added more cartons — split the note. Say which stacks are from the move and which are from deliveries since. The sort method still sits in the packing guide. The decision to clear a flat you are living in sits here.
 
-Office cardboard, shop packaging and cartons mixed with tiles or gypsum are other jobs. Use the [office-waste guide](/blog/office-waste-collection-dubai), the [shop-clearance guide](/blog/shop-clearance-dubai), the [retail fit-out guide](/blog/retail-fit-out-waste-removal-dubai) or the [renovation-waste guide](/blog/renovation-waste-removal-dubai). Do not describe a site skip’s worth of building waste as household delivery cartons.
+Empty cartons from goods you sell, rather than deliveries into the home you live in, follow the [product-box note](/blog/product-boxes-not-moving-boxes-dubai). Office cardboard, shop packaging and cartons mixed with tiles or gypsum are other jobs. Use the [office-waste guide](/blog/office-waste-collection-dubai), the [shop-clearance guide](/blog/shop-clearance-dubai), the [retail fit-out guide](/blog/retail-fit-out-waste-removal-dubai) or the [renovation-waste guide](/blog/renovation-waste-removal-dubai). Do not describe a site skip’s worth of building waste as household delivery cartons.
 
 ## Walk each room and name the pile
 
