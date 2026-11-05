@@ -102,6 +102,8 @@ Do not leave furniture beside communal bins or in a corridor for an unknown pers
 
 If a component can be reused separately, keep it only when there is a real purpose and storage place. Saving every damaged offcut can simply move the disposal decision to another property.
 
+If the flat-pack piece is display stock in a show flat and nobody has released it, stop. The [show-flat furniture note](/blog/show-flat-furniture-not-yours-dubai) is that ownership test. Come back here only for a piece you are allowed to take apart or send.
+
 ## Request an accurate quote
 
 Provide the number and type of items, condition, current assembly state and desired outcome. Include photos of hardware, mirrors and damage. State the floor, lift and carry distance.

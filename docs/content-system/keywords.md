@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 314 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312; E31 and F22 were admitted on 2026-11-04, giving 314). The *demand* behind each keyword is not verified.
+**Count: 316 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312; E31 and F22 were admitted on 2026-11-04, giving 314; J14 and H27 were admitted on 2026-11-05, giving 316). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **314 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03, E31 and F22 admitted 2026-11-04). They are **not** 314 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **316 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03, E31 and F22 admitted 2026-11-04, J14 and H27 admitted 2026-11-05). They are **not** 316 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -535,13 +535,13 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 | E | Appliances, fridge & e-waste | 31 |
 | F | Garbage & waste | 22 |
 | G | Garden / green waste | 26 |
-| H | House / apartment clearance | 26 |
+| H | House / apartment clearance | 27 |
 | I | Villa clearance | 14 |
-| J | Residential / tower access | 13 |
+| J | Residential / tower access | 14 |
 | K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
 | M | Informational support | 31 |
-| | **Total** | **314** |
+| | **Total** | **316** |
 
 ---
 
@@ -638,7 +638,7 @@ Owner: `/services/furniture-removal`.
 | C18 | how to get rid of a mattress in dubai | Informational | HIGH | SUPPORT | `/blog/mattress-disposal-dubai` | P1 | |
 | C19 | old mattress pickup dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P2 | |
 | C20 | dining table removal dubai | Commercial | MED | BLOG | `/blog/dining-table-removal-dubai` | P3 | Editorial scope (2026-10-16): glass, stone and wood tops, extension leaves, chairs and the longest piece against the route; `/services/furniture-removal` keeps the transactional intent. |
-| C21 | IKEA furniture disposal dubai | Commercial | MED | BLOG | `/blog/flatpack-furniture-disposal-dubai` | P2 | Flat-pack rarely survives a second assembly — strong "can't donate it" angle. |
+| C21 | IKEA furniture disposal dubai | Commercial | MED | BLOG | `/blog/flatpack-furniture-disposal-dubai` | P2 | Flat-pack rarely survives a second assembly — strong "can't donate it" angle. 2026-11-05: signpost to H27 when the piece is unreleased show-flat stock. |
 | C22 | furniture removal apartment dubai | Commercial | HIGH | BLOG | `/blog/apartment-furniture-removal-dubai` | P2 | Editorial scope (2026-10-24): whole-apartment furniture inventory, ownership, dismantling decisions and one lift-ready building route. Item guides and tower logistics keep their detail; `/services/residential-junk-removal` keeps the transaction. Demand remains `UNVERIFIED`. |
 | C23 | carpet disposal dubai | Commercial | MED | BLOG | `/blog/carpet-disposal-dubai` | P3 | Editorial scope (2026-10-16): loose rugs vs fitted carpet, ownership, rolling and lift route; `/services/furniture-removal` keeps the transactional intent. Rug variants are recorded here, not as new rows. |
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
@@ -788,7 +788,7 @@ Owner: `/services/house-clearance`.
 | H3 | apartment clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H4 | flat clearance dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P3 | UK phrasing. |
 | H5 | home clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P2 | |
-| H6 | property clearance dubai | Commercial | HIGH | BLOG | `/blog/property-clearance-dubai` | P2 | Editorial scope (2026-10-22): clearance arranged by an owner, agent or representative for a property they do not occupy — written authority, contents record, held items, building access and sign-off. Estate (bereavement) and tenant handover scopes stay with their existing articles; `/services/house-clearance` keeps the transactional term. 2026-11-02: signposts to H25 (a flatmate’s furniture while someone still lives there) and H26 (one furnished flat an operator is clearing). |
+| H6 | property clearance dubai | Commercial | HIGH | BLOG | `/blog/property-clearance-dubai` | P2 | Editorial scope (2026-10-22): clearance arranged by an owner, agent or representative for a property they do not occupy — written authority, contents record, held items, building access and sign-off. Estate (bereavement) and tenant handover scopes stay with their existing articles; `/services/house-clearance` keeps the transactional term. 2026-11-02: signposts to H25 (a flatmate’s furniture while someone still lives there) and H26 (one furnished flat an operator is clearing). 2026-11-05: signpost to H27 for show-flat display stock that has not been released. |
 | H7 | house cleanout dubai | Commercial | MED | SUPPORT | `/services/house-clearance` | P2 | US phrasing. |
 | H8 | end of tenancy clearance dubai | Commercial | HIGH | BLOG | `/blog/end-of-tenancy-clearance-dubai` | P1 | **Pillar.** Hard deadline + deposit at stake. 2026-11-02: signpost to H25 when one occupant left and the lease continues. |
 | H9 | move out clearance dubai | Commercial | HIGH | SUPPORT | `/blog/end-of-tenancy-clearance-dubai` | P1 | Secondary keyword on article **#6**. Opportunity #23 is consolidated into #6 — **no separate URL.** |
@@ -797,7 +797,7 @@ Owner: `/services/house-clearance`.
 | H12 | handover clearance dubai | Commercial | HIGH | SUPPORT | `/services/house-clearance` | P1 | |
 | H13 | landlord inspection clearance dubai | Commercial | HIGH | BLOG | `/blog/landlord-inspection-clearance-dubai` | P2 | Handover walkthrough and Law No. 26 of 2007 Art. 21 wear and tear standards. |
 | H14 | will landlord deduct deposit for furniture left dubai | Problem | HIGH | BLOG | `/blog/deposit-deductions-left-furniture-dubai` | P2 | **High-anxiety long-tail with a clear commercial answer.** 2026-11-02: signpost to H25 when one occupant left and the tenancy is still running. |
-| H15 | storage room clearance dubai | Commercial | MED | BLOG | `/blog/storage-room-clearance-dubai` | P2 | Editorial scope: inventory and empty a packed apartment store while protecting items to keep and arranging tower access. `/services/house-clearance` keeps the service head term. Commissioned 2026-10-09. |
+| H15 | storage room clearance dubai | Commercial | MED | BLOG | `/blog/storage-room-clearance-dubai` | P2 | Editorial scope: inventory and empty a packed apartment store while protecting items to keep and arranging tower access. `/services/house-clearance` keeps the service head term. Commissioned 2026-10-09. 2026-11-05: signpost to J14 when the door is a parking-bay locker with its own key. |
 | H16 | estate clearance dubai | Commercial | HIGH | SUPPORT | `/services/villa-clearance` | P2 | Skews to larger properties. |
 | H17 | deceased estate clearance dubai | Commercial | HIGH | BLOG | `/blog/estate-clearance-dubai` | P3 | **Handle with sensitivity.** Real need; tone matters more than keywords. |
 | H18 | hoarder house clearance dubai | Commercial | MED | BLOG | `/blog/heavy-clutter-clearance-dubai` | P3 | HOLD — service capability unconfirmed. Do not commission or imply this specialist service is offered. If confirmed, use respectful, non-stigmatising language and review overlap with `/services/house-clearance`. |
@@ -806,9 +806,10 @@ Owner: `/services/house-clearance`.
 | H21 | balcony clearance dubai | Commercial | LOW-MED | BLOG | `/blog/balcony-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`; re-check in Search Console. Scope: sorting and carrying a mixed balcony load; garden furniture detail stays with G18. |
 | H22 | children's room clearance dubai | Commercial | LOW-MED | BLOG | `/blog/childrens-room-clearance-dubai` | P3 | Owner-requested admission 2026-10-15 from an existing draft. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Scope: keepsakes first, reuse checks for children's furniture, toys and electronics separated. |
 | H23 | downsizing in dubai | Planning | MED | BLOG | `/blog/downsizing-clearance-dubai` | P3 | Editorial scope (2026-10-27): keep, donate or dispose sequence when moving to a smaller home. Status `READY`. Phrase observed in autocomplete. Admitted 2026-10-27; see *Expansion admissions*. |
-| H24 | clear apartment before selling dubai | Planning | MED | BLOG | `/blog/clear-apartment-before-selling-dubai` | P3 | Editorial scope (2026-10-27): owner clearing a vacant unit before viewings; no real-estate or legal advice. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
+| H24 | clear apartment before selling dubai | Planning | MED | BLOG | `/blog/clear-apartment-before-selling-dubai` | P3 | Editorial scope (2026-10-27): owner clearing a vacant unit before viewings; no real-estate or legal advice. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. 2026-11-05: signpost to H27 when the furniture is display stock, and to J14 when the door is a parking-bay locker on another level. |
 | H25 | flatmate left furniture behind | Problem | MED | BLOG | `/blog/flatmate-left-furniture-dubai` | P3 | Editorial scope (2026-11-02): furniture one occupant left while others still live there. Whole-tenancy handover stays with H8. Third-party vacant clearance stays with H6. Deposit deductions stay with H14. Whole-apartment furniture stays with C22. `furniture removal dubai` is not retargeted. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-02. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-02)*. |
 | H26 | short-let manager clearing a furnished flat | Problem | MED | BLOG | `/blog/short-let-furnished-flat-clearance-dubai` | P3 | Editorial scope (2026-11-02): one furnished flat an operator is clearing. Landlord inventory, operator furniture and guest leftovers stay split. JBR keeps the community page. Vacant third-party clearance stays with H6. A sofa that will not fit stays with the doorway guide. `furniture removal dubai` is not retargeted. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-02. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-02)*. |
+| H27 | show-flat furniture that is not the buyer's | Problem | MED | BLOG | `/blog/show-flat-furniture-not-yours-dubai` | P3 | Editorial scope (2026-11-05): display stock stays until a written release names the pieces. An owner clearing their own flat before viewings stays with H24. Third-party clearance of a home someone lived in stays with H6. Flat-pack condition stays with C21. No price, contract or legal advice. `furniture removal dubai` is not retargeted. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-05. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-05)*. |
 
 ---
 
@@ -852,8 +853,9 @@ Owner: `/services/residential-junk-removal`.
 | J9 | NOC to move furniture dubai | Informational | HIGH | BLOG | `/blog/noc-moving-furniture-dubai` | P1 | Mirrors an existing on-page FAQ. High-anxiety, high-intent. |
 | J10 | building permission junk removal dubai | Informational | MED | SUPPORT | `/blog/noc-moving-furniture-dubai` | P2 | |
 | J11 | move out hours dubai building | Informational | MED | SUPPORT | `/blog/service-lift-booking-dubai` | P2 | |
-| J12 | getting bulky items out of a tower dubai | Problem | HIGH | BLOG | `/blog/bulky-items-tower-dubai` | P1 | Feeds every tower area page. |
+| J12 | getting bulky items out of a tower dubai | Problem | HIGH | BLOG | `/blog/bulky-items-tower-dubai` | P1 | Feeds every tower area page. 2026-11-05: signpost to J14 when the piece starts in a parking-bay locker rather than the flat. |
 | J13 | walk-up stairs with no service lift | Problem | MED | BLOG | `/blog/walk-up-stairs-no-lift-dubai` | P3 | Editorial scope (2026-10-31): a shared building that has no goods lift to book. J7–J8 and J12 keep the service-lift and tower-route jobs. Townhouse stairs stay with I12. `/services/junk-removal` keeps the one-off booking. Al Barsha is the only area link, because that page already mentions older buildings without a service lift. Status `PUBLISHED` 2026-10-31. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-10-31)*. |
+| J14 | parking-bay locker separate from the flat | Problem | MED | BLOG | `/blog/parking-bay-locker-clearance-dubai` | P3 | Editorial scope (2026-11-05): a locker, cage or cupboard at a parking bay, with its own key, level and route. The apartment store stays with H15. The carry that starts in the flat stays with J12. Downtown’s same-floor store stays on `/areas/downtown-dubai`. `bulky waste collection` stays on the municipal guide. `junk removal dubai` and `junk removal service in dubai` stay on `/`. `/services/junk-removal` keeps the one-off pickup. Downtown is the only area link, because that page already opens the same-floor store at handover. Status `PUBLISHED` 2026-11-05. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-05)*. |
 
 ---
 
@@ -942,7 +944,7 @@ These are the **traffic-and-trust engine**. Each must route to a money page.
 
 | # | Keyword | Intent | Lead | Dest. | Target URL | Pri. | Notes |
 |---|---|---|---|---|---|---|---|
-| M1 | dubai municipality bulky waste collection | Informational | HIGH | BLOG | `/blog/dubai-municipality-bulky-waste` | P1 | Assessed as the highest-value informational target. **BLOCKED until facts are verified against the official source.** |
+| M1 | dubai municipality bulky waste collection | Informational | HIGH | BLOG | `/blog/dubai-municipality-bulky-waste` | P1 | Assessed as the highest-value informational target. **BLOCKED until facts are verified against the official source.** 2026-11-05: signpost to J14 for a parking-bay locker. Eligibility sentences on the guide were not rewritten. |
 | M2 | how to schedule bulk waste pickup dubai | Informational | HIGH | SUPPORT | `/blog/dubai-municipality-bulky-waste` | P1 | |
 | M3 | free junk removal dubai | Commercial | MED | BLOG | `/blog/free-junk-removal-dubai-truth` | P2 | **Never a service-page target.** Honest comparison only — see *Excluded Search Intent*. |
 | M4 | free furniture removal dubai | Commercial | MED | SUPPORT | `/blog/free-junk-removal-dubai-truth` | P2 | As M3. |
@@ -1566,6 +1568,21 @@ The publishing plan’s 11-04 topics, G26 and M28, stayed blocked because no off
 | 6 New URL justified | The supply pipe, and the instruction not to cut it, is a different job from moving a fridge or draining a heater. | Stock cartons, with goods kept out, are a different job from unpacking a home or clearing a whole shop. |
 
 Both money pages are `/services/junk-removal`. The ten generic targets stay on their owner URLs. Al Quoz is the only area link, and only on F22, because that page already describes warehouse packaging. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page, with the packing guide, or with Al Quoz. Secondaries, used only where they fit: E31 `plumbed drinking-water cooler`; F22 `empty product cartons`.
+
+### Further admissions (2026-11-05)
+
+The publishing plan’s 11-05 topics, M29 and M30, stayed unpublished. M29 still must not imply a permit the business has not evidenced. M30 still needs an official source and an owner statement. G24 and K21 still need owner answers. G25 and K20 stayed blocked. The next two unwritten slots on the goal-keyword calendar that were not on that block list were Day 7: a parking-bay locker separate from the flat, and show-flat furniture that is not the buyer’s. No search-volume figure exists for either. The 2026-10-29 plan recorded qualitative SERP notes only: tower results talk about lifts rather than a basement locker with its own key, and no show-flat guide appeared in the furniture results. Those notes are not volumes. No new Downtown building fact was added. The same-floor store sentence already on the Downtown page was not rewritten.
+
+| Test | J14 parking-bay locker | H27 show-flat furniture |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of H15 or J12. | Not a mapped primary or secondary. Not a variant of H24, H6 or C21. |
+| 2 Dubai and in scope | A locker, cage or cupboard at a parking bay in Dubai, opened with its own key. | Loose display furniture in a Dubai show flat, collected only after a written release. |
+| 3 Removal intent | The reader wants the locker contents taken once the door and the route are known. | The reader wants only the released pieces taken, not the dressed flat. |
+| 4 One destination | `/blog/parking-bay-locker-clearance-dubai` | `/blog/show-flat-furniture-not-yours-dubai` |
+| 5 Cannibalization | Storage-room guide keeps the apartment store. Tower guide keeps a carry that starts in the flat. Downtown keeps the same-floor store at handover. `bulky waste collection` stays on the municipal guide. `junk removal dubai` and `junk removal service in dubai` stay on `/`. | Pre-sale guide keeps an owner’s own furniture. Property-clearance guide keeps a home someone lived in. Flat-pack guide keeps condition and dismantling of a piece already released. `furniture removal dubai` stays on `/services/furniture-removal`. |
+| 6 New URL justified | A second key, a different level and a different route are a different job from emptying the store on the flat’s floor. | Display stock the holder of the keys does not own is a different job from an owner choosing what to leave for viewings. |
+
+J14 supports `/services/junk-removal` and links the municipal guide without retargeting it. H27 supports `/services/furniture-removal`. The ten generic targets stay on their owner URLs. Downtown is the only area link, and only on J14, because that page already says the same-floor store is opened at handover. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page, with the storage-room guide, with the pre-sale guide, or with Downtown. Secondaries, used only where they fit: J14 `locker beside a parking bay`; H27 `display stock not released`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

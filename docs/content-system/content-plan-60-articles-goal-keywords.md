@@ -308,7 +308,9 @@ Both slots below were still unwritten on 2026-11-04. They were the next cleared 
 
 ### Day 7 — Thursday 2026-11-05
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-05. They were the next cleared slots, so they were published that day. The publishing plan’s 11-05 topics, M29 and M30, stayed blocked on source and owner statements. G24, K21, G25 and K20 stayed unpublished.
+
+#### Slot A — `PUBLISHED 2026-11-05` — Strong
 
 - **Primary keyword:** parking-bay locker separate from the flat
 - **Title:** A parking-bay locker on a different level
@@ -319,7 +321,7 @@ Both slots below were still unwritten on 2026-11-04. They were the next cleared 
 - **Why this slot:** Downtown’s page already says the store is opened with the flat at handover. This is the separate bay.
 - **SERP note:** Tower results talk about lifts, not a basement locker with its own key. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-05` — Strong
 
 - **Primary keyword:** show-flat furniture that is not the buyer's
 - **Title:** Show-flat furniture that is not yours to dump

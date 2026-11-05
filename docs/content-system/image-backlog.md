@@ -411,6 +411,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #H26 short-let-furnished-flat-clearance-dubai | cover, body | `COMPLETE` — existing sofa-by-doorway cover and sofa-route plan reused 2026-11-02 (repository post). Neither image shows a short-let manager or a named tower. |
 | #E31 plumbed-water-dispenser-removal-dubai | cover, body | `COMPLETE` — existing refrigerator cover and refrigerator route plan reused 2026-11-04 (repository post). Neither image shows a drinking-water cabinet or a capped pipe. |
 | #F22 product-boxes-not-moving-boxes-dubai | cover, body | `COMPLETE` — existing warehouse cover and warehouse zone plan reused 2026-11-04 (repository post). The images show a clearance zone and a route to a shutter, not a counted stack of product cartons. |
+| #J14 parking-bay-locker-clearance-dubai | cover, body | `COMPLETE` — existing storage-room cover and apartment route plan reused 2026-11-05 (repository post). The cover is a sunlit storage room. The plan is an apartment path to a lift. Neither image shows a parking-bay locker or a basement cage. |
+| #H27 show-flat-furniture-not-yours-dubai | cover, body | `COMPLETE` — existing estate-clearance cover and sorting plan reused 2026-11-05 (repository post). The images show household groups and a document box, not a show flat or a supplier’s release. |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -450,6 +452,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-11-05 | Reused `article-storage-room-clearance-dubai-cover` and `crew-arrival-route-plan` for J14, and `estate-clearance-cover` and `estate-clearance-sorting-plan` for H27. No generation, download or upload. The locker images show a storage room and an apartment route, not a parking-bay cage. The show-flat images show household decision groups, not a dressed show flat. |
 | 2026-11-04 | Reused `fridge-disposal-cover` and `fridge-removal-route-plan` for E31, and `warehouse-clearance-cover` and `warehouse-clearance-zone-plan` for F22. No generation, download or upload. The cooler images show a refrigerator. The carton images show a warehouse zone, not a counted stack of product cartons. |
 | 2026-11-02 | Reused `old-furniture-disposal-cover` and `estate-clearance-sorting-plan` for H25, and `old-sofa-delivery-cover` and `sofa-delivery-route` for H26. No generation, download or upload. The covers show grouped furniture and a sofa by a doorway, not a named flat or a short-let manager. |
 | 2026-11-01 | Reused `leaving-dubai-checklist-cover` and `estate-clearance-sorting-plan` for F21, and `landlord-inspection-clearance-cover` and `empty-room-before-handover` for M31. No generation, download or upload. The cardboard cover shows dry stacked boxes, not a leak. |

@@ -106,6 +106,8 @@ Avoid describing the official time as a guaranteed appointment at a chosen hour.
 
 Paid removal may be useful when the address is excluded, carrying from inside is required, a fixed time is essential, dismantling is needed or the load includes several services.
 
+A locker beside a parking bay is still an address check, not a new eligibility rule. How to describe that second door is the [parking-bay locker note](/blog/parking-bay-locker-clearance-dubai). Whether an official collection reaches the address stays the live check on this page.
+
 The [junk removal service](/services/junk-removal) can be quoted from the item list, photos and access. Confirm accepted materials, labour, vehicle capacity and exclusions before booking.
 
 Compare the full job rather than free versus paid in isolation. The official route may require eligibility and a particular preparation process; a paid quote may include labour and scheduled access. Choose the one that actually completes the job.

@@ -54,6 +54,8 @@ Photograph existing marks if the building requires a condition check. This is pr
 
 The route does not end at the ground-floor lift. Confirm how far the item travels to the vehicle, whether there is a ramp, and whether the bay has a height or time restriction. Long basement corridors change equipment and timing. An outdoor loading point may need weather protection. A vehicle that cannot enter the bay may require a longer carry through an approved exit.
 
+A cage that opens onto the parking bay, rather than a piece that starts in the flat, is its own stop. The [parking-bay locker note](/blog/parking-bay-locker-clearance-dubai) is that second key and second route. This page stays the carry from the apartment.
+
 Reserve legal, authorised vehicle access. Do not plan around stopping in a fire lane or blocking another building entrance. Ask how security handles vehicle arrival and whether a registration number is needed in advance. If the building limits truck size, provide that information before dispatch so the wrong vehicle is not sent.
 
 Keep the bay clear of personal boxes and packaging. Bulky items need space to turn at the vehicle and a stable area for loading. If several pieces are leaving, decide the order inside the apartment and the order in the truck. The largest item is not always first; route constraints and load stability decide.
