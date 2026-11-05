@@ -16,6 +16,8 @@ Work one shelf or corner at a time. Emptying every box into the hallway creates 
 
 Protect the route outside the room. Shared corridors are not a staging area unless building management has approved them. In a tower, trolleys and large pieces may need to follow a designated service route. If the room sits on a different floor from the apartment or parking bay, include that extra trip in the access plan. The [service-lift booking guide](/blog/service-lift-booking-dubai) explains the questions to ask management before a crew arrives.
 
+When the door you are clearing is the locker beside the parking bay, with its own key, use the [parking-bay locker note](/blog/parking-bay-locker-clearance-dubai). This page stays the apartment store.
+
 ## Give every item one destination
 
 ![Four sorting zones for belongings from a storage room](media:article-storage-room-clearance-dubai-body)

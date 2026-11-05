@@ -20,9 +20,11 @@ If you are the tenant, not the owner arranging a sale, the handover standard is 
 
 If an agent, relative or manager is clearing a home they do not occupy, authority has to be settled first. That is the subject of the [property clearance guide](/blog/property-clearance-dubai). This article assumes the owner, or a person the owner has clearly instructed, is making the stay-or-go decisions for their own vacant unit.
 
+Furniture placed in the unit for display, which you have not been released to remove, is not this inventory. Use the [show-flat furniture note](/blog/show-flat-furniture-not-yours-dubai).
+
 ## Walk the vacant apartment once
 
-Visit the unit before you request a quote. If you are abroad, send one person with a key and a written list of rooms. Include the entrance, each bedroom, the kitchen, bathrooms, balcony, store, parking bay and a maid’s room or locker if one belongs to the apartment. A living-room photo does not describe the store.
+Visit the unit before you request a quote. If you are abroad, send one person with a key and a written list of rooms. Include the entrance, each bedroom, the kitchen, bathrooms, balcony, store, parking bay and a maid’s room or locker if one belongs to the apartment. A living-room photo does not describe the store. If the door is a parking-bay locker on another level, with its own key, use the [parking-bay locker note](/blog/parking-bay-locker-clearance-dubai). This page stays the vacant apartment.
 
 Take wide photographs and then close photographs of large items. Open cupboards. Look above wardrobes, under beds and inside the oven, the fridge and the washer if those appliances are still there. A vacant apartment can still hold the last occupant’s leftovers: hangers, cleaning bottles, a mattress in a spare room, boxes in the utility cupboard.
 

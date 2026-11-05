@@ -477,6 +477,31 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "show-flat-furniture-not-yours-dubai",
+    title: "Show-flat furniture that is not yours to dump",
+    excerpt: "Display stock stays until the supplier releases it. Book only the pieces that release names.",
+    publishedAt: "2026-11-05T05:00:05.000Z",
+    cover: "estate-clearance-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Show-flat furniture you do not own",
+    seoDescription: "Keep show-flat stock in place until a written release names the pieces you may send.",
+    ogTitle: "Display stock needs a written release",
+    ogDescription: "Name the pieces a written release allows."
+  },
+  {
+    slug: "parking-bay-locker-clearance-dubai",
+    title: "A parking-bay locker on a different level",
+    excerpt: "Open the second key, walk the route from the bay, and book only the locker you can actually reach.",
+    publishedAt: "2026-11-05T05:00:00.000Z",
+    cover: "article-storage-room-clearance-dubai-cover",
+    services: ["junk-removal"],
+    areas: ["downtown-dubai"],
+    seoTitle: "Parking-bay locker clearance Dubai",
+    seoDescription: "Use the locker's own key and route, and book it only when you know which items may leave.",
+    ogTitle: "The locker is a second door",
+    ogDescription: "A second key and a second route."
+  },
+  {
     slug: "product-boxes-not-moving-boxes-dubai",
     title: "Product boxes, not boxes from a house move",
     excerpt: "Empty the cartons that held stock, keep goods still for sale out of the pile, and book only the packaging you are allowed to send.",
