@@ -518,9 +518,9 @@ On that basis the clusters above support roughly **70–85 articles** in Month 1
 - **Pri.** — P1 = Month 1 · P2 = Month 2 · P3 = backlog / opportunistic.
 - **Volume / KD / CPC columns are deliberately absent.** No tool data was available. Every demand judgement here is `UNVERIFIED` qualitative reasoning. Add a `Vol` column only when populating from a real source, and record the source and date in the same commit.
 
-**Count: 316 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312; E31 and F22 were admitted on 2026-11-04, giving 314; J14 and H27 were admitted on 2026-11-05, giving 316). The *demand* behind each keyword is not verified.
+**Count: 318 mapped Dubai keyword opportunities across 13 clusters (A–M)** — the count is verified by row count (the original research pass mapped 283; the cluster-total table had drifted to 283 while the tables held 286 rows; 16 rows were admitted on 2026-10-27, giving 302; E30 and A34 were then added without updating that summary, which left 304 rows; J13 and F20 were admitted on 2026-10-31, giving 306; F21 and M31 were admitted on 2026-11-01, giving 308; H25 and H26 were admitted on 2026-11-02, giving 310; C26 and A35 were admitted on 2026-11-03, giving 312; E31 and F22 were admitted on 2026-11-04, giving 314; J14 and H27 were admitted on 2026-11-05, giving 316; E32 and C27 were admitted on 2026-11-06, giving 318). The *demand* behind each keyword is not verified.
 
-> **What this dataset is, stated precisely.** These are **316 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03, E31 and F22 admitted 2026-11-04, J14 and H27 admitted 2026-11-05). They are **not** 316 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
+> **What this dataset is, stated precisely.** These are **318 mapped Dubai keyword opportunities** (283 from the original research pass, 3 uncounted rows, 16 admitted 2026-10-27, E30 and A34 admitted 2026-10-29, J13 and F20 admitted 2026-10-31, F21 and M31 admitted 2026-11-01, H25 and H26 admitted 2026-11-02, C26 and A35 admitted 2026-11-03, E31 and F22 admitted 2026-11-04, J14 and H27 admitted 2026-11-05, E32 and C27 admitted 2026-11-06). They are **not** 318 verified high-volume keywords, not a ranked list of highest-demand terms, and not a validated opportunity list. Each one has been checked for relevance to the business, assigned an intent, classified for lead potential, and mapped to exactly one destination URL. **Search demand for every keyword here is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`** wherever Dubai-specific keyword-tool data is unavailable — which, at the time of writing, is everywhere. The value of this dataset is its coverage, intent classification and cannibalization-safe mapping, not its demand ranking.
 
 > **No fabricated metrics.** No search volume, CPC, keyword difficulty, competition score or traffic forecast appears anywhere in this document, and none may be added by inference. Missing quantitative fields stay empty until a real source fills them, with that source and its date recorded alongside.
 
@@ -530,9 +530,9 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 |---|---|---|
 | A | Core junk removal (head + company variants) | 35 |
 | B | Same-day / urgent | 14 |
-| C | Furniture | 26 |
+| C | Furniture | 27 |
 | D | Sofa / couch | 15 |
-| E | Appliances, fridge & e-waste | 31 |
+| E | Appliances, fridge & e-waste | 32 |
 | F | Garbage & waste | 22 |
 | G | Garden / green waste | 26 |
 | H | House / apartment clearance | 27 |
@@ -541,7 +541,7 @@ Separately, **12 hard-exclusion categories covering 40 example queries**, plus 4
 | K | Commercial / B2B | 21 |
 | L | Area-modified (geo) | 40 |
 | M | Informational support | 31 |
-| | **Total** | **316** |
+| | **Total** | **318** |
 
 ---
 
@@ -568,7 +568,7 @@ Owner: `/` for the head term and for `junk removal service` and `junk collection
 | A15 | take my junk dubai | Commercial | MED | SUPPORT | `/services/junk-removal` | P2 | Removal intent, but dominated by an established competitor brand. Secondary only. |
 | A16 | bulky waste removal dubai | Commercial | HIGH | SUPPORT | `/services/junk-removal` | P1 | Bridges to the Municipality cluster (M). The shorter phrase “bulky waste collection” stays on `/blog/dubai-municipality-bulky-waste`. Do not retitle the homepage or this service page to that phrase. |
 | A17 | bulk waste disposal dubai | Commercial | HIGH | SUPPORT | `/blog/dubai-municipality-bulky-waste` | P1 | Resolved 2026-10-09: existing #4 owns the bulk-waste options and Municipality route. Commercial removal intent is served by `/services/junk-removal` via #4; no second blog URL. Demand is qualitative, not measured. |
-| A18 | bulky item pickup dubai | Commercial | HIGH | BLOG | `/blog/bulky-item-pickup-dubai` | P2 | Editorial scope (2026-10-25): identify a specific bulky object, show condition, photograph the route and compare the largest rigid component with every restriction. `/services/junk-removal` keeps acceptance and transactional booking intent. Demand remains `UNVERIFIED`. |
+| A18 | bulky item pickup dubai | Commercial | HIGH | BLOG | `/blog/bulky-item-pickup-dubai` | P2 | Editorial scope (2026-10-25): identify a specific bulky object, show condition, photograph the route and compare the largest rigid component with every restriction. `/services/junk-removal` keeps acceptance and transactional booking intent. Demand remains `UNVERIFIED`. 2026-11-06: signpost to C27 when the piece is still in the room because a delivery is due. |
 | A19 | junk removal cost dubai | Commercial | HIGH | BLOG | `/blog/junk-removal-cost-dubai` | P1 | **Pillar.** Price research immediately precedes an enquiry. |
 | A20 | junk removal price dubai | Commercial | HIGH | SUPPORT | `/blog/junk-removal-cost-dubai` | P1 | Same intent as A19. |
 | A21 | junk removal price list dubai | Commercial | MED | SUPPORT | `/blog/junk-removal-cost-dubai` | P2 | Only publish real, honoured prices. |
@@ -618,7 +618,7 @@ Owner: `/services/furniture-removal`.
 
 | # | Keyword | Intent | Lead | Dest. | Target URL | Pri. | Notes |
 |---|---|---|---|---|---|---|---|
-| C1 | furniture removal dubai | Commercial | HIGH | SERVICE | `/services/furniture-removal` | P1 | **FOCUS 3.** |
+| C1 | furniture removal dubai | Commercial | HIGH | SERVICE | `/services/furniture-removal` | P1 | **FOCUS 3.** 2026-11-06: signpost to C27 when old furniture is still in the room on a delivery day. This phrase is not retargeted. |
 | C2 | furniture disposal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P1 | SERP is listicle-heavy — feed via the pillar guide (C4). |
 | C3 | old furniture removal dubai | Commercial | HIGH | SUPPORT | `/services/furniture-removal` | P1 | See C-13: same intent as C1, not a separate page. |
 | C4 | how to dispose of old furniture in dubai | Informational | HIGH | BLOG | `/blog/dispose-old-furniture-dubai` | P1 | Highest-priority supporting article in the plan. Observed: competitors own this SERP with thin listicles. |
@@ -644,6 +644,7 @@ Owner: `/services/furniture-removal`.
 | C24 | where to donate furniture in dubai | Informational | MED | BLOG | `/blog/donate-furniture-dubai` | P1 | Genuinely useful; captures research stage and converts the non-donatable subset. **All charity details must be verified.** |
 | C25 | media wall unit removal dubai | Commercial | MED | BLOG | `/blog/media-wall-unit-removal-dubai` | P3 | Editorial scope (2026-10-27): loose console versus built-in wall unit, fixings and ownership. No claim to remove fixed joinery. Status `PUBLISHED` 2026-10-29. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
 | C26 | glass display cabinet removal | Problem | MED | BLOG | `/blog/glass-display-cabinet-removal-dubai` | P3 | Editorial scope (2026-11-03): ownership, contents, loose glass shelves, fixed glazing, doors, damage and the rigid frame against the route. Dining-table glass stays with C20. General dismantling stays with C10. Fixed shop joinery stays outside the article. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-03. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-03)*. |
+| C27 | old furniture still in the room on delivery day | Problem | MED | BLOG | `/blog/old-furniture-still-there-on-delivery-day-dubai` | P3 | Editorial scope (2026-11-06): the old piece leaves before a new delivery uses the same doorway. A sofa-for-sofa exchange stays with D15. One object's photo and route stay with A18. The lift booking stays with J7. Display stock that has not been released stays with H27. `furniture removal dubai` is not retargeted. `/services/furniture-removal` keeps the transaction. Status `PUBLISHED` 2026-11-06. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-06)*. |
 
 ---
 
@@ -667,7 +668,7 @@ Owner: `/services/sofa-removal`.
 | D12 | armchair removal dubai | Commercial | MED | BLOG | `/blog/armchair-removal-dubai` | P3 | Editorial scope (2026-10-16): wingbacks, swivel bases and recliner mechanisms, closing and unplugging before collection; `/services/furniture-removal` keeps the transactional intent. |
 | D13 | sofa removal apartment dubai | Commercial | HIGH | SUPPORT | `/services/sofa-removal` | P2 | |
 | D14 | sofa won't fit through door dubai | Problem | HIGH | BLOG | `/blog/sofa-wont-fit-through-door-dubai` | P1 | **Excellent long-tail.** Panic-stage query with only one realistic answer. |
-| D15 | remove old sofa before new delivery dubai | Problem | HIGH | BLOG | `/blog/old-sofa-before-new-delivery-dubai` | P1 | Hard-deadline scenario; links to same-day. |
+| D15 | remove old sofa before new delivery dubai | Problem | HIGH | BLOG | `/blog/old-sofa-before-new-delivery-dubai` | P1 | Hard-deadline scenario; links to same-day. 2026-11-06: signpost to C27 when the piece still in the room is not a sofa. |
 
 ---
 
@@ -700,7 +701,7 @@ Owner: `/services/appliance-disposal`.
 | E21 | AC unit removal dubai | Commercial | HIGH | BLOG | `/blog/old-ac-unit-disposal-dubai` | P2 | Split units need safe handling — genuine expertise angle. |
 | E22 | air conditioner disposal dubai | Commercial | HIGH | SUPPORT | `/blog/old-ac-unit-disposal-dubai` | P2 | |
 | E23 | is an old AC unit e-waste dubai | Informational | MED | SUPPORT | `/blog/old-ac-unit-disposal-dubai` | P2 | Mirrors an existing on-page FAQ. |
-| E24 | e waste disposal dubai | Commercial | HIGH | BLOG | `/blog/e-waste-disposal-dubai` | P2 | Bridges consumer and commercial clusters. |
+| E24 | e waste disposal dubai | Commercial | HIGH | BLOG | `/blog/e-waste-disposal-dubai` | P2 | Bridges consumer and commercial clusters. 2026-11-06: signpost to E32 for one home printer and a box of cables. This row keeps the routes. |
 | E25 | e waste collection dubai | Commercial | HIGH | SUPPORT | `/blog/e-waste-disposal-dubai` | P2 | |
 | E26 | e waste recycling dubai | Informational | MED | SUPPORT | `/blog/e-waste-disposal-dubai` | P2 | |
 | E27 | electronics disposal dubai | Commercial | MED | SUPPORT | `/services/appliance-disposal` | P2 | |
@@ -708,6 +709,7 @@ Owner: `/services/appliance-disposal`.
 | E29 | where do old appliances go dubai | Informational | MED | SUPPORT | `/blog/what-happens-to-your-junk-dubai` | P2 | Resolved 2026-10-09: destination intent belongs to existing #16; item-specific routes remain on the fridge, AC and e-waste articles. No duplicate blog URL. Demand is qualitative, not measured. |
 | E30 | cooker hood removal dubai | Commercial | MED | BLOG | `/blog/cooker-hood-removal-dubai` | P3 | Editorial scope (2026-10-29): household canopy, integrated, island or downdraft hood — ownership, plug versus fixed supply, duct left with the building, filters and the kitchen route. The oven stays with E14. Commercial canopies stay with K13. `/services/appliance-disposal` keeps the transaction. Status `PUBLISHED` 2026-10-28. Qualitative. Admitted because no unpublished READY row remained; see *Further admissions (2026-10-29)*. |
 | E31 | plumbed water dispenser removal | Problem | MED | BLOG | `/blog/plumbed-water-dispenser-removal-dubai` | P3 | Editorial scope (2026-11-04): isolate and cap the drinking-water pipe, empty the reservoir, and book the cabinet only once it stands free. A bottle cooler with no pipe is named and emptied, not cut. A fridge door dispenser stays with E6. A hot-water tank stays with E18. Several unlike appliances stay with E10. Do not cut the pipe or open a sealed cooling housing. `/services/junk-removal` keeps the one-off pickup after disconnection. `junk removal dubai` and `junk removal service in dubai` are not retargeted. Status `PUBLISHED` 2026-11-04. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-04)*. |
+| E32 | household printer and a box of cables | Problem | MED | BLOG | `/blog/home-printer-and-cables-dubai` | P3 | Editorial scope (2026-11-06): one home printer emptied, and one household cable box sorted into leaving and staying leads. Office floors stay with K17. Electronics routes stay with E24. A project or site load stays on `/services/waste-removal`. `waste collection service dubai`, `junk removal dubai` and `junk removal service in dubai` are not retargeted. `/services/e-waste-disposal` keeps the booking. Status `PUBLISHED` 2026-11-06. Qualitative. Admitted from the goal-keyword calendar; see *Further admissions (2026-11-06)*. |
 
 ---
 
@@ -722,7 +724,7 @@ Owners: `/services/garbage-removal` (household/recurring) and `/services/waste-r
 | F3 | household garbage removal dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | |
 | F4 | recurring garbage pickup dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | Recurring revenue — high lifetime value. |
 | F5 | waste removal dubai | Commercial | HIGH | SERVICE | `/services/waste-removal` | P2 | Page primary. |
-| F6 | waste collection dubai | Commercial | MED | SUPPORT | `/services/waste-removal` | P3 | Municipal-skewed SERP. The page title carries “waste collection service” for a paid project load, and the copy says it is not a municipal bin contract and not clinical waste. No licence or tonnage claim. |
+| F6 | waste collection dubai | Commercial | MED | SUPPORT | `/services/waste-removal` | P3 | Municipal-skewed SERP. The page title carries “waste collection service” for a paid project load, and the copy says it is not a municipal bin contract and not clinical waste. No licence or tonnage claim. 2026-11-06: E32 links this page so a home printer and cables stay out of a project bag. The phrase is not retargeted. |
 | F7 | waste disposal dubai | Commercial | MED | SUPPORT | `/services/waste-removal` | P3 | |
 | F8 | waste removal company dubai | Commercial | HIGH | SUPPORT | `/services/waste-removal` | P2 | |
 | F9 | renovation waste removal dubai | Commercial | HIGH | BLOG | `/blog/renovation-waste-removal-dubai` | P2 | Strong intent; clear timing trigger. |
@@ -848,7 +850,7 @@ Owner: `/services/residential-junk-removal`.
 | J4 | household junk removal dubai | Commercial | HIGH | SUPPORT | `/services/residential-junk-removal` | P2 | |
 | J5 | tower junk removal dubai | Commercial | MED | SUPPORT | `/services/residential-junk-removal` | P2 | |
 | J6 | high rise junk removal dubai | Commercial | MED | SUPPORT | `/services/residential-junk-removal` | P2 | |
-| J7 | junk removal service lift dubai | Problem | HIGH | BLOG | `/blog/service-lift-booking-dubai` | P1 | **Excellent differentiator article** — the site already books lifts. |
+| J7 | junk removal service lift dubai | Problem | HIGH | BLOG | `/blog/service-lift-booking-dubai` | P1 | **Excellent differentiator article** — the site already books lifts. 2026-11-06: signpost to C27 when a removal and a furniture delivery need the same doorway. |
 | J8 | how to book service lift dubai building | Informational | HIGH | SUPPORT | `/blog/service-lift-booking-dubai` | P1 | |
 | J9 | NOC to move furniture dubai | Informational | HIGH | BLOG | `/blog/noc-moving-furniture-dubai` | P1 | Mirrors an existing on-page FAQ. High-anxiety, high-intent. |
 | J10 | building permission junk removal dubai | Informational | MED | SUPPORT | `/blog/noc-moving-furniture-dubai` | P2 | |
@@ -881,7 +883,7 @@ Owner: `/services/commercial-junk-removal`.
 | K14 | commercial waste collection dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Check licensing claims. |
 | K15 | business junk removal dubai | Commercial | MED | SUPPORT | `/services/commercial-junk-removal` | P3 | |
 | K16 | recurring waste collection dubai | Commercial | HIGH | SUPPORT | `/services/garbage-removal` | P2 | Recurring contracts. |
-| K17 | IT equipment disposal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Data-security angle is a real differentiator. |
+| K17 | IT equipment disposal dubai | Commercial | HIGH | SUPPORT | `/services/commercial-junk-removal` | P2 | Data-security angle is a real differentiator. 2026-11-06: signpost to E32 for one home printer. This row stays the office job. |
 | K18 | out of hours clearance dubai | Commercial | MED | BLOG | `/blog/out-of-hours-clearance-dubai` | P2 | Matches existing page copy. |
 | K19 | school office clearance dubai | Commercial | LOW-MED | BLOG | `/blog/school-office-clearance-dubai` | P3 | Editorial scope (2026-10-21): asset, records, IT and access control for administrative offices during a fixed school closure window. Classrooms and specialist rooms stay outside the assumed scope; `/services/commercial-junk-removal` keeps the transaction. Seasonal and `UNVERIFIED`. |
 | K20 | exhibition stand waste removal dubai | Commercial | MED | BLOG | `/blog/exhibition-stand-waste-removal-dubai` | P3 | Editorial scope (2026-10-27): loose post-show stand material; venue rules only as a reader checklist. Status `BLOCKED — SOURCE VERIFICATION REQUIRED` and `BLOCKED — SERVICE CAPABILITY CONFIRMATION REQUIRED`. Qualitative. Admitted 2026-10-27; see *Expansion admissions*. |
@@ -1583,6 +1585,21 @@ The publishing plan’s 11-05 topics, M29 and M30, stayed unpublished. M29 still
 | 6 New URL justified | A second key, a different level and a different route are a different job from emptying the store on the flat’s floor. | Display stock the holder of the keys does not own is a different job from an owner choosing what to leave for viewings. |
 
 J14 supports `/services/junk-removal` and links the municipal guide without retargeting it. H27 supports `/services/furniture-removal`. The ten generic targets stay on their owner URLs. Downtown is the only area link, and only on J14, because that page already says the same-floor store is opened at handover. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page, with the storage-room guide, with the pre-sale guide, or with Downtown. Secondaries, used only where they fit: J14 `locker beside a parking bay`; H27 `display stock not released`.
+
+### Further admissions (2026-11-06)
+
+The publishing plan’s 11-06 topics, G25 and K20, stayed unpublished. G25 still needs an owner confirmation of turf collection. K20 still needs an official venue source and an owner statement. G24 and K21 still need owner answers. M29 and M30 stayed blocked. The next two unwritten slots on the goal-keyword calendar that were not on that block list were Day 8: a home printer and a box of cables, and old furniture still in the room on delivery day. No search-volume figure exists for either. The 2026-10-29 plan recorded qualitative SERP notes only: e-waste appears as a menu item rather than a home-printer preparation, and competitor pages sell the pickup without planning the clash with a retailer. Those notes are not volumes.
+
+| Test | E32 home printer and cables | C27 furniture still in the room |
+|---|---|---|
+| 1 Genuinely new | Not a mapped primary or secondary. Not a variant of E24 or K17. | Not a mapped primary or secondary. Not a variant of D15, A18 or C1. |
+| 2 Dubai and in scope | One household printer and one box of cables in a Dubai home. | A large piece still in a Dubai room when a delivery is due. |
+| 3 Removal intent | The reader wants the printer and the spare leads taken once both are listed. | The reader wants the old piece gone before the new one uses the same door. |
+| 4 One destination | `/blog/home-printer-and-cables-dubai` | `/blog/old-furniture-still-there-on-delivery-day-dubai` |
+| 5 Cannibalization | E-waste guide keeps the routes. Office IT guide keeps a commercial floor. `/services/waste-removal` keeps a project load and the head phrase `waste collection service dubai`. `junk removal dubai` and `junk removal service in dubai` stay on `/`. | Sofa guide keeps a sofa-for-sofa exchange. Bulky-item guide keeps one object's photo and route. Service-lift guide keeps the booking. `furniture removal dubai` stays on `/services/furniture-removal`. |
+| 6 New URL justified | Emptying one home printer and sorting one cable box is a different job from an office floor or from explaining electronics routes. | Any large piece sharing a delivery slot is a different job from exchanging one sofa. |
+
+E32 supports `/services/e-waste-disposal` and links `/services/waste-removal` without retargeting target 6. C27 supports `/services/furniture-removal`. The ten generic targets stay on their owner URLs. No area link. Demand is an `UNVERIFIED SEARCH-DEMAND ASSUMPTION`. Review at Day 60 and consolidate if either article competes with its money page, with the e-waste guide, with the sofa guide, or with the furniture service page. Secondaries, used only where they fit: E32 `home printer and spare cables`; C27 `old piece still in the room`.
 
 ### Admitted opportunities — evidence, scope and cannibalization boundary
 

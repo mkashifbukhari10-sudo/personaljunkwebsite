@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "old-furniture-still-there-on-delivery-day-dubai",
+    title: "Old furniture still there on delivery day",
+    excerpt: "Clear the doorway before the new piece arrives. One route cannot hold both movements at once.",
+    publishedAt: "2026-11-06T05:00:05.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Old furniture blocking a delivery",
+    seoDescription: "Name the piece still in the room, and finish that visit before the new furniture is due.",
+    ogTitle: "The old piece leaves first",
+    ogDescription: "One doorway, then the delivery."
+  },
+  {
+    slug: "home-printer-and-cables-dubai",
+    title: "A home printer and a box of old cables",
+    excerpt: "Empty the printer, bundle the spare leads, and keep ink and a memory stick out of the sack.",
+    publishedAt: "2026-11-06T05:00:00.000Z",
+    cover: "it-equipment-disposal-cover",
+    services: ["e-waste-disposal"],
+    seoTitle: "Prepare a home printer and cable box",
+    seoDescription: "Empty the trays, sort the cable box, and book the printer only once both lists are visible.",
+    ogTitle: "One printer and one cable box",
+    ogDescription: "Two lists, photographed separately."
+  },
+  {
     slug: "show-flat-furniture-not-yours-dubai",
     title: "Show-flat furniture that is not yours to dump",
     excerpt: "Display stock stays until the supplier releases it. Book only the pieces that release names.",

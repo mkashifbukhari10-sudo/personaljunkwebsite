@@ -256,7 +256,7 @@ export const extraServices = [
         heading: 'What we collect',
         paragraphs: [
           'Televisions and monitors, desktop PCs and laptops, printers, routers, desk phones, cables, keyboards, and small domestic electrics such as microwaves and fans when they are part of the same pickup. A single TV is often booked with [appliance disposal](/services/appliance-disposal), which also covers fridges and washers. Use this page when the load is mostly electronics, especially from an office.',
-          'Office floors in [DIFC](/areas/difc), [Business Bay](/areas/business-bay) and [Dubai Silicon Oasis](/areas/dubai-silicon-oasis) produce this by the desk. An [office clearance](/services/office-clearance) can include the e-waste in the same visit if it is photographed separately from the desks. Homes in [Al Barsha](/areas/al-barsha) and [Mirdif](/areas/mirdif) more often have one TV, a dead printer and a box of cables.'
+          'Office floors in [DIFC](/areas/difc), [Business Bay](/areas/business-bay) and [Dubai Silicon Oasis](/areas/dubai-silicon-oasis) produce this by the desk. An [office clearance](/services/office-clearance) can include the e-waste in the same visit if it is photographed separately from the desks. Homes in [Al Barsha](/areas/al-barsha) and [Mirdif](/areas/mirdif) more often have one TV, a dead printer and a box of cables. How to empty that printer and sort the box is the [home printer and cable note](/blog/home-printer-and-cables-dubai).'
         ]
       },
       {

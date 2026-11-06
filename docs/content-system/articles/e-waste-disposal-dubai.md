@@ -129,7 +129,7 @@ Wipe them first. Remove SIM and memory cards. Swollen batteries should be handle
 
 ### Printers and ink
 
-Remove cartridges and ask the drop-off point or e-waste company whether it accepts them with the printer or separately.
+Remove cartridges and ask the drop-off point or e-waste company whether it accepts them with the printer or separately. One printer in a home, with a box of cables beside it, is prepared on the [home printer and cable note](/blog/home-printer-and-cables-dubai). This section stays the route question.
 
 ### Small kitchen appliances
 

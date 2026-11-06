@@ -13,7 +13,7 @@
 
 **Authority:** Subordinate to all four. The registry records decisions; it does not make them. If the registry and `keywords.md` disagree about ownership, `keywords.md` is right and the registry is out of date — **fix the registry.**
 
-**Current state as at 2026-11-05:** **112 published repository articles, all with at least 2,000 body words.** J14 and H27 are dated 2026-11-05. They are the Day 7 slots on the goal-keyword calendar. G24, K21, G25, K20, M29 and M30 stayed unpublished. Existing inspected imagery is reused for both covers.
+**Current state as at 2026-11-06:** **114 published repository articles, all with at least 2,000 body words.** E32 and C27 are dated 2026-11-06. They are the Day 8 slots on the goal-keyword calendar. G24, K21, G25, K20, M29 and M30 stayed unpublished. Existing inspected imagery is reused for both covers.
 
 ---
 
@@ -112,7 +112,7 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | `PUBLISHED` · `UPDATED` | **Yes** — must resolve at `/blog/{slug}` | Set |
 | `MERGED` · `RETIRED` | **No** — the old slug must redirect (§8) | Kept, as history |
 
-**112 published records as of 2026-11-05.** J14 and H27 are the repository posts dated 2026-11-05. G24, K21, G25, K20, M29 and M30 remain unpublished.
+**114 published records as of 2026-11-06.** E32 and C27 are the repository posts dated 2026-11-06. G24, K21, G25, K20, M29 and M30 remain unpublished.
 
 | ID | Slug | Title | Primary keyword | Cluster | Archetype | Money page | Areas | State | Published | Last reviewed | Facts | Inbound | Notes |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|
@@ -228,6 +228,8 @@ Field definitions for the Article records table (§3). Keep the column order sta
 | F22 | `product-boxes-not-moving-boxes-dubai` | Product boxes, not boxes from a house move | product boxes versus moving boxes | SC1 | A | `junk-removal` | `al-quoz` | `PUBLISHED` | 2026-11-04 | 2026-11-04 | none | `/services/junk-removal` · `/blog/packing-material-disposal-dubai` · `/blog/shop-clearance-dubai` · `/areas/al-quoz` | 2411 body words. Repository post. Owns empty cartons that held stock. A house move stays with N-11. Home deliveries stay with F20. A whole shop stays with N-26. A whole warehouse stays with #33. `cardboard removal dubai` is not retargeted. Al Quoz is the only area link. |
 | J14 | `parking-bay-locker-clearance-dubai` | A parking-bay locker on a different level | parking-bay locker separate from the flat | SC4 | G | `junk-removal` | `downtown-dubai` | `PUBLISHED` | 2026-11-05 | 2026-11-05 | none | `/services/junk-removal` · `/blog/dubai-municipality-bulky-waste` · `/blog/storage-room-clearance-dubai` · `/blog/bulky-items-tower-dubai` · `/areas/downtown-dubai` · `/blog/clear-apartment-before-selling-dubai` | 3600 body words. Repository post. Owns the key, level and route of a parking-bay locker. The apartment store stays with H15. A carry that starts in the flat stays with #14. Downtown keeps the same-floor store. `bulky waste collection` is not retargeted. `junk removal dubai` and `junk removal service in dubai` are not retargeted. Downtown is the only area link. |
 | H27 | `show-flat-furniture-not-yours-dubai` | Show-flat furniture that is not yours to dump | show-flat furniture that is not the buyer's | SC3 | F | `furniture-removal` | — | `PUBLISHED` | 2026-11-05 | 2026-11-05 | none | `/services/furniture-removal` · `/blog/property-clearance-dubai` · `/blog/clear-apartment-before-selling-dubai` · `/blog/flatpack-furniture-disposal-dubai` | 2529 body words. Repository post. Owns display stock until a written release names it. An owner’s own furniture stays with H24. A home someone lived in stays with N-38. Flat-pack condition stays with #42. `furniture removal dubai` is not retargeted. |
+| E32 | `home-printer-and-cables-dubai` | A home printer and a box of old cables | household printer and a box of cables | SC1 | A | `e-waste-disposal` | — | `PUBLISHED` | 2026-11-06 | 2026-11-06 | none | `/services/e-waste-disposal` · `/services/waste-removal` · `/blog/e-waste-disposal-dubai` · `/blog/it-equipment-disposal-dubai` | 3374 body words. Repository post. Owns one emptied home printer and one sorted cable box. Office floors stay with K17. Electronics routes stay with E24. A project load stays on `/services/waste-removal`. `waste collection service dubai`, `junk removal dubai` and `junk removal service in dubai` are not retargeted. |
+| C27 | `old-furniture-still-there-on-delivery-day-dubai` | Old furniture still there on delivery day | old furniture still in the room on delivery day | SC3 | F | `furniture-removal` | — | `PUBLISHED` | 2026-11-06 | 2026-11-06 | none | `/services/furniture-removal` · `/blog/old-sofa-before-new-delivery-dubai` · `/blog/bulky-item-pickup-dubai` · `/blog/service-lift-booking-dubai` | 3440 body words. Repository post. Owns the sequence when a large piece is still in the room and a delivery is due. A sofa-for-sofa exchange stays with D15. One object's photo and route stay with A18. The lift booking stays with J7. `furniture removal dubai` is not retargeted. |
 
 The owner previously deleted drafts #7, #8 and #27. They were recreated as new articles on 2026-09-21 with fresh 2,000+ word bodies and generated editorial imagery. The four earlier articles retained their covers, titles, excerpts, authors, original publication dates, SEO fields and relationships.
 
@@ -479,6 +481,8 @@ These are owned by service, area and static pages. **An article may never claim 
 | product boxes versus moving boxes | `/blog/product-boxes-not-moving-boxes-dubai` | F22 | 2026-11-04 |
 | parking-bay locker separate from the flat | `/blog/parking-bay-locker-clearance-dubai` | J14 | 2026-11-05 |
 | show-flat furniture that is not the buyer's | `/blog/show-flat-furniture-not-yours-dubai` | H27 | 2026-11-05 |
+| household printer and a box of cables | `/blog/home-printer-and-cables-dubai` | E32 | 2026-11-06 |
+| old furniture still in the room on delivery day | `/blog/old-furniture-still-there-on-delivery-day-dubai` | C27 | 2026-11-06 |
 
 ### 5.3 · Reserved by the queue
 
@@ -617,6 +621,8 @@ The 45 queued primaries in §4 are **reserved but not claimed**. A reservation b
 | #F22 `product-boxes-not-moving-boxes-dubai` | `/services/junk-removal` · `/blog/packing-material-disposal-dubai` · `/blog/shop-clearance-dubai` · `/blog/shipping-cartons-filling-a-flat-dubai` · `/blog/warehouse-clearance-dubai` · `/areas/al-quoz` | service · article · area | “product-box note” | ☑ applied |
 | #J14 `parking-bay-locker-clearance-dubai` | `/services/junk-removal` · `/blog/dubai-municipality-bulky-waste` · `/blog/storage-room-clearance-dubai` · `/blog/bulky-items-tower-dubai` · `/areas/downtown-dubai` · `/blog/clear-apartment-before-selling-dubai` | service · article · area | “parking-bay locker note” | ☑ applied |
 | #H27 `show-flat-furniture-not-yours-dubai` | `/services/furniture-removal` · `/blog/property-clearance-dubai` · `/blog/clear-apartment-before-selling-dubai` · `/blog/flatpack-furniture-disposal-dubai` | service · article | “show-flat furniture note” | ☑ applied |
+| #E32 `home-printer-and-cables-dubai` | `/services/e-waste-disposal` · `/services/waste-removal` · `/blog/e-waste-disposal-dubai` · `/blog/it-equipment-disposal-dubai` | service · article | “home printer and cable note” | ☑ applied |
+| #C27 `old-furniture-still-there-on-delivery-day-dubai` | `/services/furniture-removal` · `/blog/old-sofa-before-new-delivery-dubai` · `/blog/bulky-item-pickup-dubai` · `/blog/service-lift-booking-dubai` | service · article | “note on old furniture still there on delivery day” | ☑ applied |
 
 Verified revision-body inbound links: #6 from the washing-machine guide ("end-of-tenancy planning guide"); #11 from the washing-machine guide ("urgent collection checklist"); #13 and #20 from the tenancy guide. These contextual article links meet the inbound requirement independently of the planned service edits.
 
@@ -856,6 +862,7 @@ Format: `YYYY-MM-DD · what changed · why · who`
 
 | Date | Change | Reason |
 |---|---|---|
+| 2026-11-06 | Published E32 and C27 as repository posts dated 2026-11-06. Admitted `household printer and a box of cables` and `old furniture still in the room on delivery day`. Reused existing inspected office-IT and furniture images. Inbound links from the e-waste service page, the waste-removal page, the e-waste guide and the office IT guide, and from the furniture-removal page, the sofa-before-delivery guide, the bulky-item guide and the service-lift guide. Left G24, K21, G25, K20, M29 and M30 unpublished. | The Day 8 slots on the goal-keyword calendar. The publishing plan’s 11-06 topics still need an owner confirmation and, for K20, an official source. |
 | 2026-11-05 | Published J14 and H27 as repository posts dated 2026-11-05. Admitted `parking-bay locker separate from the flat` and `show-flat furniture that is not the buyer's`. Reused existing inspected storage-room and estate-clearance images. Inbound links from the junk-removal page, the municipal guide, the storage-room and tower guides, the Downtown area page and the pre-sale guide, and from the furniture-removal page, the property-clearance guide, the pre-sale guide and the flat-pack guide. Left G24, K21, G25, K20, M29 and M30 unpublished. | The Day 7 slots on the goal-keyword calendar. The publishing plan’s 11-05 topics still need sources and owner statements. |
 | 2026-11-04 | Published E31 and F22 as repository posts dated 2026-11-04. Admitted `plumbed water dispenser removal` and `product boxes versus moving boxes`. Reused existing inspected fridge and warehouse images. Inbound links from the junk-removal page, the fridge, old-appliance and water-heater guides, and from the packing, shop, shipping-carton and warehouse guides plus the Al Quoz area page. Left G24, K21, G25, K20, M29 and M30 unpublished. G26 and M28 stayed unpublished because their source conditions were not cleared. | The next two cleared slots on the goal-keyword calendar (Day 5). The publishing plan’s 11-04 topics still need official sources. |
 | 2026-11-03 | Published C26 and A35 as repository posts dated 2026-11-03. Admitted `glass display cabinet removal` and `bolt-together metal shelving removal`. Reused existing inspected furniture and garage images. Added inbound links from both money pages and the dining-table, dismantling, garage and warehouse guides. Left all source- and owner-blocked topics unpublished. | The next two cleared slots on the goal-keyword calendar (Day 4); M27 remained source-blocked. |

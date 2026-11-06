@@ -136,7 +136,7 @@ export const services = [
         heading: 'Beds, wardrobes and dining sets',
         paragraphs: [
           'These are the pieces we move most. A [bed frame](/blog/bed-frame-disposal-dubai) and mattress, a [wardrobe](/blog/wardrobe-removal-dubai) that was built inside the bedroom, a six-seat dining set, a chest of drawers.',
-          'One piece or the contents of a whole room, priced from your photo before we come. If it is every room, see [house clearance](/services/house-clearance). If the question is whether to repair, pass on or collect a piece, the [old-furniture disposal guide](/blog/dispose-old-furniture-dubai) sets out those choices before you book. A glazed cabinet needs its loose shelves removed and every fixed panel disclosed; use the [glass display-cabinet note](/blog/glass-display-cabinet-removal-dubai) before sending its photos. Furniture one person left in a home the others still use is not a whole-room booking by default. Read the [note on furniture a flatmate left](/blog/flatmate-left-furniture-dubai) before you send the photos. A manager clearing one furnished flat they operate follows the [short-let clearance note](/blog/short-let-furnished-flat-clearance-dubai). Display furniture in a show flat, which has not been released to the person holding the keys, follows the [show-flat furniture note](/blog/show-flat-furniture-not-yours-dubai).'
+          'One piece or the contents of a whole room, priced from your photo before we come. If it is every room, see [house clearance](/services/house-clearance). If the question is whether to repair, pass on or collect a piece, the [old-furniture disposal guide](/blog/dispose-old-furniture-dubai) sets out those choices before you book. A glazed cabinet needs its loose shelves removed and every fixed panel disclosed; use the [glass display-cabinet note](/blog/glass-display-cabinet-removal-dubai) before sending its photos. Furniture one person left in a home the others still use is not a whole-room booking by default. Read the [note on furniture a flatmate left](/blog/flatmate-left-furniture-dubai) before you send the photos. A manager clearing one furnished flat they operate follows the [short-let clearance note](/blog/short-let-furnished-flat-clearance-dubai). Display furniture in a show flat, which has not been released to the person holding the keys, follows the [show-flat furniture note](/blog/show-flat-furniture-not-yours-dubai). Old furniture that is still in the room when a new piece is due follows the [note on old furniture still there on delivery day](/blog/old-furniture-still-there-on-delivery-day-dubai).'
         ]
       },
       {
@@ -295,7 +295,7 @@ export const services = [
         heading: 'Renovation and fit-out waste',
         paragraphs: [
           'Debris after a kitchen or bathroom refit, offcuts and packaging from a fit-out, old fixtures pulled out before the new ones went in. The crew loads it from where it sits; you do not need to bag or stack it first.',
-          'Photos of the pile and the access route give us the crew size. Old appliances in the pile go with the load to [licensed handlers](/services/appliance-disposal).'
+          'Photos of the pile and the access route give us the crew size. Old appliances in the pile go with the load to [licensed handlers](/services/appliance-disposal). A home printer and a box of cables are not part of that pile. The [home printer and cable note](/blog/home-printer-and-cables-dubai) keeps them out of a general waste bag.'
         ]
       },
       {
