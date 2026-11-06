@@ -120,7 +120,7 @@ If the booking cannot proceed, establish why before rescheduling: provider timin
 
 ### Keep neighbours and shared operations in mind
 
-Ask whether another move, delivery or maintenance task shares the service area. Keep doors, fire routes and lobbies usable except during the controlled movement permitted by management. Do not leave trolleys, dismantled furniture or loose packaging unattended in common space.
+Ask whether another move, delivery or maintenance task shares the service area. A removal and a furniture delivery that need the same doorway are ordered in the [note on old furniture still there on delivery day](/blog/old-furniture-still-there-on-delivery-day-dubai). Keep doors, fire routes and lobbies usable except during the controlled movement permitted by management. Do not leave trolleys, dismantled furniture or loose packaging unattended in common space.
 
 Where noise or repeated lift trips may affect residents, follow the building's stated hours and conduct rules. The booking window is permission to perform the described task under those rules, not exclusive control of every corridor. A representative who understands the route can pause movement when neighbours need safe passage.
 

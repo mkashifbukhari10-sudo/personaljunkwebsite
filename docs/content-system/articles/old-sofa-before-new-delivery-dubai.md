@@ -1,4 +1,4 @@
-The safest time to remove an old sofa is before the replacement reaches the building. That gives you one clear route, one empty room and enough time to solve a doorway or lift problem without a delivery team waiting. The job is less about lifting two sofas and more about controlling the sequence between removal, cleaning, access and delivery.
+The safest time to remove an old sofa is before the replacement reaches the building. That gives you one clear route, one empty room and enough time to solve a doorway or lift problem without a delivery team waiting. The job is less about lifting two sofas and more about controlling the sequence between removal, cleaning, access and delivery. If the piece still in the room is not a sofa, use the [note on old furniture still there on delivery day](/blog/old-furniture-still-there-on-delivery-day-dubai). This page stays the sofa.
 
 ## Confirm what the retailer will and will not do
 

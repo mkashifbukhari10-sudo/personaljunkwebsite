@@ -334,7 +334,9 @@ Both slots below were still unwritten on 2026-11-05. They were the next cleared 
 
 ### Day 8 — Friday 2026-11-06
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-06. They were the next cleared slots, so they were published that day. The publishing plan’s 11-06 topics, G25 and K20, stayed blocked on capability and source. G24, K21, M29 and M30 stayed unpublished.
+
+#### Slot A — `PUBLISHED 2026-11-06` — Strong
 
 - **Primary keyword:** household printer and a box of cables
 - **Title:** A home printer and a box of old cables
@@ -345,7 +347,7 @@ Both slots below were still unwritten on 2026-11-05. They were the next cleared 
 - **Why this slot:** The IT article is an office. This is one printer in a home.
 - **SERP note:** Junk Hero lists e-waste as a menu item, not a home-printer prep. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-06` — Strong
 
 - **Primary keyword:** old furniture still in the room on delivery day
 - **Title:** Old furniture still there on delivery day
