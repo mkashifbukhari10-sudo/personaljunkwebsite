@@ -28,7 +28,7 @@ Open every door on the route and hold it securely. Move stools, plants, rugs and
 
 ## Prepare the mattress without creating a harder load
 
-Remove bedding, pillows and loose protectors. Bag these separately if they are also leaving. A fitted sheet is not a transport cover: it can slip, hide hand positions and collect dirt. If a mattress bag or suitable protective wrap is available, fit it before moving the mattress into a common corridor. Seal the opening without creating long loose tails of plastic or tape.
+Remove bedding, pillows and loose protectors. Bag these separately if they are also leaving. When those bags are the whole job, the [duvet note](/blog/duvets-that-will-not-fit-a-chute-dubai) is the list. This page stays the mattress. A fitted sheet is not a transport cover: it can slip, hide hand positions and collect dirt. If a mattress bag or suitable protective wrap is available, fit it before moving the mattress into a common corridor. Seal the opening without creating long loose tails of plastic or tape.
 
 Keep the package as simple as possible. Excessive layers add bulk and make the surface slippery. Do not attach other items to the mattress. Bed slats, frame rails and hardware should be grouped separately so that nothing falls during a turn. Put screws and fittings in a labelled bag if the frame may be reused; otherwise secure them so they cannot scratch walls or puncture the wrap.
 

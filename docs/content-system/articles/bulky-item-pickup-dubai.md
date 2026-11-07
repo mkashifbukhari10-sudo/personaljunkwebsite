@@ -2,7 +2,7 @@ The quickest way to plan a bulky-item pickup is to describe the object and the r
 
 “One wardrobe” is not enough information. A freestanding two-door wardrobe beside a villa entrance is a different removal from a mirrored sliding wardrobe in a tower bedroom, even when both occupy similar floor space. The item affects handling; the route affects whether it can leave intact, needs controlled dismantling or requires a different collection plan.
 
-Start with one photo of the whole item, one photo of any fragile or damaged area and one photo of the narrowest part of the route. Add the floor, lift and parking details in the same message. That small brief is more useful than a long description with no view of the access. When that piece is still in the room because a delivery is due, the order of the two visits is the [note on old furniture still there on delivery day](/blog/old-furniture-still-there-on-delivery-day-dubai). This page stays the photo and the route.
+Start with one photo of the whole item, one photo of any fragile or damaged area and one photo of the narrowest part of the route. Add the floor, lift and parking details in the same message. That small brief is more useful than a long description with no view of the access. When that piece is still in the room because a delivery is due, the order of the two visits is the [note on old furniture still there on delivery day](/blog/old-furniture-still-there-on-delivery-day-dubai). When the object is one oversized framed picture, the frame and the glazing are the [framed-picture note](/blog/oversized-framed-picture-removal-dubai). This page stays the photo and the route.
 
 ## Define each bulky item separately
 

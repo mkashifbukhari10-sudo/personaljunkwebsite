@@ -284,7 +284,9 @@ Both slots below were still unwritten on 2026-11-04. They were the next cleared 
 
 ### Day 6 — Wednesday 2026-11-04
 
-#### Slot A — `NEW — supporting article` — Strong
+Both slots below were still unwritten on 2026-11-07. The owner approved them that day as catch-up, together with the Day 9 pair. The publishing plan’s blocked topics stayed blocked. G24, K21, G25, K20, M29 and M30 stayed unpublished.
+
+#### Slot A — `PUBLISHED 2026-11-07` — Strong
 
 - **Primary keyword:** polystyrene after an appliance delivery
 - **Title:** Polystyrene left after an appliance delivery
@@ -295,7 +297,7 @@ Both slots below were still unwritten on 2026-11-04. They were the next cleared 
 - **Why this slot:** Foam from a delivery is not the appliance and not a stack of moving boxes.
 - **SERP note:** Cardboard pages mention packaging in general. Foam is not their subject. Not measured.
 
-#### Slot B — `NEW — supporting article` — Strong
+#### Slot B — `PUBLISHED 2026-11-07` — Strong
 
 - **Primary keyword:** duvets that will not go down the chute
 - **Title:** Duvets and pillows that will not fit a chute
@@ -360,7 +362,9 @@ Both slots below were still unwritten on 2026-11-06. They were the next cleared 
 
 ### Day 9 — Saturday 2026-11-07
 
-#### Slot A — `NEW — supporting article` — Adequate
+Both slots below were still unwritten on 2026-11-07. The owner approved them that day together with the Day 6 catch-up pair, four articles on one date. The publishing plan’s blocked topics stayed blocked. G24, K21, G25, K20, M29 and M30 stayed unpublished.
+
+#### Slot A — `PUBLISHED 2026-11-07` — Adequate
 
 - **Primary keyword:** oversized framed picture removal dubai
 - **Title:** An oversized framed picture on the wall
@@ -371,7 +375,7 @@ Both slots below were still unwritten on 2026-11-06. They were the next cleared 
 - **Why this slot:** A picture is not the mirror article we refused, and not a media wall.
 - **SERP note:** Not a standalone result in this pass. Not measured.
 
-#### Slot B — `NEW — supporting article` — Adequate
+#### Slot B — `PUBLISHED 2026-11-07` — Adequate
 
 - **Primary keyword:** freestanding kitchen trolley removal dubai
 - **Title:** A freestanding kitchen trolley on wheels

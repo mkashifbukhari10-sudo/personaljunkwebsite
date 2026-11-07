@@ -1,4 +1,4 @@
-A media wall unit is ready to leave only when you know what it is, who owns it, and which part is actually loose. A low console, a freestanding TV stand and a wall-fixed unit are different jobs. The television, cables and glass shelves are different jobs again. Photograph the whole piece, name the construction, and measure the largest rigid section before you ask for collection.
+A media wall unit is ready to leave only when you know what it is, who owns it, and which part is actually loose. A low console, a freestanding TV stand and a wall-fixed unit are different jobs. The television, cables and glass shelves are different jobs again. Photograph the whole piece, name the construction, and measure the largest rigid section before you ask for collection. A single oversized picture in a frame is not this unit. The [framed-picture note](/blog/oversized-framed-picture-removal-dubai) is that one piece.
 
 Do not use “wall unit” as a label for a cabinet that merely sits in the living room. A name that is too broad hides a bracket, a glued joint or a landlord fixture, and it also hides a simple console that can travel in one piece.
 

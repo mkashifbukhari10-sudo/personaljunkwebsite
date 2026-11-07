@@ -38,7 +38,7 @@ A carton you were going to return the product in is not junk while the return is
 
 Once a carton is empty and yours to discard, it can sit with the other empty board. Flatten it if you can do that without burying something you meant to check. The packing guide explains how to flatten, bundle and describe dry board, and when wet or food-soiled board should stay out of a recycling container. Follow that method. Do not invent a second set of bin rules on this page.
 
-Foam corners, plastic film, polystyrene and a timber crate do not become cardboard because they arrived in the same delivery. Pull them out and give them a line of their own. A crate with nails or a broken edge should be photographed. Do not hide it under flattened sheets.
+Foam corners, plastic film, polystyrene and a timber crate do not become cardboard because they arrived in the same delivery. Pull them out and give them a line of their own. When that foam is the shaped packaging from one appliance in a home, the [polystyrene note](/blog/polystyrene-after-appliance-delivery-dubai) is the pile. Here it stays one line beside the cartons. A crate with nails or a broken edge should be photographed. Do not hide it under flattened sheets.
 
 A carton that got wet on the balcony or under an air-conditioning drip should be kept off the dry stack. Say that it is wet. If a leak soaked the pile, the [wet-cardboard note](/blog/wet-cardboard-after-a-leak-dubai) is the separation and the booking. The packing guide’s note on wet board stays the recycling test. Wet board is also heavier and it collapses when it is carried. Show it in the photo so it is not priced as a neat dry bundle.
 

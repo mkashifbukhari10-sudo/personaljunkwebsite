@@ -142,7 +142,7 @@ Where your building uses bags for recyclables, the guide calls for clear bags, s
 
 ### Use chutes for what they are designed for
 
-A rubbish chute is designed for bagged household waste. Glass, heavy items, sharp objects, electronics and anything bulky can block or damage it. If an item does not fit comfortably in a normal bag, it does not belong in the chute.
+A rubbish chute is designed for bagged household waste. Glass, heavy items, sharp objects, electronics and anything bulky can block or damage it. If an item does not fit comfortably in a normal bag, it does not belong in the chute. A bag of duvets and pillows that will not fit that chute is the [bedding note](/blog/duvets-that-will-not-fit-a-chute-dubai). This section stays the chute rule.
 
 ### Keep the bin area clear
 

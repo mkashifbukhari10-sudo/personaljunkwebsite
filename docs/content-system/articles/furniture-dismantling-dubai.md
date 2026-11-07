@@ -116,7 +116,7 @@ Do not move a partly dismantled item into a corridor, stairwell, car park or pav
 
 Book the service lift or community access before the collection window. The [service-lift guide](/blog/service-lift-booking-dubai) provides the questions to ask about time, protection and the loading point.
 
-Two items need narrower preparation before this general decision. A [glass display cabinet](/blog/glass-display-cabinet-removal-dubai) must be emptied and have its loose shelves removed before the rigid frame is assessed. [Bolt-together metal shelving](/blog/bolt-together-shelving-removal-dubai) must be emptied before any brace or fastener is released.
+Two items need narrower preparation before this general decision. A [glass display cabinet](/blog/glass-display-cabinet-removal-dubai) must be emptied and have its loose shelves removed before the rigid frame is assessed. [Bolt-together metal shelving](/blog/bolt-together-shelving-removal-dubai) must be emptied before any brace or fastener is released. An oversized framed picture stays whole unless the glazing is already loose. The [framed-picture note](/blog/oversized-framed-picture-removal-dubai) is that piece.
 
 ## Send a complete dismantling request
 

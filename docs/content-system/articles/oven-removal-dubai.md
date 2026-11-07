@@ -1,4 +1,4 @@
-Before an old oven can be collected, establish whether it is freestanding or built in, electric or gas, and yours or the landlord’s. Empty and clean it, remove loose racks, and arrange appropriate disconnection before the collection window. Do not pull a built-in oven from its cabinet, cut a cable or touch a gas connection just to make it look ready. Send photographs of the installation and route so the provider can separate technician work from carry-out and disposal.
+Before an old oven can be collected, establish whether it is freestanding or built in, electric or gas, and yours or the landlord’s. Empty and clean it, remove loose racks, and arrange appropriate disconnection before the collection window. Do not pull a built-in oven from its cabinet, cut a cable or touch a gas connection just to make it look ready. Send photographs of the installation and route so the provider can separate technician work from carry-out and disposal. A freestanding kitchen trolley on wheels is not this appliance. The [trolley note](/blog/freestanding-kitchen-trolley-dubai) is furniture with castors, not a cooker.
 
 ## Identify the appliance and its installation
 
