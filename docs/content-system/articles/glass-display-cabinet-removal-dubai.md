@@ -1,4 +1,4 @@
-A glass display cabinet should be emptied before it is moved, with every loose shelf removed and every glazed door secured. Photograph the cabinet closed and open, identify which panels are glass, and measure the rigid frame against the complete route. Do not test its strength by carrying it while the shelves are still inside.
+A glass display cabinet should be emptied before it is moved, with every loose shelf removed and every glazed door secured. Photograph the cabinet closed and open, identify which panels are glass, and measure the rigid frame against the complete route. Do not test its strength by carrying it while the shelves are still inside. An oversized picture in one frame is not this cabinet. The [framed-picture note](/blog/oversized-framed-picture-removal-dubai) is that single frame.
 
 A tall cabinet can look like one wooden item in a room photograph even though most of the weight and risk sit in removable glass parts.
 

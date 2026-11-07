@@ -103,7 +103,7 @@ If several rooms feed one corridor, decide which item clears first and where eac
 
 ## Coordinate replacement deliveries
 
-Old-appliance collection and new-appliance delivery are separate scopes unless one provider has explicitly accepted both. Confirm whether the retailer or installer includes removal, under what conditions and at what point it occurs. Do not infer old-unit removal from the word “delivery.”
+Old-appliance collection and new-appliance delivery are separate scopes unless one provider has explicitly accepted both. Confirm whether the retailer or installer includes removal, under what conditions and at what point it occurs. Do not infer old-unit removal from the word “delivery.” Foam and shaped inserts left after the new appliance arrived are not one of the units on this register. The [polystyrene note](/blog/polystyrene-after-appliance-delivery-dubai) is that packaging.
 
 If separate teams are involved, use a sequence:
 

@@ -1,6 +1,6 @@
 A cooker hood is ready for collection only after you know which kind it is, who owns it, and what is still holding it to the kitchen. A canopy on the wall, a unit hidden in a cupboard and a hood hung over an island are different release jobs. The oven underneath is a different job again. Photograph the hood, the fixing and the power point before you ask anyone to lift it.
 
-Do not pull the hood forward to see whether it will come free. The weight, the cable and the duct are easy to misjudge from the front edge.
+Do not pull the hood forward to see whether it will come free. The weight, the cable and the duct are easy to misjudge from the front edge. A trolley parked beside the hob is not the hood. The [trolley note](/blog/freestanding-kitchen-trolley-dubai) is that piece of furniture.
 
 ## Name the hood you actually have
 

@@ -477,6 +477,54 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "freestanding-kitchen-trolley-dubai",
+    title: "A freestanding kitchen trolley on wheels",
+    excerpt: "Empty the drawers, check the back for a fixing, and keep the cooker and the hood off the same line.",
+    publishedAt: "2026-11-07T05:00:15.000Z",
+    cover: "fridge-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "A kitchen trolley that is not fitted",
+    seoDescription: "Empty the trolley, confirm it is not fixed, and book it only when it stands clear of the units.",
+    ogTitle: "The trolley is loose furniture",
+    ogDescription: "Empty it, then keep the cooker off the list."
+  },
+  {
+    slug: "oversized-framed-picture-removal-dubai",
+    title: "An oversized framed picture on the wall",
+    excerpt: "Leave the glazing in the frame, photograph the fixing, and measure the moulding before the carry.",
+    publishedAt: "2026-11-07T05:00:10.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Prepare an oversized framed picture",
+    seoDescription: "Name the frame and the glazing, leave the wall fixing, and book the picture as one rigid piece.",
+    ogTitle: "One frame, glazing still in it",
+    ogDescription: "Measure the moulding, not the print."
+  },
+  {
+    slug: "duvets-that-will-not-fit-a-chute-dubai",
+    title: "Duvets and pillows that will not fit a chute",
+    excerpt: "Open every bag, count the quilts and the pillows, and keep them off the mattress.",
+    publishedAt: "2026-11-07T05:00:05.000Z",
+    cover: "mattress-disposal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Bedding that will not go down a chute",
+    seoDescription: "Count the quilts and pillows, bag what you can lift, and book that soft load on its own.",
+    ogTitle: "Count the bedding before you bag it",
+    ogDescription: "Soft bags, kept off the mattress."
+  },
+  {
+    slug: "polystyrene-after-appliance-delivery-dubai",
+    title: "Polystyrene left after an appliance delivery",
+    excerpt: "Bag the shaped inserts, keep them off the cardboard, and leave every shelf and hose with the machine.",
+    publishedAt: "2026-11-07T05:00:00.000Z",
+    cover: "before-crew-arrives-cover",
+    services: ["junk-removal"],
+    seoTitle: "Bag appliance foam before you book",
+    seoDescription: "Bag the foam shapes and loose beads apart from the carton, and book only the bags you can see.",
+    ogTitle: "The foam is not the appliance",
+    ogDescription: "Shapes, beads and film, bagged apart."
+  },
+  {
     slug: "old-furniture-still-there-on-delivery-day-dubai",
     title: "Old furniture still there on delivery day",
     excerpt: "Clear the doorway before the new piece arrives. One route cannot hold both movements at once.",

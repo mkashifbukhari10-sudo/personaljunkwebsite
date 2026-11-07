@@ -42,7 +42,7 @@ Product packaging is rarely one material. A carton may arrive with foam corners,
 
 Follow the packing guide for how to bag foam and film so they do not scatter, and for the recycling test on the board. This page does not add a second set of bin rules. Dry, empty, flattened board is described as board. Food-stained or plastic-coated board is described as that, and kept off a stack you hope a recycling container will take. If a leak has soaked the pile, use the [note on wet cardboard](/blog/wet-cardboard-after-a-leak-dubai) for the wet sheets, and keep them off the dry product cartons.
 
-Foam, polystyrene shapes and loose beads are not the carton. Bag them. Do not let a bag of foam become the subject of the booking, and do not call the whole load “boxes” when half of it is foam from a delivery. A later note can deal with foam left after an appliance arrives at a home. Here, the foam is only a line beside the product cartons: what bag it is in, and that it is not hidden under the board.
+Foam, polystyrene shapes and loose beads are not the carton. Bag them. Do not let a bag of foam become the subject of the booking, and do not call the whole load “boxes” when half of it is foam from a delivery. Foam left after an appliance arrives at a home is the [polystyrene note](/blog/polystyrene-after-appliance-delivery-dubai). Here, the foam is only a line beside the product cartons: what bag it is in, and that it is not hidden under the board.
 
 Film and strapping go in their own bag. A loose roll on the floor will be walked through the rest of the pile. Crates and any small pallet stay visible, with nails and broken edges photographed. Do not slide a crate under flattened sheets. If a crate still holds a product or a part, it is not packaging yet.
 

@@ -111,7 +111,7 @@ A few clean, dry and flattened cartons can go in the recyclables container if yo
 
 ### What should I do with polystyrene and foam inserts?
 
-Bag them separately so they cannot scatter, then ask your building or the collector which route accepts them. Do not assume a recycling symbol means the local container takes them.
+Bag them separately so they cannot scatter, then ask your building or the collector which route accepts them. Do not assume a recycling symbol means the local container takes them. When the foam is what an appliance delivery left in a home, the [polystyrene note](/blog/polystyrene-after-appliance-delivery-dubai) is that pile. This answer stays the bagging step.
 
 ### Will a junk removal booking take only cardboard?
 
