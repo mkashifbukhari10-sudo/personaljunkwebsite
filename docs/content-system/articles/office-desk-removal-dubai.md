@@ -2,6 +2,8 @@ Office desk removal goes smoothly when each desk is treated as a small asset pac
 
 A desk is rarely one object. It may include a pedestal, a modesty panel, a cable tray, a monitor arm, a keyboard shelf, a locked drawer and a set of keys that nobody can find. Each of those details affects the quote, the dismantling plan and the risk of removing something that should have stayed.
 
+A single standing desk in a home is not this workplace inventory. The [standing-desk note](/blog/home-standing-desk-removal-dubai) is that one desk.
+
 ## Treat the desk as an inventory line, not a loose item
 
 Start with a list. Give each desk or workstation a reference, even if that is only a floor, row and number. Record its type, approximate size, condition and any attached components. A straight desk, an L-shaped desk, a height-adjustable frame and a run of bench desks are not the same job, and a removal estimate based on “twenty desks” hides that difference.

@@ -301,6 +301,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 10 — Sunday 2026-11-08
 
+2026-11-08: these two slots stayed blocked. The goal-keyword calendar’s Day 10 pair (a home standing desk, and a keyboard with a small amplifier) was written for review instead. It is not live. Do not draft M27 or M28 from this row.
+
 #### Slot A — `HOLD — DO NOT DRAFT`
 
 - **Primary keyword:** dubai municipality recycling centres
