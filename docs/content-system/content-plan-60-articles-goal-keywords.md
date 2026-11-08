@@ -388,9 +388,9 @@ Both slots below were still unwritten on 2026-11-07. The owner approved them tha
 
 ### Day 10 — Sunday 2026-11-08
 
-Both slots below were approved for writing on 2026-11-08 (Asia/Karachi). They are ready for review. They are not published and they are not live. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources. A separate “Merge and live” approval is required before either slot can be marked published.
+Both slots below were set to `PUBLISHED` in the repository record on 2026-11-08 after the owner said “Merge and live” at 23:24 Asia/Karachi. Production has not been verified in this change. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources.
 
-#### Slot A — `READY FOR REVIEW 2026-11-08 — not live` — Adequate
+#### Slot A — `PUBLISHED 2026-11-08` — Adequate
 
 - **Primary keyword:** home standing desk removal dubai
 - **Title:** A standing desk in a home office
@@ -401,7 +401,7 @@ Both slots below were approved for writing on 2026-11-08 (Asia/Karachi). They ar
 - **Why this slot:** The office-desk guide is a workplace. This is a desk in a flat.
 - **SERP note:** Not measured.
 
-#### Slot B — `READY FOR REVIEW 2026-11-08 — not live` — Adequate
+#### Slot B — `PUBLISHED 2026-11-08` — Adequate
 
 - **Primary keyword:** keyboard and small amplifier removal dubai
 - **Title:** A keyboard and a small amplifier
