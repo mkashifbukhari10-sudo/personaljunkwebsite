@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "keyboard-and-amplifier-removal-dubai",
+    title: "A keyboard and a small amplifier",
+    excerpt: "Unplug the musical keyboard and the small amplifier, and leave both cases closed.",
+    publishedAt: "2026-11-08T05:00:05.000Z",
+    cover: "what-we-take-cover",
+    services: ["junk-removal"],
+    seoTitle: "Prepare a keyboard and a small amp",
+    seoDescription: "Name the musical keyboard and the small amplifier, unplug both, and keep the amp case closed.",
+    ogTitle: "Two items, cases still closed",
+    ogDescription: "One keyboard and one small amplifier."
+  },
+  {
+    slug: "home-standing-desk-removal-dubai",
+    title: "A standing desk in a home office",
+    excerpt: "Clear the top, leave the lifting mechanism alone, and book one standing desk from a home.",
+    publishedAt: "2026-11-08T05:00:00.000Z",
+    cover: "office-furniture-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Prepare one standing desk at home",
+    seoDescription: "Clear the top, leave the mechanism closed, and book a single standing desk from a home.",
+    ogTitle: "One desk in a home, not a floor",
+    ogDescription: "Top clear, mechanism unopened."
+  },
+  {
     slug: "freestanding-kitchen-trolley-dubai",
     title: "A freestanding kitchen trolley on wheels",
     excerpt: "Empty the drawers, check the back for a fixing, and keep the cooker and the hood off the same line.",

@@ -68,7 +68,7 @@ Do not copy an office checklist onto a flat. You do not need a loading-bay permi
 
 A printer that belongs to an employer, a school or a rented office, and that you are not allowed to release, stays where it is. Keys to a flat do not decide a machine that a company still owns. If a sticker, a lease label or an asset tag is on the casing, photograph the tag and ask the person who can release it before the printer is in a leaving pile. This page does not interpret a lease.
 
-A home office in a spare room is still a home when the only electronics leaving are this printer and this cable box. The desk, if it is also leaving, is furniture and needs its own line. Do not hide a desk in the word “printer”. Drawers get emptied first, on the desk’s own terms, so paper and a spare cartridge are not left inside a pedestal that was described as empty.
+A home office in a spare room is still a home when the only electronics leaving are this printer and this cable box. The desk, if it is also leaving, is furniture and needs its own line. If that desk is a standing desk in the home, the [standing-desk note](/blog/home-standing-desk-removal-dubai) is the preparation. Do not hide a desk in the word “printer”. Drawers get emptied first, on the desk’s own terms, so paper and a spare cartridge are not left inside a pedestal that was described as empty.
 
 ## Keep cables out of a general waste bag
 
