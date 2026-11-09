@@ -1,4 +1,4 @@
-Getting a bulky item out of a tower is a route-planning job. The object may fit comfortably inside the apartment yet fail at the first doorway, corridor turn, service lift or loading-bay restriction. Treat the path from room to truck as one connected system. A clear measurement at each point is more useful than guessing from the size of the lift alone.
+Getting a bulky item out of a tower is a route-planning job. The object may fit comfortably inside the apartment yet fail at the first doorway, corridor turn, service lift or loading-bay restriction. Treat the path from room to truck as one connected system. A clear measurement at each point is more useful than guessing from the size of the lift alone. When the objects are the shells, stands and cymbals of one drum kit, the lift question is the [drum-kit note](/blog/drum-kit-removal-dubai). This page stays the route through the tower.
 
 ## Start with the item in its current position
 

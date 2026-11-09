@@ -325,6 +325,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 11 — Monday 2026-11-09
 
+2026-11-09: these two slots stayed blocked. The goal-keyword calendar’s Day 11 pair (a projector and a pull-down screen, and a drum kit that will not fit the lift) is `REVIEW` in the repository record, approved for writing, not `PUBLISHED` and not live. Do not draft G26 or M29 from this row.
+
 #### Slot A — `HOLD — DO NOT DRAFT`
 
 - **Primary keyword:** dubai municipality green waste collection

@@ -12,7 +12,7 @@ A piano is not this page. Do not describe a piano, an upright, or a keyboard tha
 
 A computer keyboard that sits with a mouse and a monitor is a peripheral, not a musical instrument. It belongs with the computer. Do not use this page for it, and do not put a computer keyboard in the amplifier’s cable bag to save a decision.
 
-A drum kit, a guitar, a mixer and a set of speakers are other objects. If one of them is also leaving, give it its own line. This page does not become a band clear-out because the keyboard was in the same room. If the only things leaving are this keyboard and this amplifier, say that, so a third instrument is not assumed.
+A drum kit, a guitar, a mixer and a set of speakers are other objects. A drum kit has its own count of shells, stands and the lift. The [drum-kit note](/blog/drum-kit-removal-dubai) is that kit. A guitar stays a separate line and does not get a guide here. If one of them is also leaving, give it its own line. This page does not become a band clear-out because the keyboard was in the same room. If the only things leaving are this keyboard and this amplifier, say that, so a third instrument is not assumed.
 
 ## Unplug, and do not open the case
 

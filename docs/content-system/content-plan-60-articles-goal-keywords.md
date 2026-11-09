@@ -414,7 +414,9 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-08 
 
 ### Day 11 — Monday 2026-11-09
 
-#### Slot A — `NEW — supporting article` — Adequate
+Both slots below were approved for writing on 2026-11-09 (Asia/Karachi) and are `REVIEW` in the repository record. They are not `PUBLISHED` and they are not live. A later “Merge and live” approval is required. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources.
+
+#### Slot A — `REVIEW 2026-11-09` — Adequate
 
 - **Primary keyword:** projector and screen removal dubai
 - **Title:** A projector and a pull-down screen
@@ -425,7 +427,7 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-08 
 - **Why this slot:** The screen on the wall may be fixed. The article only covers what is already loose or clearly screwed as furniture.
 - **SERP note:** Not measured.
 
-#### Slot B — `NEW — supporting article` — Adequate
+#### Slot B — `REVIEW 2026-11-09` — Adequate
 
 - **Primary keyword:** drum kit removal dubai
 - **Title:** A drum kit that will not fit the lift
