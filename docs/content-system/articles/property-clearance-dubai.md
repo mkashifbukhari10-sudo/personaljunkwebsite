@@ -57,7 +57,7 @@ Passports, identity documents, cheque books, bank cards, medication, jewellery, 
 
 Paper deserves a separate process. A pile of letters can contain tenancy documents, bills or personal correspondence. Give the owner or representative a chance to check it, and decide whether anything should be kept before the room is cleared. If you are unsure what an item is, keep it out of the removal group.
 
-The [leaving Dubai clearance checklist](/blog/leaving-dubai-clearance-checklist) is written for people who are departing, but its inventory approach is helpful here too: decide what is kept, shipped or discarded before the final week rather than during it.
+The [leaving Dubai clearance checklist](/blog/leaving-dubai-clearance-checklist) is written for people who are departing, but its inventory approach is helpful here too: decide what is kept, shipped or discarded before the final week rather than during it. A single sealed box the building will not store, with the authority written for that box, follows the [lost-property box note](/blog/lost-property-box-managed-building-dubai). This page stays a home you do not occupy.
 
 ## Handle items that belong to the landlord or building
 

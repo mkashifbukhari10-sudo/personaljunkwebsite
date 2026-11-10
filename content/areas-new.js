@@ -29,7 +29,7 @@ export const areasNew = [
       {
         heading: 'What a DIFC office actually contains',
         paragraphs: [
-          'Desks, task chairs, a meeting table and a pile of screens are the usual load. Screens and PCs are [e-waste disposal](/services/e-waste-disposal). Empty the drawers before the day. Paper left in a pedestal is a records decision, and we will not tip it into a sack because the floor is being handed back.',
+          'Desks, task chairs, a meeting table and a pile of screens are the usual load. Screens and PCs are [e-waste disposal](/services/e-waste-disposal). Empty the drawers before the day. Paper left in a pedestal is a records decision, and we will not tip it into a sack because the floor is being handed back. When that paper is already shredded, the [shredded-paper note](/blog/shredded-paper-out-of-furniture-load-dubai) keeps the sacks out of the furniture.',
           'Fit-out waste from a DIFC refurbishment is [construction debris removal](/services/construction-debris-removal): metal studs, glass, carpet tile. It is not the same quote as the furniture. If the contractor is still on site, say whether we are collecting a finished pile or waiting on them. Paint and solvents stay out.'
         ]
       },

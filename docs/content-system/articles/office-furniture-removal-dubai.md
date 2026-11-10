@@ -42,7 +42,7 @@ Desks often arrive with monitors, docking stations, cable hubs or printers still
 
 Your IT owner should erase or retain drives through an authorised process and document it independently. If a contract requires a certificate of destruction, arrange a qualified provider for that requirement before handing over the devices. Our [IT equipment disposal guide](/blog/it-equipment-disposal-dubai) explains the operational separation between internal data sanitisation and physical electronics collection. Simply putting a laptop, server or printer on an e-waste pallet is not proof that stored data has been destroyed. The [e-waste disposal guide](/blog/e-waste-disposal-dubai) explains why electronics should be separated from general waste; the office still owns its information-security decisions.
 
-Check cabinets, pedestals and lockers again after IT has finished. Loose documents and badges commonly remain behind drawers. Where the office has regulated records or client material, involve its own compliance team. The clearance team needs to know that a cabinet is empty and ready to move; it does not need to review confidential files.
+Check cabinets, pedestals and lockers again after IT has finished. Loose documents and badges commonly remain behind drawers. Where the office has regulated records or client material, involve its own compliance team. The clearance team needs to know that a cabinet is empty and ready to move; it does not need to review confidential files. When the paper is already shredded and must not leave inside the desks, the [shredded-paper note](/blog/shredded-paper-out-of-furniture-load-dubai) is the separation. This page stays the furniture.
 
 ## Get a quote that reflects the real job
 

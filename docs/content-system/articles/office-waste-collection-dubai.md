@@ -45,7 +45,7 @@ The [office furniture removal guide](/blog/office-furniture-removal-dubai) cover
 
 ## Isolate records and data-bearing equipment
 
-Confidential paper should remain under the organisation’s approved records process. Put it in a controlled, labelled area and state whether an authorised destruction provider will handle it. General collection does not prove secure destruction or provide a destruction certificate.
+Confidential paper should remain under the organisation’s approved records process. Put it in a controlled, labelled area and state whether an authorised destruction provider will handle it. General collection does not prove secure destruction or provide a destruction certificate. When that paper is already shredded and the only question is keeping the sacks out of the furniture, the [shredded-paper note](/blog/shredded-paper-out-of-furniture-load-dubai) is that split. This page stays the one-off load.
 
 IT should identify computers, drives, servers, phones, copiers and any other equipment that may store data. Record serial or asset numbers where required. Complete the organisation’s approved data handling before release. Deleting files, removing a login or resetting a device is not automatically certified erasure.
 

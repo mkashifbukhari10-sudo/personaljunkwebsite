@@ -144,7 +144,7 @@ export const extraServices = [
       {
         heading: 'What is out of scope',
         paragraphs: [
-          'We do not empty drawers of confidential paper into sacks. Records stay your decision. If a pedestal is locked and you want it gone anyway, say so and unlock it or accept that the contents go with it uninspected. We do not image laptops or issue a data-destruction certificate unless that was agreed in writing before the day. Assume it is not included.',
+          'We do not empty drawers of confidential paper into sacks. Records stay your decision. If a pedestal is locked and you want it gone anyway, say so and unlock it or accept that the contents go with it uninspected. Shredded paper that must stay out of the furniture follows the [shredded-paper note](/blog/shredded-paper-out-of-furniture-load-dubai). We do not image laptops or issue a data-destruction certificate unless that was agreed in writing before the day. Assume it is not included.',
           'Fitted joinery, raised-floor tiles, glazed partitions still fixed to the slab, and builders’ rubble are not a furniture clearance. Partitions that are already down can go. Live strip-out waste is [construction debris removal](/services/construction-debris-removal). Paint, adhesives and gas cylinders left by a contractor stay out. A [shop clearance](/blog/shop-clearance-dubai) is a different asset list. Do not book an office crew for retail stock and call it the same thing.'
         ]
       },

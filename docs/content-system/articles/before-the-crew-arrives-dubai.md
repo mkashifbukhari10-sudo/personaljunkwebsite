@@ -70,7 +70,7 @@ Weather can affect an outdoor carry. Keep items protected inside until the vehic
 
 Choose one primary contact who knows the scope, quote and building arrangements. That person should answer the phone, meet security if needed and approve any agreed change. Multiple people giving different instructions slows the job and increases the chance of removing the wrong item.
 
-If the owner cannot attend, provide written authority and a complete inventory to the representative. Confirm access to every relevant room. Do not leave a key without making sure the building permits contractor entry and the provider accepts unattended access.
+If the owner cannot attend, provide written authority and a complete inventory to the representative. Confirm access to every relevant room. Do not leave a key without making sure the building permits contractor entry and the provider accepts unattended access. If the item is one lost-property box the building will not keep, the [lost-property box note](/blog/lost-property-box-managed-building-dubai) is the writing that has to sit with that box. This page stays the general arrival check.
 
 Share any time deadline, such as a lift closing, checkout or cleaner arriving. A deadline can be planned only when it is known before work begins.
 

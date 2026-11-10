@@ -477,6 +477,31 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "lost-property-box-managed-building-dubai",
+    title: "A lost-property box the building will not store",
+    excerpt: "One sealed box leaves only when a written note says the building will not keep it.",
+    publishedAt: "2026-11-10T05:00:05.000Z",
+    cover: "estate-clearance-cover",
+    services: ["junk-removal"],
+    seoTitle: "One box the building will not store",
+    seoDescription: "Copy the building’s note, name who may send the box, and book that one box on its own.",
+    ogTitle: "One box, and the writing",
+    ogDescription: "The building’s note names the box."
+  },
+  {
+    slug: "shredded-paper-out-of-furniture-load-dubai",
+    title: "Keep shredded paper out of the furniture",
+    excerpt: "Empty every pedestal, sack the shreds on their own, and do not book a desk that still holds paper.",
+    publishedAt: "2026-11-10T05:00:00.000Z",
+    cover: "office-furniture-cover",
+    services: ["waste-removal"],
+    areas: ["difc"],
+    seoTitle: "Shredded paper stays out of the desks",
+    seoDescription: "Pull shredded paper out of each pedestal, sack it on its own, and book the desks only once they are empty.",
+    ogTitle: "Sacks out, drawers empty",
+    ogDescription: "Paper leaves in its own sacks."
+  },
+  {
     slug: "drum-kit-removal-dubai",
     title: "A drum kit that will not fit the lift",
     excerpt: "Name every drum and stand, measure the rigid pieces, and say which one fails the lift.",

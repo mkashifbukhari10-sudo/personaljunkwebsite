@@ -440,7 +440,9 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-10 
 
 ### Day 12 — Tuesday 2026-11-10
 
-#### Slot A — `NEW — supporting article` — Adequate
+Both slots below are `REVIEW` in the repository record on 2026-11-10. They are not `PUBLISHED`. The repository has no draft flag, so a merge would make the URLs resolve. A separate “Merge and live” approval is still required. The 30-day plan’s Day 12 pair stayed blocked. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources.
+
+#### Slot A — `REVIEW 2026-11-10` — Adequate
 
 - **Primary keyword:** shredded paper kept out of a furniture load
 - **Title:** Keep shredded paper out of the furniture
@@ -451,7 +453,7 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-10 
 - **Why this slot:** DIFC’s page already says paper in a pedestal is a records decision. No new tower names.
 - **SERP note:** Office results mix furniture crews and waste contractors. Not measured.
 
-#### Slot B — `NEW — supporting article` — Adequate
+#### Slot B — `REVIEW 2026-11-10` — Adequate
 
 - **Primary keyword:** lost property box in a managed building
 - **Title:** A lost-property box the building will not store
