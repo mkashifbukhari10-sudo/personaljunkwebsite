@@ -349,6 +349,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 12 — Tuesday 2026-11-10
 
+2026-11-10: these two slots stayed blocked. The goal-keyword calendar’s Day 12 pair (shredded paper kept out of a furniture load, and a lost-property box the building will not store) is `PUBLISHED` in the repository record, dated 2026-11-10. Production has not been verified in this change. Do not draft M30 or the piano slot from this row.
+
 #### Slot A — `HOLD — DO NOT DRAFT`
 
 - **Primary keyword:** water damaged furniture removal dubai

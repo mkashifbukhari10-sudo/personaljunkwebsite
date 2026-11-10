@@ -45,7 +45,7 @@ Drawers conceal the items most likely to cause delay. Open each one, including t
 
 Locked drawers need a plan before the day. Find the key, identify who is authorised to open the unit and record what was found. The removal crew should not be asked to force a lock or decide whether the contents are rubbish. If no key can be found, mark the unit as unresolved and leave it out of the load until the office decides how to proceed.
 
-Do not leave sensitive records in a drawer on the grounds that the crew is only taking furniture. Business records belong to the office's own retention and confidentiality process. The clearance team needs to know that a unit is empty and ready to move; it does not need to read the paper inside.
+Do not leave sensitive records in a drawer on the grounds that the crew is only taking furniture. Business records belong to the office's own retention and confidentiality process. The clearance team needs to know that a unit is empty and ready to move; it does not need to read the paper inside. Paper that is already shredded, and must leave in its own sacks rather than inside the pedestal, follows the [shredded-paper note](/blog/shredded-paper-out-of-furniture-load-dubai). This page stays the desk.
 
 ### Check for batteries, liquids and small hazards
 
