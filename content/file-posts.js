@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "drum-kit-removal-dubai",
+    title: "A drum kit that will not fit the lift",
+    excerpt: "Name every drum and stand, measure the rigid pieces, and say which one fails the lift.",
+    publishedAt: "2026-11-09T05:00:05.000Z",
+    cover: "bulky-item-tower-cover",
+    services: ["junk-removal"],
+    seoTitle: "Prepare a drum kit for the lift",
+    seoDescription: "List the drums and stands, measure each rigid piece, and say what will not fit the lift.",
+    ogTitle: "The kit is several pieces",
+    ogDescription: "Shells, stands and the lift opening."
+  },
+  {
+    slug: "projector-and-screen-removal-dubai",
+    title: "A projector and a pull-down screen",
+    excerpt: "Unplug the loose projector, and name a pull-down or freestanding screen that is already free.",
+    publishedAt: "2026-11-09T05:00:00.000Z",
+    cover: "tv-disposal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Prepare a loose projector and screen",
+    seoDescription: "Name the loose projector and the free screen, unplug what you can see, and leave ceiling and wall fixings alone.",
+    ogTitle: "Two items, fixings still in place",
+    ogDescription: "A loose projector and a free screen."
+  },
+  {
     slug: "keyboard-and-amplifier-removal-dubai",
     title: "A keyboard and a small amplifier",
     excerpt: "Unplug the musical keyboard and the small amplifier, and leave both cases closed.",
