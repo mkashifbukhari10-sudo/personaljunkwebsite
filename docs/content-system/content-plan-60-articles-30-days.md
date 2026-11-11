@@ -373,6 +373,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 13 — Wednesday 2026-11-11
 
+2026-11-11: these two slots stayed blocked. The goal-keyword calendar’s Day 13 pair (a dehumidifier left in a closed room, and a floor lamp taller than the doorway) is `REVIEW` in the repository record. It is not `PUBLISHED`. Do not draft the pool-table or safe slots from this row.
+
 #### Slot A — `HOLD — DO NOT DRAFT`
 
 - **Primary keyword:** pool table removal dubai

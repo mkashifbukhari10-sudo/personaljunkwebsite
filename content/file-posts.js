@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "floor-lamp-taller-than-doorway-dubai",
+    title: "A floor lamp taller than the doorway",
+    excerpt: "Lift the shade if it comes off by hand, measure the stem against the open doorway, and leave the cord uncut.",
+    publishedAt: "2026-11-11T05:00:05.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Measure the lamp against the opening",
+    seoDescription: "Name the shade, the stem and the base, and write the doorway’s clear height beside the lamp.",
+    ogTitle: "Shade, stem, and the gap",
+    ogDescription: "One lamp, measured at the door."
+  },
+  {
+    slug: "dehumidifier-removal-dubai",
+    title: "A dehumidifier left in a closed room",
+    excerpt: "Empty the tank, unplug the cord, and book the unit only once the shut room is open.",
+    publishedAt: "2026-11-11T05:00:00.000Z",
+    cover: "fridge-disposal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Empty the tank before the unit leaves",
+    seoDescription: "Empty the tank, unplug the cord, and name the shut room before the unit is booked.",
+    ogTitle: "Tank empty, door open",
+    ogDescription: "One unit, water out."
+  },
+  {
     slug: "lost-property-box-managed-building-dubai",
     title: "A lost-property box the building will not store",
     excerpt: "One sealed box leaves only when a written note says the building will not keep it.",

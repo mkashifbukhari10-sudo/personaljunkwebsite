@@ -466,7 +466,9 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-10 
 
 ### Day 13 — Wednesday 2026-11-11
 
-#### Slot A — `NEW — supporting article` — Adequate
+Both slots below are `REVIEW` in the repository record on 2026-11-11. They are not `PUBLISHED`. A separate “Merge and live” approval is required. The 30-day plan’s Day 13 pair stayed blocked. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources. The 30-day plan’s water-damaged furniture and piano slots stayed blocked.
+
+#### Slot A — `REVIEW 2026-11-11` — Adequate — E35
 
 - **Primary keyword:** dehumidifier removal dubai
 - **Title:** A dehumidifier left in a closed room
@@ -477,7 +479,7 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-10 
 - **Why this slot:** Empty the tank. It is not a fridge and not a leak-damage article.
 - **SERP note:** Not measured.
 
-#### Slot B — `NEW — supporting article` — Adequate
+#### Slot B — `REVIEW 2026-11-11` — Adequate — C31
 
 - **Primary keyword:** large floor lamp removal dubai
 - **Title:** A floor lamp taller than the doorway

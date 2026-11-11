@@ -1,4 +1,4 @@
-An old air conditioner is not just a heavy box of metal. It holds refrigerant gas, and UAE rules treat those gases as something to be recovered and controlled rather than released. Have a qualified AC technician disconnect the unit and deal with the refrigerant first, then send the unit itself through an appliance route such as Dubai Municipality’s bulky-waste programme or a paid collection.
+An old air conditioner is not just a heavy box of metal. It holds refrigerant gas, and UAE rules treat those gases as something to be recovered and controlled rather than released. Have a qualified AC technician disconnect the unit and deal with the refrigerant first, then send the unit itself through an appliance route such as Dubai Municipality’s bulky-waste programme or a paid collection. A portable dehumidifier with a tank and a domestic plug is not this unit. The [dehumidifier note](/blog/dehumidifier-removal-dubai) is the tank and the cord. Stay here when the machine is an air conditioner.
 
 ## Why an AC unit needs more care than other appliances
 

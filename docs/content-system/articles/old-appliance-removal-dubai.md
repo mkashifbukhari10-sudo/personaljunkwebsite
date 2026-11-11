@@ -76,7 +76,7 @@ Remove trays, racks and loose accessories or secure them separately. Clean out l
 
 ### Small appliances and electronics
 
-Unplug small units, remove loose glass trays or accessories and box them so they do not disappear among larger items. Keep batteries or damaged power packs visible and declared. A microwave may be small, but a broken glass plate or sharp casing still needs controlled packing.
+Unplug small units, remove loose glass trays or accessories and box them so they do not disappear among larger items. Keep batteries or damaged power packs visible and declared. A microwave may be small, but a broken glass plate or sharp casing still needs controlled packing. One dehumidifier in a closed room, where the open question is the tank, is the [dehumidifier note](/blog/dehumidifier-removal-dubai). Keep that unit off this register unless other appliance types share the booking.
 
 ## Match each appliance to the route
 

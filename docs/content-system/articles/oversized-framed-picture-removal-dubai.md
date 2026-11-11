@@ -8,7 +8,7 @@ Look at the object before you take it down. A framed print, a canvas on a stretc
 
 A glass display cabinet, with shelves and doors, is a different piece again. Emptying it and counting its panels is the [glass-cabinet note](/blog/glass-display-cabinet-removal-dubai). Do not use this page to empty a cabinet, and do not call a cabinet a picture because the doors are glazed.
 
-A wall mirror is not a picture. This site does not have a separate mirror guide, and this page will not invent one. If the object is a mirror, say “mirror” in the booking and do not follow the picture steps as if there were a print and a backing to protect. The glass is the object. Stop and describe that, rather than stretching this note over it.
+A floor lamp taller than the doorway is not a frame. The shade, the stem and the opening are the [floor-lamp note](/blog/floor-lamp-taller-than-doorway-dubai). A wall mirror is not a picture. This site does not have a separate mirror guide, and this page will not invent one. If the object is a mirror, say “mirror” in the booking and do not follow the picture steps as if there were a print and a backing to protect. The glass is the object. Stop and describe that, rather than stretching this note over it.
 
 If you are not allowed to remove the frame, because it is the landlord’s, a gallery’s or part of a dressed flat, leave it on the wall. Display stock that has not been released is a different problem from a picture you own. Do not book a frame you have not been allowed to send.
 
