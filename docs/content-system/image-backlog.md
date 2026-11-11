@@ -425,6 +425,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #A37 drum-kit-removal-dubai | cover, body | `COMPLETE` — existing tower bulky-item cover reused for both 2026-11-09 (repository post). The image is a wrapped cabinet on a trolley beside a padded service lift. It does not show a drum, a stand or a cymbal. |
 | #F24 shredded-paper-out-of-furniture-load-dubai | cover, body | `COMPLETE` — existing office-furniture cover reused for both 2026-11-10 (repository post). The image is a workplace floor of desks, chairs and cabinets. It does not show a sack of shredded paper, an open drawer or a labelled bag. |
 | #H28 lost-property-box-managed-building-dubai | cover, body | `COMPLETE` — existing estate-clearance cover reused for both 2026-11-10 (repository post). The image is a living room with household boxes and a notebook. It does not show a managed building’s store, a lost-property label or a management message. |
+| #E35 dehumidifier-removal-dubai | cover, body | `COMPLETE` — existing refrigerator cover reused for both 2026-11-11 (repository post). The image is an empty refrigerator beside a kitchen doorway. It does not show a dehumidifier, a tank, a hose or a closed room. |
+| #C31 floor-lamp-taller-than-doorway-dubai | cover, body | `COMPLETE` — existing furniture-by-doorway cover reused for both 2026-11-11 (repository post). The image is a sofa, a chair, a cabinet and shelving beside a doorway. It does not show a floor lamp, a shade, a stem or a base. |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -464,6 +466,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-11-11 | Set the E35 and C31 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |
+| 2026-11-11 | Reused `fridge-disposal-cover` for E35 and `old-furniture-disposal-cover` for C31, each as cover and body. No generation, download or upload. The dehumidifier image is a refrigerator, not a tank in a closed room. The lamp image is grouped furniture beside a doorway, not a floor lamp. |
 | 2026-11-10 | Set the F24 and H28 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |
 | 2026-11-10 | Reused `office-furniture-cover` for F24 and `estate-clearance-cover` for H28, each as cover and body. No generation, download or upload. The paper image is a workplace floor of desks, not a sack of shredded paper. The lost-property image is household boxes in a living room, not a managed building’s store. |
 | 2026-11-10 | Set the E34 and A37 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |

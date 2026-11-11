@@ -12,7 +12,7 @@ Open drawers, cabinets, storage beds and ottomans. Remove documents, keys, medic
 
 ### Separate furniture from the rest of the clearance
 
-An apartment handover may also involve appliances, clothes, boxes, curtains and cleaning. Record those separately. A furniture-removal plan should not quietly expand into a complete home clearance after the quote is confirmed. A freestanding kitchen trolley is one line on that list. The [trolley note](/blog/freestanding-kitchen-trolley-dubai) prepares that piece. It is not the plan for the whole flat.
+An apartment handover may also involve appliances, clothes, boxes, curtains and cleaning. Record those separately. A furniture-removal plan should not quietly expand into a complete home clearance after the quote is confirmed. A freestanding kitchen trolley is one line on that list. The [trolley note](/blog/freestanding-kitchen-trolley-dubai) prepares that piece. It is not the plan for the whole flat. One floor lamp taller than a doorway is one line as well. The [floor-lamp note](/blog/floor-lamp-taller-than-doorway-dubai) is that lamp.
 
 List mattresses apart from bed frames, televisions apart from stands and removable mirrors apart from dressing tables. Flag wall-mounted, fitted or hard-wired items. Collection does not automatically include carpentry, electrical isolation, wall repair or removal of landlord fixtures.
 

@@ -14,6 +14,8 @@ If a retailer is delivering a replacement, read its written removal terms. Do no
 
 ## Identify the appliance accurately
 
+A portable unit with a collection tank, left in a closed room, is not this refrigerator. The [dehumidifier note](/blog/dehumidifier-removal-dubai) empties that tank. A door dispenser on this fridge stays here.
+
 State whether it is a refrigerator, fridge-freezer, side-by-side unit, chest freezer or commercial appliance. Photograph the front, sides, rear where safely visible, connections and route. A standalone chest or upright freezer needs time for food, ice and meltwater; use the [freezer disposal guide](/blog/freezer-disposal-dubai) to plan that preparation before collection.
 
 Measure width, depth and height, including handles and hinges. Check whether doors or drawers can be removed under the manufacturer’s instructions if clearance is tight.

@@ -1,6 +1,6 @@
 A plumbed drinking-water cabinet stays on the supply until the pipe is isolated and capped. Do not cut the tube to free the unit. Empty the reservoir, take the bottles off, and book the cabinet only once it stands clear of the wall.
 
-A bottle that lifts off the top, with no tube into the back, is a different machine. Unplug that one, empty it, and describe it as a bottle cooler. The rest of this page is the unit with a water pipe.
+A bottle that lifts off the top, with no tube into the back, is a different machine. Unplug that one, empty it, and describe it as a bottle cooler. A dehumidifier with its own tank, and no drinking-water pipe, is the [dehumidifier note](/blog/dehumidifier-removal-dubai). Do not use the pipe steps on that unit. The rest of this page is the unit with a water pipe.
 
 ## Name the machine before you book it
 
