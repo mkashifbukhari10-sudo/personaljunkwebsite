@@ -397,6 +397,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 14 — Thursday 2026-11-12
 
+2026-11-12: these two slots stayed blocked. The goal-keyword calendar’s Day 14 pair (plastic crates left after the unpack, and a camp bed stored behind a wardrobe) is `PUBLISHED` in the repository record, dated 2026-11-12. Production has not been verified in this change. Do not draft the aquarium or hot-tub slots from this row.
+
 #### Slot A — `HOLD — DO NOT DRAFT`
 
 - **Primary keyword:** aquarium removal dubai

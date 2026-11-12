@@ -1,6 +1,6 @@
 A bed frame is rarely one object. It is usually a set of rails, slats, legs, a headboard and fixings, and sometimes a storage base with lifting struts or a powered mechanism. The practical way to get rid of one is to identify what kind of frame it is, decide whether it leaves whole or in parts, and choose a route before the new bed arrives. A frame that came in through the bedroom door flat-packed will not necessarily go back out assembled, so check the doorway before anyone starts unscrewing.
 
-The mattress is a separate decision with its own handling. If both are leaving, plan them together but describe them as two items, because a frame and a mattress take up space and need carrying in very different ways.
+The mattress is a separate decision with its own handling. If both are leaving, plan them together but describe them as two items, because a frame and a mattress take up space and need carrying in very different ways. A camp bed stored behind a wardrobe, which folds or will not fold, is the [camp-bed note](/blog/camp-bed-removal-dubai). A bunk stays on this page.
 
 ## Identify the frame before you choose a route
 

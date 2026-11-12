@@ -30,7 +30,7 @@ Open cartons enough to identify what is inside. You do not need to sort every sc
 
 ## Sort the bulky pieces first
 
-Large objects determine the collection plan. A spare wardrobe panel, folding bed, damaged desk, rolled carpet or unused shelving unit may occupy most of the room. Note its approximate size, whether it comes apart, and how it leaves the doorway. A shelving frame can be light but awkward; a box of books can be small but heavy. Both matter to a quote.
+Large objects determine the collection plan. A spare wardrobe panel, folding bed, damaged desk, rolled carpet or unused shelving unit may occupy most of the room. Note its approximate size, whether it comes apart, and how it leaves the doorway. A stack of empty plastic crates left after an unpack is the [plastic-crate note](/blog/plastic-crates-after-unpacking-dubai). A folding camp bed in the same room is the [camp-bed note](/blog/camp-bed-removal-dubai). The room inventory stays here. A shelving frame can be light but awkward; a box of books can be small but heavy. Both matter to a quote.
 
 Do not dismantle furniture automatically. Taking apart a unit that will be reused may create a pile of unlabelled hardware. Leaving a tall unit assembled may make the service route impossible. Photograph it as it stands and ask the collector whether it should stay whole. If dismantling is needed, keep the screws in a labelled bag and separate any sharp edges. Our [wardrobe removal guide](/blog/wardrobe-removal-dubai) explains the same whole-versus-dismantled decision for larger furniture.
 

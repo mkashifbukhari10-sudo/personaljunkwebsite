@@ -1,4 +1,4 @@
-A wardrobe can look simple until it has to pass through a doorway. Its height, weight, mirrors, sliding tracks and weak joints all affect the safest removal method. Plan the object and the route together. The useful question is not merely whether the wardrobe fits in the truck, but whether it can leave the room without damaging the furniture, the property or the people carrying it.
+A wardrobe can look simple until it has to pass through a doorway. Its height, weight, mirrors, sliding tracks and weak joints all affect the safest removal method. Plan the object and the route together. The useful question is not merely whether the wardrobe fits in the truck, but whether it can leave the room without damaging the furniture, the property or the people carrying it. A camp bed stored behind this wardrobe is a separate object. The [camp-bed note](/blog/camp-bed-removal-dubai) is that bed. This page stays the wardrobe.
 
 ## Decide whether the wardrobe stays intact
 

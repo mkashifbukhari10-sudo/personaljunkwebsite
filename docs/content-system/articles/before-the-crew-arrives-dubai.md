@@ -4,7 +4,7 @@ The work before a junk-removal appointment is mostly decision-making. The crew n
 
 Walk through every room and identify the agreed load. Separate definite removals from undecided items. Use coloured notes only if everyone understands them, and never attach adhesive that can damage a finish. For a mixed pile, take one wide photo and close-ups of unusual items.
 
-Tell the provider about additions before dispatch. A sofa, appliance or extra room changes volume and timing. Small bags also add up. An accurate list allows the right vehicle and crew to be assigned and keeps the quote meaningful.
+Tell the provider about additions before dispatch. A sofa, appliance or extra room changes volume and timing. Small bags also add up. An accurate list allows the right vehicle and crew to be assigned and keeps the quote meaningful. A stack of plastic crates left after an unpack is the [plastic-crate note](/blog/plastic-crates-after-unpacking-dubai). This page stays the general arrival check.
 
 Remove personal belongings from drawers, cupboards, bags and furniture. Check documents, keys, electronics and medication. The collection team should not decide whether an object is valuable or sentimental. If ownership is disputed, leave the item out of the load until authorised.
 
