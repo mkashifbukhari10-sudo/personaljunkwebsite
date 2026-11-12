@@ -30,6 +30,8 @@ Wooden crates and pallets need their own description. They can have protruding n
 
 Do not break a crate apart to make it smaller unless you can do it safely and have somewhere to put the loose boards and fixings. A whole crate is often easier to carry than an armful of splintered timber with exposed nails.
 
+Rigid plastic crates left after the unpack, empty or still holding what came out of them, are the [plastic-crate note](/blog/plastic-crates-after-unpacking-dubai). This section stays timber crates and pallets.
+
 ### Items that do not belong in the packaging pile
 
 Put sharp or broken packing pieces in a safe container and tell the collector what it contains. Keep batteries, aerosols, paint, cleaning products and electronic devices out of the packaging pile. Those materials need an answer of their own, as the [acceptance guide](/blog/what-we-take-dubai) explains. A drawer of loose cables, a spare power adapter or a half-used tin of touch-up paint can easily end up in a box marked for disposal, so check each carton before you flatten it.

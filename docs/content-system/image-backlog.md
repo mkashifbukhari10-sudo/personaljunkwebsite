@@ -427,6 +427,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #H28 lost-property-box-managed-building-dubai | cover, body | `COMPLETE` — existing estate-clearance cover reused for both 2026-11-10 (repository post). The image is a living room with household boxes and a notebook. It does not show a managed building’s store, a lost-property label or a management message. |
 | #E35 dehumidifier-removal-dubai | cover, body | `COMPLETE` — existing refrigerator cover reused for both 2026-11-11 (repository post). The image is an empty refrigerator beside a kitchen doorway. It does not show a dehumidifier, a tank, a hose or a closed room. |
 | #C31 floor-lamp-taller-than-doorway-dubai | cover, body | `COMPLETE` — existing furniture-by-doorway cover reused for both 2026-11-11 (repository post). The image is a sofa, a chair, a cabinet and shelving beside a doorway. It does not show a floor lamp, a shade, a stem or a base. |
+| #F25 plastic-crates-after-unpacking-dubai | cover, body | `COMPLETE` — existing arrival cover reused for both 2026-11-12 (repository review). The image is boxes, a chair, a small appliance and a rolled rug beside an open door. It does not show a plastic crate, a lid or a nested stack. |
+| #C32 camp-bed-removal-dubai | cover, body | `COMPLETE` — existing wardrobe cover reused for both 2026-11-12 (repository review). The image is a wooden wardrobe with padded corners beside a bedroom doorway. It does not show a camp bed, a folding frame or a gap behind the wardrobe. |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -466,6 +468,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-11-12 | Reused `before-crew-arrives-cover` for F25 and `wardrobe-removal-cover` for C32, each as cover and body. No generation, download or upload. The crate image is boxes, a chair, a small appliance and a rolled rug, not a plastic crate. The camp-bed image is a wardrobe beside a doorway, not a camp bed. Both articles are `REVIEW`, not `PUBLISHED`. |
 | 2026-11-11 | Set the E35 and C31 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |
 | 2026-11-11 | Reused `fridge-disposal-cover` for E35 and `old-furniture-disposal-cover` for C31, each as cover and body. No generation, download or upload. The dehumidifier image is a refrigerator, not a tank in a closed room. The lamp image is grouped furniture beside a doorway, not a floor lamp. |
 | 2026-11-10 | Set the F24 and H28 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |

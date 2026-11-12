@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "camp-bed-removal-dubai",
+    title: "A camp bed stored behind a wardrobe",
+    excerpt: "Fold the camp bed if the joints close by hand, and leave the wardrobe as its own line.",
+    publishedAt: "2026-11-12T05:00:05.000Z",
+    cover: "wardrobe-removal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Name the camp bed behind the wardrobe",
+    seoDescription: "Fold the camp bed if it folds by hand, and leave the wardrobe as its own line.",
+    ogTitle: "The fold and the gap",
+    ogDescription: "One camp bed behind the wardrobe."
+  },
+  {
+    slug: "plastic-crates-after-unpacking-dubai",
+    title: "Plastic crates left after the unpack",
+    excerpt: "Empty each plastic crate, count the stack, and keep the cartons and the contents off this note.",
+    publishedAt: "2026-11-12T05:00:00.000Z",
+    cover: "before-crew-arrives-cover",
+    services: ["junk-removal"],
+    seoTitle: "Empty the plastic crates first",
+    seoDescription: "Count the plastic crates, empty them, and keep cartons and contents off this note.",
+    ogTitle: "Crates, not the cartons",
+    ogDescription: "Empty plastic crates after the unpack."
+  },
+  {
     slug: "floor-lamp-taller-than-doorway-dubai",
     title: "A floor lamp taller than the doorway",
     excerpt: "Lift the shade if it comes off by hand, measure the stem against the open doorway, and leave the cord uncut.",
