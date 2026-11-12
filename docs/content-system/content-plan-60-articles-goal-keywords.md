@@ -492,9 +492,9 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-11 
 
 ### Day 14 — Thursday 2026-11-12
 
-Both slots below were written for review on 2026-11-12. Status is `REVIEW`, not `PUBLISHED`. Merging the repository change would make the URLs resolve; a separate “Merge and live” approval is still required. The 30-day plan’s Day 14 pair stayed blocked. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources. The 30-day plan’s water-damaged furniture, piano, pool-table and safe slots stayed blocked.
+Both slots below were set to `PUBLISHED` in the repository record on 2026-11-12 after the owner said “Merge and live”. Production has not been verified in this change. The 30-day plan’s Day 14 pair stayed blocked. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources. The 30-day plan’s water-damaged furniture, piano, pool-table and safe slots stayed blocked.
 
-#### Slot A — `REVIEW 2026-11-12` — Adequate — F25
+#### Slot A — `PUBLISHED 2026-11-12` — Adequate — F25
 
 - **Primary keyword:** plastic crates after unpacking dubai
 - **Title:** Plastic crates left after the unpack
@@ -505,7 +505,7 @@ Both slots below were written for review on 2026-11-12. Status is `REVIEW`, not 
 - **Why this slot:** Crates are not cardboard and not the contents.
 - **SERP note:** Not measured.
 
-#### Slot B — `REVIEW 2026-11-12` — Adequate — C32
+#### Slot B — `PUBLISHED 2026-11-12` — Adequate — C32
 
 - **Primary keyword:** camp bed removal dubai
 - **Title:** A camp bed stored behind a wardrobe
