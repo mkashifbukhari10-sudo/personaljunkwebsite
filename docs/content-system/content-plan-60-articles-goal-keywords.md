@@ -518,7 +518,9 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-12 
 
 ### Day 15 — Friday 2026-11-13
 
-#### Slot A — `NEW — supporting article` — Adequate
+Both slots below were written for review on 2026-11-13. Status is `REVIEW`, not `PUBLISHED`. Merging the repository change would make the URLs resolve; a separate “Merge and live” approval is still required. The 30-day plan’s Day 15 pair stayed blocked. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources. The 30-day plan’s water-damaged furniture, piano, pool-table, safe, aquarium and hot-tub slots stayed blocked.
+
+#### Slot A — `REVIEW 2026-11-13` — Adequate — C33
 
 - **Primary keyword:** high chair removal dubai
 - **Title:** A high chair that will not fold
@@ -529,7 +531,7 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-12 
 - **Why this slot:** The children’s-room guide is the whole room. This is one chair.
 - **SERP note:** Not measured.
 
-#### Slot B — `NEW — supporting article` — Adequate
+#### Slot B — `REVIEW 2026-11-13` — Adequate — A38
 
 - **Primary keyword:** stroller removal dubai
 - **Title:** A stroller that will not fold flat

@@ -421,6 +421,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 15 — Friday 2026-11-13
 
+2026-11-13: these two slots stayed blocked. The goal-keyword calendar’s Day 15 pair (a high chair that will not fold, and a stroller that will not fold flat) is `REVIEW` in the repository record, written 2026-11-13. It is not a published claim. Do not draft the above-ground pool-frame or water-tank slots from this row.
+
 #### Slot A — `HOLD — DO NOT DRAFT`
 
 - **Primary keyword:** above ground pool frame removal dubai
