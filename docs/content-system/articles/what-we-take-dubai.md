@@ -44,7 +44,7 @@ Home textiles and soft furnishings represent another major category. Mattresses,
 
 Fitness equipment and sporting goods are notoriously heavy and awkward for residents to discard independently. Junk removal crews regularly haul away motorized treadmills, elliptical cross-trainers, stationary exercise bikes, rowing machines, weight benches, free-weight dumbbell sets, barbell bars, weight plates, boxing punching bags, yoga mats, and bicycles. Treadmills and multi-gym structures frequently require partial unbolting to pass through interior door openings, which the collection team handles as part of the loading process.
 
-Children’s toys, outdoor play structures, and nursery equipment are also standard items. Dismantled wooden cribs, nursery changing tables, baby cots, prams, strollers, plastic toy storage chests, ride-on toys, and modular plastic outdoor playhouses from villa gardens can all be cleared. Discarding these bulky plastic and timber items in one collection frees up immediate living space when children outgrow their nursery furniture.
+Children’s toys, outdoor play structures, and nursery equipment are also standard items. Dismantled wooden cribs, nursery changing tables, baby cots, prams, strollers, plastic toy storage chests, ride-on toys, and modular plastic outdoor playhouses from villa gardens can all be cleared. Discarding these bulky plastic and timber items in one collection frees up immediate living space when children outgrow their nursery furniture. One stroller that will not fold flat is the [stroller note](/blog/stroller-removal-dubai). This page stays the acceptance list.
 
 ## Garden trimmings, outdoor waste, and green materials
 

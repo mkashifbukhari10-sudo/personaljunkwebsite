@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "stroller-removal-dubai",
+    title: "A stroller that will not fold flat",
+    excerpt: "Fold the stroller flat only if the catch closes by hand, and name the wheels and the basket.",
+    publishedAt: "2026-11-13T05:00:05.000Z",
+    cover: "weekend-junk-removal-cover",
+    services: ["junk-removal"],
+    seoTitle: "Name the fold on the stroller",
+    seoDescription: "Fold the stroller flat if the catch closes by hand, and name the wheels.",
+    ogTitle: "The fold and the wheels",
+    ogDescription: "One stroller, flat or still open."
+  },
+  {
+    slug: "high-chair-removal-dubai",
+    title: "A high chair that will not fold",
+    excerpt: "Fold the high chair only where it already folds, and keep the tray and the straps with the chair.",
+    publishedAt: "2026-11-13T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Name the fold on the high chair",
+    seoDescription: "Fold the high chair if it folds by hand, and leave the tray and straps named.",
+    ogTitle: "The fold and the tray",
+    ogDescription: "One high chair, folded or not."
+  },
+  {
     slug: "camp-bed-removal-dubai",
     title: "A camp bed stored behind a wardrobe",
     excerpt: "Fold the camp bed if the joints close by hand, and leave the wardrobe as its own line.",
