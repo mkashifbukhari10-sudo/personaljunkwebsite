@@ -445,7 +445,7 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 16 — Saturday 2026-11-14
 
-2026-11-14: these two slots stayed blocked. The goal-keyword calendar’s Day 16 pair (dining chairs when the table is staying, and a pair of bedside tables) is `REVIEW`, not `PUBLISHED`. Production has not been verified in this change. Do not draft the ceiling-fan or commercial-gym slots from this row.
+2026-11-14: these two slots stayed blocked. The goal-keyword calendar’s Day 16 pair (dining chairs when the table is staying, and a pair of bedside tables) is `PUBLISHED` in the repository record, dated 2026-11-14. Production has not been verified in this change. Do not draft the ceiling-fan or commercial-gym slots from this row.
 
 #### Slot A — `HOLD — DO NOT DRAFT`
 
