@@ -99,6 +99,8 @@ A short, accurate description produces a quote that reflects the real job. Send:
 - Parking or loading arrangements at the building or villa
 - The date by which the room must be clear, and any delivery booked for that day
 
+A pair of bedside tables, and nothing else from the room, is the [bedside-table note](/blog/bedside-tables-only-dubai). The bed stays on this page.
+
 Mention damage that affects handling: a cracked rail, a loose headboard, a strut that no longer holds the platform, or a frame that has been wet. A description of "one old bed" leaves both sides guessing. A description that separates the frame, the headboard, the storage base and the mattress allows the collector to bring enough space and the right tools.
 
 ## Mistakes that slow down bed frame removal

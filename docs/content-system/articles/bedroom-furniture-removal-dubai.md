@@ -1,6 +1,6 @@
 Bedroom furniture removal should be planned as one coordinated room inventory, not as a series of unrelated item pickups. Decide what belongs to whom, empty every storage space, separate the mattress from the bed, record mirrors and fragile parts, and measure the largest component against the complete route out of the property.
 
-The room name does not describe the load. One bedroom may contain only a bed and two side tables; another may include a tall wardrobe, dressing table, chest of drawers, television, desk, ottoman and boxes hidden under a storage base. List the actual pieces before asking for a quote. One camp bed stored behind a wardrobe is one line on that list. The [camp-bed note](/blog/camp-bed-removal-dubai) is that bed.
+The room name does not describe the load. One bedroom may contain only a bed and two side tables; another may include a tall wardrobe, dressing table, chest of drawers, television, desk, ottoman and boxes hidden under a storage base. List the actual pieces before asking for a quote. One camp bed stored behind a wardrobe is one line on that list. The [camp-bed note](/blog/camp-bed-removal-dubai) is that bed. A pair of bedside tables, and nothing else from the room, is one line. The [bedside-table note](/blog/bedside-tables-only-dubai) is that pair. A chest of drawers stays on this room list.
 
 ## Freeze the keep-and-remove decision first
 

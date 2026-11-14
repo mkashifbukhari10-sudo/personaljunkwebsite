@@ -544,7 +544,9 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-13 
 
 ### Day 16 — Saturday 2026-11-14
 
-#### Slot A — `NEW — supporting article` — Adequate
+Both slots below were set to `PUBLISHED` in the repository record on 2026-11-14 after the owner said “Merge and live”. Production has not been verified in this change. The 30-day plan’s Day 16 pair stayed blocked. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope because they still need sources. The 30-day plan’s water-damaged furniture, piano, pool-table, safe, aquarium, hot-tub, above-ground pool-frame and water-tank slots stayed blocked.
+
+#### Slot A — `PUBLISHED 2026-11-14` — Adequate — C34
 
 - **Primary keyword:** dining chairs without the table dubai
 - **Title:** Dining chairs when the table is staying
@@ -555,7 +557,7 @@ Both slots below were set to `PUBLISHED` in the repository record on 2026-11-13 
 - **Why this slot:** The table guide owns the top. This is the set that is leaving without it.
 - **SERP note:** Not measured.
 
-#### Slot B — `NEW — supporting article` — Adequate
+#### Slot B — `PUBLISHED 2026-11-14` — Adequate — C35
 
 - **Primary keyword:** bedside tables removal dubai
 - **Title:** A pair of bedside tables, nothing else

@@ -1,6 +1,6 @@
 The lamp is too tall for the opening in front of it. Measure the standing height, the widest part of the shade, and the clear gap of the doorway with the door as open as it goes. If the shade lifts off by hand, take it off and measure the stem again. A booking that says “the lights” will be read as a bag of fittings. This note is one floor lamp.
 
-A fan fixed to the ceiling is not this lamp. That job is unconfirmed here, and this page does not describe how to take one down. A light screwed to the wall is a fitting, not a floor lamp. Leave it on the wall.
+A fan fixed to the ceiling is not this lamp. That job is unconfirmed here, and this page does not describe how to take one down. A light screwed to the wall is a fitting, not a floor lamp. Leave it on the wall. A lamp that only sits on a bedside table is not this floor lamp. The pair of tables is the [bedside-table note](/blog/bedside-tables-only-dubai).
 
 ## Shade, stem and base
 
