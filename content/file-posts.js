@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "bedside-tables-only-dubai",
+    title: "A pair of bedside tables, nothing else",
+    excerpt: "Empty both bedside tables, name the pair, and leave the bed and the wardrobe as their own lines.",
+    publishedAt: "2026-11-14T05:00:05.000Z",
+    cover: "mattress-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Name the pair beside the bed",
+    seoDescription: "Empty both bedside tables, and leave the bed off this note.",
+    ogTitle: "The pair, and nothing else",
+    ogDescription: "Two bedside tables, with the bed staying."
+  },
+  {
+    slug: "dining-chairs-without-the-table-dubai",
+    title: "Dining chairs when the table is staying",
+    excerpt: "Count the dining chairs that are leaving, and leave the table as its own line.",
+    publishedAt: "2026-11-14T05:00:00.000Z",
+    cover: "old-furniture-disposal-cover",
+    services: ["furniture-removal"],
+    seoTitle: "Count the chairs and leave the table",
+    seoDescription: "Name each dining chair that is leaving, and say the table is staying.",
+    ogTitle: "The chairs, not the table",
+    ogDescription: "Dining chairs leaving, table staying."
+  },
+  {
     slug: "stroller-removal-dubai",
     title: "A stroller that will not fold flat",
     excerpt: "Fold the stroller flat only if the catch closes by hand, and name the wheels and the basket.",

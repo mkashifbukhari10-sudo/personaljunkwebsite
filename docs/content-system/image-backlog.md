@@ -431,6 +431,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #C32 camp-bed-removal-dubai | cover, body | `COMPLETE` — existing wardrobe cover reused for both 2026-11-12 (repository post). The image is a wooden wardrobe with padded corners beside a bedroom doorway. It does not show a camp bed, a folding frame or a gap behind the wardrobe. |
 | #C33 high-chair-removal-dubai | cover, body | `COMPLETE` — existing furniture-by-doorway cover reused for both 2026-11-13 (repository post). The image is a sofa, a chair, a cabinet and shelving beside a doorway. It does not show a high chair, a tray, a strap or a fold. |
 | #A38 stroller-removal-dubai | cover, body | `COMPLETE` — existing corridor cover reused for both 2026-11-13 (repository post). The image is a residential corridor and an open doorway with household items staged. It does not show a stroller, a fold, a wheel or a basket. |
+| #C34 dining-chairs-without-the-table-dubai | cover, body | `COMPLETE` — existing furniture-by-doorway cover reused for both 2026-11-14 (repository post). The image is a sofa, a chair, a cabinet and shelving beside a doorway. It does not show a counted set of dining chairs, or a table that is staying. The article is `REVIEW`, not `PUBLISHED`. |
+| #C35 bedside-tables-only-dubai | cover, body | `COMPLETE` — existing mattress cover reused for both 2026-11-14 (repository post). The image is a mattress beside a bedroom doorway. It does not show a bedside table, a drawer or a pair. The article is `REVIEW`, not `PUBLISHED`. |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -470,6 +472,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-11-14 | Reused `old-furniture-disposal-cover` for C34 and `mattress-disposal-cover` for C35, each as cover and body. No generation, download or upload. The dining-chair image is grouped furniture beside a doorway, including one ordinary chair, not a set leaving without a table. The bedside image is a mattress beside a bedroom doorway, not a pair of tables. Both articles are `REVIEW`, not `PUBLISHED`. |
 | 2026-11-13 | Set the C33 and A38 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |
 | 2026-11-13 | Reused `old-furniture-disposal-cover` for C33 and `weekend-junk-removal-cover` for A38, each as cover and body. No generation, download or upload. The high-chair image is grouped furniture beside a doorway, not a high chair. The stroller image is a corridor and an open doorway, not a stroller. Both articles are `REVIEW`, not `PUBLISHED`. |
 | 2026-11-12 | Set the F25 and C32 image rows to `PUBLISHED` repository posts. No generation, download or upload. The same inspected images remain. Production was not verified in this change. |

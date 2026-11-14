@@ -1,6 +1,6 @@
 The chair at the table is a high chair, or it is not. Look for a seat a child sits in, a tray or the place a tray clipped, straps, and legs that stand higher than a dining chair. If a joint already folds and you can close it with your hands, close it and measure the folded chair. If it does not close, write “will not fold” and measure it open. A booking that says “the chair” will be read as a dining chair. This note is one high chair.
 
-A whole children’s room, with a cot, a bed, drawers and bags of toys, stays on the [children’s-room clearance](/blog/childrens-room-clearance-dubai). Come back here when the object is one high chair and the open question is the fold, the tray and the straps. A dining table, and the chairs that belong to that table, stay on the [dining-table guide](/blog/dining-table-removal-dubai). An adult armchair, including a recliner, stays on the [armchair guide](/blog/armchair-removal-dubai). A wheeled buggy is not this chair. That fold is the [stroller note](/blog/stroller-removal-dubai).
+A whole children’s room, with a cot, a bed, drawers and bags of toys, stays on the [children’s-room clearance](/blog/childrens-room-clearance-dubai). Come back here when the object is one high chair and the open question is the fold, the tray and the straps. A dining table, and the chairs that leave with that table, stay on the [dining-table guide](/blog/dining-table-removal-dubai). Dining chairs that leave while the table stays are the [dining-chairs note](/blog/dining-chairs-without-the-table-dubai). An adult armchair, including a recliner, stays on the [armchair guide](/blog/armchair-removal-dubai). A wheeled buggy is not this chair. That fold is the [stroller note](/blog/stroller-removal-dubai).
 
 ## Fold it only where it already folds
 
@@ -42,7 +42,7 @@ A chair stored in a gap behind another piece is a location, not a reason to take
 
 ## What is not this chair
 
-A dining chair that belongs with a table is part of that table’s job. Count it on the dining-table guide. Do not describe a set of dining chairs as one high chair because one of them is tall. Chairs that leave while the table stays are not this page either. This note will not open a guide for that set. If the object has a child’s seat, a tray and a tall frame, you are in the right place. If it is an ordinary chair from the table, you are not.
+A dining chair that belongs with a table is part of that table’s job. Count it on the dining-table guide. Do not describe a set of dining chairs as one high chair because one of them is tall. Chairs that leave while the table stays are the [dining-chairs note](/blog/dining-chairs-without-the-table-dubai). They are not this high chair. If the object has a child’s seat, a tray and a tall frame, you are in the right place. If it is an ordinary chair from the table, you are not.
 
 An armchair has arms, a back and a seat at adult height. A wingback, a swivel and a recliner stay on the armchair guide. Do not call a recliner a high chair because both have a catch. If the chair plugs in, you are on the wrong page.
 
