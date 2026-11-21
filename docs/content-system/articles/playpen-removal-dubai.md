@@ -1,6 +1,6 @@
 The item is one playpen, and the fold has stopped working. Do not force it. Empty it, find out which kind of playpen it is, and write whether it folds, half folds, or stays standing. A playpen that will not fold is still a playpen. The booking only needs to know which shape it will leave in.
 
-This note is the playpen only. A whole child’s room is the [children’s room guide](/blog/childrens-room-clearance-dubai). A high chair that will not fold is the [high-chair note](/blog/high-chair-removal-dubai). A stroller that will not fold flat is the [stroller note](/blog/stroller-removal-dubai). A balcony with toys, a fan and a drying rack on it is the [balcony guide](/blog/balcony-clearance-dubai). Come back here when the question is one playpen and its fold.
+This note is the playpen only. A whole child’s room is the [children’s room guide](/blog/childrens-room-clearance-dubai). A high chair that will not fold is the [high-chair note](/blog/high-chair-removal-dubai). A stroller that will not fold flat is the [stroller note](/blog/stroller-removal-dubai). A balcony with toys, a fan and a drying rack on it is the [balcony guide](/blog/balcony-clearance-dubai). One drying rack on its own is the [drying-rack note](/blog/drying-rack-removal-dubai). A plastic pet carrier is the [pet-carrier note](/blog/pet-carrier-removal-dubai). Come back here when the question is one playpen and its fold.
 
 ## Empty it before you touch the fold
 

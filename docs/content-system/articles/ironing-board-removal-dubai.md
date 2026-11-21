@@ -8,7 +8,7 @@ An ironing board, for this note, is a long narrow top on legs, made to be stood 
 
 A table is not this board. A desk is not this board. A shelf that is part of a cupboard is not this board. If the object has drawers, or it is fixed as furniture you sit at, name it as that furniture and keep it off this note.
 
-A clothes airer or a drying rack is not an ironing board. It has no ironing top. If that is the object behind the door, write “drying rack” and do not follow these steps as if it were a board.
+A clothes airer or a drying rack is not an ironing board. It has no ironing top. If that is the object behind the door, the [drying-rack note](/blog/drying-rack-removal-dubai) is that rack. Do not follow these steps as if it were a board.
 
 An iron is not the board. The iron is the heated tool that sits on the board or in a cupboard. The acceptance list already groups a clothing iron with small appliances when it leaves in a wider load. This page does not empty an iron, and it does not open a steam tank. If the iron is leaving, it is its own line. Write “iron, separate”. If the iron is staying, put it where you keep it, out of the photos of the board.
 

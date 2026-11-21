@@ -445,6 +445,8 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 | #E38 vacuum-cleaner-removal-dubai | cover, body | `COMPLETE` — existing acceptance-guide cover reused for both 2026-11-19 (published repository post). The image is a sofa, stacked boxes and an appliance beside an open doorway. It does not show a vacuum cleaner, a hose, a dust compartment, a battery or a cupboard. |
 | #E39 pedestal-fan-removal-dubai | cover, body | `COMPLETE` — existing corridor cover reused for both 2026-11-20 (published repository post). The image is a residential corridor and an open doorway with household items staged. It does not show a pedestal fan, a guard, a pole, a base or a stuck joint. |
 | #C41 ironing-board-removal-dubai | cover, body | `COMPLETE` — existing wardrobe cover reused for both 2026-11-20 (published repository post). The image is a wooden wardrobe with padded corners beside a bedroom doorway. It does not show an ironing board, a cover, a leg, a latch or a door stopped by a board. |
+| #C42 drying-rack-removal-dubai | cover, body | `COMPLETE` — existing laundry-room cover reused for both 2026-11-21 (repository review draft). The image is a washer and a dryer in a utility room, with a sink and hose connections. It does not show a drying rack, a wing, a peg, a railing or a balcony door. |
+| #A40 pet-carrier-removal-dubai | cover, body | `COMPLETE` — existing storage-room cover reused for both 2026-11-21 (repository review draft). The image is shelves, boxes, a rolled rug and a worn table in a storage room. It does not show a pet carrier, a grille, a latch, bedding or a bowl. |
 | #N-17 water-heater-removal-dubai | cover, OG, body | `COMPLETE` — existing media reused 2026-10-16 (Media 73, 77) · a water-heater image would make a better future cover |
 | #6 end-of-tenancy | body | `NEEDED` |
 | #11 junk-gone-today | body | `NEEDED` |
@@ -484,6 +486,7 @@ The six original, unbranded editorial images below were generated for #22, #32 a
 
 | Date | Change |
 |---|---|
+| 2026-11-21 | Reused `laundry-room-cover` for C42 and `article-storage-room-clearance-dubai-cover` for A40, each as cover and body. No generation, download or upload. The rack image is a washer and a dryer in a utility room, not a drying rack. The carrier image is a storage room of shelves, boxes, a rug and a table, not a pet carrier. Both articles are `REVIEW`, not `PUBLISHED`. |
 | 2026-11-20 | Set the E39 and C41 image rows to `PUBLISHED` repository posts after “Merge and live”. No generation, download or upload. The same inspected images remain. |
 | 2026-11-20 | Reused `weekend-junk-removal-cover` for E39 and `wardrobe-removal-cover` for C41, each as cover and body. No generation, download or upload. The fan image is a corridor with household items staged, not a pedestal fan. The board image is a wardrobe beside a bedroom doorway, not an ironing board. Both articles are `REVIEW`, not `PUBLISHED`. |
 | 2026-11-19 | Set the C40 and E38 image rows to `PUBLISHED` repository posts after “Merge and live”. No generation, download or upload. The same inspected images remain. |

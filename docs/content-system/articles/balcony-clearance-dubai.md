@@ -30,7 +30,7 @@ If you are replacing plants, decide whether each pot stays before emptying it. E
 
 A balcony can become overflow storage after a move or a large delivery. Flattened boxes, foam inserts, plastic wrap and old appliance cartons pile up against the wall. Group them away from the furniture and keep them dry; wet cardboard collapses and is harder to carry. The [packing material guide](/blog/packing-material-disposal-dubai) covers sorting cartons, foam and wooden crates, and how to tell whether the volume needs a booked collection.
 
-Drying racks, broken umbrellas, old fans, mops, buckets and toys belong in a general clutter group. Each piece is light, but together they take space in a vehicle and time to carry. Count them or show them clearly in a photo rather than describing them as "a few small things". One pedestal fan whose neck, pole or legs will not fold is not that count. The [pedestal-fan note](/blog/pedestal-fan-removal-dubai) is that one fan. A ceiling fan is not part of this balcony pile.
+Drying racks, broken umbrellas, old fans, mops, buckets and toys belong in a general clutter group. Each piece is light, but together they take space in a vehicle and time to carry. Count them or show them clearly in a photo rather than describing them as "a few small things". One pedestal fan whose neck, pole or legs will not fold is not that count. The [pedestal-fan note](/blog/pedestal-fan-removal-dubai) is that one fan. One drying rack, emptied, with the fold tried, is not that count either. The [drying-rack note](/blog/drying-rack-removal-dubai) is that one rack. A ceiling fan is not part of this balcony pile.
 
 ## Keep hazardous and special items out of the ordinary pile
 

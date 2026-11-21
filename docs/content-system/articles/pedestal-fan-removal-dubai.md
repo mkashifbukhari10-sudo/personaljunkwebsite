@@ -64,7 +64,7 @@ Oscillation is the head turning from side to side. If a knob for that is already
 
 The fan is awkward because of where it was left, as well as because of the fold.
 
-In a corner it may be behind a curtain, a drying rack or a chair. Move what is yours to move, and put those things where they are not the fan. If a drying rack is also leaving, it is its own line. The balcony guide already counts racks and old fans together when the balcony is the job. This note is the one fan whose fold has stopped. Do not call the corner “the fan”.
+In a corner it may be behind a curtain, a drying rack or a chair. Move what is yours to move, and put those things where they are not the fan. If a drying rack is also leaving, it is its own line. The [drying-rack note](/blog/drying-rack-removal-dubai) is that rack. The balcony guide already counts racks and old fans together when the balcony is the job. This note is the one fan whose fold has stopped. Do not call the corner “the fan”.
 
 On a balcony, the base may be rusty and the cord may run under a door. Unplug it inside before you lift it. If the cord is pinched in the door, free the cord. Do not shut the door on it to “hold it”. If the fan is tied to a railing with a strap or a wire, untie the strap if it is a loose strap. If the fan is bolted or screwed to the railing or the floor, write “fixed to the balcony” and do not unscrew the building. This page starts when the fan already stands free. A fan that is part of the balcony fitting is not this object.
 

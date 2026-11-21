@@ -613,7 +613,7 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 
 ### Day 23 — Saturday 2026-11-21
 
-2026-11-20: these two slots stayed `DO NOT WRITE`. No microwave URL and no cardboard URL were opened. The goal-keyword calendar’s ironing-board slot on this day is `PUBLISHED` as C41, dated 2026-11-20, because the goal-keyword Day 22 vacuum slot was already published. That is not this microwave slot.
+2026-11-20: these two slots stayed `DO NOT WRITE`. No microwave URL and no cardboard URL were opened. The goal-keyword calendar’s ironing-board slot on this day is `PUBLISHED` as C41, dated 2026-11-20, because the goal-keyword Day 22 vacuum slot was already published. That is not this microwave slot. 2026-11-21: these two slots stayed `DO NOT WRITE`. No microwave URL and no cardboard URL were opened. The goal-keyword calendar’s drying-rack slot on this day, and the next eligible slot, a plastic pet carrier, were written for review as C42 and A40. Both are `REVIEW`, not `PUBLISHED`. That is not this microwave slot and not this cardboard slot.
 
 #### Slot A — `DO NOT WRITE`
 
@@ -636,6 +636,8 @@ Read the status before the title. A title on a `DO NOT WRITE` slot names the ref
 - **SERP observation:** Take My Junk lists cardboard boxes on an acceptance page. That does not justify a new URL. Not measured.
 
 ### Day 24 — Sunday 2026-11-22
+
+2026-11-21: these two slots stayed `DO NOT WRITE`. No exercise-bike URL and no rowing-machine URL were opened. The goal-keyword calendar’s pet-carrier slot on this day was brought forward and written for review on 2026-11-21 as A40, because the goal-keyword Day 23 ironing-board slot was already published. That is not this exercise-bike slot.
 
 #### Slot A — `DO NOT WRITE`
 

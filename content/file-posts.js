@@ -477,6 +477,30 @@ export const fileImages = {
 /** Newest first. */
 export const filePosts = [
   {
+    slug: "pet-carrier-removal-dubai",
+    title: "A plastic pet carrier in a store",
+    excerpt: "Empty the carrier, try the door, and keep one plastic carrier as its own line.",
+    publishedAt: "2026-11-21T05:00:05.000Z",
+    cover: "article-storage-room-clearance-dubai-cover",
+    services: ["junk-removal"],
+    seoTitle: "Empty the carrier and try the door",
+    seoDescription: "Empty the carrier, try the door, and keep one plastic carrier as its own line.",
+    ogTitle: "The carrier, not the store",
+    ogDescription: "A plastic pet carrier in a store."
+  },
+  {
+    slug: "drying-rack-removal-dubai",
+    title: "A drying rack from a balcony",
+    excerpt: "Empty the rack, try the fold, and say whether it is tied to the railing.",
+    publishedAt: "2026-11-21T05:00:00.000Z",
+    cover: "laundry-room-cover",
+    services: ["junk-removal"],
+    seoTitle: "Empty the rack and try the fold",
+    seoDescription: "Empty the rack, try the fold, and say whether it is tied to the railing.",
+    ogTitle: "The rack, not the balcony",
+    ogDescription: "A drying rack from a balcony."
+  },
+  {
     slug: "ironing-board-removal-dubai",
     title: "An ironing board behind a door",
     excerpt: "Check the cover, try the fold, and name the door the board was blocking.",

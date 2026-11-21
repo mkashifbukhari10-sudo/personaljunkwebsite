@@ -730,7 +730,7 @@ Slot A was already published on 2026-11-19 as E38. Slot B (E39) and Day 23 Slot 
 
 ### Day 23 — Saturday 2026-11-21
 
-Slot A was brought forward and set to `PUBLISHED` on 2026-11-20 as C41, after the owner said “Merge and live”, because Day 22 Slot A was already published as E38 and Day 22 still needed a second eligible article. Slot B on this day stays unwritten.
+Slot A was brought forward and set to `PUBLISHED` on 2026-11-20 as C41, after the owner said “Merge and live”, because Day 22 Slot A was already published as E38 and Day 22 still needed a second eligible article. Slot B was written for review on 2026-11-21 as C42. It is `REVIEW`, not `PUBLISHED`. The 30-day plan’s Day 23 pair (a microwave and cardboard) stayed `DO NOT WRITE`. G24, K21, G25, K20, M29 and M30 stayed blocked. G26 and M28 stayed out of scope. A ceiling fan stayed blocked.
 
 #### Slot A — `PUBLISHED 2026-11-20` — Thin — C41
 
@@ -743,7 +743,7 @@ Slot A was brought forward and set to `PUBLISHED` on 2026-11-20 as C41, after th
 - **Why this slot:** Filler. The bins guide may already be enough. Set to `PUBLISHED` on 2026-11-20 after “Merge and live”. Brought forward from this day. The bedroom guide keeps the whole room. The bins guide keeps the container question.
 - **SERP note:** No dedicated Dubai page was opened for this object. Not measured.
 
-#### Slot B — `NEW — supporting article` — Thin
+#### Slot B — `REVIEW 2026-11-21` — Thin — C42
 
 - **Primary keyword:** drying rack removal dubai
 - **Title:** A drying rack from a balcony
@@ -751,12 +751,16 @@ Slot A was brought forward and set to `PUBLISHED` on 2026-11-20 as C41, after th
 - **Suggested URL:** `/blog/drying-rack-removal-dubai`
 - **Supports targets:** 1, 9
 - **Internal links:** `/services/junk-removal` — anchor: “a balcony rubbish pickup”; `/blog/balcony-clearance-dubai`; `/blog/what-we-take-dubai`; `/services/furniture-removal`
-- **Why this slot:** The balcony guide already lists racks. High overlap.
+- **Why this slot:** The balcony guide already lists racks. High overlap. Written for review on 2026-11-21 because the rack’s fold and the railing are a different job from a mixed balcony. Status `REVIEW`, not `PUBLISHED`. The balcony guide keeps the mixed load.
 - **SERP note:** No dedicated Dubai page was opened for this object. Not measured.
 
 ### Day 24 — Sunday 2026-11-22
 
-#### Slot A — `NEW — supporting article` — Thin
+Slot A was brought forward and written for review on 2026-11-21 as A40, because Day 23 Slot A was already published as C41 and Day 23 still needed a second eligible article after Slot B. It is `REVIEW`, not `PUBLISHED`. Slot B on this day stays unwritten. The 30-day plan’s Day 24 pair stayed `DO NOT WRITE`.
+
+#### Slot A — `REVIEW 2026-11-21` — Thin — A40
+
+Brought forward on 2026-11-21. See the slot. Status `REVIEW`, not `PUBLISHED`.
 
 - **Primary keyword:** pet carrier removal dubai
 - **Title:** A plastic pet carrier in a store
@@ -764,7 +768,7 @@ Slot A was brought forward and set to `PUBLISHED` on 2026-11-20 as C41, after th
 - **Suggested URL:** `/blog/pet-carrier-removal-dubai`
 - **Supports targets:** 1
 - **Internal links:** `/services/junk-removal` — anchor: “add it to the junk”; `/blog/storage-room-clearance-dubai`; `/blog/what-we-take-dubai`; `/blog/before-the-crew-arrives-dubai`
-- **Why this slot:** Filler.
+- **Why this slot:** Filler. Written for review on 2026-11-21, brought forward from this day, because Day 23 needed a second eligible article. The storage-room guide keeps the whole store. A stroller and a playpen stay on their own URLs. Status `REVIEW`, not `PUBLISHED`.
 - **SERP note:** No dedicated Dubai page was opened for this object. Not measured.
 
 #### Slot B — `NEW — supporting article` — Thin
